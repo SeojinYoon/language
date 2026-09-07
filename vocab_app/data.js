@@ -1,0 +1,15918 @@
+window.VOCAB_DATA = [
+  {
+    "id": "d_1",
+    "source": "Dissimilarities",
+    "category": "보다",
+    "word": "see",
+    "meaning": "(눈에 띄어 자연스럽게) 보다",
+    "core_image": "눈을 뜨고 있으면 시야에 빛과 상이 자연스럽게 맺히는 장면",
+    "focus": "의도나 노력과 상관없이 시각 기관을 통해 무의식적·자연스럽게 들어오는 시각 인지",
+    "examples": [
+      "I saw a shooting star on my way home",
+      "I can see the mountains from my office"
+    ]
+  },
+  {
+    "id": "d_2",
+    "source": "Dissimilarities",
+    "category": "보다",
+    "word": "watch",
+    "meaning": "(움직임을 주의 깊게) 지켜보다, 관찰하다",
+    "core_image": "움직이는 피사체의 궤적을 렌즈로 집요하게 쫓아가는 화면",
+    "focus": "일정 시간 동안 대상의 변화나 동적인 움직임, 사건의 전개를 주의 깊게 추적·주시함",
+    "examples": [
+      "I watch YouTube videos",
+      "I watched the subject walking on the treadmill"
+    ]
+  },
+  {
+    "id": "d_3",
+    "source": "Dissimilarities",
+    "category": "보다",
+    "word": "take a look",
+    "meaning": "(가볍게 쓱) 훑어보다, 확인하다",
+    "core_image": "하던 일을 멈추고 고개를 돌려 특정 대상을 쓱 훑어보는 가벼운 시선 이동",
+    "focus": "무언가를 직접 확인하거나 점검하기 위해 의도적으로 잠깐 시선을 두고 살펴보는 행위",
+    "examples": [
+      "After getting passed up, I always take a look at the plate number before getting in a taxi",
+      "Could you take a look at my code?"
+    ]
+  },
+  {
+    "id": "d_4",
+    "source": "Dissimilarities",
+    "category": "제외",
+    "word": "except for",
+    "meaning": "~을 제외하고 (특정 예외)",
+    "core_image": "완성된 퍼즐에서 특정 조각 하나만 쏙 빼내는 손동작",
+    "focus": "이미 전체가 완성되어 있는 상태에서 특정 예외 항목 하나만을 명확히 덜어내어 설명함",
+    "examples": [
+      "The trip was perfect except for the rain"
+    ]
+  },
+  {
+    "id": "d_5",
+    "source": "Dissimilarities",
+    "category": "제외",
+    "word": "without",
+    "meaning": "~없이 (결핍)",
+    "core_image": "필수적인 톱니바퀴 하나가 빠져 있어 기계가 멈춰 설 수 있는 결핍 상태",
+    "focus": "무언가가 결여되어 있거나 특정 조건이 충족되지 않아 다음 동작·상태로 나아가지 못하는 결핍의 뉘앙스",
+    "examples": [
+      "I can't imagine my life without specialty coffee"
+    ]
+  },
+  {
+    "id": "d_6",
+    "source": "Dissimilarities",
+    "category": "제외",
+    "word": "besides",
+    "meaning": "~외에는 (유일한 예외)",
+    "core_image": "원래 묶음 옆에 놓인 또 다른 상자를 가리키는 손가락 (부정문에서는 유일한 경계선)",
+    "focus": "(부정문에서) 이것 말고는(Other than) 아무것도 없다는 식으로, 그 대상만이 유일한 예외임을 강하게 강조",
+    "examples": [
+      "I have no friends besides you"
+    ]
+  },
+  {
+    "id": "d_7",
+    "source": "Dissimilarities",
+    "category": "제외",
+    "word": "other than",
+    "meaning": "~외에 (다른 대안/범주)",
+    "core_image": "기준점 바깥의 다른 영역 전체를 넓게 둘러보는 시선",
+    "focus": "언급된 범주나 기준을 벗어난 대체 옵션이나 다른 가능성을 가리킬 때 사용",
+    "examples": [
+      "I submit to you that there are ways of defining an origin other than geography"
+    ]
+  },
+  {
+    "id": "d_8",
+    "source": "Dissimilarities",
+    "category": "방향",
+    "word": "direction",
+    "meaning": "방향, 이동 경로",
+    "core_image": "목적지를 향해 곧게 뻗어나가는 화살표 벡터 (→)",
+    "focus": "공간 상에서 어디를 향해 이동하고 있는가에 대한 이동 궤적 및 경로 정보",
+    "examples": [
+      "The direction of the end-effector movement"
+    ]
+  },
+  {
+    "id": "d_9",
+    "source": "Dissimilarities",
+    "category": "방향",
+    "word": "orientation",
+    "meaning": "지향, 방향성, 자세 각도",
+    "core_image": "3차원 공간에 놓인 물체가 어느 각도로 회전되어 서 있는지를 나타내는 자세 틀",
+    "focus": "이동 경로와 무관하게, 물체가 기준 좌표계에 대해 어떤 각도와 기울기(자세)로 놓여있는가에 대한 정보",
+    "examples": [
+      "The orientation of the tablet"
+    ]
+  },
+  {
+    "id": "d_10",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "find",
+    "meaning": "찾아내다, 발견하다 (결과에 집중)",
+    "core_image": "손을 뻗거나 눈길이 닿아 마침내 대상과 딱 마주치는 발견의 순간",
+    "focus": "찾는 과정 자체보다 결과적으로 원하는 대상이나 해답을 손에 넣은 사실에 집중",
+    "examples": [
+      "I found my glasses"
+    ]
+  },
+  {
+    "id": "d_11",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "find out",
+    "meaning": "알아내다, 밝혀내다 (조사/탐색)",
+    "core_image": "가려져 있던 덮개를 걷어내어 숨겨진 사실이나 진실을 환하게 밝히는 모습",
+    "focus": "조사, 질문, 연구, 실험 등을 거쳐 몰랐던 정보·원인·진실을 새롭게 알아내는 지적 과정",
+    "examples": [
+      "I need to find out why the model is not converging",
+      "I am a person who loves and trusts everybody, so it is easy to get very hurts when I find out that they were frauds"
+    ]
+  },
+  {
+    "id": "d_12",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "look for",
+    "meaning": "찾다, 구하다 (적극적 탐색)",
+    "core_image": "명확한 타깃을 마음에 품고 사방을 두리번거리며 발품을 파는 적극적 탐색",
+    "focus": "찾고자 하는 목표물이 구체적으로 정해져 있어 그것을 발견하기 위해 적극적으로 에너지를 쏟는 과정",
+    "examples": [
+      "I'm looking for a job at DeepMind"
+    ]
+  },
+  {
+    "id": "d_13",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "browse",
+    "meaning": "둘러보다, 훑어보다 (목적 없이 구경)",
+    "core_image": "진열대 사이를 편안하게 거닐며 시선이 가는 대로 상품을 훑어보는 아이쇼핑",
+    "focus": "특정한 목표 없이 여러 대상을 가볍게 구경하거나 인터넷 웹서핑을 하듯 둘러보는 행위",
+    "examples": [
+      "I'm just browsing"
+    ]
+  },
+  {
+    "id": "d_14",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "look up",
+    "meaning": "찾아보다, 조회하다 (사전/DB 검색)",
+    "core_image": "색인이나 검색창에 키워드를 쳐서 정렬된 기록물 중 하나를 콕 집어내는 동작",
+    "focus": "사전, DB, 논문 등 이미 축적·기록된 정보 매체에서 특정 항목을 색인·조회하여 찾는 행위",
+    "examples": [
+      "I need to look up the definition of Quaternions"
+    ]
+  },
+  {
+    "id": "d_15",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "take a look around",
+    "meaning": "둘러보다, 살피다 (공간 점검)",
+    "core_image": "공간의 중심에 서서 주변의 전체적인 배치와 분위기를 360도로 조망하는 시선",
+    "focus": "특정 물건을 찾기보다 공간 전체의 상태나 이상 유무, 분위기를 가볍게 파악하기 위한 둘러보기",
+    "examples": [
+      "I'll take a look around to see if anything is missing"
+    ]
+  },
+  {
+    "id": "d_16",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "look out for",
+    "meaning": "경계하며 살피다, 조심하다",
+    "core_image": "망루에 서서 레이더를 켜듯 다가올 신호나 위험 요소를 기민하게 감시하는 눈빛",
+    "focus": "발생할 수 있는 에러, 위험 요소, 혹은 좋은 기회를 놓치지 않고 포착하기 위해 경계하며 살피는 태도",
+    "examples": [
+      "Please look out for any bugs in the code"
+    ]
+  },
+  {
+    "id": "d_17",
+    "source": "Dissimilarities",
+    "category": "찾다",
+    "word": "locate",
+    "meaning": "위치를 찾아내다/특정하다",
+    "core_image": "지도 위에 정확한 핀을 꽂듯 대상의 물리적·좌표적 위치를 짚어내는 행위",
+    "focus": "체계적인 기술, 장비, 혹은 정밀한 조사를 통해 대상의 정확한 위치나 지점을 특정해내는 것",
+    "examples": [
+      "I can locate my phone using the 'Find My Phone' feature"
+    ]
+  },
+  {
+    "id": "d_18",
+    "source": "Dissimilarities",
+    "category": "손상",
+    "word": "scratch",
+    "meaning": "긁힘, 흠집 (표면 손상)",
+    "core_image": "표면을 날카로운 물체로 살짝 긁고 지나간 얕은 선형 궤적",
+    "focus": "내부 기능이나 구조적 결함 없이, 겉표면에만 경미하게 생긴 긁힘이나 흠집",
+    "examples": [
+      "There is a small scratch on the screen"
+    ]
+  },
+  {
+    "id": "d_19",
+    "source": "Dissimilarities",
+    "category": "손상",
+    "word": "crack",
+    "meaning": "균열, 금 (구조적 손상)",
+    "core_image": "단단한 물체의 내부에 가해진 힘으로 인해 쩍 갈라지며 파고드는 실금",
+    "focus": "표면 손상을 넘어 구조적인 결함과 파손 위험을 동반하는 깊은 균열",
+    "examples": [
+      "The earthquake caused a major crack in the wall"
+    ]
+  },
+  {
+    "id": "d_20",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "include",
+    "meaning": "포함하다 (부분 요소로서)",
+    "core_image": "바구니 안에 새로운 사과 하나를 쏙 집어넣는 동작",
+    "focus": "전체 목록이나 구성 범주 안에 특정 요소를 한 부분으로 포함시킴",
+    "examples": [
+      "The price includes breakfast"
+    ]
+  },
+  {
+    "id": "d_21",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "contain",
+    "meaning": "담고 있다, 함유하다 (용기/파일 내부)",
+    "core_image": "상자나 용기 안에 내용물이 물리적으로 꽉 담겨 있는 모습",
+    "focus": "공간, 파일, 용기 등의 내부에 물리적/데이터적 실체로서 무언가를 담고 있음을 강조",
+    "examples": [
+      "The csv file contains the raw kinematics data"
+    ]
+  },
+  {
+    "id": "d_22",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "involve",
+    "meaning": "수반하다, 필요로 하다 (과정/절차)",
+    "core_image": "여러 톱니바퀴들이 서로 맞물려 함께 돌아가는 복합적인 프로세스",
+    "focus": "어떤 활동이나 연구 과정을 진행할 때 필수적으로 거쳐야 하거나 수반되는 하위 단계/절차",
+    "examples": [
+      "Pose estimation involves tracking several markers"
+    ]
+  },
+  {
+    "id": "d_23",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "consist of",
+    "meaning": "~로 구성되다 (전체-부분의 결합)",
+    "core_image": "개별 레고 블록들이 모여 완벽한 하나의 조립체를 이루는 상태",
+    "focus": "언급된 구성 요소들을 모두 합치면 대상 전체가 된다는 전체-부분의 완전한 결합",
+    "examples": [
+      "The pipeline consists of three main stages",
+      "It was a simple meal consisting of bread, butter, honey, sugar, and coffee"
+    ]
+  },
+  {
+    "id": "d_24",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "number",
+    "meaning": "정식으로 포함시키다/등재하다",
+    "core_image": "목록표의 빈 줄에 순번을 매기며 항목을 정식 등재하는 작업",
+    "focus": "특정 대상이나 학설을 권위 있는 카테고리나 분류 목록 안에 정식으로 셈하여 포함시킴",
+    "examples": [
+      "Max scholar numbers “envy, jealousy, and rivalry” among the sources of ressentment."
+    ]
+  },
+  {
+    "id": "d_25",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "subsume",
+    "meaning": "포괄하다, 흡수·통합하다 (상위 범주)",
+    "core_image": "더 큰 상위의 돔(Dome) 구조물이 하위의 작은 건물들을 통째로 감싸 안는 모습",
+    "focus": "개별적이거나 하위인 개념들을 더 포괄적이고 고차원적인 상위 범주 속으로 완전히 흡수·통합함",
+    "examples": [
+      "All these specific cases are subsumed under the general theory of optimization"
+    ]
+  },
+  {
+    "id": "d_26",
+    "source": "Dissimilarities",
+    "category": "포함",
+    "word": "be composed of",
+    "meaning": "~로 구성되어 있다 (수동적 조립)",
+    "core_image": "다양한 재료들이 조화롭게 어우러져 하나의 완성된 작품을 이루는 수동적 구조",
+    "focus": "주어가 여러 구성원이나 성분들로 이루어져 있음을 나타내는 정형적 수동 표현 (타동사 compose의 수동형)",
+    "examples": [
+      "The team is composed of five memebers"
+    ]
+  },
+  {
+    "id": "d_27",
+    "source": "Dissimilarities",
+    "category": "체하다",
+    "word": "indigestion",
+    "meaning": "소화불량 (의학적 정체 상태)",
+    "core_image": "위장관에서 음식물이 소화 효소와 원활히 섞이지 못하고 정체된 의학적 상태",
+    "focus": "소화 과정이 제대로 이루어지지 않아 생기는 기능적·의학적 소화불량 그 자체",
+    "examples": [
+      "I have indigestion"
+    ]
+  },
+  {
+    "id": "d_28",
+    "source": "Dissimilarities",
+    "category": "체하다",
+    "word": "upset stomach",
+    "meaning": "속이 쓰리고 더부룩함 (위장 장애)",
+    "core_image": "위장이 화가 난 듯 꿀렁거리며 메스꺼움과 불쾌감을 일으키는 상태",
+    "focus": "속이 쓰리거나 더부룩하고 불편하여 당장 활동하기 힘든 일상적인 위장 장애 증상",
+    "examples": [
+      "I have an upset stomach"
+    ]
+  },
+  {
+    "id": "d_29",
+    "source": "Dissimilarities",
+    "category": "체하다",
+    "word": "feel bloated",
+    "meaning": "배가 빵빵하게 부풀어 오른 느낌 (복부 팽만)",
+    "core_image": "풍선에 공기가 꽉 차서 팽팽하게 부풀어 오른 복부의 이미지",
+    "focus": "배에 가스가 가득 차서 꽉 막히고 부풀어 오른 듯한 팽만감에 집중",
+    "examples": [
+      "I feel bloated"
+    ]
+  },
+  {
+    "id": "d_30",
+    "source": "Dissimilarities",
+    "category": "체하다",
+    "word": "feel heavy",
+    "meaning": "명치가 답답하고 무거운 느낌",
+    "core_image": "명치 끝에 무거운 쇳덩이를 얹어 놓은 듯한 답답한 압박감",
+    "focus": "음식이 내려가지 않고 위장에 묵직하게 머물러 있는 물리적 무게감과 답답함",
+    "examples": [
+      "My stomach feels heavy"
+    ]
+  },
+  {
+    "id": "d_31",
+    "source": "Dissimilarities",
+    "category": "~옆에",
+    "word": "next to",
+    "meaning": "바로 옆에 (가장 직관적인 인접)",
+    "core_image": "사이 공간 없이 바로 나란히 붙어 서 있는 두 대상",
+    "focus": "가장 직관적이고 밀접하게 바로 옆 위치에 붙어 있음을 나타냄",
+    "examples": [
+      "The EMG sensor is next to the muscle belly"
+    ]
+  },
+  {
+    "id": "d_32",
+    "source": "Dissimilarities",
+    "category": "~옆에",
+    "word": "beside",
+    "meaning": "곁에, 나란히 (정적이고 안정적)",
+    "core_image": "곁에 나란히 머무르며 정적인 안정감을 주는 배치",
+    "focus": "공간적으로 나란히 곁에 놓여 있는 정적이고 차분한 위치 관계",
+    "examples": [
+      "I placed the laptop beside the MRI monitor"
+    ]
+  },
+  {
+    "id": "d_33",
+    "source": "Dissimilarities",
+    "category": "~옆에",
+    "word": "by",
+    "meaning": "옆에, 곁에 (손 닿는 근접 반경)",
+    "core_image": "손을 뻗으면 바로 닿을 수 있는 근접한 반경",
+    "focus": "물리적으로 매우 가까운 거리에 위치하여 손쉽게 접근 가능한 상태",
+    "examples": [
+      "I'll be by your desk if you need help"
+    ]
+  },
+  {
+    "id": "d_34",
+    "source": "Dissimilarities",
+    "category": "~옆에",
+    "word": "adjacent to",
+    "meaning": "인접한, 바로 맞닿은 (공식·격식체)",
+    "core_image": "두 구역이 국경선이나 벽을 맞대고 긴밀히 접촉해 있는 전문적 도면",
+    "focus": "학술·전문적 맥락에서 두 영역이 경계면을 맞대고 있거나 인접해 있음을 명확히 기술",
+    "examples": [
+      "The motor cortex is adjacent to the somatosensory cortex"
+    ]
+  },
+  {
+    "id": "d_35",
+    "source": "Dissimilarities",
+    "category": "~옆에",
+    "word": "along",
+    "meaning": "~을 따라 (길고 연속된 선형)",
+    "core_image": "강줄기나 도로의 선형 궤적을 따라 길게 이어지는 배치",
+    "focus": "하나의 긴 선이나 축을 따라 나란히 배열되거나 이동하는 형태",
+    "examples": [
+      "Place the markers along the spine"
+    ]
+  },
+  {
+    "id": "d_36",
+    "source": "Dissimilarities",
+    "category": "글",
+    "word": "line",
+    "meaning": "행, 한 줄의 글",
+    "core_image": "페이지 위를 가로지르는 물리적인 텍스트 한 줄",
+    "focus": "문법적 완성도와 무관하게 코드나 문서 상의 물리적 행(Line) 하나",
+    "examples": [
+      "Look at line 42 of the python script"
+    ]
+  },
+  {
+    "id": "d_37",
+    "source": "Dissimilarities",
+    "category": "글",
+    "word": "sentence",
+    "meaning": "문장 (완전한 생각 단위)",
+    "core_image": "대문자로 시작하여 마침표로 완성되는 온전한 생각의 단위",
+    "focus": "주어와 동사를 갖추고 완결된 하나의 의미를 전달하는 문법적 문장",
+    "examples": [
+      "This sentence explains the main hypothesis"
+    ]
+  },
+  {
+    "id": "d_38",
+    "source": "Dissimilarities",
+    "category": "글",
+    "word": "paragraph",
+    "meaning": "단락, 문단 (주제 중심 묶음)",
+    "core_image": "들여쓰기로 구분되는 하나의 소주제 문장 묶음 블록",
+    "focus": "하나의 핵심 아이디어와 뒷받침 문장들로 구성된 글의 구조적 단락",
+    "examples": [
+      "The second paragraph describes the data collection"
+    ]
+  },
+  {
+    "id": "d_39",
+    "source": "Dissimilarities",
+    "category": "글",
+    "word": "passage",
+    "meaning": "구절, 지문 (글의 일부분)",
+    "core_image": "방대한 텍스트의 바다에서 특정 구간만을 발췌한 문맥 토막",
+    "focus": "책, 논문, 문학 작품 등에서 인용이나 독해를 위해 떼어낸 특정 발췌 구절",
+    "examples": [
+      "Could you read this passage from the DeepMind paper?"
+    ]
+  },
+  {
+    "id": "d_40",
+    "source": "Dissimilarities",
+    "category": "글",
+    "word": "part",
+    "meaning": "부, 파트 (책의 대단원)",
+    "core_image": "전체 조립체를 구성하는 분할된 기능 모듈 조각",
+    "focus": "책이나 논문 전체를 구성하는 주요 챕터나 논리적 구분 단위 (서론, 본론 등)",
+    "examples": [
+      "The discussion is the most important part of paper"
+    ]
+  },
+  {
+    "id": "d_41",
+    "source": "Dissimilarities",
+    "category": "빈도",
+    "word": "whenever",
+    "meaning": "~할 때마다 (조건과 상황)",
+    "core_image": "불특정하게 스위치가 켜질 때마다 즉시 반응하는 자동 센서",
+    "focus": "구체적인 시점과 무관하게, 그런 조건이나 상황이 벌어질 때마다 예외 없이 늘 일어남을 포괄적으로 표현",
+    "examples": [
+      "I try to take care of my books, but they get dirty whenever I read them"
+    ]
+  },
+  {
+    "id": "d_42",
+    "source": "Dissimilarities",
+    "category": "빈도",
+    "word": "every time",
+    "meaning": "매번, 매 시기마다 (개별 사건 강조)",
+    "core_image": "출석부의 모든 칸마다 빈틈없이 동그라미가 찍히는 규칙성",
+    "focus": "개별적이고 구체적인 사건들이 반복되는 매 순간마다 단 한 번의 예외도 없이 발생함을 강조",
+    "examples": [
+      "Every time I finish a chapter, I feel a sense of achievement",
+      "Every time I see him, he is wearing a different hat"
+    ]
+  },
+  {
+    "id": "d_43",
+    "source": "Dissimilarities",
+    "category": "빈도",
+    "word": "each time",
+    "meaning": "그때마다, 매 회마다 (각각의 순간)",
+    "core_image": "현미경으로 개별 시도들을 하나하나 확대하여 대조해보는 관찰",
+    "focus": "반복되는 시도들 중 '이번 시도', '그 시도' 등 개별적인 순간의 고유한 경험이나 차이점에 초점을 맞춤",
+    "examples": [
+      "Each time I re-read this book, I find something new"
+    ]
+  },
+  {
+    "id": "d_44",
+    "source": "Dissimilarities",
+    "category": "빈도",
+    "word": "every day",
+    "meaning": "매일, 날마다 (일상의 반복)",
+    "core_image": "달력의 365일 전체를 통째로 아우르는 일상의 루틴",
+    "focus": "하루도 빠짐없이 늘, 대체로 항상 지속되는 일상적 반복과 주기적 빈도에 집중",
+    "examples": [
+      "I drink coffee every day"
+    ]
+  },
+  {
+    "id": "d_45",
+    "source": "Dissimilarities",
+    "category": "빈도",
+    "word": "each day",
+    "meaning": "하루하루마다 (개별 날짜의 가치)",
+    "core_image": "새로 뜯어내는 일력(日曆)의 하루하루가 주는 새로운 의미",
+    "focus": "연속되는 날들 중에서 저마다의 독립된 하루하루가 지닌 개별적 가치와 도전에 집중",
+    "examples": [
+      "Each day brings new challenges"
+    ]
+  },
+  {
+    "id": "d_46",
+    "source": "Dissimilarities",
+    "category": "안전함",
+    "word": "comfortable",
+    "meaning": "편안한 (신체적·물질적 안락함)",
+    "core_image": "인체공학적 의자에 몸을 맡겨 신체적 결림이나 긴장이 전혀 없는 상태",
+    "focus": "신체적·물리적·환경적으로 불편함이나 거슬림이 없는 기능적 편안함",
+    "examples": [
+      "The office chair at Campus Biotech is very comfortable"
+    ]
+  },
+  {
+    "id": "d_47",
+    "source": "Dissimilarities",
+    "category": "안전함",
+    "word": "cozy",
+    "meaning": "아늑한, 포근한 (작고 따뜻한 공간)",
+    "core_image": "따뜻한 모닥불 앞, 두툼한 담요 속에 쏙 들어가 보호받는 아늑한 공간",
+    "focus": "공간이 아담하고 따뜻하며 정서적으로 포근하고 안락한 느낌",
+    "examples": [
+      "It's so cozy to read a book under the blanket"
+    ]
+  },
+  {
+    "id": "d_48",
+    "source": "Dissimilarities",
+    "category": "가지다",
+    "word": "have",
+    "meaning": "가지고 있다 (소유 상태)",
+    "core_image": "내 손안이나 영역 안에 물건이 이미 들어와 머물러 있는 정적 상태",
+    "focus": "특정 물건, 질병, 성향 등을 현재 소유하거나 유지하고 있는 정적인 상태 그 자체",
+    "examples": [
+      "I have a cold"
+    ]
+  },
+  {
+    "id": "d_49",
+    "source": "Dissimilarities",
+    "category": "가지다",
+    "word": "get",
+    "meaning": "얻다, 가지게 되다 (획득 동작)",
+    "core_image": "외부에 있던 대상을 손을 뻗어 내 영역 안으로 끌어오는 동적인 획득",
+    "focus": "없던 상태에서 새롭게 얻거나, 특정 상태로 변화하는 순간적인 움직임과 과정",
+    "examples": [
+      "I got a cold"
+    ]
+  },
+  {
+    "id": "d_50",
+    "source": "Dissimilarities",
+    "category": "조건",
+    "word": "when",
+    "meaning": "~할 때 (시점 중심 조건)",
+    "core_image": "시간의 시계바늘이 정해진 시점에 도달하는 확실한 순간",
+    "focus": "실제로 일어나거나 당연히 예상되는 객관적인 시간적 상황 및 배경",
+    "examples": [
+      "I sent a letter when I feel blue"
+    ]
+  },
+  {
+    "id": "d_51",
+    "source": "Dissimilarities",
+    "category": "조건",
+    "word": "if",
+    "meaning": "만약 ~라면 (가정 중심 조건)",
+    "core_image": "두 갈래 길 앞에서 일어날 수도 있고 아닐 수도 있는 가능성의 저울질",
+    "focus": "현실에서 일어날지 불확실한 가상 조건이나 단순 가설을 전제할 때 사용",
+    "examples": [
+      "I will help you if you have a problem"
+    ]
+  },
+  {
+    "id": "d_52",
+    "source": "Dissimilarities",
+    "category": "조건",
+    "word": "once",
+    "meaning": "일단 ~하고 나면 (전환 완료 조건)",
+    "core_image": "첫 번째 도미노가 넘어가자마자 다음 과정으로 거침없이 이어지는 추진력",
+    "focus": "어떤 전제 조건이나 단계가 완료되는 즉시, 다음 행동으로 확고하게 착수함을 강조",
+    "examples": [
+      "I write a book report once I have finished reading"
+    ]
+  },
+  {
+    "id": "d_53",
+    "source": "Dissimilarities",
+    "category": "조건",
+    "word": "as soon as",
+    "meaning": "~하자마자 (즉각적 연속)",
+    "core_image": "신호총이 울리자마자 0초 만에 출발선에서 튀어나가는 순발력",
+    "focus": "선행 사건이 일어나자마자 시차 없이 즉각적으로 다음 행동이 일어나는 긴박함",
+    "examples": [
+      "Please do it as soon as the meeting is over"
+    ]
+  },
+  {
+    "id": "d_54",
+    "source": "Dissimilarities",
+    "category": "조건",
+    "word": "only if",
+    "meaning": "오직 ~해야만 (유일한 필수 조건)",
+    "core_image": "유일하게 맞는 열쇠가 아니면 절대 열리지 않는 단단한 자물쇠",
+    "focus": "다른 대안 없이 오직 그 조건이 만족될 때에만 결과가 성립한다는 엄격한 제약",
+    "examples": [
+      "My company subsidizes online English lessons. She uploads a lot of useful files for us but they are not free"
+    ]
+  },
+  {
+    "id": "d_55",
+    "source": "Dissimilarities",
+    "category": "Proximity",
+    "word": "almost",
+    "meaning": "거의 (목표 직전 근접)",
+    "core_image": "표적 바로 1mm 직전까지 날아갔으나 아슬아슬하게 스치고 지나간 화살",
+    "focus": "어떤 상태나 사건의 임계치 바로 직전까지 도달했으나 실제로는 발생하지 않았음(할 뻔함)을 표현",
+    "examples": [
+      "It almost killed me"
+    ]
+  },
+  {
+    "id": "d_56",
+    "source": "Dissimilarities",
+    "category": "가능",
+    "word": "can",
+    "meaning": "~할 수 있다 (일반적 능력·가능성)",
+    "core_image": "내 몸과 머릿속에 장착된 본래의 근력과 스킬 엔진",
+    "focus": "주체가 본질적으로 가지고 있는 일반적인 능력, 기술, 혹은 가능한 잠재력",
+    "examples": [
+      "I can code in python"
+    ]
+  },
+  {
+    "id": "d_57",
+    "source": "Dissimilarities",
+    "category": "가능",
+    "word": "be able to",
+    "meaning": "~할 능력이 되다 (특정 상황 수행 능력)",
+    "core_image": "주변 여건과 시간적 다리가 놓여 목표 지점으로 건너갈 수 있게 된 상태",
+    "focus": "특정 시점이나 상황적 조건이 뒷받침되어 성공적으로 해낼 수 있는 구체적 실행 능력",
+    "examples": [
+      "I will be able to finish this by tonight"
+    ]
+  },
+  {
+    "id": "d_58",
+    "source": "Dissimilarities",
+    "category": "가능",
+    "word": "friendly",
+    "meaning": "친화적인, 사용하기 쉬운",
+    "core_image": "누구나 거부감 없이 쉽게 다가가 이용할 수 있도록 낮춰놓은 문턱",
+    "focus": "명사 뒤에 붙어 특정 사용자층이 이용하기에 편리하고 적합하게 맞춰져 있음을 나타냄",
+    "examples": [
+      "There are a lots of family friendly rides there"
+    ]
+  },
+  {
+    "id": "d_59",
+    "source": "Dissimilarities",
+    "category": "가능",
+    "word": "enough to",
+    "meaning": "~하기에 충분한",
+    "core_image": "계측기의 눈금이 요구 기준선을 훌쩍 넘어 통과 신호가 켜지는 장면",
+    "focus": "특정 행위나 자격을 획득하기 위해 필요한 필요충분 임계치를 충족했음을 의미",
+    "examples": [
+      "I'm legally old enough to drink"
+    ]
+  },
+  {
+    "id": "d_60",
+    "source": "Dissimilarities",
+    "category": "능력",
+    "word": "be good at",
+    "meaning": "~을 잘하다, 능숙하다",
+    "core_image": "해당 분야의 과제를 능숙하고 매끄럽게 처리해내는 숙련된 손놀림",
+    "focus": "남들보다 높은 숙련도를 가지고 특정 작업이나 기술을 잘 해내는 상태",
+    "examples": [
+      "He is good at designing neural networks"
+    ]
+  },
+  {
+    "id": "d_61",
+    "source": "Dissimilarities",
+    "category": "능력",
+    "word": "adeptness",
+    "meaning": "숙련됨, 능숙한 솜씨",
+    "core_image": "복잡하고 미묘한 상황에서도 군더더기 없이 문제를 꿰뚫고 다루는 장인의 솜씨",
+    "focus": "오랜 경험과 깊은 이해를 바탕으로 발휘되는 고도의 숙련도와 능란한 솜씨 (격식체/학술적)",
+    "examples": [
+      "If prices fully reflect available information, this sort of investment adeptness is ruled out"
+    ]
+  },
+  {
+    "id": "d_62",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "the whole time",
+    "meaning": "내내, 그 시간 전체 동안",
+    "core_image": "시작 테이프를 끊는 순간부터 결승선까지 끊김 없이 이어지는 타임라인",
+    "focus": "특정 사건이나 기간이 진행되는 내내 한순간도 빠짐없이 지속되었음을 강조",
+    "examples": [
+      "I had a frog in my throat after I screamed the whole time in a haunted house"
+    ]
+  },
+  {
+    "id": "d_63",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "soon",
+    "meaning": "곧, 머지않아",
+    "core_image": "현재 시점에서 불과 몇 발자국 떨어지지 않은 가까운 미래의 지점",
+    "focus": "오랜 시간이 걸리지 않고 금방, 조만간 일어남을 나타냄",
+    "examples": [
+      "I was at the cafe waiting for my friend. I tried to read a book but she came too soon, so I couldn't finish it."
+    ]
+  },
+  {
+    "id": "d_64",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "spend hours",
+    "meaning": "몇 시간을 보내다/소비하다",
+    "core_image": "내가 가진 시간과 에너지를 화폐처럼 특정 작업에 직접 투입하는 주체적 몰입",
+    "focus": "주어가 의지를 가지고 많은 시간과 정성을 쏟아부어 활동을 수행함에 집중",
+    "examples": [
+      "I spend hours debugging the MuJoCo simulation"
+    ]
+  },
+  {
+    "id": "d_65",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "take a couple of hours",
+    "meaning": "두세 시간 정도 걸리다",
+    "core_image": "작업을 완성하기 위해 공정 자체가 요구하는 정량적인 시간 비용",
+    "focus": "어떤 일이나 절차가 완료되기까지 객관적으로 소요되는 시간의 양에 초점",
+    "examples": [
+      "It takes a couple of hours to clean the house"
+    ]
+  },
+  {
+    "id": "d_66",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "take forever",
+    "meaning": "영원히 걸리다, 엄청 오래 걸리다",
+    "core_image": "끝이 보이지 않는 모래시계가 하염없이 모래를 떨어뜨리는 끝없는 지연",
+    "focus": "예상보다 훨씬 과도하게 많은 시간이 걸려 지루하거나 답답함을 과장하여 표현",
+    "examples": [
+      "I don't like going shopping with my girlfriend because it takes forever"
+    ]
+  },
+  {
+    "id": "d_67",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "by the time",
+    "meaning": "~할 때쯤에는",
+    "core_image": "시계 바늘이 특정 정각을 가리키는 순간, 이미 완성되어 있는 상황 판",
+    "focus": "어떤 미래 시점에 도달했을 때는 이미 선행 동작이 완료되어 있을 것임을 강조",
+    "examples": [
+      "By the time I finish my PhD, I will have mastered Reinforcement Learning"
+    ]
+  },
+  {
+    "id": "d_68",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "this time",
+    "meaning": "이번에는",
+    "core_image": "이전의 여러 사례들과 구별하여 '이번 차례'에만 딱 스포트라이트를 비추는 조명",
+    "focus": "과거의 패턴과 대조하여 오직 이번 사건·기회에 국한된 특성을 말할 때 사용",
+    "examples": [
+      "This time the suggestion is not literary, but oral."
+    ]
+  },
+  {
+    "id": "d_69",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "for the time being",
+    "meaning": "당분간은, 현재로서는",
+    "core_image": "영구적인 건물이 들어서기 전까지 임시로 세워둔 간이 텐트",
+    "focus": "앞으로 바뀔 가능성이 열려 있지만, 현재로서는 당분간 이 상태를 유지한다는 뉘앙스",
+    "examples": [
+      "I'll stay in Geneva for the time being"
+    ]
+  },
+  {
+    "id": "d_70",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "fleeting",
+    "meaning": "순식간의, 찰나의",
+    "core_image": "순식간에 눈앞을 스쳐 지나가 잡을 수 없는 번개 불빛",
+    "focus": "머무는 시간이 극히 짧아 덧없고 찰나에 지나지 않는 성질",
+    "examples": [
+      "The relationship between you and me was fleeting"
+    ]
+  },
+  {
+    "id": "d_71",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "in times of",
+    "meaning": "~의 시기에는",
+    "core_image": "특정 기후나 계절처럼 사람들을 감싸는 역사적·환경적 시기 구역",
+    "focus": "위기, 슬픔, 번영 등 특정한 상황이나 감정의 시기적 배경 속에 처해 있을 때 사용",
+    "examples": [
+      "We need to support each other in times of grief",
+      "He stayed calm in times of economic crisis"
+    ]
+  },
+  {
+    "id": "d_72",
+    "source": "Dissimilarities",
+    "category": "시간",
+    "word": "in case of",
+    "meaning": "~의 경우에는",
+    "core_image": "비상시에만 깨고 누를 수 있도록 준비해 둔 소방 벨 상자",
+    "focus": "혹시 모를 긴급 상황이나 특정 사태가 발생할 경우를 대비한 대책·지침",
+    "examples": [
+      "In case of fire, use the stairs",
+      "Keep this number in case of an emergency"
+    ]
+  },
+  {
+    "id": "d_73",
+    "source": "Dissimilarities",
+    "category": "넘기다",
+    "word": "skip",
+    "meaning": "건너뛰다, 거르다",
+    "core_image": "징검다리 중간의 돌을 밟지 않고 훌쩍 뛰어넘어 다음으로 건너뛰기",
+    "focus": "순서대로 진행해야 할 단계나 항목을 의도적으로 생략하고 건너뜀",
+    "examples": [
+      "Skipping meals is bad for your health"
+    ]
+  },
+  {
+    "id": "d_74",
+    "source": "Dissimilarities",
+    "category": "넘기다",
+    "word": "pass",
+    "meaning": "넘기다, 건네다, 지나치다",
+    "core_image": "내 앞을 지나가는 공을 잡지 않고 그냥 흘려보내거나 옆 사람에게 토스하기",
+    "focus": "자신에게 온 기회나 권한을 쓰지 않고 사양하거나 타인에게 양도하여 그냥 흘려보냄",
+    "examples": [
+      "I'll pass on the dessert",
+      "Time passes so fast",
+      "Don't let this great opportunity pass by",
+      "I passed by your office earlier, but the lights were off"
+    ]
+  },
+  {
+    "id": "d_75",
+    "source": "Dissimilarities",
+    "category": "넘기다",
+    "word": "surrender to",
+    "meaning": "~에 넘기다, 굴복하다",
+    "core_image": "백기를 들고 성문의 열쇠를 상대방의 손에 넘겨주는 항복",
+    "focus": "자신의 주권, 통제권, 혹은 고유 권한을 포기하고 상대에게 굴복하여 내어줌",
+    "examples": [
+      "Don Quixote has surrendered to Amadis the individual's fundamental prerogative"
+    ]
+  },
+  {
+    "id": "d_76",
+    "source": "Dissimilarities",
+    "category": "넘기다",
+    "word": "shrug off",
+    "meaning": "대수롭지 않게 넘기다/치부하다",
+    "core_image": "어깨에 묻은 가벼운 먼지를 툭 털어내듯 가볍게 으쓱하는 동작",
+    "focus": "비판, 문제, 통증 따위를 대수롭지 않게 여기고 마음에 담아두지 않은 채 가볍게 넘겨버림",
+    "examples": [
+      "I shrugged off the criticism about my model"
+    ]
+  },
+  {
+    "id": "d_77",
+    "source": "Dissimilarities",
+    "category": "입다",
+    "word": "wear",
+    "meaning": "입고 있다 (착용 상태)",
+    "core_image": "이미 옷이나 장신구를 온몸에 완벽히 걸치고 있는 정적인 상태",
+    "focus": "옷이나 액세서리를 현재 착용하고 있는 지속적 상태 그 자체",
+    "examples": [
+      "I am wearing a cozy sweater today"
+    ]
+  },
+  {
+    "id": "d_78",
+    "source": "Dissimilarities",
+    "category": "입다",
+    "word": "put on",
+    "meaning": "입다, 걸치다 (착용 동작)",
+    "core_image": "옷걸이에서 코트를 집어 팔을 꿰어 넣는 순간적인 신체 동작",
+    "focus": "착용하지 않은 상태에서 착용하는 상태로 전환되는 순간의 구체적 동작에 집중",
+    "examples": [
+      "Wait, I need to put on my jacket"
+    ]
+  },
+  {
+    "id": "d_79",
+    "source": "Dissimilarities",
+    "category": "입다",
+    "word": "fit into",
+    "meaning": "(옷에 몸이) 맞다, 들어가다",
+    "core_image": "타이트한 옷이나 좁은 공간 안에 몸을 딱 맞추어 밀어 넣는 모습",
+    "focus": "물건의 크기가 특정 공간에 알맞게 들어가거나, 체형이 줄어들어 옷에 딱 맞게 됨",
+    "examples": [
+      "I can finally fit into my old jeans!"
+    ]
+  },
+  {
+    "id": "d_80",
+    "source": "Dissimilarities",
+    "category": "~로써",
+    "word": "by",
+    "meaning": "옆에, 곁에 (손 닿는 근접 반경)",
+    "core_image": "목표를 향해 나아가는 추진 방법의 경로 트랙",
+    "focus": "어떤 목적을 달성하기 위해 사용하는 행위나 방법적 수단 (~을 함으로써)",
+    "examples": [
+      "We can classify the data by using deep learning"
+    ]
+  },
+  {
+    "id": "d_81",
+    "source": "Dissimilarities",
+    "category": "~로써",
+    "word": "with",
+    "meaning": "~로써",
+    "core_image": "손에 쥐고 작업을 수행하는 물리적인 연장과 도구",
+    "focus": "손에 쥐고 쓰거나 구체적으로 동원하는 물리적·기술적 도구 수단 (~을 가지고)",
+    "examples": [
+      "I measured the kinematics with high-speed cameras"
+    ]
+  },
+  {
+    "id": "d_82",
+    "source": "Dissimilarities",
+    "category": "~로써",
+    "word": "as",
+    "meaning": "~로써",
+    "core_image": "어깨에 두른 직책의 명찰과 공식적인 신분 패",
+    "focus": "사회적 지위, 자격, 직책, 혹은 역할의 신분으로서 (~로서)",
+    "examples": [
+      "As a researcher at EPFL, I must maintain high ethical standards"
+    ]
+  },
+  {
+    "id": "d_83",
+    "source": "Dissimilarities",
+    "category": "~로써",
+    "word": "through",
+    "meaning": "~로써",
+    "core_image": "통로 파이프를 통과하여 반대편의 결과로 빠져나오는 여정",
+    "focus": "학습이나 경험이 전달되는 매개체, 채널, 혹은 중간 통로",
+    "examples": [
+      "I learned English through reading books"
+    ]
+  },
+  {
+    "id": "d_84",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "watch",
+    "meaning": "(움직임을 주의 깊게) 지켜보다, 관찰하다",
+    "core_image": "스크린 속의 움직임을 놓치지 않으려 눈동자를 고정하고 지켜보는 시선",
+    "focus": "대상이나 피실험자의 동작 및 변화를 일정 시간 동안 주의 깊게 관찰·주시함",
+    "examples": [
+      "I watched the subject walking on the treadmill"
+    ]
+  },
+  {
+    "id": "d_85",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "check",
+    "meaning": "확인",
+    "core_image": "체크리스트의 네모 칸에 V 표시를 하며 O/X를 빠르게 판별하는 손동작",
+    "focus": "어떤 상태가 맞는지 틀린지, 정상인지 아닌지를 단발적·직관적으로 눈으로 점검함",
+    "examples": [
+      "I need to check if the sensors are connected"
+    ]
+  },
+  {
+    "id": "d_86",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "review",
+    "meaning": "확인",
+    "core_image": "작성된 문서를 첫 줄부터 끝까지 꼼꼼히 돋보기로 들여다보며 평가하는 작업",
+    "focus": "전체 내용을 비판적인 시각으로 면밀히 재검토하고 분석·평가하는 심층적 확인",
+    "examples": [
+      "We need to review the research data"
+    ]
+  },
+  {
+    "id": "d_87",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "monitor",
+    "meaning": "확인",
+    "core_image": "관제 센터의 대형 모니터 화면에서 데이터 흐름을 실시간으로 감시하는 시스템",
+    "focus": "기계, 시스템, 신체 신호 등을 지속적이고 공식적인 체계 하에 실시간으로 감시·추적함",
+    "examples": [
+      "The software monitors the kinematic data in real-time"
+    ]
+  },
+  {
+    "id": "d_88",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "spy on",
+    "meaning": "확인",
+    "core_image": "블라인드 틈새로 숨죽여 남의 사생활을 몰래 훔쳐보는 은밀한 시선",
+    "focus": "상대방의 동의 없이 은밀하고 비공식적으로 사생활이나 기밀을 훔쳐보며 침해함",
+    "examples": [
+      "The neighbor was spying on us through the window"
+    ]
+  },
+  {
+    "id": "d_89",
+    "source": "Dissimilarities",
+    "category": "확인",
+    "word": "make sure",
+    "meaning": "확인",
+    "core_image": "문고리를 두 번 흔들어 잠겼는지 확실히 재확인하는 철저함",
+    "focus": "실수나 누락이 없도록 사전에 점검하여 결과가 100% 확실해지도록 조치함",
+    "examples": [
+      "I make sure that it is a good website and there are no leaks on the website"
+    ]
+  },
+  {
+    "id": "d_90",
+    "source": "Dissimilarities",
+    "category": "동시",
+    "word": "at the same time",
+    "meaning": "동시에 (시간적 일치)",
+    "core_image": "양손에 각각 다른 도구를 쥐고 동시에 움직이는 일상적 모습",
+    "focus": "일상생활에서 두 가지 이상의 행동이나 상태가 한 시점에 같이 일어남을 표현",
+    "examples": [
+      "I can't talk and eat at the same time",
+      "I get all my bills online because I can see them all at once"
+    ]
+  },
+  {
+    "id": "d_91",
+    "source": "Dissimilarities",
+    "category": "동시",
+    "word": "simultaneously",
+    "meaning": "동시에, 일제히",
+    "core_image": "정밀 계측기의 여러 신호가 마이크로초 단위의 오차 없이 동시에 트리거되는 파형",
+    "focus": "두 개 이상의 사건이나 측정값이 시간적 오차 없이 완벽히 일치하여 동시에 일어남 (격식/학술적)",
+    "examples": [
+      "The sensors record movement and muscle activity simultaneously"
+    ]
+  },
+  {
+    "id": "d_92",
+    "source": "Dissimilarities",
+    "category": "동시",
+    "word": "concurrently",
+    "meaning": "동시에 병행하여",
+    "core_image": "여러 개의 독립적인 프로젝트 프로세스가 같은 기간 동안 나란히 가동되는 타임라인",
+    "focus": "절차나 연구, 운영상의 여러 프로세스가 동일한 기간에 겹쳐서 진행됨",
+    "examples": [
+      "The two studies are being conducted concurrently"
+    ]
+  },
+  {
+    "id": "d_93",
+    "source": "Dissimilarities",
+    "category": "동시",
+    "word": "in parallel",
+    "meaning": "병렬로, 나란히",
+    "core_image": "나란히 뻗은 두 개의 철로 위를 두 열차가 함께 달리는 병렬 구조",
+    "focus": "알고리즘이나 작업 단위들이 서로 간섭하지 않고 구조적으로 병렬 처리되는 상태",
+    "examples": [
+      "The algorithm processes multiple trials in parallel"
+    ]
+  },
+  {
+    "id": "d_94",
+    "source": "Dissimilarities",
+    "category": "동시",
+    "word": "at once A and B",
+    "meaning": "동시",
+    "core_image": "한 얼굴 안에 동전의 양면처럼 공존하는 두 가지 복합적 성질",
+    "focus": "동일한 대상이 상반되거나 다양한 두 가지 특성을 한꺼번에 모두 지니고 있음을 표현",
+    "examples": [
+      "He is at once funny and serious"
+    ]
+  },
+  {
+    "id": "d_95",
+    "source": "Dissimilarities",
+    "category": "필요성",
+    "word": "have to",
+    "meaning": "필요성",
+    "core_image": "외부의 규칙과 법률이 등 뒤를 떠밀어 어쩔 수 없이 움직여야 하는 상황",
+    "focus": "내 개인 의사와 상관없이 외부 상황, 규칙, 법적 의무 때문에 반드시 해야 하는 강제성",
+    "examples": [
+      "I have to pay the OCPM fee"
+    ]
+  },
+  {
+    "id": "d_96",
+    "source": "Dissimilarities",
+    "category": "필요성",
+    "word": "need to",
+    "meaning": "필요성",
+    "core_image": "목표를 이루기 위해 비어 있는 퍼즐 조각을 반드시 채워 넣어야 하는 필요성",
+    "focus": "원하는 결과를 얻거나 문제를 해결하기 위해 필수적으로 거쳐야 하는 실질적 필요",
+    "examples": [
+      "I need to debug this code"
+    ]
+  },
+  {
+    "id": "d_97",
+    "source": "Dissimilarities",
+    "category": "필요성",
+    "word": "should",
+    "meaning": "필요성",
+    "core_image": "내면의 나침반이 가리키는 올바르고 이로운 방향을 향한 권고",
+    "focus": "스스로 판단하기에 그렇게 하는 것이 도리상 옳거나 유익하다고 판단되는 조언 및 권장",
+    "examples": [
+      "I should drink less coffee"
+    ]
+  },
+  {
+    "id": "d_98",
+    "source": "Dissimilarities",
+    "category": "필요성",
+    "word": "be supposed to",
+    "meaning": "필요성",
+    "core_image": "시간표나 계약서에 미리 배정되어 있어 그렇게 하도록 정해진 약속",
+    "focus": "사회적 규칙, 사전 약속, 원래의 용도 등에 따라 당연히 그렇게 행동하기로 기대되어 있는 상태",
+    "examples": [
+      "I am supposed to attend the meeting",
+      "I bought a laptop at a cheaper price, but I am supposed to buy and install Windows myself. I ended up deciding on getting a refund"
+    ]
+  },
+  {
+    "id": "d_99",
+    "source": "Dissimilarities",
+    "category": "필요성",
+    "word": "ought to",
+    "meaning": "필요성",
+    "core_image": "도덕과 양심의 법정에서 내려진 책무의 명령",
+    "focus": "사회적 규범, 도덕적 책무, 혹은 합리적 당위성에 비추어 볼 때 마땅히 이행해야 하는 행동",
+    "examples": [
+      "You ought to apologize to her"
+    ]
+  },
+  {
+    "id": "d_100",
+    "source": "Dissimilarities",
+    "category": "노트북",
+    "word": "laptop",
+    "meaning": "노트북 컴퓨터 (휴대용 PC)",
+    "core_image": "무릎(Lap) 위에 올려놓고 언제 어디서든 펼쳐 작업하는 휴대용 컴퓨터 본체",
+    "focus": "영어권에서 휴대용 개인 컴퓨터를 통칭하는 가장 정확하고 표준적인 단어",
+    "examples": [
+      "I bring my laptop to the lab every morning"
+    ]
+  },
+  {
+    "id": "d_101",
+    "source": "Dissimilarities",
+    "category": "노트북",
+    "word": "notebook",
+    "meaning": "공책, 필기용 수첩",
+    "core_image": "스프링으로 엮여 손으로 펜을 쥐고 필기하는 종이 공책",
+    "focus": "기본적으로 필기용 종이 공책을 의미하며, 컴퓨터를 지칭할 때는 매우 얇고 가벼운 기종의 브랜드적 수식에 국한됨",
+    "examples": [
+      "I wrote down the meeting notes in my notebook"
+    ]
+  },
+  {
+    "id": "d_102",
+    "source": "Dissimilarities",
+    "category": "거리",
+    "word": "away",
+    "meaning": "떨어져서, 저 멀리",
+    "core_image": "기준점으로부터 시간이나 거리만큼 뚝 떨어져 있는 간격",
+    "focus": "'[시간/거리] + away' 구조로 특정 장소로부터 얼마나 떨어져 있는지 직관적으로 표현",
+    "examples": [
+      "That's 15 minutes away from my house"
+    ]
+  },
+  {
+    "id": "d_103",
+    "source": "Dissimilarities",
+    "category": "Try",
+    "word": "try to",
+    "meaning": "~하려고 노력하다/애쓰다",
+    "core_image": "무거운 바위를 밀어 올리기 위해 온 힘을 다해 땀 흘리는 노력",
+    "focus": "목표를 이루기 위해 많은 수고와 에너지를 들여 전력을 다해 노력·애쓰는 행위",
+    "examples": [
+      "I tried to open the window"
+    ]
+  },
+  {
+    "id": "d_104",
+    "source": "Dissimilarities",
+    "category": "Try",
+    "word": "try -ing",
+    "meaning": "시험 삼아 ~해보다",
+    "core_image": "효과가 어떨지 궁금해서 가볍게 버튼을 한번 눌러보는 가벼운 시도",
+    "focus": "큰 부담 없이 시험 삼아 한번 해보거나 새로운 방법을 시도해보는 동작",
+    "examples": [
+      "I tried opening the window"
+    ]
+  },
+  {
+    "id": "d_105",
+    "source": "Dissimilarities",
+    "category": "부동산",
+    "word": "real estate",
+    "meaning": "부동산 (토지 및 건물 자산)",
+    "core_image": "토지와 건물 거래가 이루어지는 거대한 경제 산업 시장",
+    "focus": "부동산이라는 산업, 시장, 학문, 개념적 영역 전체를 포괄적으로 지칭",
+    "examples": [
+      "I'm interested in real estate"
+    ]
+  },
+  {
+    "id": "d_106",
+    "source": "Dissimilarities",
+    "category": "부동산",
+    "word": "property",
+    "meaning": "소유지, 부동산 재산",
+    "core_image": "지도 위에 명확한 소유권 경계가 그어져 있는 개별 건물이나 토지 매물",
+    "focus": "특정 소유주에게 귀속된 구체적인 개별 부동산 매물, 자산, 혹은 건물 그 자체",
+    "examples": [
+      "This property is located near Campus Biotech"
+    ]
+  },
+  {
+    "id": "d_107",
+    "source": "Dissimilarities",
+    "category": "지속",
+    "word": "constantly",
+    "meaning": "끊임없이, 지속적으로",
+    "core_image": "쉬지 않고 주기적으로 울리는 알람처럼 잦은 빈도로 되풀이되는 상태",
+    "focus": "어떤 행동이나 현상이 예외 없이 아주 자주, 지속적으로 반복되는 빈도(Frequency)에 초점",
+    "examples": [
+      "He is constantly checking his phone"
+    ]
+  },
+  {
+    "id": "d_108",
+    "source": "Dissimilarities",
+    "category": "지속",
+    "word": "continuously",
+    "meaning": "연속적으로, 중단 없이",
+    "core_image": "단 1초의 끊김도 없이 매끄럽게 쭉 이어지는 하나의 실선 파형",
+    "focus": "중간에 단 한 번의 중단이나 간격 없이 끊김 없이 이어지는 시간적 지속(Duration)에 초점",
+    "examples": [
+      "The sensor monitors the movement continuously"
+    ]
+  },
+  {
+    "id": "d_109",
+    "source": "Dissimilarities",
+    "category": "지속",
+    "word": "in a row",
+    "meaning": "연달아, 연속으로",
+    "core_image": "도미노 블록들이 일렬로 나란히 연속해서 서 있는 모습",
+    "focus": "셀 수 있는 구체적인 사건이나 승리가 중간에 끊김 없이 연이어 일어남을 강조",
+    "examples": [
+      "We won three games in a row"
+    ]
+  },
+  {
+    "id": "d_110",
+    "source": "Dissimilarities",
+    "category": "지속",
+    "word": "consistency",
+    "meaning": "일관성, 한결같음",
+    "core_image": "어제도 오늘도 똑같은 정밀도로 제품을 찍어내는 품질 기준선",
+    "focus": "태도, 방식, 품질, 원칙 등이 기복 없이 한결같이 일정하게 유지되는 일관성",
+    "examples": [
+      "Consistency is key to mastering machine learning"
+    ]
+  },
+  {
+    "id": "d_111",
+    "source": "Dissimilarities",
+    "category": "지속",
+    "word": "persistence",
+    "meaning": "끈기, 지속성, 집념",
+    "core_image": "비바람이 몰아쳐도 꺾이지 않고 끝까지 뿌리를 내리는 끈질긴 생명력",
+    "focus": "장애물이나 실패에도 굴하지 않고 끈기 있게 끝까지 물고 늘어지는 집념과 의지",
+    "examples": [
+      "His persistence in debugging finally solved the problem"
+    ]
+  },
+  {
+    "id": "d_112",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "used to",
+    "meaning": "~하곤 했다 (과거의 규칙적 습관)",
+    "core_image": "과거에는 늘 있었지만 지금은 낡아 사라진 옛날 간판",
+    "focus": "과거에는 지속되었던 습관이나 상태였으나, 현재는 더 이상 그렇지 않음을 명확히 대조",
+    "examples": [
+      "I used to drink coffee"
+    ]
+  },
+  {
+    "id": "d_113",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "tend to",
+    "meaning": "~하는 경향이 있다",
+    "core_image": "한쪽으로 무게중심이 쏠려 자연스럽게 그 방향으로 기우는 저울",
+    "focus": "100% 확정은 아니지만 보통 그러한 성향이나 경향성을 자주 보임",
+    "examples": [
+      "Prices tend to rise during holidays",
+      "I tend to double-check the results before sharing them"
+    ]
+  },
+  {
+    "id": "d_114",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "would",
+    "meaning": "~하곤 했다 (과거의 불규칙적 추억)",
+    "core_image": "옛 사진첩을 넘기며 아련하게 떠올리는 과거의 추억 장면",
+    "focus": "과거에 종종 반복하곤 했던 동작을 부드럽고 서정적으로 회상할 때 사용",
+    "examples": [
+      "I would go for a walk in the park whenever I felt stressed"
+    ]
+  },
+  {
+    "id": "d_115",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "be used to",
+    "meaning": "~에 익숙하다",
+    "core_image": "낯선 환경에 몸이 적응하여 더 이상 거부감이나 피로가 없는 편안한 상태",
+    "focus": "특정 대상이나 상황에 충분히 익숙해져서 자연스럽게 받아들이는 상태",
+    "examples": [
+      "I am used to the high prices in Switzerland now"
+    ]
+  },
+  {
+    "id": "d_116",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "make it a rule to",
+    "meaning": "~하는 것을 규칙으로 삼다",
+    "core_image": "다이어리 맨 앞장에 굵은 글씨로 적어둔 스스로와의 철칙",
+    "focus": "자신만의 엄격한 원칙이나 규칙으로 삼아 매일 의식적으로 실천하는 습관",
+    "examples": [
+      "I make it a rule to read for 30 minutes before bed"
+    ]
+  },
+  {
+    "id": "d_117",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "usually",
+    "meaning": "보통, 대개 (일반적 습관)",
+    "core_image": "달력의 대부분의 날짜에 동일한 일정이 표시된 높은 빈도",
+    "focus": "대체로 평소에 일어나는 반복적 빈도에 집중",
+    "examples": [
+      "I usually take pictures with my digital camera"
+    ]
+  },
+  {
+    "id": "d_118",
+    "source": "Dissimilarities",
+    "category": "습관",
+    "word": "normally",
+    "meaning": "정상적으로, 평소에는",
+    "core_image": "표준 작동 모드로 매끄럽게 돌아가는 정상적인 기본 상태",
+    "focus": "특별한 예외가 없는 한 일반적이고 정상적인 기준에 따름을 강조",
+    "examples": [
+      "I don't normally exercise because I don't eat much"
+    ]
+  },
+  {
+    "id": "d_119",
+    "source": "Dissimilarities",
+    "category": "친밀",
+    "word": "hang out",
+    "meaning": "어울려 놀다, 시간을 보내다",
+    "core_image": "카페나 공원에 편안히 앉아 목적 없이 여유로운 시간을 함께 보내기",
+    "focus": "친한 사람들과 특별한 업무나 형식 없이 어울려 즐겁게 시간을 보내는 구체적 행위",
+    "examples": [
+      "Do you want to hang out this weekend?"
+    ]
+  },
+  {
+    "id": "d_120",
+    "source": "Dissimilarities",
+    "category": "친밀",
+    "word": "get along with",
+    "meaning": "~와 잘 지내다, 사이좋게 지내다",
+    "core_image": "마찰 없이 부드럽게 맞물려 돌아가는 두 톱니바퀴의 평화",
+    "focus": "서로 부딪히거나 갈등 없이 원만하고 평화로운 인간관계를 유지함",
+    "examples": [
+      "I get along with my roommate"
+    ]
+  },
+  {
+    "id": "d_121",
+    "source": "Dissimilarities",
+    "category": "친밀",
+    "word": "get close to",
+    "meaning": "~와 가까워지다, 친해지다",
+    "core_image": "두 사람 사이의 심리적 거리가 점점 좁혀지며 속마음을 터놓는 과정",
+    "focus": "단순한 원만함을 넘어 개인적인 깊은 교감과 신뢰를 쌓으며 친밀해지는 과정",
+    "examples": [
+      "I got close to Oscar while working on this project"
+    ]
+  },
+  {
+    "id": "d_122",
+    "source": "Dissimilarities",
+    "category": "친밀",
+    "word": "mingle with",
+    "meaning": "~와 섞여 어울리다",
+    "core_image": "파티장이나 모임에서 칵테일 잔을 들고 이 사람 저 사람에게 다가가 자연스럽게 섞여 대화하는 모습",
+    "focus": "물리적, 사회적 교류의 행동. 특정 장소나 이벤트에서 여러 사람과 두루두루 어울리고 말을 섞는 활동 자체에 초점을 둠",
+    "examples": [
+      "He found it difficult to mingle with people he didn't know"
+    ]
+  },
+  {
+    "id": "d_123",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "argue",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "서로의 논거를 주고받으며 자신의 주장이 맞음을 입증하려는 치열한 토론",
+    "focus": "의견이나 논리적 관점의 차이로 인해 벌어지는 지적·언어적 논쟁",
+    "examples": [
+      "I argued with Oscar about the reinforcement learning model"
+    ]
+  },
+  {
+    "id": "d_124",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "have a fight",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "감정의 불꽃이 튀며 서로에게 화를 쏟아내는 거친 충돌",
+    "focus": "감정이 격해져서 언성을 높이거나 직접적으로 충돌하는 감정적 싸움",
+    "examples": [
+      "I had a fight with my landlord about the electricity bill"
+    ]
+  },
+  {
+    "id": "d_125",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "bicker",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "새들이 짹짹거리듯 사소한 일로 끊임없이 말꼬리를 잡고 티격태격함",
+    "focus": "중요하지 않은 사소한 일로 유치하게 말다툼을 벌이는 상황",
+    "examples": [
+      "They are always bickering over small things"
+    ]
+  },
+  {
+    "id": "d_126",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "fall out with",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "단단히 묶여 있던 매듭이 풀려 서로 완전히 등을 돌리고 멀어짐",
+    "focus": "다툼이나 갈등의 결과로 인해 친밀했던 관계가 완전히 틀어지고 단절됨",
+    "examples": [
+      "I fell out with my friend after that argument"
+    ]
+  },
+  {
+    "id": "d_127",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "quarrel",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "서로 좁혀지지 않는 감정의 골로 인해 벌이는 전형적인 입씨름",
+    "focus": "개인적인 불만이나 의견 대립으로 인해 벌어지는 언쟁 및 다툼",
+    "examples": [
+      "The couple quarreled over financial problems"
+    ]
+  },
+  {
+    "id": "d_128",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "conflict",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "서로 다른 두 힘이나 가치관이 정면으로 부딪혀 교착된 상태",
+    "focus": "생각, 이익, 조직 내 목표 등이 서로 상충하여 발생하는 구조적·심리적 갈등",
+    "examples": [
+      "We need to resolve this conflict at work"
+    ]
+  },
+  {
+    "id": "d_129",
+    "source": "Dissimilarities",
+    "category": "다투다, 다툼, 싸움",
+    "word": "blowout",
+    "meaning": "다투다, 다툼, 싸움",
+    "core_image": "팽팽하던 타이어가 한순간에 펑 터져버리듯 감정이 대폭발하는 엄청난 싸움",
+    "focus": "참아왔던 분노가 극에 달해 소리를 지르고 판이 깨질 만큼 격렬하게 터지는 대싸움 (구어체)",
+    "examples": [
+      "They had a huge blowout and aren't talking to each other"
+    ]
+  },
+  {
+    "id": "d_130",
+    "source": "Dissimilarities",
+    "category": "눈에 띄다",
+    "word": "stand out",
+    "meaning": "눈에 띄다",
+    "core_image": "평평한 바닥 위에 홀로 우뚝 솟아 있어 어디서든 눈에 띄는 존재감",
+    "focus": "다른 대상들에 비해 뛰어난 역량이나 두드러진 특징으로 확실히 돋보임",
+    "examples": [
+      "Your research results stand out from the rest"
+    ]
+  },
+  {
+    "id": "d_131",
+    "source": "Dissimilarities",
+    "category": "눈에 띄다",
+    "word": "noticeable",
+    "meaning": "눈에 띄다",
+    "core_image": "주의를 기울이지 않아도 감각 기관에 확실히 걸리는 뚜렷한 변화",
+    "focus": "누구나 쉽게 인지하고 알아챌 수 있을 정도로 뚜렷한 차이나 변화",
+    "examples": [
+      "There is a noticeable difference in the property value"
+    ]
+  },
+  {
+    "id": "d_132",
+    "source": "Dissimilarities",
+    "category": "눈에 띄다",
+    "word": "catch one's eye",
+    "meaning": "눈에 띄다",
+    "core_image": "지나가던 시선에 낚싯바늘처럼 턱 걸려 시선을 강탈하는 매력",
+    "focus": "매력적이거나 독특한 비주얼로 인해 사람의 시선을 단숨에 사로잡음",
+    "examples": [
+      "This graph caught my eye immediately"
+    ]
+  },
+  {
+    "id": "d_133",
+    "source": "Dissimilarities",
+    "category": "눈에 띄다",
+    "word": "conspicuous",
+    "meaning": "눈에 띄다",
+    "core_image": "어두운 배경 속에서 번쩍이는 네온사인처럼 숨길 수 없이 튀는 모습",
+    "focus": "숨기려 해도 너무 뚜렷하거나 눈에 잘 띄어 의식할 수밖에 없는 상태",
+    "examples": [
+      "The error message was very conspicuous on the screen"
+    ]
+  },
+  {
+    "id": "d_134",
+    "source": "Dissimilarities",
+    "category": "모으다",
+    "word": "gather",
+    "meaning": "모으다",
+    "core_image": "사방에 흩어져 있던 사람이나 물건들을 하나의 중심점으로 그러모으기",
+    "focus": "여러 곳에 분산되어 있던 개체들을 한 장소로 수집하거나 함께 모이게 함",
+    "examples": [
+      "We gathered in the meeting room"
+    ]
+  },
+  {
+    "id": "d_135",
+    "source": "Dissimilarities",
+    "category": "모으다",
+    "word": "come together",
+    "meaning": "모으다",
+    "core_image": "각자의 손을 굳게 맞잡고 단단한 하나의 팀으로 뭉치기",
+    "focus": "공동의 목표를 달성하기 위해 여러 구성원이 하나로 단결하고 협력함",
+    "examples": [
+      "The team came together to solve the problem"
+    ]
+  },
+  {
+    "id": "d_136",
+    "source": "Dissimilarities",
+    "category": "틀어박히다",
+    "word": "be holed up",
+    "meaning": "틀어박히다",
+    "core_image": "야생동물이 은신처 굴(Hole) 속에 몸을 숨기고 밖으로 나오지 않는 모습",
+    "focus": "특정 작업에 몰두하거나 사람들을 피하기 위해 방이나 장소에 스스로 틀어박힘",
+    "examples": [
+      "I've been holed up in my room all weekend"
+    ]
+  },
+  {
+    "id": "d_137",
+    "source": "Dissimilarities",
+    "category": "틀어박히다",
+    "word": "be stuck in",
+    "meaning": "틀어박히다",
+    "core_image": "진흙탕에 바퀴가 빠져 꼼짝달싹 못 하고 갇혀버린 상태",
+    "focus": "자신의 의지와 무관하게 과중한 업무나 피할 수 없는 상황 때문에 꼼짝없이 갇힘",
+    "examples": [
+      "I'm stuck in the lab because of this simulation"
+    ]
+  },
+  {
+    "id": "d_138",
+    "source": "Dissimilarities",
+    "category": "틀어박히다",
+    "word": "be cooped up",
+    "meaning": "틀어박히다",
+    "core_image": "좁은 닭장(Coop) 안에 갇혀 답답함에 날개를 펴지 못하는 모습",
+    "focus": "너무 좁고 폐쇄된 공간에 갇혀 있어 답답함과 스트레스를 느끼는 상태",
+    "examples": [
+      "I don't want to be cooped up inside on such a sunny day"
+    ]
+  },
+  {
+    "id": "d_139",
+    "source": "Dissimilarities",
+    "category": "시끄러운",
+    "word": "noisy",
+    "meaning": "시끄러운",
+    "core_image": "귀청을 때리는 불규칙한 데시벨 소음들이 사방에서 쏟아지는 환경",
+    "focus": "귀에 거슬리는 물리적 소리가 커서 집중을 방해하는 청각적 시끄러움",
+    "examples": [
+      "The lab is too noisy today to focus on my code"
+    ]
+  },
+  {
+    "id": "d_140",
+    "source": "Dissimilarities",
+    "category": "시끄러운",
+    "word": "hectic",
+    "meaning": "시끄러운",
+    "core_image": "쉴 새 없이 쏟아지는 일정과 업무로 정신없이 돌아가는 어지러운 현장",
+    "focus": "소음 유무와 무관하게, 일이나 상황이 너무 분주하고 정신없이 돌아가는 혼란",
+    "examples": [
+      "My morning was very hectic because of the OCPM documents"
+    ]
+  },
+  {
+    "id": "d_141",
+    "source": "Dissimilarities",
+    "category": "꾸미다",
+    "word": "decorate",
+    "meaning": "(장소·물건을) 장식하다",
+    "core_image": "밋밋한 방에 식물 화분과 포스터를 배치하여 보기 좋게 단장하기",
+    "focus": "특정 공간이나 사물을 보기 좋게 만들거나 분위기를 내기 위한 일상적 장식",
+    "examples": [
+      "I want to decorate my room with some plants"
+    ]
+  },
+  {
+    "id": "d_142",
+    "source": "Dissimilarities",
+    "category": "꾸미다",
+    "word": "adorn",
+    "meaning": "(아름답게) 꾸미다, 장식하다",
+    "core_image": "우아한 보석이 귀부인의 목선을 감싸며 품격을 한층 높여주는 장면",
+    "focus": "아름다운 장식물로 대상의 품격과 고귀한 아름다움을 한층 돋보이게 수놓음 (격식체/문학적)",
+    "examples": [
+      "A gold necklace adorned her neck"
+    ]
+  },
+  {
+    "id": "d_143",
+    "source": "Dissimilarities",
+    "category": "꾸미다",
+    "word": "embellish",
+    "meaning": "(이야기·자료를) 꾸미다, 윤색하다",
+    "core_image": "단순한 스케치 위에 섬세한 문양과 디테일을 덧입혀 풍성하게 만들기",
+    "focus": "발표 자료나 글에 디테일, 차트, 혹은 이야기를 덧붙여 더 매력적이고 풍부하게 만듦",
+    "examples": [
+      "The researcher embellished the presentation with beautiful charts"
+    ]
+  },
+  {
+    "id": "d_144",
+    "source": "Dissimilarities",
+    "category": "자라다",
+    "word": "raise",
+    "meaning": "자라다",
+    "core_image": "어린 묘목에 물을 주고 지지대를 세워 정성껏 키워내는 양육의 손길",
+    "focus": "부모나 보호자가 책임감을 가지고 아이나 동물을 보살피고 양육하는 주체적 행위",
+    "examples": [
+      "My parents raised me in Korea"
+    ]
+  },
+  {
+    "id": "d_145",
+    "source": "Dissimilarities",
+    "category": "자라다",
+    "word": "grow up",
+    "meaning": "자라다",
+    "core_image": "시간의 흐름과 함께 스스로 키가 크고 정신적으로 성숙해가는 자연스러운 성장",
+    "focus": "아이 스스로 시간을 거치며 신체적·정신적으로 어른으로 자라나는 자연스러운 과정",
+    "examples": [
+      "I grew up in a small town"
+    ]
+  },
+  {
+    "id": "d_146",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "go into",
+    "meaning": "들어가다",
+    "core_image": "외부 공간에서 경계선을 넘어 내부 공간으로 이동해 들어가는 전진",
+    "focus": "밖에서 안으로 이동하는 직관적이고 역동적인 공간 진입 행위",
+    "examples": [
+      "I'm going to go into the lab now"
+    ]
+  },
+  {
+    "id": "d_147",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "come into",
+    "meaning": "들어가다",
+    "core_image": "화자가 머물고 있는 방 안쪽을 향해 다가와 문을 열고 들어서는 모습",
+    "focus": "말하는 사람(화자)의 관점에서 자신 쪽으로 들어오는 진입 (Toward me)",
+    "examples": [
+      "Oscar, please come into my office"
+    ]
+  },
+  {
+    "id": "d_148",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "enter",
+    "meaning": "들어가다",
+    "core_image": "보안 게이트나 공식 출입문을 통과하여 격식 있게 입장하는 모습",
+    "focus": "경계선(문, 비밀번호, 시스템)을 통과하여 진입하는 공식적이고 기술적인 표현",
+    "examples": [
+      "Please enter your password on the laptop",
+      "The subject entered the room at 9 AM"
+    ]
+  },
+  {
+    "id": "d_149",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "get in",
+    "meaning": "들어가다",
+    "core_image": "비좁은 틈새나 차 문을 열고 몸을 쏙 집어넣어 탑승하는 동작",
+    "focus": "특정 이동 수단이나 공간 안으로 몸을 집어넣어 탑승·도착하는 동작",
+    "examples": [
+      "I disturbed some people in the theater because I got in late"
+    ]
+  },
+  {
+    "id": "d_150",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "visit",
+    "meaning": "들어가다",
+    "core_image": "특정 목적과 일정을 가지고 타인의 공간이나 도시를 찾아가 잠시 머무름",
+    "focus": "단순한 물리적 진입을 넘어 특정한 목적을 가지고 찾아가는 사회적 방문",
+    "examples": [
+      "I need to visit the biomechanics lab in Zurich"
+    ]
+  },
+  {
+    "id": "d_151",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "step inside",
+    "meaning": "들어가다",
+    "core_image": "추운 문밖에서 문을 열고 따스한 실내 바닥으로 발을 한 발짝 들여놓기",
+    "focus": "사방이 막힌 물리적인 건물 내부로 발을 디뎌 들어서는 구체적 신체 동작",
+    "examples": [
+      "It was freezing outside, so I quickly stepped inside the cafe"
+    ]
+  },
+  {
+    "id": "d_152",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "step into",
+    "meaning": "들어가다",
+    "core_image": "새로운 낯선 영역이나 새로운 직책의 무대 위로 첫발을 내딛는 도전",
+    "focus": "물리적 공간뿐 아니라 새로운 환경, 역할, 프로젝트 등의 추상적 세계로 진입함",
+    "examples": [
+      "When I first stepped into Campus Biotech, I was very excited"
+    ]
+  },
+  {
+    "id": "d_153",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "go right into",
+    "meaning": "들어가다",
+    "core_image": "망설임이나 완충 지대 없이 목표물을 향해 전속력으로 직진하여 돌진하기",
+    "focus": "사전 준비나 주저함 없이 전격적이고 거침없이 본론이나 장소로 진입함",
+    "examples": [
+      "He went right into the burning building"
+    ]
+  },
+  {
+    "id": "d_154",
+    "source": "Dissimilarities",
+    "category": "들어가다",
+    "word": "roll into",
+    "meaning": "들어가다",
+    "core_image": "손에 커피를 든 채 자연스럽고 여유로운 걸음걸이로 행사장에 스르륵 등장하기",
+    "focus": "격식에 얽매이지 않고 편안하거나 자연스럽게 특정 장소나 상태로 들어섬",
+    "examples": [
+      "I rolled into the interview with my cup of Starbucks."
+    ]
+  },
+  {
+    "id": "d_155",
+    "source": "Dissimilarities",
+    "category": "다치다",
+    "word": "sprain",
+    "meaning": "다치다",
+    "core_image": "관절이 가동 범위를 벗어나 순간적으로 꺾이며 인대가 늘어나는 장면",
+    "focus": "뼈가 부러진 것이 아니라 관절의 인대가 삐끗하여 손상된 상태",
+    "examples": [
+      "I almost sprained my ankle because the floor in the bathhouse was slippery with soapy water"
+    ]
+  },
+  {
+    "id": "d_156",
+    "source": "Dissimilarities",
+    "category": "주인",
+    "word": "owner",
+    "meaning": "주인",
+    "core_image": "등기부등본이나 영수증에 이름이 적힌 합법적인 자산 소유자",
+    "focus": "물건, 부동산, 회사 등에 대한 법적·경제적 소유권을 지닌 주체",
+    "examples": [
+      "The owner of this building lives in Geneva"
+    ]
+  },
+  {
+    "id": "d_157",
+    "source": "Dissimilarities",
+    "category": "주인",
+    "word": "master",
+    "meaning": "주인",
+    "core_image": "기술을 극의 경지까지 통달하여 자유자재로 지휘하는 장인",
+    "focus": "특정 분야의 기술에 통달했거나 완벽한 지배·통제력을 지닌 사람",
+    "examples": [
+      "He is a master of reinforcement learning"
+    ]
+  },
+  {
+    "id": "d_158",
+    "source": "Dissimilarities",
+    "category": "의도",
+    "word": "unintentionally",
+    "meaning": "의도",
+    "core_image": "마음속에 품은 계획이 없었는데 우연히 손발이 빗나가 발생한 결과",
+    "focus": "고의성이나 악의가 전혀 없이 실수나 예기치 못한 상황으로 벌어진 일",
+    "examples": [
+      "I unintentionally deleted the raw kinematics log"
+    ]
+  },
+  {
+    "id": "d_159",
+    "source": "Dissimilarities",
+    "category": "스스로",
+    "word": "myself",
+    "meaning": "스스로",
+    "core_image": "다른 사람을 시키지 않고 내 두 손으로 직접 작업을 수행하는 주체 강조",
+    "focus": "남의 손을 빌리지 않고 주체인 '내 자신이 직접' 행했음을 강조",
+    "examples": [
+      "I made this coffee myself"
+    ]
+  },
+  {
+    "id": "d_160",
+    "source": "Dissimilarities",
+    "category": "스스로",
+    "word": "by myself",
+    "meaning": "스스로",
+    "core_image": "주변에 아무도 없이 오직 나 혼자만 서 있는 고립된 물리적 공간",
+    "focus": "동행자 없이 혼자 있거나 타인의 도움 없이 단독으로 수행하는 상태",
+    "examples": [
+      "I went to the public bath by myself"
+    ]
+  },
+  {
+    "id": "d_161",
+    "source": "Dissimilarities",
+    "category": "스스로",
+    "word": "for myself",
+    "meaning": "스스로",
+    "core_image": "남들의 시선이 아닌 오직 나 자신의 행복과 성장을 위해 준비한 선물",
+    "focus": "타인을 위해서가 아니라 '나 자신을 위한' 수혜와 목적에 초점",
+    "examples": [
+      "I want to create a mindset for myself to stay motivated"
+    ]
+  },
+  {
+    "id": "d_162",
+    "source": "Dissimilarities",
+    "category": "스스로",
+    "word": "on my own",
+    "meaning": "스스로",
+    "core_image": "부모의 손을 놓고 두 발로 우뚝 서서 홀로 길을 개척하는 자립의 발걸음",
+    "focus": "누구의 간섭이나 의존 없이 독립적이고 자립적으로 해냈다는 성취감과 자율성",
+    "examples": [
+      "I can study anytime of the day and I can plan anything on my own. But it made me even lazier"
+    ]
+  },
+  {
+    "id": "d_163",
+    "source": "Dissimilarities",
+    "category": "스스로",
+    "word": "my way",
+    "meaning": "스스로",
+    "core_image": "정해진 매뉴얼을 벗어나 나만의 독창적인 레시피대로 그려나가는 예술",
+    "focus": "결과뿐 아니라 그 방식을 만들어낸 고유한 철학과 독창적 스타일을 강조",
+    "examples": [
+      "I did it my way"
+    ]
+  },
+  {
+    "id": "d_164",
+    "source": "Dissimilarities",
+    "category": "off",
+    "word": "take off",
+    "meaning": "off",
+    "core_image": "몸에 밀착되어 있던 외투를 벗어 걸어두는 완전한 분리",
+    "focus": "신체에 착용하고 있던 옷이나 모자 등을 벗어 몸에서 떼어내는 동작",
+    "examples": [
+      "I took off my coat as soon as I entered the lab"
+    ]
+  },
+  {
+    "id": "d_165",
+    "source": "Dissimilarities",
+    "category": "두고오다",
+    "word": "leave",
+    "meaning": "두고오다",
+    "core_image": "자리를 떠나면서 물건을 그 자리에 그대로 놓아두고 이동하는 모습",
+    "focus": "'leave + 물건 + 장소' 형태로 특정 장소에 물건을 깜빡하고 두고 왔음을 표현",
+    "examples": [
+      "I left my wallet at home"
+    ]
+  },
+  {
+    "id": "d_166",
+    "source": "Dissimilarities",
+    "category": "두고오다",
+    "word": "forget",
+    "meaning": "두고오다",
+    "core_image": "머릿속 메모리에서 챙겨야 한다는 사실 자체가 하얗게 지워진 순간",
+    "focus": "물건을 챙겨야 한다는 기억이나 약속 자체를 잊어버린 뇌 속의 망각 상태",
+    "examples": [
+      "Oh no, I forgot my wallet!"
+    ]
+  },
+  {
+    "id": "d_167",
+    "source": "Dissimilarities",
+    "category": "대중교통",
+    "word": "press the button",
+    "meaning": "대중교통",
+    "core_image": "하차 신호 벨의 빨간 버튼을 손가락 끝으로 꾹 누르는 동작",
+    "focus": "버스나 트램 등에서 다음 정류장 하차 의사를 알리기 위해 벨을 누름",
+    "examples": [
+      "I got off at the wrong place because I didn't press the button"
+    ]
+  },
+  {
+    "id": "d_168",
+    "source": "Dissimilarities",
+    "category": "대중교통",
+    "word": "front door",
+    "meaning": "대중교통",
+    "core_image": "운전기사 바로 옆에 위치한 차량의 앞쪽 출입문",
+    "focus": "대중교통 승차나 특정 건물의 전면에 위치한 정문",
+    "examples": [
+      "Please enter through the front door of the bus"
+    ]
+  },
+  {
+    "id": "d_169",
+    "source": "Dissimilarities",
+    "category": "대중교통",
+    "word": "back door",
+    "meaning": "대중교통 하차나 건물의 후면에 위치한 뒷문",
+    "core_image": "차량의 중간이나 후방에 설치된 하차용 출입문",
+    "focus": "대중교통 하차나 건물의 후면에 위치한 뒷문",
+    "examples": [
+      "Passengers usually exit through the back door"
+    ]
+  },
+  {
+    "id": "d_170",
+    "source": "Dissimilarities",
+    "category": "대중교통",
+    "word": "make a sudden stop",
+    "meaning": "대중교통",
+    "core_image": "달리던 버스가 급브레이크를 밟아 승객들의 몸이 앞으로 확 쏠리는 장면",
+    "focus": "예고 없이 급격하고 돌발적으로 차량을 멈춰 세우는 급정거",
+    "examples": [
+      "The bus made a sudden stop"
+    ]
+  },
+  {
+    "id": "d_171",
+    "source": "Dissimilarities",
+    "category": "양보하다",
+    "word": "give up",
+    "meaning": "양보하다",
+    "core_image": "내가 차지하고 있던 안락한 자리를 털고 일어나 남에게 넘겨주는 배려",
+    "focus": "자신이 가진 소유물, 권리, 혹은 좌석을 포기하고 타인에게 내어줌",
+    "examples": [
+      "I gave up my seat to an elderly person"
+    ]
+  },
+  {
+    "id": "d_172",
+    "source": "Dissimilarities",
+    "category": "양보하다",
+    "word": "yield",
+    "meaning": "양보하다",
+    "core_image": "교차로 앞에서 속도를 줄이며 진입하려는 보행자나 다른 차를 먼저 보내기",
+    "focus": "도로 주행이나 이동 흐름에서 물리적인 통행 순서와 우선권을 양보함",
+    "examples": [
+      "You should yield to pedestrians"
+    ]
+  },
+  {
+    "id": "d_173",
+    "source": "Dissimilarities",
+    "category": "양보하다",
+    "word": "concede",
+    "meaning": "양보하다",
+    "core_image": "상대방의 완벽한 논리에 고개를 끄덕이며 자신의 패배나 실수를 인정하기",
+    "focus": "논쟁이나 승부에서 상대의 정당함을 인정하고 자신의 주장을 철회하며 양보함",
+    "examples": [
+      "After the argument, I had to concede the point to Andy"
+    ]
+  },
+  {
+    "id": "d_174",
+    "source": "Dissimilarities",
+    "category": "때리다, 치다",
+    "word": "hit",
+    "meaning": "때리다, 치다",
+    "core_image": "손이나 물체가 목표물에 닿아 충격을 가하는 직접적인 접촉과 타격",
+    "focus": "어떤 대상에 물리적으로 닿거나 가격하는 가장 직관적이고 일반적인 타격",
+    "examples": [
+      "I hit my head on the cupboard"
+    ]
+  },
+  {
+    "id": "d_175",
+    "source": "Dissimilarities",
+    "category": "때리다, 치다",
+    "word": "crash",
+    "meaning": "때리다, 치다",
+    "core_image": "빠른 속도로 달리던 물체가 장애물에 부딪혀 산산조각 나는 파괴적 충돌",
+    "focus": "엄청난 속도와 충격으로 인해 완전히 부서지고 붕괴되는 대형 충돌 사고",
+    "examples": [
+      "The car lost control on the wet road and crashed into a tree"
+    ]
+  },
+  {
+    "id": "d_176",
+    "source": "Dissimilarities",
+    "category": "때리다, 치다",
+    "word": "smash",
+    "meaning": "때리다, 치다",
+    "core_image": "묵직한 해머로 내리쳐 유리창이나 바위를 박살 내는 압도적 타격",
+    "focus": "강한 힘을 가해 형체를 산산조각 내거나 납작하게 짓뭉갤 정도로 세게 강타함",
+    "examples": [
+      "The wave smashed against the rocks"
+    ]
+  },
+  {
+    "id": "d_177",
+    "source": "Dissimilarities",
+    "category": "때리다, 치다",
+    "word": "tap",
+    "meaning": "때리다, 치다",
+    "core_image": "손가락 끝이나 가벼운 막대로 표면을 톡톡 건드리는 가벼운 노크",
+    "focus": "물리적 손상 없이 주의를 끌거나 신호를 주기 위해 가볍고 정교하게 툭툭 건드림",
+    "examples": [
+      "She tapped my shoulder to get my attention"
+    ]
+  },
+  {
+    "id": "d_178",
+    "source": "Dissimilarities",
+    "category": "이해",
+    "word": "understand",
+    "meaning": "이해",
+    "core_image": "머릿속 퍼즐 조각들이 제자리를 찾아 논리적 의미가 환하게 통하는 상태",
+    "focus": "논리, 의미, 배경 지식을 머리로 명확히 받아들이고 해석하는 표준적 이해",
+    "examples": [
+      "I understand the basic principles of reinforcement learning"
+    ]
+  },
+  {
+    "id": "d_179",
+    "source": "Dissimilarities",
+    "category": "이해",
+    "word": "apprehend",
+    "meaning": "이해",
+    "core_image": "복잡한 전체 시스템의 본질적인 형체를 양손으로 완전히 포획하여 장악함",
+    "focus": "단순한 지식을 넘어 대상의 깊은 본질이나 전체적인 복잡성을 온전히 파악함 (학술적/철학적)",
+    "examples": [
+      "It is difficult to apprehend the full complexity of human movement"
+    ]
+  },
+  {
+    "id": "d_180",
+    "source": "Dissimilarities",
+    "category": "이해",
+    "word": "be on to something",
+    "meaning": "이해",
+    "core_image": "사막에서 보물 상자의 모서리를 발견하고 삽질을 시작하는 결정적 단서 포착",
+    "focus": "어떤 연구나 추론 과정에서 대단히 중요한 성공의 실마리나 가치 있는 발견을 포착해냄",
+    "examples": [
+      "You are on to something"
+    ]
+  },
+  {
+    "id": "d_181",
+    "source": "Dissimilarities",
+    "category": "오해",
+    "word": "get confused",
+    "meaning": "오해",
+    "core_image": "여러 갈래의 정보선들이 머릿속에서 어지럽게 엉켜 갈피를 못 잡는 혼선",
+    "focus": "정보가 너무 많거나 복잡하여 스스로 갈피를 잡지 못하고 혼란에 빠진 내적 상태",
+    "examples": [
+      "I got confused because the kinematics data was too complex"
+    ]
+  },
+  {
+    "id": "d_182",
+    "source": "Dissimilarities",
+    "category": "오해",
+    "word": "misunderstand",
+    "meaning": "오해",
+    "core_image": "A라고 전달된 신호를 B라고 잘못 해독하여 수신 오류가 난 상태",
+    "focus": "상대방의 말이나 의도를 사실과 다르게 잘못 해석하여 발생한 오해",
+    "examples": [
+      "I misunderstood Byanca's instruction about the MuJoCo settings"
+    ]
+  },
+  {
+    "id": "d_183",
+    "source": "Dissimilarities",
+    "category": "말하다",
+    "word": "talk to",
+    "meaning": "말하다",
+    "core_image": "마주 앉아 공을 주고받듯 서로의 생각을 나누는 대화의 랠리",
+    "focus": "상대방과 쌍방향으로 대화를 주고받는 소통의 행위",
+    "examples": [
+      "I need to talk to my supervisor about the project"
+    ]
+  },
+  {
+    "id": "d_184",
+    "source": "Dissimilarities",
+    "category": "말하다",
+    "word": "tell",
+    "meaning": "말하다",
+    "core_image": "내가 가진 메시지 카드를 상대방의 손에 직접 건네주는 정보 전달",
+    "focus": "특정 정보, 사실, 이야기, 혹은 지시 사항을 상대방에게 일방향으로 확실히 전달함",
+    "examples": [
+      "Please tell me the result of the simulation"
+    ]
+  },
+  {
+    "id": "d_185",
+    "source": "Dissimilarities",
+    "category": "말하다",
+    "word": "chat",
+    "meaning": "말하다",
+    "core_image": "따뜻한 커피 한 잔을 앞에 두고 격식 없이 오가는 편안한 수다",
+    "focus": "부담 없는 친근한 분위기에서 가볍게 나누는 일상적인 대화",
+    "examples": [
+      "We had a nice chat over coffee"
+    ]
+  },
+  {
+    "id": "d_186",
+    "source": "Dissimilarities",
+    "category": "식사",
+    "word": "eat",
+    "meaning": "식사",
+    "core_image": "음식을 입에 넣고 씹어 삼키는 가장 보편적인 식사 동작",
+    "focus": "음식을 섭취하는 행위 그 자체를 가리키는 일상적인 표준 표현",
+    "examples": [
+      "I usually eat lunch around noon"
+    ]
+  },
+  {
+    "id": "d_187",
+    "source": "Dissimilarities",
+    "category": "식사",
+    "word": "feed myself",
+    "meaning": "식사",
+    "core_image": "누군가의 수발 없이 스스로 숟가락을 쥐고 자신의 끼니를 챙겨 먹는 모습",
+    "focus": "타인에게 의존하지 않고 스스로를 먹이고 생존을 책임질 수 있는 자립적 신체·경제적 능력",
+    "examples": [
+      "Even when I was busy, I made sure to feed myself properly"
+    ]
+  },
+  {
+    "id": "d_188",
+    "source": "Dissimilarities",
+    "category": "맡기다",
+    "word": "put",
+    "meaning": "맡기다",
+    "core_image": "물건이나 사람을 특정 장소나 기관에 이동시켜 배치해 둠",
+    "focus": "어떤 장소나 시설(예: 요양원, 보관소)에 대상의 거처나 보관 위치를 정해 둠",
+    "examples": [
+      "My mom put grandmother in a nursing home"
+    ]
+  },
+  {
+    "id": "d_189",
+    "source": "Dissimilarities",
+    "category": "맡기다",
+    "word": "drop off",
+    "meaning": "맡기다",
+    "core_image": "차를 타고 이동하는 경로 중에 특정 지점에 잠시 정차하여 내려주기",
+    "focus": "목적지로 가는 길목에서 사람을 내려주거나 짐을 전달해 맡김",
+    "examples": [
+      "I can drop you off at Campus Biotech"
+    ]
+  },
+  {
+    "id": "d_190",
+    "source": "Dissimilarities",
+    "category": "요청",
+    "word": "ask to",
+    "meaning": "요청",
+    "core_image": "상대방에게 다가가 특정 행동을 정중하게 부탁하는 대화",
+    "focus": "상대방이 특정 행동이나 조치를 취해주기를 구두나 서면으로 정중히 부탁함",
+    "examples": [
+      "I asked her to wait for a moment"
+    ]
+  },
+  {
+    "id": "d_191",
+    "source": "Dissimilarities",
+    "category": "요청",
+    "word": "ask for",
+    "meaning": "요청",
+    "core_image": "손을 내밀며 원하는 구체적 물건이나 도움을 요구하는 손동작",
+    "focus": "물건, 자료, 조언, 도움 등 원하는 대상을 직접 얻기 위해 요청함",
+    "examples": [
+      "He asked for a cup of coffee"
+    ]
+  },
+  {
+    "id": "d_192",
+    "source": "Dissimilarities",
+    "category": "요청",
+    "word": "call for",
+    "meaning": "요청",
+    "core_image": "사태의 심각성에 따라 긴급 사이렌을 울리며 필요한 조치를 강력히 요구함",
+    "focus": "특정 상황이나 문제 해결을 위해 어떤 조치, 자원, 연구가 마땅히 강력히 요구됨",
+    "examples": [
+      "This complex results call for further investigation"
+    ]
+  },
+  {
+    "id": "d_193",
+    "source": "Dissimilarities",
+    "category": "요청",
+    "word": "require",
+    "meaning": "요청",
+    "core_image": "규정집과 설계도에 명시된 필수 체크 항목의 잠금장치",
+    "focus": "규정, 법규, 시스템 사양상 없어서는 안 될 절대적인 필수 조건으로 요구됨",
+    "examples": [
+      "The simulation requires high computational power"
+    ]
+  },
+  {
+    "id": "d_194",
+    "source": "Dissimilarities",
+    "category": "요청",
+    "word": "send for",
+    "meaning": "요청",
+    "core_image": "심부름꾼이나 전령을 파견하여 필요한 문서나 사람을 불러오기",
+    "focus": "사람이나 우편을 통해 특정 서류를 보내달라고 요청하거나 전문가를 소환함",
+    "examples": [
+      "He sends for the annual reports"
+    ]
+  },
+  {
+    "id": "d_195",
+    "source": "Dissimilarities",
+    "category": "비행",
+    "word": "plane",
+    "meaning": "비행",
+    "core_image": "활주로에 서 있는 날개와 제트 엔진이 달린 물리적 항공기 기체",
+    "focus": "하늘을 나는 물리적인 교통수단인 '비행기 기체' 그 자체를 지칭",
+    "examples": [
+      "I can see a plane in the sky"
+    ]
+  },
+  {
+    "id": "d_196",
+    "source": "Dissimilarities",
+    "category": "비행",
+    "word": "flight",
+    "meaning": "비행",
+    "core_image": "출발 시각부터 도착 시각까지 티켓에 적힌 하늘길 여정과 스케줄",
+    "focus": "특정 시간에 출발하여 목적지까지 운항하는 항공편 및 비행 여정",
+    "examples": [
+      "My flight to Seoul is at 8 P.M."
+    ]
+  },
+  {
+    "id": "d_197",
+    "source": "Dissimilarities",
+    "category": "출발, 기원",
+    "word": "out of",
+    "meaning": "출발, 기원",
+    "core_image": "문이나 울타리로 둘러싸인 경계선 안에서 바깥으로 걸어 나오는 물리적 이탈",
+    "focus": "폐쇄된 공간의 내부에서 외부로 빠져나오는 물리적 공간 이동에 집중",
+    "examples": [
+      "He walked out of the building"
+    ]
+  },
+  {
+    "id": "d_198",
+    "source": "Dissimilarities",
+    "category": "출발, 기원",
+    "word": "from",
+    "meaning": "출발, 기원",
+    "core_image": "지도 위의 출발점(A점)에서 시작되어 뻗어나가는 시작점 핀",
+    "focus": "단순히 출신지, 원산지, 혹은 사건이 시작된 출발 지점 그 자체를 지칭",
+    "examples": [
+      "I am from Korea"
+    ]
+  },
+  {
+    "id": "d_199",
+    "source": "Dissimilarities",
+    "category": "더 이상",
+    "word": "any longer",
+    "meaning": "더 이상",
+    "core_image": "타임라인의 모래시계가 다 떨어져 더 이상 시간을 연장할 수 없는 한계",
+    "focus": "시간의 지속성 차원에서 더 이상 상태를 끌거나 기다릴 수 없음을 표현",
+    "examples": [
+      "I can't wait for the bus any longer"
+    ]
+  },
+  {
+    "id": "d_200",
+    "source": "Dissimilarities",
+    "category": "더 이상",
+    "word": "any more",
+    "meaning": "더 이상",
+    "core_image": "바구니의 용량이 차서 더 이상의 수량이나 추가 반복이 필요 없는 상태",
+    "focus": "양이나 정도, 혹은 반복되는 행위가 더 이상 불필요하거나 중단됨을 나타냄",
+    "examples": [
+      "I don't need this data any more"
+    ]
+  },
+  {
+    "id": "d_201",
+    "source": "Dissimilarities",
+    "category": "빈도 vs 양",
+    "word": "usually",
+    "meaning": "보통, 대개 (일반적 습관)",
+    "core_image": "달력의 대부분의 날에 일정 체크가 되어 있는 반복적 패턴",
+    "focus": "행동이 일어나는 시간적 빈도(Frequency)에 초점을 맞춤",
+    "examples": [
+      "I usually take pictures with my digital camera"
+    ]
+  },
+  {
+    "id": "d_202",
+    "source": "Dissimilarities",
+    "category": "빈도 vs 양",
+    "word": "a lot of",
+    "meaning": "빈도 vs 양",
+    "core_image": "메모리 카드에 빼곡하게 쌓여 있는 방대한 사진 파일 더미",
+    "focus": "생산되거나 존재하는 대상의 물리적·수치적 양(Quantity)에 초점을 맞춤",
+    "examples": [
+      "I take a lot of pictures with my digital camera"
+    ]
+  },
+  {
+    "id": "d_203",
+    "source": "Dissimilarities",
+    "category": "실수",
+    "word": "accidentally",
+    "meaning": "실수로, 부주의로",
+    "core_image": "길을 가다 발이 돌부리에 걸리듯 의도치 않게 일어난 돌발 사고",
+    "focus": "주체의 의도나 계획이 전혀 개입되지 않은 우연한 사고로 발생한 일",
+    "examples": [
+      "I accidentally put my AirPods in the washing machine",
+      "I accidentally walked into a stranger's funeral home"
+    ]
+  },
+  {
+    "id": "d_204",
+    "source": "Dissimilarities",
+    "category": "실수",
+    "word": "by mistake",
+    "meaning": "실수로, 잘못 알고",
+    "core_image": "자기 우산인 줄 알고 옆에 있던 남의 우산을 집어 든 판단 착오",
+    "focus": "행동 자체는 의도를 가지고 했으나 정보나 인식이 틀려 잘못된 결과를 낳음",
+    "examples": [
+      "I took his umbrella by mistake"
+    ]
+  },
+  {
+    "id": "d_205",
+    "source": "Dissimilarities",
+    "category": "이미지",
+    "word": "photo",
+    "meaning": "이미지",
+    "core_image": "카메라 렌즈의 셔터가 열리며 센서에 빛으로 각인된 실사 사진",
+    "focus": "광학 카메라 장비로 촬영하여 현상하거나 디지털로 저장한 실제 사진",
+    "examples": [
+      "I need a photo for my ID card"
+    ]
+  },
+  {
+    "id": "d_206",
+    "source": "Dissimilarities",
+    "category": "이미지",
+    "word": "picture",
+    "meaning": "이미지",
+    "core_image": "도화지 위의 손그림부터 벽화, 삽화까지 모든 시각적 형상",
+    "focus": "사진뿐 아니라 그림, 일러스트, 시각적 심상 전체를 포괄하는 넓은 의미",
+    "examples": [
+      "My nephew drew a picture of me"
+    ]
+  },
+  {
+    "id": "d_207",
+    "source": "Dissimilarities",
+    "category": "떨어지다",
+    "word": "fall",
+    "meaning": "떨어지다",
+    "core_image": "나무에서 낙엽이 중력에 이끌려 자연스럽게 바닥으로 낙하함",
+    "focus": "외부의 인위적 힘 없이 중력이나 자연스러운 흐름에 의해 아래로 떨어짐",
+    "examples": [
+      "The rain is falling"
+    ]
+  },
+  {
+    "id": "d_208",
+    "source": "Dissimilarities",
+    "category": "떨어지다",
+    "word": "drop",
+    "meaning": "떨어지다",
+    "core_image": "손에 쥐고 있던 물건의 힘이 풀려 툭 하고 아래로 떨어뜨리는 순간",
+    "focus": "손에 쥐고 있던 것을 놓치거나 의도적/실수로 물체를 아래로 떨어뜨림",
+    "examples": [
+      "I dropped my AirPods in the washing machine accidentally"
+    ]
+  },
+  {
+    "id": "d_209",
+    "source": "Dissimilarities",
+    "category": "이동",
+    "word": "go and",
+    "meaning": "이동",
+    "core_image": "가벼운 발걸음으로 이동하여 연이어 다음 행동을 연결하는 리듬",
+    "focus": "이동 후 뒤이어 일어나는 행동을 자연스럽고 친근하게 연결하는 구어체 표현",
+    "examples": [
+      "I don't need to go develop a picture any more",
+      "You should go and get some rest; you look tired"
+    ]
+  },
+  {
+    "id": "d_210",
+    "source": "Dissimilarities",
+    "category": "이동",
+    "word": "go to",
+    "meaning": "이동",
+    "core_image": "명확한 목적지를 향해 나침반을 맞추고 출발하는 직진 행렬",
+    "focus": "특정 목적(to 부정사)을 달성하기 위해 장소(to 명사)로 이동하는 방향성에 집중",
+    "examples": [
+      "I need to go to develop the pictures",
+      "I go to the lab every morning"
+    ]
+  },
+  {
+    "id": "d_211",
+    "source": "Dissimilarities",
+    "category": "이동",
+    "word": "get to",
+    "meaning": "이동",
+    "core_image": "수많은 신호등과 골목길을 뚫고 마침내 목적지 입구에 도달함",
+    "focus": "이동 과정의 수고를 거쳐 마침내 목적지에 성공적으로 도착·도달하는 결과",
+    "examples": [
+      "How can I get to the train station?"
+    ]
+  },
+  {
+    "id": "d_212",
+    "source": "Dissimilarities",
+    "category": "결국",
+    "word": "end up",
+    "meaning": "결국",
+    "core_image": "계획했던 코스를 벗어나 물길 따라 흘러가다 엉뚱한 종착역에 닿음",
+    "focus": "처음 계획이나 의도와는 다르게 상황에 휩쓸려 최종적으로 이르게 된 결과",
+    "examples": [
+      "I was just checking one data point, but I ended up staying up all night"
+    ]
+  },
+  {
+    "id": "d_213",
+    "source": "Dissimilarities",
+    "category": "결국",
+    "word": "wind up",
+    "meaning": "결국",
+    "core_image": "태엽을 팽팽하게 감다가 툭 멈춰 서듯 정신 차려보니 그 상태에 처해 있음",
+    "focus": "우여곡절을 겪은 끝에 예상치 못하게 어떤 처지나 장소에 도달하게 됨 (구어체)",
+    "examples": [
+      "I wind up perusing people's photos and status"
+    ]
+  },
+  {
+    "id": "d_214",
+    "source": "Dissimilarities",
+    "category": "결국",
+    "word": "eventually",
+    "meaning": "결국",
+    "core_image": "오랜 시간 동안 굽이진 산길을 걸어 마침내 산 정상에 도달하는 완주",
+    "focus": "시간이 오래 걸리고 많은 과정이 필요했지만 결국 장기적으로 도달한 결과",
+    "examples": [
+      "I think I will take a long time to reach my goal, but eventually I will reach it",
+      "The AI model will eventually converge"
+    ]
+  },
+  {
+    "id": "d_215",
+    "source": "Dissimilarities",
+    "category": "결국",
+    "word": "in the end",
+    "meaning": "결국",
+    "core_image": "치열했던 재판과 갈등이 끝나고 판사가 최종 판결봉을 내리치는 결말",
+    "focus": "모든 복잡한 논쟁과 우여곡절을 다 겪어본 후 최종적으로 내린 결론이나 귀결",
+    "examples": [
+      "I felt resentment, but in the end, I chose to let the emotions flow"
+    ]
+  },
+  {
+    "id": "d_216",
+    "source": "Dissimilarities",
+    "category": "결국",
+    "word": "after all",
+    "meaning": "결국",
+    "core_image": "여러 논란 끝에 베일이 걷히며 '역시나 그렇구나' 하고 진실이 드러남",
+    "focus": "예상이나 우려가 있었음에도 불구하고 결과적으로 돌이켜보니 결국 사실임",
+    "examples": [
+      "Don't be too hard on yourself; after all, you're only human"
+    ]
+  },
+  {
+    "id": "d_217",
+    "source": "Dissimilarities",
+    "category": "핵심",
+    "word": "come down to",
+    "meaning": "핵심",
+    "core_image": "복잡하게 얽힌 가지들을 다 쳐내고 나면 드러나는 뿌리 줄기",
+    "focus": "복잡한 현상이나 논의를 압축했을 때 가장 본질적인 결정타나 원인으로 귀결됨",
+    "examples": [
+      "Indeed most algorithms in Artificial Intelligence, Machine Learning, Computer Vision, System Identification, State Estimation come down to numerical optimization."
+    ]
+  },
+  {
+    "id": "d_218",
+    "source": "Dissimilarities",
+    "category": "추가",
+    "word": "also",
+    "meaning": "추가",
+    "core_image": "기존 항목 옆에 플러스(+) 부호를 달고 항목 하나를 나란히 덧붙임",
+    "focus": "앞서 언급한 내용에 새로운 정보를 단순하게 나열·추가함",
+    "examples": [
+      "I also checked the sensor calibration"
+    ]
+  },
+  {
+    "id": "d_219",
+    "source": "Dissimilarities",
+    "category": "추가",
+    "word": "on top of",
+    "meaning": "추가",
+    "core_image": "이미 가득 찬 쟁반 위에 컵 하나를 더 얹어 무게를 가중시키는 모습",
+    "focus": "이미 충분히 많은 상황 위에 겹쳐서 추가됨 (설상가상 혹은 금상첨화의 뉘앙스)",
+    "examples": [
+      "On top of the kinematics data, we need brain activity patterns"
+    ]
+  },
+  {
+    "id": "d_220",
+    "source": "Dissimilarities",
+    "category": "추가",
+    "word": "in addition to",
+    "meaning": "추가",
+    "core_image": "학술 논문의 부록 섹션에 논리적인 보충 자료를 정식으로 첨부함",
+    "focus": "논리적이고 공식적인 글에서 기존 항목에 추가적 요소를 격식 있게 덧붙임",
+    "examples": [
+      "In addition to kinematics, we analyzed brain patterns"
+    ]
+  },
+  {
+    "id": "d_221",
+    "source": "Dissimilarities",
+    "category": "추가",
+    "word": "besides",
+    "meaning": "~외에는 (유일한 예외)",
+    "core_image": "중심 영역의 울타리 바깥으로 시야를 넓혀 다른 추가 대상까지 아우름",
+    "focus": "언급된 대상 외에도 다른 것까지 포함하여 외연을 확장할 때 사용",
+    "examples": [
+      "Besides me, who else is coming?"
+    ]
+  },
+  {
+    "id": "d_222",
+    "source": "Dissimilarities",
+    "category": "추가",
+    "word": "along with",
+    "meaning": "추가",
+    "core_image": "메인 선물 상자와 함께 리본으로 묶인 세트 선물 패키지",
+    "focus": "주요 대상과 다른 부속 요소를 하나의 세트로 묶어서 함께 동반함을 표현",
+    "examples": [
+      "I brought some sandwiches, along with a bottle of wine"
+    ]
+  },
+  {
+    "id": "d_223",
+    "source": "Dissimilarities",
+    "category": "확신",
+    "word": "indeed",
+    "meaning": "확신",
+    "core_image": "상대의 말에 힘차게 고개를 끄덕이며 내용을 한 단계 더 깊이 파고듦",
+    "focus": "앞선 주장을 적극 긍정하면서 그에 대한 확실하고 깊이 있는 근거를 보탤 때 사용",
+    "examples": [
+      "The simulation results were very promising. Indeed, they were the best we've seen so far."
+    ]
+  },
+  {
+    "id": "d_224",
+    "source": "Dissimilarities",
+    "category": "확신",
+    "word": "certainly",
+    "meaning": "확실히, 틀림없이",
+    "core_image": "안개 하나 없이 100% 맑게 트여 의심의 여지가 전혀 없는 시야",
+    "focus": "한 치의 의심도 없이 100% 확실하고 명백함을 단언할 때 사용",
+    "examples": [
+      "Certainly, we need more data to prove this theory"
+    ]
+  },
+  {
+    "id": "d_225",
+    "source": "Dissimilarities",
+    "category": "확신",
+    "word": "unfailingly",
+    "meaning": "확신",
+    "core_image": "하루도 오차 없이 정각에 종을 치는 스위스 명품 시계의 성실함",
+    "focus": "시간이 흘러도 변치 않고 어김없이, 언제나 100% 정확하게 실행됨을 강조",
+    "examples": [
+      "I want to be a person who does the right things unfailingly"
+    ]
+  },
+  {
+    "id": "d_226",
+    "source": "Dissimilarities",
+    "category": "사실",
+    "word": "actually",
+    "meaning": "사실",
+    "core_image": "상대방의 오해를 살짝 가로막으며 진짜 상황 판을 뒤집어 보여줌",
+    "focus": "상대방이 생각하거나 기대한 바와 실제 사실이 다를 때 부드럽게 정정함",
+    "examples": [
+      "Actually, the experiment took less time than expected"
+    ]
+  },
+  {
+    "id": "d_227",
+    "source": "Dissimilarities",
+    "category": "사실",
+    "word": "in fact",
+    "meaning": "사실",
+    "core_image": "기존 진술 아래에 더 놀랍고 강력한 팩트 카드를 추가로 꺼내놓음",
+    "focus": "앞서 한 말에 대해 더 구체적이거나 놀라운 세부 사실을 덧붙여 강조함",
+    "examples": [
+      "The algorithm is fast. In fact, it's the fastest in the world"
+    ]
+  },
+  {
+    "id": "d_228",
+    "source": "Dissimilarities",
+    "category": "사실",
+    "word": "as a matter of fact",
+    "meaning": "사실",
+    "core_image": "객관적인 기록 장부를 펼쳐 보이며 정중하고 명확하게 사실을 밝힘",
+    "focus": "상대방의 추측을 객관적 사실로 바로잡거나 대화의 팩트 근거를 명확히 제시함",
+    "examples": [
+      "You think I'm tired? As a matter of fact, I feel more energetic now"
+    ]
+  },
+  {
+    "id": "d_229",
+    "source": "Dissimilarities",
+    "category": "사실",
+    "word": "to all intents and purposes",
+    "meaning": "사실",
+    "core_image": "이론상의 미세한 틈은 무시하고 실질적인 결과만 놓고 볼 때 동일함",
+    "focus": "형식적인 차이는 있을지언정 실질적·효과적 관점에서는 완전히 사실상 그러함",
+    "examples": [
+      "To all intents and purposes, the project is already finished"
+    ]
+  },
+  {
+    "id": "d_230",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "dependable",
+    "meaning": "믿음",
+    "core_image": "등을 기대도 절대 무너지지 않는 단단하고 든든한 바위 기둥",
+    "focus": "책임감이 강하여 위기 상황에서도 언제든 믿고 기댈 수 있는 인품",
+    "examples": [
+      "Oscar is a very dependable colleague"
+    ]
+  },
+  {
+    "id": "d_231",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "reliability",
+    "meaning": "믿음",
+    "core_image": "천 번을 가동해도 오차 없이 동일한 성능을 출력하는 기계적 일관성",
+    "focus": "시스템, 데이터, 장비 등이 고장이나 오차 없이 안정적으로 작동하는 신뢰성",
+    "examples": [
+      "We tested the reliability of the AI model"
+    ]
+  },
+  {
+    "id": "d_232",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "trust",
+    "meaning": "믿음",
+    "core_image": "나의 비밀이나 약점을 상대방의 품에 온전히 맡기는 깊은 정서적 유대",
+    "focus": "상대방의 정직함, 성품, 의도를 인간적으로 깊이 신뢰하고 의탁함",
+    "examples": [
+      "I trust you with my secrets"
+    ]
+  },
+  {
+    "id": "d_233",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "believe",
+    "meaning": "믿음",
+    "core_image": "어떤 진술이나 명제가 참(True)이라고 머릿속으로 수용하고 인정함",
+    "focus": "특정 사실이 진실이라고 여기거나 누군가의 잠재력을 긍정적으로 확신함",
+    "examples": [
+      "I believe in you, seojin"
+    ]
+  },
+  {
+    "id": "d_234",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "reckon",
+    "meaning": "믿음",
+    "core_image": "자신의 직관과 통찰력을 바탕으로 계산을 거쳐 결론을 내림",
+    "focus": "자신의 주관적 판단이나 경험적 통찰을 바탕으로 '~라고 생각/추정하다'",
+    "examples": [
+      "I reckon that reinforcement learning is the key to human movement"
+    ]
+  },
+  {
+    "id": "d_235",
+    "source": "Dissimilarities",
+    "category": "믿음",
+    "word": "conviction",
+    "meaning": "믿음",
+    "core_image": "깊은 고민, 검증, 도덕적 판단을 거쳐 단단하게 굳어진 바위 같은 확신",
+    "focus": "절대 흔들리지 않는 굳은 확신. 외부의 압박이나 반대에도 불구하고 타협하지 않고 지켜내는 강한 신념",
+    "examples": [
+      "He argued his case with deep conviction",
+      "It is his firm conviction that hard work always pays off"
+    ]
+  },
+  {
+    "id": "d_236",
+    "source": "Dissimilarities",
+    "category": "조장",
+    "word": "lend encouragement to",
+    "meaning": "조장",
+    "core_image": "타오르는 불길에 기름을 끼얹어 기세를 북돋아 주는 바람",
+    "focus": "특정 행동, 투기, 혹은 태도가 더 기승을 부리도록 부추기거나 조장함",
+    "examples": [
+      "Low interest rates lend encouragement to speculative investments"
+    ]
+  },
+  {
+    "id": "d_237",
+    "source": "Dissimilarities",
+    "category": "해로운",
+    "word": "injurious",
+    "meaning": "해로운",
+    "core_image": "조직을 파괴하고 법적·경제적 권익에 실질적인 상해를 입히는 치명적 독소",
+    "focus": "신체적, 정신적, 법적, 경제적으로 실질적인 손해와 피해를 끼침 (격식체/법률적)",
+    "examples": [
+      "Speculation is injurious to the economy"
+    ]
+  },
+  {
+    "id": "d_238",
+    "source": "Dissimilarities",
+    "category": "해로운",
+    "word": "harmful",
+    "meaning": "해로운",
+    "core_image": "생물체나 환경에 부정적인 영향을 미쳐 건강을 해치는 해로움",
+    "focus": "결과적으로 나쁜 영향을 미쳐 유해함을 나타내는 가장 보편적인 단어",
+    "examples": [
+      "Too much sugar is harmful"
+    ]
+  },
+  {
+    "id": "d_239",
+    "source": "Dissimilarities",
+    "category": "확률",
+    "word": "odds",
+    "meaning": "확률, 승산, 배당률",
+    "core_image": "베팅 판에서 승리와 패배 사이에 걸린 판돈의 유리한 배당 비율",
+    "focus": "도박이나 주식 시장, 경쟁 상황에서 자신에게 승산이 얼마나 유리한가의 비율",
+    "examples": [
+      "The odds are in our favor"
+    ]
+  },
+  {
+    "id": "d_240",
+    "source": "Dissimilarities",
+    "category": "확률",
+    "word": "probability",
+    "meaning": "수학적 확률",
+    "core_image": "0과 1 사이의 수학적 축 위에 계산되어 표기되는 정확한 수치",
+    "focus": "전체 표본 공간 중에서 특정 사건이 일어날 가능성을 정량적 수치로 계산함",
+    "examples": [
+      "The probability of this transition is extremely low"
+    ]
+  },
+  {
+    "id": "d_241",
+    "source": "Dissimilarities",
+    "category": "절차",
+    "word": "proceeding",
+    "meaning": "절차",
+    "core_image": "법정이나 공식 회의에서 의사봉 소리와 함께 진행되는 의사진행 단계",
+    "focus": "공식적인 목적과 절차에 따라 체계적으로 이루어지는 회의나 법적 진행 과정",
+    "examples": [
+      "We watched the proceedings of the meetings"
+    ]
+  },
+  {
+    "id": "d_242",
+    "source": "Dissimilarities",
+    "category": "절차",
+    "word": "practice",
+    "meaning": "절차",
+    "core_image": "이론서의 글자를 벗어나 실제 현장에서 매일 이루어지는 관행적 실행",
+    "focus": "머릿속 이론과 대비되는 실제 현장의 관행, 실제 업무 실행",
+    "examples": [
+      "The theory sounds good, but actually, in practice, it's so difficult that most people fail"
+    ]
+  },
+  {
+    "id": "d_243",
+    "source": "Dissimilarities",
+    "category": "좋은",
+    "word": "good",
+    "meaning": "좋은",
+    "core_image": "내용물과 성능이 결함 없이 제 기능을 완벽히 수행하는 알참",
+    "focus": "품질, 기능, 성능, 도덕적 가치 등이 객관적으로 우수하고 만족스러움",
+    "examples": [
+      "This is a good method for data analysis"
+    ]
+  },
+  {
+    "id": "d_244",
+    "source": "Dissimilarities",
+    "category": "좋은",
+    "word": "nice",
+    "meaning": "좋은",
+    "core_image": "보는 이의 기분을 산뜻하고 쾌적하게 만들어주는 부드러운 분위기",
+    "focus": "겉모습, 태도, 날씨 등이 주는 주관적인 쾌적함과 친절한 느낌",
+    "examples": [
+      "We had a nice conversation"
+    ]
+  },
+  {
+    "id": "d_245",
+    "source": "Dissimilarities",
+    "category": "좋은",
+    "word": "propitious",
+    "meaning": "좋은",
+    "core_image": "순풍이 불어 돛을 올리고 출항하기에 완벽하게 들어맞은 길조",
+    "focus": "새로운 일을 시작하거나 결정을 내리기에 때마침 유리하고 운이 따르는 시기",
+    "examples": [
+      "The time is propitious for his purchase"
+    ]
+  },
+  {
+    "id": "d_246",
+    "source": "Dissimilarities",
+    "category": "확정",
+    "word": "clear",
+    "meaning": "확정",
+    "core_image": "안개가 걷혀 장애물 없이 눈앞이 환하게 트인 맑은 시야",
+    "focus": "이해하기 쉽고 모호함이 없어 누구나 직관적으로 납득할 수 있는 명확함",
+    "examples": [
+      "Your explanation was very clear"
+    ]
+  },
+  {
+    "id": "d_247",
+    "source": "Dissimilarities",
+    "category": "확정",
+    "word": "definitive",
+    "meaning": "확정",
+    "core_image": "더 이상의 수정이 필요 없는 최종 검인(Approved) 도장이 찍힌 정본",
+    "focus": "권위를 지니고 최종적으로 확정되어 더 이상의 이견이나 수정이 불필요함",
+    "examples": [
+      "This is the definitive guide to stock-market speculation"
+    ]
+  },
+  {
+    "id": "d_248",
+    "source": "Dissimilarities",
+    "category": "확정",
+    "word": "conclusive",
+    "meaning": "확정",
+    "core_image": "모든 논란과 의심을 한 방에 종결짓는 결정적인 DNA 증거",
+    "focus": "모든 반론과 논쟁의 여지를 완전히 닫아버리는 결정적인 근거",
+    "examples": [
+      "There is no conclusive line of reasoning to refute this"
+    ]
+  },
+  {
+    "id": "d_249",
+    "source": "Dissimilarities",
+    "category": "의존",
+    "word": "depend on",
+    "meaning": "~에 의존하다, 달려있다",
+    "core_image": "어느 쪽으로 기울지 상대방의 손끝 결정에 매달려 있는 추",
+    "focus": "어떤 결과가 상대방의 조건이나 상황에 의해 전적으로 좌우됨",
+    "examples": [
+      "The accuracy depends on the quality of the kinematics data"
+    ]
+  },
+  {
+    "id": "d_250",
+    "source": "Dissimilarities",
+    "category": "의존",
+    "word": "rely on",
+    "meaning": "~에 기대다, 신뢰하여 의지하다",
+    "core_image": "상대방의 기능과 역할을 믿고 자신의 중요한 업무를 맡김",
+    "focus": "목적을 달성하기 위해 상대의 능력이나 도구에 신뢰를 두고 의지함",
+    "examples": [
+      "We rely on the physics engine for our simulation"
+    ]
+  },
+  {
+    "id": "d_251",
+    "source": "Dissimilarities",
+    "category": "의존",
+    "word": "rest on",
+    "meaning": "~에 기초하다, 의존하다",
+    "core_image": "거대한 석조 건축물이 튼튼한 주춧돌 위에 웅장하게 서 있는 모습",
+    "focus": "이론, 가설, 논거가 특정 원리나 기초 위에 단단히 세워져 있음 (격식체)",
+    "examples": [
+      "His argument rests on the principle of a safety margin"
+    ]
+  },
+  {
+    "id": "d_252",
+    "source": "Dissimilarities",
+    "category": "의존",
+    "word": "turn to",
+    "meaning": "의존",
+    "core_image": "어두운 방에서 도움을 청하기 위해 문 쪽으로 고개를 돌리는 시선",
+    "focus": "어려움에 처했을 때 조언이나 지원을 얻기 위해 특정 대상을 향함",
+    "examples": [
+      "When I have a hard time, I turn to your advice"
+    ]
+  },
+  {
+    "id": "d_253",
+    "source": "Dissimilarities",
+    "category": "의존",
+    "word": "count on",
+    "meaning": "~을 믿다, 기대하다",
+    "core_image": "손가락으로 셈을 하며 상대방이 반드시 도울 것이라고 확신하는 기대",
+    "focus": "상대방이 약속을 지키거나 도와줄 것임을 굳게 믿고 기대함",
+    "examples": [
+      "I am counting on you to finish the simulation"
+    ]
+  },
+  {
+    "id": "d_254",
+    "source": "Dissimilarities",
+    "category": "덩어리",
+    "word": "body",
+    "meaning": "덩어리",
+    "core_image": "눈앞에 만져지고 부피를 가진 거대한 물리적·데이터적 실체",
+    "focus": "방대한 양의 지식, 데이터, 연구 결과가 물리적 실체로서 집적된 덩어리",
+    "examples": [
+      "A large body of research supports this hypothesis"
+    ]
+  },
+  {
+    "id": "d_255",
+    "source": "Dissimilarities",
+    "category": "덩어리",
+    "word": "system",
+    "meaning": "덩어리",
+    "core_image": "여러 개의 기어와 회로가 유기적으로 연결되어 작동하는 체계",
+    "focus": "개별 요소들이 상호작용하며 특정 목적을 수행하는 유기적인 체계",
+    "examples": [
+      "The nervous system coordinates muscle movements"
+    ]
+  },
+  {
+    "id": "d_256",
+    "source": "Dissimilarities",
+    "category": "덩어리",
+    "word": "entity",
+    "meaning": "덩어리",
+    "core_image": "주변 환경과 독립되어 고유한 정체성을 지닌 하나의 독립 개체",
+    "focus": "외부와 구별되는 독립적인 존재성과 기능을 가진 개별 단위",
+    "examples": [
+      "The subsidiary operates as an independent legal entity"
+    ]
+  },
+  {
+    "id": "d_257",
+    "source": "Dissimilarities",
+    "category": "덩어리",
+    "word": "mass",
+    "meaning": "덩어리",
+    "core_image": "특정한 형태 없이 엄청난 무게와 부피만으로 압도하는 큰 덩어리",
+    "focus": "정밀한 구조보다는 막대한 질량과 부피 자체를 지닌 덩어리나 대중",
+    "examples": [
+      "A huge mass of data was collected during the trial"
+    ]
+  },
+  {
+    "id": "d_258",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "substantial",
+    "meaning": "상당한",
+    "core_image": "손에 쥐었을 때 묵직한 실체가 느껴지는 꽉 찬 상당함",
+    "focus": "내용물이나 가치가 가볍지 않고 실질적이며 묵직하게 상당함",
+    "examples": [
+      "We made substantial progress in our simulation"
+    ]
+  },
+  {
+    "id": "d_259",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "significant",
+    "meaning": "상당한",
+    "core_image": "그래프의 통계적 유의미성(p-value)을 가르고 판도를 바꾸는 영향력",
+    "focus": "단순한 양을 넘어 결과의 흐름에 유의미한 변화를 가져올 만큼 중요함",
+    "examples": [
+      "A significant improvement in accuracy was observed"
+    ]
+  },
+  {
+    "id": "d_260",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "considerable",
+    "meaning": "상당한",
+    "core_image": "의사결정 시 머릿속으로 진지하게 고려해봐야 할 만큼 큰 규모",
+    "focus": "무시할 수 없을 정도로 양이나 정도가 꽤 많고 큼",
+    "examples": [
+      "It took a considerable amount of time to calibrate the sensors"
+    ]
+  },
+  {
+    "id": "d_261",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "sizeable",
+    "meaning": "상당한",
+    "core_image": "양손으로 안아야 할 만큼 큼직한 물리적 부피와 크기",
+    "focus": "금액, 지분, 물리적 면적 등의 크기가 꽤 큼직함",
+    "examples": [
+      "He holds a sizeable stake in the company"
+    ]
+  },
+  {
+    "id": "d_262",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "remarkable",
+    "meaning": "상당한",
+    "core_image": "관중들이 감탄사를 터뜨리며 주목하게 만드는 뛰어난 퀄리티",
+    "focus": "놀라움과 감탄을 자아낼 만큼 뛰어난 질적 탁월함",
+    "examples": [
+      "A remarkable achievement in AI research"
+    ]
+  },
+  {
+    "id": "d_263",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "extensive",
+    "meaning": "범위와 지식의 폭이 대단히 넓고 포괄적임",
+    "core_image": "지평선 끝까지 넓게 펼쳐진 광활한 대지의 영역",
+    "focus": "범위와 지식의 폭이 대단히 넓고 포괄적임",
+    "examples": [
+      "Markos has extensive knowledge of kinematics"
+    ]
+  },
+  {
+    "id": "d_264",
+    "source": "Dissimilarities",
+    "category": "상당한",
+    "word": "greatly",
+    "meaning": "상당한",
+    "core_image": "출력 레버를 최대치로 올려 파워를 크게 증폭시키는 모습",
+    "focus": "동사나 형용사의 정도를 '대단히 크게' 강조하는 부사적 수식",
+    "examples": [
+      "The new method greatly reduced the processing time"
+    ]
+  },
+  {
+    "id": "d_265",
+    "source": "Dissimilarities",
+    "category": "수학",
+    "word": "mathematical",
+    "meaning": "수학",
+    "core_image": "미적분, 선형대수, 기하학 등 거대한 수학 체계의 공리와 정리들",
+    "focus": "수학이라는 학문 전체의 논리 구조, 이론적 원리, 추상적 체계",
+    "examples": [
+      "He provided a rigorous mathematical proof"
+    ]
+  },
+  {
+    "id": "d_266",
+    "source": "Dissimilarities",
+    "category": "수학",
+    "word": "arithmetical",
+    "meaning": "수학",
+    "core_image": "주판이나 계산기 위에서 덧셈, 뺄셈, 곱셈, 나눗셈을 두드리는 손가락",
+    "focus": "추상적 이론보다는 사칙연산과 같은 실질적인 수치 계산과 산법",
+    "examples": [
+      "The error was due to a simple arithmetical mistake"
+    ]
+  },
+  {
+    "id": "d_267",
+    "source": "Dissimilarities",
+    "category": "설명",
+    "word": "explain",
+    "meaning": "설명",
+    "core_image": "복잡한 회로도를 가리키며 듣는 사람이 이해하도록 말로 차근차근 풀어내기",
+    "focus": "상대방이 모르는 원인, 이유, 개념을 말이나 글로 풀어 이해시키는 행위",
+    "examples": [
+      "Can you explain the logic behind the RL agent?",
+      "We have seen Don Quixote himself explain to Sancho the privileged part Amadis plays in his life"
+    ]
+  },
+  {
+    "id": "d_268",
+    "source": "Dissimilarities",
+    "category": "설명",
+    "word": "demonstrate",
+    "meaning": "설명",
+    "core_image": "관중 앞에서 로봇을 직접 작동시키며 성능이 진짜임을 눈으로 확인시켜 줌",
+    "focus": "말뿐 아니라 실제 작동 시연이나 객관적 데이터를 통해 사실임을 명백히 입증함",
+    "examples": [
+      "Our results demonstrate that the algorithm is efficient"
+    ]
+  },
+  {
+    "id": "d_269",
+    "source": "Dissimilarities",
+    "category": "종류",
+    "word": "heading",
+    "meaning": "종류",
+    "core_image": "장부나 보고서의 표 상단에 굵은 글씨로 나뉜 분류 표제어",
+    "focus": "문서, 보고서, 회계 체계상 제목 아래에 나누어 놓은 공식적 분류 항목/부문",
+    "examples": [
+      "This stock falls under the heading of 'high growth'"
+    ]
+  },
+  {
+    "id": "d_270",
+    "source": "Dissimilarities",
+    "category": "종류",
+    "word": "kind",
+    "meaning": "종류",
+    "core_image": "사물이 타고난 고유한 성질과 특징에 따라 자연스럽게 갈리는 갈래",
+    "focus": "본질적인 성향, 취향, 자연스러운 특성에 따라 일상적으로 구분하는 종류",
+    "examples": [
+      "What kind of music do you like?"
+    ]
+  },
+  {
+    "id": "d_271",
+    "source": "Dissimilarities",
+    "category": "종류",
+    "word": "category",
+    "meaning": "종류",
+    "core_image": "도서관 서가에 장르별로 정확히 라벨링된 표준 분류 칸막이",
+    "focus": "사회적·학술적 기준에 따라 정형화된 공식 범주 및 체계적 분류",
+    "examples": [
+      "Growth stocks and value stocks are two different categories"
+    ]
+  },
+  {
+    "id": "d_272",
+    "source": "Dissimilarities",
+    "category": "속하다",
+    "word": "come under",
+    "meaning": "속하다",
+    "core_image": "분류표의 특정 대분류 우산 밑으로 걸어 들어가 자리 잡음",
+    "focus": "목록이나 체계에서 특정 제목이나 범주 아래에 정식으로 포함·분류됨",
+    "examples": [
+      "This specific movement comes under the category of active motion"
+    ]
+  },
+  {
+    "id": "d_273",
+    "source": "Dissimilarities",
+    "category": "속하다",
+    "word": "include",
+    "meaning": "포함하다 (부분 요소로서)",
+    "core_image": "전체 울타리 안에 여러 하위 구성원들을 품고 있음",
+    "focus": "전체의 일부분으로서 특정 요소를 구성원으로 포함하고 있음",
+    "examples": [
+      "IGV includes companies like Microsoft and Adobe"
+    ]
+  },
+  {
+    "id": "d_274",
+    "source": "Dissimilarities",
+    "category": "속하다",
+    "word": "contain",
+    "meaning": "담고 있다, 함유하다 (용기/파일 내부)",
+    "core_image": "유리병 속에 물이 가득 담겨 있듯 물리적으로 내부에 들어있음",
+    "focus": "용기나 공간 내부에 물리적/내용물로서 실제로 들어있는 상태",
+    "examples": [
+      "This bottle contains water"
+    ]
+  },
+  {
+    "id": "d_275",
+    "source": "Dissimilarities",
+    "category": "속하다",
+    "word": "fall into",
+    "meaning": "속하다",
+    "core_image": "동전 분류기 구멍을 통해 각 동전이 해당 칸으로 쏙쏙 떨어져 들어감",
+    "focus": "자연스러운 기준이나 속성에 따라 데이터들이 특정 범주로 나뉘어 귀속됨",
+    "examples": [
+      "The experimental data fall into three main categories"
+    ]
+  },
+  {
+    "id": "d_276",
+    "source": "Dissimilarities",
+    "category": "속하다",
+    "word": "belong to",
+    "meaning": "속하다",
+    "core_image": "이름표가 붙어 있어 그 사람이나 그룹의 소유이자 식구임을 선언함",
+    "focus": "누군가의 법적/물리적 소유물이거나 특정 공동체에 깊은 소속감을 가짐",
+    "examples": [
+      "This notebook belongs to Seojin"
+    ]
+  },
+  {
+    "id": "d_277",
+    "source": "Dissimilarities",
+    "category": "읽다",
+    "word": "read",
+    "meaning": "읽다",
+    "core_image": "종이나 화면 위의 글자를 눈으로 훑으며 문맥의 의미를 파악하는 기본 독서",
+    "focus": "텍스트를 읽고 내용을 파악하는 모든 행위를 아우르는 가장 보편적인 단어",
+    "examples": [
+      "I read research papers every morning"
+    ]
+  },
+  {
+    "id": "d_278",
+    "source": "Dissimilarities",
+    "category": "읽다",
+    "word": "peruse",
+    "meaning": "읽다",
+    "core_image": "돋보기를 들고 재무제표의 각주 하나까지 숨소리를 죽이며 꼼꼼히 파고듦",
+    "focus": "세부 사항을 놓치지 않기 위해 아주 깊이 있고 정밀하게 꼼꼼히 숙독·정독함",
+    "examples": [
+      "He perused the company's financial report for hours"
+    ]
+  },
+  {
+    "id": "d_279",
+    "source": "Dissimilarities",
+    "category": "읽다",
+    "word": "scan",
+    "meaning": "읽다",
+    "core_image": "레이더 빔을 빠르게 훑듯이 필요한 핵심 키워드만 번개처럼 포착해내기",
+    "focus": "전체를 다 읽지 않고 필요한 특정 정보나 단어만을 빠르게 훑어 찾음",
+    "examples": [
+      "I scanned the document for any mention of kinase inhibitors"
+    ]
+  },
+  {
+    "id": "d_280",
+    "source": "Dissimilarities",
+    "category": "바닥",
+    "word": "floor",
+    "meaning": "바닥",
+    "core_image": "신발을 벗고 딛는 아늑한 실내 건물의 장판 및 타일 바닥",
+    "focus": "건물이나 방, 실험실 내부의 인공적으로 시공된 실내 바닥",
+    "examples": [
+      "The floor in the lab was clean and polished"
+    ]
+  },
+  {
+    "id": "d_281",
+    "source": "Dissimilarities",
+    "category": "바닥",
+    "word": "ground",
+    "meaning": "바닥",
+    "core_image": "건물 밖으로 나와 발을 딛는 대지의 흙과 자연의 지면",
+    "focus": "건물 외부의 지표면, 대지, 혹은 땅바닥 그 자체",
+    "examples": [
+      "The fallen leaves covered the ground"
+    ]
+  },
+  {
+    "id": "d_282",
+    "source": "Dissimilarities",
+    "category": "바닥",
+    "word": "street",
+    "meaning": "사람과 차량이 통행하는 사회적 통로이자 도로",
+    "core_image": "건물들이 양옆에 늘어서 있고 자동차와 보행자가 오가는 아스팔트 길",
+    "focus": "도시나 마을에서 사람과 차량이 통행하는 사회적 통로이자 도로",
+    "examples": [
+      "I met him on the street in front of the office"
+    ]
+  },
+  {
+    "id": "d_283",
+    "source": "Dissimilarities",
+    "category": "선택",
+    "word": "pick",
+    "meaning": "선택",
+    "core_image": "과일 바구니에서 마음에 드는 사과 하나를 손가락으로 쏙 집어 들기",
+    "focus": "개인적인 직관이나 선호에 따라 가볍게 콕 집어 고르는 행위 (일상적/구어체)",
+    "examples": [
+      "Pick any card you like"
+    ]
+  },
+  {
+    "id": "d_284",
+    "source": "Dissimilarities",
+    "category": "선택",
+    "word": "choose",
+    "meaning": "선택",
+    "core_image": "두세 가지 대안을 머릿속으로 저울질하며 신중하게 결정함",
+    "focus": "여러 대안 중에서 자신의 판단과 의지에 따라 선택하는 가장 보편적인 표현",
+    "examples": [
+      "I chose to focus on biomechanics for my master's thesis"
+    ]
+  },
+  {
+    "id": "d_285",
+    "source": "Dissimilarities",
+    "category": "선택",
+    "word": "select",
+    "meaning": "선택",
+    "core_image": "엄격한 기준표를 들고 가장 우수한 품목만을 엄선하여 분류함",
+    "focus": "명문화된 기준이나 품질에 따라 최고의 것을 신중히 엄선함 (격식체/전문적)",
+    "examples": [
+      "He selected high-grade stocks for his portfolio"
+    ]
+  },
+  {
+    "id": "d_286",
+    "source": "Dissimilarities",
+    "category": "선택",
+    "word": "choice",
+    "meaning": "선택",
+    "core_image": "갈림길 앞에 서서 선택할 수 있는 권리와 최종 결정된 결과물",
+    "focus": "선택하는 행위 그 자체, 선택의 자유/권리, 혹은 선택된 대상물 (명사)",
+    "examples": [
+      "It's your choice",
+      "IGV is a sound choice for long-term investors"
+    ]
+  },
+  {
+    "id": "d_287",
+    "source": "Dissimilarities",
+    "category": "기질",
+    "word": "shrewd",
+    "meaning": "기질",
+    "core_image": "판세를 날카롭게 꿰뚫어 보고 손익을 기민하게 계산하는 눈빛",
+    "focus": "상황 판단이 대단히 빠르고 약삭빠르며 사업이나 투자에서 빈틈이 없음",
+    "examples": [
+      "He is a shrewd investor who never misses an opportunity"
+    ]
+  },
+  {
+    "id": "d_288",
+    "source": "Dissimilarities",
+    "category": "주다",
+    "word": "give",
+    "meaning": "주다",
+    "core_image": "내 손에 있던 물건을 상대방의 손으로 직접 건네주는 전달",
+    "focus": "대상이나 정보를 상대방에게 건네주는 가장 기본적이고 포괄적인 행위",
+    "examples": [
+      "Could you give me some feedback?"
+    ]
+  },
+  {
+    "id": "d_289",
+    "source": "Dissimilarities",
+    "category": "주다",
+    "word": "provide",
+    "meaning": "주다",
+    "core_image": "창고에서 필요한 자재와 도구를 꺼내 작업자에게 공급해 줌",
+    "focus": "상대방에게 필요한 서비스, 정보, 자원을 목적에 맞게 체계적으로 제공함",
+    "examples": [
+      "The company provides software services"
+    ]
+  },
+  {
+    "id": "d_290",
+    "source": "Dissimilarities",
+    "category": "주다",
+    "word": "afford",
+    "meaning": "주다",
+    "core_image": "특정 구조나 환경이 문을 열어주어 특별한 혜택과 기회를 누릴 수 있게 해줌",
+    "focus": "주어가 대상에게 가치 있는 기회, 혜택, 안전 마진 등을 부여·허락해 줌 (격조 높은 표현)",
+    "examples": [
+      "The low price affords a margin of safety",
+      "Loneliness affords me the opportunity to grow my career"
+    ]
+  },
+  {
+    "id": "d_291",
+    "source": "Dissimilarities",
+    "category": "주다",
+    "word": "transmit",
+    "meaning": "주다",
+    "core_image": "안테나를 통해 전파나 전기 신호가 보이지 않는 통로를 거쳐 수신기로 뻗어나감",
+    "focus": "신호, 데이터, 질병 등이 매개체를 통해 상대방이나 시스템으로 전송됨",
+    "examples": [
+      "The sensor transmits kinematics data to the server"
+    ]
+  },
+  {
+    "id": "d_292",
+    "source": "Dissimilarities",
+    "category": "대신하다, 대체하다",
+    "word": "replace",
+    "meaning": "대신하다, 대체하다",
+    "core_image": "고장 난 낡은 부품을 빼내고 그 자리에 정상적인 새 부품을 끼워 넣기",
+    "focus": "기존의 대상을 치우고 새로운 것으로 교체하는 가장 표준적인 대체",
+    "examples": [
+      "I need to replace the old sensor with a new one"
+    ]
+  },
+  {
+    "id": "d_293",
+    "source": "Dissimilarities",
+    "category": "대신하다, 대체하다",
+    "word": "supersede",
+    "meaning": "대신하다, 대체하다",
+    "core_image": "압도적으로 뛰어난 차세대 신기술이 등장하여 구세대의 유물을 완전히 밀어냄",
+    "focus": "더 우월하고 진보된 것이 나타나 기존의 것을 구식으로 만들며 자리를 대신함",
+    "examples": [
+      "This new RL algorithm will supersede the previous model"
+    ]
+  },
+  {
+    "id": "d_294",
+    "source": "Dissimilarities",
+    "category": "대신하다, 대체하다",
+    "word": "substitute",
+    "meaning": "대신하다, 대체하다",
+    "core_image": "원래 쓰던 주전 선수가 다쳤을 때 벤치에 있던 대기 선수가 임시로 투입됨",
+    "focus": "원래의 것이 없을 때 비슷한 기능을 하는 다른 것으로 임시 대용·대체함",
+    "examples": [
+      "I used honey as a substitute for sugar"
+    ]
+  },
+  {
+    "id": "d_295",
+    "source": "Dissimilarities",
+    "category": "고통",
+    "word": "have a hard time",
+    "meaning": "고통",
+    "core_image": "가파른 진흙길을 오르며 땀을 뻘뻘 흘리고 애를 먹는 힘든 상태",
+    "focus": "어떤 일을 수행하는 과정이 몹시 힘들고 고생스러움을 편안하게 표현",
+    "examples": [
+      "I had a hard time opening my account in the app"
+    ]
+  },
+  {
+    "id": "d_296",
+    "source": "Dissimilarities",
+    "category": "고통",
+    "word": "struggle with",
+    "meaning": "고통",
+    "core_image": "거대한 괴물과 뒤엉켜 쓰러지지 않으려고 온 힘을 다해 버티는 고군분투",
+    "focus": "어려운 과제나 수학적 난제를 해결하기 위해 필사적으로 씨름하고 있음",
+    "examples": [
+      "I'm struggling with a complex mathematical proof"
+    ]
+  },
+  {
+    "id": "d_297",
+    "source": "Dissimilarities",
+    "category": "고통",
+    "word": "suffer from",
+    "meaning": "고통",
+    "core_image": "만성 질환의 통증이나 깊은 불면증의 그늘 속에서 신음하는 깊은 고통",
+    "focus": "질병, 트라우마, 지속적인 고난으로 인해 심신이 심각하게 고통받고 앓음",
+    "examples": [
+      "I suffer from insomnia really badly, so I need to go to see a doctor to get prescribed sleeping pills"
+    ]
+  },
+  {
+    "id": "d_298",
+    "source": "Dissimilarities",
+    "category": "노력",
+    "word": "try to",
+    "meaning": "~하려고 노력하다/애쓰다",
+    "core_image": "목표를 향해 화살을 겨누고 온 신경을 집중해 시도하는 행위",
+    "focus": "무언가를 이루기 위해 에너지를 쏟아 직접 시도하고 노력함",
+    "examples": [
+      "I try to understand the mathematical derivation"
+    ]
+  },
+  {
+    "id": "d_299",
+    "source": "Dissimilarities",
+    "category": "노력",
+    "word": "bring to bear upon",
+    "meaning": "노력",
+    "core_image": "보유한 모든 대포와 화력을 총동원하여 하나의 방어벽에 집중 포화함",
+    "focus": "자신이 가진 모든 지식, 역량, 자질을 특정 과제에 전면 동원하여 쏟아부음 (학술/격식체)",
+    "examples": [
+      "Fortunately for the typical investor, it is by no means necessary for his success that he bring these qualities to bear upon his program"
+    ]
+  },
+  {
+    "id": "d_300",
+    "source": "Dissimilarities",
+    "category": "노력",
+    "word": "put in",
+    "meaning": "노력",
+    "core_image": "저금통에 동전을 차곡차곡 넣듯 프로젝트 상자 안에 시간과 땀방울을 투입함",
+    "focus": "특정 작업의 완성을 위해 정량적인 시간과 노력을 쏟아붓는 투입에 초점",
+    "examples": [
+      "I put in a lot of hours to finish this project",
+      "She put in 14 hours of practice and training every day for dozens of years"
+    ]
+  },
+  {
+    "id": "d_301",
+    "source": "Dissimilarities",
+    "category": "노력",
+    "word": "give",
+    "meaning": "노력",
+    "core_image": "마지막 한 방울의 에너지까지 아낌없이 무대 위에 쏟아내어 바침",
+    "focus": "자신이 발휘할 수 있는 최대치의 역량과 정성을 다 바쳐 쏟아냄",
+    "examples": [
+      "My performance was the best I could have given"
+    ]
+  },
+  {
+    "id": "d_302",
+    "source": "Dissimilarities",
+    "category": "상품권",
+    "word": "voucher",
+    "meaning": "상품권",
+    "core_image": "특정 서비스(호텔 숙박, 식사 등)를 무료나 할인으로 이용할 수 있는 인증 쿠폰",
+    "focus": "지정된 특정 상품이나 서비스로 교환받을 수 있도록 가치를 보증하는 교환권",
+    "examples": [
+      "I received a travel voucher for the delayed flight"
+    ]
+  },
+  {
+    "id": "d_303",
+    "source": "Dissimilarities",
+    "category": "상품권",
+    "word": "gift card",
+    "meaning": "상품권",
+    "core_image": "특정 브랜드 매장에서 현금처럼 긁어서 결제할 수 있는 충전식 마그네틱 카드",
+    "focus": "정해진 금액 한도 내에서 자유롭게 물건을 구매할 수 있는 선불 충전식 카드",
+    "examples": [
+      "He gave me a 50-dollar Starbucks gift card"
+    ]
+  },
+  {
+    "id": "d_304",
+    "source": "Dissimilarities",
+    "category": "대비",
+    "word": "just in case",
+    "meaning": "대비",
+    "core_image": "혹시 비가 올지 몰라 가방 구석에 가볍게 넣어둔 3단 우산",
+    "focus": "만약의 사태나 막연한 불안에 대비하여 포괄적으로 취해두는 대비책",
+    "examples": [
+      "I asked for a receipt just in case my friend wanted to exchange it because it didn't fit"
+    ]
+  },
+  {
+    "id": "d_305",
+    "source": "Dissimilarities",
+    "category": "대비",
+    "word": "in the event of",
+    "meaning": "대비",
+    "core_image": "비상구 벽면에 부착된 화재 발생 시 공식 행동 매뉴얼",
+    "focus": "특정 중대 사건이나 비상사태가 실제로 발생할 때를 대비한 공식 지침",
+    "examples": [
+      "Instructions in the event of an emergency are posted on the wall"
+    ]
+  },
+  {
+    "id": "d_306",
+    "source": "Dissimilarities",
+    "category": "대비",
+    "word": "to be on the safe side",
+    "meaning": "대비",
+    "core_image": "돌다리도 두드려보고 건너듯 가장 위험이 없는 안전한 경로를 선택하기",
+    "focus": "여러 선택지 중 실수를 방지하고 가장 확실하게 안전을 확보하기 위한 조치",
+    "examples": [
+      "I'll set a stop-loss order, just to be on the safe side"
+    ]
+  },
+  {
+    "id": "d_307",
+    "source": "Dissimilarities",
+    "category": "대비",
+    "word": "as a precaution",
+    "meaning": "대비",
+    "core_image": "공사 현장에 들어가기 전 머리에 단단히 착용하는 안전모",
+    "focus": "예상되는 잠재적 사고나 위험을 미연에 방지하기 위한 예방적 방어막",
+    "examples": [
+      "I attached my funding letter as a precaution"
+    ]
+  },
+  {
+    "id": "d_308",
+    "source": "Dissimilarities",
+    "category": "명품",
+    "word": "a designer bag",
+    "meaning": "명품",
+    "core_image": "유명 패션 하우스의 수석 디자이너가 정교하게 디자인한 고급 가방",
+    "focus": "유명 패션 브랜드 디자이너가 제작한 고가의 가방을 구체적으로 가리킴",
+    "examples": [
+      "She bought a designer bag in Paris"
+    ]
+  },
+  {
+    "id": "d_309",
+    "source": "Dissimilarities",
+    "category": "명품",
+    "word": "a label",
+    "meaning": "명품",
+    "core_image": "옷깃 뒤에 박힌 유명 브랜드의 명품 라벨 태그",
+    "focus": "이름만 들어도 알 수 있는 유명 명품 브랜드를 지칭하는 대유적 표현",
+    "examples": [
+      "I got a label from a person I don't really know which actually made me feel uncomfortable"
+    ]
+  },
+  {
+    "id": "d_310",
+    "source": "Dissimilarities",
+    "category": "돈",
+    "word": "salary",
+    "meaning": "돈",
+    "core_image": "연간 고용 계약서에 명시된 나의 전문적 시장 가치와 연봉 총액",
+    "focus": "전문직이나 정규직 직무에 대해 연간 단위로 책정된 고정 급여의 개념",
+    "examples": [
+      "I hope to get a high salary at DeepMind"
+    ]
+  },
+  {
+    "id": "d_311",
+    "source": "Dissimilarities",
+    "category": "돈",
+    "word": "payroll",
+    "meaning": "돈",
+    "core_image": "회사의 회계 장부에 등록된 전 직원 급여 지급 명부와 시스템",
+    "focus": "기업의 공식 급여 지급 시스템, 재직자 급여 명부 그 자체",
+    "examples": [
+      "I am on the payroll of the research institute",
+      "Please update your payroll account"
+    ]
+  },
+  {
+    "id": "d_312",
+    "source": "Dissimilarities",
+    "category": "돈",
+    "word": "paycheck",
+    "meaning": "돈",
+    "core_image": "매월 지정일에 내 은행 계좌로 실제로 꽂히는 실수령 월급",
+    "focus": "생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈",
+    "examples": [
+      "I'm waiting for my next paycheck to buy some stocks"
+    ]
+  },
+  {
+    "id": "d_313",
+    "source": "Dissimilarities",
+    "category": "manner",
+    "word": "manner",
+    "meaning": "manner",
+    "core_image": "어떤 과제를 처리하는 독특한 작업 방식이나 스타일의 양식",
+    "focus": "단수로 쓰여 일이나 행동을 처리하는 구체적인 '방식, 양식, 태도'를 의미",
+    "examples": [
+      "I filled out the form in that manner"
+    ]
+  },
+  {
+    "id": "d_314",
+    "source": "Dissimilarities",
+    "category": "manner",
+    "word": "manners",
+    "meaning": "manner",
+    "core_image": "식탁에서 예의 바르게 포크를 쥐고 어른을 공경하는 사회적 에티켓",
+    "focus": "복수형(-s)으로 쓰여 타인을 배려하는 '예의범절, 에티켓'을 가리킴",
+    "examples": [
+      "He has good manners"
+    ]
+  },
+  {
+    "id": "d_315",
+    "source": "Dissimilarities",
+    "category": "manner",
+    "word": "conduct",
+    "meaning": "manner",
+    "core_image": "공직자나 연구자가 지켜야 할 일생의 도덕적 품행과 처신",
+    "focus": "도덕적·윤리적 기준에 비추어 평가되는 전반적인 품행과 공식적 처신",
+    "examples": [
+      "The code of conduct applies to all researchers in the lab"
+    ]
+  },
+  {
+    "id": "d_316",
+    "source": "Dissimilarities",
+    "category": "목표",
+    "word": "under the banner of",
+    "meaning": "목표",
+    "core_image": "선두에서 펄럭이는 깃발 아래 모든 군사들이 하나의 신념으로 집결함",
+    "focus": "특정한 대의명분, 이념, 혹은 조직의 기치를 내걸고 활동함을 뜻함",
+    "examples": [
+      "We fight under the banner of science and truth"
+    ]
+  },
+  {
+    "id": "d_317",
+    "source": "Dissimilarities",
+    "category": "호출",
+    "word": "call",
+    "meaning": "호출",
+    "core_image": "목소리를 높여 누군가의 이름을 직접 부르는 단순한 호출",
+    "focus": "사람이나 함수를 부르는 가장 기본적이고 직접적인 호출",
+    "examples": [
+      "Please call me when you arrive"
+    ]
+  },
+  {
+    "id": "d_318",
+    "source": "Dissimilarities",
+    "category": "호출",
+    "word": "invoke",
+    "meaning": "호출",
+    "core_image": "시스템의 숨겨진 백엔드 엔진이나 법적 권리를 정식으로 가동시킴",
+    "focus": "권리, 복잡한 시스템 메커니즘, API 등을 정식으로 발동하고 가동시킴",
+    "examples": [
+      "The API is invoked to handle kinematics data"
+    ]
+  },
+  {
+    "id": "d_319",
+    "source": "Dissimilarities",
+    "category": "핵심",
+    "word": "essential",
+    "meaning": "핵심",
+    "core_image": "생명체의 심장처럼 그것이 없으면 전체가 무너지는 본질적 요소",
+    "focus": "사물의 본질을 구성하여 절대 빠뜨릴 수 없는 필수불가결한 핵심",
+    "examples": [
+      "Mathematics is essential for understanding deep learning"
+    ]
+  },
+  {
+    "id": "d_320",
+    "source": "Dissimilarities",
+    "category": "지칭",
+    "word": "mention",
+    "meaning": "지칭",
+    "core_image": "지나가는 대화 중에 이름표 하나를 가볍게 툭 던지듯 입에 올림",
+    "focus": "심층적인 설명 없이 대화나 글 속에서 짧고 가볍게 언급함",
+    "examples": [
+      "He mentioned your name during the meeting"
+    ]
+  },
+  {
+    "id": "d_321",
+    "source": "Dissimilarities",
+    "category": "지칭",
+    "word": "refer to",
+    "meaning": "지칭",
+    "core_image": "손가락으로 특정 조항이나 대상을 흔들림 없이 가리키는 지목",
+    "focus": "정의를 내리거나 정보의 출처를 밝히기 위해 명확하고 구체적으로 지칭함",
+    "examples": [
+      "The triangular desire refers to the relationship between subject, model, and object"
+    ]
+  },
+  {
+    "id": "d_322",
+    "source": "Dissimilarities",
+    "category": "지칭",
+    "word": "allude to",
+    "meaning": "지칭",
+    "core_image": "그림자만 살짝 비추며 수수께끼처럼 힌트만 던지는 은밀한 암시",
+    "focus": "직접 이름을 말하지 않고 비유나 힌트를 통해 간접적으로 넌지시 암시함",
+    "examples": [
+      "He alluded to his problems without explaining them"
+    ]
+  },
+  {
+    "id": "d_323",
+    "source": "Dissimilarities",
+    "category": "논쟁",
+    "word": "argument",
+    "meaning": "논쟁",
+    "core_image": "자신의 주장을 떠받치는 탄탄한 논리적 근거와 증명 기둥",
+    "focus": "주장을 뒷받침하기 위해 제시하는 논리적 이유, 논거 그 자체",
+    "examples": [
+      "His argument for the new RL model is very sound"
+    ]
+  },
+  {
+    "id": "d_324",
+    "source": "Dissimilarities",
+    "category": "논쟁",
+    "word": "contention",
+    "meaning": "논쟁",
+    "core_image": "양측이 팽팽하게 대립하는 전선의 중심에 놓인 핵심 쟁점",
+    "focus": "치열한 논쟁의 중심이 되는 핵심 주장 및 의견이 대립하는 쟁점",
+    "examples": [
+      "It is my contention that kinematics data can predict intent"
+    ]
+  },
+  {
+    "id": "d_325",
+    "source": "Dissimilarities",
+    "category": "시작",
+    "word": "incipient",
+    "meaning": "시작",
+    "core_image": "갓 돋아난 새싹처럼 이제 막 태동하기 시작하여 형태를 갖추는 단계",
+    "focus": "초기 단계에 접어들어 이제 막 시작되고 눈에 띄기 시작하는 상태 (학술/격식체)",
+    "examples": [
+      "We detected the incipient signs of system failure"
+    ]
+  },
+  {
+    "id": "d_326",
+    "source": "Dissimilarities",
+    "category": "속이다",
+    "word": "disguise",
+    "meaning": "속이다",
+    "core_image": "가면을 쓰고 의상을 바꾸어 본래의 정체를 완전히 숨김",
+    "focus": "진짜 본질이나 정체를 감추기 위해 외양이나 형태를 위장하여 속임",
+    "examples": [
+      "The value of a critical thought depends not on how cleverly it manages to disguise its own systematic nature or on how many fundamental issues it manages to shirk or to dissolve but on how much literary substance it really embraces, comprehends, and makes articulate"
+    ]
+  },
+  {
+    "id": "d_327",
+    "source": "Dissimilarities",
+    "category": "낭비",
+    "word": "waste",
+    "meaning": "낭비",
+    "core_image": "사용하지 않고 쓰레기통에 그대로 버려져 썩어가는 음식물",
+    "focus": "시간, 돈, 자원을 유용하게 쓰지 않고 헛되이 낭비하거나 버리는 가장 일반적인 표현",
+    "examples": [
+      "Don't waste your time on trivial matters"
+    ]
+  },
+  {
+    "id": "d_328",
+    "source": "Dissimilarities",
+    "category": "낭비",
+    "word": "squander",
+    "meaning": "낭비",
+    "core_image": "상속받은 거액의 재산을 카지노에서 탕진하듯 흥청망청 날려버림",
+    "focus": "소중한 기회, 막대한 재산, 재능을 무모하고 어리석게 완전히 탕진하여 날려버림 (강한 비판)",
+    "examples": [
+      "He squandered his talent and fortune on reckless bets"
+    ]
+  },
+  {
+    "id": "d_329",
+    "source": "Dissimilarities",
+    "category": "성향",
+    "word": "disposition",
+    "meaning": "성향",
+    "core_image": "사람의 내면에 깔려 있는 온화하거나 냉철한 성격의 기본 밑바탕",
+    "focus": "개인이 타고난 성격적 기질, 태도, 사물을 대하는 전반적인 심리적 경향",
+    "examples": [
+      "He has a cheerful and calm disposition"
+    ]
+  },
+  {
+    "id": "d_330",
+    "source": "Dissimilarities",
+    "category": "성향",
+    "word": "temperament",
+    "meaning": "성향",
+    "core_image": "자극을 받았을 때 감정과 흥분이 끓어오르는 반응의 온도계",
+    "focus": "유전적·생물학적으로 타고난 감정적 반응 양식과 기질 (다혈질, 침착함 등)",
+    "examples": [
+      "An artistic temperament often requires emotional sensitivity"
+    ]
+  },
+  {
+    "id": "d_331",
+    "source": "Dissimilarities",
+    "category": "성향",
+    "word": "propensity",
+    "meaning": "성향",
+    "core_image": "특정 행동이나 실수를 저지르는 방향으로 자꾸만 기우는 습관의 경사면",
+    "focus": "특정한 행동 방식(특히 부정적이거나 본능적인 경향)으로 쏠리기 쉬운 성향",
+    "examples": [
+      "He has a propensity to overthink simple problems"
+    ]
+  },
+  {
+    "id": "d_332",
+    "source": "Dissimilarities",
+    "category": "성향",
+    "word": "predilection",
+    "meaning": "성향",
+    "core_image": "여러 선택지 중 유독 특정 스타일의 요리나 예술에 끌리는 편애의 입맛",
+    "focus": "특정한 대상을 특별히 더 좋아하고 선호하는 주관적 취향과 편애 (격식체)",
+    "examples": [
+      "She has a predilection for classical literature"
+    ]
+  },
+  {
+    "id": "d_333",
+    "source": "Dissimilarities",
+    "category": "평가",
+    "word": "evaluate",
+    "meaning": "평가",
+    "core_image": "알고리즘의 성능 지표표를 펼쳐놓고 수치와 품질을 다각도로 종합 판정함",
+    "focus": "정해진 기준과 수집된 데이터를 바탕으로 대상의 가치나 성과를 체계적으로 종합 평가함",
+    "examples": [
+      "We need to evaluate the accuracy of the neural network"
+    ]
+  },
+  {
+    "id": "d_334",
+    "source": "Dissimilarities",
+    "category": "평가",
+    "word": "assess",
+    "meaning": "평가",
+    "core_image": "손상된 건물 주변을 둘러보며 수리 비용과 위험도를 정밀하게 산출함",
+    "focus": "위험도, 피해액, 세금, 능력 등의 상태와 영향을 정밀하게 가늠하고 진단함",
+    "examples": [
+      "The engineers assessed the potential risks of the system"
+    ]
+  },
+  {
+    "id": "d_335",
+    "source": "Dissimilarities",
+    "category": "평가",
+    "word": "appraise",
+    "meaning": "평가",
+    "core_image": "보석 감정사가 루페 돋보기를 눈에 대고 다이아몬드의 시가를 감정함",
+    "focus": "골동품, 부동산, 보석 등의 공식적인 경제적 가치나 시세를 전문적으로 감정·평가함",
+    "examples": [
+      "The antique watch was appraised at five thousand dollars"
+    ]
+  },
+  {
+    "id": "d_336",
+    "source": "Dissimilarities",
+    "category": "평가",
+    "word": "estimate",
+    "meaning": "평가",
+    "core_image": "도면을 보며 대략적인 건축 자재 수량과 공사 기간을 어림잡아 계산함",
+    "focus": "완벽한 수치가 나오기 전 대략적인 수량, 비용, 시간을 개략적으로 추정·견적함",
+    "examples": [
+      "We estimate that the project will take six months to finish"
+    ]
+  },
+  {
+    "id": "d_337",
+    "source": "Dissimilarities",
+    "category": "평가",
+    "word": "judge",
+    "meaning": "평가",
+    "core_image": "판사가 법대 위에서 법률과 도덕적 잣대로 옳고 그름을 최종 판정함",
+    "focus": "주관적 판단이나 도덕적/법적 기준에 따라 대상의 시비나 적합성을 판단함",
+    "examples": [
+      "Don't judge a book by its cover"
+    ]
+  },
+  {
+    "id": "d_338",
+    "source": "Dissimilarities",
+    "category": "기회",
+    "word": "opportunity",
+    "meaning": "기회",
+    "core_image": "자신의 성장과 발전을 위해 활짝 열린 가능성의 관문",
+    "focus": "목표를 이루거나 경력을 발전시키기에 유리하게 주어지는 긍정적인 발전 기회",
+    "examples": [
+      "Studying at EPFL is a great opportunity for me"
+    ]
+  },
+  {
+    "id": "d_339",
+    "source": "Dissimilarities",
+    "category": "기회",
+    "word": "chance",
+    "meaning": "기회, 가능성",
+    "core_image": "주사위를 던져 6이 나오기를 기대하는 운과 확률의 우연한 만남",
+    "focus": "운이나 우연에 의해 찾아온 가능성, 혹은 어떤 일이 일어날 확률적 기회",
+    "examples": [
+      "Take a chance and apply for the position"
+    ]
+  },
+  {
+    "id": "d_340",
+    "source": "Dissimilarities",
+    "category": "기회",
+    "word": "occasion",
+    "meaning": "기회",
+    "core_image": "결혼식이나 개막식처럼 특별한 의미를 지닌 행사와 기념의 날",
+    "focus": "특정한 사건이나 의식이 열리는 특별한 시점, 행사, 혹은 계기",
+    "examples": [
+      "The graduation ceremony was a very special occasion"
+    ]
+  },
+  {
+    "id": "d_341",
+    "source": "Dissimilarities",
+    "category": "변화",
+    "word": "change",
+    "meaning": "변하다, 바꾸다",
+    "core_image": "빨간 신호등이 파란불로 바뀌듯 상태가 달라지는 가장 보편적인 전환",
+    "focus": "형태, 상태, 조건 등이 달라지는 모든 변화를 포괄하는 기본 단어",
+    "examples": [
+      "The climate is beginning to change rapidly"
+    ]
+  },
+  {
+    "id": "d_342",
+    "source": "Dissimilarities",
+    "category": "변화",
+    "word": "transform",
+    "meaning": "변형시키다, 탈바꿈하다",
+    "core_image": "애벌레가 고치를 찢고 화려한 나비로 탈바꿈하는 근본적 변신",
+    "focus": "외형, 구조, 성격이 완전히 다른 새로운 차원으로 근본적·극적으로 탈바꿈함",
+    "examples": [
+      "Deep learning transformed the field of computer vision"
+    ]
+  },
+  {
+    "id": "d_343",
+    "source": "Dissimilarities",
+    "category": "변화",
+    "word": "shift",
+    "meaning": "변화",
+    "core_image": "무게중심이나 렌즈의 초점이 한 위치에서 다른 위치로 슥 이동함",
+    "focus": "관점, 무게중심, 패러다임, 방향성이 미묘하거나 뚜렷하게 다른 쪽으로 이동함",
+    "examples": [
+      "The company shifted its focus from hardware to software"
+    ]
+  },
+  {
+    "id": "d_344",
+    "source": "Dissimilarities",
+    "category": "변화",
+    "word": "mutate",
+    "meaning": "변화",
+    "core_image": "DNA 염기서열의 변형으로 인해 생물학적 구조가 돌연변이를 일으킴",
+    "focus": "유전적·구조적 결함이나 환경 영향으로 인해 원래 형태와 다르게 변이·돌연변이함",
+    "examples": [
+      "The virus mutated into a more contagious strain"
+    ]
+  },
+  {
+    "id": "d_345",
+    "source": "Dissimilarities",
+    "category": "불평",
+    "word": "complain",
+    "meaning": "불평",
+    "core_image": "식당에서 음식이 식었다며 지배인에게 직접 불만을 제기하는 대화",
+    "focus": "마음에 들지 않는 상황이나 서비스에 대해 불만이나 고통을 직접 표현함",
+    "examples": [
+      "He complained about the noisy environment in the office"
+    ]
+  },
+  {
+    "id": "d_346",
+    "source": "Dissimilarities",
+    "category": "불평",
+    "word": "grumble",
+    "meaning": "불평",
+    "core_image": "불만을 밖으로 크게 말하지 못하고 입안에서 투덜투덜 궁시렁거림",
+    "focus": "낮은 목소리로 불만을 억누르며 혼잣말처럼 툴툴거리고 투덜댐",
+    "examples": [
+      "She grumbled about having to work late on Friday"
+    ]
+  },
+  {
+    "id": "d_347",
+    "source": "Dissimilarities",
+    "category": "불평",
+    "word": "whine",
+    "meaning": "불평",
+    "core_image": "아이가 장난감을 사달라며 징징거리고 칭얼대는 콧소리",
+    "focus": "듣기 싫은 고음이나 징징대는 어조로 짜증스럽게 하소연하고 칭얼댐",
+    "examples": [
+      "Stop whining about the small problems and focus on the solution"
+    ]
+  },
+  {
+    "id": "d_348",
+    "source": "Dissimilarities",
+    "category": "공간",
+    "word": "space",
+    "meaning": "공간",
+    "core_image": "사방으로 끝없이 펼쳐진 물리적·수학적 3차원 빈 공간",
+    "focus": "물건을 배치하거나 이동할 수 있는 물리적·기하학적 여유 공간 전체",
+    "examples": [
+      "There is not enough space on my desk for two monitors"
+    ]
+  },
+  {
+    "id": "d_349",
+    "source": "Dissimilarities",
+    "category": "공간",
+    "word": "room",
+    "meaning": "공간",
+    "core_image": "가방 안에 짐을 더 넣을 수 있도록 남아 있는 실질적인 빈자리",
+    "focus": "특정 목적을 수용하거나 확장할 수 있는 여유 여지나 가용 여분 (불가산)",
+    "examples": [
+      "There is always room for improvement"
+    ]
+  },
+  {
+    "id": "d_350",
+    "source": "Dissimilarities",
+    "category": "원인",
+    "word": "cause",
+    "meaning": "원인",
+    "core_image": "첫 번째 도미노를 넘어뜨려 전체 연쇄 반응을 일으키는 직접적 시발점",
+    "focus": "특정 결과나 사건을 직접적으로 초래한 객관적 원인 (인과관계의 Cause)",
+    "examples": [
+      "The heavy rain was the main cause of the flood"
+    ]
+  },
+  {
+    "id": "d_351",
+    "source": "Dissimilarities",
+    "category": "원인",
+    "word": "reason",
+    "meaning": "원인",
+    "core_image": "머릿속으로 납득하고 타인에게 설명할 수 있는 합리적 동기와 이유",
+    "focus": "어떤 행동이나 판단을 내리게 된 지적·심리적 배경과 설명 가능한 동기",
+    "examples": [
+      "Give me one good reason why we should change the plan"
+    ]
+  },
+  {
+    "id": "d_352",
+    "source": "Dissimilarities",
+    "category": "상황",
+    "word": "situation",
+    "meaning": "상황",
+    "core_image": "주변의 여러 사건과 이해관계가 얽혀 만들어낸 현재의 형세 판도",
+    "focus": "특정 시점에 일어나는 일련의 복합적 사건들이 만들어낸 총체적 상황",
+    "examples": [
+      "We must adapt quickly to the current situation"
+    ]
+  },
+  {
+    "id": "d_353",
+    "source": "Dissimilarities",
+    "category": "상황",
+    "word": "condition",
+    "meaning": "상황",
+    "core_image": "기계의 마모 상태나 환자의 혈압 수치 등 대상이 놓인 상태 지표",
+    "focus": "사물, 환경, 신체의 현재 물리적·기능적 상태나 충족되어야 할 조건",
+    "examples": [
+      "The experimental equipment is in excellent condition"
+    ]
+  },
+  {
+    "id": "d_354",
+    "source": "Dissimilarities",
+    "category": "상황",
+    "word": "circumstance",
+    "meaning": "상황",
+    "core_image": "주인공을 둘러싸고 있는 통제 불가능한 주변 외적 환경 요인들",
+    "focus": "개인의 의지와 무관하게 외부에 둘러싸여 영향을 미치는 환경적 정황 (주로 복수형)",
+    "examples": [
+      "Under no circumstances should you share confidential data"
+    ]
+  },
+  {
+    "id": "d_355",
+    "source": "Dissimilarities",
+    "category": "영향",
+    "word": "effect",
+    "meaning": "영향",
+    "core_image": "약을 복용한 후 통증이 사라지며 나타나는 직접적인 약효 결과",
+    "focus": "원인에 의해 직접적으로 도출된 구체적인 변화와 최종 결과 (명사)",
+    "examples": [
+      "The new policy had an immediate effect on sales"
+    ]
+  },
+  {
+    "id": "d_356",
+    "source": "Dissimilarities",
+    "category": "영향",
+    "word": "influence",
+    "meaning": "영향",
+    "core_image": "스승의 가르침이 제자의 가치관에 은은하게 스며드는 점진적 감화",
+    "focus": "강제력 없이 생각, 태도, 행동에 서서히 미치는 무형의 영향력",
+    "examples": [
+      "His mentor had a profound influence on his scientific career"
+    ]
+  },
+  {
+    "id": "d_357",
+    "source": "Dissimilarities",
+    "category": "영향",
+    "word": "impact",
+    "meaning": "영향",
+    "core_image": "운석이 지면에 충돌하여 거대한 크레이터를 남기는 강력한 충격파",
+    "focus": "사회, 기술, 경제 전반에 강력하고 뚜렷한 파급력을 남기는 중대한 충격",
+    "examples": [
+      "Artificial intelligence will have a massive impact on the future"
+    ]
+  },
+  {
+    "id": "d_358",
+    "source": "Dissimilarities",
+    "category": "제안",
+    "word": "suggest",
+    "meaning": "제안",
+    "core_image": "차 한잔하며 조심스럽게 '이런 방법은 어때?' 하고 아이디어를 띄움",
+    "focus": "상대방이 편안하게 검토할 수 있도록 부드럽고 완곡하게 의견을 제안함",
+    "examples": [
+      "I suggest that we test the model with a smaller dataset first"
+    ]
+  },
+  {
+    "id": "d_359",
+    "source": "Dissimilarities",
+    "category": "제안",
+    "word": "propose",
+    "meaning": "제안",
+    "core_image": "이사회 회의실에서 정식 프로젝트 기획안을 스크린에 띄우고 발표함",
+    "focus": "공식적인 채택이나 승인을 목적으로 체계적인 계획을 정식 제안함",
+    "examples": [
+      "The committee proposed a new set of safety regulations"
+    ]
+  },
+  {
+    "id": "d_360",
+    "source": "Dissimilarities",
+    "category": "제안",
+    "word": "recommend",
+    "meaning": "제안",
+    "core_image": "자신이 직접 써보고 너무 만족하여 지인에게 강력히 권하는 보증",
+    "focus": "자신의 경험이나 전문적 지식을 바탕으로 가장 최선의 선택지를 추천함",
+    "examples": [
+      "I highly recommend this book for beginners in machine learning"
+    ]
+  },
+  {
+    "id": "d_361",
+    "source": "Dissimilarities",
+    "category": "결정",
+    "word": "decide",
+    "meaning": "결정",
+    "core_image": "여러 대안 사이의 망설임을 칼로 자르듯 끊고 한쪽 길을 택함",
+    "focus": "심사숙고 끝에 마음을 정하고 행동 방침을 확정하는 보편적 결정",
+    "examples": [
+      "I decided to stay in Geneva for another year"
+    ]
+  },
+  {
+    "id": "d_362",
+    "source": "Dissimilarities",
+    "category": "결정",
+    "word": "determine",
+    "meaning": "결정",
+    "core_image": "실험 데이터를 정밀 분석하여 정확한 미지의 상수를 밝혀내고 확정함",
+    "focus": "조사나 계산을 통해 사실을 규명해내거나 결과의 향방을 결정짓는 요인이 됨",
+    "examples": [
+      "The quality of data determines the accuracy of the model"
+    ]
+  },
+  {
+    "id": "d_363",
+    "source": "Dissimilarities",
+    "category": "결정",
+    "word": "resolve",
+    "meaning": "결정",
+    "core_image": "어려움이 닥쳐도 결코 흔들리지 않겠다는 굳은 결의를 가슴에 품음",
+    "focus": "문제를 해결하거나 굳은 의지로 목표를 완수하겠다는 결의를 다짐",
+    "examples": [
+      "He resolved to work harder on his dissertation"
+    ]
+  },
+  {
+    "id": "d_364",
+    "source": "Dissimilarities",
+    "category": "포기하다",
+    "word": "give up on",
+    "meaning": "포기하다",
+    "core_image": "힘겹게 붙잡고 있던 밧줄을 손에서 완전히 놓아버리는 단념",
+    "focus": "난이도가 너무 높거나 부상/한계로 인해 목표나 꿈을 완전히 단념하고 중도 포기함",
+    "examples": [
+      "I wanted to be a soccer player but since I badly injured my left knee, I have had to give up on that dream"
+    ]
+  },
+  {
+    "id": "d_365",
+    "source": "Dissimilarities",
+    "category": "포기하다",
+    "word": "resign",
+    "meaning": "포기하다",
+    "core_image": "사직서를 제출하고 자신의 명패를 챙겨 정중하게 물러남",
+    "focus": "직장, 공직, 공식적인 직위에서 격식을 갖추어 사임하고 물러남",
+    "examples": [
+      "He decided to resign from the position"
+    ]
+  },
+  {
+    "id": "d_366",
+    "source": "Dissimilarities",
+    "category": "포기하다",
+    "word": "quit",
+    "meaning": "포기하다",
+    "core_image": "하던 일을 그 자리에서 즉시 딱 끊어버리고 자리를 털고 일어남",
+    "focus": "직장, 나쁜 습관, 게임 등을 즉각적이고 단호하게 그만두고 중단함",
+    "examples": [
+      "I quit my job to pursue graduate studies"
+    ]
+  },
+  {
+    "id": "d_367",
+    "source": "Dissimilarities",
+    "category": "포기하다",
+    "word": "abandon",
+    "meaning": "포기하다",
+    "core_image": "황폐화된 난파선이나 실패한 프로젝트를 뒤로하고 완전히 떠나버림",
+    "focus": "책임이나 계획을 완전히 저버리고 실패한 프로젝트나 장소를 유기·폐기함",
+    "examples": [
+      "We had to abandon the failed experiment"
+    ]
+  },
+  {
+    "id": "d_368",
+    "source": "Dissimilarities",
+    "category": "합류하다",
+    "word": "sign up for",
+    "meaning": "합류하다",
+    "core_image": "신청 서류 맨 아랫줄에 내 서명을 남기고 계정을 발급받음",
+    "focus": "온라인 서비스 가입, 뉴스레터 구독, 강좌 신청 등에 계정을 등록함",
+    "examples": [
+      "I signed up for a newsletter",
+      "I signed up for a Netflix account"
+    ]
+  },
+  {
+    "id": "d_369",
+    "source": "Dissimilarities",
+    "category": "합류하다",
+    "word": "join",
+    "meaning": "합류하다",
+    "core_image": "이미 행진하고 있는 대열 속으로 들어가 함께 어깨를 나란히 함",
+    "focus": "이미 활동 중인 연구 그룹, 클럽, 헬스장 등의 공식 일원으로 합류함",
+    "examples": [
+      "Would you like to join our research group?",
+      "I joined a gym near my house"
+    ]
+  },
+  {
+    "id": "d_370",
+    "source": "Dissimilarities",
+    "category": "합류하다",
+    "word": "register for",
+    "meaning": "합류하다",
+    "core_image": "공식 기관의 학사 장부에 신원과 학번을 정식으로 전산 등재함",
+    "focus": "학회, 자격시험, 정규 강좌 등에 법적·행정적으로 정식 등록함",
+    "examples": [
+      "Please register for the upcoming conference before the deadline"
+    ]
+  },
+  {
+    "id": "d_371",
+    "source": "Dissimilarities",
+    "category": "예시",
+    "word": "like",
+    "meaning": "예시",
+    "core_image": "대화 중에 '음, 이런 거 있잖아' 하고 즉흥적으로 예시 하나를 툭 던짐",
+    "focus": "일상적인 구어체에서 편안하게 유사한 예시를 나열할 때 사용",
+    "examples": [
+      "I enjoy fast sports like tennis and badminton"
+    ]
+  },
+  {
+    "id": "d_372",
+    "source": "Dissimilarities",
+    "category": "예시",
+    "word": "such as",
+    "meaning": "예시",
+    "core_image": "학술 논문의 본문 괄호 안에 정갈하게 분류된 대표 사례들을 나열함",
+    "focus": "격식 있는 글이나 논문에서 명확한 범주 내 대표 예시들을 정식 나열할 때 사용",
+    "examples": [
+      "Optimization methods, such as gradient descent, are widely used in machine learning"
+    ]
+  },
+  {
+    "id": "d_373",
+    "source": "Dissimilarities",
+    "category": "예시",
+    "word": "for example",
+    "meaning": "예시",
+    "core_image": "추상적인 개념 설명 뒤에 구체적인 실제 상황 문장 하나를 통째로 제시함",
+    "focus": "완결된 문장 형태로 구체적인 시나리오나 사례를 독립적으로 제시할 때 사용",
+    "examples": [
+      "Many animals adapt to their environment. For example, polar bears have thick fur for warmth"
+    ]
+  },
+  {
+    "id": "d_374",
+    "source": "Dissimilarities",
+    "category": "해법",
+    "word": "have only to",
+    "meaning": "해법",
+    "core_image": "복잡한 절차 없이 오직 단 하나의 스위치만 누르면 모든 것이 해결됨",
+    "focus": "다른 수고 없이 오직 그 행동 하나만 이행하면 원하는 결과가 나온다는 명쾌함",
+    "examples": [
+      "You have only to press this button to start the process"
+    ]
+  },
+  {
+    "id": "d_375",
+    "source": "Dissimilarities",
+    "category": "강조",
+    "word": "whatsoever",
+    "meaning": "강조",
+    "core_image": "먼지 한 톨, 바늘구멍 하나만큼의 여지도 없이 완벽하게 차단된 무(無)",
+    "focus": "부정문 뒤에 붙어 '단 하나도, 전혀' 예외나 가능성이 없음을 극도로 강조",
+    "examples": [
+      "There can be no contact whatsoever between Don Quixote and his legendary Amadis"
+    ]
+  },
+  {
+    "id": "d_376",
+    "source": "Dissimilarities",
+    "category": "경쟁",
+    "word": "competition",
+    "meaning": "경쟁",
+    "core_image": "트랙 위에 여러 주자가 출발선에 서서 누가 1등으로 들어오는지 겨루는 레이스",
+    "focus": "다수의 참가자들 사이에서 우열과 순위를 가리는 객관적 경쟁 과정 그 자체",
+    "examples": [
+      "The competition in the tech industry is becoming fiercer every year"
+    ]
+  },
+  {
+    "id": "d_377",
+    "source": "Dissimilarities",
+    "category": "경쟁",
+    "word": "rivalry",
+    "meaning": "경쟁",
+    "core_image": "오랜 세월 동안 서로를 의식하며 맞붙어온 숙명의 두 라이벌",
+    "focus": "특정한 상대방과 오랫동안 형성되어 온 깊은 심리적·역사적 대립 관계",
+    "examples": [
+      "The rivalry between the two top soccer clubs has lasted for decades"
+    ]
+  },
+  {
+    "id": "d_378",
+    "source": "Dissimilarities",
+    "category": "욕망",
+    "word": "desire",
+    "meaning": "욕망",
+    "core_image": "내면 깊은 곳에서 타오르는 순수하고 강력한 성취의 불꽃",
+    "focus": "자기 내면에서 우러나오는 진실하고 강렬한 소망과 열망",
+    "examples": [
+      "He has a strong desire to succeed in the field of RL"
+    ]
+  },
+  {
+    "id": "d_379",
+    "source": "Dissimilarities",
+    "category": "욕망",
+    "word": "covet",
+    "meaning": "욕망",
+    "core_image": "남이 가지고 있는 귀한 보물을 곁눈질하며 몹시 탐내는 시선",
+    "focus": "자신에게 없는 남의 소유물, 지위, 상을 몹시 부러워하며 탐냄 (격식체)",
+    "examples": [
+      "The Nobel Prize is a highly coveted award across the scientific community"
+    ]
+  },
+  {
+    "id": "d_380",
+    "source": "Dissimilarities",
+    "category": "화제 전환",
+    "word": "as for",
+    "meaning": "화제 전환",
+    "core_image": "여러 논의 대상 중 특정 카드를 콕 집어 테이블 중앙으로 꺼내놓음",
+    "focus": "대화의 흐름 속에서 특정 항목이나 인물을 콕 집어 그쪽으로 화제를 돌릴 때 사용",
+    "examples": [
+      "As for the imaginary island, it is from Don Quixote himself that Sancho is counting on receiving it"
+    ]
+  },
+  {
+    "id": "d_381",
+    "source": "Dissimilarities",
+    "category": "장소",
+    "word": "place",
+    "meaning": "장소",
+    "core_image": "추억, 온기, 특별한 감정이 깃들어 있는 정서적이고 따뜻한 공간",
+    "focus": "인간의 경험, 기억, 감정이 부여된 정성적이고 친근한 장소",
+    "examples": [
+      "This coffee shop is my favorite place to read"
+    ]
+  },
+  {
+    "id": "d_382",
+    "source": "Dissimilarities",
+    "category": "장소",
+    "word": "location",
+    "meaning": "장소",
+    "core_image": "GPS 위성 좌표로 위도와 경도가 정확히 찍히는 지리적 포인트",
+    "focus": "지리적, 물리적, 시스템 데이터로 엄격히 특정되는 정량적 위치/지점",
+    "examples": [
+      "The exact location of the sensor was marked on the map"
+    ]
+  },
+  {
+    "id": "d_383",
+    "source": "Dissimilarities",
+    "category": "공부",
+    "word": "take a test",
+    "meaning": "수험자로서 시험에 응시하여 문제를 치르는 행위",
+    "core_image": "시험장에 앉아 시험지를 받아 들고 문제를 풀기 시작하는 수험 행위",
+    "focus": "수험자로서 시험에 응시하여 문제를 치르는 행위",
+    "examples": [
+      "I'm going to take a test now"
+    ]
+  },
+  {
+    "id": "d_384",
+    "source": "Dissimilarities",
+    "category": "평가 (성패)",
+    "word": "fail",
+    "meaning": "평가 (성패)",
+    "core_image": "합격 기준선에 살짝 못 미쳐 불합격 도장을 받았으나 재도전의 기회가 남음",
+    "focus": "기대치나 기준선에 도달하지 못해 실패하거나 낙제함 (다시 시도할 여지 있음)",
+    "examples": [
+      "I'm afraid I might fail the exam if I don't review today"
+    ]
+  },
+  {
+    "id": "d_385",
+    "source": "Dissimilarities",
+    "category": "평가 (성패)",
+    "word": "ruin",
+    "meaning": "망치다, 파멸시키다",
+    "core_image": "쏟아진 폭우로 인해 정성껏 준비한 야외 조각상이 완전히 파괴되어 복구 불가함",
+    "focus": "상태나 가치가 완전히 망가지고 회복 불가능하게 파멸되어 돌이킬 수 없음",
+    "examples": [
+      "The sudden downpour ruined my outdoor plans"
+    ]
+  },
+  {
+    "id": "d_386",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "running out of",
+    "meaning": "부족",
+    "core_image": "모래시계의 모래가 몇 알 남지 않아 바닥을 드러내기 직전의 상태",
+    "focus": "보유 자원이 빠르게 고갈되어 곧 0이 될 위기에 처한 진행 상태",
+    "examples": [
+      "I'm running out of energy lately"
+    ]
+  },
+  {
+    "id": "d_387",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "run out of",
+    "meaning": "부족",
+    "core_image": "연료 탱크의 바늘이 0에 닿아 시동이 꺼져버린 완전한 소진",
+    "focus": "자원이 완전히 바닥나서 현재 하나도 남아있지 않은 상태",
+    "examples": [
+      "We ran out of ideas during the brainstorm session"
+    ]
+  },
+  {
+    "id": "d_388",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "short of",
+    "meaning": "부족",
+    "core_image": "목표 기준선보다 손가락 두 마디 정도 미치지 못하는 부족",
+    "focus": "필요한 목표치나 예산보다 약간 모자라거나 부족한 상태",
+    "examples": [
+      "I'm a bit short of cash today"
+    ]
+  },
+  {
+    "id": "d_389",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "lack of",
+    "meaning": "부족",
+    "core_image": "원래부터 씨앗이 심겨 있지 않아 싹이 트지 않는 원천적 결핍",
+    "focus": "처음부터 본래 갖추어져 있어야 할 경험이나 지식이 원천적으로 부재함",
+    "examples": [
+      "His lack of experience was obvious during the interview"
+    ]
+  },
+  {
+    "id": "d_390",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "shortage",
+    "meaning": "부족",
+    "core_image": "가뭄으로 인해 저수지의 물 수량이 부족한 정량적 결핍",
+    "focus": "물자, 자원, 인력 등 공급량이 수요에 비해 양적으로 부족한 사태",
+    "examples": [
+      "There is a severe shortage of skilled software engineers"
+    ]
+  },
+  {
+    "id": "d_391",
+    "source": "Dissimilarities",
+    "category": "부족",
+    "word": "weakness",
+    "meaning": "부족",
+    "core_image": "튼튼한 방패의 한쪽 모서리에 존재하는 구조적이고 질적인 결함",
+    "focus": "성능, 시스템, 혹은 사람의 역량에서 나타나는 질적인 취약점이나 약점",
+    "examples": [
+      "The biggest weakness of online shopping is that I can't see the product until receiving it"
+    ]
+  },
+  {
+    "id": "d_392",
+    "source": "Dissimilarities",
+    "category": "작성",
+    "word": "write down",
+    "meaning": "작성",
+    "core_image": "귀로 들은 전화번호나 떠오른 아이디어를 종이 위에 펜으로 슥슥 받아 적기",
+    "focus": "생각이나 음성 정보를 잊지 않기 위해 종이나 메모장에 손으로 기록함",
+    "examples": [
+      "Please write down your phone number on this pad"
+    ]
+  },
+  {
+    "id": "d_393",
+    "source": "Dissimilarities",
+    "category": "작성",
+    "word": "fill out",
+    "meaning": "작성",
+    "core_image": "정부 서식 문서의 빈칸들을 하나도 빠짐없이 꼼꼼히 채워 넣기",
+    "focus": "이름, 주소 등 이미 정해진 양식의 빈칸들을 모두 완성하여 기입함",
+    "examples": [
+      "You need to fill out this application form to register"
+    ]
+  },
+  {
+    "id": "d_394",
+    "source": "Dissimilarities",
+    "category": "작성",
+    "word": "type in",
+    "meaning": "작성",
+    "core_image": "키보드의 자판을 또각또각 두드려 화면의 입력창에 텍스트를 집어넣음",
+    "focus": "키보드나 터치스크린 등 전자기기를 통해 데이터를 직접 타이핑하여 입력함",
+    "examples": [
+      "My friend didn't get any of my emails because I typed in the wrong email address"
+    ]
+  },
+  {
+    "id": "d_395",
+    "source": "Dissimilarities",
+    "category": "옆에 (근접)",
+    "word": "next to",
+    "meaning": "바로 옆에 (가장 직관적인 인접)",
+    "core_image": "중간에 다른 의자 없이 바로 나란히 붙어 있는 가장 가까운 옆자리",
+    "focus": "사이에 다른 대상이 끼어들 틈 없이 가장 밀접하게 인접한 옆 위치",
+    "examples": [
+      "Who is sitting next to you in the exam hall?"
+    ]
+  },
+  {
+    "id": "d_396",
+    "source": "Dissimilarities",
+    "category": "옆에 (근접)",
+    "word": "by",
+    "meaning": "옆에, 곁에 (손 닿는 근접 반경)",
+    "core_image": "출입문 바로 근처, 손을 뻗으면 닿는 영향권 반경 내에 놓임",
+    "focus": "가까운 거리뿐 아니라 그 대상의 주변 영향권 안에 놓여 있음을 나타냄",
+    "examples": [
+      "I left my bag by the door"
+    ]
+  },
+  {
+    "id": "d_397",
+    "source": "Dissimilarities",
+    "category": "제출",
+    "word": "hand in",
+    "meaning": "제출",
+    "core_image": "작성한 답안지를 선생님의 손에 직접 건네주는 물리적 전달",
+    "focus": "과제물이나 시험지를 손에서 손으로 직접 전달하여 제출하는 구체적 행위",
+    "examples": [
+      "Make sure to hand in your test paper before you leave"
+    ]
+  },
+  {
+    "id": "d_398",
+    "source": "Dissimilarities",
+    "category": "제출",
+    "word": "submit",
+    "meaning": "제출",
+    "core_image": "웹 포털의 '제출' 버튼을 눌러 연구 논문을 학회 시스템에 정식으로 상정함",
+    "focus": "공식 시스템이나 기관에 심사 및 처리를 위해 문서를 격식 있게 제출함",
+    "examples": [
+      "I've just submitted my final report to the conference committee"
+    ]
+  },
+  {
+    "id": "d_399",
+    "source": "Dissimilarities",
+    "category": "지도자",
+    "word": "instructor",
+    "meaning": "지도자",
+    "core_image": "요가나 운전 동작의 실기 요령을 수강생들에게 직접 보여주며 가르침",
+    "focus": "특정한 실무 기술, 운동, 강좌의 내용을 직접 가르치고 전수하는 전문 강사",
+    "examples": [
+      "The yoga instructor in Geneva is very kind and patient"
+    ]
+  },
+  {
+    "id": "d_400",
+    "source": "Dissimilarities",
+    "category": "지도자",
+    "word": "supervisor",
+    "meaning": "지도자",
+    "core_image": "연구실에서 대학원생의 논문 방향을 점검하고 총괄 지휘하는 지도 교수",
+    "focus": "연구나 업무 프로세스 전체를 감독하고 최종 책임을 지는 상사 및 지도 교수",
+    "examples": [
+      "My supervisor gave me great feedback on my simulation results"
+    ]
+  },
+  {
+    "id": "d_401",
+    "source": "Dissimilarities",
+    "category": "수행",
+    "word": "carry out",
+    "meaning": "수행",
+    "core_image": "설계도에 적힌 계획을 현장에서 직접 벽돌을 쌓아 올리며 완수해내는 실천",
+    "focus": "기획이나 실험 계획을 실제 행동으로 옮겨 끝까지 실행하고 결과를 도출함",
+    "examples": [
+      "We carried out the simulation for 100 hours"
+    ]
+  },
+  {
+    "id": "d_402",
+    "source": "Dissimilarities",
+    "category": "수행",
+    "word": "execute",
+    "meaning": "수행",
+    "core_image": "터미널에서 엔터를 치자마자 CPU가 명령어를 즉시 처리하고 가동함",
+    "focus": "시스템의 기술적 명령어, 공식적인 법적 계약 등을 정밀하게 실행·가동함",
+    "examples": [
+      "The system executed the command without any errors"
+    ]
+  },
+  {
+    "id": "d_403",
+    "source": "Dissimilarities",
+    "category": "수행",
+    "word": "perform",
+    "meaning": "수행",
+    "core_image": "무대 위에서 준비해온 퍼포먼스를 관객들 앞에서 완벽하게 펼쳐 보임",
+    "focus": "로봇이나 에이전트가 지닌 기능과 역량을 실제로 발휘하여 성능을 보여줌",
+    "examples": [
+      "The agent performed remarkably well in the new environment"
+    ]
+  },
+  {
+    "id": "d_404",
+    "source": "Dissimilarities",
+    "category": "일",
+    "word": "work",
+    "meaning": "일",
+    "core_image": "매일 사무실에서 진행되는 가장 일상적이고 지속적인 모든 노동 활동",
+    "focus": "직업적 활동이나 과제 등 모든 형태의 노동과 일상적인 업무 프로세스 전체",
+    "examples": [
+      "I have a lot of work to finish today"
+    ]
+  },
+  {
+    "id": "d_405",
+    "source": "Dissimilarities",
+    "category": "일",
+    "word": "undertaking",
+    "meaning": "일",
+    "core_image": "수년의 시간과 막대한 자본이 투입되는 국가적 규모의 달 탐사 프로젝트",
+    "focus": "단순한 업무를 넘어 상당한 위험, 책임, 노력이 따르는 중대하고 야심 찬 사업",
+    "examples": [
+      "Developing this new AI framework was a massive undertaking"
+    ]
+  },
+  {
+    "id": "d_406",
+    "source": "Dissimilarities",
+    "category": "속성",
+    "word": "attribute",
+    "meaning": "속성",
+    "core_image": "훌륭한 연구자라는 명예의 전당에 부여된 핵심 성품 뱃지",
+    "focus": "외부의 평가나 분류에 의해 특정 대상에 부여된 고유한 자질이나 특성",
+    "examples": [
+      "Patience is an essential attribute for a researcher"
+    ]
+  },
+  {
+    "id": "d_407",
+    "source": "Dissimilarities",
+    "category": "속성",
+    "word": "property",
+    "meaning": "소유지, 부동산 재산",
+    "core_image": "물질 자체의 분자 구조 속에 본래부터 내재되어 있는 고유한 물리적 성질",
+    "focus": "사물이나 물질 자체가 태생적으로 내재하고 있는 불변의 고유 속성 (전기전도성 등)",
+    "examples": [
+      "The chemical properties of this substance are unique"
+    ]
+  },
+  {
+    "id": "d_408",
+    "source": "Dissimilarities",
+    "category": "견디다",
+    "word": "ride out",
+    "meaning": "견디다",
+    "core_image": "거친 폭풍우 속에서 닻을 내리고 배가 뒤집히지 않도록 침착하게 파도를 견딤",
+    "focus": "어려운 경제 위기나 시련이 지나갈 때까지 큰 손상 없이 침착하게 잘 버텨냄",
+    "examples": [
+      "We must ride out the market downturn with patience"
+    ]
+  },
+  {
+    "id": "d_409",
+    "source": "Dissimilarities",
+    "category": "극복하다",
+    "word": "tide over",
+    "meaning": "극복하다",
+    "core_image": "썰물이 지나 밀물이 들어올 때까지 배를 띄울 수 있도록 물을 채워주는 다리",
+    "focus": "어려운 고비나 자금난을 넘길 수 있도록 임시로 지원하여 위기를 모면하게 해줌",
+    "examples": [
+      "Do I have other investments that will tide me over if this decision turns out to be wrong?"
+    ]
+  },
+  {
+    "id": "d_410",
+    "source": "Dissimilarities",
+    "category": "미래",
+    "word": "shall",
+    "meaning": "미래",
+    "core_image": "신탁의 예언서에 새겨진 거스를 수 없는 운명적인 선언",
+    "focus": "단순한 미래를 넘어 반드시 그렇게 되리라는 엄숙하고 운명적인 결의와 필연성",
+    "examples": [
+      "This, too, shall pass away"
+    ]
+  },
+  {
+    "id": "d_411",
+    "source": "Dissimilarities",
+    "category": "처리하다",
+    "word": "dispose of",
+    "meaning": "처리하다",
+    "core_image": "오래된 폐기물 상자를 분리수거장에 가져가 말끔하게 치워 없애기",
+    "focus": "불필요한 서류나 물건을 버려 없애거나, 복잡한 골칫거리 문제를 말끔히 처분함",
+    "examples": [
+      "I need to dispose of these old files"
+    ]
+  },
+  {
+    "id": "d_412",
+    "source": "Dissimilarities",
+    "category": "돌보다",
+    "word": "take care of",
+    "meaning": "돌보다",
+    "core_image": "밀린 청구서나 골치 아픈 문제를 내 손으로 확실하게 처리하고 매듭짓기",
+    "focus": "사람을 돌보는 것을 넘어 어떤 문제나 비용을 완전히 책임지고 해결함에 집중",
+    "examples": [
+      "Don't worry about the bill; I'll take care of it"
+    ]
+  },
+  {
+    "id": "d_413",
+    "source": "Dissimilarities",
+    "category": "돌보다",
+    "word": "look after",
+    "meaning": "돌보다",
+    "core_image": "잠시 자리를 비운 친구의 소중한 가방을 눈길을 떼지 않고 지켜봐 줌",
+    "focus": "아이, 반려동물, 짐 등 소중한 대상을 일정 시간 동안 주의 깊게 지켜보며 보살핌",
+    "examples": [
+      "Could you look after my bag for a moment?"
+    ]
+  },
+  {
+    "id": "d_414",
+    "source": "Dissimilarities",
+    "category": "침입하다",
+    "word": "invade",
+    "meaning": "침입하다",
+    "core_image": "국경선을 넘어 진격하는 대규모 군대의 무력 침략",
+    "focus": "군대나 집단이 영토, 국가, 혹은 프라이버시를 공격적으로 침략·침해함",
+    "examples": [
+      "The foreign army invaded the border territories"
+    ]
+  },
+  {
+    "id": "d_415",
+    "source": "Dissimilarities",
+    "category": "침입하다",
+    "word": "break into",
+    "meaning": "침입하다",
+    "core_image": "밤중에 유리창을 깨거나 자물쇠를 부수고 빈집 안으로 강제로 침입함",
+    "focus": "물리적인 장벽이나 잠금장치를 훼손하여 불법으로 공간에 난입·침입함",
+    "examples": [
+      "Someone tried to break into the house while we were away"
+    ]
+  },
+  {
+    "id": "d_416",
+    "source": "Dissimilarities",
+    "category": "듣다",
+    "word": "hear",
+    "meaning": "듣다",
+    "core_image": "귀를 막지 않는 한 공기를 타고 귓속으로 스며드는 자연스러운 소리의 유입",
+    "focus": "의도나 집중 없이도 청각 기관을 통해 수동적으로 소리가 들려오는 상태",
+    "examples": [
+      "I can hear birds chirping outside"
+    ]
+  },
+  {
+    "id": "d_417",
+    "source": "Dissimilarities",
+    "category": "듣다",
+    "word": "listen",
+    "meaning": "듣다",
+    "core_image": "라디오 볼륨에 귀를 바짝 대고 진행자의 말 한마디 한마디에 집중하는 모습",
+    "focus": "내용을 이해하고 감상하기 위해 의도적으로 주의를 기울여 집중해서 듣는 능동적 행위",
+    "examples": [
+      "Please listen carefully to the instructions"
+    ]
+  },
+  {
+    "id": "d_418",
+    "source": "Dissimilarities",
+    "category": "영원히",
+    "word": "for good",
+    "meaning": "영원히",
+    "core_image": "돌아올 다리를 불태워버리고 영원히 그 자리에 정착하여 이전으로 돌아가지 않음",
+    "focus": "상태의 변화가 영구적이어서 다시는 예전 상태로 돌아가지 않음을 강조 (일상/구어체)",
+    "examples": [
+      "I've decided to stay in Europe for good"
+    ]
+  },
+  {
+    "id": "d_419",
+    "source": "Dissimilarities",
+    "category": "영원히",
+    "word": "forever",
+    "meaning": "영원히",
+    "core_image": "우주의 시공간처럼 끝없이 펼쳐지는 시적이고 정서적인 무한한 시간",
+    "focus": "시간의 끝이 보이지 않는 추상적·정서적 무한함과 영속성을 표현",
+    "examples": [
+      "My desire for knowledge is forever"
+    ]
+  },
+  {
+    "id": "d_420",
+    "source": "Dissimilarities",
+    "category": "영원히",
+    "word": "permanently",
+    "meaning": "영원히",
+    "core_image": "하드디스크에서 복구 불가능하게 섹터를 덮어씌워 완전히 지워버림",
+    "focus": "물리적, 법적, 기술적으로 고정되어 영구히 변경 불가능한 공식적 상태",
+    "examples": [
+      "The file was permanently deleted from the database"
+    ]
+  },
+  {
+    "id": "d_421",
+    "source": "Dissimilarities",
+    "category": "무언가를 시키다",
+    "word": "let",
+    "meaning": "무언가를 시키다",
+    "core_image": "닫혀 있던 문을 활짝 열어주어 상대방이 원하는 대로 하도록 내버려 둠",
+    "focus": "상대방의 자유로운 의지를 가로막지 않고 허용하고 내버려 둠 (사역의 느낌이 가장 약함)",
+    "examples": [
+      "Let me know if you need help"
+    ]
+  },
+  {
+    "id": "d_422",
+    "source": "Dissimilarities",
+    "category": "무언가를 시키다",
+    "word": "have",
+    "meaning": "가지고 있다 (소유 상태)",
+    "core_image": "비서에게 서류 작성을 요청하듯 정당한 권한으로 자연스럽게 과업을 맡김",
+    "focus": "지위나 고용 관계에 따라 당연히 수행해야 할 업무를 상대에게 시키거나 부탁함",
+    "examples": [
+      "I'll have my assistant call you with the details"
+    ]
+  },
+  {
+    "id": "d_423",
+    "source": "Dissimilarities",
+    "category": "토하다",
+    "word": "throw up",
+    "meaning": "토하다",
+    "core_image": "위장 속에 있던 음식물을 입 밖으로 격렬하게 토해내는 생생한 신체 동작",
+    "focus": "구토하는 행위의 역동적인 물리적 동작을 표현하는 일상 구어체",
+    "examples": [
+      "My friend told me that I threw up in the street after drinking too much but I don't remember a thing"
+    ]
+  },
+  {
+    "id": "d_424",
+    "source": "Dissimilarities",
+    "category": "토하다",
+    "word": "vomit",
+    "meaning": "토하다",
+    "core_image": "의무기록 차트에 적히는 정식 의학적 구토 증상 진단명",
+    "focus": "구토라는 병리적 현상 그 자체를 일컫는 공식적이고 격식 있는 의학 전문 용어",
+    "examples": [
+      "The patient began to vomit after the medication was administered"
+    ]
+  },
+  {
+    "id": "d_425",
+    "source": "Dissimilarities",
+    "category": "상세함",
+    "word": "go through",
+    "meaning": "상세함",
+    "core_image": "산더미 같은 데이터 시트를 첫 장부터 끝 장까지 차례로 넘기며 훑어봄",
+    "focus": "데이터, 문서, 절차 등을 처음부터 끝까지 빠짐없이 꼼꼼하게 검토함",
+    "examples": [
+      "Let's go through the data together"
+    ]
+  },
+  {
+    "id": "d_426",
+    "source": "Dissimilarities",
+    "category": "상세함",
+    "word": "go into",
+    "meaning": "상세함",
+    "core_image": "주제의 깊은 지하 동굴 속으로 횃불을 들고 들어가 세부 사항을 파헤침",
+    "focus": "특정 주제나 문제의 아주 세밀하고 복잡한 세부 영역까지 깊이 파고들어 논함",
+    "examples": [
+      "I don't want to go into too much detail right now"
+    ]
+  },
+  {
+    "id": "d_427",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "year",
+    "meaning": "일반적이고 보편적인 1년의 시간 단위를 지칭",
+    "core_image": "지구가 태양을 한 바퀴 도는 365일의 가장 표준적인 시간 단위",
+    "focus": "일반적이고 보편적인 1년의 시간 단위를 지칭",
+    "examples": [
+      "The population grows by 2% per year"
+    ]
+  },
+  {
+    "id": "d_428",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "annum",
+    "meaning": "기간",
+    "core_image": "은행 금리 계약서에 명시된 라틴어 기원의 공식 금융 연간 지표",
+    "focus": "금융, 법률, 학술 분야에서 연간 수익률이나 이자율을 표기하는 전문적 표현",
+    "examples": [
+      "The interest rate is 5% per annum"
+    ]
+  },
+  {
+    "id": "d_429",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "year in and year out",
+    "meaning": "기간",
+    "core_image": "사계절이 수없이 바뀌어도 한결같이 그 자리를 지키는 소나무의 늘푸름",
+    "focus": "해마다 거르지 않고, 언제나 변함없이 매년 지속됨을 강조",
+    "examples": [
+      "Actually, I strive to be a person who unfailingly does the right thing, year in and year out. Indeed, this consistency affords me a sound and remarkable growth."
+    ]
+  },
+  {
+    "id": "d_430",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "term",
+    "meaning": "(정해진) 기간, 학기, 임기",
+    "core_image": "개강일부터 종강일까지 학사 일정표에 명시된 정해진 계약 기간",
+    "focus": "시작과 끝이 명확하게 정해져 있고 특정 목적이나 합의가 포함된 공식적 기간 (학기, 임기 등)",
+    "examples": [
+      "The academic term begins in September"
+    ]
+  },
+  {
+    "id": "d_431",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "period",
+    "meaning": "기간, 시기",
+    "core_image": "시간의 강물 위에서 A점부터 B점까지 끊김 없이 흘러가는 구간",
+    "focus": "목적보다는 시간의 길이와 지속성 그 자체를 가리키는 물리적 구간",
+    "examples": [
+      "The experiment was conducted over a long period of time"
+    ]
+  },
+  {
+    "id": "d_432",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "on the weekend",
+    "meaning": "기간",
+    "core_image": "주말이라는 특정 시간대 점에 핀을 꽂아 일정을 배치함",
+    "focus": "주말이라는 특정 시점에 어떤 사건이 일어난다는 사실에 집중",
+    "examples": [
+      "Do you have any plans on the weekend?"
+    ]
+  },
+  {
+    "id": "d_433",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "over the weekend",
+    "meaning": "주말 내내, 주말에 걸쳐",
+    "core_image": "토요일 아침부터 일요일 밤까지 주말 전체를 덮고 지나가는 시간의 이불",
+    "focus": "주말 동안의 시작부터 끝까지 전체 기간에 걸쳐 지속됨(Duration)을 표현",
+    "examples": [
+      "I was sick over the weekend"
+    ]
+  },
+  {
+    "id": "d_434",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "in the opening weekend",
+    "meaning": "기간",
+    "core_image": "영화 개봉 첫 주말이라는 특별한 흥행 이벤트의 시간 상자",
+    "focus": "특정한 수식어가 붙어 하나의 단일한 특별 기간으로 다룰 때 'in'을 사용",
+    "examples": [
+      "When The Da Vinci Code came out, it made more than $30 million in just the US alone in its opening weekend"
+    ]
+  },
+  {
+    "id": "d_435",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "in [기간]",
+    "meaning": "기간",
+    "core_image": "현재 출발선에서 카운트다운을 시작하여 해당 기간이 경과한 미래의 지점",
+    "focus": "현재를 기준으로 특정 기간이 지나면 일어날 미래의 시점을 나타냄",
+    "examples": [
+      "The building will be completed in a year",
+      "In a little over a year, I lost 65 pounds"
+    ]
+  },
+  {
+    "id": "d_436",
+    "source": "Dissimilarities",
+    "category": "기간",
+    "word": "a year later",
+    "meaning": "기간",
+    "core_image": "과거의 특정 사건이 일어난 날로부터 1년의 시간이 흘러 도달한 시점",
+    "focus": "과거의 기준 시점으로부터 특정 기간이 경과한 후를 나타내는 시간 부사",
+    "examples": [
+      "We first met in 2020. A year later, we got married",
+      "A year later, I lost 40 pounds"
+    ]
+  },
+  {
+    "id": "d_437",
+    "source": "Dissimilarities",
+    "category": "거절",
+    "word": "refuse",
+    "meaning": "거절",
+    "core_image": "앞으로 내민 상대방의 손을 양손으로 단호하게 밀쳐내는 거부",
+    "focus": "상대방의 요구나 부탁에 절대 응하지 않겠다고 단호하고 강하게 밀어냄",
+    "examples": [
+      "He refused to answer the question"
+    ]
+  },
+  {
+    "id": "d_438",
+    "source": "Dissimilarities",
+    "category": "거절",
+    "word": "turn down",
+    "meaning": "거절",
+    "core_image": "건네받은 제안서의 모서리를 부드럽게 아래로 접으며 정중히 사양함",
+    "focus": "입사 제안, 초대, 지원서 등을 완곡하고 세련되게 거절함 (일상/비즈니스)",
+    "examples": [
+      "I had to turn down the job offer",
+      "I offered to go to work at Graham-Newman for nothing after I took Ben Graham’s class, but he turned me down as overvalued"
+    ]
+  },
+  {
+    "id": "d_439",
+    "source": "Dissimilarities",
+    "category": "거절",
+    "word": "decline",
+    "meaning": "거절",
+    "core_image": "고개를 숙이고 정중한 감사 인사와 함께 초대에 응할 수 없음을 밝힘",
+    "focus": "격식과 품위를 갖추어 공식적인 제안이나 초대를 정중히 거절함",
+    "examples": [
+      "I regret to decline your invitation"
+    ]
+  },
+  {
+    "id": "d_440",
+    "source": "Dissimilarities",
+    "category": "거절",
+    "word": "reject",
+    "meaning": "거절",
+    "core_image": "품질 검사 기준에 미달하여 컨베이어 벨트 밖으로 완전히 퇴짜를 놓음",
+    "focus": "기준에 맞지 않거나 부적합하다고 판단하여 단호하게 물리치고 배제함",
+    "examples": [
+      "The proposal was rejected by the board"
+    ]
+  },
+  {
+    "id": "d_441",
+    "source": "Dissimilarities",
+    "category": "거절",
+    "word": "pass up",
+    "meaning": "거절",
+    "core_image": "내 앞을 지나가는 멋진 기회의 열차를 타지 않고 그냥 보내주기",
+    "focus": "자신에게 온 좋은 기회를 스스로의 선택에 의해 사양하고 지나쳐 보냄",
+    "examples": [
+      "He passed up the promotion to spend more time with his family"
+    ]
+  },
+  {
+    "id": "d_442",
+    "source": "Dissimilarities",
+    "category": "결단",
+    "word": "decisive",
+    "meaning": "결단",
+    "core_image": "승부를 결정짓는 결정골처럼 모든 망설임을 끝내버리는 파괴력",
+    "focus": "결과나 선택의 향방을 완전히 가르는 결정적이고 단호한 성질",
+    "examples": [
+      "What was decisive for them was that the price was moderate in relation to current earnings and asset value"
+    ]
+  },
+  {
+    "id": "d_443",
+    "source": "Dissimilarities",
+    "category": "우위",
+    "word": "better than",
+    "meaning": "우위",
+    "core_image": "계단 위에서 아래를 내려다보듯 품질이 더 높은 담백한 비교",
+    "focus": "성능, 품질, 상태가 상대보다 더 우수함을 객관적으로 비교함",
+    "examples": [
+      "This algorithm is better than the previous one"
+    ]
+  },
+  {
+    "id": "d_444",
+    "source": "Dissimilarities",
+    "category": "우위",
+    "word": "outstrip",
+    "meaning": "우위",
+    "core_image": "경주마가 엄청난 스피드로 라이벌을 저 멀리 뒤로 제쳐버림",
+    "focus": "속도나 수량 면에서 상대를 압도적으로 능가하여 뒤처지게 만듦 (격식체)",
+    "examples": [
+      "Demand for AI experts continues to outstrip supply"
+    ]
+  },
+  {
+    "id": "d_445",
+    "source": "Dissimilarities",
+    "category": "나타나다",
+    "word": "happen",
+    "meaning": "나타나다",
+    "core_image": "우연히 굴러떨어진 돌처럼 예기치 않게 사건이 발생하는 순간",
+    "focus": "어떤 사건이나 상황이 우연히 또는 결과로서 실제로 발생하고 벌어짐",
+    "examples": [
+      "What will happen next?"
+    ]
+  },
+  {
+    "id": "d_446",
+    "source": "Dissimilarities",
+    "category": "나타나다",
+    "word": "appear",
+    "meaning": "나타나다",
+    "core_image": "어둠 속에서 조명이 켜지며 무대 위에 인물이 스르륵 모습을 드러냄",
+    "focus": "보이지 않던 것이 시야에 들어오거나, 수식에서 해가 특정 횟수로 나타남",
+    "examples": [
+      "A new opportunity appeared",
+      "The root x = 3 appears only once in the equation."
+    ]
+  },
+  {
+    "id": "d_447",
+    "source": "Dissimilarities",
+    "category": "구별하다",
+    "word": "distinguish",
+    "meaning": "구별하다",
+    "core_image": "분석용 핀셋으로 미세한 차이를 가진 두 성분을 논리적으로 분리함",
+    "focus": "두 대상 사이의 학술적·논리적·공식적인 본질적 차이를 식별하고 갈라놓음",
+    "examples": [
+      "It is important to distinguish between correlation and causation"
+    ]
+  },
+  {
+    "id": "d_448",
+    "source": "Dissimilarities",
+    "category": "구별하다",
+    "word": "tell apart",
+    "meaning": "구별하다",
+    "core_image": "일란성 쌍둥이를 눈으로 빤히 바라보며 '누가 형이고 동생인지' 육안으로 분별함",
+    "focus": "외관이나 경험을 통해 직관적으로 두 대상을 구별해냄 (구어체)",
+    "examples": [
+      "They look so similar that I can't tell them apart"
+    ]
+  },
+  {
+    "id": "d_449",
+    "source": "Dissimilarities",
+    "category": "말하다 (어조)",
+    "word": "tell",
+    "meaning": "사실이나 정보를 상대방에게 명확히 전달함",
+    "core_image": "메시지를 상대방의 귀에 똑똑히 전달하는 가장 보편적인 말하기",
+    "focus": "특정 사실이나 정보를 상대방에게 명확히 전달함",
+    "examples": [
+      "Please tell me the truth"
+    ]
+  },
+  {
+    "id": "d_450",
+    "source": "Dissimilarities",
+    "category": "말하다 (어조)",
+    "word": "intone",
+    "meaning": "말하다 (어조)",
+    "core_image": "성당의 성가대나 제사장이 장엄하고 낮은 목소리로 낭송하는 음조",
+    "focus": "단어의 음높이와 어조를 엄숙하게 조절하며 감정을 실어 읊조리듯 말함 (문학/격식체)",
+    "examples": [
+      "He intoned the words with great solemnity"
+    ]
+  },
+  {
+    "id": "d_451",
+    "source": "Dissimilarities",
+    "category": "즐기다",
+    "word": "enjoy",
+    "meaning": "즐기다",
+    "core_image": "놀이공원에서 신나게 롤러코스터를 타며 만끽하는 활기찬 즐거움",
+    "focus": "활동이나 대상으로부터 기쁨과 유쾌함을 얻는 가장 보편적이고 직접적인 표현",
+    "examples": [
+      "I really enjoy solving mathematical puzzles"
+    ]
+  },
+  {
+    "id": "d_452",
+    "source": "Dissimilarities",
+    "category": "즐기다",
+    "word": "relish",
+    "meaning": "즐기다",
+    "core_image": "최고급 와인의 향과 깊은 풍미를 혀끝으로 천천히 굴리며 음미함",
+    "focus": "대상의 깊은 가치나 맛을 음미하듯 아주 천천히, 충분히 깊이 만끽하고 고대함",
+    "examples": [
+      "He relished the challenge of designing the complex neural architecture"
+    ]
+  },
+  {
+    "id": "d_453",
+    "source": "Dissimilarities",
+    "category": "전달되다, 전달하다",
+    "word": "tell through",
+    "meaning": "전달되다, 전달하다",
+    "core_image": "매개체의 창을 투과하여 반대편 관객의 가슴으로 전해지는 이야기",
+    "focus": "예술 작품, 영화, 음악 등의 매개체를 통해 깊은 메시지가 관객에게 전달됨",
+    "examples": [
+      "The story of resilience was told through his paintings"
+    ]
+  },
+  {
+    "id": "d_454",
+    "source": "Dissimilarities",
+    "category": "전달되다, 전달하다",
+    "word": "bring up",
+    "meaning": "전달되다, 전달하다",
+    "core_image": "물속 깊은 곳에 가라앉아 있던 화제를 수면 위로 쑥 건져 올림",
+    "focus": "회의나 대화 도중에 새로운 안건이나 민감한 주제를 대화 테이블 위로 꺼내놓음",
+    "examples": [
+      "He brought up an interesting point during the discussion"
+    ]
+  },
+  {
+    "id": "d_455",
+    "source": "Dissimilarities",
+    "category": "전달되다, 전달하다",
+    "word": "convey",
+    "meaning": "전달되다, 전달하다",
+    "core_image": "컨베이어 벨트나 파이프라인을 타고 메시지가 온전하게 목적지로 수송됨",
+    "focus": "화자의 미묘한 감정, 사상, 의미를 손실 없이 상대방에게 온전히 전달함",
+    "examples": [
+      "Words cannot convey how grateful I am for your help"
+    ]
+  },
+  {
+    "id": "d_456",
+    "source": "Dissimilarities",
+    "category": "짜증나다",
+    "word": "annoy",
+    "meaning": "짜증나다",
+    "core_image": "귓가에서 모기가 앵앵거리며 신경을 거슬리게 건드리는 지속적 불쾌감",
+    "focus": "반복되는 소음이나 사소한 행동으로 인해 신경이 거슬리고 가볍게 짜증이 남",
+    "examples": [
+      "The constant clicking of his pen is annoying me"
+    ]
+  },
+  {
+    "id": "d_457",
+    "source": "Dissimilarities",
+    "category": "짜증나다",
+    "word": "irritate",
+    "meaning": "짜증나다",
+    "core_image": "따가운 모래알이 눈에 들어가 결막을 빨갛게 자극하고 염증을 일으킴",
+    "focus": "피부나 신경을 날카롭게 자극하여 참기 힘들 만큼 예민하고 강한 짜증을 유발함",
+    "examples": [
+      "His arrogant attitude really irritated everyone in the room"
+    ]
+  },
+  {
+    "id": "d_458",
+    "source": "Dissimilarities",
+    "category": "모름",
+    "word": "have no idea",
+    "meaning": "모름",
+    "core_image": "머릿속에 안개가 자욱하여 단 하나의 실마리나 윤곽조차 전혀 잡히지 않음",
+    "focus": "해당 사실에 대해 0%의 지식과 힌트조차 전혀 가지고 있지 않음을 강조 (구어체)",
+    "examples": [
+      "I have no idea why the server crashed"
+    ]
+  },
+  {
+    "id": "d_459",
+    "source": "Dissimilarities",
+    "category": "모름",
+    "word": "don't know that",
+    "meaning": "모름",
+    "core_image": "특정 사실이 적힌 카드를 아직 열어보지 않아 그 내용을 모르고 있는 상태",
+    "focus": "특정 사실이나 명제에 대해 인지하지 못하고 있음을 객관적으로 기술함",
+    "examples": [
+      "I didn't know that the seminar was rescheduled"
+    ]
+  },
+  {
+    "id": "d_460",
+    "source": "Dissimilarities",
+    "category": "목적",
+    "word": "in order to",
+    "meaning": "목적",
+    "core_image": "과녁의 중심을 향해 정확한 일직선 궤적으로 곧게 날아가는 화살",
+    "focus": "명확하고 정식인 목적을 달성하기 위해 행동함을 나타내는 공식적 표현",
+    "examples": [
+      "In order to achieve high accuracy, we increased the dataset size"
+    ]
+  },
+  {
+    "id": "d_461",
+    "source": "Dissimilarities",
+    "category": "목적",
+    "word": "so as to",
+    "meaning": "목적",
+    "core_image": "결과의 톱니바퀴가 정확히 맞물리도록 설계도를 따라 섬세하게 조율함",
+    "focus": "어떤 바람직한 결과를 유도하거나 피하기 위해 취하는 조치 (격식체/문어체)",
+    "examples": [
+      "He spoke quietly so as to avoid waking the baby"
+    ]
+  },
+  {
+    "id": "d_462",
+    "source": "Dissimilarities",
+    "category": "화장실",
+    "word": "bathroom",
+    "meaning": "화장실",
+    "core_image": "욕조(Bathtub)와 샤워 시설이 갖추어진 가정집의 아늑한 욕실",
+    "focus": "가정집 내부에 설치된 욕조와 샤워 시설이 있는 화장실 (북미에서는 공공 화장실을 완곡히 부르기도 함)",
+    "examples": [
+      "I'm going to the bathroom to wash up"
+    ]
+  },
+  {
+    "id": "d_463",
+    "source": "Dissimilarities",
+    "category": "화장실",
+    "word": "restroom",
+    "meaning": "화장실",
+    "core_image": "쇼핑몰이나 공항에서 손을 씻고 정돈할 수 있는 깔끔한 공공 화장실",
+    "focus": "상업 시설, 식당, 공항 등 공공건물에 마련된 공용 화장실을 정중하게 부르는 미국식 표준어",
+    "examples": [
+      "Where is the nearest restroom?"
+    ]
+  },
+  {
+    "id": "d_464",
+    "source": "Dissimilarities",
+    "category": "화장실",
+    "word": "toilet",
+    "meaning": "화장실",
+    "core_image": "변기 도기 그 자체 및 유럽/영국식의 실용적이고 직설적인 화장실",
+    "focus": "물리적인 변기 기구 자체를 뜻하며, 영국/유럽권에서는 화장실을 뜻하는 표준어",
+    "examples": [
+      "The toilet is located at the end of the hall"
+    ]
+  },
+  {
+    "id": "d_465",
+    "source": "Dissimilarities",
+    "category": "화장실",
+    "word": "washroom",
+    "meaning": "화장실",
+    "core_image": "캐나다의 공공건물 벽면에 단정하게 붙어 있는 세면실 팻말",
+    "focus": "캐나다 영어에서 공공 화장실을 가리킬 때 가장 표준적으로 사용하는 표현",
+    "examples": [
+      "Excuse me, may I use the washroom?"
+    ]
+  },
+  {
+    "id": "d_466",
+    "source": "Dissimilarities",
+    "category": "두려움",
+    "word": "afraid",
+    "meaning": "두려움",
+    "core_image": "어두운 숲길에서 가슴이 조마조마하고 위축되어 있는 심리적 상태",
+    "focus": "위험이나 불확실한 결과에 대해 마음속으로 걱정하고 두려워하는 지속적 상태",
+    "examples": [
+      "I was afraid that our experiment might fail"
+    ]
+  },
+  {
+    "id": "d_467",
+    "source": "Dissimilarities",
+    "category": "두려움",
+    "word": "have a fear of",
+    "meaning": "두려움",
+    "core_image": "높은 곳이나 뱀을 마주했을 때 뇌리에 깊이 각인된 고유한 공포증",
+    "focus": "특정 대상이나 상황에 대해 지속적이고 깊은 공포감·포비아를 지니고 있음",
+    "examples": [
+      "He has a fear of heights"
+    ]
+  },
+  {
+    "id": "d_468",
+    "source": "Dissimilarities",
+    "category": "두려움",
+    "word": "scary",
+    "meaning": "두려움",
+    "core_image": "어둠 속에서 괴기스러운 가면을 쓰고 사람들을 놀래키는 유령의 외양",
+    "focus": "다른 사람들에게 공포심과 무서움을 유발하는 대상 자체의 성질 (형용사)",
+    "examples": [
+      "That horror movie was really scary"
+    ]
+  },
+  {
+    "id": "d_469",
+    "source": "Dissimilarities",
+    "category": "두려움",
+    "word": "scare",
+    "meaning": "두려움",
+    "core_image": "뒤에서 갑자기 '왁!' 하고 튀어나와 심장을 덜컥 내려앉게 만드는 충격",
+    "focus": "누군가를 깜짝 놀라게 하거나 공포에 질리게 만드는 타동사적 행위",
+    "examples": [
+      "You scared me when you shouted"
+    ]
+  },
+  {
+    "id": "d_470",
+    "source": "Dissimilarities",
+    "category": "두려움",
+    "word": "get scared",
+    "meaning": "두려움",
+    "core_image": "갑작스러운 굉음에 몸이 굳어지며 공포의 상태 속으로 쑥 빠져듦",
+    "focus": "순간적으로 무서운 자극을 받아 깜짝 놀라고 무서워하게 되는 상태 변화",
+    "examples": [
+      "I got scared when the lights went out suddenly"
+    ]
+  },
+  {
+    "id": "d_471",
+    "source": "Dissimilarities",
+    "category": "심각한",
+    "word": "serious",
+    "meaning": "심각한",
+    "core_image": "웃음기 없이 굳은 표정으로 사태의 무게감을 응시하는 진지함",
+    "focus": "장난이나 가벼움 없이 사안의 중요성이 무겁고 중대함을 나타냄",
+    "examples": [
+      "We are facing a serious challenge in this project"
+    ]
+  },
+  {
+    "id": "d_472",
+    "source": "Dissimilarities",
+    "category": "심각한",
+    "word": "severe",
+    "meaning": "심각한",
+    "core_image": "살을 에는 혹한의 칼바람이나 신체를 마비시키는 극심한 통증",
+    "focus": "날씨, 통증, 손상, 처벌 등의 가혹함과 강도가 매우 극심하고 혹독함",
+    "examples": [
+      "The patient suffered from severe back pain"
+    ]
+  },
+  {
+    "id": "d_473",
+    "source": "Dissimilarities",
+    "category": "심각한",
+    "word": "critical",
+    "meaning": "심각한",
+    "core_image": "환자의 생사가 갈리는 중환자실 모니터의 임계 수치 경보음",
+    "focus": "성패나 생사를 가르는 결정적 고비이자 절대적으로 중요한 위기 단계",
+    "examples": [
+      "Timing is critical for the robot's balance control"
+    ]
+  },
+  {
+    "id": "d_474",
+    "source": "Dissimilarities",
+    "category": "~에 빠져있다",
+    "word": "be into",
+    "meaning": "~에 빠져있다",
+    "core_image": "관심사의 문을 열고 그 안쪽 깊숙한 세계로 푹 들어가 있는 모습",
+    "focus": "취미, 음악, 학문 등에 깊은 흥미를 느끼고 푹 빠져 즐김 (구어체)",
+    "examples": [
+      "I'm really into reinforcement learning these days"
+    ]
+  },
+  {
+    "id": "d_475",
+    "source": "Dissimilarities",
+    "category": "~에 빠져있다",
+    "word": "fall for",
+    "meaning": "~에 빠져있다",
+    "core_image": "상대방의 매력이나 달콤한 거짓말의 함정에 발이 미끄러져 푹 빠짐",
+    "focus": "누군가에게 첫눈에 반해 사랑에 빠지거나, 사기나 속임수에 깜빡 넘어가 버림",
+    "examples": [
+      "He fell for her the moment they met"
+    ]
+  },
+  {
+    "id": "d_476",
+    "source": "Dissimilarities",
+    "category": "~에 빠져있다",
+    "word": "go crazy -ing",
+    "meaning": "~에 빠져있다",
+    "core_image": "이성을 잃을 만큼 주체할 수 없는 흥분과 열정으로 열광함",
+    "focus": "너무 신나거나 몰입하여 광적으로 어떤 활동에 미쳐있음을 과장하여 표현",
+    "examples": [
+      "The fans went crazy cheering for their team"
+    ]
+  },
+  {
+    "id": "d_477",
+    "source": "Dissimilarities",
+    "category": "~에 빠져있다",
+    "word": "fascinate",
+    "meaning": "~에 빠져있다",
+    "core_image": "신비로운 오로라 불빛에 매료되어 넋을 잃고 눈을 떼지 못함",
+    "focus": "매우 흥미롭고 매력적인 대상에 의해 마음이 완전히 사로잡히고 매혹됨",
+    "examples": [
+      "The biomechanics of human locomotion has always fascinated me"
+    ]
+  },
+  {
+    "id": "d_478",
+    "source": "Dissimilarities",
+    "category": "~에 빠져있다",
+    "word": "crank into",
+    "meaning": "~에 빠져있다",
+    "core_image": "엔진의 크랭크축을 맹렬히 돌려 최고 출력으로 작업에 전력 질주함",
+    "focus": "작업이나 프로젝트에 전력을 다해 맹렬한 속도와 기세로 돌입함 (비격식/속어)",
+    "examples": [
+      "Let's crank into the final chapter of the thesis"
+    ]
+  },
+  {
+    "id": "d_479",
+    "source": "Dissimilarities",
+    "category": "부담되다",
+    "word": "feel burdened",
+    "meaning": "부담되다",
+    "core_image": "어깨 위에 거대한 바윗덩어리를 짊어지고 있어 짓눌리는 무게감",
+    "focus": "과중한 책임, 빚, 의무로 인해 심리적·물리적으로 큰 짐을 짊어진 상태",
+    "examples": [
+      "I feel burdened by the high expectations"
+    ]
+  },
+  {
+    "id": "d_480",
+    "source": "Dissimilarities",
+    "category": "부담되다",
+    "word": "feel pressured",
+    "meaning": "부담되다",
+    "core_image": "사방에서 벽이 좁혀 들어오며 마감 시한에 숨이 턱 막히는 압박",
+    "focus": "외부의 요구, 주변의 기대, 시간적 제약으로 인해 받는 스트레스와 심리적 압박",
+    "examples": [
+      "I felt pressured to finish the simulation before the meeting"
+    ]
+  },
+  {
+    "id": "d_481",
+    "source": "Dissimilarities",
+    "category": "부담되다",
+    "word": "a bit much",
+    "meaning": "부담되다",
+    "core_image": "잔의 용량을 초과하여 넘쳐흐르기 직전의 과도함",
+    "focus": "요구나 상황의 강도가 도를 지나쳐서 감당하기에 다소 벅차고 과함 (완곡한 표현)",
+    "examples": [
+      "The workload this week is a bit much"
+    ]
+  },
+  {
+    "id": "d_482",
+    "source": "Dissimilarities",
+    "category": "부담되다",
+    "word": "feel uncomfortable",
+    "meaning": "부담되다",
+    "core_image": "몸에 맞지 않는 뻣뻣한 옷을 입은 듯 마음이 어색하고 거북함",
+    "focus": "과도한 호의나 난처한 부탁으로 인해 정서적으로 편치 않고 거북함을 느낌",
+    "examples": [
+      "I feel uncomfortable accepting such a big favor"
+    ]
+  },
+  {
+    "id": "d_483",
+    "source": "Dissimilarities",
+    "category": "사고방식",
+    "word": "mindset",
+    "meaning": "사고방식",
+    "core_image": "모든 세상을 바라보는 마음의 단단한 렌즈이자 고정된 태도 틀",
+    "focus": "도전이나 학습을 대하는 개인의 지속적이고 고착화된 심리적 태도/마음가짐",
+    "examples": [
+      "A positive mindset affords me a remarkable advantage"
+    ]
+  },
+  {
+    "id": "d_484",
+    "source": "Dissimilarities",
+    "category": "사고방식",
+    "word": "way of thinking",
+    "meaning": "사고방식",
+    "core_image": "문제를 풀기 위해 뇌 속에서 논리를 전개해나가는 생각의 흐름 궤적",
+    "focus": "문제를 분석하고 결론을 도출하는 지적 접근법과 사고 전개 프로세스",
+    "examples": [
+      "His way of thinking is exceedingly logical and systematic"
+    ]
+  },
+  {
+    "id": "d_485",
+    "source": "Dissimilarities",
+    "category": "사고방식",
+    "word": "paradigm",
+    "meaning": "사고방식",
+    "core_image": "한 시대를 지배하는 거대한 이론적 천문도와 세계관의 전체 틀",
+    "focus": "학문이나 산업 분야 전체를 규정하는 거대하고 근본적인 이론적 패러다임",
+    "examples": [
+      "Value investing represents a completely different paradigm of the market"
+    ]
+  },
+  {
+    "id": "d_486",
+    "source": "Dissimilarities",
+    "category": "사고방식",
+    "word": "mentality",
+    "meaning": "사고방식",
+    "core_image": "특정 집단 구성원들이 공유하는 공통의 집단적 심리 성향",
+    "focus": "개인이나 특정 집단에 고착되어 반복적으로 나타나는 고유한 심리적 경향",
+    "examples": [
+      "The victim mentality can stop your personal growth"
+    ]
+  },
+  {
+    "id": "d_487",
+    "source": "Dissimilarities",
+    "category": "마음을 숨기다",
+    "word": "hide one's feelings",
+    "meaning": "마음을 숨기다",
+    "core_image": "얼굴에 무표정의 가면을 써서 속마음의 희로애락을 감추는 표정 관리",
+    "focus": "자신의 감정(기쁨, 슬픔, 분노 등)을 겉으로 드러내지 않고 차분히 숨김",
+    "examples": [
+      "She tried to hide her feelings behind a calm smile"
+    ]
+  },
+  {
+    "id": "d_488",
+    "source": "Dissimilarities",
+    "category": "마음을 숨기다",
+    "word": "holding in one's feelings",
+    "meaning": "마음을 숨기다",
+    "core_image": "터져 나오려는 울음이나 고백을 입술을 깨물며 가슴속으로 꾹 눌러 참음",
+    "focus": "밖으로 표출하고 싶은 강렬한 감정을 인내심으로 억지로 삭이고 참아냄",
+    "examples": [
+      "We have been friends and I have been holding in my feelings for the last 7 months. Now I just want to tell her"
+    ]
+  },
+  {
+    "id": "d_489",
+    "source": "Dissimilarities",
+    "category": "마음을 숨기다",
+    "word": "keep to oneself",
+    "meaning": "마음을 숨기다",
+    "core_image": "비밀 일기장을 자물쇠로 잠그고 남에게 보여주지 않는 프라이버시",
+    "focus": "자신의 생각, 연구 아이디어, 감정을 남들과 공유하지 않고 혼자만 간직함",
+    "examples": [
+      "I tend to keep my research ideas to myself for now"
+    ]
+  },
+  {
+    "id": "d_490",
+    "source": "Dissimilarities",
+    "category": "마음을 숨기다",
+    "word": "mask one's intentions",
+    "meaning": "마음을 숨기다",
+    "core_image": "진짜 목적을 가리기 위해 다른 명분의 위장막을 둘러치는 전략적 은폐",
+    "focus": "특정한 전략적 이득이나 경쟁 우위를 위해 자신의 진짜 목적을 위장함",
+    "examples": [
+      "He masked his intentions to gain a competitive edge in the deal"
+    ]
+  },
+  {
+    "id": "d_491",
+    "source": "Dissimilarities",
+    "category": "마음을 숨기다",
+    "word": "bottle up",
+    "meaning": "마음을 숨기다",
+    "core_image": "탄산가스가 가득 찬 유리병의 마개를 꽉 닫아 압력을 가두어둠",
+    "focus": "스트레스나 분노를 표출하지 않고 속에 가두어 두어 폭발 직전에 이름",
+    "examples": [
+      "Don't bottle up your stress; it's not good for your mental health"
+    ]
+  },
+  {
+    "id": "d_492",
+    "source": "Dissimilarities",
+    "category": "낙담",
+    "word": "frustrate",
+    "meaning": "낙담",
+    "core_image": "풀리지 않는 코드 에러 앞에서 머리를 쥐어뜯으며 느끼는 무력감과 답답함",
+    "focus": "목표를 이루려 애쓰지만 장애물에 막혀 뜻대로 되지 않을 때 겪는 깊은 좌절감",
+    "examples": [
+      "This recurring coding error is deeply frustrating me"
+    ]
+  },
+  {
+    "id": "d_493",
+    "source": "Dissimilarities",
+    "category": "낙담",
+    "word": "disappoint",
+    "meaning": "낙담",
+    "core_image": "잔뜩 기대하고 열어본 상자 안이 텅 비어 있어 맥이 탁 풀리는 허탈함",
+    "focus": "사전 기대치가 충족되지 못했거나 믿었던 대상이 기대를 저버렸을 때 느끼는 실망감",
+    "examples": [
+      "I was disappointed that the response took so long"
+    ]
+  },
+  {
+    "id": "d_494",
+    "source": "Dissimilarities",
+    "category": "끔찍한",
+    "word": "nasty",
+    "meaning": "끔찍한",
+    "core_image": "썩은 음식의 악취나 사람의 고약하고 불쾌한 언행이 주는 혐오감",
+    "focus": "불쾌하고 혐오스러우며, 사람의 성격이나 상황이 고약하고 지저분함",
+    "examples": [
+      "I turned off the movie because there were too many nasty scenes"
+    ]
+  },
+  {
+    "id": "d_495",
+    "source": "Dissimilarities",
+    "category": "끔찍한",
+    "word": "cruel",
+    "meaning": "끔찍한",
+    "core_image": "상처 입은 사람의 등을 사정없이 채찍질하는 무자비한 잔혹함",
+    "focus": "타인에게 고통을 주는 것을 개의치 않거나 잔인하게 냉혹함을 가함",
+    "examples": [
+      "The reality of the market can be cruel to unprepared investors"
+    ]
+  },
+  {
+    "id": "d_496",
+    "source": "Dissimilarities",
+    "category": "동시성",
+    "word": "while",
+    "meaning": "동시성",
+    "core_image": "러닝머신 위를 뛰는 '동작의 시간 구간' 동안 음악을 함께 듣는 모습",
+    "focus": "주어가 특정 행동이나 동작을 수행하고 있는 시간적 흐름 속에서 동시에 일어남",
+    "examples": [
+      "It was exciting while watching a movie with the 3D glasses on."
+    ]
+  },
+  {
+    "id": "d_497",
+    "source": "Dissimilarities",
+    "category": "동시성",
+    "word": "with",
+    "meaning": "동시성",
+    "core_image": "스마트폰 플래시를 '켠 상태'라는 조건을 장착하고 어두운 길을 걸어감",
+    "focus": "특정 도구를 착용하거나 부대상황의 정적인 상태를 유지한 채로 동반됨",
+    "examples": [
+      "I walked with my phone flash on"
+    ]
+  },
+  {
+    "id": "d_498",
+    "source": "Dissimilarities",
+    "category": "방해하다",
+    "word": "disrupt",
+    "meaning": "방해하다",
+    "core_image": "잘 돌아가던 생산 공장의 전원이 끊기며 시스템 체계가 일시 붕괴됨",
+    "focus": "체계, 평온, 집중의 기존 질서와 흐름을 흔들어 깨뜨리고 혼란을 야기함",
+    "examples": [
+      "I'm sorry to disrupt your focus, but I have a question"
+    ]
+  },
+  {
+    "id": "d_499",
+    "source": "Dissimilarities",
+    "category": "방해하다",
+    "word": "interfere with",
+    "meaning": "방해하다",
+    "core_image": "남의 일에 참견하며 진행 방향에 끼어들어 일에 지장을 초래함",
+    "focus": "일에 불필요하게 간섭하거나 지장을 주어 정상적인 진행을 망침",
+    "examples": [
+      "Don't let your personal feelings interfere with your professional work"
+    ]
+  },
+  {
+    "id": "d_500",
+    "source": "Dissimilarities",
+    "category": "방해하다",
+    "word": "interrupt",
+    "meaning": "방해하다",
+    "core_image": "상대방의 말이 끝나지 않았는데 중간에 말을 뚝 끊고 들어오는 순간적 중단",
+    "focus": "진행 중인 대화나 동작의 흐름을 순간적으로 가로막아 멈추게 함",
+    "examples": [
+      "Sorry to interrupt, but I have a quick question"
+    ]
+  },
+  {
+    "id": "d_501",
+    "source": "Dissimilarities",
+    "category": "방해하다",
+    "word": "get in the way of",
+    "meaning": "방해하다",
+    "core_image": "좁은 복도 한가운데에 커다란 박스가 놓여 있어 앞으로 지나가지 못함",
+    "focus": "물리적 장애물이나 두려움 등의 감정이 앞길을 가로막아 발전을 저해함",
+    "examples": [
+      "I won't let my personal feelings get in the way of my work",
+      "Don't let your fear get in the way of your success"
+    ]
+  },
+  {
+    "id": "d_502",
+    "source": "Dissimilarities",
+    "category": "방해하다",
+    "word": "prohibit",
+    "meaning": "방해하다",
+    "core_image": "출입 금지 테이프를 둘러치고 법적으로 행동 자체를 원천 차단함",
+    "focus": "규정이나 고장으로 인해 특정 행위 자체가 일어나는 것을 원천 금지·불가능하게 만듦",
+    "examples": [
+      "I spilled coffee on my computer and it prohibited all of my programs from opening."
+    ]
+  },
+  {
+    "id": "d_503",
+    "source": "Dissimilarities",
+    "category": "끼어들다",
+    "word": "intervention",
+    "meaning": "끼어들다",
+    "core_image": "싸움을 말리기 위해 경찰이 현장에 진입하여 질서를 바로잡는 정식 개입",
+    "focus": "상황을 개선하거나 특정 목적을 달성하기 위해 의도적으로 개입하고 중재함",
+    "examples": [
+      "The government's intervention was necessary to stabilize the market"
+    ]
+  },
+  {
+    "id": "d_504",
+    "source": "Dissimilarities",
+    "category": "선물",
+    "word": "present",
+    "meaning": "선물",
+    "core_image": "생일을 맞은 친구를 위해 정성껏 포장지로 싼 따뜻한 선물 상자",
+    "focus": "개인적인 친밀한 관계에서 축하와 감사의 마음을 담아 건네는 일상적 선물",
+    "examples": [
+      "I bought a birthday present for my friend"
+    ]
+  },
+  {
+    "id": "d_505",
+    "source": "Dissimilarities",
+    "category": "선물",
+    "word": "gift",
+    "meaning": "선물",
+    "core_image": "하늘이 내려준 천재적인 재능이나 기관이 정식으로 수여하는 증정품",
+    "focus": "공식적인 증정품, 기부금, 혹은 선천적으로 타고난 천부적 재능",
+    "examples": [
+      "He has a rare gift for mathematical abstraction"
+    ]
+  },
+  {
+    "id": "d_506",
+    "source": "Dissimilarities",
+    "category": "좋아하다",
+    "word": "like",
+    "meaning": "좋아하다",
+    "core_image": "옆에 있는 친구와 어깨동무를 하며 느끼는 편안하고 호감 어린 친근함",
+    "focus": "대등한 대상이나 일상적인 사물에 대해 느끼는 보편적이고 친근한 호감",
+    "examples": [
+      "I like reading books in quiet cafes"
+    ]
+  },
+  {
+    "id": "d_507",
+    "source": "Dissimilarities",
+    "category": "좋아하다",
+    "word": "admire",
+    "meaning": "좋아하다",
+    "core_image": "밤하늘에 빛나는 북극성을 우러러보며 경외심과 존경을 품는 시선",
+    "focus": "뛰어난 인격, 업적, 품격을 지닌 대상을 우러러보며 품는 깊은 존경과 흠모",
+    "examples": [
+      "I truly admire my mentor's dedication to scientific discovery"
+    ]
+  },
+  {
+    "id": "d_508",
+    "source": "Dissimilarities",
+    "category": "비용",
+    "word": "pay",
+    "meaning": "비용",
+    "core_image": "지갑에서 지폐를 꺼내 물건값으로 지불하는 구매자의 손동작",
+    "focus": "소비자/사용자의 입장에서 재화나 서비스의 대가를 지불하는 행위",
+    "examples": [
+      "I have to pay the rent by the end of the month"
+    ]
+  },
+  {
+    "id": "d_509",
+    "source": "Dissimilarities",
+    "category": "비용",
+    "word": "charge",
+    "meaning": "청구 금액, 대금",
+    "core_image": "판매자가 영수증에 가격을 책정하여 청구서를 내미는 요구",
+    "focus": "공급자/판매자의 입장에서 가격을 책정하고 금액을 청구하는 행위",
+    "examples": [
+      "How much do you charge for this consulting service?"
+    ]
+  },
+  {
+    "id": "d_510",
+    "source": "Dissimilarities",
+    "category": "참석하다",
+    "word": "go to",
+    "meaning": "참석하다",
+    "core_image": "신발을 신고 회의실이 있는 건물로 이동하는 단순한 장소 이동",
+    "focus": "해당 장소로 이동하여 참가함을 뜻하는 가장 일상적인 표현",
+    "examples": [
+      "I'm going to a meeting at 10 AM"
+    ]
+  },
+  {
+    "id": "d_511",
+    "source": "Dissimilarities",
+    "category": "참석하다",
+    "word": "be at",
+    "meaning": "참석하다",
+    "core_image": "세미나실 의자에 이미 앉아 현장에 머물러 있는 상태",
+    "focus": "행사나 회의 현장 공간에 물리적으로 위치하고 있는 상태에 집중",
+    "examples": [
+      "Will you be at the seminar today?"
+    ]
+  },
+  {
+    "id": "d_512",
+    "source": "Dissimilarities",
+    "category": "참석하다",
+    "word": "attend",
+    "meaning": "참석하다",
+    "core_image": "학회 명찰을 목에 걸고 국제 콘퍼런스 오디토리움에 정식 입장함",
+    "focus": "공식적인 콘퍼런스, 정기 총회, 수업 등에 격식 있게 정식 참석함",
+    "examples": [
+      "I will attend the biomechanics conference next week"
+    ]
+  },
+  {
+    "id": "d_513",
+    "source": "Dissimilarities",
+    "category": "참석하다",
+    "word": "make it",
+    "meaning": "참석하다",
+    "core_image": "교통 체증을 뚫고 간발의 차이로 약속 장소에 골인하여 도착함",
+    "focus": "바쁜 일정이나 난관을 극복하고 마침내 그 자리에 참석해냄 (성취 뉘앙스의 구어체)",
+    "examples": [
+      "I'm glad you could make it to the party despite the rain"
+    ]
+  },
+  {
+    "id": "d_514",
+    "source": "Dissimilarities",
+    "category": "유도하다",
+    "word": "prompt",
+    "meaning": "유도하다",
+    "core_image": "질문 큐카드를 보여주며 다음 대답을 하도록 직접 신호를 줌",
+    "focus": "호기심이나 동기가 작용하여 상대방이 특정 행동을 취하도록 직접 촉발·독려함",
+    "examples": [
+      "Curiosity prompted him to ask a question"
+    ]
+  },
+  {
+    "id": "d_515",
+    "source": "Dissimilarities",
+    "category": "유도하다",
+    "word": "nudge",
+    "meaning": "유도하다",
+    "core_image": "팔꿈치로 옆구리를 슬쩍 건드리며 부드럽게 행동을 권유함",
+    "focus": "강요 없이 넌지시 알아채지 못하게 슬쩍 짚어주며 부드럽게 유도함",
+    "examples": [
+      "I had to nudge him to make a timely decision"
+    ]
+  },
+  {
+    "id": "d_516",
+    "source": "Dissimilarities",
+    "category": "자발적으로",
+    "word": "willingly",
+    "meaning": "자발적으로",
+    "core_image": "타인의 강요 없이 환한 미소를 지으며 스스로 손을 번쩍 들고 나섬",
+    "focus": "자신의 자발적 의지와 즐거운 마음으로 기꺼이 도움을 주거나 참여함",
+    "examples": [
+      "I would willingly help you with your research"
+    ]
+  },
+  {
+    "id": "d_517",
+    "source": "Dissimilarities",
+    "category": "보여주다 (선포)",
+    "word": "proclaim",
+    "meaning": "보여주다 (선포)",
+    "core_image": "광장 연단에 올라 확성기를 쥐고 전 국민 앞에 공식 선언문을 낭독함",
+    "focus": "국가, 법원, 권위자가 대중을 향해 공식적인 결정이나 상태를 널리 선포함",
+    "examples": [
+      "The government proclaimed a state of emergency"
+    ]
+  },
+  {
+    "id": "d_518",
+    "source": "Dissimilarities",
+    "category": "덜함",
+    "word": "less + N",
+    "meaning": "덜함",
+    "core_image": "계량컵에 담긴 물의 수위가 기준선보다 눈에 띄게 줄어든 적은 수량",
+    "focus": "시간, 돈, 자원 등 대상의 정량적인 양이나 정도가 단순히 적음을 표현",
+    "examples": [
+      "I have less time today than yesterday"
+    ]
+  },
+  {
+    "id": "d_519",
+    "source": "Dissimilarities",
+    "category": "덜함",
+    "word": "less of",
+    "meaning": "덜함",
+    "core_image": "원래 가지고 있던 고유한 정체성의 농도가 옅어지며 비중이 줄어듦",
+    "focus": "취미나 성격 등 특정 본질적 속성이 예전만큼 느껴지지 않고 비중이 감소함",
+    "examples": [
+      "Programming has become less of a hobby and more of a career"
+    ]
+  },
+  {
+    "id": "d_520",
+    "source": "Dissimilarities",
+    "category": "만큼",
+    "word": "no less",
+    "meaning": "만큼",
+    "core_image": "예상보다 훨씬 거대한 스케일의 숫자를 보며 턱이 떡 벌어지는 감탄",
+    "focus": "수치나 강도가 '무려 ~나 된다'고 강조하며 그 대단함을 부각할 때 사용",
+    "examples": [
+      "And yet the imitation is no less strict and literal in internal mediation than in external mediation"
+    ]
+  },
+  {
+    "id": "d_521",
+    "source": "Dissimilarities",
+    "category": "판단",
+    "word": "call",
+    "meaning": "판단",
+    "core_image": "심판이 호루라기를 불며 세이프인지 아웃인지 최종 결정을 내림",
+    "focus": "애매한 상황에서 권한을 가진 자가 내리는 주관적이고 최종적인 판단/결정",
+    "examples": [
+      "It was a tough call, but we decided to cancel the outdoor trial"
+    ]
+  },
+  {
+    "id": "d_522",
+    "source": "Dissimilarities",
+    "category": "~에 관하여",
+    "word": "about",
+    "meaning": "~에 관하여",
+    "core_image": "주제 주변을 둥글게 감싸며 일상적으로 논의하는 친근한 대화",
+    "focus": "특정 주제에 관해 이야기할 때 가장 널리 쓰이는 표준적이고 일반적인 전치사",
+    "examples": [
+      "We talked about the future of artificial intelligence"
+    ]
+  },
+  {
+    "id": "d_523",
+    "source": "Dissimilarities",
+    "category": "~에 관하여",
+    "word": "regarding",
+    "meaning": "~에 관하여",
+    "core_image": "비즈니스 공문서의 제목 줄에 정중하게 명시된 관련 참조 안건",
+    "focus": "공식 이메일이나 보고서에서 특정 사안에 관하여 언급하는 격식 있는 표현",
+    "examples": [
+      "I am writing regarding your recent application to our lab"
+    ]
+  },
+  {
+    "id": "d_524",
+    "source": "Dissimilarities",
+    "category": "~에 관하여",
+    "word": "as to",
+    "meaning": "~에 관하여",
+    "core_image": "여러 논의 항목 중 특정 질문을 향해 초점을 좁히는 돋보기",
+    "focus": "특정 의문점이나 주제에 대해 한정하여 '~에 관하여 말하자면'의 격조 높은 연결",
+    "examples": [
+      "There is no consensus as to which model performs best"
+    ]
+  },
+  {
+    "id": "d_525",
+    "source": "Dissimilarities",
+    "category": "당연",
+    "word": "needless to say",
+    "meaning": "당연",
+    "core_image": "모두가 이미 다 알고 있어 굳이 입 밖으로 설명할 필요조차 없는 자명함",
+    "focus": "너무나 명백하고 당연하여 굳이 말로 덧붙이지 않아도 자명한 사실을 언급할 때 씀",
+    "examples": [
+      "Needless to say, accuracy is the most crucial metric in this task"
+    ]
+  },
+  {
+    "id": "d_526",
+    "source": "Dissimilarities",
+    "category": "그런데",
+    "word": "by the way",
+    "meaning": "그런데",
+    "core_image": "걷던 길에서 살짝 샛길로 빠져 문득 생각난 새로운 이야기를 꺼냄",
+    "focus": "대화 도중에 기존 주제와 관련 없는 새로운 화제로 가볍게 전환할 때 사용",
+    "examples": [
+      "By the way, did you finish the documentation?"
+    ]
+  },
+  {
+    "id": "d_527",
+    "source": "Dissimilarities",
+    "category": "그런데",
+    "word": "incidentally",
+    "meaning": "그런데",
+    "core_image": "본론의 큰 흐름 옆에 자연스럽게 부수적으로 딸려 나오는 우연한 곁다리 정보",
+    "focus": "우연히 혹은 부수적으로 연관되어 떠오른 정보를 격식 있고 세련되게 덧붙임",
+    "examples": [
+      "Incidentally, I ran into Oscar on my way to the campus"
+    ]
+  },
+  {
+    "id": "d_528",
+    "source": "Dissimilarities",
+    "category": "무료",
+    "word": "for nothing",
+    "meaning": "무료",
+    "core_image": "어떠한 대가나 보수도 요구하지 않고 빈손으로 헌신하는 무보수 자원",
+    "focus": "금전적 대가 없이 무보수로 일하거나, 혹은 아무런 소득 없이 헛수고가 됨",
+    "examples": [
+      "I offered to go to work at Graham-Newman for nothing after I took Ben Graham’s class, but he turned me down as overvalued"
+    ]
+  },
+  {
+    "id": "d_529",
+    "source": "Dissimilarities",
+    "category": "등록",
+    "word": "apply",
+    "meaning": "등록",
+    "core_image": "작성한 지원서를 봉투에 넣어 채용 부서에 전달하고 심사를 기다림",
+    "focus": "연구원 직책, 장학금, 비자 등에 선발되기 위해 공식적으로 서류를 제출하여 지원함",
+    "examples": [
+      "I applied for the research position at EPFL"
+    ]
+  },
+  {
+    "id": "d_530",
+    "source": "Dissimilarities",
+    "category": "등록",
+    "word": "sign up for",
+    "meaning": "등록",
+    "core_image": "인강 사이트의 회원가입 창에 본인의 이름을 기입하고 수강을 시작함",
+    "focus": "본인의 자발적 의사에 따라 온라인 강좌나 서비스 명단에 등록하고 가입함",
+    "examples": [
+      "I wanted to study English but I was too lazy to go to academy to learn, so I signed up for online courses."
+    ]
+  },
+  {
+    "id": "d_531",
+    "source": "Dissimilarities",
+    "category": "등록",
+    "word": "sign someone up for",
+    "meaning": "등록",
+    "core_image": "보호자가 어린 자녀의 손을 잡고 도장 관장님에게 데려가 수강생으로 등록시킴",
+    "focus": "부모나 타인이 다른 사람을 대신하여 강좌나 프로그램에 등록시켜 줌",
+    "examples": [
+      "When I was young, I was very small and weak. So my mom signed me up for Tae-Kwon-Do lessons"
+    ]
+  },
+  {
+    "id": "d_532",
+    "source": "Dissimilarities",
+    "category": "곧, 이내",
+    "word": "soon",
+    "meaning": "곧, 머지않아",
+    "core_image": "현재 시점에서 몇 발자국만 걸어가면 바로 만나는 가까운 시간",
+    "focus": "긴 시간이 지나지 않고 조만간, 금방 일어남을 뜻하는 가장 표준적인 단어",
+    "examples": [
+      "I studied hard at first, but soon I got lazy and ended up wasting money on some online courses"
+    ]
+  },
+  {
+    "id": "d_533",
+    "source": "Dissimilarities",
+    "category": "곧, 이내",
+    "word": "shortly",
+    "meaning": "곧, 이내",
+    "core_image": "안내 방송과 함께 1~2분 이내로 즉시 문이 열리는 짧은 대기 시간",
+    "focus": "아주 짧은 시간 후 바로 직후에 일어남을 나타내는 격식 있는 표현",
+    "examples": [
+      "The meeting will start shortly"
+    ]
+  },
+  {
+    "id": "d_534",
+    "source": "Dissimilarities",
+    "category": "곧, 이내",
+    "word": "before long",
+    "meaning": "곧, 이내",
+    "core_image": "시간의 흐름이 자연스럽게 결실을 맺어 머지않아 도달하는 미래",
+    "focus": "머지않아 자연스러운 과정의 귀결로 결국 그렇게 됨을 나타냄 (문학적/서정적)",
+    "examples": [
+      "You will master this tool before long"
+    ]
+  },
+  {
+    "id": "d_535",
+    "source": "Dissimilarities",
+    "category": "맞다 (어울림)",
+    "word": "fit",
+    "meaning": "맞추다, 적합하다",
+    "core_image": "열쇠가 자물쇠 구멍에 덜컥거리거나 헐겁지 않고 완벽한 치수로 딱 들어맞음",
+    "focus": "물건의 물리적 크기나 치수가 정확하게 들어맞음",
+    "examples": [
+      "The key fits the lock perfectly"
+    ]
+  },
+  {
+    "id": "d_536",
+    "source": "Dissimilarities",
+    "category": "맞다 (어울림)",
+    "word": "suit",
+    "meaning": "맞다 (어울림)",
+    "core_image": "파란색 셔츠가 그 사람의 피부 톤 및 분위기와 우아하게 조화를 이룸",
+    "focus": "디자인, 색상, 성향, 직무 조건이 그 사람의 스타일에 잘 어울리고 적합함",
+    "examples": [
+      "Blue really suits you",
+      "He gave me good advice on how to find a good job that would suit me"
+    ]
+  },
+  {
+    "id": "d_537",
+    "source": "Dissimilarities",
+    "category": "맞다 (어울림)",
+    "word": "look nice",
+    "meaning": "맞다 (어울림)",
+    "core_image": "거울 앞에 선 전체적인 옷차림이 깔끔하고 세련되어 칭찬을 부름",
+    "focus": "시각적으로 겉모습이나 스타일이 객관적으로 보기에 훌륭하고 멋짐",
+    "examples": [
+      "You look really nice today in that jacket"
+    ]
+  },
+  {
+    "id": "d_538",
+    "source": "Dissimilarities",
+    "category": "선생님",
+    "word": "teacher",
+    "meaning": "선생님",
+    "core_image": "교실에서 학생들의 눈을 바라보며 인생의 지혜와 인격을 함께 길러주는 스승",
+    "focus": "장기적인 인간관계를 맺으며 지식과 인격을 전인적으로 가르치는 학교 교사/스승",
+    "examples": [
+      "She is a great teacher who changed my life perspective"
+    ]
+  },
+  {
+    "id": "d_539",
+    "source": "Dissimilarities",
+    "category": "선생님",
+    "word": "instructor",
+    "meaning": "선생님",
+    "core_image": "조종석 옆에 앉아 계기판 조작법과 비행술의 실전 매뉴얼을 집중 훈련시킴",
+    "focus": "특정한 기술, 자격증, 스포츠 실무를 체계적으로 습득하도록 훈련시키는 전문 교관",
+    "examples": [
+      "The flight instructor showed me how to land the aircraft safely"
+    ]
+  },
+  {
+    "id": "d_540",
+    "source": "Dissimilarities",
+    "category": "교환",
+    "word": "exchange",
+    "meaning": "교환",
+    "core_image": "구매한 빨간 셔츠를 카운터에 내밀고 파란 셔츠로 맞바꾸어 감",
+    "focus": "구매 계약 자체는 유지하면서 물건의 색상이나 사이즈만 다른 것으로 맞교환함",
+    "examples": [
+      "I would like to exchange this shirt for a larger size"
+    ]
+  },
+  {
+    "id": "d_541",
+    "source": "Dissimilarities",
+    "category": "교환",
+    "word": "refund",
+    "meaning": "교환",
+    "core_image": "물건을 반납하고 지불했던 영수증 금액 그대로 현금/카드로 돌려받음",
+    "focus": "구매 거래를 완전히 취소하고 지불했던 금전적 가치를 전액 환불받음",
+    "examples": [
+      "I decided to return the laptop and get a full refund"
+    ]
+  },
+  {
+    "id": "d_542",
+    "source": "Dissimilarities",
+    "category": "배송",
+    "word": "shipping",
+    "meaning": "배송",
+    "core_image": "물류 창고에서 컨테이너 트럭에 화물이 선적되어 고속도로를 달리기 시작함",
+    "focus": "상품이 창고를 출발하여 운송망을 통해 이동하는 운송·발송 단계 전체",
+    "examples": [
+      "We offer free shipping on all orders over fifty dollars"
+    ]
+  },
+  {
+    "id": "d_543",
+    "source": "Dissimilarities",
+    "category": "배송",
+    "word": "delivery",
+    "meaning": "배송",
+    "core_image": "택배 기사님이 우리 집 현관문 앞 벨을 누르고 상자를 건네주는 최종 순간",
+    "focus": "운송 과정을 마치고 소비자의 최종 수령지 문앞에 물건이 도달하여 인도되는 순간",
+    "examples": [
+      "The delivery is expected to arrive this afternoon"
+    ]
+  },
+  {
+    "id": "d_544",
+    "source": "Dissimilarities",
+    "category": "물품",
+    "word": "product",
+    "meaning": "물품",
+    "core_image": "공장 생산 라인에서 완제품으로 제조되어 브랜드 라벨을 달고 출시된 상품",
+    "focus": "판매와 유통을 목적으로 대량 생산되거나 완성된 경제적 제품 그 자체",
+    "examples": [
+      "The company launched a new software product"
+    ]
+  },
+  {
+    "id": "d_545",
+    "source": "Dissimilarities",
+    "category": "물품",
+    "word": "item",
+    "meaning": "물품",
+    "core_image": "쇼핑 카트나 영수증 목록표에 한 줄씩 나열되어 있는 낱개의 개별 품목",
+    "focus": "목록, 세트, 진열대 속에 포함되어 있는 개별적인 물품 하나하나",
+    "examples": [
+      "You can check the price of each item on the receipt"
+    ]
+  },
+  {
+    "id": "d_546",
+    "source": "Dissimilarities",
+    "category": "이의",
+    "word": "contest",
+    "meaning": "이의",
+    "core_image": "법정에서 판결이나 선거 결과가 무효임을 주장하며 정식 법적 소송을 제기함",
+    "focus": "결정이나 결과에 오류가 있다고 믿고 공식 절차를 통해 이를 다투고 반박함",
+    "examples": [
+      "He decided to contest the results of the election"
+    ]
+  },
+  {
+    "id": "d_547",
+    "source": "Dissimilarities",
+    "category": "이의",
+    "word": "complain",
+    "meaning": "이의",
+    "core_image": "불만족스러운 서비스를 겪고 매니저에게 자신의 불쾌한 기분을 털어놓음",
+    "focus": "상황이나 서비스가 마음에 들지 않을 때 느끼는 불만과 짜증을 일상적으로 표현함",
+    "examples": [
+      "Don't complain about the difficult task; just solve it step by step"
+    ]
+  },
+  {
+    "id": "d_548",
+    "source": "Dissimilarities",
+    "category": "이의",
+    "word": "file a complaint",
+    "meaning": "이의",
+    "core_image": "소비자원이나 항공사 고객센터에 서면으로 된 정식 피해 신고서를 접수함",
+    "focus": "공식 기관이나 기업에 정해진 법적·행정적 서식에 따라 공식 민원/신고를 접수함",
+    "examples": [
+      "I filed a complaint with the airline because they lost my luggage"
+    ]
+  },
+  {
+    "id": "d_549",
+    "source": "Dissimilarities",
+    "category": "몇몇",
+    "word": "some",
+    "meaning": "몇몇",
+    "core_image": "군중 속에서 특정되지 않은 막연한 몇몇 사람들의 흐릿한 실루엣",
+    "focus": "정확한 수량이나 대상이 정해지지 않은 막연하고 일반적인 일부",
+    "examples": [
+      "Some people prefer value investing over momentum trading"
+    ]
+  },
+  {
+    "id": "d_550",
+    "source": "Dissimilarities",
+    "category": "몇몇",
+    "word": "certain",
+    "meaning": "몇몇",
+    "core_image": "다수의 대상 중 화자의 머릿속에 콕 집어 명확히 정해져 있는 특정 그룹",
+    "focus": "전체 중에서 화자가 명확히 인식하고 있거나 조건이 정해져 있는 특정 대상들",
+    "examples": [
+      "There are certain risks associated with this asset class"
+    ]
+  },
+  {
+    "id": "d_551",
+    "source": "Dissimilarities",
+    "category": "운영하다",
+    "word": "run",
+    "meaning": "운영하다",
+    "core_image": "기계의 모터가 쉬지 않고 힘차게 돌며 사업체가 매일 돌아가는 생동감",
+    "focus": "웹사이트, 사업체, 레스토랑 등이 중단 없이 지속적으로 굴러가도록 총괄 경영함",
+    "examples": [
+      "My friend runs a successful online shopping site"
+    ]
+  },
+  {
+    "id": "d_552",
+    "source": "Dissimilarities",
+    "category": "운영하다",
+    "word": "operate",
+    "meaning": "운영하다",
+    "core_image": "조종석에 앉아 복잡한 제어 스위치와 레버를 능숙하게 다루며 장비를 가동함",
+    "focus": "복잡한 기계, 시스템, 장비가 제 기능을 하도록 기술적으로 가동하고 관리함",
+    "examples": [
+      "Do you know how to operate this precision measurement equipment?"
+    ]
+  },
+  {
+    "id": "d_553",
+    "source": "Dissimilarities",
+    "category": "실험",
+    "word": "experiment",
+    "meaning": "실험",
+    "core_image": "실험실 비커에 시약을 붓고 가설 A가 맞는지 확인하는 단일한 1회성 테스트",
+    "focus": "특정한 가설을 검증하기 위해 수행하는 구체적이고 단일한 개별 시험",
+    "examples": [
+      "We designed a novel experiment to test the hypothesis"
+    ]
+  },
+  {
+    "id": "d_554",
+    "source": "Dissimilarities",
+    "category": "실험",
+    "word": "experimentation",
+    "meaning": "실험",
+    "core_image": "수년간 수백 번의 시행착오를 거치며 방법론을 정립해나가는 장기적 연구 활동",
+    "focus": "실험을 기획하고 수행하며 반복하는 학술적 활동 전체 및 연구 방법론",
+    "examples": [
+      "Owing to the limitations of live experimentation, musculoskeletal models have been the cornerstone of most investigation and understanding behind biological motor control"
+    ]
+  },
+  {
+    "id": "d_555",
+    "source": "Dissimilarities",
+    "category": "지우다",
+    "word": "delete",
+    "meaning": "지우다",
+    "core_image": "휴지통 비우기를 눌러 데이터의 존재 자체를 영구히 소멸시킴",
+    "focus": "파일, 코드 라인, 데이터베이스 레코드를 완전히 삭제하여 없앰",
+    "examples": [
+      "I'll delete the redundant lines in the python script"
+    ]
+  },
+  {
+    "id": "d_556",
+    "source": "Dissimilarities",
+    "category": "지우다",
+    "word": "remove",
+    "meaning": "지우다",
+    "core_image": "어지러운 책상 위에서 불필요한 물건을 집어 옆 서랍 속으로 치워둠",
+    "focus": "대상을 파괴하기보다는 현재의 위치나 특정 공간 밖으로 덜어내어 제외함",
+    "examples": [
+      "Please remove the temporary files from this folder"
+    ]
+  },
+  {
+    "id": "d_557",
+    "source": "Dissimilarities",
+    "category": "증서",
+    "word": "bill",
+    "meaning": "청구서, 계산서, 지폐",
+    "core_image": "식사를 마친 후 테이블로 가져온, 아직 결제하지 않은 청구 내역서",
+    "focus": "돈을 지불하기 전에 지불해야 할 금액과 세부 항목이 명시된 미결제 청구서",
+    "examples": [
+      "Could we have the bill, please?"
+    ]
+  },
+  {
+    "id": "d_558",
+    "source": "Dissimilarities",
+    "category": "증서",
+    "word": "receipt",
+    "meaning": "증서",
+    "core_image": "카드를 긁은 후 결제가 정상 완료되었음을 증명하는 결제 완료 전표",
+    "focus": "금전 지불이 완료된 후 그 사실을 공식 증명하기 위해 발급받는 영수증",
+    "examples": [
+      "Keep the receipt in case you want to return the product"
+    ]
+  },
+  {
+    "id": "d_559",
+    "source": "Dissimilarities",
+    "category": "공통",
+    "word": "in common",
+    "meaning": "공통으로, 함께",
+    "core_image": "두 개의 교집합 원이 겹쳐지는 부분에 들어있는 공유 자산",
+    "focus": "둘 이상의 개체가 동일한 특성, 취향, 유전적 자질을 공유하고 있는 상태",
+    "examples": [
+      "We have a lot of research interests in common"
+    ]
+  },
+  {
+    "id": "d_560",
+    "source": "Dissimilarities",
+    "category": "처음",
+    "word": "at first",
+    "meaning": "처음",
+    "core_image": "출발 당시의 미숙했던 첫 모습 뒤로, 점차 숙련되어가는 반전의 서막",
+    "focus": "사건의 초반 상태를 의미하며, 대개 시간이 흘러 상황이 달라졌음을 암시함",
+    "examples": [
+      "At first, the model didn't converge, but it improved significantly after tuning"
+    ]
+  },
+  {
+    "id": "d_561",
+    "source": "Dissimilarities",
+    "category": "처음",
+    "word": "for the first time",
+    "meaning": "처음",
+    "core_image": "생애 최초로 비행기를 타고 구름 위를 날아오르는 생생한 첫 경험",
+    "focus": "이전에 한 번도 경험해보지 못한 일을 인생에서 최초로 겪는 역사적 순간",
+    "examples": [
+      "I visited Geneva for the first time last year"
+    ]
+  },
+  {
+    "id": "d_562",
+    "source": "Dissimilarities",
+    "category": "모습",
+    "word": "the way one looked",
+    "meaning": "모습",
+    "core_image": "사진 속에 찍힌 당시 내 자신의 생생한 차림새와 표정의 순간 포착",
+    "focus": "과거 특정 순간에 내 눈이나 타인의 시선에 비쳤던 고유한 모습 그대로",
+    "examples": [
+      "I didn't like the way I looked in that graduation photo"
+    ]
+  },
+  {
+    "id": "d_563",
+    "source": "Dissimilarities",
+    "category": "모습",
+    "word": "appearance",
+    "meaning": "모습",
+    "core_image": "면접관 앞에 선 인물의 단정한 용모와 전반적인 외관 실루엣",
+    "focus": "타인에게 비치는 전반적인 외모, 겉모습, 시각적 상태 (격식체)",
+    "examples": [
+      "A professional appearance helps create a strong first impression"
+    ]
+  },
+  {
+    "id": "d_564",
+    "source": "Dissimilarities",
+    "category": "모습",
+    "word": "style",
+    "meaning": "모습",
+    "core_image": "자신의 개성을 드러내는 독특한 옷차림과 헤어스타일의 감각",
+    "focus": "개인의 고유한 취향과 패션 감각이 반영된 스타일과 옷차림",
+    "examples": [
+      "She has a very distinctive and elegant fashion style"
+    ]
+  },
+  {
+    "id": "d_565",
+    "source": "Dissimilarities",
+    "category": "떠나다",
+    "word": "leave",
+    "meaning": "떠나다",
+    "core_image": "정들었던 사무실의 짐을 싸서 문밖으로 걸어 나가는 이별과 퇴사",
+    "focus": "직장, 도시, 장소를 정리하고 다른 곳을 향해 공식적으로 떠남",
+    "examples": [
+      "All four left between 1955 and 1957 when the firm was wound up, and it's possible to trace the record of three"
+    ]
+  },
+  {
+    "id": "d_566",
+    "source": "Dissimilarities",
+    "category": "다가오다",
+    "word": "come up to",
+    "meaning": "다가오다",
+    "core_image": "저 멀리 있던 사람이 보폭을 좁히며 내 바로 앞까지 성큼성큼 다가옴",
+    "focus": "물리적인 거리나 특정 장소를 향해 가까이 다가가거나 방문함",
+    "examples": [
+      "Then he realized that he needed to get a real business education so he came up to take Ben's course at Columbia, where we met in early 1951."
+    ]
+  },
+  {
+    "id": "d_567",
+    "source": "Dissimilarities",
+    "category": "성공",
+    "word": "come off",
+    "meaning": "성공",
+    "core_image": "무대 뒤에서 준비했던 마술 트릭이 무대 위에서 완벽하게 먹혀들어 박수를 받음",
+    "focus": "공들여 준비한 계획, 행사, 발표 등이 예상대로 멋지게 성공하고 결실을 맺음 (구어체)",
+    "examples": [
+      "I was worried about the presentation, but it came off really well"
+    ]
+  },
+  {
+    "id": "d_568",
+    "source": "Dissimilarities",
+    "category": "조종",
+    "word": "steer",
+    "meaning": "조종",
+    "core_image": "배의 키를 단단히 쥐고 암초를 피해 안전한 항로로 방향을 돌림",
+    "focus": "물리적 핸들 조작뿐 아니라 대화나 상황의 흐름을 원하는 방향으로 능숙하게 유도함",
+    "examples": [
+      "He managed to steer the conversation away from the sensitive controversy"
+    ]
+  },
+  {
+    "id": "d_569",
+    "source": "Dissimilarities",
+    "category": "조종",
+    "word": "manipulate",
+    "meaning": "조종",
+    "core_image": "정밀 핀셋으로 시계 부품을 정교하게 다루거나 배후에서 사람을 교묘히 조종함",
+    "focus": "도구를 정교하게 조작하거나, 혹은 부정적으로 상대방을 교묘하게 속여 조종함",
+    "examples": [
+      "The robotic arm can manipulate fragile objects with extreme precision"
+    ]
+  },
+  {
+    "id": "d_570",
+    "source": "Dissimilarities",
+    "category": "반드시",
+    "word": "necessarily",
+    "meaning": "반드시",
+    "core_image": "수학 공식처럼 A가 성립하면 100% 필연적으로 B가 따라나오는 인과율",
+    "focus": "논리적 필연성을 나타내며, 주로 부정문(not necessarily)에서 '반드시 ~인 것은 아니다'로 자주 쓰임",
+    "examples": [
+      "High price does not necessarily mean high quality"
+    ]
+  },
+  {
+    "id": "d_571",
+    "source": "Dissimilarities",
+    "category": "오히려",
+    "word": "if anything",
+    "meaning": "오히려",
+    "core_image": "저울의 눈금이 예상과 달리 반대쪽으로 살짝 더 기울어지는 미세한 반전",
+    "focus": "어느 쪽인가 굳이 따지자면 예상과 달리 '오히려, 차라리' 그러하다는 완곡한 강조",
+    "examples": [
+      "The new update didn't slow down the system; if anything, it became faster"
+    ]
+  },
+  {
+    "id": "d_572",
+    "source": "Dissimilarities",
+    "category": "오히려",
+    "word": "rather",
+    "meaning": "오히려",
+    "core_image": "A라는 카드를 밀어내고 B라는 더 적합하고 진실된 카드를 대신 올려놓음",
+    "focus": "앞서 언급된 내용이 아니라 '오히려/차라리' 이것이 맞다고 정정하고 대체할 때 사용",
+    "examples": [
+      "He is not a competitor; rather, he is our key collaborator"
+    ]
+  },
+  {
+    "id": "d_573",
+    "source": "Dissimilarities",
+    "category": "오히려",
+    "word": "on the contrary",
+    "meaning": "오히려",
+    "core_image": "180도 완전히 반대 방향을 가리키며 정반대의 사실을 천명함",
+    "focus": "앞서 말한 진술이 전혀 사실이 아니며 정반대임을 강하게 반박하고 단언할 때 사용 (격식체)",
+    "examples": [
+      "It was not a failure; on the contrary, it was a tremendous breakthrough"
+    ]
+  },
+  {
+    "id": "d_574",
+    "source": "Dissimilarities",
+    "category": "오히려",
+    "word": "instead",
+    "meaning": "오히려",
+    "core_image": "원래 가려던 길을 우회하여 다른 새로운 선택지로 발걸음을 옮김",
+    "focus": "A를 하지 않고 그 대신에 B를 행하는 대체 행위에 집중",
+    "examples": [
+      "We decided not to buy new hardware; instead, we optimized our algorithm"
+    ]
+  },
+  {
+    "id": "d_575",
+    "source": "Dissimilarities",
+    "category": "망가지다, 멈추다",
+    "word": "disable",
+    "meaning": "비활성화하다, 무력화하다",
+    "core_image": "스위치를 내려서 기계의 특정 기능이나 센서 작동을 비활성화시킴",
+    "focus": "시스템, 기능, 혹은 계정을 일시적 또는 의도적으로 무력화하여 작동 불능 상태로 만듦",
+    "examples": [
+      "The administrator disabled the inactive account"
+    ]
+  },
+  {
+    "id": "d_576",
+    "source": "Dissimilarities",
+    "category": "망가지다, 멈추다",
+    "word": "break down",
+    "meaning": "망가지다, 멈추다",
+    "core_image": "자동차 보닛에서 연기가 피어오르며 도로 한가운데에 털썩 멈춰 섬",
+    "focus": "복잡한 기계나 자동차 등이 내부 고장으로 인해 완전히 퍼져서 주저앉음",
+    "examples": [
+      "My car broke down on the highway"
+    ]
+  },
+  {
+    "id": "d_577",
+    "source": "Dissimilarities",
+    "category": "망가지다, 멈추다",
+    "word": "stop working",
+    "meaning": "망가지다, 멈추다",
+    "core_image": "화면이 멈추거나 시계바늘이 더 이상 째깍거리지 않고 정지함",
+    "focus": "기기나 프로그램이 더 이상 정상 작동하지 않고 멈춘 상태를 나타내는 가장 보편적인 일상 표현",
+    "examples": [
+      "The keyboard suddenly stopped working"
+    ]
+  },
+  {
+    "id": "d_578",
+    "source": "Dissimilarities",
+    "category": "엉킴",
+    "word": "twine",
+    "meaning": "엉킴",
+    "core_image": "두 가닥의 실을 꼬아 단단한 하나의 튼튼한 밧줄로 엮어냄",
+    "focus": "두 개 이상의 실이나 덩굴을 의도적으로 또는 조화롭게 꼬아서 엮음",
+    "examples": [
+      "The ivy twined gracefully around the wooden pillar"
+    ]
+  },
+  {
+    "id": "d_579",
+    "source": "Dissimilarities",
+    "category": "엉킴",
+    "word": "tangle",
+    "meaning": "엉킴",
+    "core_image": "주머니 속 이어폰 줄이 무질서하게 이리저리 뒤엉켜 풀기 힘든 상태",
+    "focus": "선이나 실타래, 상황이 어지럽고 복잡하게 얽히고설켜 혼란스러운 상태",
+    "examples": [
+      "The sensor cables got tangled under the table"
+    ]
+  },
+  {
+    "id": "d_580",
+    "source": "Dissimilarities",
+    "category": "잠금",
+    "word": "lock",
+    "meaning": "잠금",
+    "core_image": "열쇠를 돌려 문빗장을 찰칵 걸어 잠그는 기계적 폐쇄",
+    "focus": "문, 금고 등을 열쇠나 장치로 잠그거나 시스템 접근을 통제함",
+    "examples": [
+      "Make sure to lock the lab door before leaving"
+    ]
+  },
+  {
+    "id": "d_581",
+    "source": "Dissimilarities",
+    "category": "잠금",
+    "word": "in code",
+    "meaning": "잠금",
+    "core_image": "비밀 메시지를 암호문(Code)으로 치환하여 외부인이 해독할 수 없게 만듦",
+    "focus": "정보나 대화를 특정한 암호 체계나 은어로 은밀하게 변환하여 표현함",
+    "examples": [
+      "The agents communicated entirely in code"
+    ]
+  },
+  {
+    "id": "d_582",
+    "source": "Dissimilarities",
+    "category": "밟다",
+    "word": "step on",
+    "meaning": "밟다",
+    "core_image": "발바닥을 내딛으며 특정 물체나 브레이크 페달 위를 꾹 누름",
+    "focus": "발로 특정 표면이나 대상을 딛거나 누르는 가장 보편적인 동작",
+    "examples": [
+      "Be careful not to step on the glass shards"
+    ]
+  },
+  {
+    "id": "d_583",
+    "source": "Dissimilarities",
+    "category": "밟다",
+    "word": "tread on",
+    "meaning": "밟다",
+    "core_image": "눈밭이나 낙엽 위를 사뿐사뿐 밟으며 지나가는 발걸음의 무게",
+    "focus": "땅이나 표면 위를 밟고 걸어가며 자국을 남김 (문학적/격식체)",
+    "examples": [
+      "Tread lightly so you don't make any noise"
+    ]
+  },
+  {
+    "id": "d_584",
+    "source": "Dissimilarities",
+    "category": "밟다",
+    "word": "trample",
+    "meaning": "밟다",
+    "core_image": "폭주하는 코끼리 떼가 꽃밭을 마구 짓밟아 완전히 뭉개버리는 파괴",
+    "focus": "사람들의 발길이나 압력으로 대상을 무참하게 짓밟아 훼손하고 파괴함",
+    "examples": [
+      "The crops were trampled by the escaping herd"
+    ]
+  },
+  {
+    "id": "d_585",
+    "source": "Dissimilarities",
+    "category": "버리다",
+    "word": "dump",
+    "meaning": "버리다",
+    "core_image": "덤프트럭 적재함을 기울여 쓰레기 더미를 와르르 쏟아 버림",
+    "focus": "대량의 폐기물을 아무렇게나 쏟아 버리거나 연인을 매정하게 차버림",
+    "examples": [
+      "The factory illegally dumped chemical waste into the river"
+    ]
+  },
+  {
+    "id": "d_586",
+    "source": "Dissimilarities",
+    "category": "버리다",
+    "word": "throw away",
+    "meaning": "버리다",
+    "core_image": "손에 든 빈 캔을 포물선을 그리며 쓰레기통 안으로 툭 던져 넣음",
+    "focus": "더 이상 필요 없는 물건을 쓰레기통에 버리는 가장 일반적인 일상 표현",
+    "examples": [
+      "Don't throw away that receipt; we need it for tax purposes"
+    ]
+  },
+  {
+    "id": "d_587",
+    "source": "Dissimilarities",
+    "category": "버리다",
+    "word": "trash",
+    "meaning": "버리다",
+    "core_image": "망가진 물건을 쓰레기통에 쑤셔 넣거나 방을 난장판으로 엉망을 만듦",
+    "focus": "물건을 쓰레기로 취급해 폐기하거나 공간을 엉망진창으로 망가뜨림 (구어체)",
+    "examples": [
+      "The protesters trashed the hotel lobby"
+    ]
+  },
+  {
+    "id": "d_588",
+    "source": "Dissimilarities",
+    "category": "할인",
+    "word": "discount",
+    "meaning": "할인",
+    "core_image": "가격표에 그어진 20% 인하 빨간 줄과 인하된 금액 폭",
+    "focus": "원래 가격에서 일정 비율이나 금액을 깎아주는 '할인' 그 자체 (명사/동사)",
+    "examples": [
+      "Students receive a 15% discount on software licenses"
+    ]
+  },
+  {
+    "id": "d_589",
+    "source": "Dissimilarities",
+    "category": "할인",
+    "word": "on sale",
+    "meaning": "할인",
+    "core_image": "백화점 쇼윈도에 붙은 'SALE' 현수막과 할인 행사 코너",
+    "focus": "현재 매장에서 정가보다 할인된 특별 가격으로 판매 중인 상태",
+    "examples": [
+      "These running shoes are currently on sale"
+    ]
+  },
+  {
+    "id": "d_590",
+    "source": "Dissimilarities",
+    "category": "숨기다",
+    "word": "hide A from B",
+    "meaning": "숨기다",
+    "core_image": "보물 상자를 커튼 뒤에 숨겨 B의 눈에 띄지 않게 장막을 침",
+    "focus": "특정 대상(B)이 보거나 알지 못하도록 A를 물리적/심리적으로 감춤",
+    "examples": [
+      "He hid the surprise gift from his sister"
+    ]
+  },
+  {
+    "id": "d_591",
+    "source": "Dissimilarities",
+    "category": "숨기다",
+    "word": "conceal",
+    "meaning": "숨기다",
+    "core_image": "외투 안주머니 깊숙이 여권을 숨겨 흔적조차 남기지 않는 완벽한 은폐",
+    "focus": "비밀, 무기, 진실 등을 외부로 노출되지 않도록 주도면밀하게 은폐함 (격식체)",
+    "examples": [
+      "The report attempted to conceal the financial losses"
+    ]
+  },
+  {
+    "id": "d_592",
+    "source": "Dissimilarities",
+    "category": "영향",
+    "word": "implication",
+    "meaning": "영향",
+    "core_image": "하나의 정책 결정이 미래 사회 전반에 연쇄적으로 던지는 함의와 파장",
+    "focus": "어떤 행동이나 발견이 장차 미래에 내포하게 될 논리적 함의와 잠재적 파급 효과",
+    "examples": [
+      "The research has profound implications for the treatment of motor disorders"
+    ]
+  },
+  {
+    "id": "d_593",
+    "source": "Dissimilarities",
+    "category": "영향",
+    "word": "repercussion",
+    "meaning": "영향",
+    "core_image": "연못에 던진 돌이 수면 전체로 퍼뜨리는 예측하지 못한 부정적 물결 파동",
+    "focus": "어떤 사건으로 인해 장기적으로 뒤따라오는 뜻밖의 부정적이고 심각한 후폭풍/반향",
+    "examples": [
+      "The political scandal will have severe repercussions across the nation"
+    ]
+  },
+  {
+    "id": "d_594",
+    "source": "Dissimilarities",
+    "category": "형성",
+    "word": "form",
+    "meaning": "형성",
+    "core_image": "흩어져 있던 얼음 결정들이 엉겨 붙어 아름다운 눈송이 모양을 만들어냄",
+    "focus": "부분들이 모여 전체적인 구조나 형태를 처음으로 조직하고 형성함",
+    "examples": [
+      "Clouds began to form in the afternoon sky"
+    ]
+  },
+  {
+    "id": "d_595",
+    "source": "Dissimilarities",
+    "category": "형성",
+    "word": "shape",
+    "meaning": "형성",
+    "core_image": "도예가가 물레 위의 점토를 손끝으로 다듬어 세련된 도자기 곡선으로 빚어냄",
+    "focus": "기존에 있던 성향이나 미래의 방향성을 의도적으로 다듬고 빚어내어 가공함",
+    "examples": [
+      "Early childhood experiences shape a person's character"
+    ]
+  },
+  {
+    "id": "d_596",
+    "source": "Dissimilarities",
+    "category": "특징",
+    "word": "characterize",
+    "meaning": "특징",
+    "core_image": "대상만의 독특한 지문을 확대경으로 관찰하며 고유한 개성을 정의함",
+    "focus": "어떤 대상이 지닌 가장 두드러지고 독보적인 고유 속성을 규정하고 묘사함",
+    "examples": [
+      "Innovation and rapid adaptation characterize this tech startup"
+    ]
+  },
+  {
+    "id": "d_597",
+    "source": "Dissimilarities",
+    "category": "열정",
+    "word": "impassioned",
+    "meaning": "열정",
+    "core_image": "가슴속에서 타오르는 붉은 화염을 담아 연단에서 토해내는 뜨거운 연설",
+    "focus": "깊은 신념과 뜨거운 감정이 실려 듣는 이의 심장을 울리는 열정적인 상태",
+    "examples": [
+      "He delivered an impassioned speech defending scientific integrity"
+    ]
+  },
+  {
+    "id": "d_598",
+    "source": "Dissimilarities",
+    "category": "마찬가지로",
+    "word": "like",
+    "meaning": "마찬가지로",
+    "core_image": "거울 속에 비친 모습처럼 앞선 사례와 똑같은 행동을 나란히 비춤",
+    "focus": "앞서 언급된 사람이나 사물과 똑같은 방식으로 행동함을 간결하게 연결",
+    "examples": [
+      "Like his father, he chose a career in medicine"
+    ]
+  },
+  {
+    "id": "d_599",
+    "source": "Dissimilarities",
+    "category": "~에 불과하다",
+    "word": "scarcely",
+    "meaning": "~에 불과하다",
+    "core_image": "모래알 몇 톨에 불과하여 손가락 사이로 빠져나갈 만큼 거의 없는 극소량",
+    "focus": "기준치에 겨우 닿을락 말락 하거나 '거의 ~않다 / ~에 불과하다'는 부정적 뉘앙스",
+    "examples": [
+      "He could scarcely contain his excitement after hearing the news"
+    ]
+  },
+  {
+    "id": "d_600",
+    "source": "Dissimilarities",
+    "category": "해치다",
+    "word": "hurt",
+    "meaning": "해치다",
+    "core_image": "넘어져서 무릎이 까지며 찌릿하고 아픈 신체적 통증과 상처",
+    "focus": "신체적 부상, 정신적 아픔, 감정적 상처를 입히는 가장 보편적인 단어",
+    "examples": [
+      "His rude remarks hurt my feelings"
+    ]
+  },
+  {
+    "id": "d_601",
+    "source": "Dissimilarities",
+    "category": "해치다",
+    "word": "vitiate",
+    "meaning": "해치다",
+    "core_image": "맑은 샘물에 독극물 한 방울이 떨어져 물 전체의 순수성과 효력을 부패시킴",
+    "focus": "품질, 가치, 법적 유효성, 순수성을 훼손하여 결함이 생기게 만들고 무효화함 (고급/격식체)",
+    "examples": [
+      "Fraudulent data vitiates the integrity of the entire study"
+    ]
+  },
+  {
+    "id": "d_602",
+    "source": "Dissimilarities",
+    "category": "일하다",
+    "word": "work",
+    "meaning": "일하다",
+    "core_image": "책상 앞에 앉아 키보드를 두드리며 일상적인 업무를 수행함",
+    "focus": "사람이 직업적 노동을 하거나 장비가 정상 가동되는 일반적인 활동",
+    "examples": [
+      "I work on musculoskeletal modeling at the research institute"
+    ]
+  },
+  {
+    "id": "d_603",
+    "source": "Dissimilarities",
+    "category": "일하다",
+    "word": "actuate",
+    "meaning": "일하다",
+    "core_image": "모터에 전류가 통하며 로봇 팔의 관절 실린더가 강력한 물리적 힘으로 구동됨",
+    "focus": "전기, 유압 등의 물리적 동력을 가해 기계 장치나 관절을 실제로 구동·작동시킴 (공학 전문 용어)",
+    "examples": [
+      "The hydraulic valve actuates the robotic gripper"
+    ]
+  },
+  {
+    "id": "d_604",
+    "source": "Dissimilarities",
+    "category": "곱하다",
+    "word": "multiplied by",
+    "meaning": "곱하다",
+    "core_image": "수식 판에 곱하기 기호(×)를 적고 수치를 배수로 불려 나가는 연산",
+    "focus": "'A multiplied by B' 형태로 수치나 변수의 곱셈 연산 관계를 표준 기술함",
+    "examples": [
+      "Five multiplied by four equals twenty"
+    ]
+  },
+  {
+    "id": "d_605",
+    "source": "Dissimilarities",
+    "category": "곱하다",
+    "word": "product between A and B",
+    "meaning": "곱하다",
+    "core_image": "두 벡터나 행렬이 수학적으로 결합하여 산출된 최종 결과량 블록",
+    "focus": "두 요소의 곱셈 연산을 통해 얻어진 최종 산출물(결과값)에 초점을 맞춤",
+    "examples": [
+      "We calculated the dot product between vector A and vector B"
+    ]
+  },
+  {
+    "id": "d_606",
+    "source": "Dissimilarities",
+    "category": "결과적으로",
+    "word": "consequently",
+    "meaning": "결과적으로",
+    "core_image": "선행 사건의 논리적 인과 사슬에 따라 필연적으로 귀결되는 다음 결론",
+    "focus": "선행 원인에 대한 엄격하고 논리적인 필연적 귀결을 격식 있게 진술함 (문어체)",
+    "examples": [
+      "The server lost power; consequently, the ongoing simulation was interrupted"
+    ]
+  },
+  {
+    "id": "d_607",
+    "source": "Dissimilarities",
+    "category": "결과적으로",
+    "word": "as a result",
+    "meaning": "결과적으로",
+    "core_image": "일련의 과정이 끝나고 최종 성적표에 찍힌 실제 결과치",
+    "focus": "앞서 일어난 사건의 실제 결과로서 나타난 상황을 폭넓게 기술함",
+    "examples": [
+      "He trained intensely, and as a result, he achieved his personal best"
+    ]
+  },
+  {
+    "id": "d_608",
+    "source": "Dissimilarities",
+    "category": "수업",
+    "word": "class",
+    "meaning": "수업",
+    "core_image": "교실에 모여 앉아 선생님과 학생들이 토론하고 상호작용하는 정규 수업",
+    "focus": "학교나 학원에서 교사와 학생들이 모여 진행하는 쌍방향 정규 교과 수업",
+    "examples": [
+      "I have an optimization class at 2 PM"
+    ]
+  },
+  {
+    "id": "d_609",
+    "source": "Dissimilarities",
+    "category": "수업",
+    "word": "lecture",
+    "meaning": "수업",
+    "core_image": "대형 계단식 강의실 강단에서 교수가 마이크를 잡고 지식을 전수하는 일방향 강연",
+    "focus": "대학교나 학술대회에서 교수가 지식을 체계적으로 전달하는 전문 강의/강연",
+    "examples": [
+      "The professor delivered an inspiring lecture on neural dynamics"
+    ]
+  },
+  {
+    "id": "d_610",
+    "source": "Dissimilarities",
+    "category": "수업",
+    "word": "lesson",
+    "meaning": "수업",
+    "core_image": "피아노나 수영을 배우기 위해 코치에게 1:1로 배우는 실기 레슨 및 인생의 교훈",
+    "focus": "개인 실기 교습, 기술 훈련, 혹은 뼈아픈 경험을 통해 얻은 소중한 인생 교훈",
+    "examples": [
+      "Failure in this trial taught us an invaluable lesson"
+    ]
+  },
+  {
+    "id": "d_611",
+    "source": "Dissimilarities",
+    "category": "튀다",
+    "word": "spatter",
+    "meaning": "튀다",
+    "core_image": "페인트 붓을 털었을 때 벽면에 좁쌀만 한 점으로 흩뿌려지는 미세한 방울들",
+    "focus": "작고 미세한 액체 방울이나 진흙 파편들이 불규칙하게 점점이 튀어 묻음",
+    "examples": [
+      "Oil spattered from the frying pan onto the stove"
+    ]
+  },
+  {
+    "id": "d_612",
+    "source": "Dissimilarities",
+    "category": "튀다",
+    "word": "splash",
+    "meaning": "튀다",
+    "core_image": "수영장에 풍덩 뛰어들었을 때 사방으로 거대하게 솟구치는 물보라",
+    "focus": "많은 양의 액체가 큰 충격을 받아 철벅거리며 사방으로 거세게 튐",
+    "examples": [
+      "The passing car splashed muddy water all over my pants"
+    ]
+  },
+  {
+    "id": "d_613",
+    "source": "Dissimilarities",
+    "category": "선호",
+    "word": "would rather",
+    "meaning": "선호",
+    "core_image": "A와 B의 선택지 중 마음속의 추가 B쪽으로 자연스럽게 기우는 주관적 선호",
+    "focus": "강요가 아닌 자신의 편안한 마음과 선호에 따라 '차라리 ~하고 싶다'를 표현",
+    "examples": [
+      "I would rather stay home and read than go to a crowded party"
+    ]
+  },
+  {
+    "id": "d_614",
+    "source": "Dissimilarities",
+    "category": "나오다",
+    "word": "come out",
+    "meaning": "나오다",
+    "core_image": "어두운 동굴 밖으로 햇빛을 받으며 걸어 나오는 밝은 등장",
+    "focus": "책/영화가 정식 출시되거나, 숨겨진 진실이 세상 밖으로 밝혀져 나옴",
+    "examples": [
+      "The new research paper came out in Nature last week"
+    ]
+  },
+  {
+    "id": "d_615",
+    "source": "Dissimilarities",
+    "category": "가지다 (동작)",
+    "word": "take",
+    "meaning": "가지다 (동작)",
+    "core_image": "테이블 위에 놓인 열쇠를 손가락으로 집어 내 호주머니에 챙겨 넣음",
+    "focus": "자신의 의지를 가지고 대상을 손으로 집어 들거나 주체적으로 챙김",
+    "examples": [
+      "Please take an umbrella before leaving the house"
+    ]
+  },
+  {
+    "id": "d_616",
+    "source": "Dissimilarities",
+    "category": "가지다 (동작)",
+    "word": "get",
+    "meaning": "얻다, 가지게 되다 (획득 동작)",
+    "core_image": "선물 상자를 건네받아 내 품에 안게 되는 기쁜 수령",
+    "focus": "외부로부터 물건, 정보, 기회를 새롭게 획득하거나 수령하여 갖게 됨",
+    "examples": [
+      "I got a lot of useful feedback from Oscar"
+    ]
+  },
+  {
+    "id": "d_617",
+    "source": "Dissimilarities",
+    "category": "분류하다",
+    "word": "classify",
+    "meaning": "(체계적으로) 분류하다",
+    "core_image": "생물학 도감에 따라 표본을 계·문·강·목·과·속·종의 체계적 라벨로 분류함",
+    "focus": "명문화된 학술적·시스템적 기준에 따라 대상을 특정 클래스/범주로 정식 분류함",
+    "examples": [
+      "The algorithm classifies motion trajectories with high precision"
+    ]
+  },
+  {
+    "id": "d_618",
+    "source": "Dissimilarities",
+    "category": "분류하다",
+    "word": "sort",
+    "meaning": "종류별로 가려내다/정렬하다",
+    "core_image": "우편함에 쌓인 편지들을 지역별로 척척 나누어 바구니에 정리함",
+    "focus": "크기, 날짜, 유형에 따라 뒤섞인 물건들을 질서 있게 가려내고 정리함",
+    "examples": [
+      "Let's sort the files by date of modification"
+    ]
+  },
+  {
+    "id": "d_619",
+    "source": "Dissimilarities",
+    "category": "서비스 (사역 수동)",
+    "word": "have + 목적어 + p.p",
+    "meaning": "서비스 (사역 수동)",
+    "core_image": "전문 서비스 센터에 차를 맡겨 전문가의 손길로 정비를 완료시킴",
+    "focus": "내 손으로 직접 하지 않고 타인의 전문 서비스나 대가를 통해 대상이 처리되도록 조치함",
+    "examples": [
+      "I had my hair cut yesterday at the salon"
+    ]
+  },
+  {
+    "id": "d_620",
+    "source": "Dissimilarities",
+    "category": "빌림",
+    "word": "borrow",
+    "meaning": "빌림",
+    "core_image": "도서관 서가에서 책을 대출하여 내 가방에 담아 집으로 가져옴",
+    "focus": "타인의 물건을 일시적으로 대여받아 '빌려오는' 수혜자의 입장",
+    "examples": [
+      "Can I borrow your laptop charger for an hour?"
+    ]
+  },
+  {
+    "id": "d_621",
+    "source": "Dissimilarities",
+    "category": "빌림",
+    "word": "lend",
+    "meaning": "빌림",
+    "core_image": "내 서랍에서 펜을 꺼내 도움이 필요한 친구의 손에 건네줌",
+    "focus": "자신의 소유물을 타인에게 일시적으로 사용하도록 '빌려주는' 제공자의 입장",
+    "examples": [
+      "Could you lend me your notes from yesterday's lecture?"
+    ]
+  },
+  {
+    "id": "d_622",
+    "source": "Dissimilarities",
+    "category": "상상하다",
+    "word": "imagine",
+    "meaning": "상상하다",
+    "core_image": "머릿속 스크린에 눈앞에 없는 환상적인 그림이나 장면을 자유롭게 그려봄",
+    "focus": "존재하지 않거나 경험하지 않은 상황을 마음속으로 자유롭게 떠올리고 상상함",
+    "examples": [
+      "Imagine how intelligent machines will transform medicine"
+    ]
+  },
+  {
+    "id": "d_623",
+    "source": "Dissimilarities",
+    "category": "상상하다",
+    "word": "conceive of",
+    "meaning": "상상하다",
+    "core_image": "백지 위에 완전히 새로운 건축 설계의 철학적 개념을 머리로 잉태해냄",
+    "focus": "고차원적이고 추상적인 새로운 개념이나 가능성을 머리로 구상하고 품어냄 (격식체)",
+    "examples": [
+      "It is difficult to conceive of a universe without physical laws"
+    ]
+  },
+  {
+    "id": "d_624",
+    "source": "Dissimilarities",
+    "category": "제거",
+    "word": "detach",
+    "meaning": "제거",
+    "core_image": "벨크로 테이프로 붙어 있던 센서를 당겨 본체에서 찌익 떼어냄",
+    "focus": "결합되어 있던 두 부품의 물리적 연결을 해제하여 깔끔하게 분리함",
+    "examples": [
+      "Detach the electrode gently after the experiment"
+    ]
+  },
+  {
+    "id": "d_625",
+    "source": "Dissimilarities",
+    "category": "제거",
+    "word": "get rid of",
+    "meaning": "제거",
+    "core_image": "묵은 쓰레기를 집 밖으로 완전히 치워버려 홀가분해지는 해방감",
+    "focus": "귀찮거나 불필요한 문제를 완전히 없애버려 시원하게 털어냄 (구어체)",
+    "examples": [
+      "I need to get rid of these old files taking up storage space"
+    ]
+  },
+  {
+    "id": "d_626",
+    "source": "Dissimilarities",
+    "category": "제거",
+    "word": "remove",
+    "meaning": "제거",
+    "core_image": "수술용 집게로 환부의 이물질을 조심스럽게 집어 밖으로 덜어냄",
+    "focus": "특정 위치나 구조물에서 불필요한 대상을 공식적/체계적으로 제거함",
+    "examples": [
+      "Please remove all external artifacts from the raw sensor signals"
+    ]
+  },
+  {
+    "id": "d_627",
+    "source": "Dissimilarities",
+    "category": "주문하다",
+    "word": "have + 목적어 + delivered",
+    "meaning": "주문하다",
+    "core_image": "앱으로 결제하여 배달 기사님이 우리 집 문앞까지 음식을 배달해 오게 함",
+    "focus": "상품이나 음식이 집으로 배달되도록 위탁 주문하는 배송 서비스 구조",
+    "examples": [
+      "We decided to have dinner delivered rather than cooking"
+    ]
+  },
+  {
+    "id": "d_628",
+    "source": "Dissimilarities",
+    "category": "주문하다",
+    "word": "order",
+    "meaning": "주문하다",
+    "core_image": "카운터에 다가가 원하는 메뉴판의 이름을 말하며 정식 발주함",
+    "focus": "상점이나 웹사이트에서 물품이나 음식을 정식으로 요청하고 구매 주문함",
+    "examples": [
+      "I ordered flowers to the funeral home"
+    ]
+  },
+  {
+    "id": "d_629",
+    "source": "Dissimilarities",
+    "category": "채우다",
+    "word": "fill up",
+    "meaning": "채우다",
+    "core_image": "투명한 유리잔의 가장자리 찰랑거리는 높이까지 물을 가득 부어 넣음",
+    "focus": "용기나 공간에 내용물을 빈틈없이 가득 채워 넣는 가장 직관적인 동작",
+    "examples": [
+      "Can you fill up my glass with sparkling water, please?"
+    ]
+  },
+  {
+    "id": "d_630",
+    "source": "Dissimilarities",
+    "category": "채우다",
+    "word": "fuel",
+    "meaning": "채우다",
+    "core_image": "주유소 주유 노즐을 연료 주입구에 꽂고 차에 휘발유를 공급함",
+    "focus": "차량에 연료를 주유하거나, 어떤 열정과 논쟁에 에너지를 공급함",
+    "examples": [
+      "We need to fuel the car before starting our long road trip"
+    ]
+  },
+  {
+    "id": "d_631",
+    "source": "Dissimilarities",
+    "category": "젖다",
+    "word": "wet",
+    "meaning": "젖다",
+    "core_image": "표면에 물방울이 촉촉하게 묻어 반짝이는 상태",
+    "focus": "물체 표면에 액체나 물기가 묻어 있는 표준적이고 일반적인 상태",
+    "examples": [
+      "Don't touch the wall; the paint is still wet"
+    ]
+  },
+  {
+    "id": "d_632",
+    "source": "Dissimilarities",
+    "category": "젖다",
+    "word": "soak",
+    "meaning": "젖다",
+    "core_image": "스펀지가 물을 완전히 머금어 안쪽까지 물이 뚝뚝 떨어지는 완전한 포화",
+    "focus": "액체가 속속들이 깊숙이 스며들어 흠뻑 젖거나 대상 전체를 물에 푹 담금",
+    "examples": [
+      "I went jogging but it suddenly started to pour and I got completely soaked"
+    ]
+  },
+  {
+    "id": "d_633",
+    "source": "Dissimilarities",
+    "category": "도와주다",
+    "word": "help out with",
+    "meaning": "도와주다",
+    "core_image": "곤경에 처한 친구 곁으로 달려가 팔을 걷어붙이고 함께 짐을 날라줌",
+    "focus": "상대방이 처한 곤경이나 무거운 과제에서 벗어날 수 있도록 적극적으로 거들어 줌 (구동사)",
+    "examples": [
+      "Can you help me out with moving these heavy lab desks?"
+    ]
+  },
+  {
+    "id": "d_634",
+    "source": "Dissimilarities",
+    "category": "내리다",
+    "word": "get out of",
+    "meaning": "내리다",
+    "core_image": "비좁은 택시 문을 열고 몸을 밖으로 빼내어 인도로 발을 디딤",
+    "focus": "승용차, 택시 등 좁고 사방이 막힌 폐쇄형 차량의 내부에서 밖으로 내림",
+    "examples": [
+      "He didn't know the way to get there so I just got out of the taxi"
+    ]
+  },
+  {
+    "id": "d_635",
+    "source": "Dissimilarities",
+    "category": "내리다",
+    "word": "get off",
+    "meaning": "내리다",
+    "core_image": "넓은 기차나 트램의 플랫폼 계단 발판을 딛고 역 승강장으로 내려섬",
+    "focus": "버스, 기차, 비행기 등 서서 걸어 다닐 수 있는 대형 대중교통에서 하차함",
+    "examples": [
+      "I get off at the Campus Biotech stop every morning"
+    ]
+  },
+  {
+    "id": "d_636",
+    "source": "Dissimilarities",
+    "category": "내리다",
+    "word": "drop off",
+    "meaning": "내리다",
+    "core_image": "운전자가 차를 잠시 멈추고 조수석의 동승자를 목적지에 내려줌",
+    "focus": "운전자가 승객이나 물건을 특정 목적지 지점에 내려주거나 전달함",
+    "examples": [
+      "Can you drop me off at the station?",
+      "I'll drop off the kids at school on my way to work"
+    ]
+  },
+  {
+    "id": "d_637",
+    "source": "Dissimilarities",
+    "category": "step",
+    "word": "step",
+    "meaning": "step",
+    "core_image": "한쪽 발을 들어 새로운 바닥 지점으로 보폭을 옮겨 내딛음",
+    "focus": "발걸음을 한 발자국 내딛거나 이동하는 기본적인 신체 동작",
+    "examples": [
+      "Step forward when your name is called"
+    ]
+  },
+  {
+    "id": "d_638",
+    "source": "Dissimilarities",
+    "category": "step",
+    "word": "step on",
+    "meaning": "step",
+    "core_image": "발바닥의 체중을 실어 바닥에 놓인 물체나 페달을 지그시 누름",
+    "focus": "특정 대상의 윗면을 발로 직접 밟거나 누르는 접촉 동작",
+    "examples": [
+      "He stepped on the accelerator to speed up"
+    ]
+  },
+  {
+    "id": "d_639",
+    "source": "Dissimilarities",
+    "category": "정리하다",
+    "word": "organize",
+    "meaning": "정리하다",
+    "core_image": "어지러운 서류들을 카테고리별 라벨 파일철에 체계적으로 수납함",
+    "focus": "누구나 찾기 쉽고 사용하기 편하도록 체계적인 질서와 시스템을 구축하여 정리함",
+    "examples": [
+      "Let's organize our project directory to keep the codebase clean"
+    ]
+  },
+  {
+    "id": "d_640",
+    "source": "Dissimilarities",
+    "category": "정리하다",
+    "word": "sort through",
+    "meaning": "정리하다",
+    "core_image": "상자 안의 물건들을 하나하나 손으로 꺼내며 '버릴 것'과 '남길 것'을 선별함",
+    "focus": "뒤섞여 있는 많은 대상을 하나하나 검토하며 필요한 것과 불필요한 것을 걸러냄",
+    "examples": [
+      "I am sorting through my stuff and throwing out or giving away items I don't need or don't use"
+    ]
+  },
+  {
+    "id": "d_641",
+    "source": "Dissimilarities",
+    "category": "잘하다",
+    "word": "can do well",
+    "meaning": "잘하다",
+    "core_image": "주어진 미션을 훌륭하게 완수해낼 수 있는 현재의 잠재 역량",
+    "focus": "특정 과제나 상황을 성공적으로 훌륭히 해낼 수 있는 실행 능력에 초점",
+    "examples": [
+      "I believe you can do well in the upcoming presentation"
+    ]
+  },
+  {
+    "id": "d_642",
+    "source": "Dissimilarities",
+    "category": "잘하다",
+    "word": "be good at",
+    "meaning": "~을 잘하다, 능숙하다",
+    "core_image": "오랜 훈련으로 손에 익어 남들보다 월등한 숙련도를 뽐내는 장인의 솜씨",
+    "focus": "특정 분야, 과목, 운동에 타고난 소질이나 높은 숙련도를 보유하고 있음",
+    "examples": [
+      "She is exceptionally good at mathematical derivations"
+    ]
+  },
+  {
+    "id": "d_643",
+    "source": "Dissimilarities",
+    "category": "가사",
+    "word": "chore",
+    "meaning": "가사",
+    "core_image": "설거지, 쓰레기 버리기 등 매일 반복되는 번거롭고 자잘한 일상 과업",
+    "focus": "집안일뿐 아니라 정기적으로 처리해야 하는 성가시고 번거로운 자잘한 일과",
+    "examples": [
+      "Doing daily chores like washing dishes takes up a surprising amount of time"
+    ]
+  },
+  {
+    "id": "d_644",
+    "source": "Dissimilarities",
+    "category": "가사",
+    "word": "housework",
+    "meaning": "가사",
+    "core_image": "청소기 돌리기, 빨래 널기 등 집안 환경을 깨끗이 유지하는 물리적 가사 노동",
+    "focus": "주거 공간을 청결하고 쾌적하게 유지하기 위한 일상적인 집안일 전체",
+    "examples": [
+      "We share the housework equally on weekends"
+    ]
+  },
+  {
+    "id": "d_645",
+    "source": "Dissimilarities",
+    "category": "가사",
+    "word": "household work",
+    "meaning": "가사",
+    "core_image": "가계부 정리부터 세금 납부, 살림살이 경영까지 아우르는 가정 관리 비즈니스",
+    "focus": "단순 청소를 넘어 가정 살림살이 관리, 장보기, 유지보수 전체를 포괄하는 정식 개념",
+    "examples": [
+      "Managing the household work requires careful budgeting and planning"
+    ]
+  },
+  {
+    "id": "d_646",
+    "source": "Dissimilarities",
+    "category": "쓰레기",
+    "word": "garbage",
+    "meaning": "쓰레기",
+    "core_image": "주방 싱크대 음식물 찌꺼기나 가정에서 배출되는 축축하고 부패하기 쉬운 쓰레기",
+    "focus": "일상 가정생활에서 배출되는 일반적인 생활 쓰레기 및 음식물 폐기물",
+    "examples": [
+      "Please take out the kitchen garbage before it starts to smell"
+    ]
+  },
+  {
+    "id": "d_647",
+    "source": "Dissimilarities",
+    "category": "쓰레기",
+    "word": "waste",
+    "meaning": "쓰레기",
+    "core_image": "공장 굴뚝이나 연구소에서 배출되는 산업 폐수와 유독성 화학 폐기물",
+    "focus": "산업, 의료, 환경 맥락에서 발생하는 모든 불필요한 폐기물 및 자원 낭비",
+    "examples": [
+      "The facility adheres to strict regulations on hazardous waste management"
+    ]
+  },
+  {
+    "id": "d_648",
+    "source": "Dissimilarities",
+    "category": "성공 (성취)",
+    "word": "rock",
+    "meaning": "성공 (성취)",
+    "core_image": "록스타가 무대를 완전히 찢어놓듯 엄청난 에너지로 관중을 압도함",
+    "focus": "면접, 시험, 공연 등을 압도적으로 완벽하게 성공시켜 해냄 (감탄 섞인 구어체)",
+    "examples": [
+      "I finally rocked my job interview after preparing well in advance"
+    ]
+  },
+  {
+    "id": "d_649",
+    "source": "Dissimilarities",
+    "category": "성공 (성취)",
+    "word": "make a success",
+    "meaning": "성공 (성취)",
+    "core_image": "불완전했던 프로젝트를 정성껏 빚어 반짝이는 성공작으로 탈바꿈시킴",
+    "focus": "어떤 과업이나 행사를 성공적인 결실과 결과물로 완성해내는 성과에 집중",
+    "examples": [
+      "We worked hard to make this experiment a resounding success"
+    ]
+  },
+  {
+    "id": "d_650",
+    "source": "Dissimilarities",
+    "category": "성공 (성취)",
+    "word": "succeed in",
+    "meaning": "성공 (성취)",
+    "core_image": "수많은 난관과 실패를 뚫고 결승선 테이프를 끊어내는 최종 승리",
+    "focus": "어려운 과정과 시행착오를 극복하고 마침내 목적을 완수해냄",
+    "examples": [
+      "I finally succeeded in scaling the biomechanical model in MuJoCo"
+    ]
+  },
+  {
+    "id": "d_651",
+    "source": "Dissimilarities",
+    "category": "거짓",
+    "word": "false",
+    "meaning": "거짓",
+    "core_image": "시험 답안지에 X 표시가 그어지는 오류가 있는 명제",
+    "focus": "진실이 아니거나 사실과 부합하지 않는 잘못된 상태를 수식하는 형용사",
+    "examples": [
+      "This is a mathematically false statement"
+    ]
+  },
+  {
+    "id": "d_652",
+    "source": "Dissimilarities",
+    "category": "거짓",
+    "word": "falsehood",
+    "meaning": "거짓",
+    "core_image": "진실을 가리기 위해 만들어진 가짜 이야기나 거짓말 그 자체",
+    "focus": "거짓이라는 개념, 거짓된 행위, 허위 사실 그 자체를 가리키는 명사",
+    "examples": [
+      "He was accused of spreading deliberate falsehoods"
+    ]
+  },
+  {
+    "id": "d_653",
+    "source": "Dissimilarities",
+    "category": "타다",
+    "word": "take",
+    "meaning": "타다",
+    "core_image": "출근을 위해 대중교통망 노선 중 '버스'라는 이동 수단을 선택함",
+    "focus": "어떤 교통수단이나 경로를 이용했는가에 초점을 맞춘 수단 선택 표현",
+    "examples": [
+      "I take the bus to work",
+      "I took a train to Geneva"
+    ]
+  },
+  {
+    "id": "d_654",
+    "source": "Dissimilarities",
+    "category": "타다",
+    "word": "ride",
+    "meaning": "타다",
+    "core_image": "자전거 안장이나 말등 위에 직접 올라타서 바람을 가르며 이동함",
+    "focus": "탈것 위에 직접 몸을 싣고 균형을 잡으며 이동하는 탑승 동작 그 자체",
+    "examples": [
+      "I love riding my bike along the lake",
+      "He is riding a horse across the field"
+    ]
+  },
+  {
+    "id": "d_655",
+    "source": "Dissimilarities",
+    "category": "요금",
+    "word": "fare",
+    "meaning": "교통 요금, 운임",
+    "core_image": "택시 미터기에 찍히거나 지하철 개찰구를 통과할 때 결제되는 교통비",
+    "focus": "버스, 택시, 기차, 비행기 등 이동 교통수단 이용에 대한 대가 요금",
+    "examples": [
+      "The taxi fare to the airport was quite expensive"
+    ]
+  },
+  {
+    "id": "d_656",
+    "source": "Dissimilarities",
+    "category": "요금",
+    "word": "fee",
+    "meaning": "수수료, 요금",
+    "core_image": "변호사의 전문 자문이나 학회 등록을 위해 지불하는 전문 수수료",
+    "focus": "전문가의 전문 서비스(변호사, 의사), 학비, 입장료 등에 지불하는 정식 수수료",
+    "examples": [
+      "The lawyer's consultation fee is quite high"
+    ]
+  },
+  {
+    "id": "d_657",
+    "source": "Dissimilarities",
+    "category": "요금",
+    "word": "charge",
+    "meaning": "청구 금액, 대금",
+    "core_image": "호텔 룸서비스 영수증에 별도로 부과되어 청구된 추가 서비스 금액",
+    "focus": "서비스나 물품 제공자가 고객에게 부과하여 청구하는 모든 비용과 요금",
+    "examples": [
+      "There is no extra charge for delivery",
+      "A 10% service charge is included in the bill"
+    ]
+  },
+  {
+    "id": "d_658",
+    "source": "Dissimilarities",
+    "category": "지나치다",
+    "word": "pass by",
+    "meaning": "지나치다",
+    "core_image": "길을 걸어가며 길가의 예쁜 카페를 옆에 두고 스쳐 지나쳐 감",
+    "focus": "어떤 장소나 사람의 곁을 스쳐 지나쳐 앞으로 나아가는 물리적 이동",
+    "examples": [
+      "I pass by that park every day on my way to work"
+    ]
+  },
+  {
+    "id": "d_659",
+    "source": "Dissimilarities",
+    "category": "바꾸다",
+    "word": "change",
+    "meaning": "변하다, 바꾸다",
+    "core_image": "날씨가 맑음에서 비로 바뀌듯 대상의 상태나 내용이 포괄적으로 달라짐",
+    "focus": "계획, 마음, 날씨, 옷 등 형태나 상태가 달라지는 모든 변화를 포괄함",
+    "examples": [
+      "My plans have changed, so I can't come to the meeting",
+      "The weather changed suddenly from sunny to stormy",
+      "I changed my mind about the project direction",
+      "I need to change my clothes after the workout"
+    ]
+  },
+  {
+    "id": "d_660",
+    "source": "Dissimilarities",
+    "category": "바꾸다",
+    "word": "switch",
+    "meaning": "바꾸다",
+    "core_image": "기어 레버를 1단에서 2단으로 찰칵 밀어 대체물로 맞바꿈",
+    "focus": "A를 빼고 그 자리에 B라는 다른 옵션으로 1:1 맞바꾸거나 교체함",
+    "examples": [
+      "I switched from French fries to onion rings instead"
+    ]
+  },
+  {
+    "id": "d_661",
+    "source": "Dissimilarities",
+    "category": "속도",
+    "word": "suddenly",
+    "meaning": "속도",
+    "core_image": "맑은 하늘에서 마른하늘에 날벼락이 치듯 예고 없이 일어나는 돌발성",
+    "focus": "예상치 못한 타이밍에 돌발적이고 불시에 일어나는 의외성에 초점",
+    "examples": [
+      "The simulation stopped suddenly without an error message"
+    ]
+  },
+  {
+    "id": "d_662",
+    "source": "Dissimilarities",
+    "category": "속도",
+    "word": "quickly",
+    "meaning": "속도",
+    "core_image": "단거리 육상 선수가 짧은 시간 안에 결승선을 통과하는 고속 진행",
+    "focus": "어떤 동작이나 프로세스가 적은 시간을 소요하며 빠른 속도로 진행됨",
+    "examples": [
+      "Please come here quickly so we can start the experiment"
+    ]
+  },
+  {
+    "id": "d_663",
+    "source": "Dissimilarities",
+    "category": "속도",
+    "word": "in a hurry",
+    "meaning": "속도",
+    "core_image": "시계를 보며 허둥지둥 신발을 꿰어 신고 문밖으로 뛰쳐나가는 급박함",
+    "focus": "시간에 쫓기거나 당황하여 마음이 급해 서두르는 사람의 심리 상태",
+    "examples": [
+      "I was in the restroom and the cleaning staff walked in, so I ran out in a hurry"
+    ]
+  },
+  {
+    "id": "d_664",
+    "source": "Dissimilarities",
+    "category": "넘어지다",
+    "word": "fall down",
+    "meaning": "넘어지다",
+    "core_image": "수직으로 서 있던 몸이 중력을 이기지 못하고 바닥으로 쿵 쓰러짐",
+    "focus": "몸의 중심을 잃고 바닥으로 완전히 쓰러지는 물리적 낙하 행위",
+    "examples": [
+      "He fell down on the slippery floor and hurt his knee"
+    ]
+  },
+  {
+    "id": "d_665",
+    "source": "Dissimilarities",
+    "category": "넘어지다",
+    "word": "trip",
+    "meaning": "넘어지다",
+    "core_image": "돌부리에 발가락 끝이 턱 걸려 몸이 앞으로 휘청거리며 비틀거림",
+    "focus": "발이 무언가에 걸려 중심을 잃고 비틀거리며 넘어질 뻔하거나 넘어지는 동작",
+    "examples": [
+      "I tripped over the stone but I managed not to fall down"
+    ]
+  },
+  {
+    "id": "d_666",
+    "source": "Dissimilarities",
+    "category": "쏟다",
+    "word": "spill",
+    "meaning": "(실수로) 쏟다, 흘리다",
+    "core_image": "머그잔이 툭 부딪히며 갈색 커피 액체가 노트북 키보드 위로 왈칵 쏟아짐",
+    "focus": "액체나 곡물이 실수로 엎질러져 쏟아지는 돌발적 사고",
+    "examples": [
+      "I spilled my coffee on my laptop",
+      "I accidentally spilled coffee all over my keyboard"
+    ]
+  },
+  {
+    "id": "d_667",
+    "source": "Dissimilarities",
+    "category": "정상",
+    "word": "normal",
+    "meaning": "정상",
+    "core_image": "정규분포 그래프의 종 모양 중심선에 위치한 통계적·객관적 표준",
+    "focus": "사회적 규범, 과학적 기준, 의학적 통계에 비추어 볼 때 지극히 정상적인 상태",
+    "examples": [
+      "Is it normal for the simulation to take this long to converge?"
+    ]
+  },
+  {
+    "id": "d_668",
+    "source": "Dissimilarities",
+    "category": "정상",
+    "word": "usual",
+    "meaning": "정상",
+    "core_image": "단골 카페에 들어가 늘 마시던 익숙한 라떼 한 잔을 주문하는 개인의 루틴",
+    "focus": "객관적 기준보다는 개인이나 상황이 평소에 늘 해오던 익숙한 습관적 패턴",
+    "examples": [
+      "I'll have the usual coffee, please",
+      "He arrived later than usual today"
+    ]
+  },
+  {
+    "id": "d_669",
+    "source": "Dissimilarities",
+    "category": "체육시설",
+    "word": "gym",
+    "meaning": "체육시설",
+    "core_image": "쇠막대와 덤벨들이 빽빽이 놓여 근력 운동과 땀 흘리기에 특화된 체육관",
+    "focus": "웨이트 트레이닝 기구와 유산소 머신이 집중된 가장 보편적인 헬스장/체육관",
+    "examples": [
+      "I hit the gym three times a week after lab work"
+    ]
+  },
+  {
+    "id": "d_670",
+    "source": "Dissimilarities",
+    "category": "체육시설",
+    "word": "fitness club",
+    "meaning": "체육시설",
+    "core_image": "수영장, 사우나, 필라테스 룸이 함께 갖추어진 대형 종합 건강 웰빙 센터",
+    "focus": "단순 기구 운동을 넘어 스파, GX, 수영 등 종합적인 건강 관리를 제공하는 대형 시설",
+    "examples": [
+      "The fitness club offers a wide range of wellness classes"
+    ]
+  },
+  {
+    "id": "d_671",
+    "source": "Dissimilarities",
+    "category": "~까지",
+    "word": "until",
+    "meaning": "~까지",
+    "core_image": "시계바늘이 정해진 시점에 도달할 때까지 상태가 중단 없이 계속 이어짐",
+    "focus": "특정 시점까지 어떤 행동이나 상태가 쉬지 않고 지속되는 시간적 계속성",
+    "examples": [
+      "I stayed in the lab until midnight"
+    ]
+  },
+  {
+    "id": "d_672",
+    "source": "Dissimilarities",
+    "category": "~까지",
+    "word": "up to",
+    "meaning": "~까지",
+    "core_image": "계측기의 수위가 허용 가능한 최고 한도 눈금선까지 차오름",
+    "focus": "수치, 용량, 기간의 최대 상한선이나 도달 가능한 한계를 표현",
+    "examples": [
+      "The model can process up to one thousand samples per second"
+    ]
+  },
+  {
+    "id": "d_673",
+    "source": "Dissimilarities",
+    "category": "들르다",
+    "word": "stop by",
+    "meaning": "들르다",
+    "core_image": "목적지로 가던 도중 가던 길을 멈추고 옆 카페에 잠시 발을 들임",
+    "focus": "어디를 가는 길에 특정 장소에 잠시 멈추어 가볍게 들르는 행위",
+    "examples": [
+      "I'll stop by the pharmacy on my way home"
+    ]
+  },
+  {
+    "id": "d_674",
+    "source": "Dissimilarities",
+    "category": "들르다",
+    "word": "drop by",
+    "meaning": "들르다",
+    "core_image": "친구 집 근처를 지나가다 예고 없이 문을 두드려 가볍게 방문함",
+    "focus": "사전 약속이나 격식 없이 편안하고 즉흥적으로 잠시 들름",
+    "examples": [
+      "Feel free to drop by my office anytime you have a question"
+    ]
+  },
+  {
+    "id": "d_675",
+    "source": "Dissimilarities",
+    "category": "비싼",
+    "word": "expensive",
+    "meaning": "비싼",
+    "core_image": "금고에 보관된 다이아몬드처럼 객관적인 금액과 가치가 대단히 높음",
+    "focus": "가격이 객관적·표준적으로 높음을 나타내는 가장 정석적인 단어",
+    "examples": [
+      "Housing in Geneva is very expensive"
+    ]
+  },
+  {
+    "id": "d_676",
+    "source": "Dissimilarities",
+    "category": "비싼",
+    "word": "pricey",
+    "meaning": "비싼",
+    "core_image": "식당 메뉴판 가격표를 보고 '생각보다 좀 비싼데?' 하고 느끼는 체감",
+    "focus": "물건이나 식사 가격이 품질 대비 다소 비싸다고 느끼는 일상적 구어 표현",
+    "examples": [
+      "The restaurant was good, but a bit pricey for everyday lunch"
+    ]
+  },
+  {
+    "id": "d_677",
+    "source": "Dissimilarities",
+    "category": "폭발하다",
+    "word": "explode",
+    "meaning": "폭발하다",
+    "core_image": "화약고에 불이 붙어 거대한 굉음과 화염을 내뿜으며 산산조각 폭발함",
+    "focus": "물리적인 폭탄이나 압력 용기가 터지거나, 데이터/인구가 폭발적으로 급증함",
+    "examples": [
+      "The old boiler exploded due to high internal pressure"
+    ]
+  },
+  {
+    "id": "d_678",
+    "source": "Dissimilarities",
+    "category": "폭발하다",
+    "word": "blow up",
+    "meaning": "폭발하다",
+    "core_image": "다이너마이트로 건물을 폭파하거나 참았던 분노가 한순간에 쾅 터짐",
+    "focus": "물체를 폭파해 날려버리거나, 억눌렸던 사람의 분노가 갑자기 버럭 폭발함 (구어체)",
+    "examples": [
+      "He blew up at the unfair criticism during the meeting"
+    ]
+  },
+  {
+    "id": "d_679",
+    "source": "Dissimilarities",
+    "category": "빠뜨리다, 생략하다",
+    "word": "omit",
+    "meaning": "빠뜨리다, 생략하다",
+    "core_image": "원고를 편집하며 불필요한 단락을 가위로 오려내어 정식 제외함",
+    "focus": "학술 문서나 공식 명단에서 특정 항목을 의도적으로 생략하거나 실수로 빠뜨림 (격식체)",
+    "examples": [
+      "You can omit the redundant parameters from the configuration"
+    ]
+  },
+  {
+    "id": "d_680",
+    "source": "Dissimilarities",
+    "category": "빠뜨리다, 생략하다",
+    "word": "skip",
+    "meaning": "건너뛰다, 거르다",
+    "core_image": "책장을 몇 장 훌쩍 넘겨 다음 흥미진진한 챕터로 직행함",
+    "focus": "지루하거나 불필요한 부분을 건너뛰고 다음 단계로 넘어감",
+    "examples": [
+      "Let's skip the introductory slides and go straight to the results"
+    ]
+  },
+  {
+    "id": "d_681",
+    "source": "Dissimilarities",
+    "category": "빠뜨리다, 생략하다",
+    "word": "skip over",
+    "meaning": "빠뜨리다, 생략하다",
+    "core_image": "장애물 위를 발을 딛지 않고 훌쩍 날아넘어 그냥 지나침",
+    "focus": "특정 논제나 문장을 언급하지 않고 가볍게 건너뛰고 넘어감",
+    "examples": [
+      "The speaker skipped over the technical details to save time"
+    ]
+  },
+  {
+    "id": "d_682",
+    "source": "Dissimilarities",
+    "category": "빠뜨리다, 생략하다",
+    "word": "leave out",
+    "meaning": "빠뜨리다, 생략하다",
+    "core_image": "초대 명단을 작성하면서 특정 사람의 이름을 깜빡 잊고 적지 않음",
+    "focus": "그룹이나 이야기에서 특정 항목, 사람, 정보를 고의나 실수로 포함하지 않고 제외함",
+    "examples": [
+      "I think you left out the most important part of the story"
+    ]
+  },
+  {
+    "id": "d_683",
+    "source": "Dissimilarities",
+    "category": "일반적으로",
+    "word": "generally",
+    "meaning": "일반적으로",
+    "core_image": "대다수의 경우에 해당하는 보편적인 평균치 지표면",
+    "focus": "예외가 있을 수 있으나 대부분의 경우에 일반적으로 통용됨을 나타냄",
+    "examples": [
+      "Generally, deep learning models require a large amount of training data"
+    ]
+  },
+  {
+    "id": "d_684",
+    "source": "Dissimilarities",
+    "category": "유지하다",
+    "word": "keep",
+    "meaning": "유지하다",
+    "core_image": "온실 안의 온도를 일정한 범위 내로 변함없이 지속 유지함",
+    "focus": "어떤 상태, 물건, 조건을 변형시키지 않고 그대로 지속해서 유지함",
+    "examples": [
+      "Keep your workspace clean and organized"
+    ]
+  },
+  {
+    "id": "d_685",
+    "source": "Dissimilarities",
+    "category": "유지하다",
+    "word": "stick to",
+    "meaning": "유지하다",
+    "core_image": "원칙이라는 단단한 기둥에 양손으로 찰싹 달라붙어 떨어지지 않음",
+    "focus": "유혹이나 어려움에도 흔들리지 않고 원래의 계획, 원칙, 루틴을 끝까지 고수함",
+    "examples": [
+      "We should stick to our original research plan"
+    ]
+  },
+  {
+    "id": "d_686",
+    "source": "Dissimilarities",
+    "category": "성취하다",
+    "word": "accomplish",
+    "meaning": "성취하다",
+    "core_image": "주어진 업무 체크리스트의 모든 항목을 하나하나 완수하여 끝마침",
+    "focus": "할당된 과업이나 업무를 충실히 수행하여 성공적으로 완수함",
+    "examples": [
+      "We have accomplished our primary mission for this quarter"
+    ]
+  },
+  {
+    "id": "d_687",
+    "source": "Dissimilarities",
+    "category": "성취하다",
+    "word": "achieve",
+    "meaning": "성취하다",
+    "core_image": "높은 산 정상에 올라 깃발을 꽂으며 사회적·개인적 큰 목표를 쟁취함",
+    "focus": "오랜 노력과 훈련을 통해 높은 수준의 위업이나 값진 성과를 쟁취해냄",
+    "examples": [
+      "We achieved great results in reducing simulation latency this year"
+    ]
+  },
+  {
+    "id": "d_688",
+    "source": "Dissimilarities",
+    "category": "붙이다",
+    "word": "attach",
+    "meaning": "붙이다",
+    "core_image": "이메일에 첨부 파일 클립을 찰칵 걸어 문서에 고정함",
+    "focus": "물리적/디지털 공간에서 어떤 대상을 다른 대상에 연결하거나 첨부함",
+    "examples": [
+      "Please attach the dataset to your email"
+    ]
+  },
+  {
+    "id": "d_689",
+    "source": "Dissimilarities",
+    "category": "붙이다",
+    "word": "tape",
+    "meaning": "붙이다",
+    "core_image": "투명 접착 테이프를 뜯어 목표가 적힌 메모지를 모니터 옆에 붙임",
+    "focus": "접착 테이프를 사용하여 물리적으로 벽이나 물체에 고정하여 붙임",
+    "examples": [
+      "I put my goal on a note card and tape it to a place I look at every morning"
+    ]
+  },
+  {
+    "id": "d_690",
+    "source": "Dissimilarities",
+    "category": "생각 (몰입)",
+    "word": "couldn't think about anything but",
+    "meaning": "생각 (몰입)",
+    "core_image": "머릿속 시야 전체가 오직 하나의 목표물로 가득 차 다른 생각이 끼어들 틈이 없음",
+    "focus": "그 대상 외에는 다른 어떤 것도 떠올릴 수 없을 만큼 극도로 몰입하고 집착함",
+    "examples": [
+      "I couldn't think about anything but solving this optimization problem"
+    ]
+  },
+  {
+    "id": "d_691",
+    "source": "Dissimilarities",
+    "category": "생각 (몰입)",
+    "word": "couldn't think beyond",
+    "meaning": "생각 (몰입)",
+    "core_image": "눈앞의 장벽에 시야가 막혀 그 너머의 장기적인 미래는 전혀 내다보지 못함",
+    "focus": "당면한 단기적 과제에만 매몰되어 그 이상의 단계나 장기적 시야를 생각하지 못함",
+    "examples": [
+      "I couldn't think beyond getting those ten pounds off"
+    ]
+  },
+  {
+    "id": "d_692",
+    "source": "Dissimilarities",
+    "category": "변화 (속도)",
+    "word": "get",
+    "meaning": "얻다, 가지게 되다 (획득 동작)",
+    "core_image": "스위치가 전환되듯 비교적 빠른 속도로 상태가 휙 변함",
+    "focus": "비교적 빠르고 일상적인 상태의 전환과 변화를 나타냄",
+    "examples": [
+      "I get more imaginative from reading thought-provoking books"
+    ]
+  },
+  {
+    "id": "d_693",
+    "source": "Dissimilarities",
+    "category": "변화 (속도)",
+    "word": "grow",
+    "meaning": "점진적으로 변화하다, 성장하다",
+    "core_image": "나무의 나이테가 늘어나듯 오랜 시간을 거치며 서서히 성숙해가는 점진성",
+    "focus": "시간의 흐름 속에서 점진적이고 완만하게 내면이나 상태가 변화하고 성장함",
+    "examples": [
+      "He grew more patient and confident as he gained research experience"
+    ]
+  },
+  {
+    "id": "d_694",
+    "source": "Dissimilarities",
+    "category": "연결",
+    "word": "networking",
+    "meaning": "연결",
+    "core_image": "네트워크 그래프에 새로운 노드와 간선을 뻗어 경로를 확장하는 라우팅",
+    "focus": "정보와 기회의 교환을 목적으로 여러 사람과 넓은 사회적 연결망을 구축함",
+    "examples": [
+      "Attending international conferences is essential for professional networking"
+    ]
+  },
+  {
+    "id": "d_695",
+    "source": "Dissimilarities",
+    "category": "연결",
+    "word": "make a relationship",
+    "meaning": "연결",
+    "core_image": "단둘만의 독립된 스코프를 열고 신뢰와 감정을 차곡차곡 쌓아 올림",
+    "focus": "상대방과 깊은 인간적 신뢰, 유대감, 고유한 정서적 맥락을 형성하고 발전시킴",
+    "examples": [
+      "It takes time and genuine care to make a lasting relationship with colleagues"
+    ]
+  },
+  {
+    "id": "d_696",
+    "source": "Dissimilarities",
+    "category": "한계",
+    "word": "limit",
+    "meaning": "한계",
+    "core_image": "토지 주변에 경계선 펜스를 쳐서 더 이상 넘어가지 못하도록 제한함",
+    "focus": "능력, 자원, 공간의 최대 허용 범위를 명확히 규정하고 제한함",
+    "examples": [
+      "No matter how hardworking nor intelligent you are, when you take on too many duties, you are limited"
+    ]
+  },
+  {
+    "id": "d_697",
+    "source": "Dissimilarities",
+    "category": "끝내다",
+    "word": "finish",
+    "meaning": "끝내다",
+    "core_image": "시계가 퇴근 시간을 가리키자 하던 작업을 멈추고 펜을 내려놓음",
+    "focus": "일의 양이나 시간이 끝에 도달하여 더 이상 하지 않고 종료함 (완벽성 여부 무관)",
+    "examples": [
+      "I need to finish writing this section before lunch"
+    ]
+  },
+  {
+    "id": "d_698",
+    "source": "Dissimilarities",
+    "category": "끝내다",
+    "word": "complete",
+    "meaning": "끝내다",
+    "core_image": "퍼즐의 마지막 1,000번째 조각을 딱 끼워 넣어 100% 온전한 완성품을 만듦",
+    "focus": "비어 있던 필수 요소를 모두 채워 넣어 100% 완전무결한 상태로 완성함",
+    "examples": [
+      "The researchers completed the comprehensive musculoskeletal atlas"
+    ]
+  },
+  {
+    "id": "d_699",
+    "source": "Dissimilarities",
+    "category": "최근",
+    "word": "recently",
+    "meaning": "최근",
+    "core_image": "과거 타임라인의 가까운 특정 날짜 지점에 찍힌 1회성 점(Point)",
+    "focus": "과거의 특정한 가까운 시점에 단발적으로 일어난 사건을 언급할 때 사용",
+    "examples": [
+      "I moved to Geneva recently"
+    ]
+  },
+  {
+    "id": "d_700",
+    "source": "Dissimilarities",
+    "category": "최근",
+    "word": "lately",
+    "meaning": "최근",
+    "core_image": "최근 며칠간 쭉 이어져 오고 있는 지속적인 상태의 선(Line)",
+    "focus": "최근 들어 얼마간의 기간 동안 지속되고 있는 상태나 반복되는 패턴에 초점",
+    "examples": [
+      "I've been feeling tired lately due to the heavy workload"
+    ]
+  },
+  {
+    "id": "d_701",
+    "source": "Dissimilarities",
+    "category": "시간의 전치사",
+    "word": "in",
+    "meaning": "시간의 전치사",
+    "core_image": "2024년이라는 커다란 시간 상자 안의 한 지점을 가리킴",
+    "focus": "연도, 계절, 월, 아침 등 커다란 시간 프레임 내부의 특정 순간을 지칭",
+    "examples": [
+      "I graduated in 2024",
+      "I wake up early in the morning"
+    ]
+  },
+  {
+    "id": "d_702",
+    "source": "Dissimilarities",
+    "category": "시간의 전치사",
+    "word": "during",
+    "meaning": "~하는 동안에",
+    "core_image": "영화 상영 시간(2시간)의 시작부터 끝까지 이어지는 타임라인의 흐름",
+    "focus": "특정 사건이나 행사가 진행되는 선형적 기간 전체 또는 그 도중을 강조",
+    "examples": [
+      "I fell asleep during the long conference lecture"
+    ]
+  },
+  {
+    "id": "d_703",
+    "source": "Dissimilarities",
+    "category": "그것도, 그것조차도",
+    "word": "even",
+    "meaning": "그것도, 그것조차도",
+    "core_image": "예상치 못한 극단적인 사례를 문장 앞에 강조하며 들어 올림",
+    "focus": "상식적으로 예상하기 힘든 의외의 사실을 '심지어 ~조차도'라고 강하게 강조",
+    "examples": [
+      "Some luxury restaurants provide valet parking services, but I even still need to pay for it"
+    ]
+  },
+  {
+    "id": "d_704",
+    "source": "Dissimilarities",
+    "category": "그것도, 그것조차도",
+    "word": "as well",
+    "meaning": "그것도, 그것조차도",
+    "core_image": "문장 맨 끝에 선물 하나를 나란히 덧붙여 놓음",
+    "focus": "앞선 내용에 더하여 '또한, 역시'를 문미에 자연스럽게 덧붙임",
+    "examples": [
+      "The system not only optimizes torque, but it reduces energy consumption as well"
+    ]
+  },
+  {
+    "id": "d_705",
+    "source": "Dissimilarities",
+    "category": "돌아가다",
+    "word": "go around",
+    "meaning": "돌아가다",
+    "core_image": "길 복판에 공사 중 팻말이 서 있어 둥글게 원을 그리며 우회함",
+    "focus": "장애물이나 막힌 길을 피해 주변으로 빙 둘러서 우회하여 이동함",
+    "examples": [
+      "The road is blocked, so we have to go around through the side street"
+    ]
+  },
+  {
+    "id": "d_706",
+    "source": "Dissimilarities",
+    "category": "돌아가다",
+    "word": "get around",
+    "meaning": "돌아가다",
+    "core_image": "복잡한 지하철 노선망을 자유자재로 환승하며 도시 구석구석을 누빔",
+    "focus": "도시 이곳저곳을 편리하게 이동해 다니거나 법적/기술적 규제를 교묘히 회피함",
+    "examples": [
+      "It's very easy to get around Lausanne by metro",
+      "Companies always find a way to get around tax regulations"
+    ]
+  },
+  {
+    "id": "d_707",
+    "source": "Dissimilarities",
+    "category": "경과",
+    "word": "It has been [기간] since",
+    "meaning": "경과",
+    "core_image": "출발선 깃발을 꽂은 날로부터 현재까지 쌓인 시간의 누적 길이",
+    "focus": "과거 특정 사건이 일어난 이후 현재까지 흐른 시간의 총량을 객관적으로 표현",
+    "examples": [
+      "It has been 4 weeks since I started this research project"
+    ]
+  },
+  {
+    "id": "d_708",
+    "source": "Dissimilarities",
+    "category": "경과",
+    "word": "It is the [기간] week of",
+    "meaning": "경과",
+    "core_image": "다이어트 달력의 4주 차 페이지를 펼치고 현재 진행 지점을 확인하는 손가락",
+    "focus": "전체 계획이나 여정 중 현재 몇 번째 주차/단계에 도달해 있는지를 명시함",
+    "examples": [
+      "It is the 4th week of my strict diet program"
+    ]
+  },
+  {
+    "id": "d_709",
+    "source": "Dissimilarities",
+    "category": "상관없이",
+    "word": "regardless of",
+    "meaning": "상관없이",
+    "core_image": "외부의 악조건 평가서를 서류철에서 제외하고 냉정하게 객관적 판단을 내림",
+    "focus": "주변의 조건이나 리뷰를 이성적으로 고려 대상에서 배제하고 결정을 밀고 나감",
+    "examples": [
+      "Regardless of the reviews, I will watch the movie and judge for myself"
+    ]
+  },
+  {
+    "id": "d_710",
+    "source": "Dissimilarities",
+    "category": "상관없이",
+    "word": "whatever",
+    "meaning": "상관없이",
+    "core_image": "남들이 무슨 말을 하든 귀를 닫고 내 고집대로 하겠다는 강한 감정적 직진",
+    "focus": "조건이 어떠하든 상관없이 내 마음대로 하겠다는 감정적이고 단호한 태도",
+    "examples": [
+      "Whatever the consequences are, I stand by my decision"
+    ]
+  },
+  {
+    "id": "d_711",
+    "source": "Dissimilarities",
+    "category": "판단 (기준)",
+    "word": "based on",
+    "meaning": "판단 (기준)",
+    "core_image": "단단한 콘크리트 기초 지반 위에 건물을 세우듯 사실 데이터를 바탕에 둠",
+    "focus": "결정이나 이론을 도출할 때 그것을 떠받치는 객관적 정보, 데이터, 원작의 토대",
+    "examples": [
+      "The diagnosis was based on comprehensive MRI imaging data"
+    ]
+  },
+  {
+    "id": "d_712",
+    "source": "Dissimilarities",
+    "category": "판단 (기준)",
+    "word": "by",
+    "meaning": "옆에, 곁에 (손 닿는 근접 반경)",
+    "core_image": "정밀 계측 자와 저울을 들이대며 치수와 품질을 판가름하는 기준",
+    "focus": "사물을 가늠하거나 평가할 때 사용하는 잣대나 판단의 규칙 지표",
+    "examples": [
+      "Don't judge a book by its cover"
+    ]
+  },
+  {
+    "id": "d_713",
+    "source": "Dissimilarities",
+    "category": "기대 (출처)",
+    "word": "expect from",
+    "meaning": "기대 (출처)",
+    "core_image": "상대방이라는 원천에서 훌륭한 성과물이 흘러나오기를 바라는 기대의 시선",
+    "focus": "특정 대상(from)으로부터 좋은 행동이나 결과가 나오기를 희망하고 기대함",
+    "examples": [
+      "We expect high professional standards from all lab members"
+    ]
+  },
+  {
+    "id": "d_714",
+    "source": "Dissimilarities",
+    "category": "~에게 (전치사)",
+    "word": "for",
+    "meaning": "~동안 (기간)",
+    "core_image": "상대방의 행복과 이익을 위해 정성껏 준비한 선물을 안겨주는 마음",
+    "focus": "상대방을 위하는 마음이나 수혜의 목적을 가지고 행동할 때 사용",
+    "examples": [
+      "I brewed a fresh cup of coffee for you"
+    ]
+  },
+  {
+    "id": "d_715",
+    "source": "Dissimilarities",
+    "category": "~에게 (전치사)",
+    "word": "to",
+    "meaning": "~에게 (전치사)",
+    "core_image": "과녁판을 향해 직선으로 날아가는 화살처럼 상대방에게 똑바로 꽂히는 방향",
+    "focus": "말이나 물건이 상대방을 향해 일직선으로 도달하는 물리적/의사소통적 방향",
+    "examples": [
+      "Please explain the algorithm to me step by step"
+    ]
+  },
+  {
+    "id": "d_716",
+    "source": "Dissimilarities",
+    "category": "~에게 (전치사)",
+    "word": "from",
+    "meaning": "~에게 (전치사)",
+    "core_image": "상대방의 품에서 시작되어 나에게로 뻗어 나오는 출발점",
+    "focus": "정보나 요구의 출발지점으로서 상대방을 나타낼 때 사용",
+    "examples": [
+      "What do you want from me?"
+    ]
+  },
+  {
+    "id": "d_717",
+    "source": "Dissimilarities",
+    "category": "~에게 (전치사)",
+    "word": "with",
+    "meaning": "~에게 (전치사)",
+    "core_image": "거울을 마주 보듯 상대방과 나란히 서서 서로의 감정 상태를 마주함",
+    "focus": "상대방에 대한 내면의 정직함이나 감정적 태도를 표현할 때 사용",
+    "examples": [
+      "You should be completely honest with yourself"
+    ]
+  },
+  {
+    "id": "d_718",
+    "source": "Dissimilarities",
+    "category": "~에게 (전치사)",
+    "word": "on",
+    "meaning": "~에게 (전치사)",
+    "core_image": "수면 위에 떨어진 잉크 방울이 종이 위로 번지며 자국을 남기는 영향",
+    "focus": "특정 대상 위에 가해지는 파급력과 직접적인 영향/효과를 나타냄",
+    "examples": [
+      "The mentor's advice had a profound impact on my scientific career"
+    ]
+  },
+  {
+    "id": "d_719",
+    "source": "Dissimilarities",
+    "category": "조율",
+    "word": "adapt",
+    "meaning": "(환경에) 적응하다, 맞추다",
+    "core_image": "새로운 시차에 맞추어 생체 시계의 톱니바퀴를 부드럽게 조정함",
+    "focus": "새로운 환경이나 일정에 적응하도록 자신의 상태나 시스템을 조율하고 맞춤",
+    "examples": [
+      "I had to adapt my biological clock to waking up at 6 AM every day"
+    ]
+  },
+  {
+    "id": "d_720",
+    "source": "Dissimilarities",
+    "category": "계획",
+    "word": "plan",
+    "meaning": "계획",
+    "core_image": "파티 일정표를 손에 쥐고 순서대로 행사를 기획함",
+    "focus": "어떤 행위나 이벤트를 구체적으로 계획하고 준비함",
+    "examples": [
+      "We are planning a farewell party for our colleague"
+    ]
+  },
+  {
+    "id": "d_721",
+    "source": "Dissimilarities",
+    "category": "계획",
+    "word": "plan on",
+    "meaning": "계획",
+    "core_image": "여름휴가를 머릿속에 염두에 두고 미리 마음의 준비를 함",
+    "focus": "미래의 행동이나 일정을 염두에 두고 예상·계획함",
+    "examples": [
+      "I am planning on taking a long vacation after the thesis submission"
+    ]
+  },
+  {
+    "id": "d_722",
+    "source": "Dissimilarities",
+    "category": "계획",
+    "word": "plan for",
+    "meaning": "계획",
+    "core_image": "미래의 위기나 재정 상황에 대비해 비상금을 마련해두는 대비책",
+    "focus": "미래에 닥칠 상황이나 위험에 대비하여 사전 대책과 계획을 세움",
+    "examples": [
+      "We must plan for potential economic fluctuations in the coming years"
+    ]
+  },
+  {
+    "id": "d_723",
+    "source": "Dissimilarities",
+    "category": "익숙하다",
+    "word": "be used to",
+    "meaning": "~에 익숙하다",
+    "core_image": "매운 음식을 먹어도 더 이상 땀을 흘리지 않을 만큼 몸에 밴 자연스러움",
+    "focus": "특정 환경, 고물가, 혹은 반복되는 행위에 완전히 익숙해져서 편안한 상태",
+    "examples": [
+      "I am used to living in Geneva and managing high expenses"
+    ]
+  },
+  {
+    "id": "d_724",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "cut back",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "가지치기 가위로 무성한 나뭇가지를 싹둑 잘라내어 양을 줄임",
+    "focus": "지출, 카페인 섭취, 예산 등의 양을 의도적으로 감축하고 줄임",
+    "examples": [
+      "I decided to cut back on coffee to improve my sleep quality"
+    ]
+  },
+  {
+    "id": "d_725",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "lose",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "다이어트를 통해 체중계의 눈금을 5kg 아래로 떨어뜨림",
+    "focus": "체중, 재산, 열쇠 등을 상실하거나 정량적으로 감량함",
+    "examples": [
+      "He managed to lose 10 kilograms through consistent exercise"
+    ]
+  },
+  {
+    "id": "d_726",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "reduce",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "알고리즘의 불필요한 연산 루프를 줄여 처리 시간을 단축함",
+    "focus": "크기, 수량, 비용, 위험도의 양을 전반적으로 낮추고 감소시킴",
+    "examples": [
+      "We need to reduce the computational complexity of the algorithm"
+    ]
+  },
+  {
+    "id": "d_727",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "keep down",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "냄비 뚜껑을 지그시 눌러 끓어오르는 거품이 넘치지 않도록 억누름",
+    "focus": "목소리 볼륨, 물가 상승률, 소음 등을 낮은 수준으로 억제하여 유지함",
+    "examples": [
+      "Please keep your voice down in the quiet study room",
+      "The government tried to keep down inflation"
+    ]
+  },
+  {
+    "id": "d_728",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "remove",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "방 한가운데를 차지하던 낡은 소파를 문밖으로 덜어내어 치움",
+    "focus": "특정 위치나 데이터에서 대상을 덜어내어 완전히 치우거나 제외함",
+    "examples": [
+      "Please remove the temporary cache files before running the benchmark"
+    ]
+  },
+  {
+    "id": "d_729",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "eliminate",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "잡초의 뿌리를 통째로 뽑아내어 재발의 싹을 완전히 없앰",
+    "focus": "위험, 에러, 결함, 경쟁자 등을 완전히 박멸하여 배제함",
+    "examples": [
+      "The new pipeline eliminates redundant memory allocations"
+    ]
+  },
+  {
+    "id": "d_730",
+    "source": "Dissimilarities",
+    "category": "줄이다, 낮추다, 제거하다",
+    "word": "strip away",
+    "meaning": "줄이다, 낮추다, 제거하다",
+    "core_image": "양파 껍질을 한 겹씩 벗겨내어 가장 순수한 핵심 알맹이만 남김",
+    "focus": "가장 본질적인 핵심만 남기기 위해 주변의 군더더기와 겉치레를 모두 깎아냄",
+    "examples": [
+      "Focusing is about stripping away everything except the one thing that truly matters"
+    ]
+  },
+  {
+    "id": "d_731",
+    "source": "Dissimilarities",
+    "category": "가치",
+    "word": "appreciate",
+    "meaning": "가치",
+    "core_image": "미술관의 명화를 그윽한 눈으로 감상하며 작품에 담긴 예술적 진가를 알아봄",
+    "focus": "타인의 수고나 예술 작품, 난관의 가치를 깊이 있게 알아보고 진심으로 인정함",
+    "examples": [
+      "My supervisor appreciates my hard work and dedication",
+      "You need to appreciate how difficult this optimization problem really is"
+    ]
+  },
+  {
+    "id": "d_732",
+    "source": "Dissimilarities",
+    "category": "게다가",
+    "word": "plus",
+    "meaning": "게다가",
+    "core_image": "대화 중에 생각난 좋은 점 하나를 플러스(+) 기호로 가볍게 보탬",
+    "focus": "일상 대화나 가벼운 글에서 생각난 김에 가볍게 한마디 더 얹어 보탤 때 사용",
+    "examples": [
+      "The apartment is very quiet. Plus, it's only five minutes from the lab"
+    ]
+  },
+  {
+    "id": "d_733",
+    "source": "Dissimilarities",
+    "category": "게다가",
+    "word": "moreover",
+    "meaning": "게다가",
+    "core_image": "논문 결론부에서 앞선 주장을 쐐기 박는 더 강력한 결정적 증거를 추가함",
+    "focus": "학술 보고서나 논문에서 앞선 논거를 한층 더 강력하게 뒷받침하는 핵심 근거를 추가함",
+    "examples": [
+      "The results of the preliminary study are inconclusive. Moreover, the sample size was too small"
+    ]
+  },
+  {
+    "id": "d_734",
+    "source": "Dissimilarities",
+    "category": "게다가",
+    "word": "strength",
+    "meaning": "게다가",
+    "core_image": "거친 파도를 맞아도 부서지지 않는 내면의 단단한 맷집과 바위 같은 저력",
+    "focus": "내적으로 축적된 단단한 체력, 정신적 맷집, 혹은 고유한 핵심 강점",
+    "examples": [
+      "Interest and genuine support from others can give them immense strength"
+    ]
+  },
+  {
+    "id": "d_735",
+    "source": "Dissimilarities",
+    "category": "게다가",
+    "word": "power",
+    "meaning": "게다가",
+    "core_image": "번개가 내리치듯 외부로 거대하게 행사되는 물리적·사회적 폭발력",
+    "focus": "외부를 지배하고 통제하며 발휘되는 강력한 영향력과 폭발적인 물리적 힘",
+    "examples": [
+      "The motor provides sufficient power to actuate the robotic exoskeleton"
+    ]
+  },
+  {
+    "id": "d_736",
+    "source": "Dissimilarities",
+    "category": "붐비는, 혼잡한",
+    "word": "crowded",
+    "meaning": "붐비는, 혼잡한",
+    "core_image": "주말 명동 거리처럼 수많은 인파가 물결치며 북적북적한 풍경",
+    "focus": "사람이 많아 북적거리고 혼잡한 상태를 나타내는 가장 표준적인 표현",
+    "examples": [
+      "The shopping mall is always crowded on Saturday afternoons"
+    ]
+  },
+  {
+    "id": "d_737",
+    "source": "Dissimilarities",
+    "category": "붐비는, 혼잡한",
+    "word": "packed",
+    "meaning": "붐비는, 혼잡한",
+    "core_image": "출퇴근길 지옥철처럼 상자 속에 통조림처럼 사람들이 빈틈없이 꽉 들어참",
+    "focus": "더 이상 발 디딜 틈도 없이 사람들로 빽빽하게 꽉 차 있는 상태 (구어체)",
+    "examples": [
+      "The morning tram is usually packed so I can't even read my book"
+    ]
+  },
+  {
+    "id": "d_738",
+    "source": "Dissimilarities",
+    "category": "정도",
+    "word": "so much that",
+    "meaning": "정도",
+    "core_image": "심리적 압박 수위가 댐을 넘어설 만큼 극에 달해 특정 행동으로 이어짐",
+    "focus": "감정이나 상태의 정도가 '너무나 극심하여 그 결과 ~할 정도이다'를 표현",
+    "examples": [
+      "When my hero, Ji-sung Park, played in the Dutch league, he lacked confidence so much that he dreaded the ball coming toward him"
+    ]
+  },
+  {
+    "id": "d_739",
+    "source": "Dissimilarities",
+    "category": "칭찬",
+    "word": "praise for",
+    "meaning": "칭찬",
+    "core_image": "어깨를 토닥이며 이뤄낸 훌륭한 성취에 대해 따뜻한 박수를 보냄",
+    "focus": "'praise + 대상 + for + 이유' 구조로 특정 성과나 행동에 대해 칭찬과 찬사를 보냄",
+    "examples": [
+      "Ji-sung Park believed that confidence comes from feeling genuinely good at something, so he began praising himself for even the smallest, simplest things."
+    ]
+  },
+  {
+    "id": "d_740",
+    "source": "Dissimilarities",
+    "category": "기억",
+    "word": "register",
+    "meaning": "기억",
+    "core_image": "귀로 들어온 단어가 뇌 속 신경망에 전파되어 마음에 쿵 하고 와닿음",
+    "focus": "들은 말이나 목격한 사실이 뇌리에 인식되고 마음속에 의미 있게 와닿음",
+    "examples": [
+      "I was in such shock that his words just didn't register at first"
+    ]
+  },
+  {
+    "id": "d_741",
+    "source": "Dissimilarities",
+    "category": "처럼",
+    "word": "just like",
+    "meaning": "처럼",
+    "core_image": "롤모델의 멋진 발자국을 그대로 따라 밟으며 자신을 북돋움",
+    "focus": "'Just like + 명사' 형태로 존경하는 대상과 똑같이 행동함을 강조할 때 사용",
+    "examples": [
+      "Just like Ji-sung Park, I cheered myself up today regarding yesterday's lab meeting."
+    ]
+  },
+  {
+    "id": "d_742",
+    "source": "Dissimilarities",
+    "category": "연락하다",
+    "word": "reach out",
+    "meaning": "연락하다",
+    "core_image": "어려움에 처한 친구에게 먼저 손을 내밀어 온기를 전하는 따뜻한 소통",
+    "focus": "도움을 주거나 안부를 묻기 위해 먼저 따뜻하게 다가가 연결을 시도함",
+    "examples": [
+      "Myeonghwan reached out to me when I was having a hard time",
+      "Thank you everyone for reaching out to me; it really made me feel better"
+    ]
+  },
+  {
+    "id": "d_743",
+    "source": "Dissimilarities",
+    "category": "연락하다",
+    "word": "contact",
+    "meaning": "연락하다",
+    "core_image": "업무 목적을 위해 수화기를 들거나 이메일을 발송하는 공식 통신",
+    "focus": "특정 실무 목적을 위해 전화, 이메일 등의 수단으로 연락을 취함",
+    "examples": [
+      "Professor Gong gu contacted me to check on my research status"
+    ]
+  },
+  {
+    "id": "d_744",
+    "source": "Dissimilarities",
+    "category": "챙겨주다",
+    "word": "take care of",
+    "meaning": "챙겨주다",
+    "core_image": "아픈 가족의 침상 곁을 지키며 약을 챙겨주는 직접적인 간호와 보살핌",
+    "focus": "스스로 돌보기 힘든 어린이나 환자의 일상과 웰빙을 책임지고 보살핌",
+    "examples": [
+      "She stays at home to take care of her sick grandmother"
+    ]
+  },
+  {
+    "id": "d_745",
+    "source": "Dissimilarities",
+    "category": "챙겨주다",
+    "word": "look out for",
+    "meaning": "경계하며 살피다, 조심하다",
+    "core_image": "새로 합류한 후배가 조직에서 소외되거나 손해 보지 않도록 뒤에서 지켜봐 줌",
+    "focus": "독립적인 성인이 곤경이나 위험에 빠지지 않도록 뒤에서 든든하게 신경 써줌",
+    "examples": [
+      "Thanks for looking out for me when I was new to the research team"
+    ]
+  },
+  {
+    "id": "d_746",
+    "source": "Dissimilarities",
+    "category": "~인 것 처럼",
+    "word": "as though",
+    "meaning": "~인 것 처럼",
+    "core_image": "소설 속 문장처럼 은은하고 깊이 있는 비유의 안개로 감정을 묘사함",
+    "focus": "실제 사실과 다른 미묘하고 정서적인 심상을 격조 높은 비유로 풀어냄",
+    "examples": [
+      "It feels as though the past year I spent attending church was all for nothing",
+      "It is still the middle of summer, but it feels as though the season has changed. Instead of the scorching sun, a cool breeze wraps around me"
+    ]
+  },
+  {
+    "id": "d_747",
+    "source": "Dissimilarities",
+    "category": "감정이 밀려오다",
+    "word": "wash over",
+    "meaning": "감정이 밀려오다",
+    "core_image": "바닷가의 따뜻한 파도가 백사장을 덮고 가듯 감정이 온몸을 감싸 안음",
+    "focus": "외로움, 안도감, 슬픔 같은 깊은 감정이 온몸과 마음에 부드럽고 묵직하게 번짐",
+    "examples": [
+      "A sense of loneliness washed over me when I woke up in the empty room",
+      "A profound feeling of relief washed over him after the successful defense"
+    ]
+  },
+  {
+    "id": "d_748",
+    "source": "Dissimilarities",
+    "category": "감정이 밀려오다",
+    "word": "come over",
+    "meaning": "감정이 밀려오다",
+    "core_image": "먹구름이 머리 위를 덮치듯 갑작스러운 감정의 기운이 나를 순간적으로 압도함",
+    "focus": "분노나 알 수 없는 감정이 돌발적으로 찾아와 사람의 기분과 상태를 확 바꾸어 놓음",
+    "examples": [
+      "I don't know what came over me when I shouted",
+      "A sudden wave of anger came over him"
+    ]
+  },
+  {
+    "id": "d_749",
+    "source": "Dissimilarities",
+    "category": "정체",
+    "word": "stall",
+    "meaning": "정체",
+    "core_image": "달리던 자동차의 가속 페달이 먹통이 되며 서서히 추진력을 잃고 멈춰 섬",
+    "focus": "추진력(momentum)이나 에너지가 부족해져서 서서히 속도가 줄어들다 멈춰버림",
+    "examples": [
+      "My research progress has stalled due to missing experimental parameters"
+    ]
+  },
+  {
+    "id": "d_750",
+    "source": "Dissimilarities",
+    "category": "정체",
+    "word": "stuck",
+    "meaning": "정체",
+    "core_image": "바퀴가 깊은 진흙 구덩이에 박혀 엔진을 아무리 밟아도 바퀴만 헛돌고 꼼짝 못함",
+    "focus": "의지와 동력은 충분하나 특정 난관이나 버그에 발이 묶여 옴짝달싹 못함",
+    "examples": [
+      "I am completely stuck on this joint torque estimation process"
+    ]
+  },
+  {
+    "id": "d_751",
+    "source": "Dissimilarities",
+    "category": "~한 후에",
+    "word": "following that",
+    "meaning": "~한 후에",
+    "core_image": "첫 번째 연구 파이프라인 블록이 완료된 후 곧바로 이어지는 다음 공정",
+    "focus": "학술 논문이나 절차 설명에서 선행 단계를 완료한 후 차례로 이어지는 다음 단계를 명시함",
+    "examples": [
+      "Firstly, we used a skeletal model of the arm and performed inverse kinematics to extract joint angles. Following that, we deployed a musculoskeletal model of the human arm by Saul et al. in OpenSim."
+    ]
+  },
+  {
+    "id": "d_752",
+    "source": "Dissimilarities",
+    "category": "비로소",
+    "word": "not ... until",
+    "meaning": "비로소",
+    "core_image": "오랜 밤이 지나 새벽빛이 밝아오고 나서야 비로소 자물쇠가 열림",
+    "focus": "특정 시점이 되기 전까지는 몰랐으나 그 시점에 도달해서야 비로소 깨달음을 표현",
+    "examples": [
+      "I didn't truly appreciate the value of health until I got sick"
+    ]
+  },
+  {
+    "id": "d_753",
+    "source": "Dissimilarities",
+    "category": "비로소",
+    "word": "only after",
+    "meaning": "비로소",
+    "core_image": "긴 터널을 빠져나온 직후에야 눈앞에 장엄한 바다가 펼쳐지는 도치 구조",
+    "focus": "오직 선행 조건이 충족된 이후에야 비로소 결과가 실현됨 (문두 도치 수반)",
+    "examples": [
+      "I barely managed to get up only after I talked on the phone with Gyeonghan",
+      "Only after talking to him did I understand the full complexity of the situation"
+    ]
+  },
+  {
+    "id": "d_754",
+    "source": "Dissimilarities",
+    "category": "대신에",
+    "word": "in place of",
+    "meaning": "~을 대신하여 (물리적 대체)",
+    "core_image": "원래 서 있던 직원의 자리에 다른 동료가 서서 그 직무 역할을 온전히 대신함",
+    "focus": "한 대상의 공식적인 자리, 직책, 기능적 역할을 다른 대상이 중립적으로 대체함",
+    "examples": [
+      "I will work in place of John today",
+      "You can use honey in place of sugar in this recipe"
+    ]
+  },
+  {
+    "id": "d_755",
+    "source": "Dissimilarities",
+    "category": "대신에",
+    "word": "instead of",
+    "meaning": "~ 대신에 (선택적 대안)",
+    "core_image": "외출하려던 신발을 벗어두고 집에서 편안히 쉬기로 선택을 바꿈",
+    "focus": "A를 하지 않고 선택을 바꾸어 B를 행하는 의사결정적 대안에 초점",
+    "examples": [
+      "I chose to stay home and read instead of going out to a noisy party"
+    ]
+  },
+  {
+    "id": "d_756",
+    "source": "Dissimilarities",
+    "category": "의사표현",
+    "word": "I would like to",
+    "meaning": "의사표현",
+    "core_image": "정중하게 고개를 숙이며 자신의 소망을 은쟁반에 담아 상대에게 공손히 건넴",
+    "focus": "상대방에게 자신의 의사나 희망을 가장 정중하고 품격 있게 전달하는 표준 표현",
+    "examples": [
+      "I would like to order a cup of coffee, please",
+      "I would like to check in, please",
+      "I would like to pay, please"
+    ]
+  },
+  {
+    "id": "d_757",
+    "source": "Dissimilarities",
+    "category": "비슷함",
+    "word": "like",
+    "meaning": "비슷함",
+    "core_image": "천사의 날개짓을 보며 그 아름다운 몸짓을 그대로 닮은 노래",
+    "focus": "전치사로 쓰여 '~처럼, ~와 같이' 대상의 닮은꼴 속성을 직관적으로 묘사",
+    "examples": [
+      "She sings like an angel"
+    ]
+  },
+  {
+    "id": "d_758",
+    "source": "Dissimilarities",
+    "category": "비슷함",
+    "word": "likewise",
+    "meaning": "비슷함",
+    "core_image": "상대방이 든 찬성 투표 깃발을 보고 나 역시 똑같이 깃발을 번쩍 듦",
+    "focus": "부사로 쓰여 '마찬가지로, 나도 그래' 하며 앞선 행동이나 의견에 완벽히 동조함",
+    "examples": [
+      "He voted for the motion, and I did likewise"
+    ]
+  },
+  {
+    "id": "d_759",
+    "source": "Dissimilarities",
+    "category": "지정하다",
+    "word": "assign",
+    "meaning": "(과업·역할을) 배정하다, 할당하다",
+    "core_image": "팀원들의 이름표 옆에 각자 책임질 프로젝트 과업을 하나씩 배정함",
+    "focus": "사람에게 과업/책임을 배정하거나 특정 좌석/사물을 할당하여 맡김",
+    "examples": [
+      "The manager assigned the task to me",
+      "Seats were assigned alphabetically in the hall"
+    ]
+  },
+  {
+    "id": "d_760",
+    "source": "Dissimilarities",
+    "category": "지정하다",
+    "word": "designate",
+    "meaning": "(공식적으로) 지정하다, 지명하다",
+    "core_image": "지도 위에 붉은 선을 긋고 '금연 구역'이라는 공식 팻말을 세움",
+    "focus": "역할, 상태, 용도, 대체공휴일 등을 법적·공식적으로 명시하고 지정 선언함",
+    "examples": [
+      "The government designated Monday as a substitute holiday",
+      "This area is designated as a non-smoking zone"
+    ]
+  },
+  {
+    "id": "d_761",
+    "source": "Dissimilarities",
+    "category": "기쁜, 만족스러운",
+    "word": "glad",
+    "meaning": "기쁜, 만족스러운",
+    "core_image": "가슴을 쓸어내리며 환하게 웃는 따뜻한 미소",
+    "focus": "안도감 및 순수한 기쁨 (좋은 일에 대한 즉각적·정서적 반응)",
+    "examples": [
+      "I'm glad you arrived safely"
+    ]
+  },
+  {
+    "id": "d_762",
+    "source": "Dissimilarities",
+    "category": "기쁜, 만족스러운",
+    "word": "pleased",
+    "meaning": "기쁜, 만족스러운",
+    "core_image": "기대치나 기준이 채워져 단정하게 짓는 품위 있는 미소",
+    "focus": "만족감과 품위 있는 평가 (기준 충족, 성과, 정중한 태도)",
+    "examples": [
+      "It's hard to please everyone",
+      "I was pleased with the result of the simulation"
+    ]
+  },
+  {
+    "id": "d_763",
+    "source": "Dissimilarities",
+    "category": "생각하다",
+    "word": "ponder",
+    "meaning": "생각하다",
+    "core_image": "무거운 추를 달고 바닥까지 가라앉아 문제를 곱씹는 생각의 무게감",
+    "focus": "진지한 고민과 판단 (결정, 의미, 철학적 사색, 미래 계획)",
+    "examples": [
+      "I found myself pondering what genuine research passion truly means"
+    ]
+  },
+  {
+    "id": "d_764",
+    "source": "Dissimilarities",
+    "category": "생각하다",
+    "word": "wonder",
+    "meaning": "알지 못하는 사실에 대한 순수한 호기심과 상상",
+    "core_image": "둥둥 떠다니는 비눗방울처럼 물음표를 띄우고 바라보는 호기심",
+    "focus": "알지 못하는 사실에 대한 순수한 호기심과 상상",
+    "examples": [
+      "I wonder what made the host leave fresh peaches on my desk"
+    ]
+  },
+  {
+    "id": "d_765",
+    "source": "Dissimilarities",
+    "category": "~전에",
+    "word": "before",
+    "meaning": "~전에",
+    "core_image": "타임라인 상에서 어떤 기준점보다 단순히 앞선 일상적 시간대",
+    "focus": "시간과 순서의 직관적 선후 관계를 나타내는 가장 보편적인 표현",
+    "examples": [
+      "Wash your hands before eating"
+    ]
+  },
+  {
+    "id": "d_766",
+    "source": "Dissimilarities",
+    "category": "~전에",
+    "word": "prior to",
+    "meaning": "~전에",
+    "core_image": "공식 비행 전 조종사가 반드시 완료해야 하는 사전 체크리스트",
+    "focus": "공식 일정, 규정, 조건에 앞서 이행되어야 하는 형식적 선행 시점 (격식체)",
+    "examples": [
+      "Prior to the meeting, all participants must review the documentation"
+    ]
+  },
+  {
+    "id": "d_767",
+    "source": "Dissimilarities",
+    "category": "수단, 방법",
+    "word": "by",
+    "meaning": "옆에, 곁에 (손 닿는 근접 반경)",
+    "core_image": "목적지에 도달하기 위해 거쳐 가는 방법이라는 길과 경로 트랙",
+    "focus": "어떻게(How) 그 결과를 이루어냈는가에 대한 행위의 방식과 매개체",
+    "examples": [
+      "We reduced our anxiety by walking through the forest",
+      "I solved the equation by applying the Fourier transform"
+    ]
+  },
+  {
+    "id": "d_768",
+    "source": "Dissimilarities",
+    "category": "수단, 방법",
+    "word": "using",
+    "meaning": "수단, 방법",
+    "core_image": "작업을 위해 서랍에서 꺼내 손에 쥐고 조작하는 특정 소프트웨어나 도구",
+    "focus": "무엇(What)을 도구로 사용했는가에 대한 구체적인 수단, 재료, 프로그램",
+    "examples": [
+      "I solved the differential equation using Python",
+      "The host cooked the dish using fresh local ingredients"
+    ]
+  },
+  {
+    "id": "d_769",
+    "source": "Dissimilarities",
+    "category": "붙다, 달라붙다",
+    "word": "attach to",
+    "meaning": "붙다, 달라붙다",
+    "core_image": "클립이나 고리로 두 대상을 깔끔하게 맞물려 연결하는 결속",
+    "focus": "분리 가능한 결속, 소속, 혹은 문서에 부착된 정갈한 연결 상태",
+    "examples": [
+      "Please see the file attached to this email",
+      "A price tag was attached to the box"
+    ]
+  },
+  {
+    "id": "d_770",
+    "source": "Dissimilarities",
+    "category": "붙다, 달라붙다",
+    "word": "stick to",
+    "meaning": "붙다, 달라붙다",
+    "core_image": "풀이나 끈적한 껌처럼 접착면이 착 달라붙어 떨어지지 않고 밀착함",
+    "focus": "쉽게 떼어낼 수 없는 물리적 밀착 및 원칙/계획을 끝까지 고수함",
+    "examples": [
+      "The rice was stuck to the bottom of the container",
+      "Chewing gum stuck to the sole of my shoe"
+    ]
+  },
+  {
+    "id": "d_771",
+    "source": "Dissimilarities",
+    "category": "찾아오다, 오다",
+    "word": "come to",
+    "meaning": "찾아오다, 오다",
+    "core_image": "목적지를 향해 날아와 의식의 중심에 꽂히는 번뜩이는 영감의 화살",
+    "focus": "아이디어나 해답이 머릿속에 번뜩 떠오르거나 직관적으로 인식되는 순간",
+    "examples": [
+      "A single word came to my mind: Curiosity",
+      "The mathematical answer suddenly came to me while walking"
+    ]
+  },
+  {
+    "id": "d_772",
+    "source": "Dissimilarities",
+    "category": "찾아오다, 오다",
+    "word": "wash over",
+    "meaning": "찾아오다, 오다",
+    "core_image": "거대한 파도가 몸 전체를 덮치고 휩쓸고 지나가듯 감정이 밀려옴",
+    "focus": "외로움, 안도감 등 강렬하고 묵직한 감정이 온몸을 압도하여 침투함",
+    "examples": [
+      "A heavy wave of loneliness washed over me",
+      "A sense of relief washed over him after the exam"
+    ]
+  },
+  {
+    "id": "d_773",
+    "source": "Dissimilarities",
+    "category": "밖으로 나가다",
+    "word": "go outside",
+    "meaning": "밖으로 나가다",
+    "core_image": "식사를 하거나 산책을 하기 위해 건물 문을 열고 실외로 이동함",
+    "focus": "야외로 나가는 구체적인 목적이나 물리적 이동 행위 그 자체",
+    "examples": [
+      "I had to go outside to eat lunch because I forgot my spoon"
+    ]
+  },
+  {
+    "id": "d_774",
+    "source": "Dissimilarities",
+    "category": "밖으로 나가다",
+    "word": "step outside",
+    "meaning": "밖으로 나가다",
+    "core_image": "문턱의 경계선을 넘어 실내 공간을 벗어나 바깥 공기를 마주하는 찰나",
+    "focus": "실내의 경계선을 벗어나 바깥 공기를 쐬는 신체 동작의 순간에 집중",
+    "examples": [
+      "When I stepped outside, it wasn't just drizzling—it was pouring",
+      "Let's step outside for some fresh air"
+    ]
+  },
+  {
+    "id": "d_775",
+    "source": "Dissimilarities",
+    "category": "그래도, 그럼에도 불구하고",
+    "word": "still",
+    "meaning": "그래도, 그럼에도 불구하고",
+    "core_image": "거센 비바람 속에서도 꿋꿋이 서 있는 바위처럼 굴하지 않는 결연함",
+    "focus": "강한 역경과 대비하여 그럼에도 굴하지 않고 결연하게 행위를 강행함을 강조",
+    "examples": [
+      "It was pouring down. Still, I ran through the rain to get away from the office"
+    ]
+  },
+  {
+    "id": "d_776",
+    "source": "Dissimilarities",
+    "category": "그래도, 그럼에도 불구하고",
+    "word": "though",
+    "meaning": "그래도, 그럼에도 불구하고",
+    "core_image": "앞선 사실을 툭 인정하고 나서 문장 끝에서 가볍게 단서를 달아 꺾어줌",
+    "focus": "비록 앞선 내용이 사실이지만 그래도 이것 또한 맞다며 문장 끝에서 쿨하게 단서를 덧붙임",
+    "examples": [
+      "The rent is high in Geneva. I love the quiet neighborhood, though"
+    ]
+  },
+  {
+    "id": "d_777",
+    "source": "Dissimilarities",
+    "category": "인것 처럼, 마치 ~듯이",
+    "word": "like",
+    "meaning": "인것 처럼, 마치 ~듯이",
+    "core_image": "말하듯 툭 던지는 일상적이고 직관적인 관찰과 인상",
+    "focus": "겉보기에 느껴지는 직관적인 모양새나 인상을 가볍게 표현",
+    "examples": [
+      "It feels like my English has improved significantly"
+    ]
+  },
+  {
+    "id": "d_778",
+    "source": "Dissimilarities",
+    "category": "인것 처럼, 마치 ~듯이",
+    "word": "as if",
+    "meaning": "인것 처럼, 마치 ~듯이",
+    "core_image": "머릿속으로 상상해 보는 생생한 가상 시나리오의 영화 장면",
+    "focus": "실제와 다른 가상의 상황을 눈앞에 보듯 생생하게 묘사함",
+    "examples": [
+      "He acts as if he knew everything",
+      "He talks as if he were the boss of the lab"
+    ]
+  },
+  {
+    "id": "d_779",
+    "source": "Dissimilarities",
+    "category": "인것 처럼, 마치 ~듯이",
+    "word": "as though",
+    "meaning": "인것 처럼, 마치 ~듯이",
+    "core_image": "정제된 문학적 언어로 풀어낸 은은하고 깊이 있는 비유",
+    "focus": "한 걸음 물러서서 바라보는 차분하고 품격 있는 비유적 뉘앙스",
+    "examples": [
+      "It looks as though the system is working properly",
+      "He spoke as though he owned the entire lab",
+      "The old house stood silent, as though waiting for its owners to return"
+    ]
+  },
+  {
+    "id": "d_780",
+    "source": "Dissimilarities",
+    "category": "부정적 감정",
+    "word": "depress",
+    "meaning": "부정적 감정",
+    "core_image": "높이 있던 에너지를 물리적으로 꾹 눌러 바닥으로 내려앉히는 느낌",
+    "focus": "특정 행동 여부와 상관없이, 사람의 기분·활력·수치가 물리적으로 무거운 짐에 짓눌려 밑바닥으로 침하하는 상태",
+    "examples": [
+      "Gloomy and rainy weather always depresses my mood"
+    ]
+  },
+  {
+    "id": "d_781",
+    "source": "Dissimilarities",
+    "category": "부정적 감정",
+    "word": "discourage",
+    "meaning": "부정적 감정",
+    "core_image": "앞으로 나아가려는 발걸음을 멈춰 세우는 벽",
+    "focus": "어떤 일이나 목표를 향해 달려가려 할 때, 앞을 가로막고 의욕의 브레이크를 밟아 포기하게 만드는 힘",
+    "examples": [
+      "Whenever I feel discouraged like this, I tend to avoid spaces where I have to interact with others"
+    ]
+  },
+  {
+    "id": "d_782",
+    "source": "Dissimilarities",
+    "category": "향상되다",
+    "word": "improve",
+    "meaning": "향상되다",
+    "core_image": "사포질이나 조율을 통해 품질을 높이는 선형적 상승",
+    "focus": "과정 및 상태 변화 (더 나은 효율, 결점 보완, 완성도)",
+    "examples": [
+      "We need to improve the algorithm to reduce latency"
+    ]
+  },
+  {
+    "id": "d_783",
+    "source": "Dissimilarities",
+    "category": "향상되다",
+    "word": "level up",
+    "meaning": "향상되다",
+    "core_image": "게임에서 경험치가 차올라 다음 층계로 점프하는 단절적 도약",
+    "focus": "새로운 단계 진입 (체급 상승, 새로운 권한, 역량 획득)",
+    "examples": [
+      "Securing this contract will help our startup level up"
+    ]
+  },
+  {
+    "id": "d_784",
+    "source": "Dissimilarities",
+    "category": "의지",
+    "word": "resolve",
+    "meaning": "의지",
+    "core_image": "복잡한 갈등이나 고민 끝에 단단하게 매듭을 짓고 확정한 결심",
+    "focus": "목표에 대한 확고한 결단력 및 꺾이지 않는 마음. 특히 역경이나 유혹 앞에서도 \"이 길을 가겠다고\"고 굳게 정한 상태에 초점이 있음",
+    "examples": []
+  },
+  {
+    "id": "d_785",
+    "source": "Dissimilarities",
+    "category": "의지",
+    "word": "will",
+    "meaning": "의지",
+    "core_image": "마음속 깊은 곳에서 무언가를 이루거나 통제하려는 원초적인 의지의 불꽃/에너지",
+    "focus": "내면의 의지력, 욕망의 힘, 자기 통제력. 무언가를 행동으로 밀어붙이거나 유혹을 참아내는 전반적인 정신력",
+    "examples": []
+  },
+  {
+    "id": "o_786",
+    "source": "Words Organized",
+    "category": "문명 > 측정 및 과학",
+    "word": "scale",
+    "meaning": "저울, 규모",
+    "core_image": "양쪽 접시의 무게를 달아 수평을 맞추거나 눈금을 읽는 측정기",
+    "focus": "무게를 재는 물리적 저울 혹은 크기나 범위를 나타내는 척도/규모",
+    "examples": [
+      "Step on the scale to check your weight"
+    ]
+  },
+  {
+    "id": "o_787",
+    "source": "Words Organized",
+    "category": "문명 > 측정 및 과학",
+    "word": "anthropomorphic measurements",
+    "meaning": "인체 계측",
+    "core_image": "사람 몸의 관절 각도, 팔다리 길이, 체형 비율을 정밀하게 줄자로 측정하는 모습",
+    "focus": "인간 신체의 물리적 치수와 역학적 특성을 수치화하여 보조 기기나 장비 설계에 적용함",
+    "examples": [
+      "We attribute the slightly higher Median Absolute Error in clinical populations to assistive devices such as canes, walkers, ankle foot orthoses"
+    ]
+  },
+  {
+    "id": "o_788",
+    "source": "Words Organized",
+    "category": "문명 > 측정 및 과학",
+    "word": "setpoint",
+    "meaning": "설정값, 기준치",
+    "core_image": "온도 조절기나 기계의 제어반에서 시스템이 유지해야 할 목표 수치에 고정된 바늘",
+    "focus": "생체 항상성(체온, 체중)이나 제어 시스템이 기본적으로 유지하려는 불변의 기준 목표값",
+    "examples": [
+      "The body tends to return to its biological setpoint"
+    ]
+  },
+  {
+    "id": "o_789",
+    "source": "Words Organized",
+    "category": "문명 > 통신 및 IT",
+    "word": "data plan",
+    "meaning": "데이터 요금제",
+    "core_image": "매달 스마트폰에 할당된 기가바이트(GB) 데이터 잔여량을 보여주는 게이지",
+    "focus": "통신사에서 가입하여 매월 일정량의 무선 인터넷을 사용할 수 있는 구독 상품",
+    "examples": [
+      "I had to upgrade my data plan because I stream videos daily"
+    ]
+  },
+  {
+    "id": "o_790",
+    "source": "Words Organized",
+    "category": "문명 > 통신 및 IT",
+    "word": "unplug",
+    "meaning": "플러그를 뽑다, 디지털 디톡스를 하다",
+    "core_image": "콘센트에 꽂혀 있던 전원 플러그를 손으로 쑥 뽑아 기기와의 연결을 끊는 동작",
+    "focus": "전자제품의 전원을 물리적으로 차단하거나 전자기기·업무로부터 벗어나 휴식을 취함",
+    "examples": [
+      "I decided to unplug over the weekend to clear my mind"
+    ]
+  },
+  {
+    "id": "o_791",
+    "source": "Words Organized",
+    "category": "문명 > 인쇄 및 출판",
+    "word": "typeset",
+    "meaning": "조판하다, 식자하다",
+    "core_image": "인쇄판 위에 금속 활자 조각들을 한 글자씩 정교하게 배열하여 책의 판면을 짜는 작업",
+    "focus": "원고의 텍스트와 레이아웃을 인쇄 가능한 형태로 글자 간격과 줄을 맞추어 배열함",
+    "examples": [
+      "The publisher carefully typeset the manuscript before printing"
+    ]
+  },
+  {
+    "id": "o_792",
+    "source": "Words Organized",
+    "category": "문명 > 제조 및 기술",
+    "word": "weave",
+    "meaning": "(실을) 짜다, 직조하다, 엮어내다",
+    "core_image": "베틀 위에서 날실과 씨실이 교차하며 하나의 튼튼한 천을 완성해 나가는 손동작",
+    "focus": "실이나 섬유를 엮어 직물을 만들거나 여러 이야기/아이디어를 하나로 엮어 구성함",
+    "examples": [
+      "The artisan weaves complex patterns into traditional cloth"
+    ]
+  },
+  {
+    "id": "o_793",
+    "source": "Words Organized",
+    "category": "문명 > 제조 및 기술",
+    "word": "fortification",
+    "meaning": "요새화, 강화",
+    "core_image": "성벽 주위에 단단한 석벽을 덧대고 해자를 파서 적의 공격을 막아내는 방어벽",
+    "focus": "군사적 방어력을 높이거나 물질/식품의 영양 성분 및 구조적 강도를 보강함",
+    "examples": [
+      "The ancient city invested heavily in the fortification of its walls"
+    ]
+  },
+  {
+    "id": "o_794",
+    "source": "Words Organized",
+    "category": "문명 > 정치 및 외교",
+    "word": "ambassador",
+    "meaning": "대사",
+    "core_image": "자국 대통령의 친서를 품에 안고 외국 정부와 공식 회담을 진행하는 외교 사절",
+    "focus": "국가를 대표하여 타국에 파견되어 외교 임무를 수행하는 최고위 외교관 또는 브랜드 홍보대사",
+    "examples": [
+      "The ambassador presented credentials to the host government"
+    ]
+  },
+  {
+    "id": "o_795",
+    "source": "Words Organized",
+    "category": "문명 > 이미지",
+    "word": "retouch",
+    "meaning": "(사진 등을) 보정하다, 수정하다",
+    "core_image": "붓이나 디지털 툴로 사진의 잡티나 색감을 미세하게 덧칠해 다듬는 작업",
+    "focus": "원본의 훼손 없이 세부 결점을 감추고 시각적 완성도를 높이기 위해 가볍게 손질함",
+    "examples": [
+      "She spent hours retouching the portrait to remove minor blemishes"
+    ]
+  },
+  {
+    "id": "o_796",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "be hospitalized",
+    "meaning": "입원하다 (입원해 있는 상태)",
+    "core_image": "병원 침대에 환자복을 입고 누워 링거를 맞으며 치료받고 있는 상태",
+    "focus": "치료나 수술을 위해 병실에 머무르고 있는 상태 자체에 초점",
+    "examples": [
+      "He was hospitalized for three weeks following the accident"
+    ]
+  },
+  {
+    "id": "o_797",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "get hospitalized",
+    "meaning": "입원하게 되다 (입원하는 동작/사건)",
+    "core_image": "구급차를 타고 병원 응급실에 도착해 입원 수속을 밟는 전환의 순간",
+    "focus": "건강 악화나 사고로 인해 병원에 들어가 입원하게 되는 사건의 발생",
+    "examples": [
+      "She got hospitalized suddenly after experiencing severe abdominal pain"
+    ]
+  },
+  {
+    "id": "o_798",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "leave the hospital",
+    "meaning": "퇴원하다",
+    "core_image": "완치 판정을 받고 짐을 챙겨 병원 정문 문을 열고 밖으로 걸어 나가는 모습",
+    "focus": "입원 치료를 끝마치고 일상 공간으로 복귀하기 위해 병원을 나섬",
+    "examples": [
+      "The doctor said I could leave the hospital tomorrow morning"
+    ]
+  },
+  {
+    "id": "o_799",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "the ward",
+    "meaning": "병실, 병동",
+    "core_image": "여러 개의 환자 침대와 커튼, 의료 모니터가 정렬된 병원 내부의 구획 공간",
+    "focus": "특정 질환군 환자들을 수용하여 집중 관리하는 병원 내 전용 구역",
+    "examples": [
+      "The patient was moved from the intensive care unit to the general ward"
+    ]
+  },
+  {
+    "id": "o_800",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "preoperative",
+    "meaning": "수술 전의",
+    "core_image": "수술실로 들어가기 전 환자의 혈압을 재고 금식 상태를 확인하는 체크리스트",
+    "focus": "수술을 집도하기 직전에 이루어지는 준비, 검사 및 관리 단계",
+    "examples": [
+      "Preoperative assessments are crucial to ensure patient safety under anesthesia"
+    ]
+  },
+  {
+    "id": "o_801",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "nursing home",
+    "meaning": "요양원",
+    "core_image": "간호사와 요양보호사의 보살핌을 받으며 휠체어를 타고 정원을 거니는 어르신들의 공간",
+    "focus": "고령이나 만성 질환으로 지속적인 간호와 돌봄이 필요한 사람들을 위한 장기 수용 시설",
+    "examples": [
+      "His grandfather is living peacefully in a specialized nursing home"
+    ]
+  },
+  {
+    "id": "o_802",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "give me injection",
+    "meaning": "나에게 주사를 놓다",
+    "core_image": "간호사가 주사기 바늘을 소독된 팔 피부에 찔러 약물을 주입하는 동작",
+    "focus": "의료진이 환자에게 약물을 직접 주사하는 시술 행위",
+    "examples": [
+      "The nurse gave me an injection to relieve the acute pain"
+    ]
+  },
+  {
+    "id": "o_803",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "get a shot",
+    "meaning": "주사를 맞다",
+    "core_image": "소매를 걷어붙이고 따끔한 주삿바늘을 견디며 백신이나 치료제를 투여받는 경험",
+    "focus": "환자의 입장에서 주사나 예방접종을 수동적으로 맞는 경험",
+    "examples": [
+      "I had to get a shot before traveling to the tropical region"
+    ]
+  },
+  {
+    "id": "o_804",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "daycare",
+    "meaning": "어린이집, 주간 보호 센터",
+    "core_image": "부모가 출근한 낮 시간 동안 아이들이 장난감을 가지고 놀며 보육교사의 돌봄을 받는 공간",
+    "focus": "낮 동안 영유아나 노인을 맡아 안전하게 돌봐주는 주간 보호 시설",
+    "examples": [
+      "She drops her toddler off at daycare every weekday morning"
+    ]
+  },
+  {
+    "id": "o_805",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "get examined",
+    "meaning": "진찰받다",
+    "core_image": "청진기를 가슴에 대고 의사의 질문에 답하며 신체 상태를 점검받는 장면",
+    "focus": "의사에게 전문적인 의학적 진단과 검사를 의뢰하여 몸 상태를 체크받음",
+    "examples": [
+      "I always go to see a doctor and get examined when symptoms persist"
+    ]
+  },
+  {
+    "id": "o_806",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "sleep walking",
+    "meaning": "몽유병",
+    "core_image": "깊은 잠에 빠진 상태에서 눈을 뜨고 멍하니 거실을 서성이는 사람의 모습",
+    "focus": "수면 중에 무의식적으로 일어나 걷거나 복잡한 행동을 하는 수면 장애",
+    "examples": [
+      "Stress and irregular schedules can sometimes trigger sleep walking episodes"
+    ]
+  },
+  {
+    "id": "o_807",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "neat freak",
+    "meaning": "결벽증 환자, 깔끔을 지나치게 떠는 사람",
+    "core_image": "책상 위의 먼지 한 톨도 참지 못하고 소독 티슈로 쉴 새 없이 닦아내는 모습",
+    "focus": "정리정돈과 위생에 극도로 집착하여 조금의 흐트러짐도 용납하지 못하는 성향의 사람",
+    "examples": [
+      "My roommate is a neat freak who vacuums the floor twice a day"
+    ]
+  },
+  {
+    "id": "o_808",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "disease",
+    "meaning": "질환, 질병",
+    "core_image": "인체 조직이나 기관이 병원체나 구조적 결함으로 인해 정상 기능을 잃고 병든 상태",
+    "focus": "명확한 생물학적·병리학적 원인과 증상을 가진 공식적인 질병",
+    "examples": [
+      "Lifestyle modifications can reduce the risk of cardiovascular disease"
+    ]
+  },
+  {
+    "id": "o_809",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "infectious",
+    "meaning": "전염성의, 전파되는",
+    "core_image": "한 사람의 재채기 비말이 공기를 타고 옆 사람에게 닿아 감염을 일으키는 확산",
+    "focus": "병원체가 다른 사람에게 쉽게 옮겨가거나 하품·웃음·열정 등이 주변으로 빠르게 번져나감",
+    "examples": [
+      "The clinic separated patients with infectious respiratory illnesses"
+    ]
+  },
+  {
+    "id": "o_810",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "regular health checkup",
+    "meaning": "정기 건강 검진",
+    "core_image": "매년 정해진 날짜에 병원에 방문하여 혈액검사, X-ray, 내시경 등을 순서대로 받는 종합 검사표",
+    "focus": "조기 질병 발견과 예방을 위해 주기적으로 받는 전반적인 신체 건강 검사",
+    "examples": [
+      "Adults over forty are strongly advised to undergo a regular health checkup"
+    ]
+  },
+  {
+    "id": "o_811",
+    "source": "Words Organized",
+    "category": "문명 > 병원 및 의료",
+    "word": "dietetics",
+    "meaning": "영양학, 식이요법학",
+    "core_image": "영양사가 식품별 칼로리와 비타민 함량을 계산하여 맞춤 식단을 구성하는 연구 테이블",
+    "focus": "건강 증진과 질병 예방을 위해 음식의 영양소와 식이 패턴을 과학적으로 연구하는 학문",
+    "examples": [
+      "Clinical dietetics plays an essential role in managing chronic metabolic conditions"
+    ]
+  },
+  {
+    "id": "o_812",
+    "source": "Words Organized",
+    "category": "시간 > 빈도",
+    "word": "on end",
+    "meaning": "(중단 없이) 계속해서, 연달아",
+    "core_image": "도미노 블록들이 쉼 없이 꼬리를 물고 이어지며 끝없이 지속되는 시계열",
+    "focus": "시간의 공백이나 중단 없이 몇 시간 혹은 며칠 동안 연속적으로 이어짐",
+    "examples": [
+      "I've been in and out of there for hours every day on end"
+    ]
+  },
+  {
+    "id": "o_813",
+    "source": "Words Organized",
+    "category": "시간 > 빈도",
+    "word": "every once in a while",
+    "meaning": "가끔, 이따금씩",
+    "core_image": "빽빽한 일상 달력 사이사이에 어쩌다 하나씩 찍혀 있는 동그라미",
+    "focus": "규칙적이지는 않지만 드물게 한 번씩 발생하는 빈도",
+    "examples": [
+      "Every once in a while, I treat myself to a fine dining experience"
+    ]
+  },
+  {
+    "id": "o_814",
+    "source": "Words Organized",
+    "category": "시간 > 날짜",
+    "word": "week",
+    "meaning": "일주일",
+    "core_image": "달력의 월요일부터 일요일까지 7개 칸이 하나로 묶인 시간 블록",
+    "focus": "월요일부터 일요일까지 7일 전체를 통틀어 지칭하는 기본 시간 단위",
+    "examples": [
+      "I need a full week to complete this data analysis"
+    ]
+  },
+  {
+    "id": "o_815",
+    "source": "Words Organized",
+    "category": "시간 > 날짜",
+    "word": "weekday",
+    "meaning": "평일",
+    "core_image": "월요일부터 금요일까지 지하철을 타고 출퇴근하는 일상의 5일",
+    "focus": "주말(토/일)과 구별되는 업무 및 학업이 이루어지는 월~금 요일",
+    "examples": [
+      "The museum is open on weekdays, but closed on weekends"
+    ]
+  },
+  {
+    "id": "o_816",
+    "source": "Words Organized",
+    "category": "시간 > 날짜",
+    "word": "every other day",
+    "meaning": "이틀에 한번, 격일로",
+    "core_image": "체크리스트에서 하루 건너 하루씩 번갈아가며 표시되는 리듬",
+    "focus": "하루를 건너뛰고 다음 날마다 반복되는 격일 주기",
+    "examples": [
+      "I have been eating hamburgers every other day, so I always crave them"
+    ]
+  },
+  {
+    "id": "o_817",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "all the way",
+    "meaning": "끝까지, 내내, 멀리서부터",
+    "core_image": "출발선에서부터 종착역까지 단 한 번도 내리지 않고 선로 끝까지 쭉 달려가는 열차",
+    "focus": "공간적·시간적 여정의 처음부터 맨 끝까지 완전히 관통하거나 먼 거리를 이동함",
+    "examples": [
+      "I fell asleep on the subway this morning and went all the way to the last station",
+      "I came all the way to Switzerland to do this"
+    ]
+  },
+  {
+    "id": "o_818",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "on the way",
+    "meaning": "중간에, 가는 길에, 오는 길에",
+    "core_image": "목적지로 걸어가는 길목 중간에 잠시 멈춰 서서 우산을 펴는 순간",
+    "focus": "출발지와 목적지 사이의 이동 경로 상에서 일어나는 일",
+    "examples": [
+      "I opened my umbrella on the way to the station"
+    ]
+  },
+  {
+    "id": "o_819",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "For a little while now",
+    "meaning": "얼마 전부터 지금까지, 요 얼마 동안",
+    "core_image": "과거의 어느 시점부터 현재까지 끈처럼 잔잔하게 이어져 내려오는 생각의 선",
+    "focus": "그리 멀지 않은 과거부터 시작되어 현재까지 지속되고 있는 기간",
+    "examples": [
+      "I've been thinking about this for a little while now"
+    ]
+  },
+  {
+    "id": "o_820",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "not long ago",
+    "meaning": "얼마 전에, 최근에",
+    "core_image": "달력에서 오늘 날짜 바로 며칠 전 칸을 손가락으로 가리키는 모습",
+    "focus": "현재 시점에서 매우 가까운 과거의 시점",
+    "examples": [
+      "Since I had just submitted one not long ago, a wave of frustration hit me, and I absolutely dreaded doing it again"
+    ]
+  },
+  {
+    "id": "o_821",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "In the midst of",
+    "meaning": "그러던 중, ~의 한가운데에",
+    "core_image": "폭풍우나 복잡한 사건들이 사방에서 휘몰아치는 중심부에 서 있는 모습",
+    "focus": "어떤 복잡한 일이나 분주한 사건이 한창 진행되고 있는 도중",
+    "examples": [
+      "In the midst of all this, my funding body requested an interim progress report to decide whether or not to continue supporting me."
+    ]
+  },
+  {
+    "id": "o_822",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "in time",
+    "meaning": "시간 속에서, 시간이 지나면서, 때맞춰",
+    "core_image": "시곗바늘이 천천히 흘러가며 사건의 인과관계가 자연스럽게 풀려나가는 흐름",
+    "focus": "시간의 경과에 따라 점진적으로 변화가 일어나거나 마감에 늦지 않게 도달함",
+    "examples": [
+      "As we examined the interaction backwards in time, suddenly she realized when the change had come about"
+    ]
+  },
+  {
+    "id": "o_823",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "perpetually",
+    "meaning": "영구히, 끊임없이",
+    "core_image": "멈추지 않고 영원히 회전하는 무한대(∞) 궤도의 톱니바퀴",
+    "focus": "끝이나 휴식 없이 영원히 같은 상태가 지속되는 양상",
+    "examples": [
+      "She described her life as perpetually frantic"
+    ]
+  },
+  {
+    "id": "o_824",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "indefinitely",
+    "meaning": "무기한으로",
+    "core_image": "마감 기한이 적히지 않은 채 열려 있는 달력의 빈 페이지",
+    "focus": "정해진 종료 시점 없이 계속해서 유지되거나 연기되는 상태",
+    "examples": [
+      "This kind of dry bread can be kept indefinitely"
+    ]
+  },
+  {
+    "id": "o_825",
+    "source": "Words Organized",
+    "category": "시간 > 기간 및 흐름",
+    "word": "end up ~ing",
+    "meaning": "결국 ~하게 되다, ~라는 결과로 끝나다",
+    "core_image": "여러 갈래 길을 헤매다 의도치 않았던 막다른 골목에 마침내 도착하는 모습",
+    "focus": "의도나 계획과 달리 여러 과정을 거쳐 최종적인 결과나 상태에 도달함",
+    "examples": [
+      "Especially during lunch, if only one person talks the whole time, that person eats too slowly and ends up being rushed for time"
+    ]
+  },
+  {
+    "id": "o_826",
+    "source": "Words Organized",
+    "category": "시간 > 공간적",
+    "word": "in the afternoon",
+    "meaning": "오후에",
+    "core_image": "정오의 태양이 머리 위를 지나 비스듬히 서쪽으로 기울기 시작하는 시간대",
+    "focus": "정오(낮 12시)부터 일몰 전까지의 낮 시간대",
+    "examples": [
+      "I prefer reading research papers in the afternoon"
+    ]
+  },
+  {
+    "id": "o_827",
+    "source": "Words Organized",
+    "category": "시간 > 시점 (순간)",
+    "word": "half an hour",
+    "meaning": "30분, 반 시간",
+    "core_image": "시계판의 분침이 정확히 12에서 6까지 원의 절반을 그리는 구간",
+    "focus": "1시간의 절반에 해당하는 30분의 시간 길이",
+    "examples": [
+      "The meeting lasted for half an hour"
+    ]
+  },
+  {
+    "id": "o_828",
+    "source": "Words Organized",
+    "category": "시간 > 시점 (순간)",
+    "word": "at the last minute",
+    "meaning": "마지막 순간에, 막판에",
+    "core_image": "시한폭탄의 타이머가 00:01을 가리키는 찰나에 가까스로 버튼을 누르는 순간",
+    "focus": "어떤 기한이나 마감 직전의 가장 긴박한 마지막 순간",
+    "examples": [
+      "He submitted the application at the last minute"
+    ]
+  },
+  {
+    "id": "o_829",
+    "source": "Words Organized",
+    "category": "시간 > 시점 (순간)",
+    "word": "At the turn of",
+    "meaning": "~의 전환기에, ~로 넘어가는 시점에",
+    "core_image": "책장을 다음 세기나 시대로 완전히 넘기는 경계선의 순간",
+    "focus": "한 세기, 시대, 계절이 끝나고 새로운 시대로 진입하는 역사적·시간적 분기점",
+    "examples": [
+      "At the turn of the chalcolithic period, metal tools revolutionized agriculture"
+    ]
+  },
+  {
+    "id": "o_830",
+    "source": "Words Organized",
+    "category": "음식 > 식사 및 외식",
+    "word": "go bad",
+    "meaning": "(음식이) 상하다, 부패하다",
+    "core_image": "신선했던 우유나 고기가 시큼한 냄새를 풍기며 변질되어 썩는 모습",
+    "focus": "음식물이 부패하여 더 이상 먹을 수 없게 변질된 상태",
+    "examples": [
+      "The milk has gone bad, so please pour it out"
+    ]
+  },
+  {
+    "id": "o_831",
+    "source": "Words Organized",
+    "category": "음식 > 식사 및 외식",
+    "word": "eat out",
+    "meaning": "외식하다",
+    "core_image": "집 부엌을 벗어나 식당 테이블에 앉아 메뉴판을 보고 주문하는 장면",
+    "focus": "집에서 음식을 요리하지 않고 외부 식당에서 식사를 사 먹는 행위",
+    "examples": [
+      "I don't like to eat out when I can cook fresh meals at home"
+    ]
+  },
+  {
+    "id": "o_832",
+    "source": "Words Organized",
+    "category": "음식 > 식사 및 외식",
+    "word": "gastronomy",
+    "meaning": "미식, 식도락",
+    "core_image": "최고급 레스토랑에서 셰프가 정교하게 플레이팅한 예술적인 요리 작품",
+    "focus": "음식의 맛, 요리 문화, 조리 기술 전반을 학문적·예술적으로 탐구하고 즐김",
+    "examples": [
+      "French gastronomy is celebrated worldwide for its elegance and tradition"
+    ]
+  },
+  {
+    "id": "o_833",
+    "source": "Words Organized",
+    "category": "음식 > 식사 및 외식",
+    "word": "savor",
+    "meaning": "(맛·풍미를) 음미하다, 즐기다, 만끽하다",
+    "core_image": "와인이나 치즈를 입안에 넣고 혀 전체로 굴리며 깊은 향과 맛을 천천히 느끼는 표정",
+    "focus": "서두르지 않고 대상의 깊은 맛, 멋, 혹은 기쁨의 순간을 온전히 만끽함",
+    "examples": [
+      "I savored the rich flavor of artisanal cheese"
+    ]
+  },
+  {
+    "id": "o_834",
+    "source": "Words Organized",
+    "category": "음식 > 요리 및 음식 종류",
+    "word": "gnocchi",
+    "meaning": "뇨끼 (이탈리아식 감자 파스타)",
+    "core_image": "으깬 감자와 밀가루를 반죽해 한 입 크기로 포크 자국을 내어 삶아낸 쫄깃한 파스타",
+    "focus": "이탈리아 전통 요리로 쫀득한 식감과 소스의 조화가 특징인 감자 덤플링 요리",
+    "examples": [
+      "We ordered handmade potato gnocchi with creamy truffle sauce"
+    ]
+  },
+  {
+    "id": "o_835",
+    "source": "Words Organized",
+    "category": "음식 > 요리 및 음식 종류",
+    "word": "fillet",
+    "meaning": "안심 (살코기 부위), 필레",
+    "core_image": "뼈와 지방을 깔끔하게 발라낸 가장 부드럽고 연한 붉은빛 살코기 덩어리",
+    "focus": "생선이나 육류에서 뼈를 제거한 최고급 부위의 연한 순살 부위",
+    "examples": [
+      "The chef pan-seared a tender beef fillet to medium-rare perfection"
+    ]
+  },
+  {
+    "id": "o_836",
+    "source": "Words Organized",
+    "category": "음식 > 요리 및 음식 종류",
+    "word": "loaf",
+    "meaning": "(자르지 않은 빵의) 덩어리",
+    "core_image": "갓 구워져 나온 둥글고 두툼한 식빵 한 덩어리를 도마 위에 올려둔 모습",
+    "focus": "슬라이스하지 않은 빵이나 고기 등의 크고 정형화된 하나의 덩어리 단위",
+    "examples": [
+      "He bought a fresh loaf of sourdough bread from the local bakery"
+    ]
+  },
+  {
+    "id": "o_837",
+    "source": "Words Organized",
+    "category": "음식 > 요리 및 음식 종류",
+    "word": "confection",
+    "meaning": "당과 제품, 과자류",
+    "core_image": "설탕, 꿀, 초콜릿을 정교하게 반죽해 유리 진열장에 아기자기하게 진열한 디저트",
+    "focus": "당분을 주재료로 하여 정성스럽게 만들어낸 고급 과자나 사탕류 제품",
+    "examples": [
+      "The pastry shop offers an exquisite selection of sweet confections"
+    ]
+  },
+  {
+    "id": "o_838",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "seafood",
+    "meaning": "해산물",
+    "core_image": "바다에서 갓 건져 올린 생선, 조개, 새우, 게가 얼음 위에 수북이 쌓인 모습",
+    "focus": "바다나 강에서 채취한 식용 가능한 모든 수산물",
+    "examples": [
+      "Fresh seafood is the cornerstone of Mediterranean cuisine"
+    ]
+  },
+  {
+    "id": "o_839",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "game bird",
+    "meaning": "사냥용 조류 (꿩, 오리 등)",
+    "core_image": "사냥철 숲과 습지에서 사냥꾼이 잡아 올려 만찬용으로 손질하는 야생 조류",
+    "focus": "가축 사육이 아닌 야생에서 사냥하여 식용으로 삼는 꿩, 자고새, 야생오리 등의 조류",
+    "examples": [
+      "Every year in December the Doge presented five game birds to each member of his Grand Council, which shows how they were prized"
+    ]
+  },
+  {
+    "id": "o_840",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "courgette",
+    "meaning": "애호박, 주키니",
+    "core_image": "짙은 초록빛을 띠며 매끄럽고 길쭉하게 자라난 유럽식 애호박",
+    "focus": "서양 요리에서 파스타, 구이, 수프 재료로 널리 쓰이는 주키니 호박",
+    "examples": [
+      "Slice the courgette thinly and sauté it with olive oil and garlic"
+    ]
+  },
+  {
+    "id": "o_841",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "castraure",
+    "meaning": "베니스의 아기 아티초크",
+    "core_image": "베네치아 석호 섬에서 봄철 첫 수확한 손바닥 크기의 연하고 보랏빛 어린 아티초크",
+    "focus": "연하고 떫은맛 없이 생으로도 먹을 수 있는 베네치아의 최고급 특산 아티초크 순",
+    "examples": [
+      "Castraure are prized in Venice for their delicate bitterness and crisp texture"
+    ]
+  },
+  {
+    "id": "o_842",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "clove",
+    "meaning": "(마늘 등의) 쪽, 개별 조각",
+    "core_image": "통마늘 껍질을 벗겼을 때 쪼개져 나오는 초승달 모양의 개별 조각",
+    "focus": "마늘이나 향신료 등 하나의 덩어리에서 분리되는 낱개의 낱알/쪽",
+    "examples": [
+      "Crush a single clove of garlic to infuse the olive oil"
+    ]
+  },
+  {
+    "id": "o_843",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "shredded",
+    "meaning": "잘게 찢긴, 채 썬",
+    "core_image": "치즈 강판이나 칼로 가늘고 길쭉하게 잘게 갈아낸 치즈나 양배추 조각들",
+    "focus": "덩어리진 식재료를 가늘고 얇은 줄기 형태로 갈거나 찢어놓은 형태",
+    "examples": [
+      "Sprinkle shredded Parmesan cheese generously over the warm pasta"
+    ]
+  },
+  {
+    "id": "o_844",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "grain",
+    "meaning": "(고기나 나무의) 결, 곡물 낱알",
+    "core_image": "스테이크 고기 단면에 평행하게 뻗어 있는 근육 섬유의 결 방향",
+    "focus": "고기나 목재의 결 조직(결 반대 방향으로 썰어야 부드러움) 또는 곡식의 낱알",
+    "examples": [
+      "Always cut the beef across the grain to ensure tenderness"
+    ]
+  },
+  {
+    "id": "o_845",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "hop plant",
+    "meaning": "홉 (맥주 원료 식물)",
+    "core_image": "줄기를 타고 높이 올라가며 연둣빛 솔방울 모양의 열매를 주렁주렁 매단 덩굴 식물",
+    "focus": "맥주에 특유의 향긋한 쓴맛미와 방부 효과를 부여하는 삼과의 여러해살이 작물",
+    "examples": [
+      "The unique aroma of craft beer comes from carefully selected hop plants"
+    ]
+  },
+  {
+    "id": "o_846",
+    "source": "Words Organized",
+    "category": "음식 > 식재료 및 농작물",
+    "word": "nutritive",
+    "meaning": "영양을 제공하는, 영양가 있는",
+    "core_image": "비타민과 미네랄이 풍부한 신선한 채소와 곡물이 몸속 세포를 채우는 모습",
+    "focus": "신체의 성장과 건강 유지에 필수적인 영양분을 공급하는 성질",
+    "examples": [
+      "Whole grains have high nutritive value compared to refined flour"
+    ]
+  },
+  {
+    "id": "o_847",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "bottled water",
+    "meaning": "생수 (병에 든 물)",
+    "core_image": "플라스틱 페트병이나 유리병에 밀봉되어 판매되는 투명하고 깨끗한 광천수",
+    "focus": "수도관이 아닌 공장에서 병에 담겨 유통되는 위생적인 식수",
+    "examples": [
+      "I always carry a bottle of mineral water during long flights"
+    ]
+  },
+  {
+    "id": "o_848",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "tap water",
+    "meaning": "수돗물",
+    "core_image": "주방 싱크대 수도꼭지를 틀었을 때 콸콸 쏟아져 나오는 맑은 물",
+    "focus": "상수도 배관을 통해 가정으로 공급되는 일반 수돗물",
+    "examples": [
+      "Tap water is safe to drink directly in many European cities"
+    ]
+  },
+  {
+    "id": "o_849",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "grab a drink",
+    "meaning": "가볍게 음료/술 한잔 마시다",
+    "core_image": "퇴근길에 친구와 바 테이블에 마주 앉아 가볍게 맥주나 커피 잔을 부딪치는 모습",
+    "focus": "격식 차리지 않고 캐주얼하게 커피나 술을 마시며 담소를 나누러 감",
+    "examples": [
+      "Let's grab a drink after this meeting to catch up"
+    ]
+  },
+  {
+    "id": "o_850",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "coffee bean",
+    "meaning": "원두 (커피 콩)",
+    "core_image": "로스팅기를 거쳐 짙은 갈색으로 반짝이며 고소한 오일을 머금은 볶은 커피 콩",
+    "focus": "분쇄하여 에스프레소나 드립 커피를 추출하기 전의 원료 콩",
+    "examples": [
+      "Freshly roasted coffee beans produce the richest crema and aroma"
+    ]
+  },
+  {
+    "id": "o_851",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "caffeinated",
+    "meaning": "카페인이 함유된",
+    "core_image": "한 모금 마시면 뇌 속 신경이 번쩍 깨어나며 졸음이 달아나는 에너지",
+    "focus": "중추신경을 자극하는 카페인 성분이 포함되어 각성 효과를 주는 상태",
+    "examples": [
+      "I avoid caffeinated beverages late in the evening to sleep well"
+    ]
+  },
+  {
+    "id": "o_852",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "knock back",
+    "meaning": "(술이나 음료를) 단숨에 들이켜다, 급하게 마시다",
+    "core_image": "작은 에스프레소 잔이나 독주 스트레이트 잔을 목을 젖혀 꿀꺽 원샷하는 동작",
+    "focus": "음미하지 않고 단숨에 목구멍으로 빠르게 털어 넣어 마심",
+    "examples": [
+      "However, when I need caffeine to function, I take it in gradually rather than knocking back a double shot espresso."
+    ]
+  },
+  {
+    "id": "o_853",
+    "source": "Words Organized",
+    "category": "음식 > 음료",
+    "word": "floral",
+    "meaning": "꽃 향기가 나는, 화사한",
+    "core_image": "커피나 와인 잔을 코에 가져다 댔을 때 봄꽃 정원에 서 있는 듯 퍼지는 은은한 향",
+    "focus": "꽃의 향긋함과 화사한 풍미를 품고 있는 미각·후각적 특성",
+    "examples": [
+      "Plus, they are usually organic and have a rich, floral aroma and smooth flavor"
+    ]
+  },
+  {
+    "id": "o_854",
+    "source": "Words Organized",
+    "category": "음식 > 도구 및 식기",
+    "word": "serviette",
+    "meaning": "냅킨, 테이블 킨",
+    "core_image": "식사 전 무릎 위에 펼쳐 놓거나 입가를 정갈하게 닦아내는 린넨 천 조각",
+    "focus": "테이블 매너에서 입과 손을 닦고 옷을 보호하기 위해 사용하는 종이/천 냅킨",
+    "examples": [
+      "The waiter placed a freshly ironed serviette beside each plate"
+    ]
+  },
+  {
+    "id": "o_855",
+    "source": "Words Organized",
+    "category": "음식 > 도구 및 식기",
+    "word": "ladle",
+    "meaning": "국자",
+    "core_image": "긴 자루 끝에 둥글고 오목한 볼이 달려 있어 펄펄 끓는 수프를 듬뿍 떠내는 도구",
+    "focus": "냄비에서 국물이나 액체 음식을 떠서 그릇에 담는 조리 기구",
+    "examples": [
+      "Use a perforated ladle to strain the cooked gnocchi from boiling water"
+    ]
+  },
+  {
+    "id": "o_856",
+    "source": "Words Organized",
+    "category": "음식 > 도구 및 식기",
+    "word": "barrel",
+    "meaning": "(나무로 만든) 통, 배럴",
+    "core_image": "쇠 테두리를 두른 둥근 참나무 통 속에서 와인이나 위스키가 수년간 숙성되는 모습",
+    "focus": "와인, 맥주, 화약, 액체 등을 저장하고 숙성하기 위한 대형 원통형 목재/금속 용기",
+    "examples": [
+      "The distillery ages its scotch in charred oak barrels for twelve years"
+    ]
+  },
+  {
+    "id": "o_857",
+    "source": "Words Organized",
+    "category": "음악",
+    "word": "soundtrack",
+    "meaning": "사운드트랙",
+    "core_image": "영화, 드라마, 게임 등 영상 매체에 삽입된 모든 음악 및 소리 트랙의 집합",
+    "focus": "작품에 사용된 배경음악(BGM), 삽입곡 등을 포괄적으로 담아낸 음원 기록물",
+    "examples": [
+      "The movie's soundtrack captures the melancholic atmosphere of the city"
+    ]
+  },
+  {
+    "id": "o_858",
+    "source": "Words Organized",
+    "category": "음악",
+    "word": "OST (Original SoundTrack)",
+    "meaning": "오리지널 사운드트랙",
+    "core_image": "해당 작품만을 위해 스튜디오에서 독창적으로 작곡·녹음된 오리지널 음반",
+    "focus": "기존 발매곡 삽입이 아닌 작품을 위해 새로 맞춤 제작된 독창적인 사운드트랙",
+    "examples": [
+      "The drama became famous largely due to its iconic OST"
+    ]
+  },
+  {
+    "id": "o_859",
+    "source": "Words Organized",
+    "category": "음악",
+    "word": "theme song",
+    "meaning": "테마곡",
+    "core_image": "주인공이나 메인 테마 장면이 등장할 때마다 울려 퍼지는 대표 시그니처 멜로디",
+    "focus": "작품 전체의 정체성을 단 하나의 곡으로 상징하고 대변하는 대표곡",
+    "examples": [
+      "Everyone instantly recognized the superhero by his triumphant theme song"
+    ]
+  },
+  {
+    "id": "o_860",
+    "source": "Words Organized",
+    "category": "의류",
+    "word": "top",
+    "meaning": "상의, 윗옷",
+    "core_image": "옷걸이에 걸려 있는 셔츠, 블라우스, 티셔츠 등 상체에 입는 의류",
+    "focus": "하의와 구별되어 허리 윗부분에 착용하는 모든 상의류",
+    "examples": [
+      "That's a nice top you're wearing today"
+    ]
+  },
+  {
+    "id": "o_861",
+    "source": "Words Organized",
+    "category": "의류",
+    "word": "bottoms",
+    "meaning": "하의, 아래옷",
+    "core_image": "옷가게 바지 걸이에 걸려 있는 슬랙스, 청바지, 치마 등의 하체 의류",
+    "focus": "상의와 어울리도록 매치하는 바지나 스커트 등 하반신 착용 의류",
+    "examples": [
+      "I'm looking for matching bottoms to go with this tailored jacket"
+    ]
+  },
+  {
+    "id": "o_862",
+    "source": "Words Organized",
+    "category": "의류",
+    "word": "put on",
+    "meaning": "(옷·신발·안경 등을) 입다, 걸치다, 착용하다",
+    "core_image": "외출하기 전 거울 앞에서 코트 소매에 팔을 넣고 단추를 잠그는 동작",
+    "focus": "신체에 의복이나 장신구를 걸쳐 착용하는 구체적인 동작",
+    "examples": [
+      "Put on your warm coat because it is freezing outside"
+    ]
+  },
+  {
+    "id": "o_863",
+    "source": "Words Organized",
+    "category": "의류",
+    "word": "take off",
+    "meaning": "(옷·신발 등을) 벗다",
+    "core_image": "집에 들어와 현관에서 신발을 벗고 외투를 벗어 옷걸이에 거는 동작",
+    "focus": "착용하고 있던 옷, 신발, 모자 등을 몸에서 떼어내어 벗는 행위",
+    "examples": [
+      "Please take off your wet boots before stepping onto the carpet"
+    ]
+  },
+  {
+    "id": "o_864",
+    "source": "Words Organized",
+    "category": "의류",
+    "word": "change",
+    "meaning": "옷을 갈아입다",
+    "core_image": "피팅룸 커튼을 치고 입고 있던 옷을 벗어 새로운 옷으로 갈아입는 장면",
+    "focus": "상황이나 용도에 맞추어 다른 옷으로 복장을 교체하여 입음",
+    "examples": [
+      "I was changing in the fitting room when the fire alarm rang"
+    ]
+  },
+  {
+    "id": "o_865",
+    "source": "Words Organized",
+    "category": "탈것 > 비행기",
+    "word": "flight attendant",
+    "meaning": "항공기 승무원",
+    "core_image": "깔끔한 유니폼을 입고 기내 통로를 오가며 승객의 안전과 식사를 챙기는 승무원",
+    "focus": "비행기 내에서 승객의 안전 관리와 편의 서비스를 책임지는 전문 승무원",
+    "examples": [
+      "The flight attendant calmly guided passengers during the turbulence"
+    ]
+  },
+  {
+    "id": "o_866",
+    "source": "Words Organized",
+    "category": "탈것 > 비행기",
+    "word": "turbulence",
+    "meaning": "난기류",
+    "core_image": "비행기가 불안정한 공기 소용돌이를 통과하며 기체가 위아래로 덜컹거리는 진동",
+    "focus": "대기 불안정으로 인해 항공기가 심하게 흔들리는 물리적 요동 상태",
+    "examples": [
+      "The pilot turned on the seatbelt sign due to unexpected turbulence"
+    ]
+  },
+  {
+    "id": "o_867",
+    "source": "Words Organized",
+    "category": "탈것 > 비행기",
+    "word": "board a plane",
+    "meaning": "비행기에 탑승하다",
+    "core_image": "탑승권을 게이트에 스캔하고 탑승교(브릿지)를 건너 비행기 객실 안으로 들어서는 발걸음",
+    "focus": "출발 전 항공기 내부로 정식 탑승하는 절차적 행위",
+    "examples": [
+      "Passengers were asked to board the plane by row numbers"
+    ]
+  },
+  {
+    "id": "o_868",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "fuel cap",
+    "meaning": "주유구 캡, 연료 뚜껑",
+    "core_image": "주유소에서 주유구를 열기 위해 손으로 돌려 여는 플라스틱 마개",
+    "focus": "자동차 연료 탱크로 먼지나 수분이 들어가지 않도록 밀폐하는 뚜껑",
+    "examples": [
+      "Don't forget to tighten the fuel cap until it clicks"
+    ]
+  },
+  {
+    "id": "o_869",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "a flat tire",
+    "meaning": "펑크 난 타이어",
+    "core_image": "날카로운 못이 박혀 공기가 다 빠져나가 바닥에 주저앉아 버린 타이어",
+    "focus": "공기압이 손실되어 주행이 불가능해진 차량 타이어 상태",
+    "examples": [
+      "We got a flat tire on the highway and had to call for roadside assistance"
+    ]
+  },
+  {
+    "id": "o_870",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "reverse parking",
+    "meaning": "후진 주차",
+    "core_image": "사이드미러와 후방 카메라를 보며 기어를 R에 두고 주차 라인 안으로 천천히 진입하는 차",
+    "focus": "차량의 뒤쪽을 주차 구획 안으로 먼저 밀어 넣어 주차하는 방식",
+    "examples": [
+      "Reverse parking makes it much easier and safer to pull out later"
+    ]
+  },
+  {
+    "id": "o_871",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "tow",
+    "meaning": "(차량을) 견인하다, 끌고 가다",
+    "core_image": "견인차가 쇠사슬과 리프트로 고장 난 승용차 앞바퀴를 들어 올려 매달고 달리는 모습",
+    "focus": "불법 주차나 고장 난 차량을 견인 트럭이 강제로 끌고 이동 조치함",
+    "examples": [
+      "My car was towed because I parked in a no-parking area"
+    ]
+  },
+  {
+    "id": "o_872",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "pump gas",
+    "meaning": "주유하다, 기름을 넣다",
+    "core_image": "셀프 주유기에서 노즐을 뽑아 차량 주유구에 꽂고 손잡이를 당겨 휘발유를 채우는 모습",
+    "focus": "자동차 연료 탱크에 기름을 넣는 일상적 주유 행위",
+    "examples": [
+      "I stopped at the highway service station to pump gas"
+    ]
+  },
+  {
+    "id": "o_873",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "hail",
+    "meaning": "(길거리에서 손을 들어 택시 등을) 부르다, 세우다",
+    "core_image": "비 내리는 도로변에 서서 지나가는 빈 택시를 향해 오른손을 번쩍 들어 신호하는 모습",
+    "focus": "길가에서 지나가는 택시나 버스를 타기 위해 손짓으로 멈추어 세움",
+    "examples": [
+      "It was raining heavily, so it was hard to hail a cab"
+    ]
+  },
+  {
+    "id": "o_874",
+    "source": "Words Organized",
+    "category": "탈것 > 자동차 및 도로",
+    "word": "passerby",
+    "meaning": "지나가는 행인",
+    "core_image": "길거리를 걷다가 나와 눈이 마주치고 스쳐 지나가는 이름 모를 보행자",
+    "focus": "목적지를 향해 특정 장소를 우연히 지나쳐 걸어가는 사람",
+    "examples": [
+      "A kind passerby helped me pick up my dropped documents"
+    ]
+  },
+  {
+    "id": "o_875",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "ball",
+    "meaning": "무도회",
+    "core_image": "화려한 샹들리에 아래 드레스와 턱시도를 입은 남녀들이 왈츠 음악에 맞춰 춤추는 홀",
+    "focus": "격식 있는 복장을 갖추고 춤과 사교를 즐기는 대규모 전통 사교 파티",
+    "examples": [
+      "Cinderella met the prince at the royal ball"
+    ]
+  },
+  {
+    "id": "o_876",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "sphere",
+    "meaning": "구체, 영역, 분야",
+    "core_image": "완벽하게 둥근 공 모양의 3차원 입체 도형 또는 특정 영향력이 미치는 테두리 영역",
+    "focus": "기하학적 구체 또는 학문·활동·사회적 영향력이 미치는 특정 영역/범위",
+    "examples": [
+      "His research spans both the academic and industrial spheres"
+    ]
+  },
+  {
+    "id": "o_877",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "hallway",
+    "meaning": "복도, 통로",
+    "core_image": "건물 내부에서 양옆으로 여러 방 문들이 늘어서 있는 긴 보행 통로",
+    "focus": "건물 내에서 방과 방 사이를 연결하는 내부 이동 통로",
+    "examples": [
+      "The students gathered in the hallway between lecture classes"
+    ]
+  },
+  {
+    "id": "o_878",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "hall",
+    "meaning": "넓은 홀, 공공 강당, 복도",
+    "core_image": "높은 천장과 넓은 바닥을 갖추어 수백 명이 모여 집회를 열 수 있는 공공 건물 내부",
+    "focus": "대규모 인원을 수용할 수 있는 넓은 다목적 실내 공간이나 공공 회관",
+    "examples": [
+      "The graduation ceremony took place in the grand hall"
+    ]
+  },
+  {
+    "id": "o_879",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "cubicle",
+    "meaning": "개인용 칸막이 사무실 (큐비클)",
+    "core_image": "높은 파티션 패널로 사방이 둘러싸여 컴퓨터와 책상이 놓인 사무실 개인 근무 공간",
+    "focus": "대형 사무실 내에서 파티션으로 구획된 개인별 작은 사무 공간",
+    "examples": [
+      "You don't have to work for forty years in a corporate cubicle"
+    ]
+  },
+  {
+    "id": "o_880",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "stall",
+    "meaning": "화장실 칸, 가판대, 축사 마구간",
+    "core_image": "공중화장실 문을 닫고 들어가는 독립된 한 칸의 작은 밀폐 공간",
+    "focus": "공중화장실의 개별 변기 칸막이 또는 시장의 개별 판매 부스",
+    "examples": [
+      "Every single stall in the restroom was occupied"
+    ]
+  },
+  {
+    "id": "o_881",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "orchard",
+    "meaning": "과수원",
+    "core_image": "사과나 배가 주렁주렁 열린 나무들이 줄지어 심겨 있는 햇살 가득한 농원",
+    "focus": "과일나무를 집약적으로 재배하는 전용 농경지",
+    "examples": [
+      "We spent the autumn afternoon picking apples in the family orchard"
+    ]
+  },
+  {
+    "id": "o_882",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "high-rise apartment",
+    "meaning": "고층 아파트",
+    "core_image": "도심 하늘 높이 솟아올라 수십 층의 발코니와 창문들이 빽빽이 늘어선 아파트 빌딩",
+    "focus": "엘리베이터를 갖추고 수십 층 높이로 지어진 대규모 현대식 공동주택",
+    "examples": [
+      "They live on the twenty-fifth floor of a modern high-rise apartment"
+    ]
+  },
+  {
+    "id": "o_883",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "suburb",
+    "meaning": "교외, 도시 근교 주거지",
+    "core_image": "번잡한 도심 외곽에 잔디 마당이 딸린 주택들이 평화롭게 정렬된 주거 단지",
+    "focus": "대도시 중심부 주변에 위치한 쾌적한 베드타운 주거 지역",
+    "examples": [
+      "Many families move to the quiet suburbs to raise their children"
+    ]
+  },
+  {
+    "id": "o_884",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "backwater",
+    "meaning": "후미진 곳, 침체된 곳, 배수 구역",
+    "core_image": "강 본류에서 벗어나 물이 흐르지 않고 고여 있어 낙엽이 썩어가는 한적한 웅덩이",
+    "focus": "문명의 중심이나 변화의 물결에서 완전히 소외되어 정체된 오지나 낙후 지역",
+    "examples": [
+      "The small fishing village was once an isolated cultural backwater"
+    ]
+  },
+  {
+    "id": "o_885",
+    "source": "Words Organized",
+    "category": "장소 및 공간",
+    "word": "hollow",
+    "meaning": "속이 텅 빈, 움푹 들어간 곳",
+    "core_image": "오래된 고목나무 기둥 내부가 썩어 비어 있거나 땅바닥이 오목하게 파인 지형",
+    "focus": "내부 내용물이 없이 텅 비어 있거나 표면이 움푹 꺼진 형태적 특성",
+    "examples": [
+      "The owl nested inside the hollow trunk of the ancient oak"
+    ]
+  },
+  {
+    "id": "o_886",
+    "source": "Words Organized",
+    "category": "환경",
+    "word": "milieu",
+    "meaning": "(사회적·문화적) 환경, 배경",
+    "core_image": "한 사람이 성장하며 몸담고 호흡하는 지적 토양과 문화적 사회 분위기",
+    "focus": "개인의 인격, 예술관, 사상 형성에 지대한 영향을 미치는 복합적인 사회적·문화적 환경",
+    "examples": [
+      "The artist grew up in a vibrant bohemian milieu in 1920s Paris"
+    ]
+  },
+  {
+    "id": "o_887",
+    "source": "Words Organized",
+    "category": "사람 > 표정 및 외모",
+    "word": "make a face",
+    "meaning": "(불쾌감이나 장난으로) 얼굴을 찌푸리다",
+    "core_image": "맛없는 음식을 먹고 눈살을 찌푸리며 혀를 쏙 내미는 표정 변화",
+    "focus": "불쾌함, 거부감, 혹은 장난스러운 감정을 전달하기 위해 안면 근육을 일그러뜨림",
+    "examples": [
+      "The child made a face when offered broccoli"
+    ]
+  },
+  {
+    "id": "o_888",
+    "source": "Words Organized",
+    "category": "사람 > 표정 및 외모",
+    "word": "the long face",
+    "meaning": "시무룩한 표정, 우울한 얼굴",
+    "core_image": "실망이나 슬픔으로 인해 입꼬리와 턱이 아래로 축 늘어져 길어 보이는 얼굴",
+    "focus": "실망감, 우울함, 낙담으로 인해 얼굴에 역력하게 드러난 침울한 표정",
+    "examples": [
+      "Why the long face? Did something go wrong with your experiment?"
+    ]
+  },
+  {
+    "id": "o_889",
+    "source": "Words Organized",
+    "category": "사람 > 표정 및 외모",
+    "word": "braided",
+    "meaning": "머리를 땋은",
+    "core_image": "세 가닥의 긴 머리칼을 교차하며 단단하고 예쁘게 땋아 내린 헤어스타일",
+    "focus": "머리카락이나 끈을 여러 가닥으로 꼬아 엮어 만든 외모 양식",
+    "examples": [
+      "Her stepmother told Jenny that she had to have her hair braided or else have it cut short, but she wanted it long"
+    ]
+  },
+  {
+    "id": "o_890",
+    "source": "Words Organized",
+    "category": "사람 > 장기 및 구조",
+    "word": "intestine",
+    "meaning": "장 (소장/대장)",
+    "core_image": "복부 안쪽에 꼬불꼬불 길게 말려 있어 음식물의 영양분을 흡수하는 내장 기관",
+    "focus": "소화와 배설을 담당하는 소장과 대장 등의 해부학적 소화 장기",
+    "examples": [
+      "I have a weak intestine, so spicy food upsets my stomach easily"
+    ]
+  },
+  {
+    "id": "o_891",
+    "source": "Words Organized",
+    "category": "사람 > 장기 및 구조",
+    "word": "cavity",
+    "meaning": "(치아의) 구멍, 충치, 체강",
+    "core_image": "단단한 치아 표면에 당분과 세균으로 인해 까맣게 뚫린 작은 구멍",
+    "focus": "신체 내부의 빈 공간(체강) 또는 치아에 발생한 충치 구멍",
+    "examples": [
+      "The dentist found a small cavity in my upper molar"
+    ]
+  },
+  {
+    "id": "o_892",
+    "source": "Words Organized",
+    "category": "사람 > 유전",
+    "word": "hereditary",
+    "meaning": "유전적인, 세습되는",
+    "core_image": "부모의 DNA 염색체 나선 구조를 통해 자녀에게 그대로 물려 내려오는 형질",
+    "focus": "유전자를 통해 부모 세대에서 자식 세대로 질환이나 신체적 특징이 전달되는 성질",
+    "examples": [
+      "Early-onset hair thinning can often be a hereditary trait"
+    ]
+  },
+  {
+    "id": "o_893",
+    "source": "Words Organized",
+    "category": "사람 > 소리 및 반응",
+    "word": "grunt",
+    "meaning": "(끙 하고) 앓는 소리를 내다, 투덜거리다",
+    "core_image": "무거운 짐을 들어 올릴 때 복압이 쏠리며 입술 틈새로 터져 나오는 굵고 짧은 신음",
+    "focus": "육체적 힘을 쓰거나 불만을 나타낼 때 무의식적으로 내는 낮고 둔탁한 소리",
+    "examples": [
+      "He lifted the heavy barbell with a low grunt"
+    ]
+  },
+  {
+    "id": "o_894",
+    "source": "Words Organized",
+    "category": "사람 > 상태 및 피로",
+    "word": "hand tremor",
+    "meaning": "손 떨림, 수전증",
+    "core_image": "물컵을 들거나 펜을 쥘 때 손가락 끝이 의지와 상관없이 미세하게 파르르 떨리는 모습",
+    "focus": "신경계 이상이나 긴장, 카페인 과다로 인해 손이 제어되지 않고 떨리는 증상",
+    "examples": [
+      "I gave up on fine art because I suffered from persistent hand tremors"
+    ]
+  },
+  {
+    "id": "o_895",
+    "source": "Words Organized",
+    "category": "사람 > 상태 및 피로",
+    "word": "strain",
+    "meaning": "(근육이나 눈을) 혹사하다, 무리하게 쓰다, 긴장",
+    "core_image": "팽팽하게 당겨진 고무줄처럼 근육이나 시신경이 한계까지 긴장하여 뻐근해진 상태",
+    "focus": "과도한 사용이나 스트레스로 인해 신체 부위(눈, 근육)에 무리가 가 피로가 누적됨",
+    "examples": [
+      "Staring at my smartphone for about thirty minutes causes my eyes to strain"
+    ]
+  },
+  {
+    "id": "o_896",
+    "source": "Words Organized",
+    "category": "사람 > 상태 및 피로",
+    "word": "flab",
+    "meaning": "(늘어진) 군살, 처진 살",
+    "core_image": "운동 부족으로 탄력을 잃고 허리나 팔뚝 밑에 잡히는 부드럽고 말랑한 지방 살",
+    "focus": "근육이 붙지 않아 신체 부위에 덜렁거리며 붙어 있는 불필요한 지방 살",
+    "examples": [
+      "Consistent aerobic exercise is the most effective way to burn off excess flab"
+    ]
+  },
+  {
+    "id": "o_897",
+    "source": "Words Organized",
+    "category": "사람 > 상태 및 피로",
+    "word": "swollen",
+    "meaning": "(염증이나 부상으로) 부어오른, 팽창한",
+    "core_image": "발목을 삐어 피하 혈액과 림프액이 몰려 복사뼈 주위가 빵빵하게 부푼 모습",
+    "focus": "부상, 염증, 감염으로 인해 신체 조직이 비정상적으로 부풀어 오른 상태",
+    "examples": [
+      "His ankle was badly swollen after landing awkwardly during the basketball game"
+    ]
+  },
+  {
+    "id": "o_898",
+    "source": "Words Organized",
+    "category": "사람 > 소화 및 대사",
+    "word": "digest",
+    "meaning": "(음식을) 소화하다, (지식을) 이해하다",
+    "core_image": "섭취한 음식물을 위장에서 잘게 부수듯, 입력된 지식과 정보를 머릿속에서 씹어 이해하는 모습",
+    "focus": "물리적 음식 소화뿐만 아니라 복잡한 지식이나 이론을 완전히 자신의 이해 체계로 흡수함",
+    "examples": [
+      "It takes time to digest this complex theoretical paper"
+    ]
+  },
+  {
+    "id": "o_899",
+    "source": "Words Organized",
+    "category": "사람 > 소화 및 대사",
+    "word": "metabolize",
+    "meaning": "대사하다, (영양분을) 내 것으로 만들어 활용하다",
+    "core_image": "흡수된 영양분이 세포 조직으로 합성되거나 에너지로 연소되는 생체 내 화학적 순환",
+    "focus": "단순 소화(이해)를 넘어 흡수한 지식이나 영양분을 실전에 활용 가능한 형태의 에너지로 변환함",
+    "examples": [
+      "Our bodies metabolize glucose to produce kinetic energy for physical activity"
+    ]
+  },
+  {
+    "id": "o_900",
+    "source": "Words Organized",
+    "category": "사람 > 병 및 이상",
+    "word": "have a fever",
+    "meaning": "열이 나다 (열이 있는 상태)",
+    "core_image": "이마에 닿는 손이 뜨겁고 체온계 수치가 38도를 넘어 땀을 흘리고 있는 상태",
+    "focus": "체온이 비정상적으로 상승해 있는 현재의 지속적인 상태",
+    "examples": [
+      "I cannot attend the lecture today because I have a high fever"
+    ]
+  },
+  {
+    "id": "o_901",
+    "source": "Words Organized",
+    "category": "사람 > 병 및 이상",
+    "word": "get a fever",
+    "meaning": "열이 나기 시작하다",
+    "core_image": "몸살 기운과 함께 오한이 들며 체온이 서서히 올라가기 시작하는 발병의 시점",
+    "focus": "정상 상태에서 체온이 오르기 시작하는 사건의 발생 및 전이",
+    "examples": [
+      "If you start to get a fever during the night, take this antipyretic medication"
+    ]
+  },
+  {
+    "id": "o_902",
+    "source": "Words Organized",
+    "category": "사람 > 병 및 이상",
+    "word": "get food poisoning",
+    "meaning": "식중독에 걸리다",
+    "core_image": "상한 음식을 잘못 섭취하여 복통, 구토, 설사로 응급실을 찾게 되는 급성 감염",
+    "focus": "병원균에 오염된 음식을 섭취하여 발생하는 급성 소화기 질환",
+    "examples": [
+      "My dad got food poisoning from eating seafood that went bad for dinner last time"
+    ]
+  },
+  {
+    "id": "o_903",
+    "source": "Words Organized",
+    "category": "사람 > 병 및 이상",
+    "word": "sickness",
+    "meaning": "질병, 메스꺼움",
+    "core_image": "몸 전체의 컨디션이 저하되어 앓아눕거나 속이 울렁거리는 전반적인 유병 상태",
+    "focus": "건강이 손상된 병든 상태 또는 멀미/구토 증상",
+    "examples": [
+      "He missed three consecutive days of school due to a sudden winter sickness"
+    ]
+  },
+  {
+    "id": "o_904",
+    "source": "Words Organized",
+    "category": "사람 > 병 및 이상",
+    "word": "deteriorate",
+    "meaning": "(건강·상태가) 악화되다, 저하되다",
+    "core_image": "깨끗했던 건물이 금이 가며 허물어지듯 신체 기능이나 건강 수치가 뚝뚝 떨어지는 하향 곡선",
+    "focus": "이전의 좋은 상태에서 품질, 기능, 건강 등이 점진적이고 심각하게 나빠짐",
+    "examples": [
+      "Her physical health began to deteriorate rapidly after the infection spread"
+    ]
+  },
+  {
+    "id": "o_905",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "sniff",
+    "meaning": "(코를) 훌쩍이다, 킁킁거리며 냄새를 맡다",
+    "core_image": "감기나 눈물 때문에 코안으로 공기를 쌕쌕 들이마시며 훌쩍이는 소리",
+    "focus": "코막힘이나 감정으로 인해 코를 들이마시거나 짧게 공기를 흡입하는 동작",
+    "examples": [
+      "He kept sniffing the whole time during the meeting, so I couldn't really focus"
+    ]
+  },
+  {
+    "id": "o_906",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "snuff",
+    "meaning": "(냄새를) 킁킁 맡다, 코를 킁킁거리다",
+    "core_image": "사냥개가 냄새의 출처를 쫓기 위해 지면이나 물체에 코를 대고 깊게 냄새를 들이마시는 모습",
+    "focus": "냄새를 확인하거나 코로 가루 등을 흡입하는 적극적인 후각 동작",
+    "examples": [
+      "The hound snuffed curiously around the entrance of the cave"
+    ]
+  },
+  {
+    "id": "o_907",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "smell",
+    "meaning": "~한 냄새가 나다, 냄새를 맡다",
+    "core_image": "공기 중에 떠다니는 냄새 분자가 코점막에 닿아 향기나 악취를 지각하는 감각",
+    "focus": "후각 기관을 통해 외부의 냄새를 수동적으로 인지하거나 능동적으로 맡음",
+    "examples": [
+      "The subway smelled awful, but the blooming flowers smelled delightful"
+    ]
+  },
+  {
+    "id": "o_908",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "fragrant",
+    "meaning": "향기로운, 은은한 향이 나는",
+    "core_image": "만개한 장미 정원이나 갓 내린 차 잔에서 코끝을 간지럽히며 피어오르는 달콤한 꽃향기",
+    "focus": "기분 좋은 자연의 향기나 아로마를 풍기는 매력적인 후각적 특성",
+    "examples": [
+      "One hundred fifty years later, the vintage spices were still edible and remarkably fragrant"
+    ]
+  },
+  {
+    "id": "o_909",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "freeze",
+    "meaning": "얼다, 얼리다, 꽁꽁 얼어붙다",
+    "core_image": "영하의 추위에 호수 수면이 단단한 얼음판으로 굳거나 고기를 냉동실에 얼리는 장면",
+    "focus": "액체가 고체 얼음으로 변하는 물리적 현상 또는 추위로 몸이 굳는 상태",
+    "examples": [
+      "Water freezes at zero degrees Celsius, and you can freeze the leftovers for dinner tomorrow"
+    ]
+  },
+  {
+    "id": "o_910",
+    "source": "Words Organized",
+    "category": "사람 > 호흡기 및 감각",
+    "word": "acuity",
+    "meaning": "(시각·청각·사고의) 예리함, 날카로움",
+    "core_image": "정밀 렌즈를 통해 흐릿했던 시야가 칼날처럼 선명하게 또렷해지는 초점",
+    "focus": "감각 기관(시력, 청력)이나 지적 판단력이 극도로 예민하고 정밀한 능력",
+    "examples": [
+      "Visual acuity naturally declines with age, requiring corrective lenses"
+    ]
+  },
+  {
+    "id": "o_911",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "self function",
+    "meaning": "자아 기능",
+    "core_image": "외부 현실과 내면의 본능 사이에서 균형을 잡고 상황을 조율하는 마음의 중앙 제어탑",
+    "focus": "심리학에서 현실을 지각하고 충동을 조절하며 적응을 돕는 자아(Ego)의 핵심 조절 메커니즘",
+    "examples": [
+      "Strengthening self function is a primary goal in long-term psychodynamic therapy"
+    ]
+  },
+  {
+    "id": "o_912",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "regression",
+    "meaning": "(발달 단계의) 퇴행",
+    "core_image": "성인이 극심한 스트레스를 받아 어린아이처럼 웅크리고 떼를 쓰며 과거 발달 단계로 후퇴하는 모습",
+    "focus": "감당하기 힘든 불안이나 갈등을 마주했을 때 이전의 유아적 발달 단계로 심리적 상태가 후퇴함",
+    "examples": [
+      "A reparenting conception of therapy naturally involves facilitating constructive emotional regression"
+    ]
+  },
+  {
+    "id": "o_913",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "transference",
+    "meaning": "(심리적) 전이, 감정 이전",
+    "core_image": "어린 시절 부모에게 품었던 억압된 사랑이나 분노를 현재 마주한 치료사에게 투사하는 마음의 다리",
+    "focus": "과거 중요한 대상(부모 등)에게 느꼈던 무의식적 감정을 현재의 타인에게 무의식적으로 옮겨 씌움",
+    "examples": [
+      "The client experienced strong transference toward her therapist, perceiving him as an authoritarian father"
+    ]
+  },
+  {
+    "id": "o_914",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "identify with",
+    "meaning": "~와 동일시하다, ~를 깊이 이해하고 일체감을 느끼다",
+    "core_image": "거울 속 상대방의 슬픔과 기쁨이 내 피부 속으로 스며들어 내가 그 사람 자체가 된 듯한 합일감",
+    "focus": "타인의 성격, 가치관, 고통을 자신의 것으로 받아들여 깊은 정서적 일체감을 형성함",
+    "examples": [
+      "They desperately need to feel identified with someone who truly validates their pain"
+    ]
+  },
+  {
+    "id": "o_915",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "Becoming known to",
+    "meaning": "~에게 (내면이) 알려지는 것, 존재가 수용되는 경험",
+    "core_image": "굳게 닫았던 내면의 비밀 방 문을 열고 다른 사람에게 내 참모습을 온전히 보여주는 순간",
+    "focus": "자신의 진정한 생각과 감정이 타인에게 투명하게 알려지고 수용받는 치유적 경험",
+    "examples": [
+      "Becoming known to our clients invites their authentic emotional identification with us"
+    ]
+  },
+  {
+    "id": "o_916",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "cling to",
+    "meaning": "~에 집착하다, 끈질기게 매달리다",
+    "core_image": "절벽 끝에서 낡은 밧줄을 놓지 못하고 하얗게 질린 손가락으로 필사적으로 꽉 쥐고 있는 모습",
+    "focus": "낡은 신념, 과거의 기억, 우월감, 헛된 희망을 내려놓지 못하고 불안감 때문에 끈질기게 고수함",
+    "examples": [
+      "I put him down just to elevate myself, subconsciously clinging to the thought that I am more than a mere technician"
+    ]
+  },
+  {
+    "id": "o_917",
+    "source": "Words Organized",
+    "category": "사람 > 자아 및 심리 기제",
+    "word": "haunt",
+    "meaning": "(불안·기억 등이) 떠나지 않고 괴롭히다, 출몰하다",
+    "core_image": "밤마다 어두운 방구석에서 유령처럼 나타나 머릿속을 맴돌며 잠을 설치게 하는 과거의 죄책감",
+    "focus": "해결되지 않은 트라우마나 두려움이 끊임없이 마음속에 되살아나 지속적으로 고통을 줌",
+    "examples": [
+      "The thought that no one will ever understand me, and the anxiety that I might live like this forever, haunt me daily"
+    ]
+  },
+  {
+    "id": "o_918",
+    "source": "Words Organized",
+    "category": "사람 > 아이디어 및 착상",
+    "word": "come up with an idea",
+    "meaning": "기발한 아이디어를 떠올리다",
+    "core_image": "깊은 우물 속에서 두레박으로 반짝이는 맑은 아이디어 구슬을 끌어올리는 순간",
+    "focus": "깊은 고민 끝에 창의적인 해결책이나 새로운 착상을 적극적으로 고안해냄",
+    "examples": [
+      "We stayed up all night trying to come up with an innovative marketing idea"
+    ]
+  },
+  {
+    "id": "o_919",
+    "source": "Words Organized",
+    "category": "사람 > 아이디어 및 착상",
+    "word": "An idea came to me",
+    "meaning": "불현듯 아이디어가 떠오르다",
+    "core_image": "머리 위에 전구가 팟 하고 켜지듯 외부에서 번뜩이는 착상이 내게 찾아오는 수동적 영감",
+    "focus": "의도적인 노력 없이 영감이나 깨달음이 섬광처럼 자연스럽게 뇌리에 스침",
+    "examples": [
+      "While walking through the autumn park, an elegant mathematical solution suddenly came to me"
+    ]
+  },
+  {
+    "id": "o_920",
+    "source": "Words Organized",
+    "category": "사람 > 아이디어 및 착상",
+    "word": "out of the box",
+    "meaning": "고정관념에서 벗어나, 틀을 깨는 방식으로",
+    "core_image": "사방이 막힌 좁은 판지 상자 뚜껑을 찢고 바깥의 넓은 창공으로 날아오르는 시선",
+    "focus": "기존의 통념, 관습, 틀에 박힌 사고방식을 완전히 깨뜨리고 새롭게 접근함",
+    "examples": [
+      "I usually read diverse philosophy books to think out of the box in order to solve engineering problems"
+    ]
+  },
+  {
+    "id": "o_921",
+    "source": "Words Organized",
+    "category": "사람 > 아이디어 및 착상",
+    "word": "strike someone as",
+    "meaning": "~에게 ~라는 강렬한 인상을 주다",
+    "core_image": "종을 치듯 어떤 말이나 현상이 사람의 마음을 쾅 하고 울리며 뚜렷한 인상을 각인시킴",
+    "focus": "어떤 대상의 행동이나 말이 관찰자에게 특정한 뉘앙스나 강한 깨달음으로 직관적으로 다가옴",
+    "examples": [
+      "This struck me as a poignant metaphor for her turbulent relationship with her deceased mother"
+    ]
+  },
+  {
+    "id": "o_922",
+    "source": "Words Organized",
+    "category": "사람 > 관점 및 해석",
+    "word": "spin on",
+    "meaning": "~에 대한 색다른 관점, 참신한 해석",
+    "core_image": "장난감 팽이를 다른 각도로 돌려 이전에는 보이지 않던 무늬를 드러내는 회전",
+    "focus": "기존의 진부한 사실이나 논쟁거리를 완전히 새로운 시각과 뉘앙스로 재해석함",
+    "examples": [
+      "Just viewing things from a different perspective puts a new spin on our argument, so I don't feel the need to argue"
+    ]
+  },
+  {
+    "id": "o_923",
+    "source": "Words Organized",
+    "category": "사람 > 관점 및 해석",
+    "word": "equate",
+    "meaning": "~을 동일시하다, 똑같다고 여기다",
+    "core_image": "서로 다른 두 물건을 저울 양쪽에 올리고 등호(=) 기호를 붙여 동일하다고 주장하는 모습",
+    "focus": "본질적으로 차이가 있는 두 대상이나 현상을 섣부르게 같은 것으로 취급함",
+    "examples": [
+      "Equating all therapist feelings with counter-transference is as ludicrous as equating all parental concerns with unresolved neuroses"
+    ]
+  },
+  {
+    "id": "o_924",
+    "source": "Words Organized",
+    "category": "사람 > 관점 및 해석",
+    "word": "fathom",
+    "meaning": "(깊은 속마음이나 이유를) 헤아리다, 가늠하다",
+    "core_image": "깊이를 알 수 없는 캄캄한 심해 바닥까지 추를 내리고 깊이를 재어 마침내 바닥을 확인하는 작업",
+    "focus": "복잡하고 난해한 상대방의 심리, 사건의 심층적 원인을 깊이 있게 이해하고 헤아림",
+    "examples": [
+      "At least we could sit down and try to fathom what had truly happened between us"
+    ]
+  },
+  {
+    "id": "o_925",
+    "source": "Words Organized",
+    "category": "사람 > 관점 및 해석",
+    "word": "be reckoned",
+    "meaning": "~로 여겨지다, 평가받다, 추산되다",
+    "core_image": "주판알을 튕겨 계산서를 작성하듯 사람들의 중론이 특정 대상을 공식 가치로 인정함",
+    "focus": "사람들의 일반적인 판단이나 역사적 기록에 의해 특정 위상으로 널리 인정되고 셈해짐",
+    "examples": [
+      "It has been reckoned that about five thousand tons of precious spices were unloaded in Venetian ports every year"
+    ]
+  },
+  {
+    "id": "o_926",
+    "source": "Words Organized",
+    "category": "사람 > 의도 및 의지",
+    "word": "unintentionally",
+    "meaning": "고의가 아니게, 나도 모르게, 무심코",
+    "core_image": "발을 헛디뎌 지나가는 사람의 어깨를 툭 쳤을 때 미안해하며 당황하는 손짓",
+    "focus": "어떤 악의나 계획된 의도 없이 무의식적이거나 실수로 행동이 일어남",
+    "examples": [
+      "It was so crowded that I got carried away and stepped on his foot unintentionally"
+    ]
+  },
+  {
+    "id": "o_927",
+    "source": "Words Organized",
+    "category": "사람 > 의도 및 의지",
+    "word": "malice",
+    "meaning": "악의, 적의, 남을 해치려는 마음",
+    "core_image": "어두운 그늘 속에서 칼날을 숨기고 상대방이 파멸하기를 음흉하게 바라는 독기",
+    "focus": "정당한 이유 없이 타인에게 고통이나 해악을 끼치고자 하는 순수한 악한 의도",
+    "examples": [
+      "His polite demeanor was merely a façade concealing deep-seated psychological malice"
+    ]
+  },
+  {
+    "id": "o_928",
+    "source": "Words Organized",
+    "category": "사람 > 의도 및 의지",
+    "word": "resolve to",
+    "meaning": "~(하기로) 굳게 결심하다, 단호히 다짐하다",
+    "core_image": "흔들리는 깃발을 단단한 바위에 꽂고 결연한 눈빛으로 앞을 응시하는 결의",
+    "focus": "흔들리지 않는 굳은 의지를 가지고 특정 목표를 실행하기로 마음을 확정함",
+    "examples": [
+      "She resolved to focus entirely on her academic research without allowing any external distractions"
+    ]
+  },
+  {
+    "id": "o_929",
+    "source": "Words Organized",
+    "category": "사람 > 의도 및 의지",
+    "word": "true nature",
+    "meaning": "(숨겨진) 본성, 본심",
+    "core_image": "가면을 벗어 던졌을 때 드러나는 위장 없는 민낯의 순수한 실체",
+    "focus": "겉치레나 사회적 가면(페르소나) 뒤에 숨겨진 인간의 참된 기질이나 진실한 마음",
+    "examples": [
+      "Crisis situations often reveal a person's true nature under intense pressure"
+    ]
+  },
+  {
+    "id": "o_930",
+    "source": "Words Organized",
+    "category": "감정 > 충동 및 욕망",
+    "word": "drive",
+    "meaning": "(생물학적·심리적) 충동, 추진력, 본능적 욕구",
+    "core_image": "체내 깊은 곳에서 엔진이 회전하듯 행동을 유발하는 원초적인 생체 에너지",
+    "focus": "생존이나 목표 달성을 향해 사람을 끊임없이 움직이게 만드는 강력한 내적 원동력",
+    "examples": [
+      "Human survival is fundamentally fueled by basic evolutionary drives"
+    ]
+  },
+  {
+    "id": "o_931",
+    "source": "Words Organized",
+    "category": "감정 > 충동 및 욕망",
+    "word": "impulse",
+    "meaning": "(순간적인) 충동, 충동적 행위",
+    "core_image": "신경선에 번개가 치듯 순간적으로 튀어 오르는 즉흥적인 욕망의 스파크",
+    "focus": "깊은 생각 없이 순간적으로 갑작스럽게 일어나는 조절하기 힘든 행동 욕구",
+    "examples": [
+      "He fought the sudden impulse to throw his broken smartphone across the room"
+    ]
+  },
+  {
+    "id": "o_932",
+    "source": "Words Organized",
+    "category": "감정 > 충동 및 욕망",
+    "word": "divergence",
+    "meaning": "간극, 갈림, 차이",
+    "core_image": "하나의 도로가 V자 모양으로 갈라지며 두 경로 사이의 거리가 점점 넓어지는 모습",
+    "focus": "두 생각, 감정, 이상과 현실 사이에 발생하는 점진적인 괴리와 격차",
+    "examples": [
+      "There was a painful divergence between his public career ambitions and private desires"
+    ]
+  },
+  {
+    "id": "o_933",
+    "source": "Words Organized",
+    "category": "감정 > 충동 및 욕망",
+    "word": "crave",
+    "meaning": "(음식이나 대상을) 열렬히 갈망하다, 간절히 원하다",
+    "core_image": "혀끝에 침이 고이며 오직 그것 하나만을 머릿속에 가득 채우고 애타게 찾는 상태",
+    "focus": "특정 음식, 인정, 휴식 등을 신체적·정신적으로 몹시 강하게 원함",
+    "examples": [
+      "After days of strict dieting, I always crave warm Korean blood sausage soup"
+    ]
+  },
+  {
+    "id": "o_934",
+    "source": "Words Organized",
+    "category": "감정 > 충동 및 욕망",
+    "word": "covet",
+    "meaning": "(남의 것을) 탐내다, 갈망하다",
+    "core_image": "남의 손에 쥐여 있는 탐스러운 보석을 훔쳐보며 부러움과 탐욕으로 눈을 떼지 못하는 시선",
+    "focus": "타인의 소유물이나 지위를 부러워하며 부당하게 자기 것으로 만들고 싶어 함",
+    "examples": [
+      "Sancho covets the rich food left behind by the departing monks"
+    ]
+  },
+  {
+    "id": "o_935",
+    "source": "Words Organized",
+    "category": "감정 > 슬픔 및 공감",
+    "word": "weep",
+    "meaning": "(슬픔에 북받쳐) 흐느껴 울다, 눈물을 흘리다",
+    "core_image": "두 손으로 얼굴을 감싸 쥐고 어깨를 들썩이며 소리 없이 쏟아내는 뜨거운 눈물",
+    "focus": "깊은 슬픔, 상실감, 억눌린 감정으로 인해 진심으로 통곡하거나 눈물 흘림",
+    "examples": [
+      "She sat alone in the quiet church and wept for her lost memories"
+    ]
+  },
+  {
+    "id": "o_936",
+    "source": "Words Organized",
+    "category": "감정 > 슬픔 및 공감",
+    "word": "feel for",
+    "meaning": "~를 불쌍하게 여기다, ~의 아픔에 진심으로 공감하다",
+    "core_image": "상처 입고 쓰러진 사람의 손을 따뜻하게 잡아주며 가슴 깊이 안타까움을 나누는 온기",
+    "focus": "타인의 불행이나 고통을 자기 일처럼 안타까워하며 진정한 연민과 동정을 느낌",
+    "examples": [
+      "Therapists must understand their clinical limits as well as what they genuinely feel for each particular client"
+    ]
+  },
+  {
+    "id": "o_937",
+    "source": "Words Organized",
+    "category": "감정 > 슬픔 및 공감",
+    "word": "resonate",
+    "meaning": "마음에 깊은 울림을 주다, 공감대를 형성하다",
+    "core_image": "소리굽쇠 하나를 치면 옆에 있던 다른 소리굽쇠가 같은 주파수로 공명하며 떨리는 현상",
+    "focus": "어떤 메시지, 예술 작품, 사상이 듣는 사람의 내면 깊은 감정과 정확히 일치하여 감동을 일으킴",
+    "examples": [
+      "Among the museum paintings, the vivid depiction of angels defeating demons resonated with me the most"
+    ]
+  },
+  {
+    "id": "o_938",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "uneasy",
+    "meaning": "(마음이) 불안한, 편치 않은, 뒤숭숭한",
+    "core_image": "잔잔한 수면 밑에 거대한 그림자가 어른거리는 것을 보며 느끼는 내면의 서늘한 직감",
+    "focus": "외부의 명백한 위험보다는 내면에서 스멀스멀 피어오르는 걱정스럽고 불길한 심리 상태",
+    "examples": [
+      "I felt an uneasy sensation that something was going to go terribly wrong"
+    ]
+  },
+  {
+    "id": "o_939",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "uncomfortable",
+    "meaning": "(외부 환경이나 관계 때문에) 불편한, 거북한",
+    "core_image": "딱딱하고 좁은 의자에 앉아 몸을 옴짝달싹 못 하거나 어색한 침묵 속에 놓인 상황",
+    "focus": "물리적 환경의 조악함이나 어색한 대인관계로 인해 몸과 마음이 편안하지 못함",
+    "examples": [
+      "The aggressive questioning made everyone in the boardroom feel acutely uncomfortable"
+    ]
+  },
+  {
+    "id": "o_940",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "casual",
+    "meaning": "편안한, 격식 없는, 가벼운",
+    "core_image": "넥타이를 풀고 편안한 청바지와 스니커즈를 신은 채 미소 짓는 자유로운 태도",
+    "focus": "엄격한 격식이나 긴장감 없이 편안하고 자연스럽게 대하는 분위기",
+    "examples": [
+      "We are usually very casual about gift giving among close colleagues"
+    ]
+  },
+  {
+    "id": "o_941",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "frantic",
+    "meaning": "정신없이 바쁜, 극도로 허둥대는, 미친 듯한",
+    "core_image": "불이 난 건물에서 짐을 챙기느라 사방으로 뛰어다니며 땀을 뻘뻘 흘리는 혼비백산의 상태",
+    "focus": "감당하기 힘든 시간적 압박이나 공포로 인해 이성을 잃고 극도로 허둥지둥함",
+    "examples": [
+      "She described her daily corporate routine as perpetually frantic and exhausting"
+    ]
+  },
+  {
+    "id": "o_942",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "perplex",
+    "meaning": "(이해할 수 없어) 당혹스럽게 만들다, 어리둥절하게 하다",
+    "core_image": "여러 갈래로 얽힌 미로 속에서 나침반 바늘이 제멋대로 회전하여 머리를 감싸 쥐는 모습",
+    "focus": "너무 복잡하거나 모순적이어서 도무지 이성적으로 이해하기 힘들어 혼란에 빠뜨림",
+    "examples": [
+      "The patient's manifest fears and perplexing emotional reactions baffled the young clinician"
+    ]
+  },
+  {
+    "id": "o_943",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "be caught off guard",
+    "meaning": "불시에 기습을 당해 당황하다, 방심하다 허를 찔리다",
+    "core_image": "가드를 내리고 쉬고 있던 복서가 갑자기 날아온 카운터펀치를 턱에 맞고 휘청이는 순간",
+    "focus": "전혀 예상하지 못한 상황이나 질문을 불시에 받아 대처하지 못하고 크게 당황함",
+    "examples": [
+      "Alex suddenly asked me to conduct an impromptu interview, so I was completely caught off guard"
+    ]
+  },
+  {
+    "id": "o_944",
+    "source": "Words Organized",
+    "category": "감정 > 불안 및 혼란",
+    "word": "ambivalent",
+    "meaning": "(상반된 감정이) 공존하는, 양가감정의",
+    "core_image": "한 손은 사랑으로 상대방을 끌어당기면서 다른 손은 상처받기 싫어 밀어내는 내적 분열",
+    "focus": "동일한 대상이나 선택지에 대해 호감과 반감, 사랑과 증오 등 상반된 감정을 동시에 품음",
+    "examples": [
+      "She was clearly ambivalent about depending entirely on me for emotional support"
+    ]
+  },
+  {
+    "id": "o_945",
+    "source": "Words Organized",
+    "category": "감정 > 좌절 및 고통",
+    "word": "thwart",
+    "meaning": "(상대의 계획이나 목적을) 좌절시키다, 가로막다",
+    "core_image": "적군이 통과하려는 협곡 입구에 거대한 바위와 통나무를 무너뜨려 길을 완전히 차단하는 모습",
+    "focus": "상대방이 추진하던 계획, 시도, 음모가 성공하지 못하도록 선제적으로 방해하여 무산시킴",
+    "examples": [
+      "The vigilant security protocols successfully thwarted the sophisticated cyber attack"
+    ]
+  },
+  {
+    "id": "o_946",
+    "source": "Words Organized",
+    "category": "감정 > 좌절 및 고통",
+    "word": "defeat",
+    "meaning": "(적이나 경쟁자를 싸워) 패배시키다, 무찌르다",
+    "core_image": "전쟁터나 결투 경기장에서 상대방의 무기를 떨어뜨리고 바닥에 굴복시키는 승리의 순간",
+    "focus": "정면 승부나 경쟁을 통해 상대방을 압도하여 싸움에서 완전히 굴복시킴",
+    "examples": [
+      "The reigning champion defeated his challenger in the final championship round"
+    ]
+  },
+  {
+    "id": "o_947",
+    "source": "Words Organized",
+    "category": "감정 > 좌절 및 고통",
+    "word": "anguish",
+    "meaning": "(극심한) 정신적 고통, 비통함, 번민",
+    "core_image": "가슴을 쥐어뜯으며 목구멍 밖으로 비명이 터져 나올 듯한 찢어지는 마음의 극심한 통증",
+    "focus": "감당하기 어려운 상실, 죄책감, 비극으로 인해 겪는 가장 깊은 수준의 영혼의 고통",
+    "examples": [
+      "The family endured unbearable emotional anguish while waiting for news of the missing child"
+    ]
+  },
+  {
+    "id": "o_948",
+    "source": "Words Organized",
+    "category": "감정 > 부끄러움 및 민망함",
+    "word": "loss of face",
+    "meaning": "체면 손상, 쪽팔림, 굴욕",
+    "core_image": "많은 군중 앞에서 얼굴에 칠해진 가면이 벗겨져 땅바닥에 떨어지는 부끄러운 장면",
+    "focus": "사회적 위신, 명예, 체면이 깎여 타인들 앞에서 심한 부끄러움과 굴욕을 겪음",
+    "examples": [
+      "Backing down publicly would have meant an unacceptable loss of face for the diplomat"
+    ]
+  },
+  {
+    "id": "o_949",
+    "source": "Words Organized",
+    "category": "감정 > 부끄러움 및 민망함",
+    "word": "coyly",
+    "meaning": "수줍은 듯이, 부끄러워하며, 내숭을 떨며",
+    "core_image": "부채나 손으로 입가를 살짝 가리고 눈을 내리깔며 볼을 붉히는 조심스러운 미소",
+    "focus": "쑥스러워하거나 혹은 매력적으로 보이기 위해 일부러 수줍은 태도를 취함",
+    "examples": [
+      "She smiled coyly when asked about her secret romantic relationship"
+    ]
+  },
+  {
+    "id": "o_950",
+    "source": "Words Organized",
+    "category": "감정 > 부끄러움 및 민망함",
+    "word": "cringe",
+    "meaning": "(민망함이나 오글거림으로) 몸서리치다, 손발이 오그라들다",
+    "core_image": "과거에 저지른 멍청한 실수가 떠올라 온몸의 솜털이 곤두서며 목을 움츠리는 순간",
+    "focus": "부끄럽거나 민망하거나 오글거리는 기억/광경을 보고 신체적으로 위축되며 거부 반응을 보임",
+    "examples": [
+      "I cringed in acute embarrassment when I remembered the foolish mistake I made yesterday"
+    ]
+  },
+  {
+    "id": "o_951",
+    "source": "Words Organized",
+    "category": "감정 > 싫증 및 기피",
+    "word": "get sick",
+    "meaning": "싫증 나다, 질리다, 물리다",
+    "core_image": "똑같은 음식을 매일 먹어 냄새만 맡아도 숟가락을 밀어내며 고개를 돌리는 표정",
+    "focus": "지나치게 반복되는 대상이나 상황에 진저리가 나서 완전히 흥미와 의욕을 잃음",
+    "examples": [
+      "After having nothing but boiled chicken breast for weeks, I got thoroughly sick and tired of it"
+    ]
+  },
+  {
+    "id": "o_952",
+    "source": "Words Organized",
+    "category": "감정 > 싫증 및 기피",
+    "word": "loath",
+    "meaning": "~하기를 꺼리는, 몹시 마지못해 하는",
+    "core_image": "발을 뒤로 빼며 고개를 절레절레 흔들고 하기 싫은 일에 손대지 않으려는 완강한 태도",
+    "focus": "혐오감이나 강한 저항감 때문에 특정 행동을 하는 것을 극도로 꺼림",
+    "examples": [
+      "He was loath to admit that his primary thesis contained a fundamental mathematical error"
+    ]
+  },
+  {
+    "id": "o_953",
+    "source": "Words Organized",
+    "category": "감정 > 싫증 및 기피",
+    "word": "revulsion",
+    "meaning": "극도의 혐오감, 반감, 역겨움",
+    "core_image": "썩은 시체를 보았을 때 본능적으로 위장이 뒤집히며 뒷걸음질 치는 강한 거부 반응",
+    "focus": "도덕적, 미학적, 신체적으로 도저히 용납할 수 없는 끔찍한 대상에 대한 격렬한 혐오",
+    "examples": [
+      "Romantic revulsion, hatred of society, and nostalgia usually conceal a morbid concern for the other"
+    ]
+  },
+  {
+    "id": "o_954",
+    "source": "Words Organized",
+    "category": "감정 > 우울 및 외로움",
+    "word": "feel blue",
+    "meaning": "우울하다, 울적하다",
+    "core_image": "파란빛의 눅눅한 안개 속에 홀로 앉아 무기력하게 비 내리는 창밖을 바라보는 기분",
+    "focus": "활력을 잃고 마음이 차분하게 가라앉아 느끼는 쓸쓸하고 울적한 감정 상태",
+    "examples": [
+      "Rainy Monday mornings always make me feel a little blue"
+    ]
+  },
+  {
+    "id": "o_955",
+    "source": "Words Organized",
+    "category": "감정 > 우울 및 외로움",
+    "word": "depress",
+    "meaning": "우울하게 만들다, 낙담시키다",
+    "core_image": "손바닥으로 가슴을 무겁게 짓눌러 숨쉬기조차 힘들게 가라앉히는 감정의 무게",
+    "focus": "외부의 불행한 상황이나 생각이 개인의 기분을 어둡고 침울하게 짓누름",
+    "examples": [
+      "The gloomy winter weather and constant isolation depress me and drain my energy"
+    ]
+  },
+  {
+    "id": "o_956",
+    "source": "Words Organized",
+    "category": "감정 > 우울 및 외로움",
+    "word": "profound",
+    "meaning": "(감정·학문이) 깊은, 심오한",
+    "core_image": "빛조차 닿지 않는 깊은 바다 심연처럼 밑바닥을 가늠할 수 없이 깊은 공간",
+    "focus": "감정의 깊이(깊은 슬픔, 고독)나 지식의 수준이 얕지 않고 지극히 깊고 심오함",
+    "examples": [
+      "During therapy, she opened up to her deep shame, deprivation, and profound inner loneliness"
+    ]
+  },
+  {
+    "id": "o_957",
+    "source": "Words Organized",
+    "category": "감정 > 존경 및 경의",
+    "word": "homage",
+    "meaning": "(위인이나 거장에 대한) 경의, 헌사",
+    "core_image": "중세 기사가 무릎을 꿇고 왕에게 충성을 맹세하며 칼을 바치는 정중한 의식",
+    "focus": "뛰어난 업적을 남긴 예술가, 스승, 역사적 인물에게 공식적으로 바치는 깊은 존경의 표시",
+    "examples": [
+      "The young film director paid visual homage to Hitchcock throughout his thrilling masterpiece"
+    ]
+  },
+  {
+    "id": "o_958",
+    "source": "Words Organized",
+    "category": "감정 > 존경 및 경의",
+    "word": "insolent",
+    "meaning": "무례한, 버릇없는, 안하무인의",
+    "core_image": "윗사람의 훈계를 들으면서 턱을 치켜들고 팔짱을 낀 채 비웃는 오만한 태도",
+    "focus": "타인이나 권위자에 대해 기본적인 예의를 완전히 무시하고 오만방자하게 굼",
+    "examples": [
+      "The judge reprimanded the insolent defendant for contempt of court"
+    ]
+  },
+  {
+    "id": "o_959",
+    "source": "Words Organized",
+    "category": "감정 > 존경 및 경의",
+    "word": "venerable",
+    "meaning": "공경할 만한, 유서 깊은, 덕망 있는",
+    "core_image": "하얀 수염을 기른 현자가 오랜 세월의 지혜를 품고 사람들의 고개 숙인 인사를 받는 모습",
+    "focus": "고결한 인품, 오랜 연륜, 역사적 유서가 깊어 자연스럽게 존경을 자아냄",
+    "examples": [
+      "The university campus is dominated by a venerable library founded in the twelfth century"
+    ]
+  },
+  {
+    "id": "o_960",
+    "source": "Words Organized",
+    "category": "감정 > 존경 및 경의",
+    "word": "reverence",
+    "meaning": "숭배, 깊은 경외심",
+    "core_image": "거룩한 성전에 들어서며 숨을 죽이고 옷깃을 여미며 가슴에 손을 얹는 경건함",
+    "focus": "신성한 존재나 지고한 가치 앞에 서서 우러러보는 가장 순수한 형태의 공경과 두려움",
+    "examples": [
+      "The indigenous tribe treated the ancient forest with sacred reverence and care"
+    ]
+  },
+  {
+    "id": "o_961",
+    "source": "Words Organized",
+    "category": "감정 > 자신감 및 도취",
+    "word": "vanity",
+    "meaning": "헛됨, 자만심, 허영심",
+    "core_image": "화려한 옷을 입고 하루 종일 거울 속 자신의 모습에 취해 미소 짓는 가벼운 허영",
+    "focus": "실속 없는 외모, 칭찬, 물질에 집착하는 부질없는 자만심과 겉멋",
+    "examples": [
+      "Flattery appeals directly to human vanity, blinding people to harsh realities"
+    ]
+  },
+  {
+    "id": "o_962",
+    "source": "Words Organized",
+    "category": "감정 > 자신감 및 도취",
+    "word": "puff up",
+    "meaning": "자만심에 부풀다, 우쭐해지다",
+    "core_image": "복어가 몸을 풍선처럼 빵빵하게 부풀려 자신이 실제보다 훨씬 크다고 과시하는 형상",
+    "focus": "칭찬이나 작은 성공에 도취되어 오만하게 어깨를 으쓱거리며 거만해짐",
+    "examples": [
+      "Now this small group will probably start getting a little puffed up about their early investment returns"
+    ]
+  },
+  {
+    "id": "o_963",
+    "source": "Words Organized",
+    "category": "감정 > 자신감 및 도취",
+    "word": "intoxicate",
+    "meaning": "(승리·권력·감정에) 몹시 도취시키다, 취하게 하다",
+    "core_image": "달콤한 독주를 마신 듯 권력이나 승리감에 취해 눈동자가 풀리고 황홀경에 빠진 상태",
+    "focus": "알코올이나 강렬한 감정(승리감, 우월감)이 이성을 마비시키고 극도의 쾌감에 젖게 함",
+    "examples": [
+      "I was intoxicated by the triumphant fact that I had arrived in this prestigious laboratory first"
+    ]
+  },
+  {
+    "id": "o_964",
+    "source": "Words Organized",
+    "category": "감정 > 증오",
+    "word": "hatred",
+    "meaning": "증오, 극심한 미움",
+    "core_image": "가슴속에서 시커먼 불꽃이 활활 타오르며 상대방을 파괴하고 싶어 하는 적개심",
+    "focus": "특정인이나 집단에 대해 품는 가장 강렬하고 지속적인 혐오와 악의적 감정",
+    "examples": [
+      "Blind hatred between the rival political factions destroyed any chance of productive compromise"
+    ]
+  },
+  {
+    "id": "o_965",
+    "source": "Words Organized",
+    "category": "감정 > 증오",
+    "word": "ressentiment",
+    "meaning": "르상티망 (약자의 원한, 시기심에서 비롯된 가치 전도)",
+    "core_image": "강자를 직접 공격하지 못하는 약자가 속으로 독을 품고 강자의 미덕을 '악'이라 깎아내리는 심리",
+    "focus": "니체 철학 용어로, 무력감에서 비롯되어 타인의 탁월함을 증오하고 폄하하는 병적 원한",
+    "examples": [
+      "His constant cynicism toward successful peers was driven by subconscious ressentiment"
+    ]
+  },
+  {
+    "id": "o_966",
+    "source": "Words Organized",
+    "category": "감정 > 만족 및 기쁨",
+    "word": "pleased",
+    "meaning": "(결과에) 만족하는, 기뻐하는",
+    "core_image": "완성된 시험 성적표나 보고서를 받아 들고 흡족하게 고개를 끄덕이는 미소",
+    "focus": "어떤 사건이나 결과물이 자신의 기준을 충족하여 기분 좋고 흡족한 상태",
+    "examples": [
+      "I am deeply pleased with the accurate results of our joint engineering project"
+    ]
+  },
+  {
+    "id": "o_967",
+    "source": "Words Organized",
+    "category": "감정 > 만족 및 기쁨",
+    "word": "delight",
+    "meaning": "기쁨을 주다, 크게 기뻐하다",
+    "core_image": "크리스마스 선물 상자를 열어보고 아이의 눈동자가 보석처럼 반짝이며 활짝 웃는 표정",
+    "focus": "예상치 못한 아름다움이나 즐거움이 오감을 만족시키며 큰 환희를 선사함",
+    "examples": [
+      "The endless rows of ornate ornaments, statues, and paintings delighted my eyes and ears"
+    ]
+  },
+  {
+    "id": "o_968",
+    "source": "Words Organized",
+    "category": "감정 > 열정 및 분출",
+    "word": "fervent",
+    "meaning": "열렬한, 뜨거운",
+    "core_image": "활활 타오르는 용광로의 불꽃처럼 마음속에 열정이 붉게 끓어오르는 상태",
+    "focus": "신념, 기도, 사랑 등에 대해 식지 않는 열렬한 헌신과 진심 어린 열정을 바침",
+    "examples": [
+      "She made a fervent plea for international cooperation on climate change"
+    ]
+  },
+  {
+    "id": "o_969",
+    "source": "Words Organized",
+    "category": "감정 > 열정 및 분출",
+    "word": "erupt",
+    "meaning": "(감정이나 화산이) 폭발하다, 분출하다",
+    "core_image": "지하에 억눌려 있던 마그마가 지표면을 뚫고 하늘 높이 굉음과 함께 뿜어져 나오는 폭발",
+    "focus": "오랫동안 억압되었던 분노, 슬픔, 감정의 응어리가 한순간에 걷잡을 수 없이 터져 나옴",
+    "examples": [
+      "Both traumatic situations produced an explosive eruption of long-suppressed affect from governing scenes"
+    ]
+  },
+  {
+    "id": "o_970",
+    "source": "Words Organized",
+    "category": "감정 > 긍정",
+    "word": "be willing to",
+    "meaning": "기꺼이 ~할 의향이 있다",
+    "core_image": "도움을 요청받았을 때 미소를 띠며 선뜻 손을 내밀고 앞장서서 걸어 나가는 발걸음",
+    "focus": "강요에 의해서가 아니라 자발적인 호의와 적극적인 의지로 특정 행동을 행함",
+    "examples": [
+      "I am willing to go the extra mile to accomplish our team's ambitious research goals"
+    ]
+  },
+  {
+    "id": "o_971",
+    "source": "Words Organized",
+    "category": "감정 > 긍정",
+    "word": "affect",
+    "meaning": "(심리학에서의) 정동, 감정 반응",
+    "core_image": "외부 자극에 즉각 반응하여 심장 박동과 표정에 고스란히 묻어나는 원초적 감정의 물결",
+    "focus": "심리학에서 주관적으로 체험되고 신체 반응을 수반하는 원초적인 정서·감정 상태",
+    "examples": [
+      "The clinical psychologist carefully assessed the patient's flat emotional affect during the interview"
+    ]
+  },
+  {
+    "id": "o_972",
+    "source": "Words Organized",
+    "category": "감정 > 기억 및 회상",
+    "word": "hark back to",
+    "meaning": "(과거의 일을) 상기하다, 회상하다, 거슬러 올라가다",
+    "core_image": "옛날 흑백 사진첩을 펼쳐 들고 과거의 향수 어린 기억으로 시간 여행을 떠나는 시선",
+    "focus": "현재의 사건이나 디자인이 과거의 특정 스타일, 전통, 기억을 다시 떠올리게 함",
+    "examples": [
+      "The modern architecture harks back to the minimalist designs of the Bauhaus era"
+    ]
+  },
+  {
+    "id": "o_973",
+    "source": "Words Organized",
+    "category": "감정 > 기억 및 회상",
+    "word": "forgetful",
+    "meaning": "잘 잊어버리는, 건망증이 있는",
+    "core_image": "열쇠를 손에 쥐고도 어디에 두었는지 몰라 주머니를 뒤적거리며 고개를 갸우뚱하는 모습",
+    "focus": "기억력이 감퇴하거나 산만하여 일상적인 약속이나 물건의 위치를 자주 깜빡함",
+    "examples": [
+      "It is not that I am chronically forgetful; I was simply overwhelmed with deadlines that week"
+    ]
+  },
+  {
+    "id": "o_974",
+    "source": "Words Organized",
+    "category": "감정 > 기억 및 회상",
+    "word": "relive",
+    "meaning": "(과거의 경험을) 다시 체험하다, 생생하게 되살리다",
+    "core_image": "눈을 감고 과거의 감격스러웠던 순간이나 충격적인 장면 속으로 들어가 온몸으로 다시 겪는 체험",
+    "focus": "단순한 기억의 회상을 넘어 당시의 감정과 신체 감각을 현실처럼 생생하게 다시 겪어냄",
+    "examples": [
+      "In therapy, reliving traumatic scenes in a safe environment helps integrate fragmented memories"
+    ]
+  },
+  {
+    "id": "o_975",
+    "source": "Words Organized",
+    "category": "감정 > 기억 및 회상",
+    "word": "resurface",
+    "meaning": "(숨겨졌던 문제나 감정이) 다시 수면 위로 떠오르다",
+    "core_image": "물속 깊이 가라앉아 있던 잠수함이 바다 표면을 가르고 물보라를 일으키며 솟구치는 모습",
+    "focus": "해결된 줄 알았던 무의식적 갈등, 두려움, 잊혔던 이슈가 다시 현실에서 표면화됨",
+    "examples": [
+      "The deeply buried theme of powerlessness continued to resurface throughout her sessions"
+    ]
+  },
+  {
+    "id": "o_976",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "aggression",
+    "meaning": "공격성, 호전성",
+    "core_image": "이빨을 드러내고 으르렁거리며 상대방의 영역을 침범하려 달려드는 맹수의 기세",
+    "focus": "타인에게 위협을 가하거나 지배력을 행사하려는 파괴적이고 호전적인 성향",
+    "examples": [
+      "Uncontrolled competitive aggression can severely damage collaborative academic environments"
+    ]
+  },
+  {
+    "id": "o_977",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "scrupulous",
+    "meaning": "세심한, 꼼꼼한, 양심적인",
+    "core_image": "핀셋과 돋보기를 들고 서류의 오탈자 하나, 법적 조항 한 줄까지 결벽에 가깝게 검증하는 태도",
+    "focus": "도덕적으로 지극히 정직하거나 작은 디테일 하나도 놓치지 않고 철저하게 완벽을 기함",
+    "examples": [
+      "He conducted scrupulous research to ensure that every scientific citation was entirely accurate"
+    ]
+  },
+  {
+    "id": "o_978",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "obstinate",
+    "meaning": "완고한, 고집 센, 다루기 힘든",
+    "core_image": "마부가 아무리 고삐를 당겨도 네 다리를 땅에 박고 꼼짝도 하지 않는 노새의 고집",
+    "focus": "합리적인 설득이나 조언에도 불구하고 자신의 의견이나 방식을 꺾지 않고 버팀",
+    "examples": [
+      "She remained stubbornly obstinate, refusing to change her flawed experimental methodology"
+    ]
+  },
+  {
+    "id": "o_979",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "wilful",
+    "meaning": "고집불통의, 제멋대로의, 의도적인",
+    "core_image": "어른들의 경고를 무시하고 위험한 길로 홱 달려가며 제 뜻대로만 밀어붙이는 아이의 모습",
+    "focus": "타인의 충고를 일부러 무시하고 자기 고집대로만 행동하거나 의도적으로 해를 끼침",
+    "examples": [
+      "His wilful disobedience of laboratory safety protocols led to the cancellation of the project"
+    ]
+  },
+  {
+    "id": "o_980",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "rigorous",
+    "meaning": "엄격한, 혹독한, 빈틈없는",
+    "core_image": "영하의 혹한 속에서 한 치의 오차도 허용하지 않는 군사 훈련의 규율과 잣대",
+    "focus": "과학적 검증, 규칙, 테스트 기준이 조금의 허술함도 용납하지 않을 만큼 극도로 철저함",
+    "examples": [
+      "The peer-review process for this prestigious journal is notoriously demanding and rigorous"
+    ]
+  },
+  {
+    "id": "o_981",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "altruistic",
+    "meaning": "이타적인, 남을 위하는",
+    "core_image": "추위에 떠는 낯선 사람에게 아무런 대가 없이 자신의 따뜻한 코트를 벗어 덮어주는 손길",
+    "focus": "자신의 이익이나 보상을 바라지 않고 오직 타인의 행복과 안녕을 위해 헌신하는 성품",
+    "examples": [
+      "It was not a purely altruistic action; there were underlying strategic interests involved"
+    ]
+  },
+  {
+    "id": "o_982",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "easygoing",
+    "meaning": "태평한, 느긋한, 성격이 유한",
+    "core_image": "해변 해먹에 편안하게 누워 파도 소리를 들으며 어떤 걱정도 없이 미소 짓는 사람",
+    "focus": "사소한 일에 화를 내거나 조급해하지 않고 사람들과 원만하고 편안하게 어울리는 성격",
+    "examples": [
+      "His easygoing personality makes him widely popular among all his laboratory colleagues"
+    ]
+  },
+  {
+    "id": "o_983",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "tomboyish",
+    "meaning": "털털한, 톰보이 같은, 소년 같은",
+    "core_image": "치마 대신 흙 묻은 반바지를 입고 나무 위를 성큼성큼 기어오르는 활달한 소녀의 모습",
+    "focus": "조신함이나 꾸밈에 얽매이지 않고 소년처럼 활발하고 씩씩하며 거침없는 기질",
+    "examples": [
+      "She had a charmingly tomboyish style, always preferring climbing shoes and loose hoodies"
+    ]
+  },
+  {
+    "id": "o_984",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "partiality",
+    "meaning": "편애, 편파, 유별난 편애",
+    "core_image": "저울을 공평하게 두지 않고 자기가 좋아하는 쪽으로 슬그머니 손가락을 얹어 기울이는 태도",
+    "focus": "공정성을 잃고 특정 사람이나 사물에 대해 편파적으로 호감을 쏟는 불공정한 태도",
+    "examples": [
+      "The judge was accused of showing blatant partiality toward the well-connected defense attorney"
+    ]
+  },
+  {
+    "id": "o_985",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "infantile",
+    "meaning": "유아적인, 유치한, 어린아이 같은",
+    "core_image": "성인이 되어 자기 뜻대로 일이 풀리지 않자 바닥에 발을 구르며 떼를 쓰는 미성숙함",
+    "focus": "나이에 맞지 않게 극도로 미성숙하고 유치하며 충동적인 행동 양식",
+    "examples": [
+      "Resorting to personal insults during an intellectual debate is completely infantile behavior"
+    ]
+  },
+  {
+    "id": "o_986",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "reckless",
+    "meaning": "무모한, 앞뒤를 가리지 않는",
+    "core_image": "헬멧도 쓰지 않고 브레이크가 고장 난 오토바이를 타고 가속 페달을 끝까지 밟는 질주",
+    "focus": "위험이나 초래될 파멸적 결과를 전혀 개의치 않고 충동적이고 위험하게 행동함",
+    "examples": [
+      "At first glance, investing a quarter of the entire fund into a single volatile stock seemed reckless"
+    ]
+  },
+  {
+    "id": "o_987",
+    "source": "Words Organized",
+    "category": "감정 > 성향 및 인품",
+    "word": "morbid",
+    "meaning": "병적인, 음산한, 죽음에 집착하는",
+    "core_image": "어둡고 축축한 지하실에 틀어박혀 죽음, 해골, 질병에 관한 그로테스크한 그림만 그리는 심리",
+    "focus": "정상적인 범주를 벗어나 질병, 비극, 파멸 등 어둡고 부정적인 대상에 병적으로 집착함",
+    "examples": [
+      "Romantic revulsion usually conceals a morbid psychological concern for the validation of others"
+    ]
+  },
+  {
+    "id": "o_988",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 정신",
+    "word": "get carried away",
+    "meaning": "(흥분이나 분위기에) 휩쓸리다, 정신줄을 놓다",
+    "core_image": "거센 급류에 휩쓸려 배가 통제력을 잃고 강 하류로 떠내려가는 아찔한 모습",
+    "focus": "감정의 고조나 시끌벅적한 분위기에 휩쓸려 이성적 분별력을 잃고 과도한 행동을 함",
+    "examples": [
+      "It was very crowded, and I got so carried away that I took the item without paying unintentionally"
+    ]
+  },
+  {
+    "id": "o_989",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 정신",
+    "word": "pass out",
+    "meaning": "(의식을 잃고) 기절하다, 실신하다",
+    "core_image": "과로와 탈수로 인해 시야가 암전되며 힘없이 바닥으로 스르륵 쓰러지는 장면",
+    "focus": "혈압 저하나 극심한 피로, 충격으로 인해 일시적으로 뇌 기능이 멈추고 의식을 잃음",
+    "examples": [
+      "He pushed himself so hard during the marathon that he passed out right after crossing the finish line"
+    ]
+  },
+  {
+    "id": "o_990",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 피곤 및 소진",
+    "word": "feel terrible",
+    "meaning": "기분이 엉망이다, 몸 상태가 몹시 안 좋다",
+    "core_image": "일이 심각하게 꼬이거나 전신에 몸살 기운이 덮쳐 먹구름 속에 갇힌 듯한 불쾌한 감각",
+    "focus": "어떤 상황이 내 뜻대로 풀리지 않아 괴롭거나 신체 컨디션이 극도로 저하되었을 때 씀",
+    "examples": [
+      "I feel terrible about the production app crash that occurred early this morning"
+    ]
+  },
+  {
+    "id": "o_991",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 피곤 및 소진",
+    "word": "tiring",
+    "meaning": "피곤하게 만드는, 진을 빼는",
+    "core_image": "꽉 찬 만원 버스 안에서 손잡이를 잡고 한 시간 동안 서서 버티며 에너지가 바닥나는 여정",
+    "focus": "지속적인 노동이나 이동으로 인해 사람의 체력과 활력을 크게 소모시킴",
+    "examples": [
+      "Commuting by public bus for over two hours every day is thoroughly tiring"
+    ]
+  },
+  {
+    "id": "o_992",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 피곤 및 소진",
+    "word": "run out of",
+    "meaning": "~이 바닥나다, 다 떨어지다",
+    "core_image": "모래시계의 마지막 모래 알갱이가 아래로 툭 떨어지며 텅 비어버린 윗유리관",
+    "focus": "집중력, 체력, 자금, 연료 등 보유하고 있던 자원이 완전히 소진되어 0이 됨",
+    "examples": [
+      "After four hours of continuous debugging, I have completely run out of mental focus"
+    ]
+  },
+  {
+    "id": "o_993",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 무력",
+    "word": "impotent",
+    "meaning": "무력한, 힘없는, 효력이 없는",
+    "core_image": "쇠사슬에 묶여 눈앞에서 벌어지는 비극을 지켜보며 아무것도 할 수 없어 절망하는 손",
+    "focus": "상황을 변화시키거나 저항할 수 있는 물리적·정치적 힘이나 능력이 결여됨",
+    "examples": [
+      "The local authorities felt entirely impotent in the face of the unprecedented natural disaster"
+    ]
+  },
+  {
+    "id": "o_994",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 번거로움",
+    "word": "hassle",
+    "meaning": "귀찮은 일, 번거로운 상황, 골칫거리",
+    "core_image": "복잡한 서류 절차와 끝없는 대기 줄에 갇혀 실랑이를 벌이며 피로가 쌓이는 상황",
+    "focus": "시간과 노력을 불필요하게 잡아먹는 번거롭고 짜증스러운 일이나 분쟁",
+    "examples": [
+      "Renewing a passport used to be a major administrative hassle, but now it is done online"
+    ]
+  },
+  {
+    "id": "o_995",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "concerted",
+    "meaning": "(힘을 합친) 합심한, 치밀한, 계획적인",
+    "core_image": "오케스트라 단원들이 지휘자의 지휘봉에 맞춰 완벽한 화음으로 하나의 소리를 내는 협주",
+    "focus": "여러 사람이 힘을 모아 조직적으로 수행하거나 고도로 치밀하게 계획된 노력",
+    "examples": [
+      "It took a concerted effort from the entire engineering department to resolve the critical bug"
+    ]
+  },
+  {
+    "id": "o_996",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "thoroughgoing",
+    "meaning": "아주 철저한, 전면적인, 완벽한",
+    "core_image": "방바닥의 먼지를 현미경으로 찾아내듯 구석구석 단 하나의 예외도 없이 샅샅이 뒤지는 조사",
+    "focus": "겉핥기가 아니라 처음부터 끝까지 완전하고 철저하게 파헤치며 완벽을 기함",
+    "examples": [
+      "The audit committee conducted a thoroughgoing investigation into the financial discrepancies"
+    ]
+  },
+  {
+    "id": "o_997",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "painstakingly",
+    "meaning": "공들여, 각고의 노력을 기울여",
+    "core_image": "핀셋으로 부서진 고대 도자기 파편 수백 개를 하나하나 맞추며 밤을 지새우는 장인",
+    "focus": "고통스러울 정도로 지극 정성을 쏟고 세심한 주의를 기울여 정밀하게 작업함",
+    "examples": [
+      "The archivist painstakingly restored the fragile centuries-old illuminated manuscript"
+    ]
+  },
+  {
+    "id": "o_998",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "vigilant",
+    "meaning": "바짝 경계하는, 방심하지 않는",
+    "core_image": "야간 성벽 위에서 횃불을 높이 들고 어둠 속 적의 작은 움직임도 놓치지 않는 파수꾼의 눈빛",
+    "focus": "위험이나 침입을 방지하기 위해 신경을 곤두세우고 빈틈없이 주시함",
+    "examples": [
+      "The vigilant government of the Serenissima tried to limit luxury expenses by passing strict sumptuary laws"
+    ]
+  },
+  {
+    "id": "o_999",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "be wary of",
+    "meaning": "~을 경계하다, 조심하다",
+    "core_image": "풀숲에서 뱀이 나올까 봐 발밑을 조심스럽게 살피며 한 걸음씩 떼는 신중한 걸음",
+    "focus": "잠재적인 위험, 사기, 함정이 있을 수 있음을 인지하고 의심과 경계심을 늦추지 않음",
+    "examples": [
+      "Investors should always be wary of financial schemes promising abnormally high, risk-free returns"
+    ]
+  },
+  {
+    "id": "o_1000",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "fierce dedication",
+    "meaning": "맹렬한 헌신, 치열한 열정/전념",
+    "core_image": "거친 폭풍 속에서도 연구실 불을 끄지 않고 목표를 향해 모든 에너지를 불태우는 과학자의 눈빛",
+    "focus": "어떤 장애물도 뚫고 나갈 만큼 극도로 강렬하고 타협 없는 전폭적인 몰입과 희생",
+    "examples": [
+      "Her fierce dedication to medical research led to a revolutionary breakthrough in cancer treatment"
+    ]
+  },
+  {
+    "id": "o_1001",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 태도 및 행동 양식",
+    "word": "reluctantly",
+    "meaning": "마지못해, 마음에 내키지 않게",
+    "core_image": "뒤로 버티며 질질 끌려가듯 고개를 돌린 채 억지로 서명지에 펜을 가져다 대는 손",
+    "focus": "진심으로 원하지 않지만 상황적 압박이나 어쩔 수 없는 이유로 억지로 동의하거나 행함",
+    "examples": [
+      "He reluctantly accepted the unwanted promotion because it required relocating overseas"
+    ]
+  },
+  {
+    "id": "o_1002",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "study one's butt off",
+    "meaning": "미친 듯이 공부하다, 뼈를 깎는 노력을 하다",
+    "core_image": "코피를 쏟아가며 밤새 책상에 앉아 엉덩이가 짓무를 정도로 독하게 책을 파고드는 모습",
+    "focus": "시험이나 목표 달성을 위해 자신의 모든 체력과 한계를 쏟아부어 극단적으로 열심히 공부함",
+    "examples": [
+      "I studied my butt off for six consecutive months to pass the doctoral qualifying exam"
+    ]
+  },
+  {
+    "id": "o_1003",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "inquiry",
+    "meaning": "탐구, 조사, 질문",
+    "core_image": "돋보기를 들고 현미경과 기록물을 대조하며 진리를 향해 질문을 던지는 학자의 연구",
+    "focus": "진실이나 지식을 밝혀내기 위해 체계적으로 질문하고 깊이 있게 탐구하는 지적 행위",
+    "examples": [
+      "Scientific inquiry begins with careful observation and the formulation of testable hypotheses"
+    ]
+  },
+  {
+    "id": "o_1004",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "benchmark",
+    "meaning": "(기준을 세워) 비교 평가하다, 벤치마크",
+    "core_image": "측량사가 기준점 말뚝을 박아두고 다른 모든 지점의 높낮이를 정밀하게 비교 측정하는 작업",
+    "focus": "최고 수준의 표준 기준(벤치마크)을 설정하고 이를 바탕으로 시스템의 성능과 처리량을 정량 평가함",
+    "examples": [
+      "We benchmarked end-to-end training throughput on a single NVIDIA H100 as a function of parallel environments"
+    ]
+  },
+  {
+    "id": "o_1005",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "Exposition",
+    "meaning": "(이론·사상의) 명확한 서술, 해설, 전람회",
+    "core_image": "칠판에 복잡한 수식과 개념 구조도를 단계별로 명쾌하고 논리정연하게 펼쳐 보이는 강의",
+    "focus": "복잡한 주제나 이론의 핵심을 체계적이고 알기 쉽게 풀어 설명하는 학술적 서술",
+    "examples": [
+      "The professor's brilliant exposition of quantum mechanics made the elusive concept intuitive"
+    ]
+  },
+  {
+    "id": "o_1006",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "Note-taking",
+    "meaning": "(핵심을 추려내는) 압축 필기, 노트 필기",
+    "core_image": "방대한 강의 내용 중 핵심 키워드와 다이어그램만을 요약하여 노트에 압축 기록하는 손",
+    "focus": "쏟아지는 방대한 정보에서 본질적인 요점만을 추려 기억하기 쉬운 형태로 집약함",
+    "examples": [
+      "Effective note-taking is not mere transcription, but an active process of intellectual synthesis"
+    ]
+  },
+  {
+    "id": "o_1007",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "recitation",
+    "meaning": "암송, 낭독",
+    "core_image": "단상에 올라 책을 보지 않고 기억해 둔 시나 연설문을 낭랑한 목소리로 청중에게 읊는 모습",
+    "focus": "머릿속에 기억해 둔 텍스트를 소리 내어 정확하게 읊거나 사람들 앞에서 낭독함",
+    "examples": [
+      "The school ceremony concluded with a moving recitation of the national founding declaration"
+    ]
+  },
+  {
+    "id": "o_1008",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "reads",
+    "meaning": "읽을거리, 독서물",
+    "core_image": "주말 오후 편안한 소파 옆 협탁에 쌓여 있는 흥미진진한 잡지와 소설책 더미",
+    "focus": "지적 즐거움이나 교양을 위해 가볍고 재미있게 읽을 수 있는 출판물이나 기사",
+    "examples": [
+      "The summer issue of this literary magazine offers a delightful collection of compelling reads"
+    ]
+  },
+  {
+    "id": "o_1009",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 능력 및 학습/학술",
+    "word": "specifications",
+    "meaning": "(장비·인재의) 자격 요건, 상세 스펙, 사양서",
+    "core_image": "기계 부품의 정밀 치수, 전력 소모량, 재질이 빼곡히 적힌 공식 기술 사양 도면",
+    "focus": "제품이 갖추어야 할 공학적 성능 규격이나 채용 시 요구되는 학력, 자격증 등의 요건",
+    "examples": [
+      "I completed these rigorous technical certifications to acquire better career specifications"
+    ]
+  },
+  {
+    "id": "o_1010",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 의무 및 필연",
+    "word": "imperative",
+    "meaning": "반드시 해야 하는 것, 필수적인 과제, 지상 명령",
+    "core_image": "배가 침몰할 때 울리는 비상벨처럼 어떤 핑계도 대지 않고 즉시 수행해야만 하는 절대적 명령",
+    "focus": "생존, 윤리, 진화의 관점에서 피할 수 없으며 반드시 최우선으로 실행해야 하는 절대적 당위",
+    "examples": [
+      "Maintaining authentic human connection is an undeniable evolutionary imperative"
+    ]
+  },
+  {
+    "id": "o_1011",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 의무 및 필연",
+    "word": "be compelled to V",
+    "meaning": "(상황이나 내적 힘에 밀려) 어쩔 수 없이 ~해야만 한다",
+    "core_image": "등 뒤에서 거대한 파도가 밀려와 떠밀리듯 앞으로 발을 내디딜 수밖에 없는 불가항력",
+    "focus": "외부의 압력이나 통제할 수 없는 내면의 심리적 충동 때문에 강제적으로 행동하게 됨",
+    "examples": [
+      "The traumatized individual is compelled to turn to internal substitutes in default of real relationships"
+    ]
+  },
+  {
+    "id": "o_1012",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 의무 및 필연",
+    "word": "be bound to",
+    "meaning": "~할 수밖에 없다, 필연적으로 ~하게 마련이다",
+    "core_image": "정해진 롤러코스터 레일에 묶여 있어 중력에 따라 정해진 궤도 끝으로 도달할 수밖에 없는 상태",
+    "focus": "법칙, 논리적 구조, 확률상 당연한 귀결로서 예외 없이 반드시 어떤 결과에 도달함",
+    "examples": [
+      "If you invest without understanding the underlying business, you are bound to lose capital eventually"
+    ]
+  },
+  {
+    "id": "o_1013",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 의무 및 필연",
+    "word": "S cannot help V-ing",
+    "meaning": "S가 ~하지 않을 수 없다",
+    "core_image": "너무 웃긴 장면을 보고 손으로 입을 틀어막아도 웃음이 비져나오는 것을 참지 못하는 순간",
+    "focus": "강력한 본능이나 감정의 자연스러운 반응 때문에 특정 행동을 억제하지 못함",
+    "examples": [
+      "I could not help laughing when the puppy chased its own tail in circles"
+    ]
+  },
+  {
+    "id": "o_1014",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 가치 및 덕목",
+    "word": "fortitude",
+    "meaning": "(역경 속의) 불굴의 용기, 꿋꿋한 의지",
+    "core_image": "세찬 눈보라가 몰아치는 빙벽을 묵묵히 도끼로 찍으며 끝까지 전진하는 등반가의 인내",
+    "focus": "극심한 고통, 역경, 유혹 앞에서도 굴복하지 않고 묵묵히 버텨내는 내면의 강인한 도덕적 용기",
+    "examples": [
+      "She faced the grueling chemotherapy treatments with extraordinary dignity and spiritual fortitude"
+    ]
+  },
+  {
+    "id": "o_1015",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 가치 및 덕목",
+    "word": "valor",
+    "meaning": "(전쟁터에서의) 용맹, 무용, 대담한 용기",
+    "core_image": "적진의 포화 속으로 칼을 빼 들고 두려움 없이 앞장서서 돌진하는 영웅의 기개",
+    "focus": "목숨이 위태로운 전쟁이나 물리적 위험 앞에서 당당히 맞서 싸우는 대담한 영웅적 용기",
+    "examples": [
+      "The decorated soldier received the medal of honor for his conspicuous valor on the battlefield"
+    ]
+  },
+  {
+    "id": "o_1016",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 이해",
+    "word": "baffle",
+    "meaning": "도저히 이해할 수 없게 만들다, 당혹스럽게 하다",
+    "core_image": "풀리지 않는 복잡한 매듭을 쥐고 아무리 들여다봐도 시작과 끝을 알 수 없어 멍해지는 상태",
+    "focus": "너무 난해하거나 기이하여 기존의 논리로는 도저히 원인이나 구조를 파악할 수 없음",
+    "examples": [
+      "The sudden and inexplicable failure of the robust backup system completely baffled our lead engineers"
+    ]
+  },
+  {
+    "id": "o_1017",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 겉모습 및 외형",
+    "word": "face",
+    "meaning": "(사건이나 개념의) 외적 양상, 겉으로 드러나는 모습",
+    "core_image": "하나의 조각상이 빛의 각도에 따라 전혀 다른 그림자와 윤곽을 드러내는 겉모습",
+    "focus": "내재된 본질이 생애 주기나 환경에 따라 겉으로 표출되는 구체적인 형태나 특징적 양상",
+    "examples": [
+      "The psychological research examines the evolving face of shame across the entire human life cycle"
+    ]
+  },
+  {
+    "id": "o_1018",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 겉모습 및 외형",
+    "word": "ornate",
+    "meaning": "화려하게 장식된, 공들인",
+    "core_image": "금박 문양, 덩굴 조각, 보석이 빽빽하게 상감되어 눈이 부실 정도로 화려한 궁전 문",
+    "focus": "단순함을 넘어 지나칠 정도로 디테일하고 화려한 장식이 가미된 시각적 특징",
+    "examples": [
+      "The grand cathedral was adorned with ornate baroque altarpieces and gilded arches"
+    ]
+  },
+  {
+    "id": "o_1019",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 겉모습 및 외형",
+    "word": "glaring",
+    "meaning": "(결함이) 눈에 띄게 두드러진, 눈부시게 번쩍이는",
+    "core_image": "어두운 방에서 강력한 서치라이트 불빛이 결함 부위를 정면으로 비추어 숨길 수 없는 상태",
+    "focus": "조금의 주의만 기울여도 누구나 단번에 알아차릴 수 있을 만큼 너무나 명백하고 두드러짐",
+    "examples": [
+      "The published statistical report contained several glaring mathematical inconsistencies"
+    ]
+  },
+  {
+    "id": "o_1020",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 금전적",
+    "word": "lavish",
+    "meaning": "호화로운, 아낌없이 주는, 사치스러운",
+    "core_image": "분수대에서 샴페인이 쏟아져 나오고 산해진미가 넘쳐나는 억만장자의 호화 파티",
+    "focus": "돈, 자원, 칭찬을 아끼지 않고 엄청난 규모로 풍성하게 쏟아붓는 모양새",
+    "examples": [
+      "The foreign delegation was entertained with a lavish state banquet at the presidential palace"
+    ]
+  },
+  {
+    "id": "o_1021",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 금전적",
+    "word": "sumptuous",
+    "meaning": "(화려하고 값비싸서) 호사스러운, 성대한",
+    "core_image": "최고급 벨벳 커튼과 금식기가 차려진 식탁에서 맛보는 최고급 만찬의 시각적 풍요",
+    "focus": "막대한 비용이 들어가 시각적·미각적으로 극도의 화려함과 고급스러움을 자랑함",
+    "examples": [
+      "We enjoyed a sumptuous five-course feast prepared by world-renowned master chefs"
+    ]
+  },
+  {
+    "id": "o_1022",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 금전적",
+    "word": "extravagant",
+    "meaning": "(돈이나 생활이) 낭비하는, 사치스러운, 도를 넘는",
+    "core_image": "수입보다 훨씬 많은 돈을 명품 쇼핑과 도박에 펑펑 쓰며 탕진하는 방탕한 소비",
+    "focus": "분수에 맞지 않게 지나치게 돈을 많이 쓰거나 요구/주장이 상식을 벗어나 과도함",
+    "examples": [
+      "The monarch's extravagant lifestyle drained the national treasury and sparked public outrage"
+    ]
+  },
+  {
+    "id": "o_1023",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 금전적",
+    "word": "pricey",
+    "meaning": "(생각보다) 값비싼, 가격이 센",
+    "core_image": "작은 커피 한 잔의 영수증에 찍힌 가격표를 보고 눈이 휘둥그레지는 순간",
+    "focus": "품질 대비 혹은 일상적인 기대 수준보다 가격대가 부담스러울 정도로 높음",
+    "examples": [
+      "The boutique coffee shop is somewhat pricey, but the exceptional single-origin flavor justifies the cost"
+    ]
+  },
+  {
+    "id": "o_1024",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 가벼운 및 시시함",
+    "word": "casual",
+    "meaning": "가벼운, 무심한, 평상시의",
+    "core_image": "전문적인 연구서가 아니라 지하철에서 가볍게 넘겨보는 잡지 독서의 편안함",
+    "focus": "깊은 몰입이나 심각성 없이 가벼운 마음으로 대하는 태도나 방식",
+    "examples": [
+      "The article was written in an accessible style intended for casual readers rather than academic specialists"
+    ]
+  },
+  {
+    "id": "o_1025",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 가벼운 및 시시함",
+    "word": "rashly",
+    "meaning": "경솔하게, 무모하게 성급히",
+    "core_image": "바닥의 깊이도 확인하지 않고 무작정 흙탕물 속으로 풍덩 뛰어드는 성급한 행동",
+    "focus": "충분한 분석이나 심사숙고 없이 충동적이고 부주의하게 행동을 감행함",
+    "examples": [
+      "At first glance, putting twenty-five percent of the portfolio into a single stock seems like gambling rashly"
+    ]
+  },
+  {
+    "id": "o_1026",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 가벼운 및 시시함",
+    "word": "frivolous",
+    "meaning": "시시한, 하찮은, 경박한",
+    "core_image": "인생의 중대한 시험을 앞두고 시시콜콜한 가십거리나 장난감에 한눈을 파는 경박함",
+    "focus": "진지한 가치나 실용적 의미가 없고 시간 낭비에 불과할 정도로 가볍고 사소함",
+    "examples": [
+      "His austere parents considered celebrating birthday parties to be a frivolous waste of time"
+    ]
+  },
+  {
+    "id": "o_1027",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 무거운 및 심각함",
+    "word": "dire",
+    "meaning": "대단히 심각한, 끔찍한, 절망적인",
+    "core_image": "모든 식량이 바닥나고 도시 전체가 포위된 채 다가오는 파멸의 먹구름",
+    "focus": "상황이 극도로 위급하고 파멸적 결과를 초래할 수 있을 만큼 대단히 심각함",
+    "examples": [
+      "The humanitarian organization warned of dire consequences if food supplies do not arrive immediately"
+    ]
+  },
+  {
+    "id": "o_1028",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 무거운 및 심각함",
+    "word": "far-reaching",
+    "meaning": "지대한 영향을 가져올, 광범위한",
+    "core_image": "호수에 던진 작은 돌멩이 하나의 파문이 퍼져나가 호수 반대편 해안선 전체를 흔드는 모습",
+    "focus": "단기적인 영향에 그치지 않고 미래와 사회 전반에 걸쳐 광범위하고 깊은 파급효과를 낳음",
+    "examples": [
+      "The introduction of generative AI will have far-reaching implications for global labor markets"
+    ]
+  },
+  {
+    "id": "o_1029",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "awful",
+    "meaning": "역겨운, 끔찍한, 지독한",
+    "core_image": "코를 찌르는 썩은 하수구 냄새에 미간을 찌푸리며 손으로 코를 막는 불쾌감",
+    "focus": "질이나 냄새, 품질이 극도로 형편없어 심한 불쾌감과 혐오를 유발함",
+    "examples": [
+      "The air inside the unventilated subway compartment smelled completely awful"
+    ]
+  },
+  {
+    "id": "o_1030",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "baleful",
+    "meaning": "악의적인, 해로운, 불길한",
+    "core_image": "어둠 속에서 번뜩이는 독사의 눈빛처럼 상대방에게 재앙을 가져올 듯한 흉흉한 기운",
+    "focus": "숨겨진 악의를 품고 있거나 타인에게 실질적인 해악이나 불행을 가져오는 성질",
+    "examples": [
+      "He cast a baleful glance toward his political rival across the parliamentary floor"
+    ]
+  },
+  {
+    "id": "o_1031",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "atrocious",
+    "meaning": "형편없는, 극악무도한, 잔혹한",
+    "core_image": "피바다가 된 학살 현장의 참상이나 도저히 봐줄 수 없을 정도로 엉망진창인 그림",
+    "focus": "도덕적으로 지극히 사악하고 잔혹하거나 결과물의 품질이 눈 뜨고 볼 수 없을 만큼 조악함",
+    "examples": [
+      "The dictator committed atrocious human rights violations against innocent civilian populations"
+    ]
+  },
+  {
+    "id": "o_1032",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "eyesore",
+    "meaning": "흉물스러운 것, 눈에 거슬리는 것",
+    "core_image": "아름다운 해변 풍경 한가운데 흉물스럽게 녹슬고 방치된 폐차와 쓰레기더미",
+    "focus": "주변 경관의 미관을 심각하게 해쳐 바라보는 사람의 눈살을 찌푸리게 만드는 대상",
+    "examples": [
+      "The abandoned rusty billboard on the street corner has become an intolerable eyesore for the neighborhood"
+    ]
+  },
+  {
+    "id": "o_1033",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "diabolical",
+    "meaning": "끔찍한, 악마 같은, 교활한",
+    "core_image": "지하 지옥의 악마가 사람들을 함정에 빠뜨리기 위해 사악한 미소를 지으며 판 함정",
+    "focus": "악마처럼 극도로 사악하거나 사람을 지독하게 괴롭힐 만큼 끔찍하고 교활함",
+    "examples": [
+      "The serial killer devised a diabolical plot that baffled law enforcement for decades"
+    ]
+  },
+  {
+    "id": "o_1034",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "grotesque",
+    "meaning": "기괴한, 흉측한, 기형적인",
+    "core_image": "신체 부위가 뒤틀리고 괴물처럼 일그러져 공포와 혐오감을 자아내는 괴기한 형태",
+    "focus": "자연스러운 조화와 비례를 흉측하게 왜곡하여 낯설고 충격적인 불쾌감을 주는 모양새",
+    "examples": [
+      "The medieval gargoyles perched on the roof were carved into frighteningly grotesque creatures"
+    ]
+  },
+  {
+    "id": "o_1035",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "sloppy",
+    "meaning": "(일이나 태도가) 엉성한, 대충 하는, 조잡한",
+    "core_image": "페인트를 벽에 덜렁덜렁 흘려놓고 붓 자국도 제대로 정리하지 않은 채 끝낸 부실 공사",
+    "focus": "세부 사항에 주의를 기울이지 않고 게으르고 무성의하게 처리하여 완성도가 떨어짐",
+    "examples": [
+      "The code was full of syntax bugs because it was written in an inexcusably sloppy manner"
+    ]
+  },
+  {
+    "id": "o_1036",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 나쁜 및 부실함",
+    "word": "seedy",
+    "meaning": "(장소가) 지저분한, 허름한, (사람이) 꾀죄죄한",
+    "core_image": "네온사인이 깜빡이고 쓰레기가 뒹구는 후미진 뒷골목의 낡고 수상쩍은 모텔",
+    "focus": "도덕적으로 불건전해 보이거나 시설이 낡고 불결하여 으슥하고 음침한 분위기",
+    "examples": [
+      "We accidentally wandered into a seedy neighborhood near the abandoned industrial docks"
+    ]
+  },
+  {
+    "id": "o_1037",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수준",
+    "word": "cheesy",
+    "meaning": "유치한, 촌스러운, 싸구려 티 나는",
+    "core_image": "삼류 로맨스 영화에서 억지 눈물을 짜내기 위해 등장하는 뻔하고 오글거리는 대사",
+    "focus": "독창성이나 품격이 없고 지나치게 상투적이어서 낯뜨겁고 유치한 느낌",
+    "examples": [
+      "The television commercial was far too cheesy with its melodramatic acting and canned laughter"
+    ]
+  },
+  {
+    "id": "o_1038",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수준",
+    "word": "second-rate",
+    "meaning": "이류의, 질이 떨어지는, 평범한",
+    "core_image": "명품 전시관 옆 골목에서 파는 마감이 엉성하고 조악한 짝퉁 모조품",
+    "focus": "최고 수준(일류)에 미치지 못하고 어딘가 결함이 있거나 수준이 떨어지는 상태",
+    "examples": [
+      "The second-rate books she devoured in her youth destroyed her spontaneous intellectual taste"
+    ]
+  },
+  {
+    "id": "o_1039",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수준",
+    "word": "mediocre",
+    "meaning": "보통밖에 안 되는, 그저 그런, 썩 좋지는 않은",
+    "core_image": "수백 개의 양산형 제품 사이에 섞여 있어 아무런 개성도 감동도 주지 못하는 평범함",
+    "focus": "눈에 띄는 장점도 결점도 없이 그냥 평범하고 중간 수준에 머물러 실망스러움",
+    "examples": [
+      "Despite the massive production budget, the sequel turned out to be an utterly mediocre film"
+    ]
+  },
+  {
+    "id": "o_1040",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수준",
+    "word": "mean",
+    "meaning": "하찮은, 비천한, 인색한",
+    "core_image": "웅장한 궁전 문지방 아래 흙탕물에 뒹구는 보잘것없고 초라한 돌멩이",
+    "focus": "신분이나 가치가 보잘것없이 비천하거나 성품이 옹졸하고 인색하여 천박함",
+    "examples": [
+      "Whatever the fictional characters may be—real or illusory—they are certainly not mean or trivial"
+    ]
+  },
+  {
+    "id": "o_1041",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 난이도",
+    "word": "breeze",
+    "meaning": "식은 죽 먹기, 아주 쉬운 일, 산들바람",
+    "core_image": "부드러운 봄바람을 등 뒤에서 맞으며 땀 한 방울 흘리지 않고 가볍게 언덕을 넘는 발걸음",
+    "focus": "특별한 노력이나 저항 없이 손쉽고 수월하게 해결할 수 있는 일",
+    "examples": [
+      "Passing the preliminary driving test was an absolute breeze for the experienced driver"
+    ]
+  },
+  {
+    "id": "o_1042",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 속도",
+    "word": "prudent",
+    "meaning": "신중한, 조심성 있는, 현명한",
+    "core_image": "살얼음판을 걷기 전 긴 지팡이로 얼음 두께를 일일이 두드려 확인하는 여행자",
+    "focus": "충동을 억제하고 미래의 위험과 결과를 냉철하게 계산하여 행동하는 현명함",
+    "examples": [
+      "It is prudent to maintain an emergency cash reserve during periods of macroeconomic uncertainty"
+    ]
+  },
+  {
+    "id": "o_1043",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 속도",
+    "word": "alert",
+    "meaning": "기민한, 경계 태세를 갖춘, 바짝 긴장한",
+    "core_image": "야간 숲속에서 귀를 쫑긋 세우고 미세한 바스락 소리에도 즉시 반응하는 사슴",
+    "focus": "위험이나 돌발 상황에 즉각 대처할 수 있도록 감각과 주의력이 바짝 곤두서 있는 상태",
+    "examples": [
+      "The security guard stayed fully alert throughout the critical nighttime surveillance shift"
+    ]
+  },
+  {
+    "id": "o_1044",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 속도",
+    "word": "sluggish",
+    "meaning": "(움직임이나 반응이) 느릿느릿한, 둔한, 활력 없는",
+    "core_image": "추운 겨울날 진흙탕 위를 무겁게 기어가는 달팽이의 답답한 속도",
+    "focus": "혈액 순환이나 기계의 동작, 시장의 반응이 활력을 잃고 굼뜨게 움직임",
+    "examples": [
+      "The server performance became sluggish due to an unexpected surge in network traffic"
+    ]
+  },
+  {
+    "id": "o_1045",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 유리",
+    "word": "in our favor",
+    "meaning": "우리에게 유리한, 우리 편인",
+    "core_image": "불어오는 순풍이 우리 배의 돛을 힘차게 밀어주어 경쟁자보다 앞서 나가게 돕는 형세",
+    "focus": "상황, 판결, 통계 수치가 나에게 이익이 되고 성공 가능성을 높여주는 방향으로 작용함",
+    "examples": [
+      "The latest legal precedents and statistical evidence are overwhelmingly in our favor"
+    ]
+  },
+  {
+    "id": "o_1046",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 독보적",
+    "word": "without parallel",
+    "meaning": "비할 데 없는, 견줄 데가 없는, 독보적인",
+    "core_image": "높이 솟은 에베레스트 정상 옆에 나란히 설 수 있는 산봉우리가 주변에 전혀 없는 독보성",
+    "focus": "동급의 어떤 경쟁자나 비교 대상도 따라올 수 없을 만큼 압도적으로 독보적임",
+    "examples": [
+      "Chronic toxic shame is without parallel a debilitating sickness of the human soul"
+    ]
+  },
+  {
+    "id": "o_1047",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 독보적",
+    "word": "prohibitive",
+    "meaning": "(비용이나 조건이) 엄두도 못 낼 정도로 과도한",
+    "core_image": "성문 앞에 거대한 장벽이 세워지고 통행료로 금괴 한 상자를 요구하여 진입을 포기하게 만드는 모습",
+    "focus": "가격이나 진입 장벽이 너무나 터무니없이 높아 사람들의 시도 자체를 원천 차단함",
+    "examples": [
+      "The prohibitive cost of real estate in downtown Silicon Valley forces young engineers to commute"
+    ]
+  },
+  {
+    "id": "o_1048",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 지저분",
+    "word": "seedy",
+    "meaning": "(장소가) 허름한, 지저분한, 수상쩍은",
+    "core_image": "벽지가 찢어지고 페인트가 벗겨진 채 음산한 불빛이 깜빡이는 후미진 바",
+    "focus": "위생 상태가 불량하고 사회적으로 위험하거나 퇴폐적인 분위기를 풍김",
+    "examples": [
+      "They decided to avoid the seedy bar located in the dark alley behind the railway station"
+    ]
+  },
+  {
+    "id": "o_1049",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 호감",
+    "word": "like",
+    "meaning": "맘에 들다, 좋아하다",
+    "core_image": "예쁜 물건을 보았을 때 입가에 미소가 번지며 손을 뻗어 만져보고 싶어 하는 본능적 호감",
+    "focus": "복잡한 논리적 평가보다는 주관적인 취향과 감정에 따라 자연스럽게 마음에 들어 함",
+    "examples": [
+      "I really like the clean visual design of the new user interface"
+    ]
+  },
+  {
+    "id": "o_1050",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "be happy with",
+    "meaning": "(결과물에) 만족하다, 이 정도면 충분하다고 여기다",
+    "core_image": "완성된 프로젝트 체크리스트의 모든 항목에 체크 표시를 하고 승인 도장을 찍는 결재",
+    "focus": "단순한 감정적 선호를 넘어 결과물의 품질이나 수치가 자신의 기준을 온전히 충족함",
+    "examples": [
+      "The engineering lead is thoroughly happy with the accuracy and latency of the predictive model"
+    ]
+  },
+  {
+    "id": "o_1051",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "signature",
+    "meaning": "대표작, 특기, 간판 메뉴, 시그니처",
+    "core_image": "화가가 그림 귀퉁이에 자신의 고유한 서명을 남겨 독창적 정체성을 입증하는 인장",
+    "focus": "특정 인물이나 브랜드를 단번에 상징하고 차별화해 주는 독보적인 대표작이나 특기",
+    "examples": [
+      "Hand-dripped Geisha coffee is the signature beverage of this specialty café"
+    ]
+  },
+  {
+    "id": "o_1052",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "unworthy",
+    "meaning": "(인정받을) 자격이 없는, 가치 없는",
+    "core_image": "왕관을 쓸 자격이 없어 고개를 숙이고 왕좌 앞에서 물러나는 죄인의 심리",
+    "focus": "도덕적, 신분적, 능력 면에서 어떤 혜택이나 사랑, 지위를 누릴 만한 가치가 결여됨",
+    "examples": [
+      "Imposter syndrome makes accomplished professionals feel unworthy of their legitimate success"
+    ]
+  },
+  {
+    "id": "o_1053",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "undeserving",
+    "meaning": "(보상을) 받을 자격이 없는",
+    "core_image": "일하지 않고 게으름을 피우다가 남들이 흘린 땀의 결실을 가로채려는 뻔뻔함",
+    "focus": "노력이나 인품 면에서 정당한 자격을 갖추지 못해 칭찬이나 보상을 받을 가치가 없음",
+    "examples": [
+      "He felt undeserving of the prestigious scholarship because he had cheated on the entrance test"
+    ]
+  },
+  {
+    "id": "o_1054",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "perverse",
+    "meaning": "비뚤어진, 삐딱한, 상도에 어긋난",
+    "core_image": "모두가 직진할 때 일부러 가시밭길로 핸들을 꺾으며 남들이 다치는 것을 즐기는 삐딱함",
+    "focus": "상식이나 도덕적 바른길을 고의로 거부하고 비뚤어지고 왜곡된 방식으로 행동함",
+    "examples": [
+      "It takes a perverse kind of pleasure to deliberately ruin another colleague's hard work"
+    ]
+  },
+  {
+    "id": "o_1055",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기준 및 자격",
+    "word": "disproportionate",
+    "meaning": "불균형한, 어울리지 않게 과도한",
+    "core_image": "몸체는 작은데 머리만 비정상적으로 거대하게 자라나 휘청거리는 저울의 불균형",
+    "focus": "전체 비율이나 원인에 비해 결과, 크기, 영향력이 지나치게 한쪽으로 치우쳐 과도함",
+    "examples": [
+      "The small startup captured a disproportionate share of total industry venture capital profits"
+    ]
+  },
+  {
+    "id": "o_1056",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "have a conversation",
+    "meaning": "깊은 대화를 나누다",
+    "core_image": "두 사람이 마주 앉아 온기를 느끼며 말과 마음의 결을 주고받는 정취",
+    "focus": "단순한 정보 교환(talk)을 넘어 서로의 존재를 느끼며 유기적으로 교감하는 깊은 대화",
+    "examples": [
+      "We sat by the fireplace and had a long, meaningful conversation about our future plans"
+    ]
+  },
+  {
+    "id": "o_1057",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "quip",
+    "meaning": "재치 있게 말하다, 신랄하게 꼬집다",
+    "core_image": "대화 도중 날카롭고 유머러스한 펀치라인 한마디를 툭 던져 좌중을 폭소케 하는 센스",
+    "focus": "짧고 기발하며 유머러스한 기지를 발휘하여 순발력 있게 대답하거나 촌철살인을 던짐",
+    "examples": [
+      "When asked about his aging appearance, the actor quipped that wrinkles were medals of experience"
+    ]
+  },
+  {
+    "id": "o_1058",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "thought out loud",
+    "meaning": "생각을 혼잣말로 입 밖에 내뱉다",
+    "core_image": "머릿속에서 혼자 굴리던 생각이 필터를 거치지 않고 입술 밖으로 툭 튀어나오는 순간",
+    "focus": "타인에게 전달하려던 의도 없이 혼자 하던 생각을 무의식중에 소리 내어 말해버림",
+    "examples": [
+      "I didn't mean to criticize your proposal; I was merely thinking out loud"
+    ]
+  },
+  {
+    "id": "o_1059",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "might as well say",
+    "meaning": "(차라리/기왕 이렇게 된 거) ~라고 말하는 편이 낫겠다/다름없다",
+    "core_image": "억지 주장을 펴는 상대에게 비유를 들어 '그럴 거면 차라리 해가 서쪽에서 뜬다고 해라'고 반박하는 모습",
+    "focus": "논리의 모순이나 극단적인 상황을 비꼬며 차라리 그렇게 말하는 것이나 매한가지임을 강조",
+    "examples": [
+      "Why, you might just as well say that seeing what I eat is the identical thing as eating what I see"
+    ]
+  },
+  {
+    "id": "o_1060",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "say",
+    "meaning": "(문서나 표지판에) ~라고 적혀 있다, ~라는 내용이다",
+    "core_image": "도로 표지판이나 문자 메시지 화면에 굵은 글씨로 내용이 또렷하게 인쇄된 모습",
+    "focus": "텍스트, 안내문, 문자 메시지가 특정 메시지나 지시 사항을 담고 있음을 나타냄",
+    "examples": [
+      "I received a text message saying that the taxi was on its way, but it never arrived"
+    ]
+  },
+  {
+    "id": "o_1061",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "The best part of ~ is that ~",
+    "meaning": "~의 가장 훌륭한 점은 바로 ~이다",
+    "core_image": "케이크에서 가장 달콤한 딸기 토핑 한 조각을 콕 집어 올리며 미소 짓는 순간",
+    "focus": "수많은 특징들 가운데 가장 만족스럽고 매력적인 핵심 하이라이트를 강조함",
+    "examples": [
+      "The best part of talking longer during lunch is that it gives my dining partner time to finish eating"
+    ]
+  },
+  {
+    "id": "o_1062",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "To the best of my knowledge",
+    "meaning": "제가 아는 한도 내에서는, 저의 앎에 비추어 볼 때",
+    "core_image": "자신이 읽고 검토한 지식 서고의 책들을 머릿속으로 훑어보며 신중하게 증언하는 태도",
+    "focus": "자신의 기억과 지식의 한계를 솔직히 인정하면서 신중하게 진술의 정확성을 담보함",
+    "examples": [
+      "To the best of my knowledge, no prior clinical trials have reported such adverse side effects"
+    ]
+  },
+  {
+    "id": "o_1063",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 대화 및 표현",
+    "word": "admit to",
+    "meaning": "(잘못이나 비밀을) 인정하다, 고백하다",
+    "core_image": "숨기고 있던 비밀 주머니를 열어 그 안에 든 내용물을 솔직하게 털어놓는 순간",
+    "focus": "꺼림칙하거나 부끄러운 진실, 비밀스러운 기법이나 잘못을 솔직하게 시인함",
+    "examples": [
+      "At intimate cocktail parties, they will occasionally admit to attractive peers what their real technique is"
+    ]
+  },
+  {
+    "id": "o_1064",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 주장 및 선언",
+    "word": "lay claim to",
+    "meaning": "~에 대한 권리를 공식 주장하다",
+    "core_image": "새로운 대륙의 해변에 자기 가문의 깃발을 꽂으며 이 땅이 자신의 소유임을 만천하에 선포함",
+    "focus": "영토, 재산, 명예, 저작권 등에 대해 법적·도덕적 정당한 소유권을 공식 요구함",
+    "examples": [
+      "Several European nations laid conflicting claims to the newly discovered maritime territory"
+    ]
+  },
+  {
+    "id": "o_1065",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 주장 및 선언",
+    "word": "affirm",
+    "meaning": "(진실임을) 단언하다, 확언하다, 긍정하다",
+    "core_image": "법정에서 오른손을 들고 자신의 진술이 한 점 거짓 없는 진실임을 엄숙히 천명하는 모습",
+    "focus": "어떤 사실, 권리, 신념이 확고부동한 진실임을 대중 앞에서 명백하게 밝혀 확인함",
+    "examples": [
+      "It increases the mediator’s prestige by forcing him to affirm openly his legitimate right of possession"
+    ]
+  },
+  {
+    "id": "o_1066",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 주장 및 선언",
+    "word": "proclaim",
+    "meaning": "(공식적으로 널리) 선언하다, 공포하다",
+    "core_image": "성문 위에서 나팔수가 나팔을 불고 전령이 두루마리를 펼쳐 왕의 칙령을 큰 소리로 낭독함",
+    "focus": "중요한 법령, 승리, 독립, 진실을 사회 전체가 알 수 있도록 대대적으로 널리 알림",
+    "examples": [
+      "The president stepped up to the podium to proclaim a national day of thanksgiving"
+    ]
+  },
+  {
+    "id": "o_1067",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 주장 및 선언",
+    "word": "espouse",
+    "meaning": "(사상·정책을) 옹호하다, 신봉하다, 지지하다",
+    "core_image": "자신이 믿는 신념의 깃발을 가슴에 품고 군중 앞에서 그 가치를 열정적으로 대변하는 자세",
+    "focus": "특정 주의, 학설, 가치관, 정책을 적극적으로 지지하고 자신의 것으로 받아들임",
+    "examples": [
+      "The political philosopher continued to espouse progressive democratic principles throughout his career"
+    ]
+  },
+  {
+    "id": "o_1068",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 영향 및 권력",
+    "word": "exercisable",
+    "meaning": "(권리·옵션 등을) 행사할 수 있는, 실행 가능한",
+    "core_image": "금고에 보관된 주식 매수 청구권 증서를 꺼내 시장에서 실제 주식으로 바꿀 수 있는 상태",
+    "focus": "법적 권리나 계약상 옵션을 실제 효력으로 발휘하여 이익을 실현할 수 있는 조건",
+    "examples": [
+      "At the current market price, the stock options have no immediately exercisable financial value"
+    ]
+  },
+  {
+    "id": "o_1069",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 영향 및 권력",
+    "word": "belittle",
+    "meaning": "(남의 성과를) 하찮게 만들다, 깎아내리다, 비하하다",
+    "core_image": "상대방이 쌓아 올린 웅장한 건축물을 향해 손가락질하며 모래성에 불과하다고 조롱하는 태도",
+    "focus": "타인의 업적, 가치, 인격을 고의로 과소평가하여 보잘것없는 것으로 격하시킴",
+    "examples": [
+      "Do not belittle her remarkable achievements simply because you feel professional jealousy"
+    ]
+  },
+  {
+    "id": "o_1070",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 영향 및 권력",
+    "word": "wield",
+    "meaning": "(권력·무기·도구를) 휘두르다, 능숙하게 행사하다",
+    "core_image": "왕이 보좌에 앉아 금빛 홀(권장)을 높이 치켜들며 군사들에게 명령을 하달하는 위세",
+    "focus": "무기나 막강한 권력, 권위, 영향력을 자신의 의도대로 자유자재로 행사함",
+    "examples": [
+      "Senior clinicians too often wield the accusation of counter-transference to shame vulnerable novice therapists"
+    ]
+  },
+  {
+    "id": "o_1071",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "quarrel",
+    "meaning": "(사소한 일로) 다투다, 언쟁을 벌이다",
+    "core_image": "두 이웃이 담장 너머로 서로를 삿대질하며 얼굴을 붉히고 큰 소리로 말다툼하는 장면",
+    "focus": "사소한 오해나 이해관계로 인해 감정이 상하여 격렬한 언어적 싸움을 벌임",
+    "examples": [
+      "The siblings frequently quarrel over trivial household chores but make peace quickly"
+    ]
+  },
+  {
+    "id": "o_1072",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "turn on",
+    "meaning": "(우호적이던 상대가 갑자기) 공격하다, 등을 돌리다",
+    "core_image": "온순하게 따르던 사냥개가 갑자기 눈빛을 바꾸고 주인을 향해 이빨을 드러내며 물어뜯는 순간",
+    "focus": "아군이나 동료였던 존재가 돌변하여 적대적인 태도로 표변하고 공격을 가함",
+    "examples": [
+      "At first the pack members were friendly, but suddenly they turned on her with shocking ferocity"
+    ]
+  },
+  {
+    "id": "o_1073",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "have a word",
+    "meaning": "(따지거나 조언하기 위해) 한마디 하다, 잠깐 이야기하다",
+    "core_image": "소란을 피우는 사람의 어깨를 툭 치며 조용한 구석으로 데려가 낮은 목소리로 엄중히 경고함",
+    "focus": "불만을 제기하거나 훈계를 주기 위해 상대방과 단둘이 진지하게 이야기를 나눔",
+    "examples": [
+      "The passenger was listening to music far too loudly, so I went over and had a firm word with him"
+    ]
+  },
+  {
+    "id": "o_1074",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "tackle",
+    "meaning": "(곤란한 문제나 사람에게) 따지다, 맞붙어 해결하려 들다",
+    "core_image": "미식축구 수비수가 공을 쥐고 달리는 거구를 온몸으로 끌어안고 그라운드에 쓰러뜨리는 결단",
+    "focus": "피하지 않고 정면으로 어려운 과제나 골치 아픈 사람에게 달려들어 담판을 짓거나 해결함",
+    "examples": [
+      "We need to tackle these overdue household chores before the weekend guests arrive"
+    ]
+  },
+  {
+    "id": "o_1075",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "denounce",
+    "meaning": "(부당함을) 맹렬히 비난하다, 고발하다",
+    "core_image": "군중 앞에서 비리 정치인의 이름을 지목하며 삿대질과 함께 죄상을 낱낱이 성토하는 연설",
+    "focus": "불법이나 부도덕한 행위를 대중 앞에서 공개적으로 통렬하게 규탄하고 고발함",
+    "examples": [
+      "The human rights group stepped forward to denounce the government's illegal wiretapping program"
+    ]
+  },
+  {
+    "id": "o_1076",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "condemnation",
+    "meaning": "(도덕적·법적) 비난, 유죄 선고",
+    "core_image": "판사가 법봉을 세 번 내리치며 피고인의 반인륜적 범죄에 대해 엄중한 유죄를 선언함",
+    "focus": "사회적, 종교적, 법적으로 특정 행위를 극도로 사악하다고 공식 규정하고 규탄함",
+    "examples": [
+      "The international community issued a unanimous condemnation of the unprovoked military aggression"
+    ]
+  },
+  {
+    "id": "o_1077",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "be told off",
+    "meaning": "(어른이나 상관에게) 꾸중을 듣다, 야단맞다",
+    "core_image": "잘못을 저지르고 주머니에 손을 찌른 채 고개를 푹 숙이고 무서운 호통을 듣는 아이의 모습",
+    "focus": "규율을 어기거나 위험한 행동을 하여 권위자로부터 엄한 꾸중과 질책을 받음",
+    "examples": [
+      "I was told off by the bus driver when I ran onto the dangerous road to catch the moving bus"
+    ]
+  },
+  {
+    "id": "o_1078",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "afflict",
+    "meaning": "(질병이나 고통이) 괴롭히다, 고통을 주다",
+    "core_image": "무거운 질병의 족쇄가 발목을 옥죄어 환자를 침상에서 끊임없이 앓게 만드는 고통",
+    "focus": "만성 질환, 빈곤, 재난 등이 개인이나 사회를 지속적으로 짓누르며 큰 괴로움을 줌",
+    "examples": [
+      "Severe arthritis continues to afflict elderly residents during the damp winter months"
+    ]
+  },
+  {
+    "id": "o_1079",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "pester",
+    "meaning": "성가시게 조르다, 끊임없이 귀찮게 굴다",
+    "core_image": "귀가에서 왱왱거리며 날아다니는 모기처럼 쉬지 않고 다가와 칭얼거리며 귀찮게 하는 행동",
+    "focus": "상대방이 질릴 정도로 집요하게 부탁하거나 질문을 던져 피곤하게 만듦",
+    "examples": [
+      "The persistent journalists pestered the celebrity with intrusive personal questions at the airport"
+    ]
+  },
+  {
+    "id": "o_1080",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "make peace",
+    "meaning": "(싸움을 끝내고) 화해하다, 평화를 맺다",
+    "core_image": "총을 바닥에 내려놓고 두 진영의 지휘관이 악수를 나누며 평화 조약에 서명하는 순간",
+    "focus": "갈등과 반목을 종식하고 상호 간의 우호적인 관계를 다시 회복함",
+    "examples": [
+      "After months of bitter estrangement, the two estranged brothers finally met to make peace"
+    ]
+  },
+  {
+    "id": "o_1081",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 싸움 및 갈등",
+    "word": "triumph",
+    "meaning": "(위대한 승리와) 업적, 승리감",
+    "core_image": "마라톤 결승선을 1위로 통과하며 두 팔을 하늘 높이 번쩍 치켜들고 환호하는 승리자",
+    "focus": "온갖 역경과 장애물을 극복하고 거둔 장엄하고 찬란한 최종적 승리나 기념비적 성공",
+    "examples": [
+      "The eradication of the deadly epidemic was hailed as a magnificent triumph of modern medical science"
+    ]
+  },
+  {
+    "id": "o_1082",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 관계 및 태도",
+    "word": "turn my back on",
+    "meaning": "~을 외면하다, 저버리다, 배신하다",
+    "core_image": "도움을 청하며 손을 내미는 친구를 뒤로하고 냉정하게 등을 돌려 걸어가 버리는 뒷모습",
+    "focus": "마땅히 지켜야 할 의리, 책임, 관계를 저버리고 차갑게 외면하거나 배신함",
+    "examples": [
+      "In difficult times, I could never turn my back on the friends who supported me in my darkest hours"
+    ]
+  },
+  {
+    "id": "o_1083",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 관계 및 태도",
+    "word": "disown",
+    "meaning": "(가족과) 의절하다, 연을 끊다, 부인하다",
+    "core_image": "호적부에서 이름을 빨간 줄로 지워버리고 문을 걸어 잠가 자식의 출입을 금지하는 단절",
+    "focus": "부모나 가족이 특정 구성원과의 법적·혈연적 관계를 공식적으로 파기하고 내쫓음",
+    "examples": [
+      "His conservative father threatened to disown him if he abandoned the family business"
+    ]
+  },
+  {
+    "id": "o_1084",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 관계 및 태도",
+    "word": "accommodate",
+    "meaning": "(요구나 편의에) 부응하다, 맞추어 주다, 수용하다",
+    "core_image": "손님의 특별한 식단 요청을 듣고 주방장이 기꺼이 맞춤형 요리를 준비해 내오는 배려",
+    "focus": "타인의 조건, 특별한 사정, 가이드라인에 맞추어 자신의 계획을 기꺼이 조정해 수용함",
+    "examples": [
+      "Please revise the manuscript to accommodate our newly updated corresponding author guidelines"
+    ]
+  },
+  {
+    "id": "o_1085",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 관계 및 태도",
+    "word": "be attended to",
+    "meaning": "(주의와 보살핌을 받아) 처리되다, 돌봄을 받다",
+    "core_image": "의사가 환자의 환부에 붕대를 감아주고 간호사가 열을 체크하며 세심하게 돌보는 장면",
+    "focus": "방치되지 않고 전문가나 타인의 지속적인 관심과 정성 어린 케어를 받음",
+    "examples": [
+      "How the wounded self actively and currently relates to the inner self must be carefully attended to"
+    ]
+  },
+  {
+    "id": "o_1086",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수여 및 헌사",
+    "word": "confer",
+    "meaning": "(학위·훈장·권한을) 수여하다, 상의하다",
+    "core_image": "총장이 단상에서 졸업생의 목에 영예로운 박사 학위 메달을 걸어주는 공식 수여식",
+    "focus": "공인된 권위나 기관이 개인에게 명예, 자격, 권한을 공식적으로 부여함",
+    "examples": [
+      "The university will confer an honorary doctorate upon the distinguished environmental activist"
+    ]
+  },
+  {
+    "id": "o_1087",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수여 및 헌사",
+    "word": "endow with",
+    "meaning": "(재능이나 특권을) 부여하다, 타고나게 하다",
+    "core_image": "요정이 요술봉을 휘둘러 갓 태어난 아기에게 천부적인 음악적 재능을 선물하는 축복",
+    "focus": "신, 자연, 조물주가 개인에게 비범한 재능, 미모, 자원을 선천적으로 풍성하게 내려줌",
+    "examples": [
+      "Nature endowed her with an exceptional intellect and an innate capacity for deep scientific curiosity"
+    ]
+  },
+  {
+    "id": "o_1088",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 수여 및 헌사",
+    "word": "tribute",
+    "meaning": "바치다, 헌사하다, (공물의) 찬사",
+    "core_image": "위대한 스승의 기념비 앞에 꽃다발을 헌화하고 묵념하며 고마움을 기리는 의식",
+    "focus": "뛰어난 인물의 희생이나 업적을 기리기 위해 공식적으로 바치는 감사의 선물이나 찬사",
+    "examples": [
+      "The commemorative concert was organized as a heartfelt tribute to the legendary composer"
+    ]
+  },
+  {
+    "id": "o_1089",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 억제, 강요, 악화",
+    "word": "check",
+    "meaning": "(세력이나 확산을) 저지하다, 억제하다, 점검하다",
+    "core_image": "둑을 쌓아 넘쳐흐르는 강물의 범람을 막아내고 수위를 안전선 아래로 통제하는 제방",
+    "focus": "위험한 세력의 팽창, 질병의 확산, 감정의 폭주를 물리적·제도적으로 억누르고 통제함",
+    "examples": [
+      "Strict institutional checks and balances are essential to prevent the abuse of executive power"
+    ]
+  },
+  {
+    "id": "o_1090",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 억제, 강요, 악화",
+    "word": "restrain",
+    "meaning": "(감정이나 행동을) 제지하다, 억누르다, 구속하다",
+    "core_image": "주먹을 쥐고 달려드는 흥분한 친구의 가슴을 양팔로 힘껏 밀어내며 진정시키는 동작",
+    "focus": "폭력적이거나 충동적인 물리적 행동, 격한 감정의 표출을 완력이나 의지로 가로막음",
+    "examples": [
+      "Security guards had to physically restrain the aggressive protestor from storming the stage"
+    ]
+  },
+  {
+    "id": "o_1091",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 억제, 강요, 악화",
+    "word": "repression",
+    "meaning": "(정치적) 탄압, (심리적) 억압",
+    "core_image": "시위대를 향해 무장 경찰이 방패로 밀어붙여 지하실로 몰아넣고 문을 잠그는 억압",
+    "focus": "독재 권력이 자유를 강제로 짓밟거나 마음이 고통스러운 기억을 무의식 밑바닥으로 억지로 밀어 넣음",
+    "examples": [
+      "Decades of severe political repression ultimately triggered a massive nationwide revolution"
+    ]
+  },
+  {
+    "id": "o_1092",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 억제, 강요, 악화",
+    "word": "impose upon",
+    "meaning": "(생각이나 부담을) 강요하다, 억지로 덮어씌우다",
+    "core_image": "무거운 짐 멍에를 상대방의 어깨에 강제로 얹어놓고 억지로 끌고 가게 만드는 강요",
+    "focus": "상대방의 동의 없이 자신의 가치관, 종교적 신념, 과중한 의무를 부당하게 씌움",
+    "examples": [
+      "Do not attempt to impose your own subjective philosophical values upon unwilling colleagues"
+    ]
+  },
+  {
+    "id": "o_1093",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 억제, 강요, 악화",
+    "word": "aggravate",
+    "meaning": "(상태를) 악화시키다, 짜증 나게 만들다",
+    "core_image": "상처 난 피부를 손톱으로 자꾸 긁어 덧나게 만들고 피를 철철 흘리게 하는 행동",
+    "focus": "이미 나쁜 질병, 갈등, 문제를 더욱 심각하게 악화시키거나 상대방의 화를 돋움",
+    "examples": [
+      "Heavy smoking and lack of sleep will drastically aggravate your chronic respiratory symptoms"
+    ]
+  },
+  {
+    "id": "o_1094",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 거부 및 회피",
+    "word": "repudiate",
+    "meaning": "(공식적으로) 거부하다, 부인하다, 인연을 끊다",
+    "core_image": "건네받은 서류를 찢어 바닥에 내팽개치며 나와는 아무 상관없는 허위라고 선언하는 결별",
+    "focus": "어떤 주장, 계약, 과거의 관계나 권위를 공식적으로 단호하게 거부하고 배척함",
+    "examples": [
+      "The scientific community swiftly moved to repudiate the fraudulent data published by the rogue lab"
+    ]
+  },
+  {
+    "id": "o_1095",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 거부 및 회피",
+    "word": "disavowal",
+    "meaning": "(책임이나 연관성에 대한) 공식적 부인, 부정",
+    "core_image": "불법 자금 스캔들이 터지자 마이크 앞에서 자신은 전혀 모르는 일이라며 손을 내젓는 성명",
+    "focus": "어떤 사건이나 행동에 대한 지식, 책임, 연관성을 전면적으로 부인하고 발뺌함",
+    "examples": [
+      "His absolute disavowal of any prior knowledge of the corruption scandal convinced nobody"
+    ]
+  },
+  {
+    "id": "o_1096",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 거부 및 회피",
+    "word": "circumvent",
+    "meaning": "(법이나 장애물을 교묘하게) 우회하다, 피하다",
+    "core_image": "정면의 검문소를 피해 샛길과 지하 통로를 이용해 경계망을 감쪽같이 빠져나가는 경로",
+    "focus": "까다로운 법 규제나 난관을 정면 돌파하지 않고 편법이나 샛길을 써서 교묘히 피해 감",
+    "examples": [
+      "The multinational corporation found a sophisticated offshore loophole for circumventing taxation laws"
+    ]
+  },
+  {
+    "id": "o_1097",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 음모 및 범죄",
+    "word": "conspiracy",
+    "meaning": "음모, 비밀 공모",
+    "core_image": "어두운 밀실에 모여 촛불 아래 지도를 펴고 정부를 전복할 계획을 소곤거리는 역모",
+    "focus": "다수의 사람이 불법적이거나 사악한 목적을 달성하기 위해 비밀리에 꾸미는 결탁",
+    "examples": [
+      "The rebels were arrested and charged with treasonous conspiracy to overthrow the legitimate government"
+    ]
+  },
+  {
+    "id": "o_1098",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 음모 및 범죄",
+    "word": "transgression",
+    "meaning": "(도덕적·법적) 위반, 규범 침범, 범죄",
+    "core_image": "금지선(Line)을 발로 밟고 넘어가 출입 금지 구역의 성역을 침범하는 위법의 순간",
+    "focus": "사회적 규범, 도덕률, 법률이 그어놓은 경계선을 고의로 침범하여 죄를 지음",
+    "examples": [
+      "Forgiveness was granted, but the ethical transgression could not be completely erased from institutional memory"
+    ]
+  },
+  {
+    "id": "o_1099",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 음모 및 범죄",
+    "word": "atrocity",
+    "meaning": "참혹 행위, 잔학 행위",
+    "core_image": "전쟁터에서 무고한 민간인 마을을 불태우고 무차별 학살을 자행하는 극악무도한 참상",
+    "focus": "인간성을 완전히 상실한 채 저지르는 대규모의 잔혹하고 끔찍한 반인륜적 범죄",
+    "examples": [
+      "The international war crimes tribunal documented the unspeakable atrocities committed during the conflict"
+    ]
+  },
+  {
+    "id": "o_1100",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기타 상호작용",
+    "word": "Go on, ride",
+    "meaning": "어서 해봐!, 달려봐! (용기를 북돋우는 응원)",
+    "core_image": "자전거를 처음 타는 아이의 등 뒤를 손으로 밀어주며 환하게 웃으며 외치는 응원",
+    "focus": "망설이는 사람에게 두려워하지 말고 과감하게 도전해 보라고 격려하고 용기를 북돋움",
+    "examples": [
+      "Don't hesitate any longer—go on, ride the wave and seize this incredible opportunity!"
+    ]
+  },
+  {
+    "id": "o_1101",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기타 상호작용",
+    "word": "take one's chances",
+    "meaning": "운에 맡기고 해보다, 모험을 걸다",
+    "core_image": "주사위를 손에 쥐고 어떤 숫자가 나올지 알 수 없지만 허공으로 과감히 던지는 승부",
+    "focus": "성공이 보장되지 않고 위험이 따르지만 결과를 운에 맡기고 과감하게 실행에 옮김",
+    "examples": [
+      "With no alternative escape route available, the refugees decided to take their chances crossing the desert"
+    ]
+  },
+  {
+    "id": "o_1102",
+    "source": "Words Organized",
+    "category": "상태 및 상황 > 기타 상호작용",
+    "word": "intruder",
+    "meaning": "불청객, 침입자",
+    "core_image": "한밤중 담장을 넘어 거실 창문을 따고 몰래 들어와 어둠 속에 숨어 있는 낯선 그림자",
+    "focus": "초대받지 않고 무단으로 타인의 사적 공간이나 영역을 침범한 불청객",
+    "examples": [
+      "The home security system detected an unauthorized intruder attempting to enter the rear gate"
+    ]
+  },
+  {
+    "id": "o_1103",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "pan",
+    "meaning": "프라이팬 (납작한 조리 기구)",
+    "core_image": "바닥이 넓고 평평하며 테두리 옆면이 낮아 기름을 두르고 스테이크를 센 불에 굽는 금속 팬",
+    "focus": "높은 열에서 수분을 날리며 재료를 빠르게 굽거나 부치고 볶을 때 사용하는 조리 기구",
+    "examples": [
+      "Heat two tablespoons of butter in a large non-stick pan over medium heat"
+    ]
+  },
+  {
+    "id": "o_1104",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "pot",
+    "meaning": "냄비 (깊고 뚜껑 있는 조리 기구)",
+    "core_image": "옆면이 깊고 양쪽에 손잡이가 달려 뚜껑을 덮고 국물이나 스튜를 보글보글 끓여내는 냄비",
+    "focus": "액체를 가두어 증발을 막으며 국물을 우려내거나 오랜 시간 삶는 용도의 조리 용기",
+    "examples": [
+      "Fill the heavy stainless steel pot with cold water and bring it to a rolling boil"
+    ]
+  },
+  {
+    "id": "o_1105",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "stir-fry",
+    "meaning": "(센 불에 재료를) 볶다, 센 불 볶음 요리",
+    "core_image": "달궈진 웍(Wok)에 기름을 두르고 야채와 고기를 주걱으로 공중에 띄우며 빠르게 볶는 손놀림",
+    "focus": "고온에서 신속하게 뒤섞으며 재료 본연의 아삭한 식감과 색감을 살려 익혀내는 조리법",
+    "examples": [
+      "Stir-fry the sliced bell peppers and tender beef strips for three minutes"
+    ]
+  },
+  {
+    "id": "o_1106",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "slice",
+    "meaning": "(칼로 얇게) 썰다, 저미다, 조각",
+    "core_image": "도마 위에 당근을 올려두고 식칼을 일정한 간격으로 내리치며 균일한 두께로 써는 동작",
+    "focus": "덩어리진 식재료를 얇고 평평한 조각 형태로 칼질하여 나누는 행위",
+    "examples": [
+      "My brother talked to me when I was slicing carrots, and I cut my finger with the knife"
+    ]
+  },
+  {
+    "id": "o_1107",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "strain well",
+    "meaning": "물기(액체)를 잘 빼다, 건져내다",
+    "core_image": "삶아진 면을 채반이나 구멍 뚫린 국자에 붓고 위아래로 털어내며 뜨거운 물기를 털어내는 동작",
+    "focus": "조리된 식재료에서 국물이나 수분을 남김없이 분리하여 건조하게 건져냄",
+    "examples": [
+      "When they rise to the surface as the water starts to simmer again, take them out and strain well with a perforated ladle"
+    ]
+  },
+  {
+    "id": "o_1108",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "be pounded into",
+    "meaning": "(두드려 빻아서) ~로 만들어지다",
+    "core_image": "절구통 안에서 쌀알을 절굿공이로 쾅쾅 찧어 고운 가루 형태로 빻아내는 과정",
+    "focus": "물리적인 충격과 압력을 가해 단단한 원료를 부수어 부드러운 가루나 반죽으로 가공함",
+    "examples": [
+      "Aromatic rice was painstakingly pounded into a soft, fine flour used in the kitchen to thicken rich soups"
+    ]
+  },
+  {
+    "id": "o_1109",
+    "source": "Words Organized",
+    "category": "삶 > 요리",
+    "word": "dust with",
+    "meaning": "(가루를) 솔솔 흩뿌리다, 살짝 덮다",
+    "core_image": "고운 체에 슈거파우더나 시나몬 가루를 담고 톡톡 쳐서 갓 구운 케이크 위에 눈처럼 뿌리는 모습",
+    "focus": "음식이나 표면에 고운 가루를 얇고 가볍게 흩뿌려 장식하거나 간을 맞춤",
+    "examples": [
+      "The freshly baked Italian pastries were generously dusted with powdered sugar and cinnamon"
+    ]
+  },
+  {
+    "id": "o_1110",
+    "source": "Words Organized",
+    "category": "삶 > 식사",
+    "word": "intake",
+    "meaning": "(음식·칼로리의) 섭취량, 유입",
+    "core_image": "식판에 담긴 음식물이 입을 통해 위장으로 들어가 하루 에너지원으로 계산되는 수치",
+    "focus": "신체나 시스템 내부로 흡수되어 들어가는 영양소, 칼로리, 공기의 물리적 투입량",
+    "examples": [
+      "I measured my exact daily calorie intake at every meal to maintain optimal athletic performance"
+    ]
+  },
+  {
+    "id": "o_1111",
+    "source": "Words Organized",
+    "category": "삶 > 생활용품",
+    "word": "Kleenex",
+    "meaning": "뽑아 쓰는 미용 티슈, 크리넥스",
+    "core_image": "사각 상자 입구에서 얇고 부드러운 하얀색 종이 티슈 한 장을 쏙 뽑아 올리는 모습",
+    "focus": "얼굴의 땀이나 화장을 닦고 코를 풀기 위해 사용하는 부드러운 일회용 티슈",
+    "examples": [
+      "Please pass me a box of Kleenex; I feel a sudden sneeze coming on"
+    ]
+  },
+  {
+    "id": "o_1112",
+    "source": "Words Organized",
+    "category": "삶 > 생활용품",
+    "word": "stuffed animal",
+    "meaning": "봉제 인형, 솜 인형",
+    "core_image": "부드러운 털 원단 속에 푹신한 솜을 가득 채우고 단추 눈을 단 귀여운 곰 인형",
+    "focus": "아이들이 품에 안고 자거나 장식용으로 두는 솜이 든 동물 모양의 패브릭 인형",
+    "examples": [
+      "The little girl refused to fall asleep without clutching her favorite stuffed animal rabbit"
+    ]
+  },
+  {
+    "id": "o_1113",
+    "source": "Words Organized",
+    "category": "삶 > 출산",
+    "word": "give birth to",
+    "meaning": "~를 낳다, 출산하다, (새로운 아이디어를) 탄생시키다",
+    "core_image": "산모가 진통 끝에 새로운 생명을 품에 안으며 세상 밖으로 아기를 출산하는 경이로운 순간",
+    "focus": "태아나 새끼를 몸 밖으로 낳아 새로운 생명체를 세상에 탄생시킴",
+    "examples": [
+      "My Golden Retriever just gave birth to six healthy, energetic puppies"
+    ]
+  },
+  {
+    "id": "o_1114",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "nod off",
+    "meaning": "(꾸벅꾸벅) 졸다, 잠이 들다",
+    "core_image": "지하철 의자나 따뜻한 강의실에 앉아 고개가 아래로 툭 떨어지며 졸음을 이기지 못하는 모습",
+    "focus": "앉아 있거나 쉬는 도중에 자신도 모르게 무의식적으로 얕은 잠에 빠져듦",
+    "examples": [
+      "The lecture was so monotonous that half the lecture hall began to nod off"
+    ]
+  },
+  {
+    "id": "o_1115",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "fall asleep",
+    "meaning": "잠에 들다 (의식에서 수면으로의 전이)",
+    "core_image": "베개에 머리를 대고 눈을 감은 채 낮 동안의 생각이 잦아들며 꿈나라 속으로 빠져드는 순간",
+    "focus": "깨어 있는 각성 상태에서 수면 상태로 전환되는 변화의 시점",
+    "examples": [
+      "I fell asleep on the subway this morning and went all the way to the final terminal station"
+    ]
+  },
+  {
+    "id": "o_1116",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "sleep",
+    "meaning": "잠을 자다 (수면 상태의 지속)",
+    "core_image": "이불을 덮고 밤새 규칙적인 숨소리를 내며 신체 피로를 회복하는 안정된 수면",
+    "focus": "생체 시계에 따라 일정 시간 동안 무의식 상태로 휴식을 취하는 행위나 상태",
+    "examples": [
+      "Healthy adults require between seven and eight hours to sleep properly each night"
+    ]
+  },
+  {
+    "id": "o_1117",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "asleep",
+    "meaning": "잠든, 자고 있는 (형용사적 상태)",
+    "core_image": "침대에 누워 외부 소리에 반응하지 않고 깊은 꿈속에 빠져 있는 평온한 상태",
+    "focus": "깨어 있지 않고 완전히 잠에 빠져 있는 주어의 신체적·정신적 상태",
+    "examples": [
+      "The exhausted infant was finally fast asleep in his wooden crib"
+    ]
+  },
+  {
+    "id": "o_1118",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "bed time",
+    "meaning": "취침 시간",
+    "core_image": "시계가 밤 11시를 가리키면 조명을 끄고 침실로 향하는 규칙적인 수면 루틴",
+    "focus": "하루를 마무리하고 잠자리에 들어야 하는 정해진 시간이나 규칙",
+    "examples": [
+      "Maintaining a consistent bed time is essential for regulating your biological circadian rhythm"
+    ]
+  },
+  {
+    "id": "o_1119",
+    "source": "Words Organized",
+    "category": "삶 > 잠",
+    "word": "late riser",
+    "meaning": "늦잠꾸러기, 아침에 늦게 일어나는 사람",
+    "core_image": "아침 10시가 넘도록 알람을 끄고 이불 속에 파묻혀 늦게 일어나는 올빼미형 인간",
+    "focus": "이른 아침에 일어나는 것을 힘들어하고 늦은 오전이나 오후에 기상하는 사람",
+    "examples": [
+      "At first it was really hard to adapt because I had been an incorrigible late riser all my life"
+    ]
+  },
+  {
+    "id": "o_1120",
+    "source": "Words Organized",
+    "category": "삶 > 일",
+    "word": "be allowed for",
+    "meaning": "~을 감안하다, 계산에 참작하다",
+    "core_image": "건축 설계도를 그릴 때 지진이나 바람의 하중 여유분을 미리 계산식에 포함해 두는 안전율",
+    "focus": "계획이나 계산을 세울 때 발생 가능한 변수, 위험 요인, 비용을 미리 예산에 반영함",
+    "examples": [
+      "These unexpected risk factors are fully allowed for in our diversified actuarial calculations"
+    ]
+  },
+  {
+    "id": "o_1121",
+    "source": "Words Organized",
+    "category": "삶 > 일",
+    "word": "commuting to and from work",
+    "meaning": "출퇴근길, 출퇴근하는 과정",
+    "core_image": "아침에는 직장으로, 저녁에는 집으로 향하는 대중교통 승강장과 도로의 인파",
+    "focus": "집과 직장 사이를 정기적으로 오가며 이동하는 일상적인 출퇴근 여정",
+    "examples": [
+      "Commuting to and from work during rush hour takes a heavy toll on daily mental energy"
+    ]
+  },
+  {
+    "id": "o_1122",
+    "source": "Words Organized",
+    "category": "삶 > 일",
+    "word": "on the way to work",
+    "meaning": "출근길에",
+    "core_image": "손에 테이크아웃 커피를 들고 지하철역 계단을 내려가며 사무실로 향하는 아침 발걸음",
+    "focus": "아침에 집에서 출발하여 직장에 도착하기 전까지의 이동 경로 상에서",
+    "examples": [
+      "I bumped into an old university classmate on the way to work this morning"
+    ]
+  },
+  {
+    "id": "o_1123",
+    "source": "Words Organized",
+    "category": "삶 > 일",
+    "word": "personal days",
+    "meaning": "(직장의) 유급 개인 연차, 개인 휴가",
+    "core_image": "업무 캘린더에 개인적인 사유(이사, 가족 행사)로 연차를 신청하고 쉬는 평일 하루",
+    "focus": "질병이 아닌 개인적인 용무를 처리하기 위해 회사에서 보장받아 사용하는 유급 휴가",
+    "examples": [
+      "Full-time employees are entitled to take up to twelve paid personal days per year"
+    ]
+  },
+  {
+    "id": "o_1124",
+    "source": "Words Organized",
+    "category": "삶 > 일",
+    "word": "sick days",
+    "meaning": "(직장의) 병가",
+    "core_image": "감기몸살로 출근하지 못하고 의사 진단서를 첨부해 결근계를 제출하는 병가 신청",
+    "focus": "질병이나 부상으로 인해 일할 수 없을 때 급여 손실 없이 쉴 수 있는 병가 일수",
+    "examples": [
+      "She used two of her allotted sick days to recover fully from severe influenza"
+    ]
+  },
+  {
+    "id": "o_1125",
+    "source": "Words Organized",
+    "category": "삶 > 실천 및 경험",
+    "word": "live out",
+    "meaning": "(관념이 아니라 삶 속에서) 온몸으로 겪어내다, 직접 실천하다",
+    "core_image": "책 속의 철학을 덮고 거리로 나와 실제 사람들과 부딪치며 감정과 행동으로 진실을 살아내는 모습",
+    "focus": "머릿속 생각이나 이론을 현실의 인간관계와 행동 속으로 끌고 나와 직접 몸으로 살아내고 체험함",
+    "examples": [
+      "Psychotherapy entails providing a reconstructive relationship that involves living out a corrective emotional experience"
+    ]
+  },
+  {
+    "id": "o_1126",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "cremation",
+    "meaning": "(장례 의식에서의) 화장, 유골 수습",
+    "core_image": "고인의 관이 화장로의 뜨거운 불꽃 속으로 들어가 정결한 유골 가루로 수습되는 장례",
+    "focus": "매장이 아닌 시신을 불에 태워 유골로 봉안하는 현대적 장례 방식",
+    "examples": [
+      "The family chose cremation and scattered the ashes over the ocean according to the deceased's will"
+    ]
+  },
+  {
+    "id": "o_1127",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "crematory",
+    "meaning": "화장터, 화장장",
+    "core_image": "조용한 산자락에 위치하여 굴뚝에서 연기가 피어오르고 유족들이 대기하는 장례 시설",
+    "focus": "고인의 시신을 화장하는 전문적인 설비를 갖춘 공공 또는 사설 장례 시설",
+    "examples": [
+      "The funeral procession arrived at the municipal crematory early in the morning"
+    ]
+  },
+  {
+    "id": "o_1128",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "condolatory",
+    "meaning": "조의를 표하는, 문상의, 애도의",
+    "core_image": "상복을 입은 유족에게 머리 숙여 깊은 위로의 말을 건네는 정중한 조문 편지",
+    "focus": "슬픔에 잠긴 유가족에게 애도와 위로의 마음을 전하는 언어적·문서적 표현",
+    "examples": [
+      "He wrote a dignified and deeply condolatory letter to the grieving widow"
+    ]
+  },
+  {
+    "id": "o_1129",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "immediate family member",
+    "meaning": "직계가족, 유가족",
+    "core_image": "빈소에서 상주 완장을 차고 조문객을 맞이하는 배우자, 부모, 자녀 등 가장 가까운 혈연",
+    "focus": "법적·정서적으로 가장 밀접하게 묶여 있는 배우자, 부모, 친자녀 등의 1차 직계가족",
+    "examples": [
+      "Hospital visitation in the intensive care unit is strictly restricted to immediate family members"
+    ]
+  },
+  {
+    "id": "o_1130",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "loss",
+    "meaning": "(소중한 사람의) 사별, 상실, 잃어버림",
+    "core_image": "항상 옆자리에 있던 가족의 빈 의자를 바라보며 느끼는 가슴속 거대한 공백",
+    "focus": "사랑하는 사람의 죽음이나 소중한 자산, 기회의 상실로 인해 겪는 극심한 상실감",
+    "examples": [
+      "The sudden tragic loss of his lifelong partner left him in a state of profound disorientation"
+    ]
+  },
+  {
+    "id": "o_1131",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "funeral home",
+    "meaning": "장례식장",
+    "core_image": "국화꽃 제단이 차려져 있고 조문객들이 방문하여 절을 올리고 유족을 위로하는 시설",
+    "focus": "고인의 시신을 안치하고 문상객을 맞이하여 장례 절차를 진행하는 전문 상업 시설",
+    "examples": [
+      "Friends and relatives gathered at the funeral home to pay their last respects"
+    ]
+  },
+  {
+    "id": "o_1132",
+    "source": "Words Organized",
+    "category": "삶 > 죽음",
+    "word": "funeral service",
+    "meaning": "장례식, 영결식",
+    "core_image": "목사의 기도와 추도사가 낭독되고 고인의 관이 운구차로 실려 나가는 공식 영결 예식",
+    "focus": "고인의 마지막 길을 기리고 명복을 빌기 위해 치러지는 공식적인 종교적·사회적 장례 의식",
+    "examples": [
+      "The solemn funeral service was attended by hundreds of prominent community leaders"
+    ]
+  },
+  {
+    "id": "o_1133",
+    "source": "Words Organized",
+    "category": "삶 > 연애",
+    "word": "sweetheart",
+    "meaning": "(다정한) 애인, 연인, 다정한 사람",
+    "core_image": "서로의 손을 꼭 잡고 따뜻한 눈빛으로 미소 짓는 사랑스러운 연인의 모습",
+    "focus": "진심으로 깊이 사랑하는 연인이나 매우 친절하고 다정한 성품의 사람을 부르는 애칭",
+    "examples": [
+      "She married her high school sweetheart after a decade of devoted companionship"
+    ]
+  },
+  {
+    "id": "o_1134",
+    "source": "Words Organized",
+    "category": "삶 > 연애",
+    "word": "blind date",
+    "meaning": "소개팅, 맞선",
+    "core_image": "주선자의 연락처만 받고 카페 창가 테이블에서 어색하게 처음 마주 앉는 남녀",
+    "focus": "제3자의 주선으로 사전에 서로 알지 못하는 남녀가 연애를 목적으로 만나는 약속",
+    "examples": [
+      "I agreed to go on a blind date set up by my university roommate last Saturday"
+    ]
+  },
+  {
+    "id": "o_1135",
+    "source": "Words Organized",
+    "category": "삶 > 연애",
+    "word": "end a relationship with",
+    "meaning": "~와의 연인 관계를 끝내다, 결별하다",
+    "core_image": "함께 맞춘 커플링을 테이블에 내려놓고 각자의 길로 돌아서며 작별하는 순간",
+    "focus": "연인 간의 로맨틱한 관계를 공식적으로 종식하고 남남으로 헤어짐",
+    "examples": [
+      "I ended a three-year relationship with my girlfriend and spent the next few months in deep reflection"
+    ]
+  },
+  {
+    "id": "o_1136",
+    "source": "Words Organized",
+    "category": "삶 > 연애",
+    "word": "cheat",
+    "meaning": "(연인을 두고) 바람피우다, 외도하다, 부정행위를 하다",
+    "core_image": "연인 몰래 다른 사람과 비밀 메시지를 주고받으며 뒤통수를 치는 배신 행위",
+    "focus": "신뢰 관계를 깨뜨리고 파트너 몰래 제3자와 부정한 이성 관계를 맺음",
+    "examples": [
+      "I discovered that my fiancé had been cheating on me, which shattered my trust completely"
+    ]
+  },
+  {
+    "id": "o_1137",
+    "source": "Words Organized",
+    "category": "삶 > 연애",
+    "word": "dump",
+    "meaning": "(연인을 일방적으로) 차다, 버리다",
+    "core_image": "쓰레기통에 물건을 내던지듯 일방적인 문자 한 통으로 차갑게 이별을 통보하는 행위",
+    "focus": "상의나 합의 없이 일방적이고 매정하게 연인 관계를 끊어버림",
+    "examples": [
+      "He was devastated when his long-term partner dumped him via a brief text message"
+    ]
+  },
+  {
+    "id": "o_1138",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "tub",
+    "meaning": "욕조 (물리적 용기)",
+    "core_image": "욕실 한가운데 놓여 따뜻한 물이 가득 담겨 있는 하얀 도자기/아크릴 욕조",
+    "focus": "몸을 담그고 목욕할 수 있도록 물을 가두는 대형 욕실 설비 용기",
+    "examples": [
+      "Our apartment in Switzerland features a deep, luxurious ceramic tub perfect for relaxing"
+    ]
+  },
+  {
+    "id": "o_1139",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "bath",
+    "meaning": "목욕 (몸을 담그는 행위)",
+    "core_image": "퇴근 후 따뜻한 욕조 물에 몸을 푹 담그고 하루의 피로를 녹여내는 힐링의 시간",
+    "focus": "욕조에 물을 받아 몸 전체를 담그고 씻는 정적인 목욕 행위",
+    "examples": [
+      "I enjoy taking a long, fragrant bath after a stressful week of coding deadlines"
+    ]
+  },
+  {
+    "id": "o_1140",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "get out of bath",
+    "meaning": "목욕을 마치고 나오다",
+    "core_image": "욕조에서 일어서서 물기를 털며 바닥 매트 위로 발을 내딛는 순간",
+    "focus": "욕조 안에 머물던 상태를 끝마치고 물 밖으로 걸어 나오는 동작",
+    "examples": [
+      "I hate when my clothes stick uncomfortably to my damp skin when I get out of the bath"
+    ]
+  },
+  {
+    "id": "o_1141",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "air things out",
+    "meaning": "(자연 바람으로) 환기하다, 바람을 쐬다",
+    "core_image": "눅눅해진 방의 창문을 활짝 열고 신선한 바깥바람이 들어와 습기를 날려 보내는 상쾌함",
+    "focus": "밀폐되거나 습기 찬 공간/물건에 자연 바람을 통하게 하여 냄새와 습기를 제거함",
+    "examples": [
+      "After taking a hot shower, I always open the bathroom window to air things out thoroughly"
+    ]
+  },
+  {
+    "id": "o_1142",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "air dry",
+    "meaning": "(기계 없이) 자연 바람으로 말리다",
+    "core_image": "헤어드라이어나 수건을 쓰지 않고 시원한 선풍기 바람이나 자연풍에 몸과 머리를 말림",
+    "focus": "인위적인 열기구를 쓰지 않고 공기 순환을 통해 자연스럽게 건조함",
+    "examples": [
+      "I once tried to air dry my body, but it was too humid that day, so it took much longer than expected"
+    ]
+  },
+  {
+    "id": "o_1143",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "dry off",
+    "meaning": "(수건으로 몸의) 물기를 완전히 닦아내다",
+    "core_image": "큰 타월로 머리부터 발끝까지 쓱쓱 문지르며 피부에 맺힌 물방울을 보송보송하게 닦는 모습",
+    "focus": "샤워나 수영을 마친 후 수건으로 신체의 물기를 완전히 제거함",
+    "examples": [
+      "Make sure to dry off thoroughly with a clean towel before stepping out into the cold room"
+    ]
+  },
+  {
+    "id": "o_1144",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "soapy water",
+    "meaning": "비눗물, 거품물",
+    "core_image": "대야 안에 비누 거품이 뽀얗게 일어 미끌미끌하고 무지갯빛 방울이 떠다니는 물",
+    "focus": "세정제나 비누가 녹아 거품과 미끄러운 계면활성제가 섞인 물",
+    "examples": [
+      "Be careful not to slip on the smooth floor covered with slippery soapy water"
+    ]
+  },
+  {
+    "id": "o_1145",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "bathhouse",
+    "meaning": "(역사적·문화적 대형) 대중목욕탕, 스파 시설",
+    "core_image": "고대 로마의 거대한 아치형 돔 천장 아래 여러 온도의 탕과 사우나를 갖춘 공공 목욕 건축물",
+    "focus": "단순한 세면 시설을 넘어 문화적 사교와 휴식을 결합한 대규모 공공 목욕 건축물",
+    "examples": [
+      "The historic Turkish bathhouse in the city center has been preserved for centuries"
+    ]
+  },
+  {
+    "id": "o_1146",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "public bath",
+    "meaning": "공중목욕탕 (기능적 공용 목욕 시설)",
+    "core_image": "동네 골목에서 주민들이 수건과 세면도구를 들고 방문하여 씻는 일상적인 공공 목욕탕",
+    "focus": "지역 주민들이 몸을 씻기 위해 이용하는 기능 중심의 공용 목욕탕",
+    "examples": [
+      "In traditional Japanese towns, visiting the neighborhood public bath is a cherished evening ritual"
+    ]
+  },
+  {
+    "id": "o_1147",
+    "source": "Words Organized",
+    "category": "삶 > 청결",
+    "word": "scrub",
+    "meaning": "(때타월이나 솔로) 때를 밀다, 박박 문질러 닦다",
+    "core_image": "이태리타월을 손에 끼고 온탕에서 불린 피부를 위아래로 힘주어 문지르며 각질을 제거하는 동작",
+    "focus": "때나 찌든 때를 제거하기 위해 거친 천이나 솔로 표면을 강하게 문지름",
+    "examples": [
+      "It's uncomfortable that I have to scrub my back by myself without anyone to assist me"
+    ]
+  },
+  {
+    "id": "o_1148",
+    "source": "Words Organized",
+    "category": "삶 > 놀이",
+    "word": "have a staring contest",
+    "meaning": "눈싸움하다 (눈을 깜빡이지 않고 노려보기)",
+    "core_image": "두 사람이 코앞에서 눈을 부릅뜨고 눈물이 찔끔 날 때까지 깜빡이지 않으려 버티는 장난",
+    "focus": "누가 먼저 눈을 깜빡이는지 승부를 겨루는 유쾌한 눈 깜빡임 참기 대결",
+    "examples": [
+      "The bored children decided to have a fierce staring contest while waiting at the airport"
+    ]
+  },
+  {
+    "id": "o_1149",
+    "source": "Words Organized",
+    "category": "삶 > 운동",
+    "word": "lose weight",
+    "meaning": "체중을 줄이다, 감량하다 (숫자적 감소)",
+    "core_image": "아침마다 체중계 위에 올라섰을 때 디지털 액정의 킬로그램(kg) 숫자가 줄어드는 기쁨",
+    "focus": "체성분(근육/수분/지방)의 구성과 상관없이 전체 몸무게 숫자의 감소 자체에 집중",
+    "examples": [
+      "Restricting calorie intake is the quickest mathematical way to lose overall body weight"
+    ]
+  },
+  {
+    "id": "o_1150",
+    "source": "Words Organized",
+    "category": "삶 > 운동",
+    "word": "lose fat",
+    "meaning": "체지방을 태우다, 지방을 걷어내다 (성분적 감량)",
+    "core_image": "덤벨을 들고 땀을 흘리며 복부의 피하지방을 태워 선명한 복근 라인을 드러내는 모습",
+    "focus": "근육량을 보존하면서 오직 불필요한 지방 조직만을 선택적으로 연소하여 제거함",
+    "examples": [
+      "High-intensity interval training combined with adequate protein intake helps athletes lose pure body fat"
+    ]
+  },
+  {
+    "id": "o_1151",
+    "source": "Words Organized",
+    "category": "삶 > 연회 및 모임",
+    "word": "banquet",
+    "meaning": "(공식적인) 성대한 연회, 축하 만찬",
+    "core_image": "화려한 연회장에 긴 식탁보가 깔리고 귀빈들이 앉아 와인 잔을 부딪치는 격식 있는 만찬",
+    "focus": "국가적 기념일이나 귀빈 환영을 위해 성대하고 격식 있게 차려지는 대규모 공식 만찬",
+    "examples": [
+      "The royal palace hosted a glittering state banquet in honor of the visiting foreign dignitaries"
+    ]
+  },
+  {
+    "id": "o_1152",
+    "source": "Words Organized",
+    "category": "삶 > 연회 및 모임",
+    "word": "drinking party",
+    "meaning": "술자리, 회식",
+    "core_image": "주점에 옹기종기 둘러앉아 안주와 소주잔을 기울이며 시끌벅적하게 웃고 떠드는 모임",
+    "focus": "사람들과 어울려 술을 마시고 친목을 다지는 비공식적 사교 모임",
+    "examples": [
+      "After wrapping up the grueling project, the whole team went out for a celebratory drinking party"
+    ]
+  },
+  {
+    "id": "o_1153",
+    "source": "Words Organized",
+    "category": "삶 > 연회 및 모임",
+    "word": "reunion party",
+    "meaning": "동창회, 재결합 모임",
+    "core_image": "십 년 만에 학교 강당에서 다시 만나 명찰을 달고 옛 추억을 나누며 반갑게 포옹하는 동창들",
+    "focus": "오랫동안 떨어져 지내던 동창, 전우, 가족들이 다시 모여 추억을 나누는 모임",
+    "examples": [
+      "We organized our high school ten-year reunion party at a cozy hotel downtown"
+    ]
+  },
+  {
+    "id": "o_1154",
+    "source": "Words Organized",
+    "category": "삶 > 연회 및 모임",
+    "word": "fanfare",
+    "meaning": "대대적인 축하, 팡파르 (요란한 축하 행사)",
+    "core_image": "금빛 트럼펫 나팔수들이 일제히 팡파르를 울리고 오색 꽃가루가 공중에 흩날리는 축제",
+    "focus": "신제품 출시나 인물의 입성을 대중에게 알리기 위해 벌이는 화려하고 요란한 홍보/축하 행사",
+    "examples": [
+      "The flagship smartphone was launched with enormous media fanfare and international press coverage"
+    ]
+  },
+  {
+    "id": "o_1155",
+    "source": "Words Organized",
+    "category": "삶 > 연회 및 모임",
+    "word": "hangover",
+    "meaning": "숙취",
+    "core_image": "과음한 다음 날 아침 깨질 듯한 두통과 울렁거리는 속을 부여잡고 물을 찾는 고통",
+    "focus": "과도한 알코올 섭취 후 다음 날 나타나는 두통, 메스꺼움, 갈증 등의 신체적 불쾌 증상",
+    "examples": [
+      "Drinking plenty of electrolyte water helps alleviate the debilitating symptoms of a severe hangover"
+    ]
+  },
+  {
+    "id": "o_1156",
+    "source": "Words Organized",
+    "category": "삶 > 스트레스",
+    "word": "release stress",
+    "meaning": "스트레스를 풀다, 해소하다",
+    "core_image": "꽉 조였던 마음의 밸브를 풀어 증기를 내뿜듯 운동이나 수다를 통해 긴장을 해소함",
+    "focus": "억압되었던 정신적 압박감과 피로를 즐거운 활동을 통해 시원하게 날려 보냄",
+    "examples": [
+      "Chatting candidly with trusted friends is one of the best therapeutic ways to release accumulated stress"
+    ]
+  },
+  {
+    "id": "o_1157",
+    "source": "Words Organized",
+    "category": "삶 > 항해",
+    "word": "stern",
+    "meaning": "선미, 배의 고물 (배의 뒷부분)",
+    "core_image": "배가 앞으로 나아갈 때 하얀 포말을 일으키며 물결을 가르는 배의 맨 뒷부분",
+    "focus": "뱃머리(bow)와 구별되는 배의 후방 선미 구역",
+    "examples": [
+      "We swung our stern toward the morning sun and turned our oars into wings for the wild oceanic flight"
+    ]
+  },
+  {
+    "id": "o_1158",
+    "source": "Words Organized",
+    "category": "삶 > 항해",
+    "word": "peril",
+    "meaning": "(생명이 위태로운) 극심한 위험, 위난",
+    "core_image": "칠흑 같은 어둠 속 암초가 도사린 거센 파도 한가운데를 통과하는 쪽배의 아슬아슬한 위기",
+    "focus": "생명이나 안전을 직접적으로 위협하는 피하기 어려운 치명적인 물리적·재정적 위험",
+    "examples": [
+      "The brave explorers faced grave physical peril while crossing the uncharted polar ice cap"
+    ]
+  },
+  {
+    "id": "o_1159",
+    "source": "Words Organized",
+    "category": "삶 > 항해",
+    "word": "uncharted",
+    "meaning": "지도에 표시되지 않은, 미지의",
+    "core_image": "오래된 양피지 지도에 아무것도 그려져 있지 않고 '괴물이 산다'고 적힌 빈 해양 공간",
+    "focus": "인류의 탐사가 닿지 않아 지형이나 미래를 전혀 예측할 수 없는 미지의 영역",
+    "examples": [
+      "Navigating the volatile financial future is always a voyage into an uncharted and unpredictable world"
+    ]
+  },
+  {
+    "id": "o_1160",
+    "source": "Words Organized",
+    "category": "삶 > 항해",
+    "word": "adventurous",
+    "meaning": "모험심이 강한, 대담한, 스릴 넘치는",
+    "core_image": "안전한 항구를 떠나 지도 없는 바다를 향해 망원경을 들고 닻을 올리는 대담한 선장",
+    "focus": "위험을 두려워하지 않고 미지의 세계를 탐험하려는 용기 있는 태도나 흥미진진한 여정",
+    "examples": [
+      "With Benjamin Graham as your wise guide, your lifelong investing voyage will be safe yet excitingly adventurous"
+    ]
+  },
+  {
+    "id": "o_1161",
+    "source": "Words Organized",
+    "category": "문화 > 위계",
+    "word": "prerogative",
+    "meaning": "(신분이나 직위에 따른) 특권, 특혜",
+    "core_image": "왕이나 최고경영자만이 행사할 수 있는 옥새를 쥐고 특별한 결정을 내리는 권리",
+    "focus": "특정 계급, 공직, 지위를 가진 사람에게만 독점적으로 허용되는 배타적 권리나 혜택",
+    "examples": [
+      "It is the constitutional prerogative of the supreme court to interpret foundational laws"
+    ]
+  },
+  {
+    "id": "o_1162",
+    "source": "Words Organized",
+    "category": "문화 > 위계",
+    "word": "prestige",
+    "meaning": "위신, 명망, 특급의 명성",
+    "core_image": "수백 년 전통의 귀족 가문 문장이 새겨진 마차를 타고 대중의 경외 어린 시선을 받는 위세",
+    "focus": "뛰어난 업적, 지위, 가문으로 인해 사회적으로 인정받는 높은 평판과 위상",
+    "examples": [
+      "Winning the Nobel Prize confers immense international prestige upon the recipient's institution"
+    ]
+  },
+  {
+    "id": "o_1163",
+    "source": "Words Organized",
+    "category": "문화 > 위계",
+    "word": "patriarch",
+    "meaning": "가장, 족장, 원로",
+    "core_image": "긴 백발을 휘날리며 대가족 식탁의 맨 상석에 앉아 가족의 모든 결정을 주도하는 어른",
+    "focus": "가족, 가문, 종교 집단에서 최고 권위를 행사하는 남성 가장이나 원로",
+    "examples": [
+      "The aged patriarch gathered all his children to distribute the family inheritance"
+    ]
+  },
+  {
+    "id": "o_1164",
+    "source": "Words Organized",
+    "category": "문화 > 위계",
+    "word": "aristocrat",
+    "meaning": "귀족, 귀족 계급",
+    "core_image": "화려한 문양의 비단 옷과 가발을 쓰고 궁전 정원에서 티타임을 즐기는 상류 지배층",
+    "focus": "혈통이나 세습에 의해 최고의 사회적 지위와 특권을 누리는 상류 귀족 계급의 일원",
+    "examples": [
+      "The young French aristocrat fled to London during the turbulent years of the revolution"
+    ]
+  },
+  {
+    "id": "o_1165",
+    "source": "Words Organized",
+    "category": "문화 > 회의",
+    "word": "chamber",
+    "meaning": "(의회의) 회의실, 의원실, (특수 목적의) 방",
+    "core_image": "둥근 원형 극장 구조로 의원석이 배치되고 의사봉이 놓인 엄숙한 국회의사당 내부",
+    "focus": "공식적인 입법 논의, 재판, 기구가 열리는 격식 있는 회의실이나 입법원",
+    "examples": [
+      "The senators debated the national budget bill inside the packed parliamentary chamber"
+    ]
+  },
+  {
+    "id": "o_1166",
+    "source": "Words Organized",
+    "category": "문화 > 회의",
+    "word": "commission",
+    "meaning": "위원회, 수수료, 위임",
+    "core_image": "특정 국가적 비리를 조사하기 위해 각계 전문가들이 모여 조사 보고서를 작성하는 기구",
+    "focus": "특정 사안을 조사하고 집행하기 위해 공식 권한을 위임받은 정부/사회 전문 위원회",
+    "examples": [
+      "The truth and reconciliation commission released its comprehensive investigative report"
+    ]
+  },
+  {
+    "id": "o_1167",
+    "source": "Words Organized",
+    "category": "문화 > 장신구 및 예술",
+    "word": "ornament",
+    "meaning": "장식품, 장신구",
+    "core_image": "크리스마스트리에 매달린 반짝이는 유리 구슬과 금빛 별 조각들",
+    "focus": "공간이나 옷차림을 아름답게 꾸미기 위해 덧붙이는 비실용적이지만 심미적인 장식물",
+    "examples": [
+      "The museum display cases were filled with delicate gold ornaments from the Byzantine era"
+    ]
+  },
+  {
+    "id": "o_1168",
+    "source": "Words Organized",
+    "category": "문화 > 장신구 및 예술",
+    "word": "emboss",
+    "meaning": "(금속·가죽·종이에) 양각하다, 도드라지게 새기다",
+    "core_image": "가죽 다이어리 표면에 금박 인장을 대고 강하게 눌러 글자를 볼록하게 입체로 튀어나오게 함",
+    "focus": "평평한 표면에 글자나 무늬가 입체적으로 도드라지도록 돋을새김하는 가공 기법",
+    "examples": [
+      "The wedding invitations were elegantly embossed with the couple's interwoven initials"
+    ]
+  },
+  {
+    "id": "o_1169",
+    "source": "Words Organized",
+    "category": "문화 > 장신구 및 예술",
+    "word": "recast",
+    "meaning": "(배역을) 바꾸다, (모양이나 구조를) 재구성하다",
+    "core_image": "굳어 있던 쇳물을 다시 녹여 완전히 새로운 형태의 주물 틀에 붓고 다시 굳히는 과정",
+    "focus": "영화나 연극의 배역을 다른 배우로 교체하거나 이야기/이론의 뼈대를 새롭게 뜯어고침",
+    "examples": [
+      "The director decided to recast the leading role after creative differences with the actor"
+    ]
+  },
+  {
+    "id": "o_1170",
+    "source": "Words Organized",
+    "category": "문화 > 장신구 및 예술",
+    "word": "enact",
+    "meaning": "(법을) 제정하다, (연극을) 상연하다, 실행하다",
+    "core_image": "의회에서 의사봉이 땅땅 울리며 법안이 법률로 공포되거나 무대 위에서 배우가 연기함",
+    "focus": "법률을 정식으로 제정하여 효력을 발생시키거나 무대 위에서 극적 상황을 실제로 연기함",
+    "examples": [
+      "Parliament moved swiftly to enact emergency legislation to stabilize the collapsing financial sector"
+    ]
+  },
+  {
+    "id": "o_1171",
+    "source": "Words Organized",
+    "category": "문화 > 의류",
+    "word": "cotton",
+    "meaning": "면, 목화",
+    "core_image": "목화솜에서 뽑아낸 하얗고 부드러운 천연 실로 짠 통기성 좋은 셔츠 원단",
+    "focus": "땀을 잘 흡수하고 촉감이 부드러워 일상복으로 널리 사용되는 천연 면직물",
+    "examples": [
+      "I always wear a pure, breathable cotton shirt because I sweat a lot when jogging in the summer"
+    ]
+  },
+  {
+    "id": "o_1172",
+    "source": "Words Organized",
+    "category": "문화 > 의류",
+    "word": "layer",
+    "meaning": "(옷을) 겹겹이 껴입다, 층, 겹",
+    "core_image": "추운 겨울날 내복 위에 셔츠, 그 위에 스웨터, 마지막으로 패딩을 겹겹이 겹쳐 입는 모습",
+    "focus": "추위를 막거나 스타일을 살리기 위해 여러 벌의 옷을 층층이 겹쳐 착용함",
+    "examples": [
+      "You don't have to worry about putting on multiple heavy layers of clothes in this climate"
+    ]
+  },
+  {
+    "id": "o_1173",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "veneration",
+    "meaning": "(성인이나 신에 대한) 숭배, 지극한 공경",
+    "core_image": "성자의 유골함 앞에 무릎을 꿇고 촛불을 켠 채 경건하게 손을 모으는 신자들의 신심",
+    "focus": "거룩한 종교적 성인이나 성물에 대해 바치는 가장 깊고 지극한 공경의 의식",
+    "examples": [
+      "The ancient icon is held in deep religious veneration by millions of Eastern Orthodox pilgrims"
+    ]
+  },
+  {
+    "id": "o_1174",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "devotee",
+    "meaning": "(종교의) 헌신적인 신도, 열렬한 애호가",
+    "core_image": "하루 세 번 사원을 찾아 정성껏 공양을 바치며 교리를 실천하는 독실한 신자",
+    "focus": "특정 종교, 교주, 예술가, 취미에 온 마음과 시간을 바쳐 헌신하는 추종자",
+    "examples": [
+      "She has been a passionate devotee of classical Indian yoga and meditation for decades"
+    ]
+  },
+  {
+    "id": "o_1175",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "theologian",
+    "meaning": "신학자",
+    "core_image": "두꺼운 라틴어 성경과 고대 교부들의 주석서를 펼쳐놓고 신의 본질을 학문적으로 탐구하는 학자",
+    "focus": "신의 존재, 교리, 성경의 계시를 학문적이고 체계적인 방법론으로 연구하는 종교 학자",
+    "examples": [
+      "The medieval theologian Thomas Aquinas sought to synthesize Aristotelian philosophy with Christian theology"
+    ]
+  },
+  {
+    "id": "o_1176",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "ecclesiastical",
+    "meaning": "(기독교 교회의) 교권의, 성직의",
+    "core_image": "주교가 화려한 제의를 입고 지팡이를 든 채 대성당 제단에서 집전하는 공식 전례",
+    "focus": "세속 정치나 일반 사회와 구별되는 기독교 교회의 조직, 법령, 성직 체계에 관한 성질",
+    "examples": [
+      "The bishops gathered to discuss complex ecclesiastical policies regarding marriage liturgy"
+    ]
+  },
+  {
+    "id": "o_1177",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "agnostic",
+    "meaning": "불가지론자 (신의 존재를 알 수 없다는 입장)",
+    "core_image": "신이 존재하는지 존재하지 않는지 인간의 이성으로는 결코 증명할 수 없다고 선언하는 철학자",
+    "focus": "궁극적 실재나 신의 존재 여부는 인간의 인식 능력 한계로 인해 알 수 없다고 보는 사상",
+    "examples": [
+      "As an honest agnostic, he neither asserted the existence of God nor denied it dogmatically"
+    ]
+  },
+  {
+    "id": "o_1178",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "Holy of holies",
+    "meaning": "지성소 (성전에서 가장 거룩한 구역)",
+    "core_image": "두꺼운 장막 뒤에 숨겨져 있어 대제사장만이 일 년에 단 한 번 들어갈 수 있는 언약궤가 놓인 방",
+    "focus": "성전의 맨 안쪽에 위치하여 신의 임재가 머무르는 가장 신성하고 범접할 수 없는 핵심 성역",
+    "examples": [
+      "The high priest entered the solemn Holy of holies once a year to make national atonement"
+    ]
+  },
+  {
+    "id": "o_1179",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "incarnation",
+    "meaning": "성육신 (신이 인간의 몸으로 태어남), 구체화",
+    "core_image": "하늘의 신성한 빛이 육신을 입고 베들레헴의 마구간에서 아기의 모습으로 태어나는 신비",
+    "focus": "영적인 신성이나 추상적 이상이 구체적인 인간의 몸이나 물리적 실체로 현현함",
+    "examples": [
+      "Christians celebrate Christmas as the miraculous divine incarnation of God in Jesus Christ"
+    ]
+  },
+  {
+    "id": "o_1180",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "abstinence",
+    "meaning": "(음식·욕망의) 자제, 금욕, 절제",
+    "core_image": "눈앞의 향기로운 고기와 술을 밀어내고 물과 빵만으로 허기를 채우는 수도승의 절제",
+    "focus": "종교적 수양이나 건강을 위해 육체적 쾌락(성, 음식, 알코올)을 의도적으로 금함",
+    "examples": [
+      "Monastic rules demand strict personal abstinence from secular pleasures and material luxuries"
+    ]
+  },
+  {
+    "id": "o_1181",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "Lent",
+    "meaning": "사순절 (부활절 전 40일간의 참회 기간)",
+    "core_image": "사제의 이마에 재로 십자가를 긋고 40일 동안 금식과 기도로 십자가 고난을 묵상하는 기간",
+    "focus": "기독교에서 부활절을 준비하며 40일 동안 참회, 금식, 기도를 드리는 전례 절기",
+    "examples": [
+      "During Lent, many devout believers give up their favorite luxuries as a spiritual discipline"
+    ]
+  },
+  {
+    "id": "o_1182",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "Fast day",
+    "meaning": "금식일, 재의 수요일 (Ash Wednesday)",
+    "core_image": "해가 질 때까지 식사를 거르고 성경을 읽으며 자신의 죄를 회개하는 금식의 날",
+    "focus": "종교적 규율에 따라 음식을 먹지 않거나 엄격하게 절제하는 지정된 날",
+    "examples": [
+      "Ash Wednesday is observed as a strict universal fast day throughout the Catholic Church"
+    ]
+  },
+  {
+    "id": "o_1183",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "persuasion",
+    "meaning": "(종교적·정치적) 신념, 종파, 설득",
+    "core_image": "같은 교리나 철학을 공유하며 한곳에 모여 함께 예배를 드리는 신앙 공동체",
+    "focus": "개인이 깊이 확신하고 있는 종교적·정치적 신념 체계나 특정 종파",
+    "examples": [
+      "Graham disciples formed a tight investment partnership with fellows of similar philosophical persuasion"
+    ]
+  },
+  {
+    "id": "o_1184",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "sacred",
+    "meaning": "신성한, 성스러운",
+    "core_image": "신발을 벗고 들어가야 하는 촛불 켜진 제단 위의 거룩한 황금 성배",
+    "focus": "세속적인 오염으로부터 분리되어 신에게 봉헌된 지극히 거룩하고 침범할 수 없는 성질",
+    "examples": [
+      "The mountain peak has been regarded as a deeply sacred place of pilgrimage for centuries"
+    ]
+  },
+  {
+    "id": "o_1185",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "deity",
+    "meaning": "신, 신격",
+    "core_image": "구름 위에서 번개를 쥐고 인간 세상을 굽어살피는 신화 속의 초자연적 존재",
+    "focus": "종교나 신화에서 숭배의 대상이 되는 초자연적인 신적인 존재",
+    "examples": [
+      "Ancient civilizations worshiped the sun as a supreme, life-giving deity"
+    ]
+  },
+  {
+    "id": "o_1186",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "pantheon",
+    "meaning": "만신전 (모든 신들을 모신 신전), 특정 분야의 위인 군단",
+    "core_image": "로마 판테온 돔 천장의 오쿨루스(Oculus) 아래 모든 로마 신들의 조각상이 도열한 웅장함",
+    "focus": "한 문화권의 모든 신들의 집합 또는 특정 분야에서 정점에 오른 위인들의 집단",
+    "examples": [
+      "Albert Einstein firmly occupies a legendary place in the pantheon of modern physicists"
+    ]
+  },
+  {
+    "id": "o_1187",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "cult",
+    "meaning": "광신적 추종 집단, 사이비 종교, 컬트",
+    "core_image": "카리스마적 교주의 말 한마디에 맹종하며 외부 사회와 단절된 채 모여 사는 밀폐된 집단",
+    "focus": "교주나 교리에 광신적으로 집착하여 사회적 물의를 일으키는 이단 종교나 소수의 열광적 추종",
+    "examples": [
+      "I went to church in my new neighborhood, but it turned out to be an abusive cult and I ran away"
+    ]
+  },
+  {
+    "id": "o_1188",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "expiation",
+    "meaning": "(속죄를 통한) 보속, 죄의 대가를 치름",
+    "core_image": "자신의 죄를 씻기 위해 제단 위에 어린 양을 제물로 바치며 용서를 구하는 속죄 제사",
+    "focus": "지은 죄나 허물을 씻기 위해 고통을 감내하거나 대가를 치러 신의 용서를 구함",
+    "examples": [
+      "The ancient ritual involved animal sacrifices as an act of solemn spiritual expiation"
+    ]
+  },
+  {
+    "id": "o_1189",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "votive",
+    "meaning": "(신에게 바치는) 봉헌의, 서약의",
+    "core_image": "병이 낫게 해달라는 기도를 담아 성당 제단 앞 촛대에 불을 켜두는 작은 봉헌 초",
+    "focus": "신에게 감사나 소원 성취를 기원하며 공식적으로 봉헌하는 물건이나 예식",
+    "examples": [
+      "Pilgrims lit hundreds of flickering votive candles before the statue of the patron saint"
+    ]
+  },
+  {
+    "id": "o_1190",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "demigod",
+    "meaning": "반신반인 (반은 신이고 반은 인간), 신격화된 영웅",
+    "core_image": "헤라클레스처럼 신의 피를 물려받아 초인적인 힘을 발휘하여 괴물을 무찌르는 영웅",
+    "focus": "신과 인간 사이에서 태어나 비범한 능력을 가진 신화 속 영웅이나 신격화된 지도자",
+    "examples": [
+      "Achilles was celebrated in Homeric epics as a nearly invincible warrior demigod"
+    ]
+  },
+  {
+    "id": "o_1191",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "devout",
+    "meaning": "독실한, 신앙심이 깊은",
+    "core_image": "매일 새벽 무릎을 꿇고 묵주알을 굴리며 눈물을 흘려 기도하는 할머니의 신심",
+    "focus": "자신의 종교적 신념과 계명을 진심으로 철저하게 실천하며 살아가는 충실함",
+    "examples": [
+      "The devout grandmother never missed early Sunday mass regardless of severe winter weather"
+    ]
+  },
+  {
+    "id": "o_1192",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "worship",
+    "meaning": "예배하다, 숭배하다",
+    "core_image": "일요일 아침 성도들이 교회 예배당에 모여 찬양을 부르고 설교를 듣는 예배",
+    "focus": "신의 위대함을 찬양하고 경배를 올리는 공식적인 종교 예식이나 숭배 행위",
+    "examples": [
+      "Millions of believers gather in local temples every week to worship the divine creator"
+    ]
+  },
+  {
+    "id": "o_1193",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "baptize",
+    "meaning": "세례를 주다",
+    "core_image": "사제가 성수를 신자의 머리에 세 번 부으며 옛 자아가 죽고 새사람으로 태어남을 축복함",
+    "focus": "물로 씻는 의식을 통해 기독교 공동체의 정식 일원으로 입교시키는 성사",
+    "examples": [
+      "The minister baptized the infant in the name of the Father, Son, and Holy Spirit"
+    ]
+  },
+  {
+    "id": "o_1194",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "faithful",
+    "meaning": "충실한, 신실한, 정확한",
+    "core_image": "주인이 자리를 비워도 밤낮없이 문 앞을 지키며 명령을 수행하는 충견의 한결같음",
+    "focus": "배신하지 않고 약속이나 종교적 계명을 끝까지 변함없이 성실하게 지켜냄",
+    "examples": [
+      "He remained a faithful and diligent steward of the foundation's philanthropic funds"
+    ]
+  },
+  {
+    "id": "o_1195",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "sinful",
+    "meaning": "죄악의, 죄 많은, 몹시 부도덕한",
+    "core_image": "양심의 가책을 무시하고 타인의 눈물을 밟으며 금지된 쾌락을 좇는 부도덕한 행위",
+    "focus": "종교적 계명이나 인류의 보편적 도덕률을 정면으로 어기는 사악하고 부정한 성질",
+    "examples": [
+      "Once these skills are acquired, it seems positively sinful not to use them for social good"
+    ]
+  },
+  {
+    "id": "o_1196",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "sanctuary",
+    "meaning": "성역, 보호구역, 피난처",
+    "core_image": "사냥꾼이 침범할 수 없는 거룩한 제단 안쪽으로 도망쳐 들어와 숨을 헐떡이는 도망자",
+    "focus": "폭력이나 박해로부터 안전을 보장받는 성스러운 피난처나 멸종위기 야생동물 보호구역",
+    "examples": [
+      "The ancient temple served as an inviolable sanctuary for persecuted political refugees"
+    ]
+  },
+  {
+    "id": "o_1197",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "altarpiece",
+    "meaning": "제단화 (제단 뒤에 세운 그림이나 조각)",
+    "core_image": "성당 중앙 제대 뒤편에 황금빛 액자로 장엄하게 걸려 있는 최후의 만찬 성화",
+    "focus": "교회 제단 뒤쪽 벽면에 설치되어 신자들의 묵상을 돕는 대형 종교 회화나 조각 병풍",
+    "examples": [
+      "The Renaissance master painted a magnificent triptych altarpiece for the cathedral"
+    ]
+  },
+  {
+    "id": "o_1198",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "iconographical attribute",
+    "meaning": "(성화 속 성인의) 상징물, 도상학적 속성",
+    "core_image": "성 베드로가 쥐고 있는 천국 열쇠처럼 특정 성인을 식별하게 해주는 고유한 소품",
+    "focus": "미술사에서 성인이나 신화 속 인물의 정체성을 나타내기 위해 함께 그리는 고유 상징물",
+    "examples": [
+      "The gridiron is the traditional iconographical attribute associated with Saint Lawrence"
+    ]
+  },
+  {
+    "id": "o_1199",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "grill",
+    "meaning": "석쇠 (성 로렌스의 순교 상징물), 그릴",
+    "core_image": "쇠창살 아래 숯불을 피워 고기를 굽는 격자 모양의 금속 조리 격자망",
+    "focus": "고기를 직화로 굽는 도구이자 성 로렌스가 순교할 때 사용된 상징적 격자 쇠틀",
+    "examples": [
+      "Saint Lawrence was martyred on an iron grill, which became his eternal spiritual symbol"
+    ]
+  },
+  {
+    "id": "o_1200",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "palm branch",
+    "meaning": "종려나무 가지 (순교와 승리의 상징)",
+    "core_image": "예수의 예루살렘 입성 때 군중이 길에 깔았던 푸른 종려나무 잎사귀",
+    "focus": "기독교 도상학에서 고난을 이겨낸 순교자의 거룩한 승리와 평화를 상징하는 나뭇가지",
+    "examples": [
+      "Martyrs are traditionally depicted in Renaissance religious art holding a green palm branch"
+    ]
+  },
+  {
+    "id": "o_1201",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "ambry",
+    "meaning": "성유 보관함 (성당 벽의 작은 감실)",
+    "core_image": "성당 제단 옆 벽면을 파서 만든 작은 벽장 안에 거룩한 성유 병을 보관해 둔 감실",
+    "focus": "세례와 성품 성사에 사용되는 축성된 기름(성유)을 안전하게 보관하는 벽감",
+    "examples": [
+      "The consecrated holy oils are securely locked inside the stone ambry in the sanctuary"
+    ]
+  },
+  {
+    "id": "o_1202",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "baptistery",
+    "meaning": "세례당 (세례 의식을 거행하는 전용 건물/공간)",
+    "core_image": "피렌체 대성당 앞에 우뚝 솟은 팔각형 대리석 건물 내부의 커다란 세례수반",
+    "focus": "성당 본당과 별도로 세례 성사를 거행하기 위해 독립적으로 건축된 전용 세례 공간",
+    "examples": [
+      "Tourists marveled at the famous bronze doors of the historic Florentine baptistery"
+    ]
+  },
+  {
+    "id": "o_1203",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "chapel",
+    "meaning": "부속 예배당, 작은 채플",
+    "core_image": "병원, 공항, 대저택 구석에 마련되어 누구나 조용히 들어가 기도할 수 있는 아담한 예배실",
+    "focus": "독립된 대형 교회가 아닌 건물 내부나 외곽에 딸린 작은 규모의 기도실 및 부속 예배당",
+    "examples": [
+      "The royal family attended daily private prayer services in the castle's intimate chapel"
+    ]
+  },
+  {
+    "id": "o_1204",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "apse",
+    "meaning": "(성당의) 후진 (반원형 제단 구역)",
+    "core_image": "반원형 돔 천장 아래 모자이크 성화가 빛나고 중앙 제대와 성가대석이 놓인 성당 깊숙한 구역",
+    "focus": "성당 동쪽 끝에 반원형이나 다각형으로 돌출되어 중앙 제단이 자리 잡는 가장 성스러운 핵심 공간",
+    "examples": [
+      "The towering apse of the Romanesque basilica was covered in shimmering golden mosaics"
+    ]
+  },
+  {
+    "id": "o_1205",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "sibyllen",
+    "meaning": "(고대 그리스·로마의) 여성 예언자, 무녀들 (시빌레)",
+    "core_image": "시스티나 성당 천장화에 그려진 미래의 신탁을 받아 두루마리에 적고 있는 지혜로운 무녀",
+    "focus": "고대 신탁을 받아 신의 계시와 미래를 예언했던 신화적·역사적 여성 예언자들",
+    "examples": [
+      "Michelangelo depicted the ancient pagan Sibyllen alongside the Old Testament prophets"
+    ]
+  },
+  {
+    "id": "o_1206",
+    "source": "Words Organized",
+    "category": "문화 > 종교",
+    "word": "worldly",
+    "meaning": "세속적인, 세상 물정에 밝은",
+    "core_image": "영적인 구원보다는 주식 시세, 명품, 사회적 인맥과 권력에 몰두하는 현대인의 라이프스타일",
+    "focus": "종교적이거나 영적인 가치와 구별되는 현세의 물질적, 현실적, 세속적 관심사",
+    "examples": [
+      "The ambitious young diplomat was far too worldly to consider a quiet monastic life"
+    ]
+  },
+  {
+    "id": "o_1207",
+    "source": "Words Organized",
+    "category": "문화 > 결혼",
+    "word": "dowry",
+    "meaning": "(신부 측이 가져오는) 지참금, 혼수",
+    "core_image": "결혼식을 앞두고 신부 아버지가 신랑 가문에게 건네는 보석과 금화가 든 혼수 궤짝",
+    "focus": "과거 가부장제 사회에서 신부가 결혼할 때 신랑 측에 관습적으로 제공하던 재산이나 지참금",
+    "examples": [
+      "Her wealthy noble family provided an enormous financial dowry to secure the aristocratic match"
+    ]
+  },
+  {
+    "id": "o_1208",
+    "source": "Words Organized",
+    "category": "문화 > 보험",
+    "word": "policyholder",
+    "meaning": "보험 계약자, 피보험자",
+    "core_image": "매달 보험료를 납부하고 사고 발생 시 보상금을 지급받는 보험 증권 소지자",
+    "focus": "보험 회사와 공식 계약을 체결하여 보장 권리를 보유하고 있는 법적 당사자",
+    "examples": [
+      "The insurance company notified every active policyholder about the updated coverage terms"
+    ]
+  },
+  {
+    "id": "o_1209",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "change",
+    "meaning": "잔돈, 거스름돈, 동전",
+    "core_image": "만 원짜리 지폐를 내고 편의점 계산원에서 짤랑거리며 거슬러 받는 쇠동전들",
+    "focus": "큰돈을 지불하고 남아서 돌려받는 소액권 화폐나 주머니 속 동전",
+    "examples": [
+      "Keep the change; you provided exceptionally friendly and fast service today"
+    ]
+  },
+  {
+    "id": "o_1210",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "stake money",
+    "meaning": "판돈, 베팅 금액",
+    "core_image": "포커 테이블 중앙에 플레이어들이 칩과 지폐를 밀어 넣어 모아둔 내기 판돈",
+    "focus": "승부나 도박, 투자에서 승자가 차지하기 위해 참가자들이 걸어둔 베팅 자금",
+    "examples": [
+      "The gamblers pushed their entire pile of stake money into the center of the green felt table"
+    ]
+  },
+  {
+    "id": "o_1211",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "money box",
+    "meaning": "돈 통, 금전 등록기, 돼지저금통",
+    "core_image": "시장 가판대 서랍 속에 칸막이를 나누어 지폐와 동전을 분류해 둔 양철 돈 통",
+    "focus": "일상적인 현금 거래를 보관하거나 동전을 모아두는 소형 현금 보관 상자",
+    "examples": [
+      "The shopkeeper locked the wooden money box before closing the store for the night"
+    ]
+  },
+  {
+    "id": "o_1212",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "bill",
+    "meaning": "지폐, 청구서",
+    "core_image": "지갑에서 바스락거리며 꺼내는 백 달러짜리 종이 화폐 또는 식당 계산서",
+    "focus": "종이로 인쇄된 공식 유통 화폐권 또는 지불해야 할 금액이 적힌 청구서",
+    "examples": [
+      "I pulled a crisp fifty-dollar bill from my wallet to pay the dinner check"
+    ]
+  },
+  {
+    "id": "o_1213",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "fine",
+    "meaning": "(법 위반에 따른) 벌금, 과태료",
+    "core_image": "신호 위반 딱지를 떼이고 집으로 날아온 경찰청의 과태료 납부 고지서",
+    "focus": "교통 법규나 규칙을 위반했을 때 처벌의 의미로 국가 기관에 강제 납부하는 벌금",
+    "examples": [
+      "I got heavily fined for accidentally running a red light at the busy downtown intersection"
+    ]
+  },
+  {
+    "id": "o_1214",
+    "source": "Words Organized",
+    "category": "문화 > 돈의 종류",
+    "word": "fee",
+    "meaning": "(전문 서비스나 시설 이용) 수수료, 요금",
+    "core_image": "변호사 자문을 받거나 ATM 기기에서 현금을 인출할 때 차감되는 서비스 이용료",
+    "focus": "전문 서비스 제공, 시설 이용, 입학, 진료 등에 대해 공식적으로 지불하는 수수료",
+    "examples": [
+      "They charged me an exorbitant transaction fee for using an out-of-network international ATM"
+    ]
+  },
+  {
+    "id": "o_1215",
+    "source": "Words Organized",
+    "category": "문화 > 은행",
+    "word": "banking",
+    "meaning": "금융 거래, 은행 업무",
+    "core_image": "은행 창구에 앉아 통장을 개설하고 해외 송금을 처리하는 일련의 금융 프로세스",
+    "focus": "예금, 대출, 송금 등 은행을 통해 이루어지는 전반적인 금융 서비스 활동",
+    "examples": [
+      "My family and I do all our primary banking at the local credit union where my friend works"
+    ]
+  },
+  {
+    "id": "o_1216",
+    "source": "Words Organized",
+    "category": "문화 > 은행",
+    "word": "coffer",
+    "meaning": "(국가나 단체의) 재원, 국고, 금고",
+    "core_image": "왕실 깊숙한 보물창고에서 금화와 은화가 가득 채워져 있는 육중한 쇠 상자",
+    "focus": "국가, 왕실, 대규모 조직의 재정 자금이나 이를 보관하는 대형 금고",
+    "examples": [
+      "The expensive military campaigns severely depleted the royal coffers of the empire"
+    ]
+  },
+  {
+    "id": "o_1217",
+    "source": "Words Organized",
+    "category": "문화 > 은행",
+    "word": "vault",
+    "meaning": "(은행의 대형 강철) 금고실, 지하 납골당",
+    "core_image": "두께 1미터의 원형 강철 다이얼 문을 돌려 열고 들어가는 은행 지하 보관실",
+    "focus": "귀금속, 현금, 기밀 서류를 도난과 화재로부터 지키는 난공불락의 대형 금고실",
+    "examples": [
+      "The historic bank stores its bullion reserves securely in a subterranean reinforced steel vault"
+    ]
+  },
+  {
+    "id": "o_1218",
+    "source": "Words Organized",
+    "category": "문화 > 은행",
+    "word": "purse",
+    "meaning": "지갑, 핸드백, 판돈/상금",
+    "core_image": "가방 속에서 꺼내는 동전과 신용카드가 들어 있는 가죽 지갑",
+    "focus": "여성이 주로 소지하는 소형 지갑이나 대회에서 수여되는 총상금 규모",
+    "examples": [
+      "She reached inside her handbag to retrieve her leather coin purse"
+    ]
+  },
+  {
+    "id": "o_1219",
+    "source": "Words Organized",
+    "category": "문화 > 결제 및 지출",
+    "word": "pay A up front",
+    "meaning": "A를 선불로 완납하다",
+    "core_image": "계약서를 쓰자마자 현장에서 전체 공사 대금을 현금으로 먼저 건네주는 결제",
+    "focus": "용역이나 상품을 인도받기 전 계약 초기에 전체 또는 상당 부분의 대금을 미리 지급함",
+    "examples": [
+      "The landlord demanded that the new tenant pay six months of rent completely up front"
+    ]
+  },
+  {
+    "id": "o_1220",
+    "source": "Words Organized",
+    "category": "문화 > 결제 및 지출",
+    "word": "charge",
+    "meaning": "(요금을) 청구하다, 대금을 부과하다",
+    "core_image": "카드 단말기에 신용카드를 긁고 청구 금액이 영수증에 인쇄되어 나오는 장면",
+    "focus": "서비스나 상품 제공의 대가로 고객에게 지불해야 할 금액을 공식 부과함",
+    "examples": [
+      "They charged me a substantial cancellation fee because I notified them at the last minute"
+    ]
+  },
+  {
+    "id": "o_1221",
+    "source": "Words Organized",
+    "category": "문화 > 결제 및 지출",
+    "word": "add up",
+    "meaning": "(사소한 비용이 모여) 불어나다, 합산되어 큰 액수가 되다",
+    "core_image": "매일 마시는 커피 몇천 원 영수증이 한 달 뒤 수십만 원의 거대한 뭉칫돈으로 쌓이는 모습",
+    "focus": "하나하나는 작아 보이는 지출이나 수치가 누적되어 무시할 수 없을 만큼 큰 총합이 됨",
+    "examples": [
+      "Those daily bills for eating out at fancy restaurants on the weekends add up surprisingly quickly"
+    ]
+  },
+  {
+    "id": "o_1222",
+    "source": "Words Organized",
+    "category": "문화 > 파산",
+    "word": "go broke",
+    "meaning": "빈털터리가 되다, 파산하다",
+    "core_image": "텅 빈 주머니를 바깥으로 뒤집어 보이며 통장 잔고가 0원이 되어 주저앉은 모습",
+    "focus": "무리한 지출이나 사업 실패로 인해 가진 돈을 모두 탕진하고 무일푼이 됨",
+    "examples": [
+      "I am already going broke from soaring fuel prices, so I don't drive my private car often"
+    ]
+  },
+  {
+    "id": "o_1223",
+    "source": "Words Organized",
+    "category": "문화 > 파산",
+    "word": "write off",
+    "meaning": "(회수 불가능한 부채를) 탕감하다, 대손 처리하다",
+    "core_image": "장부에서 회수 불가능한 빚 위에 붉은색 취소선을 긋고 손실로 털어버리는 회계 처리",
+    "focus": "채무자의 상환 능력이 없어 은행이나 채권자가 부채를 공식적으로 포기하고 장부상 소각함",
+    "examples": [
+      "The commercial bank had no choice but to write off millions in non-performing industrial loans"
+    ]
+  },
+  {
+    "id": "o_1224",
+    "source": "Words Organized",
+    "category": "문화 > 할인",
+    "word": "discount",
+    "meaning": "(가격을) 할인하다, (정보를) 미리 주가에 선반영하다",
+    "core_image": "백화점 옷걸이에 빨간색 20% 세일 라벨이 붙거나 주식 시장이 미래 악재를 즉시 주가에 반영함",
+    "focus": "정가에서 가격을 깎아주거나 금융 시장이 미래의 모든 정보와 기대를 즉각 현재 가치에 반영함",
+    "examples": [
+      "The efficient stock market discounts everything in advance, including geopolitical tensions"
+    ]
+  },
+  {
+    "id": "o_1225",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "have a stake in",
+    "meaning": "~에 지분/이해관계가 있다",
+    "core_image": "회사의 주식 지분 증서를 손에 쥐고 주주총회에서 투표권을 행사하는 주주의 몫",
+    "focus": "특정 기업이나 프로젝트의 성패에 직접적인 재정적·전략적 이해관계와 주식 지분을 가짐",
+    "examples": [
+      "Our investment partnership has acquired a substantial equity stake in the enterprise software sector"
+    ]
+  },
+  {
+    "id": "o_1226",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "as paper of",
+    "meaning": "~한 성격의 종이 조각으로서의 (주식·채권 비유)",
+    "core_image": "화려하게 인쇄되었지만 실물 가치나 현금 흐름이 없는 투기적 주식 증서를 종이 쪼가리로 취급함",
+    "focus": "본질 가치 없이 투기 광풍으로 거래되는 무가치한 유가증권을 비유적으로 부르는 표현",
+    "examples": [
+      "Graham refused to purchase securities treated as paper of the most speculative and unattractive type"
+    ]
+  },
+  {
+    "id": "o_1227",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "make an investment",
+    "meaning": "자본 투자를 집행하다",
+    "core_image": "철저한 기업 분석 보고서를 바탕으로 유망한 기업의 주식을 매수하여 자금을 투입함",
+    "focus": "미래의 배당과 자본 수익을 목적으로 원금의 안전성을 확보하며 자금을 투입함",
+    "examples": [
+      "Intelligent investors make an investment only when there is an adequate margin of safety"
+    ]
+  },
+  {
+    "id": "o_1228",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "investment operation",
+    "meaning": "투자 운용, 체계적 투자 프로세스",
+    "core_image": "철저한 펀더멘털 분석, 위험 분산, 안전마진 계산이 맞물려 돌아가는 자산 운용 엔진",
+    "focus": "단순 투기(Speculation)와 구별되는 철저한 분석과 원금 보존 원칙에 기반한 전문 투자 프로세스",
+    "examples": [
+      "An authentic investment operation is one which, upon thorough analysis, promises safety of principal"
+    ]
+  },
+  {
+    "id": "o_1229",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "quotation",
+    "meaning": "(증시의) 시세, 주가 호가, 인용",
+    "core_image": "증권 거래소 전광판에 쉼 없이 깜빡이며 갱신되는 각 종목의 실시간 매수/매도 호가",
+    "focus": "금융 시장에서 공개적으로 표시되는 주식, 채권, 원자재의 공식 시장 거래 가격",
+    "examples": [
+      "Graham taught us not to let daily market quotations dictate our intrinsic valuation of a business"
+    ]
+  },
+  {
+    "id": "o_1230",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "affiliate",
+    "meaning": "계열사, 자회사, 제휴처",
+    "core_image": "모회사라는 큰 나무 둥지에서 뻗어 나와 독립된 법인으로 운영되는 가지 회사들",
+    "focus": "대기업 그룹의 지배하에 있으면서 상호 지분과 사업을 긴밀히 공유하는 관계사",
+    "examples": [
+      "The multinational technology conglomerate spun off its autonomous robotics affiliate last month"
+    ]
+  },
+  {
+    "id": "o_1231",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "private owner",
+    "meaning": "개인 사업가, 비상장 기업의 1인 소유주",
+    "core_image": "상장 주식의 단기 등락에 연연하지 않고 공장 전체의 현금 창출력만을 바라보는 1인 공장주",
+    "focus": "주식 시장의 호가가 아닌 기업 전체를 통째로 인수하여 영구 보유하려는 진정한 사업가적 시선",
+    "examples": [
+      "He knows how to identify undervalued securities that sell at considerably less than their value to a private owner"
+    ]
+  },
+  {
+    "id": "o_1232",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "sums",
+    "meaning": "(투입되는) 액수, 자금 규모",
+    "core_image": "통장에 찍힌 수억 원의 투자 원금 뭉칫돈",
+    "focus": "투자나 거래에 투입되는 구체적인 자금의 크기나 액수",
+    "examples": [
+      "Bill's investment record working with relatively small sums of capital was far superior to Wall Street averages"
+    ]
+  },
+  {
+    "id": "o_1233",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "Two-tier market",
+    "meaning": "이중 구조 시장 (대형 성장주 쏠림 현상)",
+    "core_image": "무대의 스포트라이트가 소수 대형주만 환하게 비추고 나머지 대다수 종목은 암흑 속에 버려진 시장",
+    "focus": "소수의 인기 대형 성장주만 천정부지로 치솟고 나머지 우량 가치주들은 철저히 소외된 양극화 장세",
+    "examples": [
+      "The late 1960s saw a distortive two-tier market where a handful of glamorous stocks traded at insane valuations"
+    ]
+  },
+  {
+    "id": "o_1234",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "plunge",
+    "meaning": "(주가나 가치가) 곤두박질치다, 급락하다",
+    "core_image": "높은 절벽에서 깊은 심해 바닥으로 비명과 함께 수직 낙하하는 롤러코스터",
+    "focus": "주가, 통화 가치, 지수가 짧은 시간 동안 거센 공포와 함께 수직으로 폭락함",
+    "examples": [
+      "Technology share prices plunged drastically following the unexpected interest rate hike"
+    ]
+  },
+  {
+    "id": "o_1235",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "bail out",
+    "meaning": "(손실을 확정하고) 손절매하고 탈출하다, 구제 금융을 제공하다",
+    "core_image": "추락하는 전투기에서 조종사가 사출 버튼을 누르고 낙하산을 펴서 탈출하는 긴박한 순간",
+    "focus": "추가 손실을 막기 위해 포지션을 정리하고 탈출하거나 부도 위기 기업에 구제 자금을 지원함",
+    "examples": [
+      "When the fraud was revealed, did I buy more shares at a discount, or did I prudently bail out?"
+    ]
+  },
+  {
+    "id": "o_1236",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "wager",
+    "meaning": "(결과에 돈을 거는) 내기, 도박",
+    "core_image": "카지노 룰렛 판 위에 특정 숫자가 나올 것을 기대하며 칩을 올려놓는 승부수",
+    "focus": "불확실한 결과에 대해 돈을 걸고 승패를 가리는 도박성 내기",
+    "examples": [
+      "Placing a reckless speculative wager on penny stocks is not the path to enduring wealth"
+    ]
+  },
+  {
+    "id": "o_1237",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "ante",
+    "meaning": "(패를 돌리기 전 내는) 기본 판돈, 참가비",
+    "core_image": "포커 게임을 시작하기 전 모든 참가자가 의무적으로 테이블 중앙에 칩 한 개씩 던져 넣는 모습",
+    "focus": "게임이나 입찰, 새로운 사업에 참여하기 위해 선제적으로 지불해야 하는 최소한의 기본 비용",
+    "examples": [
+      "The rapid rise of artificial intelligence has raised the financial ante for all tech startups"
+    ]
+  },
+  {
+    "id": "o_1238",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "put up",
+    "meaning": "(자금이나 제안을) 내놓다, 과감히 제시하다",
+    "core_image": "협상 테이블 위에 보증금 수표와 자금 증빙서를 탁 소리 나게 올려놓으며 배짱을 보이는 손",
+    "focus": "특정 거래나 투자를 성사시키기 위해 필요한 자금이나 담보를 과감하게 내놓아 제시함",
+    "examples": [
+      "The venture capital consortium agreed to put up ten million dollars for the initial seed round"
+    ]
+  },
+  {
+    "id": "o_1239",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "accrue",
+    "meaning": "(이자나 이익이) 자연스럽게 누적되다, 쌓이다",
+    "core_image": "눈덩이가 굴러가며 복리의 마법으로 점점 더 거대해져 막대한 이익으로 불어나는 모습",
+    "focus": "시간의 경과에 따라 이자, 배당, 투자 수익이 지속적으로 축적되어 큰 합계가 됨",
+    "examples": [
+      "The aggregate profits accruing from this single intelligent investment decision far exceeded all others"
+    ]
+  },
+  {
+    "id": "o_1240",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "be wound up",
+    "meaning": "(회사가 청산 절차를 밟아) 해산되다, 정리되다",
+    "core_image": "회사의 자산을 모두 매각하여 부채를 갚고 법인 등기부를 폐쇄하여 문을 닫는 청산 절차",
+    "focus": "법인이나 파트너십이 사업을 영구 종료하고 잔여 재산을 배분하여 공식 해산함",
+    "examples": [
+      "After decades of stellar market-beating returns, the Graham-Newman investment partnership was voluntarily wound up"
+    ]
+  },
+  {
+    "id": "o_1241",
+    "source": "Words Organized",
+    "category": "문화 > 증권",
+    "word": "have closed down",
+    "meaning": "(사업체나 웹사이트가) 영구 폐쇄되다",
+    "core_image": "상점 철제 셔터를 내리고 자물쇠를 채운 뒤 '영업 종료' 팻말을 걸어두는 모습",
+    "focus": "더 이상 영업을 지속하지 않고 물리적 매장이나 온라인 서비스를 완전히 닫음",
+    "examples": [
+      "The fraudulent e-commerce website has closed down after the regulatory investigation"
+    ]
+  },
+  {
+    "id": "o_1242",
+    "source": "Words Organized",
+    "category": "문화 > 사업",
+    "word": "go out of business",
+    "meaning": "(매출 부진으로) 폐업하다, 도산하다",
+    "core_image": "손님이 끊긴 가게 앞에 세일 팻말을 붙이다가 결국 빈 매장으로 임대 안내판을 붙이는 과정",
+    "focus": "수익성 악화나 부도를 견디지 못하고 상업적 운영을 영구적으로 중단함",
+    "examples": [
+      "Thousands of poorly capitalized local retail stores went out of business during the recession"
+    ]
+  },
+  {
+    "id": "o_1243",
+    "source": "Words Organized",
+    "category": "문화 > 도구",
+    "word": "stylus",
+    "meaning": "(화면이나 점토판용) 스타일러스 펜, 바늘",
+    "core_image": "태블릿 화면 위에 정밀한 그림을 그리거나 고대 점토판에 쐐기 문자를 새기는 뾰족한 펜",
+    "focus": "터치스크린 입력이나 음반 홈을 읽어내는 바늘, 정밀 각인용 도구",
+    "examples": [
+      "The graphic designer used a pressure-sensitive digital stylus to sketch intricate illustrations"
+    ]
+  },
+  {
+    "id": "o_1244",
+    "source": "Words Organized",
+    "category": "문화 > 법",
+    "word": "legality",
+    "meaning": "합법성, 적법성",
+    "core_image": "헌법 조항과 법률 조문을 대조하여 어떤 행위가 법의 테두리 안에 있는지 검증하는 도장",
+    "focus": "특정 행동이나 계약이 실정법 규정에 정확히 부합하는지 여부",
+    "examples": [
+      "International jurists questioned the fundamental legality of the unilateral trade sanctions"
+    ]
+  },
+  {
+    "id": "o_1245",
+    "source": "Words Organized",
+    "category": "문화 > 법",
+    "word": "legitimate",
+    "meaning": "정당한, 합법적인, 타당한",
+    "core_image": "공식 인장이 찍힌 허가증을 당당하게 제시하며 자신의 권리를 입증하는 합법적 절차",
+    "focus": "법률에 의해 공인되었거나 도덕적·이성적 기준에서 충분히 타당하고 정당함",
+    "examples": [
+      "She had a completely legitimate grievance regarding unfair workplace compensation"
+    ]
+  },
+  {
+    "id": "o_1246",
+    "source": "Words Organized",
+    "category": "문화 > 군대",
+    "word": "be discharged",
+    "meaning": "(군 복무를 마치고) 제대하다, 전역하다",
+    "core_image": "군복을 입고 부대 위병소를 통과해 민간인 신분으로 환한 사회로 걸어 나오는 순간",
+    "focus": "군 복무 의무 기간을 완수하고 공식적으로 군적에서 전역 조치됨",
+    "examples": [
+      "I was waiting patiently for my boyfriend to be honorably discharged from his mandatory military service"
+    ]
+  },
+  {
+    "id": "o_1247",
+    "source": "Words Organized",
+    "category": "문화 > 도덕",
+    "word": "injustice",
+    "meaning": "불의, 불평등, 부당함",
+    "core_image": "죄 없는 사람이 누명을 쓰고 감옥에 갇히고 범죄자가 활개 치는 기울어진 법정의 저울",
+    "focus": "도덕적 정의나 법적 공정성이 짓밟혀 억울한 피해가 발생하는 불의한 상태",
+    "examples": [
+      "The activist dedicated her life to fighting systemic racial and economic injustice"
+    ]
+  },
+  {
+    "id": "o_1248",
+    "source": "Words Organized",
+    "category": "문화 > 문학",
+    "word": "allegory",
+    "meaning": "우화, 풍자, 알레고리 (비유적 서사)",
+    "core_image": "동물들이 등장하는 동화처럼 보이지만 실은 공산주의 독재 정권을 신랄하게 비판하는 문학적 다층 구조",
+    "focus": "표면적인 이야기 아래에 더 깊은 도덕적·정치적·종교적 진실을 비유적으로 숨겨둔 서사 기법",
+    "examples": [
+      "George Orwell's masterpiece Animal Farm is a brilliant political allegory depicting the Russian Revolution"
+    ]
+  },
+  {
+    "id": "o_1249",
+    "source": "Words Organized",
+    "category": "문화 > 계급",
+    "word": "vassal",
+    "meaning": "봉신 (영주에게 충성을 바치고 영지를 하사받은 가신)",
+    "core_image": "중세 성채에서 영주 앞에 무릎을 꿇고 양손을 모아 군사적 충성을 맹세하는 봉건 기사",
+    "focus": "봉건제 사회에서 주군(Lord)에게 충성과 군사 봉사를 맹세하고 보호와 영지를 받은 신하",
+    "examples": [
+      "The feudal lord commanded every loyal vassal to assemble their knights for the upcoming campaign"
+    ]
+  },
+  {
+    "id": "o_1250",
+    "source": "Words Organized",
+    "category": "문화 > 유물",
+    "word": "unearth",
+    "meaning": "(땅을 파서 유물을) 발굴하다, (숨겨진 비밀을) 밝혀내다",
+    "core_image": "모래사막 유적지에서 고고학자가 붓으로 흙을 털어내며 수천 년 전 황금 마스크를 드러내는 순간",
+    "focus": "땅속에 묻혀 있던 고대 유물을 발굴하거나 오랜 세월 은폐되었던 진실을 세상에 밝혀냄",
+    "examples": [
+      "Archaeologists recently unearthed a pristine Roman mosaic beneath the modern city streets"
+    ]
+  },
+  {
+    "id": "o_1251",
+    "source": "Words Organized",
+    "category": "문화 > 유물",
+    "word": "excavation",
+    "meaning": "(고고학적) 발굴 작업, 발굴 현장",
+    "core_image": "격자 구획을 나눈 흙탕물 구덩이 안에서 인부들이 조심스럽게 삽과 솔로 유물을 수습하는 작업",
+    "focus": "고대 유적지나 지하 구조물을 과학적으로 파헤쳐 유물을 조사하는 공식 발굴 공정",
+    "examples": [
+      "The extensive archaeological excavation of the prehistoric burial mound took over five years"
+    ]
+  },
+  {
+    "id": "o_1252",
+    "source": "Words Organized",
+    "category": "문화 > 유물",
+    "word": "figurine",
+    "meaning": "(장식용) 작은 조각상, 피규어",
+    "core_image": "손바닥 위에 올려둘 수 있는 작은 흙이나 청동으로 빚은 고대 여신상",
+    "focus": "종교적 숭배나 장식용으로 정교하게 제작된 작은 크기의 인물/동물 조각상",
+    "examples": [
+      "Excavators discovered a delicate terracotta figurine representing a fertility goddess"
+    ]
+  },
+  {
+    "id": "o_1253",
+    "source": "Words Organized",
+    "category": "문화 > 이야기",
+    "word": "sidelight",
+    "meaning": "곁들일 이야기, 부수적 정보, 새로운 조명",
+    "core_image": "주 무대 조명 옆에서 은은하게 비추어 메인 인물의 숨겨진 일화를 드러내 주는 측면 조명",
+    "focus": "본론의 이해를 돕기 위해 곁가지로 덧붙이는 흥미롭고 유익한 일화나 새로운 관점",
+    "examples": [
+      "One fascinating sidelight here: it is extraordinary that buying dollar bills for forty cents takes immediately with some people or not at all"
+    ]
+  },
+  {
+    "id": "o_1254",
+    "source": "Words Organized",
+    "category": "문화 > 도시",
+    "word": "suburb",
+    "meaning": "교외, 근교 주거 지역",
+    "core_image": "도심의 빌딩 숲을 벗어나 조용한 가로수길과 잔디 정원이 펼쳐진 쾌적한 주택가",
+    "focus": "대도시 외곽에 위치하여 출퇴근하는 통근자들이 거주하는 한적한 주거 단지",
+    "examples": [
+      "They decided to leave the bustling metropolis and buy a house in a quiet green suburb"
+    ]
+  },
+  {
+    "id": "o_1255",
+    "source": "Words Organized",
+    "category": "문화 > 도시",
+    "word": "high-rise apartment",
+    "meaning": "고층 아파트 단지",
+    "core_image": "하늘 높이 뻗은 수십 층짜리 현대식 타워형 아파트 단지의 야경 불빛",
+    "focus": "수직으로 높게 건설되어 많은 가구가 거주할 수 있는 엘리베이터 설비의 현대식 공동주택",
+    "examples": [
+      "High-rise apartments have transformed the skyline of modern Asian metropolitan centers"
+    ]
+  },
+  {
+    "id": "o_1256",
+    "source": "Words Organized",
+    "category": "문화 > 사적(private)",
+    "word": "latch",
+    "meaning": "(문이나 창문의) 걸쇠, 빗장",
+    "core_image": "문을 닫고 딸깍 소리를 내며 홈에 걸려 외부 침입을 막아주는 금속 빗장 장치",
+    "focus": "문이나 창문이 바람에 열리지 않거나 잠그기 위해 사용하는 간단한 기계식 잠금 걸쇠",
+    "examples": [
+      "Make sure the front gate latch is firmly secured so the dog cannot push it open"
+    ]
+  },
+  {
+    "id": "o_1257",
+    "source": "Words Organized",
+    "category": "문화 > 사적(private)",
+    "word": "leak",
+    "meaning": "(비밀이나 데이터의) 유출, 누설, 액체 누출",
+    "core_image": "파이프의 미세한 틈새로 물이 뚝뚝 새어 나오듯 기밀 서버에서 개인정보가 인터넷으로 새어나감",
+    "focus": "밀폐된 시스템이나 조직 내부의 기밀 정보, 데이터가 보안 구멍을 통해 외부로 유출됨",
+    "examples": [
+      "When shopping online, ensure that the website is encrypted and there are no confidential data leaks"
+    ]
+  },
+  {
+    "id": "o_1258",
+    "source": "Words Organized",
+    "category": "문화 > 농경",
+    "word": "potted plants",
+    "meaning": "화분에 심은 식물, 화초",
+    "core_image": "거실 창가 햇살 아래 테라코타 화분에 심겨 파릇파릇한 잎을 뽐내는 관엽 식물",
+    "focus": "밭이 아닌 실내외 화분에 흙을 담아 정성스레 기르는 화초나 관상용 식물",
+    "examples": [
+      "The sunny apartment balcony was decorated with vibrant potted plants and blooming herbs"
+    ]
+  },
+  {
+    "id": "o_1259",
+    "source": "Words Organized",
+    "category": "문화 > 빌딩",
+    "word": "inaugurate",
+    "meaning": "(건물이나 박물관의) 개관을 선언하다, 취임시키다",
+    "core_image": "건물 정문 앞에서 테이프를 가위로 자르고 내빈들의 박수 속에 문을 활짝 여는 개관식",
+    "focus": "새로운 공공 건물, 기념관의 개관이나 고위 공직자의 취임을 공식적인 의식을 통해 선포함",
+    "examples": [
+      "The mayor attended the ceremony to officially inaugurate the state-of-the-art modern art museum"
+    ]
+  },
+  {
+    "id": "o_1260",
+    "source": "Words Organized",
+    "category": "자연 > 물",
+    "word": "spring",
+    "meaning": "샘, 샘물, 온천",
+    "core_image": "바위 틈새에서 맑고 시원한 천연 암반수가 끊임없이 퐁퐁 솟아오르는 샘터",
+    "focus": "지하수가 지표면으로 자연스럽게 솟아 나오는 맑은 물줄기나 수맥의 근원",
+    "examples": [
+      "The remote mountain village gets its pure drinking water from an alpine natural spring"
+    ]
+  },
+  {
+    "id": "o_1261",
+    "source": "Words Organized",
+    "category": "자연 > 물",
+    "word": "marsh",
+    "meaning": "습지, 늪지대",
+    "core_image": "갈대와 수초가 우거져 있고 발을 디디면 질퍽하게 물이 차오르는 넓은 습지",
+    "focus": "얕은 물이 항상 고여 있어 수생 식물과 물새들의 서식지가 되는 저지대 습지",
+    "examples": [
+      "Wild-fowl from the tidal marshes and sea coast were the subject of a learned ecclesiastical discussion"
+    ]
+  },
+  {
+    "id": "o_1262",
+    "source": "Words Organized",
+    "category": "자연 > 과일 및 식물",
+    "word": "fig",
+    "meaning": "무화과",
+    "core_image": "껍질을 반으로 쪼개면 붉고 꿀처럼 달콤한 과육과 톡톡 씹히는 씨앗이 가득한 과일",
+    "focus": "지중해 연안에서 고대부터 재배되어 온 꽃이 과실 속에 숨겨진 부드러운 무화과 열매",
+    "examples": [
+      "Fresh ripe figs paired wonderfully with sharp goat cheese and aged balsamic vinegar"
+    ]
+  },
+  {
+    "id": "o_1263",
+    "source": "Words Organized",
+    "category": "자연 > 동물 및 조류",
+    "word": "coot",
+    "meaning": "검둥오리 (물닭류 조류)",
+    "core_image": "온몸이 까맣고 이마와 부리만 하얀색을 띤 채 호수 수면을 둥둥 떠다니는 물새",
+    "focus": "호수나 습지에서 수초를 뜯어 먹으며 서식하는 뜸부기과의 검은 물새",
+    "examples": [
+      "The birdwatcher identified a flock of Eurasian coots diving for submerged aquatic plants"
+    ]
+  },
+  {
+    "id": "o_1264",
+    "source": "Words Organized",
+    "category": "자연 > 동물 및 조류",
+    "word": "teal",
+    "meaning": "청둥오리류, 쇠오리 (작은 담수 오리), 청록색",
+    "core_image": "머리 옆면에 화려한 청록색 줄무늬 깃털을 뽐내며 얕은 강가에서 헤엄치는 작은 야생오리",
+    "focus": "몸집이 작고 날렵하며 깃털에 선명한 청록빛을 띤 소형 야생 담수 오리",
+    "examples": [
+      "A small flock of green-winged teals landed gracefully along the muddy riverbank"
+    ]
+  },
+  {
+    "id": "o_1265",
+    "source": "Words Organized",
+    "category": "자연 > 동물 및 조류",
+    "word": "moorhen",
+    "meaning": "쇠물닭 (붉은 이마판을 가진 물새)",
+    "core_image": "붉은 부리와 노란 다리를 뽐내며 연잎 위를 사뿐사뿐 걸어 다니는 흑갈색 물새",
+    "focus": "습지나 연못가의 수풀 사이에 둥지를 틀고 사는 뜸부기과의 대표적인 야생 조류",
+    "examples": [
+      "The common moorhen stepped cautiously among the floating lily pads in the pond"
+    ]
+  },
+  {
+    "id": "o_1266",
+    "source": "Words Organized",
+    "category": "자연 > 우주 및 물리/화학",
+    "word": "constellation",
+    "meaning": "별자리, 성좌, (관련된 화려한 인물들의) 무리",
+    "core_image": "밤하늘의 밝은 별들을 선으로 이어 만들어낸 오리온자리나 북두칠성의 반짝임",
+    "focus": "천문학적 별자리 또는 특정 분야의 걸출한 인물이나 요소들이 화려하게 모인 군집",
+    "examples": [
+      "Navigators historically used the stellar constellation of the Southern Cross to steer their ships"
+    ]
+  },
+  {
+    "id": "o_1267",
+    "source": "Words Organized",
+    "category": "자연 > 우주 및 물리/화학",
+    "word": "combustion",
+    "meaning": "(화학적) 연소, 불이 붙어 탐, (격렬한) 격동",
+    "core_image": "엔진 실린더 내부에서 불꽃 스파크가 튀며 연료와 산소가 폭발적으로 타오르는 연소 반응",
+    "focus": "물질이 산소와 결합하여 열과 빛을 내며 격렬하게 타는 화학 반응 또는 사회적 폭발",
+    "examples": [
+      "Internal combustion engines convert chemical energy from gasoline into mechanical propulsion"
+    ]
+  },
+  {
+    "id": "o_1268",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 회전 및 기본 동작",
+    "word": "twirl",
+    "meaning": "빙글빙글 돌리다, 뱅글뱅글 돌다",
+    "core_image": "무용수가 발끝으로 서서 치맛자락을 활짝 펼치며 제자리에서 우아하게 회전하는 모습",
+    "focus": "가볍고 빠르게 축을 중심으로 연속적으로 빙글빙글 회전시키는 동작",
+    "examples": [
+      "The ballerina began to twirl effortlessly across the grand stage"
+    ]
+  },
+  {
+    "id": "o_1269",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 회전 및 기본 동작",
+    "word": "hang",
+    "meaning": "(아래로) 축 늘어지다, 매달리다, 걸다",
+    "core_image": "부끄러움이나 슬픔에 짓눌려 고개를 들지 못하고 턱을 가슴 쪽으로 떨군 모습",
+    "focus": "힘을 잃고 아래 방향으로 축 처져 늘어지거나 물건을 벽에 매달아 고정함",
+    "examples": [
+      "The guilty girl's head immediately hangs in acute shame and remorse"
+    ]
+  },
+  {
+    "id": "o_1270",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 회전 및 기본 동작",
+    "word": "curl up",
+    "meaning": "(추위나 편안함으로) 몸을 웅크리다, 말아 올리다",
+    "core_image": "추운 겨울날 소파 위에서 푹신한 담요를 덮고 무릎을 가슴으로 당겨 둥글게 웅크린 자세",
+    "focus": "몸의 표면적을 줄여 체온을 보존하거나 안도감을 느끼기 위해 동그랗게 몸을 웅크림",
+    "examples": [
+      "I love to curl up on the plush couch with an engrossing novel when it is freezing outside"
+    ]
+  },
+  {
+    "id": "o_1271",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 회전 및 기본 동작",
+    "word": "devour",
+    "meaning": "(음식이나 책을) 집어삼키다, 게걸스레 먹다, 탐독하다",
+    "core_image": "굶주린 맹수가 먹이를 순식간에 뼈째 집어삼키듯 책을 숨도 쉬지 않고 단숨에 독파함",
+    "focus": "음식을 허겁지겁 먹어 치우거나 지적 호기심으로 책/지식을 맹렬하게 섭취함",
+    "examples": [
+      "The second-rate sensational books which she devoured in her youth destroyed her authentic spontaneity"
+    ]
+  },
+  {
+    "id": "o_1272",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 회전 및 기본 동작",
+    "word": "peruse",
+    "meaning": "(문서를) 정독하다, 꼼꼼하게 숙독하다",
+    "core_image": "계약서의 깨알 같은 조항 하나하나에 돋보기를 대고 밑줄을 그어가며 정독하는 모습",
+    "focus": "대충 훑어보는 것이 아니라 세부 사항을 파악하기 위해 글이나 이미지를 주의 깊게 살핌",
+    "examples": [
+      "Even worse is when I plan on quickly checking updates and wind up perusing people's photos and status"
+    ]
+  },
+  {
+    "id": "o_1273",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 물건 조작 및 일상 동작",
+    "word": "in and out of",
+    "meaning": "(특정 장소를) 쉼 없이 들락날락하다",
+    "core_image": "여닫이문을 끊임없이 열고 닫으며 분주하게 안팎을 오가는 사람의 발걸음",
+    "focus": "한 장소에 오래 머물지 않고 연속적으로 들어왔다 나갔다를 반복함",
+    "examples": [
+      "I've been in and out of the emergency ward for hours every single day on end"
+    ]
+  },
+  {
+    "id": "o_1274",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 물건 조작 및 일상 동작",
+    "word": "take out",
+    "meaning": "(가방 등에서 물건을) 꺼내다, 인출하다, 데리고 나가다",
+    "core_image": "백팩 지퍼를 열고 손을 쑥 집어넣어 안쪽에 들어 있던 지갑이나 노트북을 밖으로 빼냄",
+    "focus": "밀폐된 공간이나 가방 내부에서 물건을 바깥으로 끄집어내는 동작",
+    "examples": [
+      "I lost my balance and fell because the bus stopped abruptly when I was taking out things from my bag"
+    ]
+  },
+  {
+    "id": "o_1275",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 물건 조작 및 일상 동작",
+    "word": "flip",
+    "meaning": "(책장 등을 손가락으로 촤르륵) 넘기다, 뒤집다",
+    "core_image": "엄지손가락으로 종이책 모서리를 튕기며 종이가 사각사각 넘어가는 경쾌한 손동작",
+    "focus": "책이나 잡지의 페이지를 빠르게 휙휙 넘겨보거나 프라이팬의 팬케이크를 뒤집음",
+    "examples": [
+      "I love the tactile sensation of flipping through the crisp pages of a printed physical book"
+    ]
+  },
+  {
+    "id": "o_1276",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 물건 조작 및 일상 동작",
+    "word": "fasten",
+    "meaning": "(안전벨트나 단추를) 단단히 매다, 채우다, 고정하다",
+    "core_image": "택시 뒷좌석에 앉아 안전벨트 쇠 버클을 딸깍 소리가 나도록 홈에 밀어 넣어 고정함",
+    "focus": "안전이나 결합을 위해 버클, 단추, 끈 등을 풀리지 않게 단단히 체결함",
+    "examples": [
+      "I sat in the front passenger seat and forgot to fasten my seatbelt until the driver reminded me"
+    ]
+  },
+  {
+    "id": "o_1277",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "propulsion",
+    "meaning": "(앞으로 나아가게 하는) 추진, 추진력",
+    "core_image": "로켓 엔진의 노즐에서 뿜어져 나오는 화염의 반작용으로 거대한 동체가 하늘로 솟구침",
+    "focus": "물체나 생체 관절을 전방으로 힘차게 밀어붙여 전진시키는 물리적 원동력",
+    "examples": [
+      "The ankle undergoes a rapid plantarflexion near the end of stance, generating propulsion at toe-off"
+    ]
+  },
+  {
+    "id": "o_1278",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "pull back",
+    "meaning": "(군대나 입장을) 후퇴시키다, 뒤로 물러서다, 철회하다",
+    "core_image": "적의 함정을 감지한 지휘관이 깃발을 흔들어 전방의 기병대를 안전한 진지로 물리는 모습",
+    "focus": "위험을 피하거나 재정비를 위해 전진하던 대열이나 약속, 감정적 접근을 뒤로 거두어들임",
+    "examples": [
+      "The military commanders decided to pull back their forward troops to reinforced defensive lines"
+    ]
+  },
+  {
+    "id": "o_1279",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "fork",
+    "meaning": "(길이나 흐름이) 두 갈래로 갈라지다, 분기하다",
+    "core_image": "숲속 오솔길을 걷다가 하나의 도로가 Y자 형태로 왼쪽과 오른쪽 두 갈래로 나뉘는 지점",
+    "focus": "단일했던 경로나 선택지가 둘 이상의 독립된 방향으로 갈라져 분기함",
+    "examples": [
+      "The mountain path forks into two distinct trails just past the wooden bridge"
+    ]
+  },
+  {
+    "id": "o_1280",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "split off",
+    "meaning": "(본체에서 떨어져 나와) 쪼개지다, 분리되다, 독립하다",
+    "core_image": "빙하의 거대한 얼음 덩어리가 굉음을 내며 본체에서 떨어져 나와 바다로 떨어지는 모습",
+    "focus": "기존 조직이나 단일한 개체에서 일부분이 갈라져 나와 독립된 별개의 단위가 됨",
+    "examples": [
+      "A radical faction decided to split off from the mainstream political party to form a new movement"
+    ]
+  },
+  {
+    "id": "o_1281",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "crumble",
+    "meaning": "(바스러져) 부스러지다, (제국이나 시스템이) 허물어지다",
+    "core_image": "마른 비스킷을 손으로 쥐었을 때 바삭 소리를 내며 고운 모래알처럼 바스러져 떨어짐",
+    "focus": "물리적 물체가 잘게 부서져 가루가 되거나 권력, 신념, 제도가 서서히 붕괴함",
+    "examples": [
+      "The ancient limestone ruins began to crumble under decades of relentless wind and rain"
+    ]
+  },
+  {
+    "id": "o_1282",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "pick off",
+    "meaning": "(붙어 있는 것을 손으로) 떼어내다, 제거하다, 하나씩 저격하다",
+    "core_image": "손톱 끝으로 새 책 표지에 붙어 있는 가격표 스티커 모서리를 살살 긁어 깔끔하게 떼어냄",
+    "focus": "표면에 부착된 이물질을 손가락으로 떼어내거나 대상을 하나씩 골라 제거함",
+    "examples": [
+      "He carefully picked the adhesive barcode sticker off the cover of his vintage book"
+    ]
+  },
+  {
+    "id": "o_1283",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "get + [대상] + out of [장소]",
+    "meaning": "~를 [장소]에서 치워버리다, 내보내다",
+    "core_image": "방 안에 들어와 소란을 피우는 사람의 팔을 잡고 방문 밖으로 단호하게 밀어내어 쫓아냄",
+    "focus": "특정 사람이나 방해되는 물건을 특정 공간에서 완전히 바깥으로 퇴출/제거함",
+    "examples": [
+      "I am trying to concentrate on my research, so please get him out of my room immediately"
+    ]
+  },
+  {
+    "id": "o_1284",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "erasure",
+    "meaning": "(기록이나 기억의) 삭제, 말소, 지움",
+    "core_image": "연필로 쓴 글씨를 지우개로 빡빡 문질러 종이 위에 아무 흔적도 남지 않게 지워버림",
+    "focus": "문서의 기록, 데이터, 역사적 흔적을 물리적·제도적으로 완전히 지워 없앰",
+    "examples": [
+      "The authoritarian regime attempted a systematic erasure of all dissident political records"
+    ]
+  },
+  {
+    "id": "o_1285",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 이동, 추진 및 분리",
+    "word": "lift",
+    "meaning": "(안개·구름·부정적 감정이) 걷히다, 해소되다, 들어 올리다",
+    "core_image": "아침 햇살이 비추며 호수를 가득 채웠던 짙은 안개가 서서히 하늘로 증발해 시야가 트임",
+    "focus": "시야를 가리던 안개나 마음을 짓누르던 불신, 우울, 금지령이 걷히며 상태가 맑아짐",
+    "examples": [
+      "Somehow, her heavy feelings of mistrust had lifted sufficiently, leaving her feeling much better"
+    ]
+  },
+  {
+    "id": "o_1286",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 변화 및 강화",
+    "word": "turn into",
+    "meaning": "~로 변하다, 바뀌다",
+    "core_image": "마법 지팡이를 맞은 호박이 반짝이는 황금 마차로 완전히 탈바꿈하는 마법 같은 전환",
+    "focus": "본래의 형태나 성질이 완전히 다른 새로운 존재나 상태로 근본적인 질적 변모를 겪음",
+    "examples": [
+      "In the myth, vulnerable humans gradually turn into demons when consumed by unchecked malice"
+    ]
+  },
+  {
+    "id": "o_1287",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 변화 및 강화",
+    "word": "leave + [목적어] + [형용사/분사]",
+    "meaning": "~를 ~한 상태로 남겨두다/만들다",
+    "core_image": "문을 닫고 방을 떠났을 때 방 안의 창문이 활짝 열린 채로 유지되어 있는 결과",
+    "focus": "어떤 사건이나 행동의 결과로 인해 목적어가 특정한 감정이나 물리적 상태에 머무르게 만듦",
+    "examples": [
+      "The candid psychological discussion left her feeling thoroughly validated and emotionally empowered"
+    ]
+  },
+  {
+    "id": "o_1288",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 변화 및 강화",
+    "word": "boost",
+    "meaning": "(지식·성능·자신감을) 크게 키우다, 증진하다, 북돋우다",
+    "core_image": "뒤에서 로켓 부스터가 점화되어 추진력을 얻고 위쪽으로 솟구쳐 오르는 도약",
+    "focus": "지식수준, 면역력, 생산성, 매출 등을 강력하게 끌어올려 성능을 증폭시킴",
+    "examples": [
+      "People need to boost their foundational critical knowledge before interacting with advanced AI models"
+    ]
+  },
+  {
+    "id": "o_1289",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 변화 및 강화",
+    "word": "ameliorate",
+    "meaning": "(열악한 상태를) 개선하다, 호전시키다",
+    "core_image": "가뭄으로 갈라진 땅에 관개 수로를 연결하여 메마른 농토를 기름진 옥토로 회복시킴",
+    "focus": "빈곤, 통증, 결함 등 나쁘거나 불만족스러운 상황을 더 나은 상태로 완화하고 개선함",
+    "examples": [
+      "Innovative ergonomic seating was introduced to ameliorate chronic workplace posture fatigue"
+    ]
+  },
+  {
+    "id": "o_1290",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 액체",
+    "word": "spill",
+    "meaning": "(실수로 액체를) 쏟다, 흘리다",
+    "core_image": "팔꿈치로 커피잔을 툭 쳐서 뜨거운 커피가 키보드와 책상 위로 왈칵 쏟아지는 아찔함",
+    "focus": "용기 안에 담겨 있던 액체나 가루가 부주의로 인해 용기 바깥으로 흘러나옴",
+    "examples": [
+      "I accidentally spilled hot coffee all over my laptop keyboard while reaching for the mouse"
+    ]
+  },
+  {
+    "id": "o_1291",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 액체",
+    "word": "spill out",
+    "meaning": "(감정이나 비밀이) 쏟아져 나오다, 솔직하게 털어놓다",
+    "core_image": "둑이 터져 갇혀 있던 물길이 쏟아져 나오듯 가슴속에 담아둔 슬픔과 눈물이 한꺼번에 터짐",
+    "focus": "억눌러왔던 속마음, 비밀, 억울함이 감정의 고조와 함께 제어되지 않고 한꺼번에 터져 나옴",
+    "examples": [
+      "All my repressed worries and anxieties spilled out uncontrollably when I finally started talking to her"
+    ]
+  },
+  {
+    "id": "o_1292",
+    "source": "Words Organized",
+    "category": "움직임, 동작 > 액체",
+    "word": "emanate",
+    "meaning": "(빛·열기·감정이) 뿜어져 나오다, 발산하다",
+    "core_image": "등대 렌즈나 태양의 중심에서 눈부신 빛줄기와 온기가 사방으로 은은하게 퍼져 나가는 모습",
+    "focus": "특정 근원지로부터 빛, 향기, 강력한 아우라, 감정이 자연스럽게 외부로 퍼져 나옴",
+    "examples": [
+      "Feelings and attitudes originally experienced from the parent are now experienced as emanating directly from the therapist"
+    ]
+  },
+  {
+    "id": "o_1293",
+    "source": "Words Organized",
+    "category": "위치",
+    "word": "in the back of",
+    "meaning": "~의 뒤쪽에, 후방에",
+    "core_image": "강의실 맨 앞자리가 꽉 차서 맨 뒤편 벽 쪽에 기대어 서 있는 모습",
+    "focus": "특정 공간이나 사물의 정면과 반대되는 가장 안쪽의 뒤쪽 위치",
+    "examples": [
+      "I arrived late, so I had to stand quietly in the back of the conference room the whole time"
+    ]
+  },
+  {
+    "id": "o_1294",
+    "source": "Words Organized",
+    "category": "위치",
+    "word": "top spot",
+    "meaning": "(순위나 차트의) 최상위 자리, 1위",
+    "core_image": "시상대 맨 꼭대기 단상에 올라 금메달을 목에 걸고 트로피를 치켜드는 영광",
+    "focus": "경쟁 차트나 리그에서 가장 높고 독보적인 최고의 1위 위치",
+    "examples": [
+      "The blockbuster superhero sequel knocked the reigning comedy film off the top spot at the box office"
+    ]
+  },
+  {
+    "id": "o_1295",
+    "source": "Words Organized",
+    "category": "위치",
+    "word": "rows of",
+    "meaning": "줄지어 늘어선, 몇 줄의",
+    "core_image": "극장 좌석이나 과수원 나무들이 일정한 간격으로 반듯하게 줄지어 끝없이 늘어선 광경",
+    "focus": "다수의 사물이나 사람이 흐트러짐 없이 일정한 선을 이루며 나란히 정렬된 배열",
+    "examples": [
+      "The endless rows of ornate ornaments, classical statues, and oil paintings delighted my eyes and ears"
+    ]
+  },
+  {
+    "id": "o_1296",
+    "source": "Words Organized",
+    "category": "연결",
+    "word": "articulated",
+    "meaning": "(마디마디) 관절로 연결된, 명확하게 분절된",
+    "core_image": "산업용 로봇 팔의 여러 금속 마디들이 모터와 관절로 정교하게 이어져 유연하게 움직이는 구조",
+    "focus": "여러 개의 부품이나 뼈마디가 관절 구조로 유연하게 연결되어 독립된 자유도로 제어됨",
+    "examples": [
+      "Joints denote articulated mechanical connections, while degrees of freedom correspond to controllable joint coordinates"
+    ]
+  },
+  {
+    "id": "o_1297",
+    "source": "Words Organized",
+    "category": "연결",
+    "word": "span",
+    "meaning": "(공간이나 시간을) 가로지르다, 다리를 놓아 연결하다",
+    "core_image": "넓은 협곡 양쪽 절벽을 거대한 현수교 아치 다리가 웅장하게 가로질러 잇는 모습",
+    "focus": "공간적 거리나 수십 년의 시간적 격차를 가로질러 두 지점을 하나로 연결함",
+    "examples": [
+      "Julien spans this vast intellectual distance by synthesizing classical ethics with modern robotics"
+    ]
+  },
+  {
+    "id": "o_1298",
+    "source": "Words Organized",
+    "category": "연결",
+    "word": "inextricably",
+    "meaning": "떼려야 뗄 수 없게, 불가분하게",
+    "core_image": "두 가닥의 쇠사슬이 얽히고설켜 용접되어 어떤 도구로도 분리할 수 없게 단단히 묶인 상태",
+    "focus": "두 개념, 경제, 국가의 운명이 너무나 밀접하게 얽혀 있어 결코 따로 떼어놓고 생각할 수 없음",
+    "examples": [
+      "European foreign diplomacy is inextricably linked with global energy security strategies"
+    ]
+  },
+  {
+    "id": "o_1299",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "referent",
+    "meaning": "지시대상 (언어가 가리키는 실제 사물/개념)",
+    "core_image": "'사과'라는 글자를 가리키는 손가락 끝이 식탁 위에 놓인 빨간 실제 과일 열매를 정확히 지목함",
+    "focus": "기호학 및 언어학에서 특정 단어나 기호가 현실 세계에서 직접 가리키는 구체적인 물리적/추상적 대상",
+    "examples": [
+      "The language we create to describe the self must be specific in its referents and precise in its definitions"
+    ]
+  },
+  {
+    "id": "o_1300",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "derived from",
+    "meaning": "~로부터 유래한, 파생된",
+    "core_image": "맑은 산 정상의 빙하수가 녹아 흘러내려 거대한 강줄기의 수원(Source)을 이루는 흐름",
+    "focus": "어떤 지식, 단어, 감정, 정체성이 특정 근원이나 이전의 경험에 뿌리를 두고 파생되어 나옴",
+    "examples": [
+      "Positive identification images derived from the empathetic therapeutic relationship build a competent self"
+    ]
+  },
+  {
+    "id": "o_1301",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "manifestation",
+    "meaning": "(숨겨진 것의) 징후, 발현, 겉으로 드러남",
+    "core_image": "몸살감기가 올 때 콧물과 미열이라는 물리적 신호로 질병의 실체가 피부 밖으로 드러남",
+    "focus": "내면에 숨어 있던 감정, 사상, 병적 원인이 눈에 보이는 징후나 구체적인 형태로 표출됨",
+    "examples": [
+      "Her chronic skin rash was merely a physical manifestation of severe underlying emotional stress"
+    ]
+  },
+  {
+    "id": "o_1302",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "analog",
+    "meaning": "유사물, 닮은꼴, 상응하는 것",
+    "core_image": "과거의 트라우마 장면과 거의 똑같은 무대 세트를 현재의 상담실 상황에 그대로 본떠 재현함",
+    "focus": "다른 시대나 맥락에 존재하지만 구조, 기능, 관계 면에서 놀라울 정도로 빼닮은 대상",
+    "examples": [
+      "The current clinical interaction activates the governing scene, and a direct analog of that scene is constructed"
+    ]
+  },
+  {
+    "id": "o_1303",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "matter",
+    "meaning": "(중요한) 문제, 사안, 물질",
+    "core_image": "판사의 책상 위에 올려진 결재를 기다리는 중요한 법적 분쟁 서류철",
+    "focus": "논의하고 해결해야 할 중요한 사건, 사안 또는 물리적 실체를 구성하는 물질",
+    "examples": [
+      "Do I consider the complex ethical matter fully concluded by her brief formal apology letter?"
+    ]
+  },
+  {
+    "id": "o_1304",
+    "source": "Words Organized",
+    "category": "정보",
+    "word": "has special significance",
+    "meaning": "특별한 의미/중요성을 지니다",
+    "core_image": "수많은 평범한 돌멩이들 사이에서 보석처럼 빛을 발하며 특별한 역사적 표식을 달고 있는 유물",
+    "focus": "평범함을 넘어 특정 문화나 개인에게 지극히 남다르고 각별한 가치와 의의를 지님",
+    "examples": [
+      "Authentic espresso has profound cultural significance for the daily social rituals of Italians"
+    ]
+  },
+  {
+    "id": "o_1305",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "attribute A to B",
+    "meaning": "A의 원인을 B의 탓/덕분으로 돌리다",
+    "core_image": "결과물 A에 꼬리표를 붙여 그 원인이 된 출발점 B를 향해 화살표(A → B)를 긋는 인과관계",
+    "focus": "성공이나 오차, 현상의 발생 원인을 특정한 요인이나 인물의 영향력으로 돌려 설명함",
+    "examples": [
+      "We attribute the slightly higher error in clinical populations to assistive devices such as walking canes"
+    ]
+  },
+  {
+    "id": "o_1306",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "more of A than B",
+    "meaning": "B라기보다는 차라리 A에 가깝다",
+    "core_image": "모래사장이 거의 없고 자갈과 콘크리트 부두로 되어 있어 '해변'이라기보단 '선착장'에 가까운 모습",
+    "focus": "두 범주 사이에서 대상의 본질이 B보다는 A의 성격에 훨씬 더 부합함을 명확히 규정함",
+    "examples": [
+      "The rugged coastal area is really more of an industrial waterfront than a recreational sandy beach"
+    ]
+  },
+  {
+    "id": "o_1307",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "alternative to",
+    "meaning": "~의 대안, 대체재",
+    "core_image": "막힌 본선 도로 옆으로 뚫려 있는 시원한 우회 고속도로를 가리키는 이정표",
+    "focus": "기존의 불만족스럽거나 유해한 선택지를 대신하여 유효하게 선택할 수 있는 새로운 대안",
+    "examples": [
+      "Pure sparkling mineral water is a refreshing and healthier alternative to sugary carbonated sodas"
+    ]
+  },
+  {
+    "id": "o_1308",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "in place of",
+    "meaning": "~을 대신하여, 대체하여",
+    "core_image": "요리 레시피에서 비싼 버터를 빼고 그 빈자리에 올리브유 병을 채워 넣는 대체",
+    "focus": "원래 들어가야 할 대상이나 사람을 제외하고 그 자리에 다른 것을 대신 채워 사용함",
+    "examples": [
+      "You can safely use unsweetened almond milk in place of heavy cream in this low-calorie recipe"
+    ]
+  },
+  {
+    "id": "o_1309",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "differentially",
+    "meaning": "차별적으로, 구별하여, 상대적으로",
+    "core_image": "여러 갈래의 전선마다 서로 다른 색상의 라벨을 붙여 각각의 전압을 따로따로 분류하는 작업",
+    "focus": "일괄적으로 처리하지 않고 조건이나 대상의 특성에 맞추어 각각 다르게 구별하여 적용함",
+    "examples": [
+      "We examine how internalized shame becomes differentially linked with various biological drives"
+    ]
+  },
+  {
+    "id": "o_1310",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "in a way",
+    "meaning": "어떤 면에서는, 한편으로는",
+    "core_image": "프리즘을 돌려 보았을 때 다른 각도에서 무지개 스펙트럼의 한 단면이 비치는 시선",
+    "focus": "전부는 아니지만 특정 관점이나 제한된 측면에서 볼 때 어느 정도 타당함",
+    "examples": [
+      "In a way, I am deeply proud of myself for persevering through such an exhausting semester"
+    ]
+  },
+  {
+    "id": "o_1311",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "somehow",
+    "meaning": "어떻게든, 어찌저찌하여",
+    "core_image": "폭풍 속에서 나침반도 없이 헤매다 기적처럼 항구의 불빛을 발견하고 무사히 안착함",
+    "focus": "정확한 방법이나 논리적 과정을 명확히 설명할 수는 없지만 결과적으로 목적을 달성함",
+    "examples": [
+      "Still, somehow, I managed to soothe my anxious mind with some chilled melon and finished the report"
+    ]
+  },
+  {
+    "id": "o_1312",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "not A, nor B",
+    "meaning": "A도 아니고 B도 아니다 (양자 부정)",
+    "core_image": "두 개의 문을 모두 닫고 빗장을 질러 어느 쪽으로도 들어가지 않는 단호한 부정",
+    "focus": "제시된 두 가지 선택지나 가능성 모두가 사실이 아니거나 해당하지 않음을 강조함",
+    "examples": [
+      "My internal reactions did not match her overt behavior toward me, nor how she imagined I felt"
+    ]
+  },
+  {
+    "id": "o_1313",
+    "source": "Words Organized",
+    "category": "논리, 관점 및 비교",
+    "word": "by no means",
+    "meaning": "결코 ~이 아닌, 절대로 아니다",
+    "core_image": "붉은색 커다란 X 표시를 그어 어떤 여지나 예외도 없이 전면적으로 부정하는 방패",
+    "focus": "어떠한 경우나 관점에서도 결코 사실이 아니며 전혀 타당하지 않음을 가장 강력하게 부정함",
+    "examples": [
+      "It was by no means a mandatory obligation for the gracious host to be so exceptionally attentive"
+    ]
+  },
+  {
+    "id": "o_1314",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "to an extent",
+    "meaning": "어느 정도까지는, 일정 범위 내에서",
+    "core_image": "100점 만점 중에서 60점 지점에 눈금을 긋고 그 범위 안에서는 유효하다고 인정함",
+    "focus": "전면적이지는 않지만 일정 한도나 제한된 범위 내에서는 사실임을 인정함",
+    "examples": [
+      "Money can certainly enhance your happiness to an extent, such as providing comfort and financial security"
+    ]
+  },
+  {
+    "id": "o_1315",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "to some extent",
+    "meaning": "어느 정도는, 다소, 얼마간",
+    "core_image": "뿌연 유리창 너머로 윤곽이 절반쯤 드러나 희미하게나마 형체를 알아볼 수 있는 정도",
+    "focus": "완전하지는 않지만 어느 정도 상당한 수준으로 이해하거나 동의하는 상태",
+    "examples": [
+      "For two hours, he explained advanced abstract theories, and I managed to understand them to some extent"
+    ]
+  },
+  {
+    "id": "o_1316",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "A fair amount of",
+    "meaning": "꽤 많은 양의, 상당한 분량의",
+    "core_image": "바구니에 사과가 절반을 넘어 70~80%가량 묵직하게 가득 차 있는 만족스러운 분량",
+    "focus": "적지 않고 기대 이상으로 꽤 많아 유의미한 영향력을 행사할 수 있는 수량이나 정도",
+    "examples": [
+      "Completing this comprehensive deep learning experiment required a fair amount of high-performance GPU compute"
+    ]
+  },
+  {
+    "id": "o_1317",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "the equivalent of",
+    "meaning": "~에 상당하는 양, 동등한 가치",
+    "core_image": "저울 양쪽에 1달러짜리 지폐 한 장과 100센트짜리 동전 묶음을 올려 수평을 맞춘 상태",
+    "focus": "형태는 다르지만 양, 가치, 효력 면에서 정확히 동일한 크기나 분량에 해당함",
+    "examples": [
+      "Put the exact equivalent of one single serving portion of freshly boiled gnocchi into the serving dish"
+    ]
+  },
+  {
+    "id": "o_1318",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "by far",
+    "meaning": "단연코, 훨씬, 비교할 수 없을 정도로",
+    "core_image": "달리기 경주에서 1등 주자가 2등 주자를 수백 미터 뒤로 멀찍이 따돌리고 독주하는 격차",
+    "focus": "비교급이나 최상급을 강조하여 다른 어떤 비교 대상보다 압도적인 격차로 월등함",
+    "examples": [
+      "This comprehensive volume is by far the most authoritative textbook ever written on reinforcement learning"
+    ]
+  },
+  {
+    "id": "o_1319",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "sheer",
+    "meaning": "순전한, 순수한, 완전한 (강조)",
+    "core_image": "다른 불순물이 1%도 섞이지 않은 순도 100%의 투명한 수정 결정체",
+    "focus": "다른 어떤 부수적 요인 없이 오직 순수한 행운, 노력, 낭비 그 자체임을 극적으로 강조함",
+    "examples": [
+      "We survived the perilous mountain blizzard by sheer luck and stubborn physical endurance"
+    ]
+  },
+  {
+    "id": "o_1320",
+    "source": "Words Organized",
+    "category": "수량 및 정도 (Quantity & Degree)",
+    "word": "unadulterated",
+    "meaning": "섞이지 않은, 순수한, 전적인",
+    "core_image": "물 한 방울 타지 않은 100% 착즙 오렌지 원액의 진하고 순수한 원형",
+    "focus": "어떤 불순물, 위선, 타협도 섞이지 않은 가장 순수하고 온전한 상태를 강조함",
+    "examples": [
+      "For the exhausted researchers, arriving at the tropical island was a moment of sheer unadulterated joy"
+    ]
+  },
+  {
+    "id": "o_1321",
+    "source": "Words Organized",
+    "category": "빛",
+    "word": "ambient",
+    "meaning": "주위의, 잔잔하게 감도는, 환경의",
+    "core_image": "방 한가운데 스탠드 조명에서 은은하게 퍼져 나와 방 전체를 부드럽게 감싸는 간접 조명",
+    "focus": "특정 지점에 집중되지 않고 공간 전체를 자연스럽고 은은하게 둘러싸고 있는 환경적 조건(온도, 빛, 소음)",
+    "examples": [
+      "The sensor continuously monitors the ambient temperature and humidity levels inside the cleanroom"
+    ]
+  }
+];

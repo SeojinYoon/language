@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VocabMaster - 영단어 코어 감각 & 뉘앙스 마스터</title>
+  <meta name="description" content="코어 이미지와 초점 설명을 통해 영어 단어의 뉘앙스를 체득하고 맞추는 인터랙티브 단어장 웹앱">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div id="app" class="app-layout">
+    
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-area">
+          <div class="logo-icon">
+            <i data-lucide="sparkles"></i>
+          </div>
+          <div class="logo-text">
+            <h1 class="brand-title">Vocab<span>Master</span></h1>
+            <span class="brand-subtitle">Core Image & Nuance Lab</span>
+          </div>
+        </div>
+
+        <nav class="nav-tabs">
+          <button class="nav-btn active" data-view="quiz-view">
+            <i data-lucide="brain"></i>
+            <span>단어 맞추기 (Quiz)</span>
+          </button>
+          <button class="nav-btn" data-view="flashcard-view">
+            <i data-lucide="layers"></i>
+            <span>플래시카드 (Flashcards)</span>
+          </button>
+          <button class="nav-btn" data-view="dict-view">
+            <i data-lucide="book-open"></i>
+            <span>전체 단어장 (Dictionary)</span>
+          </button>
+          <button class="nav-btn" data-view="stats-view">
+            <i data-lucide="bar-chart-2"></i>
+            <span>학습 현황 (Stats)</span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <!-- Quick Stats Widget -->
+        <div class="stat-pill streak-pill" title="연속 정답 스트릭">
+          <i data-lucide="flame" class="fire-icon"></i>
+          <span id="header-streak-count">0</span>
+        </div>
+        <div class="stat-pill xp-pill" title="획득 경험치">
+          <i data-lucide="award"></i>
+          <span id="header-xp-count">0 XP</span>
+        </div>
+
+        <!-- Controls -->
+        <button id="sound-toggle-btn" class="icon-btn" title="효과음 켜기/끄기">
+          <i data-lucide="volume-2" id="sound-icon"></i>
+        </button>
+        <button id="theme-toggle-btn" class="icon-btn" title="테마 변경 (다크/라이트)">
+          <i data-lucide="moon" id="theme-icon"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Subheader Filter & Settings Toolbar -->
+    <section class="toolbar-section">
+      <div class="toolbar-container">
+        <!-- Source Filter -->
+        <div class="filter-group">
+          <label class="filter-label"><i data-lucide="database"></i> 출처:</label>
+          <div class="source-pills">
+            <button class="pill-btn active" data-source="all">전체 (1,321)</button>
+            <button class="pill-btn" data-source="Dissimilarities">뉘앙스 비교 (785)</button>
+            <button class="pill-btn" data-source="Words Organized">주제별 어휘 (536)</button>
+          </div>
+        </div>
+
+        <!-- Category Dropdown -->
+        <div class="filter-group category-group">
+          <label class="filter-label" for="category-select"><i data-lucide="folder"></i> 카테고리:</label>
+          <select id="category-select" class="custom-select">
+            <option value="all">모든 카테고리 전체</option>
+          </select>
+        </div>
+
+        <!-- Mode Specific Controls (Quiz Mode) -->
+        <div id="quiz-mode-controls" class="filter-group mode-toggle-group">
+          <label class="filter-label"><i data-lucide="gamepad-2"></i> 문제 유형:</label>
+          <div class="mode-pills">
+            <button class="mode-pill-btn active" data-quiz-type="typing">
+              <i data-lucide="keyboard"></i> 직접 입력
+            </button>
+            <button class="mode-pill-btn" data-quiz-type="choice">
+              <i data-lucide="check-square"></i> 4지 선다
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter only unmastered/wrong -->
+        <div class="filter-group only-wrong-group">
+          <label class="checkbox-label" title="오답 노트 또는 즐겨찾기만 학습">
+            <input type="checkbox" id="filter-review-only">
+            <span class="custom-checkbox"></span>
+            <span>복습 필요 단어만</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      
+      <!-- ================= 1. QUIZ VIEW (단어 맞추기 모드) ================= -->
+      <section id="quiz-view" class="view-panel active">
+        <div class="quiz-wrapper">
+          
+          <!-- Progress Bar & Card Header -->
+          <div class="quiz-header-card">
+            <div class="quiz-progress-info">
+              <span class="badge source-badge" id="quiz-source-badge">Dissimilarities</span>
+              <span class="badge category-badge" id="quiz-category-badge">보다</span>
+              <span class="quiz-counter" id="quiz-counter">카드 1 / 1321</span>
+            </div>
+            
+            <div class="quiz-card-actions">
+              <button id="quiz-bookmark-btn" class="icon-btn-sm" title="단어 북마크">
+                <i data-lucide="bookmark"></i>
+              </button>
+              <button id="quiz-shuffle-btn" class="icon-btn-sm" title="문제 무작위 섞기">
+                <i data-lucide="shuffle"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- The Core Quiz Clue Card -->
+          <div class="quiz-clue-card" id="quiz-clue-card">
+            
+            <!-- Clue 1: Korean Meaning -->
+            <div class="clue-section meaning-section">
+              <div class="clue-tag meaning-tag">
+                <i data-lucide="tag"></i> 뜻 (Meaning)
+              </div>
+              <h2 class="clue-meaning-text" id="quiz-meaning">지켜보다, 주시하다 (움직임·변화 관찰)</h2>
+            </div>
+
+            <!-- Clue 2: Core Image (코어 이미지) -->
+            <div class="clue-section core-section">
+              <div class="clue-tag core-tag">
+                <i data-lucide="eye"></i> 코어 이미지 (Core Image)
+              </div>
+              <p class="clue-core-text" id="quiz-core-image">
+                움직이는 피사체의 궤적을 렌즈로 집요하게 쫓아가는 화면
+              </p>
+            </div>
+
+            <!-- Clue 3: Focus & Nuance (초점 및 설명) -->
+            <div class="clue-section focus-section">
+              <div class="clue-tag focus-tag">
+                <i data-lucide="compass"></i> 초점 & 뉘앙스 (Focus)
+              </div>
+              <p class="clue-focus-text" id="quiz-focus">
+                일정 시간 동안 대상의 변화나 동적인 움직임, 사건의 전개를 주의 깊게 추적·주시함
+              </p>
+            </div>
+
+            <!-- Clue 4: Cloze Example Sentence (정답 확인 후 표시) -->
+            <div class="clue-section example-section hidden" id="quiz-example-section">
+              <div class="clue-tag example-tag">
+                <i data-lucide="quote"></i> 예문 속 문맥 (Context)
+              </div>
+              <div class="clue-example-box">
+                <p class="clue-example-text" id="quiz-cloze-example"></p>
+                <button id="quiz-tts-btn" class="mini-tts-btn" title="예문 발음 듣기">
+                  <i data-lucide="volume-2"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Hint Revealer Box -->
+            <div class="hint-bar">
+              <div class="hint-letters" id="hint-letter-slots"></div>
+              <div class="hint-actions">
+                <button id="btn-hint-letter" class="btn-ghost-sm" title="글자 힌트">
+                  <i data-lucide="lightbulb"></i> <span>글자 힌트</span>
+                </button>
+                <button id="btn-reveal-answer" class="btn-ghost-sm" title="정답 바로 확인">
+                  <i data-lucide="help-circle"></i> <span>정답 보기</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quiz Interactive Answer Area -->
+          <div class="quiz-answer-area">
+            
+            <!-- Type A: Typing Input Box -->
+            <div id="typing-answer-container" class="answer-container typing-mode">
+              <form id="quiz-typing-form" autocomplete="off">
+                <div class="input-glow-wrapper">
+                  <i data-lucide="pen-tool" class="input-icon"></i>
+                  <input 
+                    type="text" 
+                    id="quiz-input" 
+                    placeholder="영어 단어를 입력하고 Enter를 누르세요..." 
+                    autocomplete="off" 
+                    spellcheck="false" 
+                    autocapitalize="none"
+                    autofocus
+                  >
+                  <button type="submit" id="quiz-submit-btn" class="btn-primary">
+                    <span>확인</span>
+                    <i data-lucide="arrow-right"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Type B: 4-Choice Options Grid -->
+            <div id="choice-answer-container" class="answer-container choice-mode hidden">
+              <div class="choice-grid" id="choice-buttons-grid">
+                <!-- Dynamically generated 4 choice buttons -->
+              </div>
+            </div>
+
+            <!-- Result Feedback Box (Appears after answer) -->
+            <div id="quiz-feedback-box" class="feedback-box hidden">
+              <div class="feedback-header">
+                <div class="feedback-status" id="feedback-status-title">
+                  <i data-lucide="check-circle" id="feedback-icon"></i>
+                  <span id="feedback-message">정답입니다! 🎉</span>
+                </div>
+                <div class="feedback-actions">
+                  <button id="feedback-tts-btn" class="icon-btn-sm" title="단어 발음 듣기">
+                    <i data-lucide="volume-2"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="feedback-body">
+                <div class="correct-word-display">
+                  <span class="word-label">정답 단어:</span>
+                  <span class="revealed-word" id="feedback-revealed-word">watch</span>
+                  <span class="revealed-meaning" id="feedback-revealed-meaning">(움직임을 주의 깊게) 지켜보다, 관찰하다</span>
+                </div>
+                
+                <div class="feedback-full-examples" id="feedback-examples-list">
+                  <!-- All full example sentences listed here -->
+                </div>
+              </div>
+
+              <div class="feedback-footer">
+                <div class="shortcut-tip">단축키: <code>Enter</code> 또는 <code>Space</code>를 눌러 다음 문제로</div>
+                <button id="btn-next-quiz" class="btn-success">
+                  <span>다음 단어 (Next)</span>
+                  <i data-lucide="chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= 2. FLASHCARD VIEW (플래시카드 모드) ================= -->
+      <section id="flashcard-view" class="view-panel hidden">
+        <div class="flashcard-wrapper">
+          
+          <div class="fc-controls-bar">
+            <div class="fc-count-badge" id="fc-counter">카드 1 / 1321</div>
+            <div class="fc-instruction">카드를 클릭하거나 <code>Space</code> 키를 눌러 뒤집으세요</div>
+            <button id="fc-shuffle-btn" class="icon-btn-sm" title="카드 섞기">
+              <i data-lucide="shuffle"></i>
+            </button>
+          </div>
+
+          <!-- 3D Flipping Card -->
+          <div class="flip-card-scene" id="flashcard-scene">
+            <div class="flip-card-inner" id="flashcard-inner">
+              
+              <!-- Card Front: Korean Clues -->
+              <div class="flip-card-face flip-card-front">
+                <div class="fc-header">
+                  <span class="badge" id="fc-front-category">보다</span>
+                  <span class="badge outline" id="fc-front-source">Dissimilarities</span>
+                </div>
+
+                <div class="fc-front-content">
+                  <span class="fc-hint-tag">한국어 뜻 & 뉘앙스</span>
+                  <h2 class="fc-front-meaning" id="fc-front-meaning">지켜보다, 주시하다 (움직임·변화 관찰)</h2>
+                  
+                  <div class="fc-clue-item">
+                    <span class="fc-subtag"><i data-lucide="eye"></i> 코어 이미지</span>
+                    <p id="fc-front-core">움직이는 피사체의 궤적을 렌즈로 집요하게 쫓아가는 화면</p>
+                  </div>
+
+                  <div class="fc-clue-item">
+                    <span class="fc-subtag"><i data-lucide="compass"></i> 초점 & 설명</span>
+                    <p id="fc-front-focus">일정 시간 동안 대상의 변화나 동적인 움직임, 사건의 전개를 주의 깊게 추적·주시함</p>
+                  </div>
+                </div>
+
+                <div class="fc-footer">
+                  <span class="fc-click-hint"><i data-lucide="rotate-cw"></i> 뒤집어서 영단어 확인</span>
+                </div>
+              </div>
+
+              <!-- Card Back: English Word & Full Details -->
+              <div class="flip-card-face flip-card-back">
+                <div class="fc-header">
+                  <span class="badge primary" id="fc-back-category">보다</span>
+                  <button id="fc-tts-btn" class="mini-tts-btn" title="발음 듣기">
+                    <i data-lucide="volume-2"></i>
+                  </button>
+                </div>
+
+                <div class="fc-back-content">
+                  <h1 class="fc-back-word" id="fc-back-word">watch</h1>
+                  <p class="fc-back-meaning" id="fc-back-meaning">(움직임을 주의 깊게) 지켜보다, 관찰하다</p>
+
+                  <div class="fc-examples-container" id="fc-back-examples">
+                    <!-- Example sentences -->
+                  </div>
+                </div>
+
+                <div class="fc-footer">
+                  <span class="fc-click-hint"><i data-lucide="rotate-ccw"></i> 다시 앞면 보기</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Flashcard Self-Rating Buttons -->
+          <div class="fc-rating-toolbar">
+            <button class="fc-rate-btn rate-hard" data-rating="1" title="단축키: 1">
+              <span class="key-badge">1</span>
+              <i data-lucide="frown"></i>
+              <span>몰라요 (다시)</span>
+            </button>
+            <button class="fc-rate-btn rate-good" data-rating="2" title="단축키: 2">
+              <span class="key-badge">2</span>
+              <i data-lucide="meh"></i>
+              <span>애매해요 (복습)</span>
+            </button>
+            <button class="fc-rate-btn rate-easy" data-rating="3" title="단축키: 3">
+              <span class="key-badge">3</span>
+              <i data-lucide="smile"></i>
+              <span>완벽해요 (마스터)</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= 3. DICTIONARY & EXPLORER VIEW (사전 탐색 모드) ================= -->
+      <section id="dict-view" class="view-panel hidden">
+        <div class="dict-wrapper">
+          
+          <!-- Search & Filter Bar -->
+          <div class="dict-search-header">
+            <div class="search-input-box">
+              <i data-lucide="search" class="search-icon"></i>
+              <input 
+                type="text" 
+                id="dict-search-input" 
+                placeholder="영단어, 한글 뜻, 코어 이미지, 초점 설명 키워드로 실시간 검색..." 
+                autocomplete="off"
+              >
+              <button id="dict-search-clear" class="clear-btn hidden" title="검색어 지우기">
+                <i data-lucide="x"></i>
+              </button>
+            </div>
+
+            <div class="dict-meta-stats">
+              <span id="dict-search-result-count">총 1,321개 단어 표시 중</span>
+            </div>
+          </div>
+
+          <!-- Virtual/Grid Word Cards -->
+          <div class="dict-grid" id="dict-cards-grid">
+            <!-- Dynamic dictionary cards will be injected here -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= 4. STATS & MASTERY VIEW (학습 통계 모드) ================= -->
+      <section id="stats-view" class="view-panel hidden">
+        <div class="stats-wrapper">
+          
+          <div class="stats-header">
+            <h2>학습 진행 대시보드</h2>
+            <p>나의 어휘 습득 추이와 뉘앙스 정답률을 한눈에 확인하세요.</p>
+          </div>
+
+          <div class="stats-cards-grid">
+            <div class="stat-card">
+              <div class="stat-icon-circle blue">
+                <i data-lucide="check-circle-2"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value" id="stats-total-answered">0</span>
+                <span class="stat-label">총 푼 문제 수</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-circle green">
+                <i data-lucide="target"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value" id="stats-accuracy">0%</span>
+                <span class="stat-label">누적 정답률</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-circle orange">
+                <i data-lucide="flame"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value" id="stats-best-streak">0</span>
+                <span class="stat-label">최고 연속 정답</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-circle purple">
+                <i data-lucide="bookmark"></i>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value" id="stats-bookmarked-count">0</span>
+                <span class="stat-label">북마크한 단어</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category Mastery Progress List -->
+          <div class="mastery-section">
+            <h3>주요 카테고리별 학습 진도</h3>
+            <div class="category-progress-list" id="category-progress-container">
+              <!-- Dynamically loaded category progress bars -->
+            </div>
+          </div>
+
+          <!-- Reset / Export Section -->
+          <div class="danger-zone">
+            <button id="btn-reset-stats" class="btn-danger-outline">
+              <i data-lucide="trash-2"></i>
+              <span>학습 기록 초기화</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Audio element & Toast container -->
+    <div id="toast-container" class="toast-container"></div>
+  </div>
+
+  <!-- Load Data -->
+  <script src="data.js"></script>
+  <!-- Main Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>

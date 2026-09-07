@@ -1,0 +1,30 @@
+
+- Hier: 어제
+- passé: 보내다
+- toute la journée: 하루 
+- passer du temps à + [동사]: ~하는데 시간을 보내다
+- broyer du noir: 우울해하다
+- devoir: ~해야 하다
+- travailler vite: 일을 빨리 하다
+- m'écrase: 짓이기다, 압도하다
+- aller plus vite: 더 빨리 나아가다/속도를 내다
+- pour: ~하기 위해
+- régler: 해결하다, 매듭짓다
+- prendre du retard: 뒤처지다, 지연되다
+- Les autres: 다른 사람들, 남들
+- avoir une relation: 관계를 맺다
+- se marier: 결혼하다
+- avancer: 전진하다
+- à grands pas: 성큼성큼, 저만큼 앞서서
+- alors que: ~인 반면에, ~하는 와중에
+- j'ai l'impression de + [동사]: 나는 ~라는 느낌/기분이 든다
+- rentré: 들어가다
+- chez: 집
+- tout: 모든 것, 전부
+- prendre: 잡다, 챙기, 가져가다
+- même: 심지어, ~조차도
+- cœur: 마음, 심장
+- partir: 떠나다
+- comme: ~처럼
+- si: ~인지 아닌지
+- j'sais pas: 모르겠어
