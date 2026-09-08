@@ -10,3 +10,6 @@
 - Don't get a swelled head: 우쭐대지 마
 - It's not that I intend to spend hours of my day on social networking sites, but one thing leads to another and before I realize, an hour or two has gone by: not A but B 구문이 주어로 사용되어서 흥미로움
 - I couldn’t bring myself to do it: 차마 그러지 못했다
+- turn failure into success: 실패를 성공으로 바꾸다
+- make the impossible possible: 불가능을 가능으로 만들다
+    > Making the impossible possible is inherently grueling

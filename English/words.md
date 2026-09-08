@@ -116,3 +116,38 @@
 - texture of life: 삶의 결, 삶의 질감
     * 코어 이미지: 매끄러운 통계나 추상적 숫자가 아니라, 손으로 만졌을 때 오돌토돌하게 느껴지는 직물의 결(Texture)처럼 만져지는 일상의 감각 (Tactile Daily Life)
     * 초점: 추상적인 인간의 삶을 거리의 소음, 냄새, 사람들의 표정, 일상의 소소한 마찰 등 '오감으로 체감되는 구체적이고 생생한 삶의 디테일'
+- enduring: 지속적인, 영속적인, 변함없이 계속 존재하는
+    - 코어 이미지: 비바람과 파도를 묵묵히 버텨내며 제자리를 지키는 단단한 바위 (Withstanding Time / Timeless Anchor)
+    - 초점: '시간과 풍파에 대한 내구성(Durability across Time)'
+    > Psychology, philosophy and neuroscience have given two classical answers: as a living space where we act and perceive, dependent on our bodies; as an enduring physical space with its feature, independent of our bodily interactions
+    > Shakespeare’s plays have an enduring appeal
+- be endowed with: ~을 부여받다
+    - 코어 이미지: 신(God)이나 자연(Nature)이 어떤 사람의 요람에 귀한 선물을 얹어주는 모습 (Divine Gift / Endowment)
+    - 초점: 후천적인 노력이나 훈련으로 습득한 기술이 아니라, 태어날 때부터 가지고 있는 뛰어난 지능, 미모, 재능, 감수성, 혹은 지역/사물의 천혜의 자연적 특성
+    > She was endowed with an extraordinary musical talent
+- vantage point: 물리적으로는 '전망하기 좋은 높은 위치(조망 지점)', 비유적으로는 '어떤 사안을 판단하거나 이해하기에 유리한 관점/견해
+    * 코어 이미지: 성벽 위 망루나 언덕 꼭대기에서 아래를 훤히 굽어보는 모습 (Elevated Lookout)
+    * 초점: 인식 및 판단의 유리한 관점: 특정 경험, 전문성, 혹은 시간이 지난 시점 덕분에 사안의 전체적인 맥락을 더 객관적이고 깊이 있게 파악할 수 있는 '인지적 관점'에 초점을 둡니다.
+    > From this vantage point, you can see the entire city spread out below    
+- horizon of understanding: 이해의 지평
+    * 코어 이미지: 끝없이 펼쳐진 평원이나 바다 한가운데 서서 바라보는 지평선/수평선 (Expanding Horizon)
+    * 초점: 인식의 경계와 한계: 인간은 절대적인 진리를 한 번에 다 볼 수 없으며, 자신이 속한 시대, 언어, 문화적 위치라는 한계 안에서만 대상을 해석할 수 있다는 '인간 인식의 유한성' / 가변성과 확장 가능성: 지평선이 고정되어 있지 않고 관찰자가 이동함에 따라 계속 확장되듯, 타인과의 대화나 새로운 텍스트/경험을 통해 이해의 범위가 계속 넓어질 수 있다는 점
+    > In this way, complexity and simplicity function together-one deepening our sense of mystery, the other expanding the horizons of our understanding
+- come into play: (어떤 요소, 변수 등이) 작용하기 시작하다, 개입하다, 영향을 미치다
+    * 코어 이미지: 벤치에 앉아 대기하던 선수가 경기장(Play) 안으로 투입되는 모습 (Entering the Game)
+    * 초점: 평소에는 드러나지 않다가, 조건이 갖춰지거나 상황이 복잡해질 때 비로소 '결과를 바꾸는 결정적 요인으로 기능하기 시작한다는 점'
+    > Personal connections often come into play when hiring
+- be struck by: ~에 깊은 인상을 받다, ~에 큰 충격/감명을 받다, 문득 ~라는 생각이 들다
+    * 코어 이미지: 코어 이미지: 날아온 번개나 화살에 툭 맞듯, 어떤 인상이나 생각이 마음이나 머리를 정면으로 강하게 치고 들어오는 모습 (Sudden Direct Impact)
+    * 초점: '갑작스럽고 강렬한 심리적 타격'. 서서히 깨닫는 것이 아니라, 어떤 광경이나 사실을 마주한 순간 "쿵" 하고 마음을 울리며 강한 감흥이나 인식을 남김
+    > I was struck by the sheer silence of the ancient cathedral
+    > Looking at the skyline, she was struck by how much the city had changed
+- enigmatic: 수수께끼 같은, 불가해한, 알 수 없는 신비감을 풍기는
+    * 코어 이미지: 코어 이미지: 굳게 닫힌 비밀 상자나 모나리자의 미소처럼, 속을 알 수 없는 베일에 싸여 호기심과 혼란을 동시에 자아내는 모습 (Riddle Wrapped in Silence)
+    * 초점: '쉽게 해석되지 않는 미스터리한 성질'. 대상의 표정, 성격, 행동, 예술품 등이 분명 눈앞에 존재하지만 그 속뜻이나 정체를 단번에 규정할 수 없을 때 풍기는 신비로운 매력과 모호함에 초점
+    > She answered with an enigmatic smile that revealed nothing
+- be fraught with: (위험·어려움·불안 등의 부정적인 것)으로 가득 차 있다
+    * 코어 이미지: 가라앉기 직전까지 위험물이나 무거운 화물을 배 밑창 끝까지 가득 실어 위태로운 모습 (A Ship Heavily Laden with Peril)
+    * 초점: '부정적인 요소의 밀도와 위태로움'
+    > Inference, however, is fraught with uncertainty.
+    

@@ -394,6 +394,11 @@
         * 코어 이미지: 체크리스트의 네모 칸에 V 표시를 하며 O/X를 빠르게 판별하는 손동작
         * 초점: 어떤 상태가 맞는지 틀린지, 정상인지 아닌지를 단발적·직관적으로 눈으로 점검함
         > I need to check if the sensors are connected
+    - check for: ~이 있는지/일어났는지 확인하다, 살피다, 점검하다
+        * 코어 이미지: 돋보기나 손전등을 들고, 숨겨져 있거나 의심스러운 특정 요소를 구석구석 살피는 모습 (Targeted Inspection)
+        * 초점: '특정 대상의 유무(Presence/Absence) 또는 상태 확인'
+        > Always check for typos and grammatical errors before submitting your paper
+
     - review: 확인
         * 코어 이미지: 작성된 문서를 첫 줄부터 끝까지 꼼꼼히 돋보기로 들여다보며 평가하는 작업
         * 초점: 전체 내용을 비판적인 시각으로 면밀히 재검토하고 분석·평가하는 심층적 확인
@@ -840,7 +845,12 @@
         * 코어 이미지: 평지에 서 있다가 산 정상에 올랐을 때 아득한 지평선(Horizon)이 사방으로 시원하게 밀려나며 넓어지는 모습 (Broadening Boundary)
         * 초점: 기존에 갇혀 있던 인식, 경험, 지식의 한계를 깨고 '세계나 사고의 범위를 질적으로 넓혀주는 확장'
         > In this way, complexity and simplicity function together-one deepening our sense of mystery, the other expanding the horizons of our understanding.
-
+    - fathom: (깊이를) 헤아리다, 온전히 가늠하다, (이유·마음을) 알아내다/이해하다
+        * 코어 이미지: 닻줄을 칠흑 같은 바닷속 바닥까지 길게 늘어뜨려 가장 깊은 바닥에 닿아 수심을 재는 모습 (Sounding the Deepest Bottom)
+        * 초점: '심오한 대상의 바닥까지 가닿아 온전히 꿰뚫는 이해'. 겉핥기식 이해(understand)가 아니라, 너무 깊고 복잡해서 가늠하기 힘든 마음, 우주의 섭리, 복잡한 사안의 깊은 본질을 완전히 파악해 내는 것
+        > I simply cannot fathom why he made such a reckless decision
+        > The scale of the universe is almost impossible for the human mind to fathom
+    
 - 오해
     - get confused: 오해
         * 코어 이미지: 여러 갈래의 정보선들이 머릿속에서 어지럽게 엉켜 갈피를 못 잡는 혼선
@@ -1467,16 +1477,16 @@
         * 초점: 생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈
         > I'm waiting for my next paycheck to buy some stocks
 
-- manner
-    - manner: manner
+- 태도
+    - manner: 방법, 방식, 태도
         * 코어 이미지: 어떤 과제를 처리하는 독특한 작업 방식이나 스타일의 양식
         * 초점: 단수로 쓰여 일이나 행동을 처리하는 구체적인 '방식, 양식, 태도'를 의미
         > I filled out the form in that manner
-    - manners: manner
+    - manners: 예의범절
         * 코어 이미지: 식탁에서 예의 바르게 포크를 쥐고 어른을 공경하는 사회적 에티켓
         * 초점: 복수형(-s)으로 쓰여 타인을 배려하는 '예의범절, 에티켓'을 가리킴
         > He has good manners
-    - conduct: manner
+    - conduct: 처신, 품행
         * 코어 이미지: 공직자나 연구자가 지켜야 할 일생의 도덕적 품행과 처신
         * 초점: 도덕적·윤리적 기준에 비추어 평가되는 전반적인 품행과 공식적 처신
         > The code of conduct applies to all researchers in the lab
@@ -1568,37 +1578,37 @@
         > She has a predilection for classical literature
 
 - 평가
-    - evaluate: 평가
+    - evaluate: 가치를 매기다
         * 코어 이미지: 알고리즘의 성능 지표표를 펼쳐놓고 수치와 품질을 다각도로 종합 판정함
         * 초점: 정해진 기준과 수집된 데이터를 바탕으로 대상의 가치나 성과를 체계적으로 종합 평가함
         > We need to evaluate the accuracy of the neural network
-    - assess: 평가
+    - assess: 재다, 가늠하다
         * 코어 이미지: 손상된 건물 주변을 둘러보며 수리 비용과 위험도를 정밀하게 산출함
         * 초점: 위험도, 피해액, 세금, 능력 등의 상태와 영향을 정밀하게 가늠하고 진단함
         > The engineers assessed the potential risks of the system
-    - appraise: 평가
+    - appraise: 감정하다
         * 코어 이미지: 보석 감정사가 루페 돋보기를 눈에 대고 다이아몬드의 시가를 감정함
         * 초점: 골동품, 부동산, 보석 등의 공식적인 경제적 가치나 시세를 전문적으로 감정·평가함
         > The antique watch was appraised at five thousand dollars
-    - estimate: 평가
+    - estimate: 어림잡다
         * 코어 이미지: 도면을 보며 대략적인 건축 자재 수량과 공사 기간을 어림잡아 계산함
         * 초점: 완벽한 수치가 나오기 전 대략적인 수량, 비용, 시간을 개략적으로 추정·견적함
         > We estimate that the project will take six months to finish
-    - judge: 평가
+    - judge: 판단하다
         * 코어 이미지: 판사가 법대 위에서 법률과 도덕적 잣대로 옳고 그름을 최종 판정함
         * 초점: 주관적 판단이나 도덕적/법적 기준에 따라 대상의 시비나 적합성을 판단함
         > Don't judge a book by its cover
 
 - 기회
-    - opportunity: 기회
+    - opportunity: 발전과 성공을 위한 좋은 기회
         * 코어 이미지: 자신의 성장과 발전을 위해 활짝 열린 가능성의 관문
         * 초점: 목표를 이루거나 경력을 발전시키기에 유리하게 주어지는 긍정적인 발전 기회
         > Studying at EPFL is a great opportunity for me
-    - chance: 기회, 가능성
+    - chance: 우연히 찾아온 기회
         * 코어 이미지: 주사위를 던져 6이 나오기를 기대하는 운과 확률의 우연한 만남
         * 초점: 운이나 우연에 의해 찾아온 가능성, 혹은 어떤 일이 일어날 확률적 기회
         > Take a chance and apply for the position
-    - occasion: 기회
+    - occasion: 어떤 일이 일어나는 특별한 때, 행사
         * 코어 이미지: 결혼식이나 개막식처럼 특별한 의미를 지닌 행사와 기념의 날
         * 초점: 특정한 사건이나 의식이 열리는 특별한 시점, 행사, 혹은 계기
         > The graduation ceremony was a very special occasion
@@ -2251,28 +2261,6 @@
         * 초점: 성패나 생사를 가르는 결정적 고비이자 절대적으로 중요한 위기 단계
         > Timing is critical for the robot's balance control
 
-- ~에 빠져있다
-    - be into: ~에 빠져있다
-        * 코어 이미지: 관심사의 문을 열고 그 안쪽 깊숙한 세계로 푹 들어가 있는 모습
-        * 초점: 취미, 음악, 학문 등에 깊은 흥미를 느끼고 푹 빠져 즐김 (구어체)
-        > I'm really into reinforcement learning these days
-    - fall for: ~에 빠져있다
-        * 코어 이미지: 상대방의 매력이나 달콤한 거짓말의 함정에 발이 미끄러져 푹 빠짐
-        * 초점: 누군가에게 첫눈에 반해 사랑에 빠지거나, 사기나 속임수에 깜빡 넘어가 버림
-        > He fell for her the moment they met
-    - go crazy -ing: ~에 빠져있다
-        * 코어 이미지: 이성을 잃을 만큼 주체할 수 없는 흥분과 열정으로 열광함
-        * 초점: 너무 신나거나 몰입하여 광적으로 어떤 활동에 미쳐있음을 과장하여 표현
-        > The fans went crazy cheering for their team
-    - fascinate: ~에 빠져있다
-        * 코어 이미지: 신비로운 오로라 불빛에 매료되어 넋을 잃고 눈을 떼지 못함
-        * 초점: 매우 흥미롭고 매력적인 대상에 의해 마음이 완전히 사로잡히고 매혹됨
-        > The biomechanics of human locomotion has always fascinated me
-    - crank into: ~에 빠져있다
-        * 코어 이미지: 엔진의 크랭크축을 맹렬히 돌려 최고 출력으로 작업에 전력 질주함
-        * 초점: 작업이나 프로젝트에 전력을 다해 맹렬한 속도와 기세로 돌입함 (비격식/속어)
-        > Let's crank into the final chapter of the thesis
-
 - 부담되다
     - feel burdened: 부담되다
         * 코어 이미지: 어깨 위에 거대한 바윗덩어리를 짊어지고 있어 짓눌리는 무게감
@@ -2332,7 +2320,7 @@
         > Don't bottle up your stress; it's not good for your mental health
 
 - 낙담
-    - frustrate: 낙담
+    - frustrate: 좌절감, 답답함, 분통
         * 코어 이미지: 풀리지 않는 코드 에러 앞에서 머리를 쥐어뜯으며 느끼는 무력감과 답답함
         * 초점: 목표를 이루려 애쓰지만 장애물에 막혀 뜻대로 되지 않을 때 겪는 깊은 좌절감
         > This recurring coding error is deeply frustrating me
@@ -2340,6 +2328,11 @@
         * 코어 이미지: 잔뜩 기대하고 열어본 상자 안이 텅 비어 있어 맥이 탁 풀리는 허탈함
         * 초점: 사전 기대치가 충족되지 못했거나 믿었던 대상이 기대를 저버렸을 때 느끼는 실망감
         > I was disappointed that the response took so long
+    - despair: 절망, 완전한 체념
+        * 코어 이미지: 바닥을 알 수 없는 칠흑 같은 심해로 끝없이 가라앉아, 더 이상 발버둥 칠 힘조차 남지 않은 모습 (Total Blackout / Free-falling into the Void)
+        * 초점: '희망의 완전한 소멸과 무력감(Helplessness)'
+        > Turning failure into success demands relentless effort-a process invariable accompanied by pain, discouragement, and despair
+
 
 - 끔찍한
     - nasty: 끔찍한
@@ -2351,16 +2344,18 @@
         * 초점: 타인에게 고통을 주는 것을 개의치 않거나 잔인하게 냉혹함을 가함
         > The reality of the market can be cruel to unprepared investors
 
-- 동시성
-    - while: 동시성
+- 동시성, ~하는 중에
+    - while: ~하는 동안에
         * 코어 이미지: 러닝머신 위를 뛰는 '동작의 시간 구간' 동안 음악을 함께 듣는 모습
         * 초점: 주어가 특정 행동이나 동작을 수행하고 있는 시간적 흐름 속에서 동시에 일어남
         > It was exciting while watching a movie with the 3D glasses on.
-    - with: 동시성
+    - with: ~와 함께, ~을 가지고, ~한 채로
         * 코어 이미지: 스마트폰 플래시를 '켠 상태'라는 조건을 장착하고 어두운 길을 걸어감
         * 초점: 특정 도구를 착용하거나 부대상황의 정적인 상태를 유지한 채로 동반됨
         > I walked with my phone flash on
-
+    - in the midst of: ~의 한가운데에, 한창 ~하는 중에
+        * 코어 이미지: 거센 파도나 자욱한 연무의 정중앙에 온몸이 둘러싸여 있는 모습 (Immersion in a Swirl)
+        * 초점: '상황의 밀도, 혼란, 격렬함'
 - 방해하다
     - disrupt: 방해하다
         * 코어 이미지: 잘 돌아가던 생산 공장의 전원이 끊기며 시스템 체계가 일시 붕괴됨
@@ -3343,6 +3338,11 @@
         * 코어 이미지: 잔잔한 수면에 비친(Reflect) 자신의 모습을 가만히 들여다보듯 경험이나 사안을 내면에서 비추어보는 모습 (Internal Mirror)
         * 초점: 단순한 생각(Think)을 넘어, 이미 일어난 일이나 마주한 현상의 본질·의미를 곱씹고 반추하는 '깊이 있는 사유와 성찰'
         > Immersed in Turin’s visual and culture atmosphere, I reflected on why simplicity and complexity exist side by side.
+    - contemplate
+        * 코어 이미지: 로댕의 <생각하는 사람>처럼 턱을 괴고, 눈앞의 사물·개념이나 다가올 결정을 고요히 바라보고 응시하는 모습 (Deep Gazing / Deliberation)
+        * 초점: 관조와 응시 - 예술품, 아름다운 풍경, 추상적인 삶의 신비 등을 말없이 바라보며 깊은 사색에 잠기는 것, 미래 지향적 숙고 - 앞으로의 진로, 선택, 결심을 신중하게 저울질하며 고려하는 것
+        > He sat by the lake, contemplating the meaning of life
+        > She is contemplating changing her career path
 
 - 변화 (속도)
     - get: 얻다, 가지게 되다 (획득 동작)
@@ -3848,3 +3848,77 @@
         * 코어 이미지: 흰 도화지 위에 검은 잉크를 그은 것처럼 경계선이 칼로 자른 듯 선명하게 드러나는 대조 (Black and White)
         * 초점: 두 대상 사이의 차이가 모호하지 않고, 보는 즉시 확연히 느껴질 정도로 '극적인 이질감과 시각적·개념적 선명함'
         > The geometric simplicity seen from the observatory of the Mole Antonelliana contrasts sharply with the actual texture of local life: artists painting on T-shirts, merchants vending souvenirs, buskers playing instruments, and priests greeting visitors at church doors-all woven into a rich, living complexity. 
+
+- 몰입
+    - Immersed in: ~에 푹 빠진, ~에 깊이 몰입한
+        * 코어 이미지: 물속 깊은 곳으로 몸 전체가 풍덩 잠겨 들어가는 모습 (Full Submersion)
+        * 초점: 주변과의 단절과 극도의 집중 - 단순히 신경을 쓰는 정도를 넘어, 주변에서 무슨 일이 일어나는지 알아채지 못할 정도로 '외부 자극이 차단된 완전한 몰입'
+        > Immersed in Turin’s visual and culture atmosphere, I reflected on why simplicity and complexity exist side by side
+        > He was so immersed in thought that he didn’t hear the doorbell
+    - fall for: ~에 홀딱 반하다, ~에 속아 넘어가다
+        * 코어 이미지: 상대방의 매력이나 달콤한 거짓말의 함정에 발이 미끄러져 푹 빠짐
+        * 초점: 누군가에게 첫눈에 반해 사랑에 빠지거나, 사기나 속임수에 깜빡 넘어가 버림
+        > He fell for her the moment they met
+    - go crazy -ing: 미친 듯이 ~하다, 열광적으로 ~해대다
+        * 코어 이미지: 이성을 잃을 만큼 주체할 수 없는 흥분과 열정으로 열광함
+        * 초점: 너무 신나거나 몰입하여 광적으로 어떤 활동에 미쳐있음을 과장하여 표현
+        > The fans went crazy cheering for their team
+    - fascinate: 매혹하다, 마음을 완전히 사로잡다
+        * 코어 이미지: 신비로운 오로라 불빛에 매료되어 넋을 잃고 눈을 떼지 못함
+        * 초점: 매우 흥미롭고 매력적인 대상에 의해 마음이 완전히 사로잡히고 매혹됨
+        > The biomechanics of human locomotion has always fascinated me
+    - crank into: (본격적으로) 세게 가동하다, 엔진/기어를 힘껏 돌려 돌입하다
+        * 코어 이미지: 엔진의 크랭크축을 맹렬히 돌려 최고 출력으로 작업에 전력 질주함
+        * 초점: 작업이나 프로젝트에 전력을 다해 맹렬한 속도와 기세로 돌입함 (비격식/속어)
+        > Let's crank into the final chapter of the thesis
+
+- 흥미
+    - be into: ~을 매우 좋아하다/취미로 즐기다
+        * 코어 이미지: 관심사의 문을 열고 그 안쪽 깊숙한 세계로 푹 들어가 있는 모습
+        * 초점: 취미, 음악, 학문 등에 깊은 흥미를 느끼고 푹 빠져 즐김 (구어체)
+        > I'm really into reinforcement learning these days
+    
+- 모으다
+    - accumulate: 서서히 모이고 쌓이다
+        * 코어 이미지: 눈송이나 모래알이 시간의 흐름에 따라 바닥에 조금씩 쌓여가는 모습 (Gradual Accrual)
+        * 초점: ‘시간의 경과에 따른 양적인 증가’
+        > He accumulated vast experience over years of field research
+    - build up: 점진적으로 형성되다, 불어나다, 증대되다
+        * 코어 이미지: 벽돌을 하나씩 얹어 벽을 세우듯 기초부터 서서히 형태와 힘을 갖추어 올라가는 모습 (Layering toward Intensity/Scale)
+        * 초점: ‘규모, 강도, 압박감의 점진적 증대’. 단순한 양의 증가를 넘어 내부의 압력이나 긴장감, 탄탄한 구조가 단계적으로 강화되는 과정
+        > It takes years to build up trust, but only seconds to break it
+    - stack: 포개어 얹다, 차곡차곡 쌓다
+        * 코어 이미지: 납작한 책이나 접시, 상자를 수직으로 반듯하게 층층이 포개 올리는 모습 (Vertical Piling / Stratification)
+        * 초점: ‘물리적인 수직 배치와 정돈’. 수평으로 퍼지는 것이 아니라, 위로 층(Layer)을 이루며 반듯하게 쌓아 올리는 공간적 행위
+        > Please stack the chairs neatly in the corner
+
+- 운동
+    - get in shape: 몸을 만들다
+        * 코어 이미지: 흩어지거나 처진 반죽이나 점토를 틀(Shape)에 넣어 탄탄하고 균형 잡힌 형태로 빚어내는 모습 (Sculpting into Form)
+        * 초점: '체력(Stamina) 증진과 신체적 탄력 회복'
+        > I work out to get in shape and meet a romantic partner
+
+- 힘든
+    - grueling
+        * 코어 이미지: 마지막 한 방울의 체력과 정신력까지 쥐어짜 내어 바닥에 쓰러지기 직전인 모습 (Draining the Last Drop)
+        * 초점: 과정의 혹독함과 극심한 체력·정신력 소모
+        > Making the impossible possible is inherently grueling.
+
+- 고려하다
+    - taking into account: ~을 고려하면, ~을 감안할 때
+        * 코어 이미지: 장부(Account)나 계산서의 빈칸에 특정 항목을 빠뜨리지 않고 직접 적어 넣는 모습 (Writing an Item into the Ledger)
+        * 초점: 어떤 결정, 평가, 비교를 할 때 "이 요소만큼은 반드시 계산에 넣고 생각해야 공정하다/정확하다"라는 전제 조건을 제시
+        > Taking into account its history, its utility, and whether it bears any flaws, the appraiser determines a price.
+
+- 모른다
+    - ignorant of: ~을 알지 못하는, ~에 대해 무지한
+        * 코어 이미지: 눈앞에 드리운 짙은 안개나 눈가리개 때문에, 바로 옆에 있는 사실이나 위험을 전혀 보지 못하는 모습 (Blindfolded to Reality)
+        * 초점: 특정 사실이나 맥락에 대한 정보의 결핍
+        > Even if there were an absolute standard in the universe that dictates what is truly worthwhile, it remains completely meaningless to us if we remain ignorant of that standard
+
+- 떠오르다
+    - dawn on: (어떤 사실이나 생각이) 문득 머릿속에 떠오르다
+        * 코어 이미지: 칠흑같이 어두운 새벽하늘 지평선 너머로 첫 햇살이 천천히 밝아오는 모습 (The First Light of Daybreak)
+        * 초점: 뒤늦게 찾아오는 서서한 자각(Sudden yet Gradual Realization)
+        > Instead, a different realization dawns on me: what I truly yearn for is genuine connection with others. These goals simply exist as instruments to bridge that gap.
+    
