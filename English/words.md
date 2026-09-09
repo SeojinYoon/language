@@ -150,4 +150,5 @@
     * 코어 이미지: 가라앉기 직전까지 위험물이나 무거운 화물을 배 밑창 끝까지 가득 실어 위태로운 모습 (A Ship Heavily Laden with Peril)
     * 초점: '부정적인 요소의 밀도와 위태로움'
     > Inference, however, is fraught with uncertainty.
+- congenital: 타고난
     

@@ -7,15 +7,53 @@ import os
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+VOCAB_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(VOCAB_DIR)
 
-Handler = http.server.SimpleHTTPRequestHandler
+# Auto-create symlink to English directory if not already present
+english_link = os.path.join(VOCAB_DIR, "English")
+english_target = os.path.join(PROJECT_ROOT, "English")
+if not os.path.exists(english_link) and os.path.exists(english_target):
+    try:
+        os.symlink("../English", english_link)
+        print("🔗 Symlink created: vocab_app/English -> ../English")
+    except Exception as e:
+        print(f"⚠️ Could not create symlink: {e}")
+
+os.chdir(VOCAB_DIR)
+
+class VocabRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=VOCAB_DIR, **kwargs)
+
+    def translate_path(self, path):
+        clean_path = path.split('?', 1)[0].split('#', 1)[0]
+        # Route requests starting with /English/ directly to project root
+        if clean_path.startswith('/English/'):
+            return os.path.join(PROJECT_ROOT, clean_path.lstrip('/'))
+        return super().translate_path(path)
+
+    def end_headers(self):
+        # Prevent browser caching of markdown files so edits are instantly visible
+        clean_path = self.path.split('?', 1)[0]
+        if clean_path.endswith('.md') or clean_path.endswith('.json'):
+            self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+            self.send_header('Pragma', 'no-cache')
+            self.send_header('Expires', '0')
+        super().end_headers()
+
+socketserver.TCPServer.allow_reuse_address = True
 
 try:
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    with socketserver.TCPServer(("", PORT), VocabRequestHandler) as httpd:
         url = f"http://localhost:{PORT}/index.html"
+        print("=" * 60)
         print(f"🚀 VocabMaster server is running at {url}")
+        print("📖 Live Markdown Sync: English/dissimilarities.md & Words_organized.md")
+        print("💡 You can edit markdown files and refresh the browser instantly!")
         print("Press Ctrl+C to stop the server.")
+        print("=" * 60)
         httpd.serve_forever()
 except KeyboardInterrupt:
     print("\nServer stopped.")
+

@@ -899,6 +899,21 @@
       showToast(state.soundEnabled ? '효과음 켜짐 🔊' : '효과음 꺼짐 🔇', 'info');
     });
 
+    // Sync / Refresh Markdown Data
+    const syncBtn = document.getElementById('sync-data-btn');
+    if (syncBtn) {
+      syncBtn.addEventListener('click', async () => {
+        const icon = document.getElementById('sync-icon');
+        if (icon) icon.classList.add('rotating');
+        await loadMarkdownData(false);
+        updateSourcePillsCount();
+        applyFilters();
+        if (icon) {
+          setTimeout(() => icon.classList.remove('rotating'), 600);
+        }
+      });
+    }
+
     const themeBtn = document.getElementById('theme-toggle-btn');
     themeBtn.addEventListener('click', () => {
       state.theme = state.theme === 'dark' ? 'light' : 'dark';
@@ -936,14 +951,222 @@
     });
   }
 
+  // ================= MARKDOWN PARSERS =================
+  function parseDissimilarities(text) {
+    const lines = text.split('\n');
+    const list = [];
+    let currentCategory = '';
+    let currentItem = null;
+    let idCounter = 1;
+
+    for (let rawLine of lines) {
+      const line = rawLine.replace(/\r$/, '');
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+
+      // Category: Level 1 bullet without colon, e.g. "- 보다", "- 제외"
+      if (/^- [^:]+$/.test(line)) {
+        currentCategory = line.slice(2).trim();
+        continue;
+      }
+
+      // Word: Indented bullet with colon, e.g. "    - see: (눈에 띄어 자연스럽게) 보다"
+      const wordMatch = line.match(/^(\s{2,8}|\t)- (.+?):\s*(.*)$/);
+      if (wordMatch) {
+        if (currentItem) list.push(currentItem);
+        currentItem = {
+          id: `d_${idCounter++}`,
+          source: 'Dissimilarities',
+          category: currentCategory || '기타',
+          word: wordMatch[2].replace(/\*\*/g, '').trim(),
+          meaning: wordMatch[3].trim(),
+          core_image: '',
+          focus: '',
+          examples: []
+        };
+        continue;
+      }
+
+      if (!currentItem) continue;
+
+      // Core Image: "* 코어 이미지: ..."
+      const coreMatch = trimmed.match(/^\* 코어 이미지:\s*(.*)$/);
+      if (coreMatch) {
+        currentItem.core_image = coreMatch[1].trim();
+        continue;
+      }
+
+      // Focus: "* 초점: ..."
+      const focusMatch = trimmed.match(/^\* 초점:\s*(.*)$/);
+      if (focusMatch) {
+        currentItem.focus = focusMatch[1].trim();
+        continue;
+      }
+
+      // Example: "> ..."
+      const exMatch = trimmed.match(/^>\s*(.*)$/);
+      if (exMatch) {
+        currentItem.examples.push(exMatch[1].trim());
+        continue;
+      }
+    }
+
+    if (currentItem) list.push(currentItem);
+    return list;
+  }
+
+  function parseWordsOrganized(text, startId = 1) {
+    const lines = text.split('\n');
+    const list = [];
+    const catStack = [];
+    let currentItem = null;
+    let idCounter = startId;
+
+    for (let rawLine of lines) {
+      const line = rawLine.replace(/\r$/, '');
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+
+      const indent = line.match(/^(\s*)/)[1].length;
+
+      // Category heading: starts with - and does NOT have colon
+      // e.g., "- **문명**", "    - **측정 및 과학**"
+      if (trimmed.startsWith('- ') && !trimmed.includes(':')) {
+        const catName = trimmed.replace(/^[-\s*]+/, '').replace(/[*]+$/, '').trim();
+        while (catStack.length > 0 && catStack[catStack.length - 1].indent >= indent) {
+          catStack.pop();
+        }
+        catStack.push({ indent, name: catName });
+        continue;
+      }
+
+      // Word entry: starts with - and has a colon
+      // e.g., "        - scale: 저울, 규모"
+      const wordMatch = trimmed.match(/^- ([^:]+):\s*(.*)$/);
+      if (wordMatch) {
+        if (currentItem) list.push(currentItem);
+        while (catStack.length > 0 && catStack[catStack.length - 1].indent >= indent) {
+          catStack.pop();
+        }
+        const category = catStack.map(c => c.name).join(' > ') || '기타';
+        currentItem = {
+          id: `o_${idCounter++}`,
+          source: 'Words Organized',
+          category: category,
+          word: wordMatch[1].replace(/\*\*/g, '').trim(),
+          meaning: wordMatch[2].trim(),
+          core_image: '',
+          focus: '',
+          examples: []
+        };
+        continue;
+      }
+
+      if (!currentItem) continue;
+
+      const coreMatch = trimmed.match(/^\* 코어 이미지:\s*(.*)$/);
+      if (coreMatch) {
+        currentItem.core_image = coreMatch[1].trim();
+        continue;
+      }
+
+      const focusMatch = trimmed.match(/^\* 초점:\s*(.*)$/);
+      if (focusMatch) {
+        currentItem.focus = focusMatch[1].trim();
+        continue;
+      }
+
+      const exMatch = trimmed.match(/^>\s*(.*)$/);
+      if (exMatch) {
+        currentItem.examples.push(exMatch[1].trim());
+        continue;
+      }
+    }
+
+    if (currentItem) list.push(currentItem);
+    return list;
+  }
+
+  // Live Markdown Data Loader
+  async function loadMarkdownData(silent = false) {
+    const timestamp = Date.now();
+    let loadedFromMd = false;
+
+    async function fetchCandidate(candidates) {
+      for (const url of candidates) {
+        try {
+          const res = await fetch(`${url}?t=${timestamp}`);
+          if (res.ok) {
+            return await res.text();
+          }
+        } catch (e) {
+          // Continue to next candidate URL
+        }
+      }
+      return null;
+    }
+
+    try {
+      const [disText, orgText] = await Promise.all([
+        fetchCandidate(['English/dissimilarities.md', '/English/dissimilarities.md', '../English/dissimilarities.md']),
+        fetchCandidate(['English/Words_organized.md', '/English/Words_organized.md', '../English/Words_organized.md'])
+      ]);
+
+      if (disText || orgText) {
+        const disItems = disText ? parseDissimilarities(disText) : [];
+        const orgItems = orgText ? parseWordsOrganized(orgText, disItems.length + 1) : [];
+        state.allData = [...disItems, ...orgItems];
+        loadedFromMd = true;
+
+        console.log(`[VocabMaster] ✅ 마크다운 파일 실시간 로드 완료: 총 ${state.allData.length}개 단어 (Dissimilarities: ${disItems.length}개, Words Organized: ${orgItems.length}개)`);
+        if (!silent) {
+          showToast(`마크다운 데이터 동기화 완료 (${state.allData.length}개 단어)`, 'success');
+        }
+      }
+    } catch (err) {
+      console.warn('[VocabMaster] 마크다운 직접 로딩 중 오류:', err);
+    }
+
+    // Fallback to data.js if fetch failed (e.g. opened via file:// protocol)
+    if (!loadedFromMd) {
+      if (window.VOCAB_DATA && window.VOCAB_DATA.length > 0) {
+        state.allData = window.VOCAB_DATA;
+        console.log(`[VocabMaster] ℹ️ data.js 로컬 백업 로드: ${state.allData.length}개 단어`);
+        if (!silent) {
+          showToast(`로컬 백업 데이터 로드 (${state.allData.length}개 단어). 실시간 동기화는 server.py 실행을 권장합니다.`, 'info');
+        }
+      } else {
+        showToast('단어 데이터를 불러올 수 없습니다. python3 server.py 를 실행해주세요.', 'error');
+      }
+    }
+  }
+
+  function updateSourcePillsCount() {
+    const total = state.allData.length;
+    const disCount = state.allData.filter(d => d.source === 'Dissimilarities').length;
+    const orgCount = state.allData.filter(d => d.source === 'Words Organized').length;
+
+    const allBtn = document.querySelector('.pill-btn[data-source="all"]');
+    const disBtn = document.querySelector('.pill-btn[data-source="Dissimilarities"]');
+    const orgBtn = document.querySelector('.pill-btn[data-source="Words Organized"]');
+
+    if (allBtn) allBtn.textContent = `전체 (${total.toLocaleString()})`;
+    if (disBtn) disBtn.textContent = `뉘앙스 비교 (${disCount.toLocaleString()})`;
+    if (orgBtn) orgBtn.textContent = `주제별 어휘 (${orgCount.toLocaleString()})`;
+  }
+
   // Application Entry Point
-  function initApp() {
+  async function initApp() {
     // Apply saved theme
     document.body.className = `${state.theme}-theme`;
     const themeIcon = document.getElementById('theme-icon');
     if (themeIcon) themeIcon.setAttribute('data-lucide', state.theme === 'dark' ? 'moon' : 'sun');
 
+    // Load live markdown data
+    await loadMarkdownData(true);
+
     updateHeaderStats();
+    updateSourcePillsCount();
     applyFilters();
     initEventListeners();
     lucide.createIcons();
@@ -959,3 +1182,4 @@
   }
 
 })();
+
