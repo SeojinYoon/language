@@ -300,6 +300,38 @@ body {
   border: 1px solid var(--border-subtle);
 }
 
+.mode-pill {
+  font-size: 0.76rem;
+  padding: 0.25rem 0.65rem;
+  letter-spacing: 0.02em;
+  transition: all var(--transition-fast);
+  cursor: help;
+}
+
+.mode-pill.mode-live {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--accent-emerald);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.mode-pill.mode-live i {
+  width: 14px;
+  height: 14px;
+  stroke: var(--accent-emerald);
+}
+
+.mode-pill.mode-offline {
+  background: rgba(6, 182, 212, 0.12);
+  color: var(--accent-cyan);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+.mode-pill.mode-offline i {
+  width: 14px;
+  height: 14px;
+  stroke: var(--accent-cyan);
+}
+
 .streak-pill {
   background: rgba(245, 158, 11, 0.12);
   color: var(--accent-amber);

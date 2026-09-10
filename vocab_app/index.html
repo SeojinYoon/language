@@ -5,14 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VocabMaster - 영단어 코어 감각 & 뉘앙스 마스터</title>
   <meta name="description" content="코어 이미지와 초점 설명을 통해 영어 단어의 뉘앙스를 체득하고 맞추는 인터랙티브 단어장 웹앱">
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Canvas Confetti -->
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <!-- 100% Offline Local Fonts & Icons -->
+  <link rel="stylesheet" href="vendor/fonts/fonts.css">
+  <script src="vendor/lucide.min.js"></script>
+  <script src="vendor/confetti.browser.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark-theme">
@@ -56,6 +52,12 @@
       </div>
 
       <div class="header-right">
+        <!-- Mode Indicator Widget (Live Server vs Offline File) -->
+        <div id="mode-status-pill" class="stat-pill mode-pill mode-offline" title="모드 확인 중...">
+          <i data-lucide="shield-check" id="mode-icon"></i>
+          <span id="header-mode-text">오프라인</span>
+        </div>
+
         <!-- Quick Stats Widget -->
         <div class="stat-pill streak-pill" title="연속 정답 스트릭">
           <i data-lucide="flame" class="fire-icon"></i>
@@ -447,7 +449,9 @@
     <div id="toast-container" class="toast-container"></div>
   </div>
 
-  <!-- Main Application Script (Loads & Parses Markdown directly) -->
+  <!-- Local Data Bundle (Fallback for double-click file:// execution) -->
+  <script src="data.js"></script>
+  <!-- Main Application Script (Loads & Parses Markdown or Fallback) -->
   <script src="app.js"></script>
 </body>
 </html>

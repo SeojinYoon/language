@@ -588,10 +588,6 @@
                     * 코어 이미지: 사방이 막힌 좁은 판지 상자 뚜껑을 찢고 바깥의 넓은 창공으로 날아오르는 시선
                     * 초점: 기존의 통념, 관습, 틀에 박힌 사고방식을 완전히 깨뜨리고 새롭게 접근함
                     > I usually read diverse philosophy books to think out of the box in order to solve engineering problems
-                - strike someone as: ~에게 ~라는 강렬한 인상을 주다
-                    * 코어 이미지: 종을 치듯 어떤 말이나 현상이 사람의 마음을 쾅 하고 울리며 뚜렷한 인상을 각인시킴
-                    * 초점: 어떤 대상의 행동이나 말이 관찰자에게 특정한 뉘앙스나 강한 깨달음으로 직관적으로 다가옴
-                    > This struck me as a poignant metaphor for her turbulent relationship with her deceased mother
             - **관점 및 해석**
                 - spin on: ~에 대한 색다른 관점, 참신한 해석
                     * 코어 이미지: 장난감 팽이를 다른 각도로 돌려 이전에는 보이지 않던 무늬를 드러내는 회전

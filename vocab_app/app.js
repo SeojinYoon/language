@@ -21,6 +21,7 @@
     categoryFilter: 'all',
     reviewOnly: false,
     quizType: 'typing', // typing | choice
+    isLiveSync: false,
     
     // Hint state
     revealedLetters: 0,
@@ -1119,7 +1120,7 @@
     return list;
   }
 
-  // Live Markdown Data Loader
+  // Live Markdown or Offline Fallback Loader
   async function loadMarkdownData(silent = false) {
     const timestamp = Date.now();
     let loadedFromMd = false;
@@ -1138,6 +1139,7 @@
       return null;
     }
 
+    // Try live fetch (available when served via HTTP / localhost)
     try {
       const [disText, orgText] = await Promise.all([
         fetchCandidate(['English/dissimilarities.md', '/English/dissimilarities.md', '../English/dissimilarities.md']),
@@ -1149,21 +1151,53 @@
         const orgItems = orgText ? parseWordsOrganized(orgText, disItems.length + 1) : [];
         state.allData = [...disItems, ...orgItems];
         loadedFromMd = true;
+        state.isLiveSync = true;
 
-        console.log(`[VocabMaster] ✅ 마크다운 파일 실시간 로드 완료: 총 ${state.allData.length}개 단어 (Dissimilarities: ${disItems.length}개, Words Organized: ${orgItems.length}개)`);
+        console.log(`[VocabMaster] ⚡ 마크다운 파일 실시간 동기화 완료: 총 ${state.allData.length}개 단어 (Dissimilarities: ${disItems.length}개, Words Organized: ${orgItems.length}개)`);
         if (!silent) {
-          showToast(`마크다운 데이터 동기화 완료 (${state.allData.length}개 단어)`, 'success');
+          showToast(`⚡ 마크다운 실시간 동기화 완료 (${state.allData.length}개 단어)`, 'success');
         }
       }
     } catch (err) {
-      console.warn('[VocabMaster] 마크다운 직접 로딩 중 오류:', err);
+      console.warn('[VocabMaster] 마크다운 직접 로딩 중 오류 (오프라인 폴백 시도):', err);
     }
 
-    // If markdown fetch failed (e.g. server not running or file:// protocol used)
+    // Fallback to embedded data.js (for double-click file:// execution or offline)
     if (!loadedFromMd) {
-      console.error('[VocabMaster] ❌ 마크다운 파일을 불러올 수 없습니다.');
-      showToast('⚠️ 마크다운 파일을 불러올 수 없습니다. 터미널에서 python3 vocab_app/server.py 를 실행해주세요.', 'error');
+      if (window.VOCAB_DATA && Array.isArray(window.VOCAB_DATA) && window.VOCAB_DATA.length > 0) {
+        state.allData = window.VOCAB_DATA;
+        state.isLiveSync = false;
+        console.log(`[VocabMaster] 💾 로컬 오프라인 데이터 로드 완료: 총 ${state.allData.length}개 단어`);
+        if (!silent) {
+          showToast(`💾 로컬 오프라인 모드로 실행되었습니다 (${state.allData.length}개 단어)`, 'info');
+        }
+      } else {
+        console.error('[VocabMaster] ❌ 마크다운 파일 및 data.js를 불러올 수 없습니다.');
+        showToast('⚠️ 단어 데이터를 불러올 수 없습니다. 터미널에서 python3 vocab_app/build_data.py 를 실행해주세요.', 'error');
+      }
     }
+
+    updateModePill();
+  }
+
+  function updateModePill() {
+    const pill = document.getElementById('mode-status-pill');
+    const icon = document.getElementById('mode-icon');
+    const text = document.getElementById('header-mode-text');
+    if (!pill || !icon || !text) return;
+
+    if (state.isLiveSync) {
+      pill.className = 'stat-pill mode-pill mode-live';
+      pill.title = '⚡ 실시간 동기화 모드: 로컬 서버 연결됨 (마크다운 수정 시 즉시 반영)';
+      icon.setAttribute('data-lucide', 'radio');
+      text.textContent = '실시간 연동';
+    } else {
+      pill.className = 'stat-pill mode-pill mode-offline';
+      pill.title = '💾 로컬 실행 모드: 서버 없이 100% 오프라인 작동 중';
+      icon.setAttribute('data-lucide', 'shield-check');
+      text.textContent = '로컬 오프라인';
+    }
+    if (window.lucide) window.lucide.createIcons();
   }
 
   function updateSourcePillsCount() {

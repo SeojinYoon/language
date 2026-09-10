@@ -390,7 +390,7 @@
         * 코어 이미지: 스크린 속의 움직임을 놓치지 않으려 눈동자를 고정하고 지켜보는 시선
         * 초점: 대상이나 피실험자의 동작 및 변화를 일정 시간 동안 주의 깊게 관찰·주시함
         > I watched the subject walking on the treadmill
-    - check: 확인
+    - check: 확인하다
         * 코어 이미지: 체크리스트의 네모 칸에 V 표시를 하며 O/X를 빠르게 판별하는 손동작
         * 초점: 어떤 상태가 맞는지 틀린지, 정상인지 아닌지를 단발적·직관적으로 눈으로 점검함
         > I need to check if the sensors are connected
@@ -411,7 +411,7 @@
         * 코어 이미지: 숨죽여 남의 사생활을 훔쳐봄
         * 초점: 상대방의 동의 없이 은밀하고 비공식적으로 사생활이나 기밀을 훔쳐보며 침해함
         > The neighbor was spying on us through the window
-    - make sure: 확인하다
+    - make sure: 철저히 확인하다
         * 코어 이미지: 문고리를 두 번 흔들어 잠겼는지 확실히 재확인하는 철저함
         * 초점: 실수나 누락이 없도록 사전에 점검하여 결과가 100% 확실해지도록 조치함
         > I make sure that it is a good website and there are no leaks on the website
@@ -1157,15 +1157,15 @@
         > The time is propitious for his purchase
 
 - 확정
-    - clear: 확정
+    - clear: 명백한, 확실한, 분명한
         * 코어 이미지: 안개가 걷혀 장애물 없이 눈앞이 환하게 트인 맑은 시야
         * 초점: 이해하기 쉽고 모호함이 없어 누구나 직관적으로 납득할 수 있는 명확함
         > Your explanation was very clear
-    - definitive: 확정
+    - definitive: 최종적인, 확정적인, 최고의
         * 코어 이미지: 더 이상의 수정이 필요 없는 최종 검인(Approved) 도장이 찍힌 정본
         * 초점: 권위를 지니고 최종적으로 확정되어 더 이상의 이견이나 수정이 불필요함
         > This is the definitive guide to stock-market speculation
-    - conclusive: 확정
+    - conclusive: 결정적인
         * 코어 이미지: 모든 논란과 의심을 한 방에 종결짓는 결정적인 DNA 증거
         * 초점: 모든 반론과 논쟁의 여지를 완전히 닫아버리는 결정적인 근거
         > There is no conclusive line of reasoning to refute this
@@ -1276,7 +1276,7 @@
         > Growth stocks and value stocks are two different categories
 
 - 속하다
-    - come under: 속하다
+    - come under: ~의 지배를 받다
         * 코어 이미지: 분류표의 특정 대분류 우산 밑으로 걸어 들어가 자리 잡음
         * 초점: 목록이나 체계에서 특정 제목이나 범주 아래에 정식으로 포함·분류됨
         > This specific movement comes under the category of active motion
@@ -1288,11 +1288,11 @@
         * 코어 이미지: 유리병 속에 물이 가득 담겨 있듯 물리적으로 내부에 들어있음
         * 초점: 용기나 공간 내부에 물리적/내용물로서 실제로 들어있는 상태
         > This bottle contains water
-    - fall into: 속하다
+    - fall into: ~의 카테고리에 속하다, ~로 나뉘다
         * 코어 이미지: 동전 분류기 구멍을 통해 각 동전이 해당 칸으로 쏙쏙 떨어져 들어감
         * 초점: 자연스러운 기준이나 속성에 따라 데이터들이 특정 범주로 나뉘어 귀속됨
         > The experimental data fall into three main categories
-    - belong to: 속하다
+    - belong to: ~의 소유이다
         * 코어 이미지: 이름표가 붙어 있어 그 사람이나 그룹의 소유이자 식구임을 선언함
         * 초점: 누군가의 법적/물리적 소유물이거나 특정 공동체에 깊은 소속감을 가짐
         > This notebook belongs to Seojin
@@ -1566,18 +1566,14 @@
         * 코어 이미지: 사람의 내면에 깔려 있는 온화하거나 냉철한 성격의 기본 밑바탕
         * 초점: 개인이 타고난 성격적 기질, 태도, 사물을 대하는 전반적인 심리적 경향
         > He has a cheerful and calm disposition
-    - temperament: 성향
+    - temperament: 기질, 성미
         * 코어 이미지: 자극을 받았을 때 감정과 흥분이 끓어오르는 반응의 온도계
         * 초점: 유전적·생물학적으로 타고난 감정적 반응 양식과 기질 (다혈질, 침착함 등)
         > An artistic temperament often requires emotional sensitivity
-    - propensity: 성향
+    - propensity: 경향
         * 코어 이미지: 특정 행동이나 실수를 저지르는 방향으로 자꾸만 기우는 습관의 경사면
         * 초점: 특정한 행동 방식(특히 부정적이거나 본능적인 경향)으로 쏠리기 쉬운 성향
         > He has a propensity to overthink simple problems
-    - predilection: 성향
-        * 코어 이미지: 여러 선택지 중 유독 특정 스타일의 요리나 예술에 끌리는 편애의 입맛
-        * 초점: 특정한 대상을 특별히 더 좋아하고 선호하는 주관적 취향과 편애 (격식체)
-        > She has a predilection for classical literature
 
 - 평가
     - evaluate: 가치를 매기다
@@ -1798,11 +1794,11 @@
         > The rivalry between the two top soccer clubs has lasted for decades
 
 - 욕망
-    - desire: 욕망
+    - desire: 바라다, 원하다
         * 코어 이미지: 내면 깊은 곳에서 타오르는 순수하고 강력한 성취의 불꽃
         * 초점: 자기 내면에서 우러나오는 진실하고 강렬한 소망과 열망
         > He has a strong desire to succeed in the field of RL
-    - covet: 욕망
+    - covet: 탐내다, 갈망하다
         * 코어 이미지: 남이 가지고 있는 귀한 보물을 곁눈질하며 몹시 탐내는 시선
         * 초점: 자신에게 없는 남의 소유물, 지위, 상을 몹시 부러워하며 탐냄 (격식체)
         > The Nobel Prize is a highly coveted award across the scientific community
@@ -1840,19 +1836,15 @@
         > The sudden downpour ruined my outdoor plans
 
 - 부족
-    - running out of: 부족
-        * 코어 이미지: 모래시계의 모래가 몇 알 남지 않아 바닥을 드러내기 직전의 상태
-        * 초점: 보유 자원이 빠르게 고갈되어 곧 0이 될 위기에 처한 진행 상태
-        > I'm running out of energy lately
-    - run out of: 부족
+    - run out of: 다 떨어짐
         * 코어 이미지: 연료 탱크의 바늘이 0에 닿아 시동이 꺼져버린 완전한 소진
         * 초점: 자원이 완전히 바닥나서 현재 하나도 남아있지 않은 상태
         > We ran out of ideas during the brainstorm session
-    - short of: 부족
+    - short of: 모자람
         * 코어 이미지: 목표 기준선보다 손가락 두 마디 정도 미치지 못하는 부족
         * 초점: 필요한 목표치나 예산보다 약간 모자라거나 부족한 상태
         > I'm a bit short of cash today
-    - lack of: 부족
+    - lack of: ~의 결핍
         * 코어 이미지: 원래부터 씨앗이 심겨 있지 않아 싹이 트지 않는 원천적 결핍
         * 초점: 처음부터 본래 갖추어져 있어야 할 경험이나 지식이 원천적으로 부재함
         > His lack of experience was obvious during the interview
@@ -1860,21 +1852,17 @@
         * 코어 이미지: 가뭄으로 인해 저수지의 물 수량이 부족한 정량적 결핍
         * 초점: 물자, 자원, 인력 등 공급량이 수요에 비해 양적으로 부족한 사태
         > There is a severe shortage of skilled software engineers
-    - weakness: 부족
-        * 코어 이미지: 튼튼한 방패의 한쪽 모서리에 존재하는 구조적이고 질적인 결함
-        * 초점: 성능, 시스템, 혹은 사람의 역량에서 나타나는 질적인 취약점이나 약점
-        > The biggest weakness of online shopping is that I can't see the product until receiving it
 
 - 작성
-    - write down: 작성
+    - write down: 받아적다, 기록하다
         * 코어 이미지: 귀로 들은 전화번호나 떠오른 아이디어를 종이 위에 펜으로 슥슥 받아 적기
         * 초점: 생각이나 음성 정보를 잊지 않기 위해 종이나 메모장에 손으로 기록함
         > Please write down your phone number on this pad
-    - fill out: 작성
+    - fill out: 서식을 작성하다, 채우다
         * 코어 이미지: 정부 서식 문서의 빈칸들을 하나도 빠짐없이 꼼꼼히 채워 넣기
         * 초점: 이름, 주소 등 이미 정해진 양식의 빈칸들을 모두 완성하여 기입함
         > You need to fill out this application form to register
-    - type in: 작성
+    - type in: (타이핑하여) 입력하다
         * 코어 이미지: 키보드의 자판을 또각또각 두드려 화면의 입력창에 텍스트를 집어넣음
         * 초점: 키보드나 터치스크린 등 전자기기를 통해 데이터를 직접 타이핑하여 입력함
         > My friend didn't get any of my emails because I typed in the wrong email address
@@ -2121,11 +2109,11 @@
         > Demand for AI experts continues to outstrip supply
 
 - 나타나다
-    - happen: 나타나다
+    - happen: 발생하다, 우연히 ~ 하다
         * 코어 이미지: 우연히 굴러떨어진 돌처럼 예기치 않게 사건이 발생하는 순간
         * 초점: 어떤 사건이나 상황이 우연히 또는 결과로서 실제로 발생하고 벌어짐
         > What will happen next?
-    - appear: 나타나다
+    - appear: 나타나다, ~처럼 보이다
         * 코어 이미지: 어둠 속에서 조명이 켜지며 무대 위에 인물이 스르륵 모습을 드러냄
         * 초점: 보이지 않던 것이 시야에 들어오거나, 수식에서 해가 특정 횟수로 나타남
         > A new opportunity appeared
@@ -2359,26 +2347,22 @@
         * 코어 이미지: 잘 돌아가던 생산 공장의 전원이 끊기며 시스템 체계가 일시 붕괴됨
         * 초점: 체계, 평온, 집중의 기존 질서와 흐름을 흔들어 깨뜨리고 혼란을 야기함
         > I'm sorry to disrupt your focus, but I have a question
-    - interfere with: 방해하다
+    - interfere with: 간섭하다, 참견하다
         * 코어 이미지: 남의 일에 참견하며 진행 방향에 끼어들어 일에 지장을 초래함
         * 초점: 일에 불필요하게 간섭하거나 지장을 주어 정상적인 진행을 망침
         > Don't let your personal feelings interfere with your professional work
-    - interrupt: 방해하다
+    - interrupt: 중단시키다
         * 코어 이미지: 상대방의 말이 끝나지 않았는데 중간에 말을 뚝 끊고 들어오는 순간적 중단
         * 초점: 진행 중인 대화나 동작의 흐름을 순간적으로 가로막아 멈추게 함
         > Sorry to interrupt, but I have a quick question
-    - get in the way of: 방해하다
+    - get in the way of: ~을 가로막다
         * 코어 이미지: 좁은 복도 한가운데에 커다란 박스가 놓여 있어 앞으로 지나가지 못함
         * 초점: 물리적 장애물이나 두려움 등의 감정이 앞길을 가로막아 발전을 저해함
         > I won't let my personal feelings get in the way of my work
         > Don't let your fear get in the way of your success
-    - prohibit: 방해하다
-        * 코어 이미지: 출입 금지 테이프를 둘러치고 법적으로 행동 자체를 원천 차단함
-        * 초점: 규정이나 고장으로 인해 특정 행위 자체가 일어나는 것을 원천 금지·불가능하게 만듦
-        > I spilled coffee on my computer and it prohibited all of my programs from opening.
 
 - 끼어들다
-    - intervention: 끼어들다
+    - intervention: 끼어들기
         * 코어 이미지: 싸움을 말리기 위해 경찰이 현장에 진입하여 질서를 바로잡는 정식 개입
         * 초점: 상황을 개선하거나 특정 목적을 달성하기 위해 의도적으로 개입하고 중재함
         > The government's intervention was necessary to stabilize the market
@@ -2388,20 +2372,24 @@
         * 코어 이미지: 생일을 맞은 친구를 위해 정성껏 포장지로 싼 따뜻한 선물 상자
         * 초점: 개인적인 친밀한 관계에서 축하와 감사의 마음을 담아 건네는 일상적 선물
         > I bought a birthday present for my friend
-    - gift: 선물
+    - gift: 재능, 기부물
         * 코어 이미지: 하늘이 내려준 천재적인 재능이나 기관이 정식으로 수여하는 증정품
         * 초점: 공식적인 증정품, 기부금, 혹은 선천적으로 타고난 천부적 재능
         > He has a rare gift for mathematical abstraction
 
-- 좋아하다
+- 좋아함
     - like: 좋아하다
         * 코어 이미지: 옆에 있는 친구와 어깨동무를 하며 느끼는 편안하고 호감 어린 친근함
         * 초점: 대등한 대상이나 일상적인 사물에 대해 느끼는 보편적이고 친근한 호감
         > I like reading books in quiet cafes
-    - admire: 좋아하다
+    - admire: 존경하다
         * 코어 이미지: 밤하늘에 빛나는 북극성을 우러러보며 경외심과 존경을 품는 시선
         * 초점: 뛰어난 인격, 업적, 품격을 지닌 대상을 우러러보며 품는 깊은 존경과 흠모
         > I truly admire my mentor's dedication to scientific discovery
+    - predilection: 편애
+        * 코어 이미지: 여러 선택지 중 유독 특정 스타일의 요리나 예술에 끌리는 편애의 입맛
+        * 초점: 특정한 대상을 특별히 더 좋아하고 선호하는 주관적 취향과 편애 (격식체)
+        > She has a predilection for classical literature
 
 - 비용
     - pay: 비용
@@ -3931,4 +3919,19 @@
         * 코어 이미지: 순간적으로 경이로운 자극이 들어옴
         * 초점: 긍정적이거나 중립적인 수준의 강렬한 감정적 충격을 나타냄.
         > The new scientific discovery really blew my mind
+    - strike someone as: ~에게 ~라는 강렬한 인상을 주다
+        * 코어 이미지: 종을 치듯 어떤 말이나 현상이 사람의 마음을 쾅 하고 울리며 뚜렷한 인상을 각인시킴
+        * 초점: 어떤 대상의 행동이나 말이 관찰자에게 특정한 뉘앙스나 강한 깨달음으로 직관적으로 다가옴
+        > This struck me as a poignant metaphor for her turbulent relationship with her deceased mother
+- 약함
+    - weakness: 약함
+        * 코어 이미지: 튼튼한 방패의 한쪽 모서리에 존재하는 구조적이고 질적인 결함
+        * 초점: 성능, 시스템, 혹은 사람의 역량에서 나타나는 질적인 취약점이나 약점
+        > The biggest weakness of online shopping is that I can't see the product until receiving it
+    
 
+- 금지
+    - prohibit: 금지하다, 못하게하다
+        * 코어 이미지: 출입 금지 테이프를 둘러치고 법적으로 행동 자체를 원천 차단함
+        * 초점: 규정이나 고장으로 인해 특정 행위 자체가 일어나는 것을 원천 금지·불가능하게 만듦
+        > I spilled coffee on my computer and it prohibited all of my programs from opening.

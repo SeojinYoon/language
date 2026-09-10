@@ -45,6 +45,12 @@ class VocabRequestHandler(http.server.SimpleHTTPRequestHandler):
 socketserver.TCPServer.allow_reuse_address = True
 
 try:
+    import build_data
+    build_data.build(PROJECT_ROOT, os.path.join(VOCAB_DIR, "data.js"))
+except Exception as e:
+    print(f"⚠️ Could not auto-build data.js: {e}")
+
+try:
     with socketserver.TCPServer(("", PORT), VocabRequestHandler) as httpd:
         url = f"http://localhost:{PORT}/index.html"
         print("=" * 60)
@@ -53,6 +59,10 @@ try:
         print("💡 You can edit markdown files and refresh the browser instantly!")
         print("Press Ctrl+C to stop the server.")
         print("=" * 60)
+        try:
+            webbrowser.open(url)
+        except Exception:
+            pass
         httpd.serve_forever()
 except KeyboardInterrupt:
     print("\nServer stopped.")
