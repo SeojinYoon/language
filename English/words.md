@@ -151,4 +151,35 @@
     * 초점: '부정적인 요소의 밀도와 위태로움'
     > Inference, however, is fraught with uncertainty.
 - congenital: 타고난
-    
+- anecdote: 일화, 짧은 경험담
+    * 코어 이미지: 커다란 공식 역사책이나 보고서의 틈새에 작게 끼워둔, 한 장짜리 손때 묻은 흥미로운 메모지
+    * 초점: 짧고 흥미로운 실화(Short & Illustrative True Account)'
+    > He began his lecture with a humorous anecdote about his first day in the lab.
+- relatable: 공감할 수 있는, 남 일 같지 않은
+    * 코어 이미지: 상대방의 상황과 내 경험 사이에 투명한 연결 끈(Relate)이 팽팽하게 이어져, 저쪽의 진동이 내 쪽으로도 그대로 울려 퍼지는 모습 (A Resonance of Shared Human Experience)
+    * 초점: 경험의 보편성과 정서적 유대감(Empathy & Shared Reality)
+    > What makes this protagonist so appealing is that she is deeply relatable
+ - walk on eggshells: (상대방의 눈치를 보며) 극도로 조심스럽게 행동하다
+    - 코어 이미지: 바닥에 얇고 깨지기 쉬운 달걀 껍데기들이 빽빽하게 깔려 있고, 그 위를 맨발로 조심조심 발을 디디는 모습 (Treading on Fragile Shells)
+    - 초점: '예측 불가능한 폭발이나 갈등에 대한 극심한 긴장과 눈치 보기'
+    > I sometimes find myself walking on eggshells around him because he is far more capable than I am
+
+- be veering off track: 경로(궤도)를 이탈하고 있다
+    - 코어 이미지: 철로(Track) 위를 달리던 열차가 한쪽으로 덜컥 기울며 선로 밖으로 궤도를 이탈하는 모습
+    - 초점: 목표와 초점의 상실(Deviation from Objective)
+    > The speaker veered off track and spent twenty minutes telling unrelated personal anecdotes.
+
+- operationalize: 조작화하다
+    - 코어 이미지: 머릿속에 떠오른 막연한 설계도(Blueprint)를 스위치, 눈금, 톱니바퀴가 달린 실제 작동 가능한 기계 장치(Machine)로 만들어내는 모습 (Turning Concept into Machinery)
+    - 초점: 측정 가능성(Measurability)과 실행 가능성(Actionability)
+    > Following this logic, to compute distances between abstract concepts, we must operationalize them in the physical realm
+
+- from moment to moment: 순간순간, 시시각각
+    - 코어 이미지: 필름 릴의 프레임 하나하나가 찰칵거리며 넘어가듯, 매 순간의 상태가 다음 순간으로 미세하게 계속 전환되는 모습 (Frame-by-Frame Shifting)
+    - 초점: 매우 짧은 시간 간격의 가변성(High Temporal Variability)과 변동성
+    > Yet because our cognitive frameworks are in constant flux, the physical phenomena in the brain vary from moment to moment
+
+- supplant: ~의 자리를 찬탈하다
+    - 코어 이미지: 발을 걸어 넘어뜨리고 그 자리에 올라서는 모습 (Tripping Someone up to Take Their Throne)
+    - 초점: 새로운 것의 우월성에 의한 기존 주도권의 밀려남(Ousting & Displacement)
+    > In modern society, however, where the individual has supplanted the divine, this external axis has largely eroded, making it difficult to apply directly to our daily lives. We are left to deduce that absolute distance for ourselves

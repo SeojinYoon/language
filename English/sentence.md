@@ -13,3 +13,5 @@
 - turn failure into success: 실패를 성공으로 바꾸다
 - make the impossible possible: 불가능을 가능으로 만들다
     > Making the impossible possible is inherently grueling
+- My thoughts are spiraling: 생각이 꼬리를 물고 이어지다
+    > My anxiety started spiraling after reading the bad news

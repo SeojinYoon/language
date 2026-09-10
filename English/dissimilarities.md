@@ -1251,15 +1251,22 @@
         > The error was due to a simple arithmetical mistake
 
 - 설명
-    - explain: 설명
+    - explain: 설명하다
         * 코어 이미지: 복잡한 회로도를 가리키며 듣는 사람이 이해하도록 말로 차근차근 풀어내기
         * 초점: 상대방이 모르는 원인, 이유, 개념을 말이나 글로 풀어 이해시키는 행위
         > Can you explain the logic behind the RL agent?
         > We have seen Don Quixote himself explain to Sancho the privileged part Amadis plays in his life
-    - demonstrate: 설명
+    - demonstrate: 시연하다
         * 코어 이미지: 관중 앞에서 로봇을 직접 작동시키며 성능이 진짜임을 눈으로 확인시켜 줌
         * 초점: 말뿐 아니라 실제 작동 시연이나 객관적 데이터를 통해 사실임을 명백히 입증함
         > Our results demonstrate that the algorithm is efficient
+    - walk through: ~을 단계별로 차근차근 설명하다
+        * 코어 이미지: 가이드가 손을 잡고 건물의 입구부터 방 하나하나를 천천히 걸어가며 안내하는 모습 (Step-by-Step Guided Tour)
+        * 초점: 단계적 세부 절차의 차근차근한 안내 (Step-by-Step Demonstration)
+        > Could you walk me through this data analysis pipeline?
+    - outline: 개요를 설명하다
+        * 코어 이미지: 테두리 윤곽선만 빠르게 그림
+        * 초점: 세부 내용은 건너뛰고 전체적인 뼈대와 요점만 요약함
 
 - 종류
     - heading: 종류
@@ -3324,7 +3331,7 @@
         * 코어 이미지: 잔잔한 수면에 비친(Reflect) 자신의 모습을 가만히 들여다보듯 경험이나 사안을 내면에서 비추어보는 모습 (Internal Mirror)
         * 초점: 단순한 생각(Think)을 넘어, 이미 일어난 일이나 마주한 현상의 본질·의미를 곱씹고 반추하는 '깊이 있는 사유와 성찰'
         > Immersed in Turin’s visual and culture atmosphere, I reflected on why simplicity and complexity exist side by side.
-    - contemplate
+    - contemplate: 고요히 숙고하다
         * 코어 이미지: 로댕의 <생각하는 사람>처럼 턱을 괴고, 눈앞의 사물·개념이나 다가올 결정을 고요히 바라보고 응시하는 모습 (Deep Gazing / Deliberation)
         * 초점: 관조와 응시 - 예술품, 아름다운 풍경, 추상적인 삶의 신비 등을 말없이 바라보며 깊은 사색에 잠기는 것, 미래 지향적 숙고 - 앞으로의 진로, 선택, 결심을 신중하게 저울질하며 고려하는 것
         > He sat by the lake, contemplating the meaning of life
@@ -3676,7 +3683,10 @@
         * 코어 이미지: 상대방이 든 찬성 투표 깃발을 보고 나 역시 똑같이 깃발을 번쩍 듦
         * 초점: 부사로 쓰여 '마찬가지로, 나도 그래' 하며 앞선 행동이나 의견에 완벽히 동조함
         > He voted for the motion, and I did likewise
-
+    - just as: 마치 ~인 것과 꼭 마찬가지로
+        * 코어 이미지: 두 사건이 1초의 오차도 없이 딱 맞물리는 순간
+        * 초점: A와 B의 메커니즘이나 성질이 완벽하게 닮아 있음(Homology)
+        > Just as camera calibration requires a checkerboard to establish reference grid points, I designed a grid for my own mental calibration
 - 지정하다
     - assign: (과업·역할을) 배정하다, 할당하다
         * 코어 이미지: 팀원들의 이름표 옆에 각자 책임질 프로젝트 과업을 하나씩 배정함
