@@ -662,21 +662,35 @@
               </div>
             </div>
 
-            <!-- Personal Expression Memo -->
-            <div class="diary-memo-box">
-              <div class="memo-header">
-                <div class="memo-title">
-                  <i data-lucide="bookmark"></i>
-                  <span>기억하고 싶은 표현 & 전치사/구동사 메모 (로컬 자동 저장)</span>
+            <!-- Local Gemma AI Feedback Card -->
+            <div class="diary-ai-section" id="diary-ai-section">
+              <div class="ai-section-header">
+                <div class="ai-header-left">
+                  <div class="ai-badge-icon">
+                    <i data-lucide="bot"></i>
+                  </div>
+                  <div class="ai-header-text">
+                    <h4>로컬 Gemma 4 AI 첨삭 &amp; 뉘앙스 코칭</h4>
+                    <span class="ai-header-sub">Edge Gallery의 Gemma-4-E2B-it 온디바이스 모델로 Mac에서 100% 안전하게 분석합니다.</span>
+                  </div>
                 </div>
-                <span id="diary-memo-status" class="memo-status">자동 저장됨</span>
+                <div class="ai-header-right">
+                  <button id="btn-diary-ai-feedback" class="btn-ai-sparkle">
+                    <i data-lucide="sparkles"></i> <span>AI 첨삭 받기</span>
+                  </button>
+                </div>
               </div>
-              <textarea 
-                id="diary-memo-input" 
-                class="memo-textarea" 
-                placeholder="예: 'turn into 대신 morph into를 써서 점진적 변화 뉘앙스를 살림', 'at the expense of (~를 희생하여)' 등 배운 점을 메모해보세요."
-                rows="3"
-              ></textarea>
+
+              <!-- AI Feedback Content Box -->
+              <div id="diary-ai-result-box" class="ai-result-box hidden">
+                <div id="diary-ai-loading" class="ai-loading-state hidden">
+                  <div class="ai-spinner"></div>
+                  <span>로컬 Gemma 4 모델(E2B)이 영작문을 정밀 분석 중입니다...</span>
+                </div>
+                <div id="diary-ai-content" class="ai-content-body">
+                  <!-- AI feedback output -->
+                </div>
+              </div>
             </div>
 
           </div>
@@ -692,6 +706,8 @@
 
   <!-- Local Data Bundle (Fallback for double-click file:// execution) -->
   <script src="data.js"></script>
+  <!-- Local Diary Cache (Auto-synced by server, fallback for file:// execution, Git ignored) -->
+  <script src="local_diary.js"></script>
   <!-- Main Application Script (Loads & Parses Markdown or Fallback) -->
   <script src="app.js"></script>
 </body>

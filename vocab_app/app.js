@@ -15,7 +15,12 @@
   // ============================================================================
   const DIARY_CONFIG = {
     defaultPath: '/Users/seojin/mind.csv',
-    apiEndpoint: '/api/diary'
+    getApiUrl(endpoint) {
+      if (window.location.protocol === 'file:') {
+        return `http://localhost:3000${endpoint}`;
+      }
+      return endpoint;
+    }
   };
 
   // State Management
@@ -1281,35 +1286,51 @@
     return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
-  // Load Diary Data from configured default path via /api/diary
+  // Load Diary Data with multi-tier support (offline cache + live server sync)
   async function loadDiaryData(silent = false) {
+    let loadedFromCache = false;
+
+    // 1. Instant Synchronous Cache (Works even on file:// protocol or offline)
+    if (window.LOCAL_DIARY_DATA && Array.isArray(window.LOCAL_DIARY_DATA) && window.LOCAL_DIARY_DATA.length > 0) {
+      state.diaryEntries = window.LOCAL_DIARY_DATA;
+      state.isDiaryLoaded = true;
+      loadedFromCache = true;
+
+      const privacyPill = document.getElementById('diary-privacy-pill');
+      const privacyText = document.getElementById('diary-privacy-text');
+      if (privacyText) privacyText.textContent = `기본 경로 (${window.LOCAL_DIARY_DATA.length}편)`;
+      if (privacyPill) privacyPill.title = `기본 경로 연동됨: ${DIARY_CONFIG.defaultPath} (Git 미포함)`;
+
+      applyDiaryFilter();
+    }
+
+    // 2. Live API sync (Fetches from server if running, cross-origin friendly for file://)
     try {
-      const res = await fetch(`${DIARY_CONFIG.apiEndpoint}?t=${Date.now()}`);
+      const endpoint = DIARY_CONFIG.getApiUrl(`/api/diary?t=${Date.now()}`);
+      const res = await fetch(endpoint);
       if (res.ok) {
         const entries = await res.json();
         if (Array.isArray(entries) && entries.length > 0) {
           state.diaryEntries = entries;
           state.isDiaryLoaded = true;
-          
+
           const privacyPill = document.getElementById('diary-privacy-pill');
           const privacyText = document.getElementById('diary-privacy-text');
           if (privacyText) privacyText.textContent = `기본 경로 (${entries.length}편)`;
           if (privacyPill) privacyPill.title = `기본 경로 연동됨: ${DIARY_CONFIG.defaultPath} (Git 미포함)`;
 
           applyDiaryFilter();
-          if (!silent) showToast(`📔 기본 경로에서 일기 ${entries.length}편을 성공적으로 연동했습니다!`, 'success');
+          if (!silent && !loadedFromCache) {
+            showToast(`📔 기본 경로에서 일기 ${entries.length}편을 연동했습니다!`, 'success');
+          }
           return;
-        } else {
-          showToast(`⚠️ 일기 파일에서 유효한 데이터를 찾지 못했습니다 (${DIARY_CONFIG.defaultPath})`, 'warning');
         }
-      } else {
-        const errData = await res.json().catch(() => ({}));
-        const errMsg = errData.error || `기본 경로(${DIARY_CONFIG.defaultPath})에서 일기 파일을 찾을 수 없습니다.`;
-        console.warn('[VocabMaster]', errMsg);
-        if (!silent) showToast(`⚠️ ${errMsg}`, 'error');
       }
     } catch (e) {
-      console.warn('[VocabMaster] 일기 데이터 로딩 중 오류:', e);
+      console.warn('[VocabMaster] 일기 실시간 API 연동 대기/오류:', e);
+    }
+
+    if (!state.isDiaryLoaded) {
       if (!silent) {
         showToast(`⚠️ 기본 경로(${DIARY_CONFIG.defaultPath}) 로드 실패. server.py 실행 여부를 확인해주세요.`, 'error');
       }
@@ -1430,13 +1451,6 @@
     if (metaMood) metaMood.textContent = `${getMoodIcon(entry.mood)} ${entry.mood}`;
 
     state.currentParaIndex = 0;
-
-    // Load memo
-    const memoInput = document.getElementById('diary-memo-input');
-    if (memoInput) {
-      memoInput.value = state.diaryNotes[entry.id] || '';
-    }
-
     renderDiarySegment();
   }
 
@@ -1472,9 +1486,11 @@
     const wordCounter = document.getElementById('diary-word-counter');
     if (wordCounter) wordCounter.textContent = '0 words';
 
-    // Hide feedback
+    // Hide feedback & AI result
     const feedback = document.getElementById('diary-feedback-section');
     if (feedback) feedback.classList.add('hidden');
+    const aiResultBox = document.getElementById('diary-ai-result-box');
+    if (aiResultBox) aiResultBox.classList.add('hidden');
 
     // Update hints
     updateVocabHints(entry);
@@ -1732,6 +1748,361 @@
     window.speechSynthesis.speak(utterance);
   }
 
+  // Request Local Gemma AI Coaching & Proofreading (Real-time SSE Streaming)
+  async function requestAiFeedback() {
+    const input = document.getElementById('diary-input');
+    const userText = input ? input.value.trim() : '';
+    if (!userText) {
+      showToast('AI 첨삭을 받으려면 먼저 영작문을 작성해주세요!', 'warning');
+      if (input) input.focus();
+      return;
+    }
+
+    const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+    if (!entry) return;
+
+    let currentKo = '';
+    let currentRef = '';
+
+    if (state.diaryMode === 'paragraph') {
+      const koParas = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      const enParas = entry.english.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      currentKo = koParas[state.currentParaIndex] || entry.korean;
+
+      let refIdx = state.currentParaIndex;
+      if (enParas.length !== koParas.length && koParas.length > 1) {
+        refIdx = Math.min(enParas.length - 1, Math.round((state.currentParaIndex / (koParas.length - 1)) * (enParas.length - 1)));
+      }
+      currentRef = enParas[refIdx] || entry.english;
+    } else {
+      currentKo = entry.korean;
+      currentRef = entry.english;
+    }
+
+    // Make sure feedback section is open so user sees progress
+    const feedbackSection = document.getElementById('diary-feedback-section');
+    if (feedbackSection && feedbackSection.classList.contains('hidden')) {
+      compareDiaryTranslation();
+    }
+
+    const aiResultBox = document.getElementById('diary-ai-result-box');
+    const aiLoading = document.getElementById('diary-ai-loading');
+    const aiContent = document.getElementById('diary-ai-content');
+    const btnAi = document.getElementById('btn-diary-ai-feedback');
+
+    if (aiResultBox) {
+      aiResultBox.classList.remove('hidden');
+      aiResultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    if (aiLoading) aiLoading.classList.remove('hidden');
+    if (aiContent) aiContent.innerHTML = '';
+    if (btnAi) {
+      btnAi.disabled = true;
+      btnAi.classList.add('loading');
+    }
+
+    try {
+      const endpoint = DIARY_CONFIG.getApiUrl('/api/ai-feedback');
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          korean: currentKo,
+          userTranslation: userText,
+          referenceTranslation: currentRef,
+          stream: true
+        })
+      });
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+
+      const contentType = res.headers.get('content-type') || '';
+      if (contentType.includes('text/event-stream') && res.body) {
+        // SSE Real-time Streaming
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let buffer = '';
+        let accumulatedText = '';
+        let activeModel = 'Gemma-4-E2B-it (Edge Gallery 온디바이스 Metal 가속)';
+        let receivedFirstToken = false;
+        let isDone = false;
+
+        while (!isDone) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split('\n');
+          buffer = lines.pop(); // keep partial line
+
+          for (const line of lines) {
+            const trimmed = line.trim();
+            if (!trimmed.startsWith('data:')) continue;
+            const jsonStr = trimmed.slice(5).trim();
+            if (!jsonStr) continue;
+
+            try {
+              const payload = JSON.parse(jsonStr);
+              if (payload.error) {
+                if (aiLoading) aiLoading.classList.add('hidden');
+                renderAiOfflineCard(payload);
+                return;
+              }
+              if (payload.model) {
+                activeModel = payload.model;
+              }
+              if (payload.token) {
+                if (!receivedFirstToken) {
+                  receivedFirstToken = true;
+                  if (aiLoading) aiLoading.classList.add('hidden');
+                }
+                accumulatedText += payload.token;
+                renderStreamingAiFeedback(accumulatedText, activeModel, false);
+              }
+              if (payload.done) {
+                isDone = true;
+                if (aiLoading) aiLoading.classList.add('hidden');
+                renderStreamingAiFeedback(accumulatedText, activeModel, true);
+                soundSynth.playCorrect();
+                break;
+              }
+            } catch (parseErr) {
+              console.warn('[VocabMaster] SSE parse error:', parseErr);
+            }
+          }
+        }
+
+        if (receivedFirstToken && !isDone) {
+          if (aiLoading) aiLoading.classList.add('hidden');
+          renderStreamingAiFeedback(accumulatedText, activeModel, true);
+          soundSynth.playCorrect();
+        }
+      } else {
+        // Fallback standard JSON response
+        const data = await res.json();
+        if (aiLoading) aiLoading.classList.add('hidden');
+
+        if (data.status === 'success') {
+          renderStreamingAiFeedback(data.feedback, data.model, true);
+          soundSynth.playCorrect();
+        } else if (data.status === 'offline') {
+          renderAiOfflineCard(data);
+        } else {
+          renderAiErrorCard(data.message || '오류가 발생했습니다.');
+        }
+      }
+    } catch (err) {
+      console.warn('[VocabMaster] AI Feedback Request Error:', err);
+      if (aiLoading) aiLoading.classList.add('hidden');
+      renderAiOfflineCard({
+        message: '로컬 Gemma 4 AI 모델 또는 server.py에 연결할 수 없습니다.',
+        guide: 'Edge Gallery의 Gemma-4-E2B-it 모델이 다운로드되어 있거나, server.py가 실행 중인지 확인해주세요.',
+        model: 'Gemma-4-E2B-it'
+      });
+    } finally {
+      if (btnAi) {
+        btnAi.disabled = false;
+        btnAi.classList.remove('loading');
+      }
+      if (window.lucide) window.lucide.createIcons();
+    }
+  }
+
+  function formatAiMarkdown(text, showCursor = false) {
+    if (!text) {
+      return showCursor ? '<span class="ai-typing-cursor">▌</span>' : '';
+    }
+
+    const lines = text.split('\n');
+    let html = '';
+    let inList = false;
+
+    for (let i = 0; i < lines.length; i++) {
+      let line = lines[i].trim();
+      if (!line) {
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+        continue;
+      }
+
+      const isHeader = /^(\d+[\.\)]|###|##|\*\*)/.test(line) &&
+        (line.includes('점수') || line.includes('총평') || line.includes('문법') || line.includes('어휘') || line.includes('교정') || line.includes('뉘앙스') || line.includes('추천') || line.includes('모범') || line.includes('조언') || line.includes('향상') || line.includes('팁') || line.includes('🎯') || line.includes('✍️') || line.includes('💡') || line.includes('✨') || line.includes('🚀'));
+
+      if (isHeader) {
+        if (inList) {
+          html += '</ul>';
+          inList = false;
+        }
+        let cleanTitle = escapeHtml(line.replace(/^###\s*|^##\s*|^\d+[\.\)]\s*/, '').replace(/\*\*/g, '').trim());
+        html += `<div class="ai-card-heading"><i data-lucide="sparkles"></i><span>${cleanTitle}</span></div>`;
+        continue;
+      }
+
+      const bulletMatch = line.match(/^[-*•]\s+(.*)$/);
+      if (bulletMatch) {
+        if (!inList) {
+          html += '<ul class="ai-feedback-list">';
+          inList = true;
+        }
+        let itemContent = escapeHtml(bulletMatch[1]);
+        itemContent = itemContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        itemContent = itemContent.replace(/`([^`]+)`/g, '<code>$1</code>');
+        html += `<li>${itemContent}</li>`;
+        continue;
+      }
+
+      if (inList) {
+        html += '</ul>';
+        inList = false;
+      }
+
+      let pContent = escapeHtml(line);
+      pContent = pContent.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      pContent = pContent.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+      if (line.startsWith('&gt;') || line.startsWith('>')) {
+        html += `<blockquote class="ai-quote">${pContent.replace(/^&gt;\s*|^>\s*/, '')}</blockquote>`;
+      } else {
+        html += `<p class="ai-p">${pContent}</p>`;
+      }
+    }
+
+    if (inList) {
+      html += '</ul>';
+    }
+
+    if (showCursor) {
+      const pClose = html.lastIndexOf('</p>');
+      const liClose = html.lastIndexOf('</li>');
+      const bqClose = html.lastIndexOf('</blockquote>');
+      const divClose = html.lastIndexOf('</div>');
+      const maxClose = Math.max(pClose, liClose, bqClose, divClose);
+
+      if (maxClose !== -1) {
+        html = html.slice(0, maxClose) + '<span class="ai-typing-cursor">▌</span>' + html.slice(maxClose);
+      } else {
+        html += '<span class="ai-typing-cursor">▌</span>';
+      }
+    }
+
+    return html;
+  }
+
+  function renderStreamingAiFeedback(feedback, model, isFinal = false) {
+    const aiContent = document.getElementById('diary-ai-content');
+    if (!aiContent) return;
+
+    const formattedHtml = formatAiMarkdown(feedback, !isFinal);
+
+    const badgeHtml = isFinal
+      ? `<span class="ai-online-badge"><i data-lucide="check-circle-2"></i> 로컬 Gemma 4 첨삭 완료</span>`
+      : `<span class="ai-online-badge streaming"><i data-lucide="sparkles"></i> 실시간 Gemma 4 첨삭 중...</span>`;
+
+    aiContent.innerHTML = `
+      <div class="ai-success-wrapper">
+        <div class="ai-model-tag-bar">
+          ${badgeHtml}
+          <span class="ai-model-name">${escapeHtml(model || 'Gemma-4-E2B-it')} (로컬 구동)</span>
+        </div>
+        <div class="ai-feedback-rich-body ${isFinal ? '' : 'streaming-body'}">
+          ${formattedHtml}
+        </div>
+      </div>
+    `;
+
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  function renderAiFeedbackSuccess(feedback, model) {
+    renderStreamingAiFeedback(feedback, model, true);
+  }
+
+  function renderAiOfflineCard(data) {
+    const aiContent = document.getElementById('diary-ai-content');
+    if (!aiContent) return;
+
+    const modelName = data.model || 'Gemma-4-E2B-it';
+
+    aiContent.innerHTML = `
+      <div class="ai-offline-card">
+        <div class="offline-badge-row">
+          <span class="offline-tag">⚠️ AI 로컬 서버 미연동</span>
+          <span class="offline-model">${escapeHtml(modelName)}</span>
+        </div>
+        <h5 class="offline-title">${escapeHtml(data.message || '로컬 Gemma AI가 실행되지 않았습니다.')}</h5>
+        <p class="offline-desc">${escapeHtml(data.guide || 'Ollama를 통해 로컬에서 무료로 무제한 첨삭을 실행할 수 있습니다.')}</p>
+        
+        <div class="offline-terminal-box">
+          <div class="terminal-header">
+            <span>Terminal 실행 명령어</span>
+            <button id="btn-copy-ollama-cmd" class="btn-copy-cmd" title="명령어 복사">
+              <i data-lucide="copy"></i> <span>복사</span>
+            </button>
+          </div>
+          <pre class="terminal-code"><code>ollama run ${escapeHtml(modelName)}</code></pre>
+        </div>
+
+        <div class="offline-footer">
+          <button id="btn-ai-retry" class="btn-secondary-modern">
+            <i data-lucide="refresh-cw"></i> <span>다시 시도하기</span>
+          </button>
+        </div>
+      </div>
+    `;
+
+    const copyBtn = document.getElementById('btn-copy-ollama-cmd');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', () => {
+        navigator.clipboard.writeText(`ollama run ${modelName}`);
+        showToast('📋 명령어가 클립보드에 복사되었습니다!', 'info');
+      });
+    }
+
+    const retryBtn = document.getElementById('btn-ai-retry');
+    if (retryBtn) {
+      retryBtn.addEventListener('click', () => {
+        requestAiFeedback();
+      });
+    }
+
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  function renderAiErrorCard(msg) {
+    const aiContent = document.getElementById('diary-ai-content');
+    if (!aiContent) return;
+
+    aiContent.innerHTML = `
+      <div class="ai-offline-card error-border">
+        <div class="offline-badge-row">
+          <span class="offline-tag error-tag">⚠️ AI 피드백 오류</span>
+        </div>
+        <h5 class="offline-title">피드백을 생성하는 중 문제가 발생했습니다.</h5>
+        <p class="offline-desc">${escapeHtml(msg)}</p>
+        <div class="offline-footer">
+          <button id="btn-ai-retry" class="btn-secondary-modern">
+            <i data-lucide="refresh-cw"></i> <span>다시 시도</span>
+          </button>
+        </div>
+      </div>
+    `;
+
+    const retryBtn = document.getElementById('btn-ai-retry');
+    if (retryBtn) {
+      retryBtn.addEventListener('click', () => {
+        requestAiFeedback();
+      });
+    }
+
+    if (window.lucide) window.lucide.createIcons();
+  }
+
   // Render view dispatcher
   function renderDiaryView() {
     if (!state.isDiaryLoaded) {
@@ -1892,6 +2263,12 @@
       compareBtn.addEventListener('click', compareDiaryTranslation);
     }
 
+    // Local Gemma AI Coaching Button
+    const aiBtn = document.getElementById('btn-diary-ai-feedback');
+    if (aiBtn) {
+      aiBtn.addEventListener('click', requestAiFeedback);
+    }
+
     // Next Step Button in Feedback
     const nextStepBtn = document.getElementById('btn-diary-next-step');
     if (nextStepBtn) {
@@ -1902,27 +2279,6 @@
     const ttsBtn = document.getElementById('btn-diary-tts');
     if (ttsBtn) {
       ttsBtn.addEventListener('click', speakDiaryReference);
-    }
-
-    // Local Memo Auto-save
-    const memoInput = document.getElementById('diary-memo-input');
-    const memoStatus = document.getElementById('diary-memo-status');
-    let memoTimeout = null;
-
-    if (memoInput) {
-      memoInput.addEventListener('input', () => {
-        const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
-        if (!entry) return;
-
-        if (memoStatus) memoStatus.textContent = '저장 중...';
-        clearTimeout(memoTimeout);
-
-        memoTimeout = setTimeout(() => {
-          state.diaryNotes[entry.id] = memoInput.value;
-          localStorage.setItem('vm_diary_notes', JSON.stringify(state.diaryNotes));
-          if (memoStatus) memoStatus.textContent = '자동 저장됨';
-        }, 600);
-      });
     }
 
     // Global shortcut for Next/Prev Diary (Alt + Left/Right)
