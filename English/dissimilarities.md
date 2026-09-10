@@ -399,19 +399,19 @@
         * 초점: '특정 대상의 유무(Presence/Absence) 또는 상태 확인'
         > Always check for typos and grammatical errors before submitting your paper
 
-    - review: 확인
+    - review: 검토하다
         * 코어 이미지: 작성된 문서를 첫 줄부터 끝까지 꼼꼼히 돋보기로 들여다보며 평가하는 작업
         * 초점: 전체 내용을 비판적인 시각으로 면밀히 재검토하고 분석·평가하는 심층적 확인
         > We need to review the research data
-    - monitor: 확인
-        * 코어 이미지: 관제 센터의 대형 모니터 화면에서 데이터 흐름을 실시간으로 감시하는 시스템
+    - monitor: 감시하다
+        * 코어 이미지: 관제 센터의 실시간으로 감시하는 모습
         * 초점: 기계, 시스템, 신체 신호 등을 지속적이고 공식적인 체계 하에 실시간으로 감시·추적함
         > The software monitors the kinematic data in real-time
-    - spy on: 확인
-        * 코어 이미지: 블라인드 틈새로 숨죽여 남의 사생활을 몰래 훔쳐보는 은밀한 시선
+    - spy on: 훔쳐보다
+        * 코어 이미지: 숨죽여 남의 사생활을 훔쳐봄
         * 초점: 상대방의 동의 없이 은밀하고 비공식적으로 사생활이나 기밀을 훔쳐보며 침해함
         > The neighbor was spying on us through the window
-    - make sure: 확인
+    - make sure: 확인하다
         * 코어 이미지: 문고리를 두 번 흔들어 잠겼는지 확실히 재확인하는 철저함
         * 초점: 실수나 누락이 없도록 사전에 점검하여 결과가 100% 확실해지도록 조치함
         > I make sure that it is a good website and there are no leaks on the website
@@ -508,7 +508,7 @@
         * 초점: 중간에 단 한 번의 중단이나 간격 없이 끊김 없이 이어지는 시간적 지속(Duration)에 초점
         > The sensor monitors the movement continuously
     - in a row: 연달아, 연속으로
-        * 코어 이미지: 도미노 블록들이 일렬로 나란히 연속해서 서 있는 모습
+        * 코어 이미지: 도미노 블록들이 일렬로 연속해서 서 있는 모습
         * 초점: 셀 수 있는 구체적인 사건이나 승리가 중간에 끊김 없이 연이어 일어남을 강조
         > We won three games in a row
     - consistency: 일관성, 한결같음
@@ -570,14 +570,6 @@
         > He found it difficult to mingle with people he didn't know
 
 - 다투다, 다툼, 싸움
-    - argue: 다투다, 다툼, 싸움
-        * 코어 이미지: 서로의 논거를 주고받으며 자신의 주장이 맞음을 입증하려는 치열한 토론
-        * 초점: 의견이나 논리적 관점의 차이로 인해 벌어지는 지적·언어적 논쟁
-        > I argued with Oscar about the reinforcement learning model
-    - debate: 토론하다
-        * 코어 이미지: 정해진 규칙과 시간 아래 사회자가 있는 무대에서 양측이 번갈아 발언하는 정식 토론회
-        * 초점: 다양한 관점의 체계적 검토 및 공적인 찬반 논의. 감정을 배제하고 근거나 사실을 바탕으로 정중하고 질서 있게 진행되는 논쟁에 초점을 둠
-        > Parliament met to d ebate the new tax proposal
     - have a fight: 다투다, 다툼, 싸움
         * 코어 이미지: 감정의 불꽃이 튀며 서로에게 화를 쏟아내는 거친 충돌
         * 초점: 감정이 격해져서 언성을 높이거나 직접적으로 충돌하는 감정적 싸움
@@ -1527,7 +1519,7 @@
         * 초점: 직접 이름을 말하지 않고 비유나 힌트를 통해 간접적으로 넌지시 암시함
         > He alluded to his problems without explaining them
 
-- 논쟁
+- 논쟁, 토론
     - argument: 논쟁
         * 코어 이미지: 자신의 주장을 떠받치는 탄탄한 논리적 근거와 증명 기둥
         * 초점: 주장을 뒷받침하기 위해 제시하는 논리적 이유, 논거 그 자체
@@ -1536,7 +1528,17 @@
         * 코어 이미지: 양측이 팽팽하게 대립하는 전선의 중심에 놓인 핵심 쟁점
         * 초점: 치열한 논쟁의 중심이 되는 핵심 주장 및 의견이 대립하는 쟁점
         > It is my contention that kinematics data can predict intent
-
+    - argue: 논쟁하다
+        * 코어 이미지: 서로의 논거를 주고받으며 자신의 주장이 맞음을 입증하려는 치열한 토론
+        * 초점: 의견이나 논리적 관점의 차이로 인해 벌어지는 지적·언어적 논쟁
+        > I argued with Oscar about the reinforcement learning model
+    - debate: 토론하다
+        * 코어 이미지: 정해진 규칙과 시간 아래 사회자가 있는 무대에서 양측이 번갈아 발언하는 정식 토론회 (경쟁적)
+        * 초점: 다양한 관점의 체계적 검토 및 공적인 찬반 논의. 감정을 배제하고 근거나 사실을 바탕으로 정중하고 질서 있게 진행되는 논쟁에 초점을 둠
+        > Parliament met to d ebate the new tax proposal
+    - discuss: 토론하다
+        * 코어 이미지: 의견을 제시하고, 질문하며, 상대방의 의견을 경청하고 합의점을 찾으려고 노력
+        * 초점: 정보를 교환하고, 아이디어를 발전시키고, 공통의 이해에 도달
 - 시작
     - incipient: 시작
         * 코어 이미지: 갓 돋아난 새싹처럼 이제 막 태동하기 시작하여 형태를 갖추는 단계
@@ -1774,7 +1776,7 @@
         > Many animals adapt to their environment. For example, polar bears have thick fur for warmth
 
 - 해법
-    - have only to: 해법
+    - have only to V: ~만 하면 된다
         * 코어 이미지: 복잡한 절차 없이 오직 단 하나의 스위치만 누르면 모든 것이 해결됨
         * 초점: 다른 수고 없이 오직 그 행동 하나만 이행하면 원하는 결과가 나온다는 명쾌함
         > You have only to press this button to start the process
@@ -1791,7 +1793,7 @@
         * 초점: 다수의 참가자들 사이에서 우열과 순위를 가리는 객관적 경쟁 과정 그 자체
         > The competition in the tech industry is becoming fiercer every year
     - rivalry: 경쟁
-        * 코어 이미지: 오랜 세월 동안 서로를 의식하며 맞붙어온 숙명의 두 라이벌
+        * 코어 이미지: 숙명의 두 라이벌
         * 초점: 특정한 상대방과 오랫동안 형성되어 온 깊은 심리적·역사적 대립 관계
         > The rivalry between the two top soccer clubs has lasted for decades
 
@@ -2010,11 +2012,7 @@
         > The file was permanently deleted from the database
 
 - 무언가를 시키다
-    - let: 무언가를 시키다
-        * 코어 이미지: 닫혀 있던 문을 활짝 열어주어 상대방이 원하는 대로 하도록 내버려 둠
-        * 초점: 상대방의 자유로운 의지를 가로막지 않고 허용하고 내버려 둠 (사역의 느낌이 가장 약함)
-        > Let me know if you need help
-    - have: 가지고 있다 (소유 상태)
+    - have: ~에게 …하도록 시키다
         * 코어 이미지: 비서에게 서류 작성을 요청하듯 정당한 권한으로 자연스럽게 과업을 맡김
         * 초점: 지위나 고용 관계에 따라 당연히 수행해야 할 업무를 상대에게 시키거나 부탁함
         > I'll have my assistant call you with the details
@@ -2884,7 +2882,7 @@
         * 초점: 사람이 직업적 노동을 하거나 장비가 정상 가동되는 일반적인 활동
         > I work on musculoskeletal modeling at the research institute
     - actuate: 일하다
-        * 코어 이미지: 모터에 전류가 통하며 로봇 팔의 관절 실린더가 강력한 물리적 힘으로 구동됨
+        * 코어 이미지: 물리적 동력 구동
         * 초점: 전기, 유압 등의 물리적 동력을 가해 기계 장치나 관절을 실제로 구동·작동시킴 (공학 전문 용어)
         > The hydraulic valve actuates the robotic gripper
 
@@ -3195,7 +3193,7 @@
 
 - 넘어지다
     - fall down: 넘어지다
-        * 코어 이미지: 수직으로 서 있던 몸이 중력을 이기지 못하고 바닥으로 쿵 쓰러짐
+        * 코어 이미지: 중심을 잃고 낙하
         * 초점: 몸의 중심을 잃고 바닥으로 완전히 쓰러지는 물리적 낙하 행위
         > He fell down on the slippery floor and hurt his knee
     - trip: 넘어지다
@@ -3267,7 +3265,7 @@
         * 초점: 물리적인 폭탄이나 압력 용기가 터지거나, 데이터/인구가 폭발적으로 급증함
         > The old boiler exploded due to high internal pressure
     - blow up: 폭발하다
-        * 코어 이미지: 다이너마이트로 건물을 폭파하거나 참았던 분노가 한순간에 쾅 터짐
+        * 코어 이미지: 참았던 분노가 쾅 터짐
         * 초점: 물체를 폭파해 날려버리거나, 억눌렸던 사람의 분노가 갑자기 버럭 폭발함 (구어체)
         > He blew up at the unfair criticism during the meeting
 
@@ -3372,7 +3370,7 @@
 
 - 끝내다
     - finish: 끝내다
-        * 코어 이미지: 시계가 퇴근 시간을 가리키자 하던 작업을 멈추고 펜을 내려놓음
+        * 코어 이미지: 정해진 시간에 도달
         * 초점: 일의 양이나 시간이 끝에 도달하여 더 이상 하지 않고 종료함 (완벽성 여부 무관)
         > I need to finish writing this section before lunch
     - complete: 끝내다
@@ -3417,9 +3415,8 @@
         * 초점: 장애물이나 막힌 길을 피해 주변으로 빙 둘러서 우회하여 이동함
         > The road is blocked, so we have to go around through the side street
     - get around: 돌아가다
-        * 코어 이미지: 복잡한 지하철 노선망을 자유자재로 환승하며 도시 구석구석을 누빔
+        * 코어 이미지: 회피하여 이동
         * 초점: 도시 이곳저곳을 편리하게 이동해 다니거나 법적/기술적 규제를 교묘히 회피함
-        > It's very easy to get around Lausanne by metro
         > Companies always find a way to get around tax regulations
 
 - 경과
@@ -3546,7 +3543,7 @@
 
 - 게다가
     - plus: 게다가
-        * 코어 이미지: 대화 중에 생각난 좋은 점 하나를 플러스(+) 기호로 가볍게 보탬
+        * 코어 이미지: 플러스(+) 기호로 가볍게 보탬
         * 초점: 일상 대화나 가벼운 글에서 생각난 김에 가볍게 한마디 더 얹어 보탤 때 사용
         > The apartment is very quiet. Plus, it's only five minutes from the lab
     - moreover: 게다가
@@ -3834,7 +3831,7 @@
         * 코어 이미지: 복잡한 갈등이나 고민 끝에 단단하게 매듭을 짓고 확정한 결심
         * 초점: 목표에 대한 확고한 결단력 및 꺾이지 않는 마음. 특히 역경이나 유혹 앞에서도 "이 길을 가겠다고"고 굳게 정한 상태에 초점이 있음
     - will: 의지
-        * 코어 이미지: 마음속 깊은 곳에서 무언가를 이루거나 통제하려는 원초적인 의지의 불꽃/에너지
+        * 코어 이미지: 마음속 깊은 곳 원초적인 불꽃/에너지
         * 초점: 내면의 의지력, 욕망의 힘, 자기 통제력. 무언가를 행동으로 밀어붙이거나 유혹을 참아내는 전반적인 정신력
 
 - 복잡함
@@ -3922,3 +3919,16 @@
         * 초점: 뒤늦게 찾아오는 서서한 자각(Sudden yet Gradual Realization)
         > Instead, a different realization dawns on me: what I truly yearn for is genuine connection with others. These goals simply exist as instruments to bridge that gap.
     
+
+- 허락하다, 하게 두다
+    - let: ~하게 두다
+        * 코어 이미지: 닫혀 있던 문을 활짝 열어주어 상대방이 원하는 대로 하도록 내버려 둠
+        * 초점: 상대방의 자유로운 의지를 가로막지 않고 허용하고 내버려 둠 (사역의 느낌이 가장 약함)
+        > I'll have the technician check it
+
+- 놀라움
+    - blow my mind: (정신적인) 충격을 받다
+        * 코어 이미지: 순간적으로 경이로운 자극이 들어옴
+        * 초점: 긍정적이거나 중립적인 수준의 강렬한 감정적 충격을 나타냄.
+        > The new scientific discovery really blew my mind
+

@@ -34,19 +34,23 @@
         <nav class="nav-tabs">
           <button class="nav-btn active" data-view="quiz-view">
             <i data-lucide="brain"></i>
-            <span>단어 맞추기 (Quiz)</span>
+            <span class="nav-text-full">단어 맞추기 (Quiz)</span>
+            <span class="nav-text-short">단어 맞추기</span>
           </button>
           <button class="nav-btn" data-view="flashcard-view">
             <i data-lucide="layers"></i>
-            <span>플래시카드 (Flashcards)</span>
+            <span class="nav-text-full">플래시카드 (Flashcards)</span>
+            <span class="nav-text-short">플래시카드</span>
           </button>
           <button class="nav-btn" data-view="dict-view">
             <i data-lucide="book-open"></i>
-            <span>전체 단어장 (Dictionary)</span>
+            <span class="nav-text-full">전체 단어장 (Dictionary)</span>
+            <span class="nav-text-short">전체 단어장</span>
           </button>
           <button class="nav-btn" data-view="stats-view">
             <i data-lucide="bar-chart-2"></i>
-            <span>학습 현황 (Stats)</span>
+            <span class="nav-text-full">학습 현황 (Stats)</span>
+            <span class="nav-text-short">학습 현황</span>
           </button>
         </nav>
       </div>
@@ -189,17 +193,20 @@
               </div>
             </div>
 
-            <!-- Hint Revealer Box -->
-            <div class="hint-bar">
-              <div class="hint-letters" id="hint-letter-slots"></div>
-              <div class="hint-actions">
-                <button id="btn-hint-letter" class="btn-ghost-sm" title="글자 힌트">
-                  <i data-lucide="lightbulb"></i> <span>글자 힌트</span>
-                </button>
-                <button id="btn-reveal-answer" class="btn-ghost-sm" title="정답 바로 확인">
-                  <i data-lucide="help-circle"></i> <span>정답 보기</span>
+            <!-- Quiz Result / Answer Panel (정답 확인 시 하단에 표시) -->
+            <div class="quiz-result-panel hidden" id="quiz-result-panel">
+              <div class="result-status-badge" id="quiz-result-badge"></div>
+              <div class="result-word-group">
+                <span class="result-word-label">정답 단어:</span>
+                <span class="result-word-text" id="quiz-revealed-target-word"></span>
+                <button id="quiz-word-tts-btn" class="mini-tts-btn" title="단어 발음 듣기">
+                  <i data-lucide="volume-2"></i>
                 </button>
               </div>
+              <button id="quiz-result-next-btn" class="btn-primary btn-next-state hidden" title="다음 단어로 이동 (Enter ⏎)">
+                <span>다음 단어</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
             </div>
 
           </div>
@@ -236,41 +243,6 @@
               </div>
             </div>
 
-            <!-- Result Feedback Box (Appears after answer) -->
-            <div id="quiz-feedback-box" class="feedback-box hidden">
-              <div class="feedback-header">
-                <div class="feedback-status" id="feedback-status-title">
-                  <i data-lucide="check-circle" id="feedback-icon"></i>
-                  <span id="feedback-message">정답입니다! 🎉</span>
-                </div>
-                <div class="feedback-actions">
-                  <button id="feedback-tts-btn" class="icon-btn-sm" title="단어 발음 듣기">
-                    <i data-lucide="volume-2"></i>
-                  </button>
-                </div>
-              </div>
-
-              <div class="feedback-body">
-                <div class="correct-word-display">
-                  <span class="word-label">정답 단어:</span>
-                  <span class="revealed-word" id="feedback-revealed-word">watch</span>
-                  <span class="revealed-meaning" id="feedback-revealed-meaning">(움직임을 주의 깊게) 지켜보다, 관찰하다</span>
-                </div>
-                
-                <div class="feedback-full-examples" id="feedback-examples-list">
-                  <!-- All full example sentences listed here -->
-                </div>
-              </div>
-
-              <div class="feedback-footer">
-                <div class="shortcut-tip">단축키: <code>Enter</code> 또는 <code>Space</code>를 눌러 다음 문제로</div>
-                <button id="btn-next-quiz" class="btn-success">
-                  <span>다음 단어 (Next)</span>
-                  <i data-lucide="chevron-right"></i>
-                </button>
-              </div>
-            </div>
-
           </div>
 
         </div>
@@ -304,12 +276,12 @@
                   <h2 class="fc-front-meaning" id="fc-front-meaning">지켜보다, 주시하다 (움직임·변화 관찰)</h2>
                   
                   <div class="fc-clue-item">
-                    <span class="fc-subtag"><i data-lucide="eye"></i> 코어 이미지</span>
+                    <span class="fc-subtag core-subtag"><i data-lucide="eye"></i> 코어 이미지</span>
                     <p id="fc-front-core">움직이는 피사체의 궤적을 렌즈로 집요하게 쫓아가는 화면</p>
                   </div>
 
                   <div class="fc-clue-item">
-                    <span class="fc-subtag"><i data-lucide="compass"></i> 초점 & 설명</span>
+                    <span class="fc-subtag focus-subtag"><i data-lucide="compass"></i> 초점 & 설명</span>
                     <p id="fc-front-focus">일정 시간 동안 대상의 변화나 동적인 움직임, 사건의 전개를 주의 깊게 추적·주시함</p>
                   </div>
                 </div>
@@ -475,9 +447,7 @@
     <div id="toast-container" class="toast-container"></div>
   </div>
 
-  <!-- Load Data -->
-  <script src="data.js"></script>
-  <!-- Main Application Script -->
+  <!-- Main Application Script (Loads & Parses Markdown directly) -->
   <script src="app.js"></script>
 </body>
 </html>

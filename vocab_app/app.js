@@ -10,7 +10,7 @@
 
   // State Management
   const state = {
-    allData: window.VOCAB_DATA || [],
+    allData: [],
     filteredData: [],
     currentIndex: 0,
     currentWord: null,
@@ -343,18 +343,35 @@
     document.getElementById('quiz-core-image').textContent = item.core_image || '(코어 이미지가 등록되어 있지 않습니다)';
     document.getElementById('quiz-focus').textContent = item.focus || '(초점 설명이 등록되어 있지 않습니다)';
 
+    // Reset Result Panel at bottom of clue card
+    const resultPanel = document.getElementById('quiz-result-panel');
+    if (resultPanel) resultPanel.className = 'quiz-result-panel hidden';
+    const resultBadge = document.getElementById('quiz-result-badge');
+    if (resultBadge) resultBadge.innerHTML = '';
+    const revealedWord = document.getElementById('quiz-revealed-target-word');
+    if (revealedWord) revealedWord.textContent = '';
+
     // Example Section: Hide before answer is confirmed (정답 확인 전에는 예문 미노출)
     const exampleSection = document.getElementById('quiz-example-section');
     exampleSection.classList.add('hidden');
     document.getElementById('quiz-cloze-example').innerHTML = '';
 
-    // Hint Bar: 글자 수 표현(_) 제거
-    document.getElementById('hint-letter-slots').innerHTML = '';
+    // Reset Answer Inputs & Buttons
+    const submitBtn = document.getElementById('quiz-submit-btn');
+    if (submitBtn) {
+      submitBtn.classList.remove('btn-next-state');
+      submitBtn.innerHTML = '<span>확인</span><i data-lucide="arrow-right"></i>';
+    }
 
-    // Reset Answer Areas
-    document.getElementById('quiz-feedback-box').classList.add('hidden');
-    document.getElementById('quiz-input').value = '';
-    document.getElementById('quiz-input').disabled = false;
+    const quizInput = document.getElementById('quiz-input');
+    if (quizInput) {
+      quizInput.value = '';
+      quizInput.disabled = false;
+      quizInput.classList.remove('input-correct', 'input-wrong');
+    }
+
+    const resultNextBtn = document.getElementById('quiz-result-next-btn');
+    if (resultNextBtn) resultNextBtn.classList.add('hidden');
     
     // Update Bookmark Button state
     updateBookmarkButton();
@@ -473,8 +490,24 @@
     state.isAnswered = true;
     state.stats.totalAnswered += 1;
 
-    const feedbackBox = document.getElementById('quiz-feedback-box');
-    feedbackBox.classList.remove('hidden');
+    // Result Panel updates (Show result badge & reveal target word in panel at bottom of clue card)
+    const resultPanel = document.getElementById('quiz-result-panel');
+    const resultBadge = document.getElementById('quiz-result-badge');
+    const revealedWord = document.getElementById('quiz-revealed-target-word');
+
+    if (resultPanel) {
+      resultPanel.className = `quiz-result-panel ${isCorrect ? 'correct' : 'wrong'}`;
+    }
+
+    if (resultBadge) {
+      resultBadge.innerHTML = isCorrect 
+        ? '<i data-lucide="check-circle-2"></i><span>정답입니다!</span>'
+        : '<i data-lucide="x-circle"></i><span>틀렸습니다!</span>';
+    }
+
+    if (revealedWord) {
+      revealedWord.textContent = state.currentWord.word;
+    }
 
     if (isCorrect) {
       state.stats.streak += 1;
@@ -494,10 +527,6 @@
       if (typeof confetti === 'function' && state.stats.streak % 3 === 0) {
         confetti({ particleCount: 60, spread: 70, origin: { y: 0.7 } });
       }
-
-      feedbackBox.className = 'feedback-box correct';
-      document.getElementById('feedback-message').textContent = '정답입니다! 완벽해요 🎉';
-      document.getElementById('feedback-icon').setAttribute('data-lucide', 'check-circle');
     } else {
       state.stats.streak = 0;
       if (!state.stats.wrongIds.includes(state.currentWord.id)) {
@@ -506,15 +535,28 @@
       state.stats.mastery[state.currentWord.id] = 1;
 
       soundSynth.playWrong();
-
-      feedbackBox.className = 'feedback-box wrong';
-      document.getElementById('feedback-message').textContent = '아쉽네요! 복습 목록에 추가되었습니다.';
-      document.getElementById('feedback-icon').setAttribute('data-lucide', 'x-circle');
     }
 
-    // Revealed Word Info
-    document.getElementById('feedback-revealed-word').textContent = state.currentWord.word;
-    document.getElementById('feedback-revealed-meaning').textContent = state.currentWord.meaning || state.currentWord.category;
+    // Update Submit button to "다음 단어"
+    const submitBtn = document.getElementById('quiz-submit-btn');
+    if (submitBtn) {
+      submitBtn.classList.add('btn-next-state');
+      submitBtn.innerHTML = '<span>다음 단어</span><i data-lucide="chevron-right"></i>';
+    }
+
+    // Disable input and highlight
+    const quizInput = document.getElementById('quiz-input');
+    if (quizInput) {
+      quizInput.disabled = true;
+      quizInput.classList.add(isCorrect ? 'input-correct' : 'input-wrong');
+    }
+
+    // In choice mode, show next button inside result panel
+    const resultNextBtn = document.getElementById('quiz-result-next-btn');
+    if (resultNextBtn && state.quizType === 'choice') {
+      resultNextBtn.classList.remove('hidden');
+      if (window.lucide) window.lucide.createIcons();
+    }
 
     // Reveal Example Section after answer is confirmed (정답 확인 후 예문 노출)
     const exampleSection = document.getElementById('quiz-example-section');
@@ -526,23 +568,7 @@
       exampleSection.classList.add('hidden');
     }
 
-    // List all full examples in feedback box
-    const examplesList = document.getElementById('feedback-examples-list');
-    examplesList.innerHTML = '';
-    if (state.currentWord.examples && state.currentWord.examples.length > 0) {
-      state.currentWord.examples.forEach(ex => {
-        const line = document.createElement('div');
-        line.className = 'example-line';
-        const highlightedEx = highlightWordInSentence(ex, state.currentWord.word);
-        line.innerHTML = `
-          <span>${highlightedEx}</span>
-          <button class="mini-tts-btn" title="예문 듣기"><i data-lucide="volume-2"></i></button>
-        `;
-        line.querySelector('button').addEventListener('click', () => speakWord(ex));
-        examplesList.appendChild(line);
-      });
-    }
-
+    updateHeaderStats();
     lucide.createIcons();
     saveStats();
 
@@ -555,7 +581,8 @@
     const len = state.currentWord.word.length;
     if (state.revealedLetters < len) {
       state.revealedLetters += 1;
-      document.getElementById('hint-letter-slots').innerHTML = getHintSlots(state.currentWord.word, state.revealedLetters);
+      const slots = document.getElementById('hint-letter-slots');
+      if (slots) slots.innerHTML = getHintSlots(state.currentWord.word, state.revealedLetters);
       showToast(`힌트: 앞글자 ${state.revealedLetters}개가 공개되었습니다. 💡`, 'info');
     }
   }
@@ -826,9 +853,11 @@
 
     // Quiz Actions
     document.getElementById('quiz-typing-form').addEventListener('submit', handleTypingSubmit);
-    document.getElementById('btn-hint-letter').addEventListener('click', revealLetterHint);
-    document.getElementById('btn-reveal-answer').addEventListener('click', revealAnswerInstantly);
-    document.getElementById('btn-next-quiz').addEventListener('click', nextQuizQuestion);
+    const choiceNextBtn = document.getElementById('choice-next-btn');
+    if (choiceNextBtn) choiceNextBtn.addEventListener('click', nextQuizQuestion);
+    const resultNextBtn = document.getElementById('quiz-result-next-btn');
+    if (resultNextBtn) resultNextBtn.addEventListener('click', nextQuizQuestion);
+
     document.getElementById('quiz-shuffle-btn').addEventListener('click', shuffleFilteredData);
     document.getElementById('quiz-bookmark-btn').addEventListener('click', toggleBookmark);
 
@@ -838,9 +867,12 @@
         speakWord(state.currentWord.examples[0]);
       }
     });
-    document.getElementById('feedback-tts-btn').addEventListener('click', () => {
-      if (state.currentWord) speakWord(state.currentWord.word);
-    });
+    const wordTtsBtn = document.getElementById('quiz-word-tts-btn');
+    if (wordTtsBtn) {
+      wordTtsBtn.addEventListener('click', () => {
+        if (state.currentWord) speakWord(state.currentWord.word);
+      });
+    }
     document.getElementById('fc-tts-btn').addEventListener('click', () => {
       const item = state.filteredData[state.currentIndex];
       if (item) speakWord(item.word);
@@ -1127,17 +1159,10 @@
       console.warn('[VocabMaster] 마크다운 직접 로딩 중 오류:', err);
     }
 
-    // Fallback to data.js if fetch failed (e.g. opened via file:// protocol)
+    // If markdown fetch failed (e.g. server not running or file:// protocol used)
     if (!loadedFromMd) {
-      if (window.VOCAB_DATA && window.VOCAB_DATA.length > 0) {
-        state.allData = window.VOCAB_DATA;
-        console.log(`[VocabMaster] ℹ️ data.js 로컬 백업 로드: ${state.allData.length}개 단어`);
-        if (!silent) {
-          showToast(`로컬 백업 데이터 로드 (${state.allData.length}개 단어). 실시간 동기화는 server.py 실행을 권장합니다.`, 'info');
-        }
-      } else {
-        showToast('단어 데이터를 불러올 수 없습니다. python3 server.py 를 실행해주세요.', 'error');
-      }
+      console.error('[VocabMaster] ❌ 마크다운 파일을 불러올 수 없습니다.');
+      showToast('⚠️ 마크다운 파일을 불러올 수 없습니다. 터미널에서 python3 vocab_app/server.py 를 실행해주세요.', 'error');
     }
   }
 

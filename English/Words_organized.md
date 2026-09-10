@@ -464,7 +464,7 @@
                 > The dentist found a small cavity in my upper molar
         - **유전**
             - hereditary: 유전적인, 세습되는
-                * 코어 이미지: 부모의 DNA 염색체 나선 구조를 통해 자녀에게 그대로 물려 내려오는 형질
+                * 코어 이미지: DNA 염색체를 물려받음
                 * 초점: 유전자를 통해 부모 세대에서 자식 세대로 질환이나 신체적 특징이 전달되는 성질
                 > Early-onset hair thinning can often be a hereditary trait
         - **소리 및 반응**
@@ -1227,7 +1227,7 @@
                 * 초점: 법적 권리나 계약상 옵션을 실제 효력으로 발휘하여 이익을 실현할 수 있는 조건
                 > At the current market price, the stock options have no immediately exercisable financial value
             - belittle: (남의 성과를) 하찮게 만들다, 깎아내리다, 비하하다
-                * 코어 이미지: 상대방이 쌓아 올린 웅장한 건축물을 향해 손가락질하며 모래성에 불과하다고 조롱하는 태도
+                * 코어 이미지: 웅장한 건축물을 손가락질함
                 * 초점: 타인의 업적, 가치, 인격을 고의로 과소평가하여 보잘것없는 것으로 격하시킴
                 > Do not belittle her remarkable achievements simply because you feel professional jealousy
             - wield: (권력·무기·도구를) 휘두르다, 능숙하게 행사하다
@@ -1496,12 +1496,12 @@
             * 초점: 고인의 시신을 안치하고 문상객을 맞이하여 장례 절차를 진행하는 전문 상업 시설
             > Friends and relatives gathered at the funeral home to pay their last respects
         - funeral service: 장례식, 영결식
-            * 코어 이미지: 목사의 기도와 추도사가 낭독되고 고인의 관이 운구차로 실려 나가는 공식 영결 예식
+            * 코어 이미지: 목사의 기도와 추도사가 낭독되는 공식 영결 예식
             * 초점: 고인의 마지막 길을 기리고 명복을 빌기 위해 치러지는 공식적인 종교적·사회적 장례 의식
             > The solemn funeral service was attended by hundreds of prominent community leaders
     - **연애**
         - sweetheart: (다정한) 애인, 연인, 다정한 사람
-            * 코어 이미지: 서로의 손을 꼭 잡고 따뜻한 눈빛으로 미소 짓는 사랑스러운 연인의 모습
+            * 코어 이미지: 사랑스러운 연인의 모습
             * 초점: 진심으로 깊이 사랑하는 연인이나 매우 친절하고 다정한 성품의 사람을 부르는 애칭
             > She married her high school sweetheart after a decade of devoted companionship
         - blind date: 소개팅, 맞선
@@ -1627,7 +1627,7 @@
             * 초점: 특정 계급, 공직, 지위를 가진 사람에게만 독점적으로 허용되는 배타적 권리나 혜택
             > It is the constitutional prerogative of the supreme court to interpret foundational laws
         - prestige: 위신, 명망, 특급의 명성
-            * 코어 이미지: 수백 년 전통의 귀족 가문 문장이 새겨진 마차를 타고 대중의 경외 어린 시선을 받는 위세
+            * 코어 이미지: 귀족 가문 문장이 새겨진 마차를 타고 대중의 경외어린 시선을 받음
             * 초점: 뛰어난 업적, 지위, 가문으로 인해 사회적으로 인정받는 높은 평판과 위상
             > Winning the Nobel Prize confers immense international prestige upon the recipient's institution
         - patriarch: 가장, 족장, 원로
@@ -1878,7 +1878,7 @@
                 > Those daily bills for eating out at fancy restaurants on the weekends add up surprisingly quickly
         - **파산**
             - go broke: 빈털터리가 되다, 파산하다
-                * 코어 이미지: 텅 빈 주머니를 바깥으로 뒤집어 보이며 통장 잔고가 0원이 되어 주저앉은 모습
+                * 코어 이미지: 텅 빈 주머니
                 * 초점: 무리한 지출이나 사업 실패로 인해 가진 돈을 모두 탕진하고 무일푼이 됨
                 > I am already going broke from soaring fuel prices, so I don't drive my private car often
             - write off: (회수 불가능한 부채를) 탕감하다, 대손 처리하다
