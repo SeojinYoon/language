@@ -8,6 +8,16 @@
 (function () {
   'use strict';
 
+  // ============================================================================
+  // ⚙️ USER CONFIGURATION: DIARY DEFAULT PATH (기본 일기 CSV 경로 설정)
+  // 프론트엔드에서 참조하는 일기 파일 기본 경로입니다.
+  // 실제 파일 서빙 경로는 vocab_app/server.py의 DEFAULT_DIARY_CSV_PATH에서 직접 지정할 수 있습니다.
+  // ============================================================================
+  const DIARY_CONFIG = {
+    defaultPath: '/Users/seojin/mind.csv',
+    apiEndpoint: '/api/diary'
+  };
+
   // State Management
   const state = {
     allData: [],
@@ -30,6 +40,17 @@
     // Audio & Theme
     soundEnabled: true,
     theme: localStorage.getItem('vm_theme') || 'dark',
+
+    // Diary Translation State
+    diaryEntries: [],
+    filteredDiaryEntries: [],
+    currentDiaryIndex: 0,
+    diaryTypeFilter: 'all',
+    diaryMode: 'paragraph', // paragraph | full
+    currentParaIndex: 0,
+    isDiaryLoaded: false,
+    diaryNotes: JSON.parse(localStorage.getItem('vm_diary_notes') || '{}'),
+    diaryHintsVisible: false,
 
     // Persistence Stats
     stats: JSON.parse(localStorage.getItem('vm_stats')) || {
@@ -791,10 +812,18 @@
 
     // Show/hide quiz specific controls in toolbar
     const quizControls = document.getElementById('quiz-mode-controls');
-    if (viewId === 'quiz-view') {
-      quizControls.classList.remove('hidden');
-    } else {
-      quizControls.classList.add('hidden');
+    if (quizControls) {
+      if (viewId === 'quiz-view') {
+        quizControls.classList.remove('hidden');
+      } else {
+        quizControls.classList.add('hidden');
+      }
+    }
+
+    // Hide vocabulary source/category toolbar on diary and stats view
+    const toolbar = document.querySelector('.toolbar-section');
+    if (toolbar) {
+      toolbar.classList.toggle('hidden', viewId === 'translate-view' || viewId === 'stats-view');
     }
 
     renderCurrentView();
@@ -809,6 +838,8 @@
       renderDictionary(document.getElementById('dict-search-input').value);
     } else if (state.currentView === 'stats-view') {
       renderStats();
+    } else if (state.currentView === 'translate-view') {
+      renderDiaryView();
     }
   }
 
@@ -1214,6 +1245,701 @@
     if (orgBtn) orgBtn.textContent = `주제별 어휘 (${orgCount.toLocaleString()})`;
   }
 
+  // ================= DIARY TRANSLATION & DIFF MODULE =================
+
+  // Weather & Mood Icon Helpers
+  function getWeatherIcon(weather) {
+    if (!weather) return '☀️';
+    if (weather.includes('맑음')) return '☀️';
+    if (weather.includes('비')) return '🌧️';
+    if (weather.includes('흐림') || weather.includes('구름')) return '☁️';
+    if (weather.includes('눈')) return '❄️';
+    if (weather.includes('바람')) return '💨';
+    return '🌤️';
+  }
+
+  function getMoodIcon(mood) {
+    if (!mood) return '😊';
+    if (mood.includes('좋음') || mood.includes('행복')) return '✨';
+    if (mood.includes('외로움') || mood.includes('슬픔') || mood.includes('우울')) return '💧';
+    if (mood.includes('불안') || mood.includes('걱정') || mood.includes('혼란')) return '🌪️';
+    if (mood.includes('피곤') || mood.includes('지침')) return '☕';
+    if (mood.includes('보통')) return '🌱';
+    return '💬';
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function escapeRegExp(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // Load Diary Data from configured default path via /api/diary
+  async function loadDiaryData(silent = false) {
+    try {
+      const res = await fetch(`${DIARY_CONFIG.apiEndpoint}?t=${Date.now()}`);
+      if (res.ok) {
+        const entries = await res.json();
+        if (Array.isArray(entries) && entries.length > 0) {
+          state.diaryEntries = entries;
+          state.isDiaryLoaded = true;
+          
+          const privacyPill = document.getElementById('diary-privacy-pill');
+          const privacyText = document.getElementById('diary-privacy-text');
+          if (privacyText) privacyText.textContent = `기본 경로 (${entries.length}편)`;
+          if (privacyPill) privacyPill.title = `기본 경로 연동됨: ${DIARY_CONFIG.defaultPath} (Git 미포함)`;
+
+          applyDiaryFilter();
+          if (!silent) showToast(`📔 기본 경로에서 일기 ${entries.length}편을 성공적으로 연동했습니다!`, 'success');
+          return;
+        } else {
+          showToast(`⚠️ 일기 파일에서 유효한 데이터를 찾지 못했습니다 (${DIARY_CONFIG.defaultPath})`, 'warning');
+        }
+      } else {
+        const errData = await res.json().catch(() => ({}));
+        const errMsg = errData.error || `기본 경로(${DIARY_CONFIG.defaultPath})에서 일기 파일을 찾을 수 없습니다.`;
+        console.warn('[VocabMaster]', errMsg);
+        if (!silent) showToast(`⚠️ ${errMsg}`, 'error');
+      }
+    } catch (e) {
+      console.warn('[VocabMaster] 일기 데이터 로딩 중 오류:', e);
+      if (!silent) {
+        showToast(`⚠️ 기본 경로(${DIARY_CONFIG.defaultPath}) 로드 실패. server.py 실행 여부를 확인해주세요.`, 'error');
+      }
+    }
+  }
+
+  // Client-side CSV Parser for offline / manual file upload
+  function parseDiaryCSV(text) {
+    const lines = [];
+    let row = [''];
+    let inQuotes = false;
+
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      const next = text[i + 1];
+
+      if (c === '"') {
+        if (inQuotes && next === '"') {
+          row[row.length - 1] += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (c === ',' && !inQuotes) {
+        row.push('');
+      } else if ((c === '\r' || c === '\n') && !inQuotes) {
+        if (c === '\r' && next === '\n') i++;
+        lines.push(row);
+        row = [''];
+      } else {
+        row[row.length - 1] += c;
+      }
+    }
+    if (row.length > 1 || row[0] !== '') {
+      lines.push(row);
+    }
+
+    let headerIdx = -1;
+    for (let i = 0; i < Math.min(5, lines.length); i++) {
+      if (lines[i].length >= 6 && lines[i][0].includes('날짜') && lines[i][4].includes('내용')) {
+        headerIdx = i;
+        break;
+      }
+    }
+
+    const entries = [];
+    if (headerIdx !== -1) {
+      for (let i = headerIdx + 1; i < lines.length; i++) {
+        const r = lines[i];
+        if (r.length >= 6 && (r[4].trim() || r[5].trim())) {
+          entries.push({
+            id: `diary_${i}`,
+            date: r[0].trim(),
+            weather: r[1].trim(),
+            type: r[2].trim() || '일기',
+            mood: r[3].trim(),
+            korean: r[4].trim(),
+            english: r[5].trim(),
+            reference: r.length > 6 ? r[6].trim() : ''
+          });
+        }
+      }
+    }
+    return entries;
+  }
+
+  // Filter diary entries by type and populate selector
+  function applyDiaryFilter() {
+    if (!state.diaryEntries || state.diaryEntries.length === 0) return;
+
+    if (state.diaryTypeFilter === 'all') {
+      state.filteredDiaryEntries = [...state.diaryEntries];
+    } else {
+      state.filteredDiaryEntries = state.diaryEntries.filter(e => e.type === state.diaryTypeFilter);
+    }
+
+    const select = document.getElementById('diary-select');
+    if (!select) return;
+
+    select.innerHTML = '';
+    if (state.filteredDiaryEntries.length === 0) {
+      select.innerHTML = '<option value="">해당 조건의 일기가 없습니다</option>';
+      return;
+    }
+
+    state.filteredDiaryEntries.forEach((entry, idx) => {
+      const opt = document.createElement('option');
+      opt.value = idx;
+      opt.textContent = `[${entry.date}] ${entry.type} • ${getWeatherIcon(entry.weather)} ${entry.weather} (${getMoodIcon(entry.mood)} ${entry.mood})`;
+      select.appendChild(opt);
+    });
+
+    state.currentDiaryIndex = 0;
+    loadDiaryEntry(0);
+  }
+
+  // Load a single diary entry
+  function loadDiaryEntry(index) {
+    if (!state.filteredDiaryEntries || state.filteredDiaryEntries.length === 0) return;
+    if (index < 0) index = 0;
+    if (index >= state.filteredDiaryEntries.length) index = state.filteredDiaryEntries.length - 1;
+
+    state.currentDiaryIndex = index;
+    const entry = state.filteredDiaryEntries[index];
+
+    const select = document.getElementById('diary-select');
+    if (select) select.value = String(index);
+
+    // Meta badges
+    const metaDate = document.getElementById('diary-meta-date');
+    const metaType = document.getElementById('diary-meta-type');
+    const metaWeather = document.getElementById('diary-meta-weather');
+    const metaMood = document.getElementById('diary-meta-mood');
+
+    if (metaDate) metaDate.textContent = entry.date;
+    if (metaType) metaType.textContent = entry.type;
+    if (metaWeather) metaWeather.textContent = `${getWeatherIcon(entry.weather)} ${entry.weather}`;
+    if (metaMood) metaMood.textContent = `${getMoodIcon(entry.mood)} ${entry.mood}`;
+
+    state.currentParaIndex = 0;
+
+    // Load memo
+    const memoInput = document.getElementById('diary-memo-input');
+    if (memoInput) {
+      memoInput.value = state.diaryNotes[entry.id] || '';
+    }
+
+    renderDiarySegment();
+  }
+
+  // Render Korean Prompt and Segments
+  function renderDiarySegment() {
+    const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+    if (!entry) return;
+
+    const koParas = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean);
+    const counter = document.getElementById('diary-segment-counter');
+    const navBtns = document.getElementById('segment-nav-buttons');
+    const display = document.getElementById('diary-korean-text');
+
+    if (state.diaryMode === 'paragraph') {
+      if (state.currentParaIndex >= koParas.length) {
+        state.currentParaIndex = Math.max(0, koParas.length - 1);
+      }
+      if (counter) counter.textContent = `단락 ${state.currentParaIndex + 1} / ${koParas.length}`;
+      if (navBtns) navBtns.classList.remove('hidden');
+      if (display) display.textContent = koParas[state.currentParaIndex] || entry.korean;
+    } else {
+      if (counter) counter.textContent = `전체 본문 (${koParas.length}개 단락)`;
+      if (navBtns) navBtns.classList.add('hidden');
+      if (display) display.textContent = entry.korean;
+    }
+
+    // Reset input
+    const input = document.getElementById('diary-input');
+    if (input) {
+      input.value = '';
+      input.focus();
+    }
+    const wordCounter = document.getElementById('diary-word-counter');
+    if (wordCounter) wordCounter.textContent = '0 words';
+
+    // Hide feedback
+    const feedback = document.getElementById('diary-feedback-section');
+    if (feedback) feedback.classList.add('hidden');
+
+    // Update hints
+    updateVocabHints(entry);
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  // Scan VocabMaster words that match this diary entry context
+  function updateVocabHints(entry) {
+    const container = document.getElementById('diary-vocab-hints');
+    const chipsBox = document.getElementById('diary-hints-chips');
+    if (!container || !chipsBox || !state.allData || state.allData.length === 0) return;
+
+    const currentKo = (state.diaryMode === 'paragraph')
+      ? (entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean)[state.currentParaIndex] || '')
+      : entry.korean;
+
+    const currentEn = (state.diaryMode === 'paragraph')
+      ? (entry.english.split(/\n+/).map(p => p.trim()).filter(Boolean)[state.currentParaIndex] || '')
+      : entry.english;
+
+    const matched = [];
+    const searchTarget = (currentKo + ' ' + currentEn).toLowerCase();
+
+    for (const item of state.allData) {
+      if (matched.length >= 6) break;
+      const cleanWord = item.word.toLowerCase().replace(/\[.*?\]|\+.*?$/g, '').trim();
+      if (cleanWord.length < 3) continue;
+
+      if (searchTarget.includes(cleanWord) || (item.meaning && currentKo.includes(item.meaning.slice(0, 2)))) {
+        matched.push(item);
+      }
+    }
+
+    chipsBox.innerHTML = '';
+    if (matched.length > 0) {
+      matched.forEach(item => {
+        const chip = document.createElement('span');
+        chip.className = 'hint-chip';
+        chip.title = `${item.meaning} | 코어: ${item.core_image || item.focus || '뉘앙스'}`;
+        chip.innerHTML = `<strong>${escapeHtml(item.word)}</strong>: ${escapeHtml(item.meaning)}`;
+        chip.addEventListener('click', () => {
+          showNuanceToast(item);
+        });
+        chipsBox.appendChild(chip);
+      });
+      container.classList.toggle('hidden', !state.diaryHintsVisible);
+    } else {
+      container.classList.add('hidden');
+    }
+  }
+
+  function showNuanceToast(item) {
+    const coreText = item.core_image ? ` [코어: ${item.core_image}]` : '';
+    const focusText = item.focus ? ` [초점: ${item.focus}]` : '';
+    showToast(`💡 ${item.word}: ${item.meaning}${coreText}${focusText}`, 'info');
+  }
+
+  // Diff & Token Matching Engine
+  function computeDiffTokens(userText, refText) {
+    const cleanWord = (w) => w.toLowerCase().replace(/^[^\w]+|[^\w]+$/g, '');
+
+    const userWords = userText.split(/\s+/).filter(Boolean);
+    const refWords = refText.split(/\s+/).filter(Boolean);
+
+    const refWordSet = new Set(refWords.map(cleanWord).filter(Boolean));
+    const userWordSet = new Set(userWords.map(cleanWord).filter(Boolean));
+
+    let matchCount = 0;
+
+    const userTokensHtml = userWords.map(word => {
+      const clean = cleanWord(word);
+      if (clean && refWordSet.has(clean)) {
+        matchCount++;
+        return `<span class="diff-token-match">${escapeHtml(word)}</span>`;
+      }
+      return `<span>${escapeHtml(word)}</span>`;
+    }).join(' ');
+
+    const refTokensHtml = refWords.map(word => {
+      const clean = cleanWord(word);
+      if (clean && userWordSet.has(clean)) {
+        return `<span class="diff-token-match">${escapeHtml(word)}</span>`;
+      }
+      return `<span class="diff-token-diverge">${escapeHtml(word)}</span>`;
+    }).join(' ');
+
+    const totalRef = Math.max(refWords.length, 1);
+    const scorePercent = Math.min(100, Math.round((matchCount / totalRef) * 100));
+
+    return { userTokensHtml, refTokensHtml, scorePercent };
+  }
+
+  // Perform translation comparison
+  function compareDiaryTranslation() {
+    const input = document.getElementById('diary-input');
+    if (!input) return;
+
+    const userText = input.value.trim();
+    if (!userText) {
+      showToast('영작문을 먼저 작성해주세요!', 'warning');
+      input.focus();
+      return;
+    }
+
+    const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+    if (!entry) return;
+
+    let refText = '';
+    if (state.diaryMode === 'paragraph') {
+      const koParas = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      const enParas = entry.english.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      
+      let refIdx = state.currentParaIndex;
+      if (enParas.length !== koParas.length && koParas.length > 1) {
+        refIdx = Math.min(enParas.length - 1, Math.round((state.currentParaIndex / (koParas.length - 1)) * (enParas.length - 1)));
+      }
+      refText = enParas[refIdx] || entry.english;
+    } else {
+      refText = entry.english;
+    }
+
+    const { userTokensHtml, refTokensHtml, scorePercent } = computeDiffTokens(userText, refText);
+
+    // Update UI elements
+    const scoreBadge = document.getElementById('diary-match-score');
+    if (scoreBadge) scoreBadge.textContent = `${scorePercent}% 표현 일치`;
+
+    const userDiffBox = document.getElementById('diary-diff-user');
+    if (userDiffBox) userDiffBox.innerHTML = userTokensHtml;
+
+    const refDiffBox = document.getElementById('diary-diff-original');
+    if (refDiffBox) refDiffBox.innerHTML = refTokensHtml;
+
+    // Detect words in reference text that match VocabMaster dictionary
+    detectNuanceWordsInReference(refText);
+
+    // Unhide feedback section
+    const feedback = document.getElementById('diary-feedback-section');
+    if (feedback) {
+      feedback.classList.remove('hidden');
+      feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    soundSynth.playCorrect();
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  // Detect VocabMaster words present in the original reference English text
+  function detectNuanceWordsInReference(refText) {
+    const chipsContainer = document.getElementById('diary-detected-chips');
+    const box = document.getElementById('diary-detected-vocab-box');
+    if (!chipsContainer || !box) return;
+
+    chipsContainer.innerHTML = '';
+    if (!state.allData || state.allData.length === 0) {
+      box.classList.add('hidden');
+      return;
+    }
+
+    const refLower = refText.toLowerCase();
+    const detected = [];
+
+    for (const item of state.allData) {
+      if (detected.length >= 8) break;
+      const cleanWord = item.word.toLowerCase().replace(/\[.*?\]|\+.*?$/g, '').trim();
+      if (cleanWord.length < 3) continue;
+
+      const wordRegex = new RegExp(`\\b${escapeRegExp(cleanWord)}\\b`, 'i');
+      if (wordRegex.test(refLower)) {
+        detected.push(item);
+      }
+    }
+
+    if (detected.length > 0) {
+      box.classList.remove('hidden');
+      detected.forEach(item => {
+        const chip = document.createElement('div');
+        chip.className = 'vocab-nuance-chip';
+        chip.title = `클릭하여 뉘앙스 확인 (${item.source})`;
+        chip.innerHTML = `
+          <span class="chip-word">${escapeHtml(item.word)}</span>
+          <span class="chip-meaning">${escapeHtml(item.meaning)}</span>
+        `;
+        chip.addEventListener('click', () => {
+          showNuanceToast(item);
+        });
+        chipsContainer.appendChild(chip);
+      });
+    } else {
+      box.classList.add('hidden');
+    }
+  }
+
+  // Advance to next paragraph or next diary
+  function advanceDiaryStep() {
+    const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+    if (!entry) return;
+
+    const koParas = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean);
+
+    if (state.diaryMode === 'paragraph' && state.currentParaIndex < koParas.length - 1) {
+      state.currentParaIndex++;
+      renderDiarySegment();
+      showToast(`단락 ${state.currentParaIndex + 1} / ${koParas.length} 로 이동했습니다.`, 'info');
+    } else {
+      if (state.currentDiaryIndex < state.filteredDiaryEntries.length - 1) {
+        loadDiaryEntry(state.currentDiaryIndex + 1);
+        showToast('다음 일기로 이동했습니다! 🎉', 'success');
+      } else {
+        showToast('마지막 일기까지 모두 마쳤습니다! 대단합니다! 👏', 'success');
+      }
+    }
+  }
+
+  // Text-to-Speech (TTS) Voice Synthesis
+  function speakDiaryReference() {
+    if (!('speechSynthesis' in window)) {
+      showToast('브라우저가 음성 합성을 지원하지 않습니다.', 'warning');
+      return;
+    }
+
+    const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+    if (!entry) return;
+
+    let text = '';
+    if (state.diaryMode === 'paragraph') {
+      const koParas = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      const enParas = entry.english.split(/\n+/).map(p => p.trim()).filter(Boolean);
+      let refIdx = state.currentParaIndex;
+      if (enParas.length !== koParas.length && koParas.length > 1) {
+        refIdx = Math.min(enParas.length - 1, Math.round((state.currentParaIndex / (koParas.length - 1)) * (enParas.length - 1)));
+      }
+      text = enParas[refIdx] || entry.english;
+    } else {
+      text = entry.english;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+
+    const speedSelect = document.getElementById('diary-tts-speed');
+    utterance.rate = speedSelect ? parseFloat(speedSelect.value) : 1.0;
+
+    const ttsBtn = document.getElementById('btn-diary-tts');
+    if (ttsBtn) ttsBtn.classList.add('active');
+
+    utterance.onend = () => {
+      if (ttsBtn) ttsBtn.classList.remove('active');
+    };
+    utterance.onerror = () => {
+      if (ttsBtn) ttsBtn.classList.remove('active');
+    };
+
+    window.speechSynthesis.speak(utterance);
+  }
+
+  // Render view dispatcher
+  function renderDiaryView() {
+    if (!state.isDiaryLoaded) {
+      loadDiaryData();
+    } else {
+      renderDiarySegment();
+    }
+  }
+
+  // Initialize all Diary Event Listeners
+  function initDiaryEventListeners() {
+    // Type Filter Pills
+    document.querySelectorAll('.diary-type-pills .pill-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.diary-type-pills .pill-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.diaryTypeFilter = btn.getAttribute('data-diary-type');
+        applyDiaryFilter();
+      });
+    });
+
+    // Diary Selector Dropdown
+    const select = document.getElementById('diary-select');
+    if (select) {
+      select.addEventListener('change', (e) => {
+        const val = parseInt(e.target.value, 10);
+        if (!isNaN(val)) loadDiaryEntry(val);
+      });
+    }
+
+    // Previous / Next / Random buttons
+    const prevBtn = document.getElementById('btn-diary-prev');
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (state.currentDiaryIndex > 0) {
+          loadDiaryEntry(state.currentDiaryIndex - 1);
+        } else {
+          showToast('첫 번째 일기입니다.', 'info');
+        }
+      });
+    }
+
+    const nextBtn = document.getElementById('btn-diary-next');
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        if (state.currentDiaryIndex < state.filteredDiaryEntries.length - 1) {
+          loadDiaryEntry(state.currentDiaryIndex + 1);
+        } else {
+          showToast('마지막 일기입니다.', 'info');
+        }
+      });
+    }
+
+    const randomBtn = document.getElementById('btn-diary-random');
+    if (randomBtn) {
+      randomBtn.addEventListener('click', () => {
+        if (state.filteredDiaryEntries.length > 1) {
+          let rand;
+          do {
+            rand = Math.floor(Math.random() * state.filteredDiaryEntries.length);
+          } while (rand === state.currentDiaryIndex);
+          loadDiaryEntry(rand);
+          showToast('🎲 무작위 일기를 선택했습니다.', 'info');
+        }
+      });
+    }
+
+    // Paragraph Mode vs Full Text Mode
+    const paraModeBtn = document.getElementById('diary-mode-para');
+    const fullModeBtn = document.getElementById('diary-mode-full');
+
+    if (paraModeBtn) {
+      paraModeBtn.addEventListener('click', () => {
+        paraModeBtn.classList.add('active');
+        if (fullModeBtn) fullModeBtn.classList.remove('active');
+        state.diaryMode = 'paragraph';
+        renderDiarySegment();
+      });
+    }
+
+    if (fullModeBtn) {
+      fullModeBtn.addEventListener('click', () => {
+        fullModeBtn.classList.add('active');
+        if (paraModeBtn) paraModeBtn.classList.remove('active');
+        state.diaryMode = 'full';
+        renderDiarySegment();
+      });
+    }
+
+    // Paragraph Prev / Next arrows
+    const paraPrevBtn = document.getElementById('btn-para-prev');
+    if (paraPrevBtn) {
+      paraPrevBtn.addEventListener('click', () => {
+        if (state.currentParaIndex > 0) {
+          state.currentParaIndex--;
+          renderDiarySegment();
+        }
+      });
+    }
+
+    const paraNextBtn = document.getElementById('btn-para-next');
+    if (paraNextBtn) {
+      paraNextBtn.addEventListener('click', () => {
+        const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+        if (entry) {
+          const count = entry.korean.split(/\n+/).map(p => p.trim()).filter(Boolean).length;
+          if (state.currentParaIndex < count - 1) {
+            state.currentParaIndex++;
+            renderDiarySegment();
+          }
+        }
+      });
+    }
+
+    // Toggle Vocab Hints
+    const toggleHintsBtn = document.getElementById('btn-diary-toggle-hints');
+    if (toggleHintsBtn) {
+      toggleHintsBtn.addEventListener('click', () => {
+        state.diaryHintsVisible = !state.diaryHintsVisible;
+        const container = document.getElementById('diary-vocab-hints');
+        if (container) container.classList.toggle('hidden', !state.diaryHintsVisible);
+        toggleHintsBtn.classList.toggle('active', state.diaryHintsVisible);
+      });
+    }
+
+    // Editor Textarea Word Counter & Keyboard Shortcut
+    const input = document.getElementById('diary-input');
+    const wordCounter = document.getElementById('diary-word-counter');
+
+    if (input) {
+      input.addEventListener('input', () => {
+        const text = input.value.trim();
+        const words = text ? text.split(/\s+/).length : 0;
+        if (wordCounter) wordCounter.textContent = `${words} words (${text.length} chars)`;
+      });
+
+      input.addEventListener('keydown', (e) => {
+        if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+          e.preventDefault();
+          compareDiaryTranslation();
+        }
+      });
+    }
+
+    // Clear Button
+    const clearBtn = document.getElementById('btn-diary-clear');
+    if (clearBtn && input) {
+      clearBtn.addEventListener('click', () => {
+        input.value = '';
+        if (wordCounter) wordCounter.textContent = '0 words';
+        input.focus();
+      });
+    }
+
+    // Compare Button
+    const compareBtn = document.getElementById('btn-diary-compare');
+    if (compareBtn) {
+      compareBtn.addEventListener('click', compareDiaryTranslation);
+    }
+
+    // Next Step Button in Feedback
+    const nextStepBtn = document.getElementById('btn-diary-next-step');
+    if (nextStepBtn) {
+      nextStepBtn.addEventListener('click', advanceDiaryStep);
+    }
+
+    // TTS Audio Button
+    const ttsBtn = document.getElementById('btn-diary-tts');
+    if (ttsBtn) {
+      ttsBtn.addEventListener('click', speakDiaryReference);
+    }
+
+    // Local Memo Auto-save
+    const memoInput = document.getElementById('diary-memo-input');
+    const memoStatus = document.getElementById('diary-memo-status');
+    let memoTimeout = null;
+
+    if (memoInput) {
+      memoInput.addEventListener('input', () => {
+        const entry = state.filteredDiaryEntries[state.currentDiaryIndex];
+        if (!entry) return;
+
+        if (memoStatus) memoStatus.textContent = '저장 중...';
+        clearTimeout(memoTimeout);
+
+        memoTimeout = setTimeout(() => {
+          state.diaryNotes[entry.id] = memoInput.value;
+          localStorage.setItem('vm_diary_notes', JSON.stringify(state.diaryNotes));
+          if (memoStatus) memoStatus.textContent = '자동 저장됨';
+        }, 600);
+      });
+    }
+
+    // Global shortcut for Next/Prev Diary (Alt + Left/Right)
+    window.addEventListener('keydown', (e) => {
+      if (state.currentView !== 'translate-view') return;
+      if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+
+      if (e.altKey && e.key === 'ArrowLeft') {
+        e.preventDefault();
+        if (state.currentDiaryIndex > 0) loadDiaryEntry(state.currentDiaryIndex - 1);
+      } else if (e.altKey && e.key === 'ArrowRight') {
+        e.preventDefault();
+        if (state.currentDiaryIndex < state.filteredDiaryEntries.length - 1) loadDiaryEntry(state.currentDiaryIndex + 1);
+      }
+    });
+  }
+
   // Application Entry Point
   async function initApp() {
     // Apply saved theme
@@ -1224,13 +1950,17 @@
     // Load live markdown data
     await loadMarkdownData(true);
 
+    // Load diary data
+    await loadDiaryData(true);
+
     updateHeaderStats();
     updateSourcePillsCount();
     applyFilters();
     initEventListeners();
+    initDiaryEventListeners();
     lucide.createIcons();
 
-    console.log(`VocabMaster initialized successfully with ${state.allData.length} words.`);
+    console.log(`VocabMaster initialized successfully with ${state.allData.length} words and ${state.diaryEntries.length} diary entries.`);
   }
 
   // Run on DOM ready

@@ -48,6 +48,11 @@
             <span class="nav-text-full">학습 현황 (Stats)</span>
             <span class="nav-text-short">학습 현황</span>
           </button>
+          <button class="nav-btn" data-view="translate-view">
+            <i data-lucide="languages"></i>
+            <span class="nav-text-full">일기 영작 번역 (Diary)</span>
+            <span class="nav-text-short">일기 번역</span>
+          </button>
         </nav>
       </div>
 
@@ -438,6 +443,242 @@
               <i data-lucide="trash-2"></i>
               <span>학습 기록 초기화</span>
             </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================= 5. DIARY TRANSLATION VIEW (일기 영작 번역 모드) ================= -->
+      <section id="translate-view" class="view-panel hidden">
+        <div class="diary-wrapper">
+          
+          <!-- Top Control Toolbar for Diary -->
+          <div class="diary-toolbar-card">
+            <div class="diary-toolbar-left">
+              <!-- Type Filters -->
+              <div class="diary-type-pills">
+                <button class="pill-btn active" data-diary-type="all">전체</button>
+                <button class="pill-btn" data-diary-type="수필">수필</button>
+                <button class="pill-btn" data-diary-type="일기">일기</button>
+                <button class="pill-btn" data-diary-type="꿈">꿈</button>
+              </div>
+
+              <!-- Diary Selector Dropdown -->
+              <div class="diary-select-wrapper">
+                <select id="diary-select" class="custom-select diary-select">
+                  <option value="">일기 불러오는 중...</option>
+                </select>
+              </div>
+
+              <!-- Navigation Controls -->
+              <div class="diary-nav-buttons">
+                <button id="btn-diary-prev" class="icon-btn-sm" title="이전 일기 (Alt + ←)">
+                  <i data-lucide="chevron-left"></i>
+                </button>
+                <button id="btn-diary-next" class="icon-btn-sm" title="다음 일기 (Alt + →)">
+                  <i data-lucide="chevron-right"></i>
+                </button>
+                <button id="btn-diary-random" class="icon-btn-sm" title="무작위 일기 뽑기">
+                  <i data-lucide="shuffle"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="diary-toolbar-right">
+              <!-- Mode Switcher (Paragraph vs Full) -->
+              <div class="mode-toggle-group">
+                <button id="diary-mode-para" class="pill-btn active" title="단락 단위로 집중해서 영작하고 즉시 비교합니다">
+                  <i data-lucide="split"></i> 단락별 영작
+                </button>
+                <button id="diary-mode-full" class="pill-btn" title="일기 전체를 긴 호흡으로 영작하고 대조합니다">
+                  <i data-lucide="file-text"></i> 전체 본문
+                </button>
+              </div>
+
+              <!-- Privacy Status Pill -->
+              <div class="stat-pill privacy-pill" id="diary-privacy-pill" title="🔒 100% 로컬 파일 참조. Git 저장소 및 외부 전송이 원천 차단된 프라이빗 환경입니다.">
+                <i data-lucide="shield-check"></i>
+                <span id="diary-privacy-text">기본 경로 연동</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Diary Entry Meta Bar -->
+          <div class="diary-meta-bar" id="diary-meta-bar">
+            <div class="meta-left">
+              <span class="badge date-badge" id="diary-meta-date">2026/09/09</span>
+              <span class="badge type-badge" id="diary-meta-type">수필</span>
+              <span class="badge weather-badge" id="diary-meta-weather">☀️ 맑음</span>
+              <span class="badge mood-badge" id="diary-meta-mood">😊 보통</span>
+            </div>
+            <div class="meta-right">
+              <span class="diary-counter" id="diary-segment-counter">단락 1 / 9</span>
+              <div class="segment-nav-buttons" id="segment-nav-buttons">
+                <button id="btn-para-prev" class="icon-btn-xs" title="이전 단락"><i data-lucide="arrow-up"></i></button>
+                <button id="btn-para-next" class="icon-btn-xs" title="다음 단락"><i data-lucide="arrow-down"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Dual Translation Arena -->
+          <div class="diary-workspace-grid">
+            
+            <!-- Left: Korean Original Prompt Card -->
+            <div class="diary-card diary-prompt-card">
+              <div class="card-header">
+                <div class="header-title">
+                  <i data-lucide="book-open"></i>
+                  <span>한국어 원문 (Korean Original)</span>
+                </div>
+                <button id="btn-diary-toggle-hints" class="btn-ghost-sm" title="단어장 연계 힌트 보기">
+                  <i data-lucide="lightbulb"></i> <span>단어 힌트</span>
+                </button>
+              </div>
+
+              <div class="card-body">
+                <div id="diary-korean-text" class="diary-korean-display">
+                  일기 데이터를 불러오는 중입니다...
+                </div>
+
+                <!-- Clues / Detected Vocab hints -->
+                <div id="diary-vocab-hints" class="diary-hints-container hidden">
+                  <div class="hints-header">
+                    <i data-lucide="sparkles"></i> <span>이 문맥에 활용하기 좋은 VocabMaster 어휘</span>
+                  </div>
+                  <div class="hints-list" id="diary-hints-chips">
+                    <!-- Populated dynamically -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: User Composition Editor Card -->
+            <div class="diary-card diary-editor-card">
+              <div class="card-header">
+                <div class="header-title">
+                  <i data-lucide="edit-3"></i>
+                  <span>나의 영작 (My English Translation)</span>
+                </div>
+                <div class="editor-stats">
+                  <span id="diary-word-counter">0 words</span>
+                </div>
+              </div>
+
+              <div class="card-body editor-body">
+                <textarea 
+                  id="diary-input" 
+                  class="diary-textarea" 
+                  placeholder="한국어 원문을 읽고, 내 생각과 감정을 영어로 직접 표현해보세요...&#10;&#10;작성 완료 후 [⌘ + Enter] 또는 아래 [비교하기] 버튼을 누르면 기존 영문과 세밀하게 대조할 수 있습니다."
+                  spellcheck="false"
+                ></textarea>
+              </div>
+
+              <div class="card-footer">
+                <div class="footer-hint">
+                  <kbd>⌘ Cmd</kbd> + <kbd>Enter</kbd> <span>즉시 비교</span>
+                </div>
+                <div class="footer-actions">
+                  <button id="btn-diary-clear" class="btn-secondary-sm" title="입력창 비우기">
+                    <i data-lucide="eraser"></i> 지우기
+                  </button>
+                  <button id="btn-diary-compare" class="btn-primary">
+                    <i data-lucide="git-compare"></i> <span>기존 영문과 비교하기</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Comparison & Diff Feedback Area (Revealed after comparison) -->
+          <div id="diary-feedback-section" class="diary-feedback-container hidden">
+            
+            <div class="feedback-header">
+              <div class="feedback-title">
+                <i data-lucide="check-check"></i>
+                <h3>영작 대조 및 피드백 (Comparison & Analysis)</h3>
+              </div>
+
+              <div class="feedback-controls">
+                <!-- Match Score Badge -->
+                <div class="score-badge" id="diary-score-badge">
+                  <i data-lucide="target"></i>
+                  <span id="diary-match-score">0% 표현 일치</span>
+                </div>
+
+                <!-- TTS Audio Control Capsule -->
+                <div class="tts-group">
+                  <button id="btn-diary-tts" class="btn-outline-sm" title="기존 영문 원어민 발음 듣기">
+                    <i data-lucide="volume-2" id="tts-icon"></i> <span>원문 듣기</span>
+                  </button>
+                  <div class="tts-speed-wrapper">
+                    <select id="diary-tts-speed" class="custom-select-xs" title="발음 속도 조절">
+                      <option value="0.8">0.8x</option>
+                      <option value="1.0" selected>1.0x</option>
+                      <option value="1.2">1.2x</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Next paragraph or entry button -->
+                <button id="btn-diary-next-step" class="btn-success-sm">
+                  <span>다음 단계로 진행</span> <i data-lucide="arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Side by Side Diff Grid -->
+            <div class="diff-grid">
+              <!-- Left: User's Attempt -->
+              <div class="diff-card user-diff-card">
+                <div class="diff-card-label">
+                  <i data-lucide="user"></i> 내가 방금 영작한 문장
+                </div>
+                <div id="diary-diff-user" class="diff-content">
+                  <!-- Token highlights -->
+                </div>
+              </div>
+
+              <!-- Right: Original English Reference -->
+              <div class="diff-card original-diff-card">
+                <div class="diff-card-label">
+                  <i data-lucide="star"></i> 기존에 작성했던 영문 (Reference)
+                </div>
+                <div id="diary-diff-original" class="diff-content">
+                  <!-- Token highlights -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Detected VocabMaster Nuances -->
+            <div class="detected-vocab-section" id="diary-detected-vocab-box">
+              <div class="section-title">
+                <i data-lucide="sparkles"></i>
+                <h4>이 일기 속 VocabMaster 핵심 단어</h4>
+                <span class="sub-label">단어를 클릭하면 코어 이미지와 뉘앙스 초점을 바로 확인할 수 있습니다.</span>
+              </div>
+              <div class="vocab-chips-container" id="diary-detected-chips">
+                <!-- Dynamically populated chips -->
+              </div>
+            </div>
+
+            <!-- Personal Expression Memo -->
+            <div class="diary-memo-box">
+              <div class="memo-header">
+                <div class="memo-title">
+                  <i data-lucide="bookmark"></i>
+                  <span>기억하고 싶은 표현 & 전치사/구동사 메모 (로컬 자동 저장)</span>
+                </div>
+                <span id="diary-memo-status" class="memo-status">자동 저장됨</span>
+              </div>
+              <textarea 
+                id="diary-memo-input" 
+                class="memo-textarea" 
+                placeholder="예: 'turn into 대신 morph into를 써서 점진적 변화 뉘앙스를 살림', 'at the expense of (~를 희생하여)' 등 배운 점을 메모해보세요."
+                rows="3"
+              ></textarea>
+            </div>
+
           </div>
 
         </div>

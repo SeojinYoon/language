@@ -1,0 +1,11 @@
+# Privacy & Personal Diary Data
+*.csv
+mind.csv
+*diary*
+*.secret
+.env
+
+# System & Cache
+.DS_Store
+__pycache__/
+*.pyc
