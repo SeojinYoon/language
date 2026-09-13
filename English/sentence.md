@@ -15,3 +15,10 @@
     > Making the impossible possible is inherently grueling
 - My thoughts are spiraling: 생각이 꼬리를 물고 이어지다
     > My anxiety started spiraling after reading the bad news
+- Absolutely bananas: 완전 미쳤다
+- Yeah, I bet: 네, 그렇겠네요
+- I'm from a family of four: 우리 가족은 네명이다
+- Enjoy the rest of the weekend!: 좋은 주말 보내
+- What do yo do?: 무슨 일 하세요?
+- Why did you get into ~?: 어떻게 관심을 갖게 되었어요?
+    > Why did you get into yoga?

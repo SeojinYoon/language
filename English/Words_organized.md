@@ -1176,7 +1176,7 @@
                 * 코어 이미지: 대화 도중 날카롭고 유머러스한 펀치라인 한마디를 툭 던져 좌중을 폭소케 하는 센스
                 * 초점: 짧고 기발하며 유머러스한 기지를 발휘하여 순발력 있게 대답하거나 촌철살인을 던짐
                 > When asked about his aging appearance, the actor quipped that wrinkles were medals of experience
-            - thought out loud: 생각을 혼잣말로 입 밖에 내뱉다
+            - thinking out loud: 생각을 혼잣말로 입 밖에 내뱉다
                 * 코어 이미지: 머릿속에서 혼자 굴리던 생각이 필터를 거치지 않고 입술 밖으로 툭 튀어나오는 순간
                 * 초점: 타인에게 전달하려던 의도 없이 혼자 하던 생각을 무의식중에 소리 내어 말해버림
                 > I didn't mean to criticize your proposal; I was merely thinking out loud
@@ -1297,10 +1297,7 @@
                 * 코어 이미지: 총장이 단상에서 졸업생의 목에 영예로운 박사 학위 메달을 걸어주는 공식 수여식
                 * 초점: 공인된 권위나 기관이 개인에게 명예, 자격, 권한을 공식적으로 부여함
                 > The university will confer an honorary doctorate upon the distinguished environmental activist
-            - endow with: (재능이나 특권을) 부여하다, 타고나게 하다
-                * 코어 이미지: 요정이 요술봉을 휘둘러 갓 태어난 아기에게 천부적인 음악적 재능을 선물하는 축복
-                * 초점: 신, 자연, 조물주가 개인에게 비범한 재능, 미모, 자원을 선천적으로 풍성하게 내려줌
-                > Nature endowed her with an exceptional intellect and an innate capacity for deep scientific curiosity
+            
             - tribute: 바치다, 헌사하다, (공물의) 찬사
                 * 코어 이미지: 위대한 스승의 기념비 앞에 꽃다발을 헌화하고 묵념하며 고마움을 기리는 의식
                 * 초점: 뛰어난 인물의 희생이나 업적을 기리기 위해 공식적으로 바치는 감사의 선물이나 찬사
@@ -2042,7 +2039,23 @@
             * 코어 이미지: 건물 정문 앞에서 테이프를 가위로 자르고 내빈들의 박수 속에 문을 활짝 여는 개관식
             * 초점: 새로운 공공 건물, 기념관의 개관이나 고위 공직자의 취임을 공식적인 의식을 통해 선포함
             > The mayor attended the ceremony to officially inaugurate the state-of-the-art modern art museum
-
+    - **교통**
+        - press the button: 버튼을 누르다
+            * 코어 이미지: 하차 신호 벨의 빨간 버튼을 손가락 끝으로 꾹 누르는 동작
+            * 초점: 버스나 트램 등에서 다음 정류장 하차 의사를 알리기 위해 벨을 누름
+            > I got off at the wrong place because I didn't press the button
+        - front door: 앞문
+            * 코어 이미지: 운전기사 바로 옆에 위치한 차량의 앞쪽 출입문
+            * 초점: 대중교통 승차나 특정 건물의 전면에 위치한 정문
+            > Please enter through the front door of the bus
+        - back door: 대중교통 하차나 건물의 후면에 위치한 뒷문
+            * 코어 이미지: 차량의 중간이나 후방에 설치된 하차용 출입문
+            * 초점: 대중교통 하차나 건물의 후면에 위치한 뒷문
+            > Passengers usually exit through the back door
+        - make a sudden stop: 급정거하다
+            * 코어 이미지: 달리던 버스가 급브레이크를 밟아 승객들의 몸이 앞으로 확 쏠리는 장면
+            * 초점: 예고 없이 급격하고 돌발적으로 차량을 멈춰 세우는 급정거
+            > The bus made a sudden stop
 - **자연**
     - **물**
         - spring: 샘, 샘물, 온천

@@ -183,3 +183,68 @@
     - 코어 이미지: 발을 걸어 넘어뜨리고 그 자리에 올라서는 모습 (Tripping Someone up to Take Their Throne)
     - 초점: 새로운 것의 우월성에 의한 기존 주도권의 밀려남(Ousting & Displacement)
     > In modern society, however, where the individual has supplanted the divine, this external axis has largely eroded, making it difficult to apply directly to our daily lives. We are left to deduce that absolute distance for ourselves
+
+- menace: 위협적인 존재
+- legit: 합벅적인
+- claustrophobic: 폐소공포증
+- make it home: 집에 겨우 오다
+    > We all try to make it home for Thansgiving
+- Either way: 하여튼
+    > Either way, carful driving later
+- bundle up: 옷을 껴입어요
+- monsoon: 우기
+    > It's like monsoon season today
+- eerie: 으스스한
+    > I love days where the fog is like this. It's so eerie
+- put together: 파티를 준비하다
+    > She put together a nice party
+- culinary school: 요리 학교
+    > I just graduated from culinary school not too long ago
+- French place: 프랑스 레스토랑
+    > I work at a French place in midtown
+- meet somebody through: ~를 통해서 만나다
+    > I met Sophia through a biology class in college
+- meet at: ~에서 만나다
+    > We actually met at church meeting last summer
+- personal touch: 개인적인 배려와 관심
+    > That's the kind of personal touch I appreciate
+- hectic: 정신없이 바쁜
+    > I also go on a long drive after some hectic weekends
+- found something on: ~에서 뭘 찾았어요
+    > I found the discount coupon for yoga on Groupon
+- mushy: 물컹물컹한, 무른
+    > Oh, like a mushy texture?
+- make my skin crawl: 징그럽다
+    > Just thinking about it makes my skin crawl
+- loath: ~하기를 몹시 꺼리는, 마지못해 하는
+    * 코어 이미지: 앞으로 끌어당기는 줄에 억지로 끌려가지 않으려고 두 발에 잔뜩 힘을 준 채 뒤로 버티며 온몸으로 저항하는 모습
+    * 초점: 내면의 강한 심리적 저항감과 불응(Deep Reluctance)
+    > On the path toward my goals, I often catch myself loathing the sight of my own body sprawled across the bed, stagnant and unproductive.
+- sprawl: (팔다리를 아무렇게나 뻗고) 대자로 눕다/앉다
+    * 코어 이미지: 규격화된 틀이나 통제선 없이, 바닥에 쏟아진 액체나 덩굴식물이 아무렇게나 사방팔방으로 제멋대로 퍼져나가는 모습
+    * 초점: 통제되지 않은 비체계적 분산과 확장(Uncontrolled Expansion & Disorder)
+    > On the path toward my goals, I often catch myself loathing the sight of my own body sprawled across the bed, stagnant and unproductive.
+- stagnant: (물·공기 등이) 흐르지 않고 고여 썩은; (경제·사회·생각 등이) 침체된, 활기 없는
+    * 코어 이미지: 새로운 물이 유입되지도 빠져나가지도 못한 채, 볕 아래 오랫동안 갇혀 이끼가 끼고 녹조가 덮인 웅덩이의 모습
+    * 초점: '순환의 부재로 인한 부패와 정체(Lack of Motion leading to Decay)'
+    > On the path toward my goals, I often catch myself loathing the sight of my own body sprawled across the bed, stagnant and unproductive.
+- relentlessly: 가차 없이, 끈질기게, 쉼 없이, 가혹할 정도로 혹독하게
+    * 코어 이미지: 앞에 어떤 장벽이나 호소가 나타나도 속도를 조금도 늦추지 않고 목표물을 향해 일정한 박자로 성큼성큼 다가오는 육중한 기계의 전진
+    * 초점: 타협이나 피로 없는 완고한 지속성(Unyielding Intensity & Continuity)
+    > Whenever that happened, I pushed myself relentlessly, demanding action at all costs
+- deplete: (자원·에너지·자금 등을) 대폭 소진시키다, 고갈시키다
+    * 코어 이미지: 가득 차 있던 연료통이나 곡식 창고 밑바닥에 구멍이 뚫려, 내용물이 빠져나가며 바닥이 훤히 드러날 정도로 비어가는 모습
+    * 초점: 기존 보유량의 현저한 감소와 바닥남(Severe Reduction of a Stock)
+    > My weekend routine was an exhausting attempt to whip my depleted self into motion
+- strain: 혹사하다, 무리하게 힘을 쓰다
+    * 코어 이미지: 양쪽 끝에서 팽팽하게 잡아당겨져 실밥이 하나둘 터지기 직전까지 가늘어지고 부들부들 떨리는 밧줄의 상태
+    * 초점: 한계 허용치에 육박한 팽팽한 장력과 과부하(Extreme Tension under Stress)
+    > Even when spare time presented itself, I invariably chose tasks that demanded immense intellectual strain
+- Treatise: (특정 주제를 체계적으로 다룬 학술적) 논문, 전문 논설, 대작 논저
+    * 코어 이미지: 어떤 학문적 주제의 모든 뼈대와 근거를 바닥부터 천장까지 빈틈없이 벽돌을 쌓아 올려 완공한 견고하고 거대한 학문의 성채
+    * 초점: 포괄적이고 체계적인 학술적 완전성(Systematic and Rigorous Exposition)
+    > Even my Casal reading drifted toward dense philosophical treatises
+- it struck me that/as: (어떤 생각이나 깨달음이) 문득 머릿속을 스치다, 불현듯 번쩍 떠오르다
+    * 코어 이미지: 어두운 밤하늘에 갑자기 번개가 내 정수리를 정통으로 쿵! 하고 내리치는(Strike) 모습
+    * 초점: 인식의 불시성과 강렬한 타격감(Sudden Cognitive Impact)
+    > Yet while listening to a talk on Youtube about the art of letting go, it struck me
