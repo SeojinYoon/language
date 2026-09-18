@@ -248,3 +248,75 @@
     * 코어 이미지: 어두운 밤하늘에 갑자기 번개가 내 정수리를 정통으로 쿵! 하고 내리치는(Strike) 모습
     * 초점: 인식의 불시성과 강렬한 타격감(Sudden Cognitive Impact)
     > Yet while listening to a talk on Youtube about the art of letting go, it struck me
+- lethargy sets in: 무기력증이 찾아오다, 깊은 나른함과 권태가 자리 잡기 시작하다
+    * 코어 이미지: 한낮의 무더위나 누적된 과로 속에서 젖은 솜이불이 온몸을 덮듯, 온 신경과 근육에서 힘이 스르륵 빠져나가며 몸과 마음에 무겁고 둔탁한 침묵이 가라앉아 굳어지는 모ㅊ습
+    * 초점: 신체적·정신적 에너지의 완전한 방전과 만성적인 무기력 상태의 시작
+    > After months of uninterrupted coding and repetitive debugging, a profound lethargy set in
+- inertia takes over: 관성이 지배하다, 관성에 젖어 타성에 빠지다, 변화를 멈추고 기존 상태에 안주하다
+    * 코어 이미지: 물리학의 제1법칙처럼, 가만히 서 있는 거대한 바위가 제자리에서 꿈쩍도 않거나(정지 관성), 굴러가던 바퀴가 방향을 틀지 못한 채 멍하니 굴러가듯, 개인이나 조직이 새로운 시도를 멈추고 기존 방식에 몸을 맡겨버린 모습
+    * 초점: 변화나 추진력의 상실, 그리고 기존 상태를 그대로 유지하려는 완고한 저항/타성
+    > Unless we deliberately restructure the development pipeline, institutional inertia will take over
+- colloquially: 구어체로
+- purview: 이해(시야)의 범위
+- pregnant: 임신한; (비유) 의미심장한
+    * 코어 이미지: 몸속에 새로운 생명이 자라나 배가 팽팽하게 부풀어 오른 모습처럼, 어떤 겉모습이나 침묵 속에 아직 밖으로 터져 나오지 않은 거대한 의미, 긴장, 진실이 팽팽하게 응축되어 있는 상태
+    * 초점: 곧 무언가 엄청난 일이 터져 나올 것만 같은 팽팽한 긴장감과 암시
+    > There was a pregnant pause before the committee revealed the evaluation verdict.
+- in an instant: 순식간에, 눈 깜짝할 사이에
+    * 코어 이미지: 초침이 움직일 틈도 없이, 카메라 플래시가 한 번 번쩍('탁') 터지는 극도로 미세한 시간의 틈새
+    * 초점: 점진적 경과 없이, 단 하나의 찰나에 상황이 180도 뒤바뀌는 비연속적 돌발성
+    > His words seized me in an instant
+- forcibly: 강제로, 물리력을 동원하여; 강력하게, 설득력 있게
+    * 코어 이미지: 닫힌 문이나 저항하는 대상을 향해 어깨로 밀어붙이고 빗장을 완력으로 부수며 들어가는 거친 외력의 작용
+    * 초점: 상대방의 의사를 묵살하고 가해지는 불가항력적인 물리적 힘이나 강제 집행
+    > The unauthorized script was forcibly terminated by the operating system kernel
+- archetype: 전형, 원형, 전형적인 표본
+    * 코어 이미지: 수많은 주화를 찍어내는 가장 최초의 오리지널 금형 틀(Original Stamp), 또는 인류의 무의식 속에 태고부터 각인된 근원적인 상징의 판본
+    * 초점: 어떤 부류나 특성을 가장 완벽하고 순수하게 대변하는 본원적 틀 (The Quintessential Model)
+    > True to the paladin archetype, he heals allies and incapacitates the undeaded
+- incapacitate: 무력화하다, 정상적인 기능을 하지 못하게 만들다, 무능력하게 만들다
+    * 코어 이미지: 잘 돌아가던 기계의 핵심 전원선을 자르거나 사람의 관절을 꺾어, 그것이 본래 가지고 있던 '능력(Capacity)'의 스위치를 강제로 꺼버려 꼼짝 못 하게 눕혀버리는 모습
+    * 초점: 부상, 고장, 독성 등으로 인해 정상적인 활동이나 제어 기능을 완전히 상실시킴
+    > True to the paladin archetype, he heals allies and incapacitates the undeaded
+- rarely: 드물게, 좀처럼 ~하지 않는
+    * 코어 이미지: 100개의 바둑돌 중 하얀 돌이 단 한두 개 섞여 있듯, 시간의 긴 축이나 거대한 통계 표본 속에서 거의 모습을 드러내지 않는 희박한 빈도
+    * 초점: 통계적 빈도의 극단적 희소성 (Almost Never / Exceptionally Infrequent)
+    > I rarely pay attention to character quotes in Warcraft III
+- visceral
+    * 코어 이미지: 머리(뇌)로 논리적으로 생각하기도 전에, 명치끝과 내장(Viscera) 깊은 곳에서부터 울컥하고 솟구쳐 오르는 소름이나 핏줄이 당기는 듯한 원초적 감각
+    * 초점: 논리적 분석을 배제한 원초적 본능, 육체적으로 즉각 느껴지는 거친 직관 (Gut-level & Primal)
+    > the coexistence of visceral pain and sacred holiness deeply captivated me
+- unmistakable: 오해의 여지가 없는, 틀림없는, 누가 봐도 명백한
+    * 코어 이미지: 안개 하나 없는 맑은 날, 손바닥 위에 올려놓은 물건처럼 아무리 눈을 비비고 다시 보아도 다른 것과 혼동(Mistake)할 가능성이 제로인 선명한 실루엣
+    * 초점: 독특한 특징이나 명확성 때문에 다른 것과 착각할 위험이 전혀 없음 (Zero Ambiguity & Distinctiveness)
+    > His resolve is unmistakable
+- be administered: 집행되다, (약, 치료등이) 투여되다, 관리되다
+- settle in: 새로운 집·직장·환경에) 적응하다, 자리를 잡다, 안정을 찾다
+    * 코어 이미지: 흙탕물이 담긴 유리병을 가만히 내려놓았을 때 부유물들이 바닥으로 가라앉아 투명해지듯(Settle), 낯설고 분주하던 새로운 환경 속(In)으로 자신의 짐과 마음을 차분히 내려놓고 본래의 편안한 균형 상태로 잦아드는 풍경
+    * 초점: 새로운 물리적·사회적 환경에서의 적응, 짐 풀기, 그리고 긴장의 해소 (Transition to Comfort & Routine)
+    > How are you settling in to the new laboratory?
+- lingering: (감정·냄새·여운·의심 등이) 오래 머무는, 쉽게 사라지지 않는, 질질 끄는
+    * 코어 이미지: 차 한 잔을 다 마신 뒤에도 찻잔에 은은하게 남아 있는 온기나, 사람이 방을 떠난 후에도 공기 중에 흩어지지 않고 맴도는 옅은 향기처럼 쉬이 흩어지지 않고 그 자리에 서성이는 모습
+    * 초점: 소멸하거나 떠나야 할 시간이 지났음에도 완전히 사라지지 않고 남아 있는 상태 (Persistent Remaining)
+    > the lingering desire to be embraced and valued by helping others, yet feeling confined by my status as a visiting PhD student to just keep to my own work.
+    > The lingering aroma of roasted espresso beans filled the quiet laboratory corner
+- dormant: 휴면기의, 활동을 중단한, 잠복 중인
+    * 코어 이미지: 추운 겨울 눈 덮인 땅속에서 숨을 죽인 채 봄이 오기만을 기다리며 잠자고 있는 식물의 씨앗, 혹은 폭발을 멈추고 잠들어 있는 휴화산의 모습
+    * 초점: 완전히 사라지거나 파괴된 것이 아니라, 적절한 자극이나 조건이 갖춰지면 언제든 깨어날 수 있는 잠재적 정지 상태 (Latent Inactivity)
+    > The virus can remain dormant within host neural tissues for decades without triggering symptoms
+- dwindle: (점점) 줄어들다, 축소되다, 희미해지다
+    * 코어 이미지: 바람 부는 밤 촛불의 밀랍이 녹아내리며 불꽃의 크기가 점점 작아지듯, 풍족하던 자원이나 무리의 규모가 시간이 지남에 따라 점진적으로 줄어들어 마침내 한 줌의 실오라기처럼 가늘어지는 모습
+    * 초점: 자연스러운 소진, 지속적인 감소, 점진적으로 바닥을 향해 가는 소멸 궤적 (Gradual Diminishing to Scarcity)
+    > As funding began to dwindle, the research team had to curtail their hardware acquisition plans
+- press on me heavily: 나를 무겁게 짓누르다, 마음에 큰 중압감/부담을 주다
+    * 코어 이미지: 어깨나 가슴팍 위에 거대한 바윗덩이나 납덩이를 얹어 놓은 것처럼, 벗어날 수 없는 책임, 불안, 피로가 숨이 턱 막히도록 육체와 정신을 내리누르는 모습
+    * 초점: 외부의 의무, 죄책감, 결정의 무게가 주는 지속적이고 질식할 것 같은 심리적 중압감 (Suffocating Psychological Burden)
+    > The responsibility of delivering the hardware platform before the deadline began to press on me heavily
+- In a dead end: 막다른 골목에 처한, 진퇴양난에 빠진
+    * 코어 이미지: 어두운 미로를 헤매며 계속 앞으로 걸어갔으나, 마침내 눈앞에 높고 단단한 회색 벽돌 벽이 가로막아 서 있어(Dead end) 더 이상 한 발자국도 전진할 수 없고 돌아갈 엄두도 나지 않는 막막한 고립의 풍경
+    * 초점: 논리적·학술적 전개의 완전한 좌초, 또는 협상·연구가 출구를 찾지 못하고 벽에 부딪힌 교착 상태 (Impassable Blockade & Complete Stagnation)
+    > Paralyzed by the terror of fighting Orcs in a dead end, he ultimately overcame that dread out of a fierce resolve to protect his companions
+- be swayed by: ~에 마음이 흔들리다, ~에 좌우되다, ~에 의해 판단/행동이 휘둘리다
+    * 코어 이미지: 바람 부는 날 들판의 갈대나 나뭇가지가 바람의 방향을 따라 이리저리 기우뚱하며 흔들리듯(Sway), 단단히 중심을 잡지 못하고 외부에서 불어오는 말, 여론, 감정에 의해 생각의 중심축이 기울어지는 모습
+    * 초점: 독립적이고 객관적인 판단 기준을 잃고, 외부의 압력·달콤한 설득·일시적 감정에 판단이 종속되는 상태 (Loss of Cognitive Independence to External Forces)
+    > Unable to utter a word in front of the woman I loved, I simply let time slip away in anxiety, easily swayed by others’ opinions rather than taking bold initiative

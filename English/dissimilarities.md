@@ -42,6 +42,14 @@
         * 코어 이미지: 3차원 공간에 놓인 물체가 어느 각도로 회전되어 서 있는지를 나타내는 자세 틀
         * 초점: 이동 경로와 무관하게, 물체가 기준 좌표계에 대해 어떤 각도와 기울기(자세)로 놓여있는가에 대한 정보
         > The orientation of the tablet
+    - is oriented toward: ~을 지향하다, ~ 위주로 설계되다, ~ 쪽을 향해 배치되어 있다
+        * 코어 이미지: 나침반의 N극이나 건물의 창문이 본래 햇빛이 잘 드는 남쪽을 향해 튼튼하게 고정되어 있듯, 설계, 가치관, 시스템 구조 자체가 특정 대상을 목적지로 삼고 정렬(Alignment)된 상태
+        * 초점: 구조적 목적성, 고유한 정체성, 장기적인 지향점 (Inherent Purpose & Systemic Design)
+        > Yet the Forsaken Paladin remains steadfastly oriented toward the original light, even when the world projected onto him is harsh and scorching
+    - turn toward: (몸이나 시선을) ~로 돌리다, (주의나 관심을) ~로 전환하다
+        * 코어 이미지: 직진하던 바퀴나 다른 곳을 보던 얼굴 각도를 휙 틀어(Turn), 새로운 대상을 똑바로 바라보며 그쪽을 향해 물리적·주의적 각도를 전환하는 행동
+        * 초점: 시선, 궤적, 또는 관심사의 능동적인 동적 전환 (Dynamic Redirection & Focus Shift)
+        > Having resolved the kinematics, the team turned toward the challenges of real-time sensor fusion
 
 - 찾다
     - find: 찾아내다, 발견하다 (결과에 집중)
@@ -877,26 +885,30 @@
         > I can drop you off at Campus Biotech
 
 - 요청
-    - ask to: 요청
+    - ask to: (~에게) ~해 달라고 부탁하다
         * 코어 이미지: 상대방에게 다가가 특정 행동을 정중하게 부탁하는 대화
         * 초점: 상대방이 특정 행동이나 조치를 취해주기를 구두나 서면으로 정중히 부탁함
         > I asked her to wait for a moment
-    - ask for: 요청
+    - ask for: (~을) 요청하다, 청하다, 찾다
         * 코어 이미지: 손을 내밀며 원하는 구체적 물건이나 도움을 요구하는 손동작
         * 초점: 물건, 자료, 조언, 도움 등 원하는 대상을 직접 얻기 위해 요청함
         > He asked for a cup of coffee
-    - call for: 요청
+    - call for: 요구하다, 필요로 하다
         * 코어 이미지: 사태의 심각성에 따라 긴급 사이렌을 울리며 필요한 조치를 강력히 요구함
         * 초점: 특정 상황이나 문제 해결을 위해 어떤 조치, 자원, 연구가 마땅히 강력히 요구됨
         > This complex results call for further investigation
-    - require: 요청
+    - require: 필요로 하다, 요구하다
         * 코어 이미지: 규정집과 설계도에 명시된 필수 체크 항목의 잠금장치
         * 초점: 규정, 법규, 시스템 사양상 없어서는 안 될 절대적인 필수 조건으로 요구됨
         > The simulation requires high computational power
-    - send for: 요청
+    - send for: ~를 오라고 부르다
         * 코어 이미지: 심부름꾼이나 전령을 파견하여 필요한 문서나 사람을 불러오기
         * 초점: 사람이나 우편을 통해 특정 서류를 보내달라고 요청하거나 전문가를 소환함
         > He sends for the annual reports
+    - demand: 강력히 요구하다, 독촉하다; (시간·노력을) 요하다
+        * 코어 이미지: 상대방의 책상을 손바닥으로 탁 치거나 법적 권리를 들이밀며, "이것은 마땅히 내놓아야 할 것이니 지금 즉시 이행하라"며 거절을 불허하는 단호한 명령의 모습
+        * 초점: 강제성, 정당한 권리 주장, 거절의 배제 (Urgent & Non-negotiable Claim)
+        > The client demanded an immediate audit of the simulation codebase after the crash
 
 - 비행
     - plane: 비행
@@ -986,44 +998,44 @@
         > How can I get to the train station?
 
 - 결국
-    - end up: 결국
+    - end up: (의도치 않게) 결국 ~하게 되다, ~한 처지가 되다
         * 코어 이미지: 계획했던 코스를 벗어나 물길 따라 흘러가다 엉뚱한 종착역에 닿음
         * 초점: 처음 계획이나 의도와는 다르게 상황에 휩쓸려 최종적으로 이르게 된 결과
         > I was just checking one data point, but I ended up staying up all night
-    - wind up: 결국
+    - wind up: (우여곡절 끝에) 결국 ~하게 되다/이르다
         * 코어 이미지: 태엽을 팽팽하게 감다가 툭 멈춰 서듯 정신 차려보니 그 상태에 처해 있음
         * 초점: 우여곡절을 겪은 끝에 예상치 못하게 어떤 처지나 장소에 도달하게 됨 (구어체)
         > I wind up perusing people's photos and status
-    - eventually: 결국
+    - eventually: (오랜 시간·지연 끝에) 결국, 마침내
         * 코어 이미지: 오랜 시간 동안 굽이진 산길을 걸어 마침내 산 정상에 도달하는 완주
         * 초점: 시간이 오래 걸리고 많은 과정이 필요했지만 결국 장기적으로 도달한 결과
         > I think I will take a long time to reach my goal, but eventually I will reach it
         > The AI model will eventually converge
-    - in the end: 결국
+    - in the end: (모든 것을 고려했을 때) 결국, 결론적으로
         * 코어 이미지: 치열했던 재판과 갈등이 끝나고 판사가 최종 판결봉을 내리치는 결말
         * 초점: 모든 복잡한 논쟁과 우여곡절을 다 겪어본 후 최종적으로 내린 결론이나 귀결
         > I felt resentment, but in the end, I chose to let the emotions flow
-    - after all: 결국
+    - after all: 결국 (알고 보니) / 어쨌든 (이유는)
         * 코어 이미지: 여러 논란 끝에 베일이 걷히며 '역시나 그렇구나' 하고 진실이 드러남
         * 초점: 예상이나 우려가 있었음에도 불구하고 결과적으로 돌이켜보니 결국 사실임
         > Don't be too hard on yourself; after all, you're only human
 
 - 핵심
-    - come down to: 핵심
+    - come down to: 결국 ~로 귀결되다
         * 코어 이미지: 복잡하게 얽힌 가지들을 다 쳐내고 나면 드러나는 뿌리 줄기
         * 초점: 복잡한 현상이나 논의를 압축했을 때 가장 본질적인 결정타나 원인으로 귀결됨
         > Indeed most algorithms in Artificial Intelligence, Machine Learning, Computer Vision, System Identification, State Estimation come down to numerical optimization.
 
 - 추가
-    - also: 추가
+    - also: 또한, 게다가, 역시
         * 코어 이미지: 기존 항목 옆에 플러스(+) 부호를 달고 항목 하나를 나란히 덧붙임
         * 초점: 앞서 언급한 내용에 새로운 정보를 단순하게 나열·추가함
         > I also checked the sensor calibration
-    - on top of: 추가
+    - on top of: ~에 더해, ~위에 얹어 (게다가)
         * 코어 이미지: 이미 가득 찬 쟁반 위에 컵 하나를 더 얹어 무게를 가중시키는 모습
         * 초점: 이미 충분히 많은 상황 위에 겹쳐서 추가됨 (설상가상 혹은 금상첨화의 뉘앙스)
         > On top of the kinematics data, we need brain activity patterns
-    - in addition to: 추가
+    - in addition to: ~에 더하여, ~외에도
         * 코어 이미지: 학술 논문의 부록 섹션에 논리적인 보충 자료를 정식으로 첨부함
         * 초점: 논리적이고 공식적인 글에서 기존 항목에 추가적 요소를 격식 있게 덧붙임
         > In addition to kinematics, we analyzed brain patterns
@@ -1031,13 +1043,13 @@
         * 코어 이미지: 중심 영역의 울타리 바깥으로 시야를 넓혀 다른 추가 대상까지 아우름
         * 초점: 언급된 대상 외에도 다른 것까지 포함하여 외연을 확장할 때 사용
         > Besides me, who else is coming?
-    - along with: 추가
+    - along with: ~와 함께, ~와 더불어
         * 코어 이미지: 메인 선물 상자와 함께 리본으로 묶인 세트 선물 패키지
         * 초점: 주요 대상과 다른 부속 요소를 하나의 세트로 묶어서 함께 동반함을 표현
         > I brought some sandwiches, along with a bottle of wine
 
 - 확신
-    - indeed: 확신
+    - indeed: 정말로, 참으로, 확실히
         * 코어 이미지: 상대의 말에 힘차게 고개를 끄덕이며 내용을 한 단계 더 깊이 파고듦
         * 초점: 앞선 주장을 적극 긍정하면서 그에 대한 확실하고 깊이 있는 근거를 보탤 때 사용
         > The simulation results were very promising. Indeed, they were the best we've seen so far.
@@ -1045,7 +1057,7 @@
         * 코어 이미지: 안개 하나 없이 100% 맑게 트여 의심의 여지가 전혀 없는 시야
         * 초점: 한 치의 의심도 없이 100% 확실하고 명백함을 단언할 때 사용
         > Certainly, we need more data to prove this theory
-    - unfailingly: 확신
+    - unfailingly: 어김없이, 변함없이, 언제나 예외 없이
         * 코어 이미지: 하루도 오차 없이 정각에 종을 치는 스위스 명품 시계의 성실함
         * 초점: 시간이 흘러도 변치 않고 어김없이, 언제나 100% 정확하게 실행됨을 강조
         > I want to be a person who does the right things unfailingly
@@ -1069,27 +1081,27 @@
         > To all intents and purposes, the project is already finished
 
 - 믿음
-    - dependable: 믿음
+    - dependable: 믿을 수 있는, 든든한
         * 코어 이미지: 등을 기대도 절대 무너지지 않는 단단하고 든든한 바위 기둥
         * 초점: 책임감이 강하여 위기 상황에서도 언제든 믿고 기댈 수 있는 인품
         > Oscar is a very dependable colleague
-    - reliability: 믿음
+    - reliability: 신뢰성, 안정성, 확실함
         * 코어 이미지: 천 번을 가동해도 오차 없이 동일한 성능을 출력하는 기계적 일관성
         * 초점: 시스템, 데이터, 장비 등이 고장이나 오차 없이 안정적으로 작동하는 신뢰성
         > We tested the reliability of the AI model
-    - trust: 믿음
+    - trust: 신뢰, 신용 / 믿다, 신뢰하다
         * 코어 이미지: 나의 비밀이나 약점을 상대방의 품에 온전히 맡기는 깊은 정서적 유대
         * 초점: 상대방의 정직함, 성품, 의도를 인간적으로 깊이 신뢰하고 의탁함
         > I trust you with my secrets
-    - believe: 믿음
+    - believe: 믿다, 생각하다
         * 코어 이미지: 어떤 진술이나 명제가 참(True)이라고 머릿속으로 수용하고 인정함
         * 초점: 특정 사실이 진실이라고 여기거나 누군가의 잠재력을 긍정적으로 확신함
         > I believe in you, seojin
-    - reckon: 믿음
+    - reckon: 생각하다, 계산하다, 추정하다
         * 코어 이미지: 자신의 직관과 통찰력을 바탕으로 계산을 거쳐 결론을 내림
         * 초점: 자신의 주관적 판단이나 경험적 통찰을 바탕으로 '~라고 생각/추정하다'
         > I reckon that reinforcement learning is the key to human movement
-    - conviction: 믿음
+    - conviction: 확신, 굳은 신념
         * 코어 이미지: 깊은 고민, 검증, 도덕적 판단을 거쳐 단단하게 굳어진 바위 같은 확신
         * 초점: 절대 흔들리지 않는 굳은 확신. 외부의 압박이나 반대에도 불구하고 타협하지 않고 지켜내는 강한 신념
         > He argued his case with deep conviction
@@ -1102,11 +1114,11 @@
         > Low interest rates lend encouragement to speculative investments
 
 - 해로운
-    - injurious: 해로운
+    - injurious: 손상을 주는, 해치는, (명예 등을) 훼손하는
         * 코어 이미지: 조직을 파괴하고 법적·경제적 권익에 실질적인 상해를 입히는 치명적 독소
         * 초점: 신체적, 정신적, 법적, 경제적으로 실질적인 손해와 피해를 끼침 (격식체/법률적)
         > Speculation is injurious to the economy
-    - harmful: 해로운
+    - harmful: 해로운, 유해한
         * 코어 이미지: 생물체나 환경에 부정적인 영향을 미쳐 건강을 해치는 해로움
         * 초점: 결과적으로 나쁜 영향을 미쳐 유해함을 나타내는 가장 보편적인 단어
         > Too much sugar is harmful
@@ -1122,11 +1134,11 @@
         > The probability of this transition is extremely low
 
 - 절차
-    - proceeding: 절차
+    - proceeding: (법적·공식적) 절차, 소송, 회의록/학술논문집
         * 코어 이미지: 법정이나 공식 회의에서 의사봉 소리와 함께 진행되는 의사진행 단계
         * 초점: 공식적인 목적과 절차에 따라 체계적으로 이루어지는 회의나 법적 진행 과정
         > We watched the proceedings of the meetings
-    - practice: 절차
+    - practice: 관행, 관습, 연습, 실천, 개업(업무)
         * 코어 이미지: 이론서의 글자를 벗어나 실제 현장에서 매일 이루어지는 관행적 실행
         * 초점: 머릿속 이론과 대비되는 실제 현장의 관행, 실제 업무 실행
         > The theory sounds good, but actually, in practice, it's so difficult that most people fail
@@ -1392,6 +1404,10 @@
         * 코어 이미지: 만성 질환의 통증이나 깊은 불면증의 그늘 속에서 신음하는 깊은 고통
         * 초점: 질병, 트라우마, 지속적인 고난으로 인해 심신이 심각하게 고통받고 앓음
         > I suffer from insomnia really badly, so I need to go to see a doctor to get prescribed sleeping pills
+    - agony: (극심한 육체적·정신적) 고통, 고뇌, 단말마의 고통
+        * 코어 이미지: 온몸의 뼈가 바스러지거나 찢겨 나가는 듯한 고통 속에서 이를 악물고 온몸을 뒤틀며 쥐어짜는 비명과 몸부림
+        * 초점: 단순한 통증(Pain)을 넘어, 견디기 힘든 극한의 한계 상황에서 겪는 참혹한 육체적·정신적 사투
+        > Speaking through agony, he murmurs that this pain will pass, that the Light tests my resolve, and that I suffer so others need not
 
 - 노력
     - try to V: ~하려고 노력하다/애쓰다
@@ -2209,6 +2225,14 @@
         > Excuse me, may I use the washroom?
 
 - 두려움
+    - fear: 두려움, 공포; 두려워하다ㅣ
+        * 코어 이미지: 어두운 골목길에서 갑자기 맹수를 마주치거나 화재 경보가 울리는 순간, 아드레날린이 솟구치며 등골이 서늘해지고 "도망칠 것인가, 싸울 것인가(Fight or Flight)"를 결정하게 만드는 급성 반사 반응의 모습
+        * 초점: 현재 눈앞에 존재하는 자극에 대한 즉각적·원초적 감정 (Acute & Visceral Reaction)
+        > He overcame his fear of public speaking before delivering the conference keynote
+    - dread: (앞으로 닥칠 일에 대한) 극도의 불안, 두려움, 공포; 몹시 두려워하다/꺼리다
+        * 코어 이미지: 피할 수 없는 치과 치료나 혹독한 심사 날짜가 달력에 적혀 있을 때, 그날이 한 걸음씩 다가올수록 명치끝이 납덩이처럼 차갑게 굳어오며 온몸을 서서히 옥죄어오는 예견된 암운(Shadow)의 모습
+        * 초점: 미래에 닥쳐올 고통이나 불쾌한 사태를 앞두고 느끼는 만성적이고 무거운 예견적 공포 (Anticipatory & Lingering Burden)
+        > Paralyzed by the terror of fighting Orcs in a dead end, he ultimately overcame that dread out of a fierce resolve to protect his companions.
     - afraid: 두려워하는, 겁내는; 유감스러워하는
         * 코어 이미지: 어두운 숲길에서 가슴이 조마조마하고 위축되어 있는 심리적 상태
         * 초점: 위험이나 불확실한 결과에 대해 마음속으로 걱정하고 두려워하는 지속적 상태
@@ -2319,7 +2343,14 @@
         * 코어 이미지: 바닥을 알 수 없는 칠흑 같은 심해로 끝없이 가라앉아, 더 이상 발버둥 칠 힘조차 남지 않은 모습 (Total Blackout / Free-falling into the Void)
         * 초점: '희망의 완전한 소멸과 무력감(Helplessness)'
         > Turning failure into success demands relentless effort-a process invariable accompanied by pain, discouragement, and despair
-
+    - depress: 우울하게 만들다, 낙담시키다, (경기 등을) 침체시키다
+        * 코어 이미지: 높이 있던 에너지를 물리적으로 꾹 눌러 바닥으로 내려앉히는 느낌
+        * 초점: 특정 행동 여부와 상관없이, 사람의 기분·활력·수치가 물리적으로 무거운 짐에 짓눌려 밑바닥으로 침하하는 상태
+        > Gloomy and rainy weather always depresses my mood
+    - discourage: 낙담시키다, 의욕을 꺾다, (~하지 못하게) 단념시키다
+        * 코어 이미지: 앞으로 나아가려는 발걸음을 멈춰 세우는 벽
+        * 초점: 어떤 일이나 목표를 향해 달려가려 할 때, 앞을 가로막고 의욕의 브레이크를 밟아 포기하게 만드는 힘
+        > Whenever I feel discouraged like this, I tend to avoid spaces where I have to interact with others
 
 - 끔찍한
     - nasty: 혐오스러운
@@ -2421,11 +2452,11 @@
         > I'm glad you could make it to the party despite the rain
 
 - 유도하다
-    - prompt: 유도하다
+    - prompt: 재촉하다, 자극하다, 촉발하다
         * 코어 이미지: 질문 큐카드를 보여주며 다음 대답을 하도록 직접 신호를 줌
         * 초점: 호기심이나 동기가 작용하여 상대방이 특정 행동을 취하도록 직접 촉발·독려함
         > Curiosity prompted him to ask a question
-    - nudge: 유도하다
+    - nudge: (팔꿈치로) 쿡 찌르다, 은근히 떠밀다/유도하다
         * 코어 이미지: 팔꿈치로 옆구리를 슬쩍 건드리며 부드럽게 행동을 권유함
         * 초점: 강요 없이 넌지시 알아채지 못하게 슬쩍 짚어주며 부드럽게 유도함
         > I had to nudge him to make a timely decision
@@ -2692,6 +2723,18 @@
         * 코어 이미지: 저 멀리 있던 사람이 보폭을 좁히며 내 바로 앞까지 성큼성큼 다가옴
         * 초점: 물리적인 거리나 특정 장소를 향해 가까이 다가가거나 방문함
         > Then he realized that he needed to get a real business education so he came up to take Ben's course at Columbia, where we met in early 1951.
+    - come: 오다, 다가오다
+        * 코어 이미지: 화자(또는 대화의 중심 기준점)가 서 있는 자리를 향해 외부의 대상이 시야 안으로 들어와 마침내 이곳에 다다르는 직관적인 발걸음
+        * 초점: 기준점(화자가 있는 곳)으로의 단순한 이동 및 도착 (Destination-Centered Arrival)
+        > Can you come closer to the microphone so the audio recorder picks up your voice clearly?
+    - approach: 접근하다, 다가가다
+        * 코어 이미지: 목표 지점을 레이더 화면에 띄워놓고, 출발지에서 목표지점 사이의 거리 벡터($\Delta \vec{r}$)를 점진적이고 정밀하게 좁혀나가는 궤적의 모습
+        * 초점: 목표를 향해 능동적으로 거리를 좁히는 궤적, 전략적 접근, 그리고 학술적 방법론 (Intentional Trajectory & Methodology)
+        > As the autonomous rover approaches the obstacle, its obstacle-avoidance algorithm engages
+    - draw near: (때나 사건이) 가까워지다, 성큼 다가오다; (물리적으로) 서서히 다가서다
+        * 코어 이미지: 줄을 당겨(Draw) 무거운 배를 서서히 부두로 끌어당기듯, 시간의 흐름이나 피할 수 없는 거대한 운명·사건이 마치 장막이 걷히며 서서히 현실로 다가오는 문예적이고 무게감 있는 풍경
+        * 초점: 시간, 계절, 결단의 순간이 불가항력적으로 다가오는 엄숙한 임박감 (Solemn Imminence & Literary Atmosphere)
+        > As the day of my return to Korea draws near, the loneliness within me seems to deepen
 
 - 성공
     - come off: 성공하다, 이루어지다
@@ -3490,16 +3533,30 @@
         * 초점: 특정 환경, 고물가, 혹은 반복되는 행위에 완전히 익숙해져서 편안한 상태
         > I am used to living in Geneva and managing high expenses
 
-- 줄이다, 낮추다, 제거하다
-    - cut back: 줄이다, 낮추다, 제거하다
+- 제거하다
+    - remove: 제거하다, 치우다, 없애다
+        * 코어 이미지: 방 한가운데를 차지하던 낡은 소파를 문밖으로 덜어내어 치움
+        * 초점: 특정 위치나 데이터에서 대상을 덜어내어 완전히 치우거나 제외함
+        > Please remove the temporary cache files before running the benchmark
+    - eliminate: 탈락시키다, 완전히 제거하다
+        * 코어 이미지: 잡초의 뿌리를 통째로 뽑아내어 재발의 싹을 완전히 없앰
+        * 초점: 위험, 에러, 결함, 경쟁자 등을 완전히 박멸하여 배제함
+        > The new pipeline eliminates redundant memory allocations
+    - strip away: (불필요한 것을) 벗겨 내다, 걷어내다
+        * 코어 이미지: 양파 껍질을 한 겹씩 벗겨내어 가장 순수한 핵심 알맹이만 남김
+        * 초점: 가장 본질적인 핵심만 남기기 위해 주변의 군더더기와 겉치레를 모두 깎아냄
+        > Focusing is about stripping away everything except the one thing that truly matters
+
+- 줄이다, 낮추다
+    - cut back: (비용·수량 등을) 축소하다, 줄이다
         * 코어 이미지: 가지치기 가위로 무성한 나뭇가지를 싹둑 잘라내어 양을 줄임
         * 초점: 지출, 카페인 섭취, 예산 등의 양을 의도적으로 감축하고 줄임
         > I decided to cut back on coffee to improve my sleep quality
-    - lose: 줄이다, 낮추다, 제거하다
+    - lose: 빠지다
         * 코어 이미지: 다이어트를 통해 체중계의 눈금을 5kg 아래로 떨어뜨림
         * 초점: 체중, 재산, 열쇠 등을 상실하거나 정량적으로 감량함
         > He managed to lose 10 kilograms through consistent exercise
-    - reduce: 줄이다, 낮추다, 제거하다
+    - reduce: (크기·양·수치 등을) 줄이다, 낮추다
         * 코어 이미지: 알고리즘의 불필요한 연산 루프를 줄여 처리 시간을 단축함
         * 초점: 크기, 수량, 비용, 위험도의 양을 전반적으로 낮추고 감소시킴
         > We need to reduce the computational complexity of the algorithm
@@ -3508,18 +3565,10 @@
         * 초점: 목소리 볼륨, 물가 상승률, 소음 등을 낮은 수준으로 억제하여 유지함
         > Please keep your voice down in the quiet study room
         > The government tried to keep down inflation
-    - remove: 줄이다, 낮추다, 제거하다
-        * 코어 이미지: 방 한가운데를 차지하던 낡은 소파를 문밖으로 덜어내어 치움
-        * 초점: 특정 위치나 데이터에서 대상을 덜어내어 완전히 치우거나 제외함
-        > Please remove the temporary cache files before running the benchmark
-    - eliminate: 줄이다, 낮추다, 제거하다
-        * 코어 이미지: 잡초의 뿌리를 통째로 뽑아내어 재발의 싹을 완전히 없앰
-        * 초점: 위험, 에러, 결함, 경쟁자 등을 완전히 박멸하여 배제함
-        > The new pipeline eliminates redundant memory allocations
-    - strip away: 줄이다, 낮추다, 제거하다
-        * 코어 이미지: 양파 껍질을 한 겹씩 벗겨내어 가장 순수한 핵심 알맹이만 남김
-        * 초점: 가장 본질적인 핵심만 남기기 위해 주변의 군더더기와 겉치레를 모두 깎아냄
-        > Focusing is about stripping away everything except the one thing that truly matters
+    - shrink: 줄어들다, 쪼그라들다
+        * 코어 이미지: 뜨거운 물에 빨래를 넣었을 때 섬유가 응축되듯, 수분이 빠져나가거나 차가워지면서 사물의 외곽선 전체가 안쪽으로 오그라들어 크기가 작아지는 모습
+        * 초점: 물리적 부피의 수축, 시장이나 조직의 위축, 본능적 움츠림 (Physical Contraction & Spontaneous Diminishing)
+        > The metal collar will shrink as it cools, forming a tight mechanical fit around the shaft.
 
 - 가치
     - appreciate: 가치
@@ -3528,30 +3577,32 @@
         > My supervisor appreciates my hard work and dedication
         > You need to appreciate how difficult this optimization problem really is
 
-- 게다가
-    - plus: 게다가
-        * 코어 이미지: 플러스(+) 기호로 가볍게 보탬
-        * 초점: 일상 대화나 가벼운 글에서 생각난 김에 가볍게 한마디 더 얹어 보탤 때 사용
-        > The apartment is very quiet. Plus, it's only five minutes from the lab
-    - moreover: 게다가
-        * 코어 이미지: 논문 결론부에서 앞선 주장을 쐐기 박는 더 강력한 결정적 증거를 추가함
-        * 초점: 학술 보고서나 논문에서 앞선 논거를 한층 더 강력하게 뒷받침하는 핵심 근거를 추가함
-        > The results of the preliminary study are inconclusive. Moreover, the sample size was too small
-    - strength: 게다가
+- 힘
+    - strength: (육체적·정신적) 힘, 강점
         * 코어 이미지: 거친 파도를 맞아도 부서지지 않는 내면의 단단한 맷집과 바위 같은 저력
         * 초점: 내적으로 축적된 단단한 체력, 정신적 맷집, 혹은 고유한 핵심 강점
         > Interest and genuine support from others can give them immense strength
-    - power: 게다가
+    - power: (강력한) 힘, 권력, 영향력
         * 코어 이미지: 번개가 내리치듯 외부로 거대하게 행사되는 물리적·사회적 폭발력
         * 초점: 외부를 지배하고 통제하며 발휘되는 강력한 영향력과 폭발적인 물리적 힘
         > The motor provides sufficient power to actuate the robotic exoskeleton
-
+    
+- 게다가
+    - plus: ~에 더해, 게다가
+        * 코어 이미지: 플러스(+) 기호로 가볍게 보탬
+        * 초점: 일상 대화나 가벼운 글에서 생각난 김에 가볍게 한마디 더 얹어 보탤 때 사용
+        > The apartment is very quiet. Plus, it's only five minutes from the lab
+    - moreover: 게다가, 더욱이
+        * 코어 이미지: 논문 결론부에서 앞선 주장을 쐐기 박는 더 강력한 결정적 증거를 추가함
+        * 초점: 학술 보고서나 논문에서 앞선 논거를 한층 더 강력하게 뒷받침하는 핵심 근거를 추가함
+        > The results of the preliminary study are inconclusive. Moreover, the sample size was too small
+    
 - 붐비는, 혼잡한
     - crowded: 붐비는, 혼잡한
         * 코어 이미지: 주말 명동 거리처럼 수많은 인파가 물결치며 북적북적한 풍경
         * 초점: 사람이 많아 북적거리고 혼잡한 상태를 나타내는 가장 표준적인 표현
         > The shopping mall is always crowded on Saturday afternoons
-    - packed: 붐비는, 혼잡한
+    - packed: 꽉 찬, 만원인
         * 코어 이미지: 출퇴근길 지옥철처럼 상자 속에 통조림처럼 사람들이 빈틈없이 꽉 들어참
         * 초점: 더 이상 발 디딜 틈도 없이 사람들로 빽빽하게 꽉 차 있는 상태 (구어체)
         > The morning tram is usually packed so I can't even read my book
@@ -3577,12 +3628,6 @@
         * 코어 이미지: 귀로 들어온 단어가 뇌 속 신경망에 전파되어 마음에 쿵 하고 와닿음
         * 초점: 들은 말이나 목격한 사실이 뇌리에 인식되고 마음속에 의미 있게 와닿음
         > I was in such shock that his words just didn't register at first
-
-- 처럼
-    - just like: 처럼
-        * 코어 이미지: 롤모델의 멋진 발자국을 그대로 따라 밟으며 자신을 북돋움
-        * 초점: 'Just like + 명사' 형태로 존경하는 대상과 똑같이 행동함을 강조할 때 사용
-        > Just like Ji-sung Park, I cheered myself up today regarding yesterday's lab meeting.
 
 - 연락하다
     - reach out: 연락하다
@@ -3683,6 +3728,11 @@
         * 코어 이미지: 두 사건이 1초의 오차도 없이 딱 맞물리는 순간
         * 초점: A와 B의 메커니즘이나 성질이 완벽하게 닮아 있음(Homology)
         > Just as camera calibration requires a checkerboard to establish reference grid points, I designed a grid for my own mental calibration
+    - just like: ~처럼
+        * 코어 이미지: 롤모델의 멋진 발자국을 그대로 따라 밟으며 자신을 북돋움
+        * 초점: 'Just like + 명사' 형태로 존경하는 대상과 똑같이 행동함을 강조할 때 사용
+        > Just like Ji-sung Park, I cheered myself up today regarding yesterday's lab meeting.
+    
 - 지정하다
     - assign: (과업·역할을) 배정하다, 할당하다
         * 코어 이미지: 팀원들의 이름표 옆에 각자 책임질 프로젝트 과업을 하나씩 배정함
@@ -3696,11 +3746,11 @@
         > This area is designated as a non-smoking zone
 
 - 기쁜, 만족스러운
-    - glad: 기쁜, 만족스러운
+    - glad: 기쁜, 다행인
         * 코어 이미지: 가슴을 쓸어내리며 환하게 웃는 따뜻한 미소
         * 초점: 안도감 및 순수한 기쁨 (좋은 일에 대한 즉각적·정서적 반응)
         > I'm glad you arrived safely
-    - pleased: 기쁜, 만족스러운
+    - pleased: 기쁜, 만족해하는
         * 코어 이미지: 기대치나 기준이 채워져 단정하게 짓는 품위 있는 미소
         * 초점: 만족감과 품위 있는 평가 (기준 충족, 성과, 정중한 태도)
         > It's hard to please everyone
@@ -3717,11 +3767,11 @@
         > I wonder what made the host leave fresh peaches on my desk
 
 - ~전에
-    - before: ~전에
+    - before: ~하기 전에, 이전에
         * 코어 이미지: 타임라인 상에서 어떤 기준점보다 단순히 앞선 일상적 시간대
         * 초점: 시간과 순서의 직관적 선후 관계를 나타내는 가장 보편적인 표현
         > Wash your hands before eating
-    - prior to: ~전에
+    - prior to: ~에 앞서 / ~보다 사전에
         * 코어 이미지: 공식 비행 전 조종사가 반드시 완료해야 하는 사전 체크리스트
         * 초점: 공식 일정, 규정, 조건에 앞서 이행되어야 하는 형식적 선행 시점 (격식체)
         > Prior to the meeting, all participants must review the documentation
@@ -3739,24 +3789,24 @@
         > The host cooked the dish using fresh local ingredients
 
 - 붙다, 달라붙다
-    - attach to: 붙다, 달라붙다
+    - attach to: 부착하다, 첨부하다, 의미를 부여하다
         * 코어 이미지: 클립이나 고리로 두 대상을 깔끔하게 맞물려 연결하는 결속
         * 초점: 분리 가능한 결속, 소속, 혹은 문서에 부착된 정갈한 연결 상태
         > Please see the file attached to this email
         > A price tag was attached to the box
-    - stick to: 붙다, 달라붙다
+    - stick to: 붙다, 달라붙다, 고수하다
         * 코어 이미지: 풀이나 끈적한 껌처럼 접착면이 착 달라붙어 떨어지지 않고 밀착함
         * 초점: 쉽게 떼어낼 수 없는 물리적 밀착 및 원칙/계획을 끝까지 고수함
         > The rice was stuck to the bottom of the container
         > Chewing gum stuck to the sole of my shoe
 
 - 찾아오다, 오다
-    - come to: 찾아오다, 오다
+    - come to: 생각이 떠오르다, ~하게 되다
         * 코어 이미지: 목적지를 향해 날아와 의식의 중심에 꽂히는 번뜩이는 영감의 화살
         * 초점: 아이디어나 해답이 머릿속에 번뜩 떠오르거나 직관적으로 인식되는 순간
         > A single word came to my mind: Curiosity
         > The mathematical answer suddenly came to me while walking
-    - wash over: 찾아오다, 오다
+    - wash over: ~을 온통 뒤덮다, 감정이 밀려오다
         * 코어 이미지: 거대한 파도가 몸 전체를 덮치고 휩쓸고 지나가듯 감정이 밀려옴
         * 초점: 외로움, 안도감 등 강렬하고 묵직한 감정이 온몸을 압도하여 침투함
         > A heavy wave of loneliness washed over me
@@ -3767,18 +3817,18 @@
         * 코어 이미지: 식사를 하거나 산책을 하기 위해 건물 문을 열고 실외로 이동함
         * 초점: 야외로 나가는 구체적인 목적이나 물리적 이동 행위 그 자체
         > I had to go outside to eat lunch because I forgot my spoon
-    - step outside: 밖으로 나가다
+    - step outside: 잠깐 밖에 나가다
         * 코어 이미지: 문턱의 경계선을 넘어 실내 공간을 벗어나 바깥 공기를 마주하는 찰나
         * 초점: 실내의 경계선을 벗어나 바깥 공기를 쐬는 신체 동작의 순간에 집중
         > When I stepped outside, it wasn't just drizzling—it was pouring
         > Let's step outside for some fresh air
 
 - 그래도, 그럼에도 불구하고
-    - still: 그래도, 그럼에도 불구하고
+    - still: 그럼에도 불구하고, 여전히
         * 코어 이미지: 거센 비바람 속에서도 꿋꿋이 서 있는 바위처럼 굴하지 않는 결연함
         * 초점: 강한 역경과 대비하여 그럼에도 굴하지 않고 결연하게 행위를 강행함을 강조
         > It was pouring down. Still, I ran through the rain to get away from the office
-    - though: 그래도, 그럼에도 불구하고
+    - though: 하지만, 그렇지만, ~이긴 하지만
         * 코어 이미지: 앞선 사실을 툭 인정하고 나서 문장 끝에서 가볍게 단서를 달아 꺾어줌
         * 초점: 비록 앞선 내용이 사실이지만 그래도 이것 또한 맞다며 문장 끝에서 쿨하게 단서를 덧붙임
         > The rent is high in Geneva. I love the quiet neighborhood, though
@@ -3788,7 +3838,7 @@
         * 코어 이미지: 말하듯 툭 던지는 일상적이고 직관적인 관찰과 인상
         * 초점: 겉보기에 느껴지는 직관적인 모양새나 인상을 가볍게 표현
         > It feels like my English has improved significantly
-    - as if: 인것 처럼, 마치 ~듯이
+    - as if: 마치 ~인 것처럼, ~인 양
         * 코어 이미지: 머릿속으로 상상해 보는 생생한 가상 시나리오의 영화 장면
         * 초점: 실제와 다른 가상의 상황을 눈앞에 보듯 생생하게 묘사함
         > He acts as if he knew everything
@@ -3800,31 +3850,21 @@
         > He spoke as though he owned the entire lab
         > The old house stood silent, as though waiting for its owners to return
 
-- 부정적 감정
-    - depress: 부정적 감정
-        * 코어 이미지: 높이 있던 에너지를 물리적으로 꾹 눌러 바닥으로 내려앉히는 느낌
-        * 초점: 특정 행동 여부와 상관없이, 사람의 기분·활력·수치가 물리적으로 무거운 짐에 짓눌려 밑바닥으로 침하하는 상태
-        > Gloomy and rainy weather always depresses my mood
-    - discourage: 부정적 감정
-        * 코어 이미지: 앞으로 나아가려는 발걸음을 멈춰 세우는 벽
-        * 초점: 어떤 일이나 목표를 향해 달려가려 할 때, 앞을 가로막고 의욕의 브레이크를 밟아 포기하게 만드는 힘
-        > Whenever I feel discouraged like this, I tend to avoid spaces where I have to interact with others
-
 - 향상되다
-    - improve: 향상되다
+    - improve: 개선하다, 향상시키다
         * 코어 이미지: 사포질이나 조율을 통해 품질을 높이는 선형적 상승
         * 초점: 과정 및 상태 변화 (더 나은 효율, 결점 보완, 완성도)
         > We need to improve the algorithm to reduce latency
-    - level up: 향상되다
+    - level up: 한 단계 끌어올리다, 레벨업하다
         * 코어 이미지: 게임에서 경험치가 차올라 다음 층계로 점프하는 단절적 도약
         * 초점: 새로운 단계 진입 (체급 상승, 새로운 권한, 역량 획득)
         > Securing this contract will help our startup level up
 
 - 의지
-    - resolve: 의지
+    - resolve: 결심, 다짐 / 해결하다
         * 코어 이미지: 복잡한 갈등이나 고민 끝에 단단하게 매듭을 짓고 확정한 결심
         * 초점: 목표에 대한 확고한 결단력 및 꺾이지 않는 마음. 특히 역경이나 유혹 앞에서도 "이 길을 가겠다고"고 굳게 정한 상태에 초점이 있음
-    - will: 의지
+    - will: 의지, 유언장 / ~할 것이다
         * 코어 이미지: 마음속 깊은 곳 원초적인 불꽃/에너지
         * 초점: 내면의 의지력, 욕망의 힘, 자기 통제력. 무언가를 행동으로 밀어붙이거나 유혹을 참아내는 전반적인 정신력
 
@@ -3947,11 +3987,16 @@
     - overcome: 극복하다, 이겨내다
         * 코어 이미지: 나를 짓누르거나 가로막고 있는 대상(적, 감정, 장벽)의 머리 위로 발을 딛고 올라서서 완전히 내리누르며 제압하는 모습 (Coming over and subduing)
         * 초점: 외적인 문제뿐만 아니라 두려움, 슬픔, 트라우마, 편견, 중독 등 주체 내부에서 일어나는 저항을 싸워 이겨내는 심리적·정서적 극복
+        > A truly courageous person is not someone without fear, but someone who overcomes it
     - surmount: (난관·장애물을) 극복하다, 뛰어넘다
         * 코어 이미지: 가파른 산(Mount)이나 높은 벽을 기어올라 정상에 섬
         * 초점: 내면의 감정보다는, 객관적으로 눈앞에 버티고 서 있는 '거대하고 벅차 보이는 외적 난관, 장애물, 구조적 한계'를 끈기와 노력으로 뛰어넘을 때 씀
         > Yet no matter how much imagination we summon, there are times when it feels impossible to surmount
-
+    - defeat: 패배시키다, 무찌르다
+        * 코어 이미지: 체스판에서 상대의 킹을 쓰러뜨리거나 전장에서 적군을 무장해제시키듯, 대결 구도(Two-party contest)에서 상대방을 바닥에 눕혀 '패자'로 만들어버리는 결정타의 모습
+        * 초점: 경쟁자, 적, 상대방에 대한 직접적 승리와 제압 (Direct Rivalry & Elimination)
+        > The deep reinforcement learning agent defeated the grandmaster in five consecutive matches
+    
 - 부여하다
     - endow with: (재능이나 특권을) 부여하다, 타고나게 하다
         * 코어 이미지: 요정이 요술봉을 휘둘러 갓 태어난 아기에게 천부적인 음악적 재능을 선물하는 축복
@@ -3962,3 +4007,126 @@
         * 초점: 스스로 결정을 내리고 행동할 수 있는 주체성, 자율권 및 공식적 권한(Agency, Autonomy & Practical Authority)
         > The new interactive dashboard empowers researchers to inspect latency in real time
         
+- 내보내다
+    - launch: (로켓·배를) 진수하다, 발사하다; (신제품·프로젝트를) 개시하다, 출시하다
+        * 코어 이미지: 발사대에서 거대한 화염을 뿜으며 로켓을 허공으로 쏘아 올리듯, 막대한 자원과 마케팅 화력을 집중해 새로운 프로젝트나 제품을 시장 궤도에 진입시키는 역동적 개시
+        * 초점: 시작점(Inception), 추진력, 거대한 캠페인을 동반한 시장 진입
+    - release: 놓아주다, 석방하다; (소프트웨어·음반 등을) 공개하다, 배포하다
+        * 코어 이미지: 손안에 쥐고 있던 새의 날개를 놓아 창공으로 날려 보내거나 댐의 수문을 열듯, 내부에서 완성하고 쥐고 있던 결과물을 세상 밖으로 풀어놓는(Re-lease) 모습
+        * 초점: 통제 해제, 버전의 정식 배포, 대중에게의 공개 (Distribution & Availability)
+        > The development team will release the stable update (v2.4) by the end of this week
+
+- 깊은 울림을 주는
+    - poignant: 가슴에 사무치는, 애절한, 마음을 찌르는 듯한
+        * 코어 이미지: 날카로운 바늘 끝(Point/Pungent)이 가슴 한구석을 콕 찔러, 순간적으로 서글픔, 회한, 덧없음의 감정이 울컥 차오르는 쓰라린 울림
+        * 초점: 상실, 이별, 시간의 덧없음에서 오는 정서적 아픔과 애틋한 여운 (Heartbreaking & Bittersweet)
+        > The documentary ends with a poignant portrait of the abandoned observatory
+    - profound: (지혜·영향이) 심오한, 깊은; (감정이) 지극한
+        * 코어 이미지: 빛도 닿지 않는 깊은 바다 바닥(Fundus)까지 내려가듯, 표면적 껍데기를 뚫고 우주나 인간 내면의 가장 밑바닥 근원에 닿아 있는 묵직한 깊이
+        * 초점: 지적 통찰의 깊이, 이론의 심오함, 구조를 뒤흔드는 거대한 영향력 (Deep Intellect & Far-reaching Impact)
+        > The discovery of non-Euclidean geometry had a profound impact on modern cosmology
+
+- 빛
+    - glare: (명사/동사) 노려봄, 노려보다; (눈부신) 번쩍임, 눈이 부시게 타오르는 강한 빛
+        * 코어 이미지: 구름 한 점 없는 사막의 대낮에 눈이 멀 정도로 쨍하게 내리꽂히는 태양빛, 혹은 그와 똑같은 온도와 세기로 상대를 태워 죽일 듯이 쏘아보는 살벌한 눈빛
+        * 초점: 공격적이고 강렬하게 쏟아붓는 빛 또는 분노에 찬 시선
+        > Light never strikes us in a pure, straight line, Countless obstacles stand between the source and ourselves: clouds, air, competing glares, landscapes, people, and objects
+    
+- 인과관계
+    - attribute A to B: A는 B 덕분이다
+        * 코어 이미지: 분석관이나 연구자가 손에 결과물 $A$를 쥐고, 여러 원인 후보들을 살펴보다가 "이 결과 $A$의 원인은 바로 $B$다!"라고 명확하게 화살표를 그어 배속(Assign)시키는 능동적 행위의 모습
+        * 초점: 판단 주체(연구자/화자)의 해석, 주장, 또는 가치 평가 행위
+        > We attribute the trajectory tracking error to nonlinear gear backlash
+        > The authors attribute the sudden divergence to numerical instability in the solver
+    - A is attributed to B: A는 B 덕분이다
+        * 코어 이미지: 실험대 위에 놓인 기이한 현상이나 데이터 $A$를 두고, 분석자들은 장막 뒤로 물러선 채 그 현상 $A$의 뿌리와 기원이 $B$에 닿아 있음을 객관적으로 규명해 조명하는 모습
+        * 초점: 관찰된 현상(A) 자체의 객관적 속성과 원인(B)으로의 인과적 귀속
+        > The tracking error was largely attributed to sensor noise
+        > The sudden temperature rise can be attributed to inadequate coolant flow
+
+- 운명
+    - be meant to be: 운명이다, 그렇게 될 인연이다
+        * 코어 이미지: 수많은 우연과 엇갈림을 거치더라도 결국 완벽하게 맞아떨어지는 퍼즐 조각처럼, 운명(Fate)의 거대한 시나리오에 이미 적혀 있는 필연
+        * 초점: 사람 간의 인연(Soulmates), 또는 우여곡절 끝에 결국 이루어진 필연적인 결과
+        > We were meant to be
+        > Become who you meant to be
+
+- 깊어지다
+    - deepen: 깊어지다, 심화시키다, (색·소리가) 짙어지다/낮아지다
+        * 코어 이미지: 잔잔한 호수의 바닥이 밑으로 쑥 꺼지며 어두운 심연(Depth)으로 침잠하듯, 생각, 침묵, 학문적 통찰, 또는 갈등이 수직으로 깊숙이 파고드는 모습
+        * 초점: 내면적 깊이, 복잡성, 강도의 수직적 심화 (Vertical/Internal Intensification)
+        > As the day of my return to Korea draws near, the loneliness within me seems to deepen.
+    - swell: 부풀어 오르다, 팽창하다; (감정·소리가) 차오르다, 커지다; (명사) 파도의 너울
+        * 코어 이미지: 물에 젖은 스펀지가 부피를 키우거나 먼바다의 거대한 너울(Swell)이 해안을 향해 불룩 솟아오르듯, 내부 압력이나 감정이 바깥으로 밀고 나오며 외형적으로 불어나는 모습
+        * 초점: 물리적 부피의 팽창, 벅차오르는 감정의 고조 (Volumetric Expansion & Surging Surge)
+        > His heart swelled with quiet pride when the autonomous system passed its final benchmark.
+
+- 구체적으로
+    - concretely: 구체적으로, 실질적으로, 손에 잡히도록, 현실적인 형태로
+        * 코어 이미지: 공중에 떠다니는 모호한 구름(추상적 이론)에 모래와 시멘트를 섞고 물을 부어 딱딱하고 단단한 콘크리트 덩어리(Concrete)로 굳혀 손으로 만질 수 있는 실물로 바닥에 내려놓는 모습
+        * 초점: 추상(Abstract)의 반대편: 현실 세계에서의 실체화, 가시화, 그리고 실질적 구현 (Tangible Realization)
+        > Concretely, it means not fearing the judgment and gaze of others when showing those imperfections.
+
+    - specifically: 구체적으로 말하자면, 명확하게, 특히, 명시적으로
+        * 코어 이미지: 수많은 군중이나 넓은 지도 위에서, 레이저 포인터나 돋보기 초점을 맞춰 특정 대상(Specifics) 딱 하나를 집어내며(Pinpoint) 다른 것들과 섞이지 않게 칼같이 경계를 긋는 모습
+        * 초점: 일반성(General)의 반대편: 범위 좁히기, 명시적 지목, 오차 없는 특정화 (Pinpoint Particularity)
+        > The protocol specifically forbids unauthenticated memory write operations
+
+- 결함
+    - defect: (명사) 결함, 하자, 결손
+        * 코어 이미지: 공장 조립 라인에서 최종 검수기를 통과할 때, 필수 부품이 빠져 있거나 규격 허용 오차를 벗어나 '불합격(Fail)' 도장이 찍히는 하자의 모습
+        * 초점: 기능적 결여, 규격 미달, 작동 불능을 유발하는 치명적인 하자 (Functional Non-conformity)
+        > Maybe, the courage is not afraid of showing the defect of self.
+    - flaw: 흠,균열, 결점, (논리·성격의) 허점; 흠을 내다
+        * 코어 이미지: 투명한 다이아몬드나 단단한 칼날 표면에 가느다란 실금(Crack)이 쩍 그어져 있어, 힘을 주면 그 균열을 따라 부서질 것 같은 취약점의 모습
+        * 초점: 완성도를 훼손하거나 구조적 취약성을 내포한 균열, 또는 논리·주장의 치명적 빈틈 (Inherent Crack & Logical Loophole)
+        > The reviewer pinpointed a fatal flaw in the mathematical derivation of the stability proof
+    - imperfection: (완벽하지 못한) 불완전함, 미미한 흠, 사소한 단점
+        * 코어 이미지: 손으로 빚은 도자기 표면에 묻은 작은 점이나 천연 목재의 불규칙한 결처럼, 100% 매끈한 이상적 상태(Perfection)에서 살짝 벗어나 있지만 기능에는 지장이 없고 오히려 자연스러운 미완의 모습
+        * 초점: 이상적 완벽함(100%)과의 사소한 괴리, 용인 가능한 수준의 비균일성 (Departure from Ideal State)
+        > Concretely, it means not fearing the judgment and gaze of others when showing those imperfections.
+    
+- 무모함
+    - dutch courage: (명사) 술기운에 내는 용기, 만취의 호기
+        * 코어 이미지: 맨정신으로는 도저히 할 수 없는 고백이나 담판을 앞두고, 독한 진(Gin)이나 위스키 한 잔을 단숨에 털어 넣어 알코올로 전두엽의 공포 회로를 일시적으로 마비시킨 뒤 비틀거리며 내딛는 발걸음의 모습
+        * 초점: 내적 확신이 없어 외부 물질(알코올)을 빌려 일시적으로 유도해낸 인위적 담력 (Chemically Induced False Boldness)
+        > He needed a shot of whiskey for a bit of Dutch courage before confronting his demanding project advisor.
+    - recklessness: (명사) 무모함, 난폭함, 앞뒤를 가리지 않음
+        * 코어 이미지: 브레이크 페달이 완전히 고장 난 트럭을 몰고 급커브 내리막길을 전속력으로 질주하듯, 자신이나 타인에게 닥칠 물리적 파멸이나 재앙을 뻔히 알면서도 개의치 않고 가속 페달만 밟아대는 통제 불능의 모습
+        * 초점: 결과, 파장, 위험에 대한 배려와 인지적 제동 장치가 완전히 결여된 돌진 (Blatant Disregard for Consequences)
+        > Abstractly, it is taking a risk while being fully aware of what that risk entails. Acting without evaluating the risk is not courage; it is mere recklessness.
+    - bravado: 허세, 만용, 겉치레 대담함
+        * 코어 이미지: 안에서는 심장이 두려움으로 세차게 쿵쾅거리고 손이 덜덜 떨리는데도, 어깨를 쫙 펴고 턱을 치켜들며 "이 정도쯤이야 아무것도 아니지"라며 큰소리치는 연극배우의 가면 같은 모습
+        * 초점: 내면의 불안과 취약성을 은폐하고 타인에게 과시하기 위해 연출된 가짜 담대함 (Theatrical Facade to Mask Insecurity)
+        > Despite his swaggering bravado, the young engineer was visibly trembling during his first technical defense
+    
+- 겁
+    - coward: 겁쟁이, 비겁자; 비겁한
+        * 코어 이미지: 동료들과 함께 지켜야 할 전선에서, 적의 포화가 떨어지자마자 등 뒤에 남겨질 동료들의 목숨이나 약속을 팽개치고 오직 자기 한 몸 살겠다고 뒤돌아 도망치는 뒷모습
+        * 초점: 도덕적 의무와 신의를 저버리고 자신의 안위만을 택한 비겁함 (Moral Failure & Disgraceful Evasion)
+        > He was branded a coward for deserting his unit when the hostile skirmish broke out
+    - fainthearted: 용기가 없는, 소심한, 마음이 약한
+        * 코어 이미지: 험준하고 가파른 암벽을 올려다보았을 때, 심장의 펌프질이 잦아들며(Faint-heart) 현기증이 나고 다리가 풀려 감히 한 발자국도 딛지 못하고 털썩 주저앉는 가냘픈 여행자의 모습
+        * 초점: 과중한 압박, 잔혹한 진실, 거대한 난관을 감당하기 어려워하는 기질적 유약함 (Temperamental Timidity & Frailty)
+        > The surgeon offered comfort to the fainthearted patient before the high-risk procedure
+
+- 부활
+    - resurrection: 부활, 소생, 되살아남
+        * 코어 이미지: 육체가 완전히 부패하고 차갑게 식어 무덤에 묻혀 돌이킬 수 없는 생물학적·영적 사망 선고를 받은 존재가, 초자연적인 힘이나 기적을 통해 관 뚜껑을 열고 완전히 새로운 몸과 생명으로 다시 우뚝 일어서는 모습
+        * 초점: 비가역적 죽음(Absolute Death)의 경계를 뚫고 일어나는 근본적·기적적 부활 (Miraculous Return from Death)
+        > In theological lore, the concept of resurrection promises life triumphant over the finality of physical decay
+    - revival: 회복, 부활, 재유행, 부흥, (의식의) 소생
+        * 코어 이미지: 가뭄에 타들어 가며 시들시들 축 늘어진 화초에 시원한 물을 뿌려주자 줄기가 빳빳하게 힘을 얻고 푸른 잎을 펼치듯, 쇠퇴하거나 잠자던 활력(Vitality)이 수혈을 받아 다시 생생하게 뛰기 시작하는 모습
+        * 초점: 침체기나 기절 상태에 있던 기운, 경제, 문화 사조, 의식의 재활성화 (Restoration of Vitality & Vigor)'
+        > A sudden revival of interest in post-punk garage rock swept through indie music scenes.
+
+- 보여주다
+    - show: 보여주다, 나타내다, (증거·데이터로) 입증하다; (명사) 쇼, 전시
+        * 코어 이미지: 손바닥 위에 물건을 올려놓고 상대방의 시선 앞에 내밀어 "여기 봐봐" 하고 있는 그대로 시야에 담기게 만드는 가장 담백하고 직접적인 제시의 모습
+        * 초점: 정보, 시각적 대상, 데이터의 중립적인 가시화 및 증명 (Neutral Visualization & Demonstration)
+        > Figure 3 shows the convergence rate of the optimization algorithm across varying iterations
+    - expose: 드러내다, 폭로하다, (위험·환경에) 노출시키다, (필름을) 감광시키다
+        * 코어 이미지: 어두운 비밀을 덮고 있던 천이나 기계의 외장 보호 덮개를 홱 걷어내어, 감추고 싶었던 내부의 결함, 회로, 부패, 혹은 연약한 맨살을 사나운 바깥바람과 차가운 조명 아래 무방비로 내던지는 모습
+        * 초점: 감춤의 해제, 치명적인 약점·비리의 폭로, 보호막 없는 위험 노출 (Unmasking Vulnerability & Vulnerable Disclosure)
+        > The stress test exposed a critical concurrency flaw in the multithreaded backend
+

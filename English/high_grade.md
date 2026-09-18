@@ -314,14 +314,53 @@ We must construct an accurate language of the self and a precise language for sh
 
 # Of
 
-of를 보면 소유로 해석하려는 경향이 있다보니, composition의 of를 만났을 때 헷깔림. 이를 구분하는 방법은 A of B 구조에서, B가 주체이고 앞에 오는 A가 B에 속한 일부나 소유물의 경우일 때 ~의라고 해석된다는 것임. 구성의 경우, 앞에 오는 A가 단위, 양, 용기, 덩어리(개념)을 나타내고, 뒤에 오는 B가 구체적인 알맹이일 때임
-- (소유) The cover of the book
-- (구성) 300 calories of a healthy mix of protein and whole grains
+## 범위·선택: ~중에서, ~가운데
+
+전체 집합이나 비교 범위를 제시
+
+> Of all the options, this is the best
+> One of my friends is a doctor
+
+## 주격·목적격 관계 (동사적 행위의 주체 또는 대상)
+
+동작을 뜻하는 추상명사 뒤에서 그 동작을 하는 주체(주어)나 당하는 대상(목적어)을 나타냄
+- 주격 관계 (주어 역할)
+    > the arrival of the train
+- 목적어 관계 (목적어 역할)
+    > the destruction of the city
+    > reading of letters
+
+## Composition
+
+of를 보면 possessive relation으로 해석하려는 경향이 있다보니, composition의 of를 만났을 때 헷깔림. 이를 구분하는 방법은 A of B 구조에서, B가 주체이고 앞에 오는 A가 B에 속한 일부나 소유물의 경우일 때 ~의라고 해석된다는 것임. Composition의 경우, 앞에 오는 A가 단위, 양, 용기, 덩어리(개념)을 나타내고, 뒤에 오는 B가 구체적인 알맹이일 때임
+> (possessive case) The cover of the book
+> (Composition) 300 calories of a healthy mix of protein and whole grains
 
 구체적으로, of가 ~로 이루어진(구성)의 뜻을 가지려면, 앞에 오는 명사가 단위, 용기, 양, 혹은 추상적인 집합 개념(mix, group, collection 등)이어야 함
-- A collection of presents
-- A kg of fish
-- A group of students
+> A collection of presents
+> A kg of fish
+> A group of students
+
+## Possessive relation: ~의
+
+사물의 소유, 신체 부위, 전체의 일부분을 나타낼 때 쓰임
+> the roof of the house
+> a member of the team
+> the beginning of the story
+
+## 내용물·수량·단위
+
+용기 안에 든 내용물이나 수량 단위를 묶어줄 때 씀
+> a cup of coffee
+> a piece of information
+
+## 원인·이유·박탈
+
+특정 동사나 형용사와 결합하여 원인을 나타내거나 분리·박탈을 의미
+> die of cancer
+> be proud of you
+> cure him of the disease
+> rob him of his money
 
 # 분사구문의 주어
 

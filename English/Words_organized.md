@@ -1348,7 +1348,7 @@
             - atrocity: 참혹 행위, 잔학 행위
                 * 코어 이미지: 전쟁터에서 무고한 민간인 마을을 불태우고 무차별 학살을 자행하는 극악무도한 참상
                 * 초점: 인간성을 완전히 상실한 채 저지르는 대규모의 잔혹하고 끔찍한 반인륜적 범죄
-                > The international war crimes tribunal documented the unspeakable atrocities committed during the conflict
+                > Those who committed this atrocity should be tried and punished
         - **기타 상호작용**
             - Go on, ride: 어서 해봐!, 달려봐! (용기를 북돋우는 응원)
                 * 코어 이미지: 자전거를 처음 타는 아이의 등 뒤를 손으로 밀어주며 환하게 웃으며 외치는 응원
