@@ -723,3 +723,12 @@ be used to는 뒤에 오는 품사에 따라 ~에 익수하다 또는 ~하는 �
     > I am used to the cold weather
 - be used to 동사원형: ~하는 데 사용되다
     > This knife is used to cut bread
+
+# 인용
+
+- 직접 인용 (Direct Quotation)
+    * 원작자의 단어와 표현을 글자 하나 바꾸지 않고 따옴표(" ")안에 그대로 가져오는 방식. 원문의 표현 자체가 문학적이거나, 특정 진술의 정확한 문구가 논쟁의 핵심일 때 사용함.
+    > Feynman famously argued, "Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical."
+- 간접 인용 (Paraphrasing / Indirect Quotation)
+    * 원작자의 아이디얼르 내 글의 어조와 문체에 맞춰 자신의 언어로 재구성하여 서술하는 방식. 따옴표를 쓰지 않으며, 학술 논문과 테크니컬 라이팅에서는 직접 인용보다 패러프레이징을 선호함
+    > Feynman pointed out that simulating natural phenomena accurately requires a quantum mechanical approach rather than a classical framework (Feynman, 1982).

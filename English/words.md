@@ -320,3 +320,67 @@
     * 코어 이미지: 바람 부는 날 들판의 갈대나 나뭇가지가 바람의 방향을 따라 이리저리 기우뚱하며 흔들리듯(Sway), 단단히 중심을 잡지 못하고 외부에서 불어오는 말, 여론, 감정에 의해 생각의 중심축이 기울어지는 모습
     * 초점: 독립적이고 객관적인 판단 기준을 잃고, 외부의 압력·달콤한 설득·일시적 감정에 판단이 종속되는 상태 (Loss of Cognitive Independence to External Forces)
     > Unable to utter a word in front of the woman I loved, I simply let time slip away in anxiety, easily swayed by others’ opinions rather than taking bold initiative
+- caught between the two: 둘 사이에 끼인, 양자 사이에서 딜레마에 빠진, 두 선택지/세력 사이에서 이러지도 저러지도 못하는
+    * 코어 이미지: 양쪽에서 서로 반대 방향으로 끌어당기는 두 마리의 말, 혹은 좁혀져 오는 두 개의 거대한 콘크리트 벽 사이에 몸이 끼어버려 어느 한쪽 편을 들 수도, 온전히 빠져나갈 수도 없이 꼼짝달싹 못 하고 압박을 받는 모습
+    * 초점: 양립 불가능한 두 가치, 상충하는 두 집단, 혹은 상반된 두 선택지 사이에서 겪는 갈등과 무력한 고립 (Trapped in a Dual Dilemma / Crossfire)
+    > While moderate stress drives action, excessive stress paralyzes me-and right now, I feel caught right between the two
+- keep me on edge: (마음이나 신경을) 곤두서게 만들다, 안절부절못하게 하다, 긴장의 끈을 늦추지 못하게 팽팽한 상태로 붙잡아두다
+    * 코어 이미지: 발밑이 아득한 깎아지른 절벽의 가장자리(Edge)나 얇고 날카로운 칼날의 등 위에 위태롭게 서 있는 모습. 언제 아래로 굴러떨어질지 몰라 발가락 끝까지 잔뜩 힘을 준 채, 온몸의 신경망이 바짝 당겨져 팽팽한 긴장 상태(Tension)를 유지하고 있는 풍경입니다
+    * 초점: 지속적이고 팽팽한 심리적 긴장감의 유지 (Sustained State of High Anxiety or Anticipation)
+    > I desperately want to relax, but the anxiety about my future keeps me on edge.
+- agonize: 몹시 괴로워하다, 고민하다, 고뇌하다, 고통으로 몸부림치다
+    * 코어 이미지: 고대 그리스의 원형 경기장(Agon) 한복판에서, 두 레슬러가 서로의 뼈마디를 꺾을 듯 엉켜 붙어 땀과 피를 쏟으며 온몸의 근육을 쥐어짜듯 필사적으로 사투를 벌이는 처절한 몸부림의 모습
+    * 초점: 단순히 "생각이 많다(worry)" 수준이 아닙니다. 쉽게 답을 내릴 수 없는 도덕적 딜레마, 중대한 인생의 결단, 혹은 풀리지 않는 난제 앞에서 스스로의 뼈를 깎듯 고통스럽게 번민하는 상태
+    > Despite all the long hours I spent agonizing and working, I felt a follow sadness, as if my accomplishments were utterly meager.
+- utterly: 완전히, 전적으로 철저하게
+    * 코어 이미지: 몸속 깊은 곳에 남아 있던 숨을 마지막 한 방울까지 남김없이 밖으로 전부 뿜어내듯(Out), 어떤 상태나 한계의 '맨 바깥 끝(Outermost)'까지 한 치의 여지도 없이 완전히 밀어붙여 끝장을 낸 모습
+    * 초점: 0 아니면 100"의 이분법적 개념으로, 부분적인 타협의 여지를 완전히 닫아버림
+    > Despite all the long hours I spent agonizing and working, I felt a follow sadness, as if my accomplishments were utterly meager.
+- meager: 메마른 빈약한, 쥐꼬리만한, 불충분한
+    * 코어 이미지: 살가죽이 뼈에 달라붙어 갈비뼈 윤곽이 훤히 드러난 극도로 마른 소나 늑대의 앙상한 몸, 혹은 영양분이 다 빠져나가 잡초조차 자라지 못하는 척박하고 메마른 땅의 모습
+    * 초점: 어떤 목적을 이루거나 정상적으로 생계를 유지하기에는 너무나 보잘것없고 옹색
+    > Despite all the long hours I spent agonizing and working, I felt a follow sadness, as if my accomplishments were utterly meager.
+- terrified: 극도로 겁에 질린, 공포에 사로잡힌, 소스라치게 무서워하는
+    * 코어 이미지: 발밑의 땅 전체가 지진으로 쿵쾅거리며 진동하듯, 상상조차 못 한 거대한 공포의 충격파에 정통으로 맞아 온몸의 뼈마디와 세포가 사시나무 떨듯 와들와들 떨리며 몸이 굳어버린 모습
+    * 초점: 죽음의 위협, 맹수의 공격, 붕괴 사고처럼 도저히 감당할 수 없는 거대한 위험이나 파멸의 가능성을 직면했을 때 터져 나오는 원초적 반응
+    > I was terrified that the time I poured into fighting insurmountable problems would amount to nothing
+- insurmountable: 극복할 수 없는, 넘을 수 없는, 대처 불가능한
+    * 코어 이미지: 하늘을 찌를 듯 수직으로 솟아오른 거대한 암벽 산(Mountain) 앞에 서서 고개를 꺾어 올려다보는 모습. 발을 디딜 틈도, 손을 걸 턱도 전혀 없어 인간의 어떤 도구나 체력으로도 도저히 '그 산꼭대기를 넘어설 수 없는(In-sur-mountable)' 압도적인 장벽의 형상
+    * 초점: 거대한 규모와 압도적인 무게감
+    > I was terrified that the time I poured into fighting insurmountable problems would amount to nothing
+- amount to nothing: 아무것도 아닌 것이 되다, 헛수고가 되다, 무위로 끝나다
+    * 코어 이미지: 주판알을 튕기거나 장부의 수많은 숫자를 하나씩 더해 합계(Amount)를 내보았는데, 계산기 화면에 찍힌 최종 합산 결과가 거대한 '0(Zero, Nothing)'으로 나타나는 허망한 결말의 모습
+    * 초점: 비중과 영향력의 미미함
+    > Months of parameter tuning amounted to nothing after the hardware architecture was completely redesigned
+- above all: 무엇보다도, 특히, 다른 무엇보다 우선하여
+    * 코어 이미지: 탁자 위에 수많은 서류, 도구, 제약조건들이 어지럽게 널려 있을 때, 그 모든 것들을 바닥에 깔아둔 채 가장 중요하고 결정적인 하나의 가치를 양손으로 번쩍 들어 올려 머리 위 가장 높은 곳(Above all others)에 우뚝 세워두는 모습
+    * 초점: 절대적 우선순위의 선언
+    > Above all, I was driven by an anxious urgency, terrified of appearing small and pathetic in the eyes of others.
+- pathetic: 한심한, 처량한, 불쌍한, 보잘것없는, 애처로운
+    * 코어 이미지: 차디찬 길바닥에 쓰러져 거친 숨을 헐떡이며 앓고 있는 대상의 고통(Pathos)을 마주했을 때, 보는 이의 가슴 한구석이 찌르르하게 저려오면서도(측은함), 다른 한편으로는 제 앞가림조차 못 하는 그 무기력한 꼴에 답답함과 경멸(한심함)이 뒤섞여 솟아오르는 복합적인 감정의 풍경
+    * 초점: 한심함과 경멸
+    > Above all, I was driven by an anxious urgency, terrified of appearing small and pathetic in the eyes of others
+- takeaway: 핵심 요점, 배운 점, 시사점
+    * 코어 이미지: 풍성한 연회나 뷔페에 참석해 수많은 요리를 맛본 뒤, 문을 나서며 "집에 돌아가서도 두고두고 꺼내 먹기 위해 가장 영양가 있고 귀한 핵심 요리 하나를 손에 쥐고 가져가는(Take away) 보따리의 모습
+    * 초점: 실천적이고 내면화된 교훈 (Actionable & Retained Insight)
+    > If there is one definitive takeaway from my time here in Switzerland, it is the brutal realization of just how small and insignificant I truly am.
+- brutal: 잔혹한, 야만적인, 사정없는
+    * 코어 이미지: 이성과 규범이라는 옷을 전부 벗어던지고, 오직 피와 살점을 찢는 원초적 생존 본능만 남은 들짐승(Brute)이 이빨을 드러내며 먹잇감의 목덜미를 인정사정없이 물어뜯는 날것의 살벌한 풍경
+    * 초점: 감정이나 사정을 봐주지 않는 냉혹함 (Uncompromising Harshness)
+    > If there is one definitive takeaway from my time here in Switzerland, it is the brutal realization of just how small and insignificant I truly am.
+- can't even + 동사원형: ~조차 못하다
+    * 코어 이미지: 문턱을 넘기 위해 계단에 발을 올리는데, 바닥에 그어진 가장 낮고 사소한 '첫 번째 기준선(Even level)'에 발끝조차 닿지 못하고 허공에서 툭 꺾여버리는 모습
+    * 초점: 어려운 일은 고사하고, 누구나 당연히 할 수 있는 가장 기본적이고 사소한 첫걸음조차 뗄 수 없다"는 극단적인 무력감이나 한계
+    > I couldn’t even bring myself to ask for their numbers.
+- even after: ~한 후에도 여전히, ~라는 긴 시간/사건이 지나갔음에도 불구하고
+    * 코어 이미지: 긴 터널을 지나고 수많은 계절이 바뀌어 지형이 다 달라졌는데도, 손에 쥔 흉터나 감정의 응어리만은 조금도 닳지 않고 원형 그대로 매끄럽게(Even) 이어져 건너오는 모습
+    * 초점: 상식적으로 '그 정도 시간이나 사건이 지났으면 잊히거나 나아져야 마땅한데', 그럼에도 불구하고 여전히 똑같은 상태가 지속되고 있다는 놀라움, 씁쓸함, 혹은 자책에 방점
+    > Even after all this time, I agonized over my inability to express myself openly and build meaningful relationships with confidence.
+- creep up on: (감정·시간·노화 등이) 서서히 엄습하다, 모르는 사이에 슬그머니 다가오다; (누군가의 뒤로) 발소리를 죽이고 몰래 다가가다
+    * 코어 이미지: 어두운 덤불 속에서 맹수나 그림자가 네 발로 엎드려 바닥에 배를 바짝 붙인 채(Creep), 목표물의 등 뒤로 소리 없이 거리를 좁혀오다가(Up), 마침내 알아차렸을 때는 이미 머리 위통을 덮쳐 누르고 있는(On) 은밀한 포위의 모습
+    * 초점: 어떤 조짐이나 경고음이 울리지 않습니다. 너무나 완만하고 미세하게 진행되기 때문에 일상에 치여 전혀 눈치채지 못하다가, "돌아보니 이미 완전히 잠식당해 있을 때" 터져 나오는 자각
+    > Lately, more than ever, a suffocating anxiety creeps up on me and completely consumes me.
+- set around: (~의 주위에/둘레에) 배치하다, 둘러놓다
+    * 코어 이미지: 무대 디자이너가 연극이나 영화의 무대를 꾸밀 때, 중심이 되는 연대, 가격선, 또는 인물의 둘레(Around)에 울타리를 치듯 조명, 소품, 시대적 배경 요소들을 단단히 고정하여 배치해 두는(Set) 모습
+    * 초점: 물리적 공간의 둘레 배치
+    > four of them sat around one grill cooking beef bulgogi, while I manned the other grill by myself
