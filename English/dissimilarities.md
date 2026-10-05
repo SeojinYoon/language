@@ -281,7 +281,11 @@
         * 코어 이미지: 계측기의 눈금이 요구 기준선을 훌쩍 넘어 통과 신호가 켜지는 장면
         * 초점: 특정 행위나 자격을 획득하기 위해 필요한 필요충분 임계치를 충족했음을 의미
         > I'm legally old enough to drink
-
+    - be capable of: ~을 할 수 있는, ~할 능력이/역량이 있는; ~을 수용할 잠재력이 있는
+        * 코어 이미지: 커다란 용기나 항아리(Capacity)에 물을 넉넉히 담아낼 수 있듯, 주어진 과업이나 극한의 스트레스를 품 안에 너끈히 담아내고(Capere) 소화할 수 있을 만큼 '내부 용적(스펙, 역량, 잠재력)이 충분히 확보된 상태'의 모습
+        * 초점: 인간의 자질, 회복력 및 지적 역량
+        > She is capable of synthesizing complex statistical proofs with remarkable clarity
+    
 - 능력
     - be good at: ~을 잘하다, 능숙하다
         * 코어 이미지: 해당 분야의 과제를 능숙하고 매끄럽게 처리해내는 숙련된 손놀림
@@ -741,23 +745,23 @@
         > I unintentionally deleted the raw kinematics log
 
 - 스스로
-    - myself: 스스로
+    - myself: 나 자신이 직접, 나 스스로
         * 코어 이미지: 다른 사람을 시키지 않고 내 두 손으로 직접 작업을 수행하는 주체 강조
         * 초점: 남의 손을 빌리지 않고 주체인 '내 자신이 직접' 행했음을 강조
         > I made this coffee myself
-    - by myself: 스스로
+    - by myself: 혼자서, 홀로(외따로); 남의 도움 없이
         * 코어 이미지: 주변에 아무도 없이 오직 나 혼자만 서 있는 고립된 물리적 공간
         * 초점: 동행자 없이 혼자 있거나 타인의 도움 없이 단독으로 수행하는 상태
         > I went to the public bath by myself
-    - for myself: 스스로
+    - for myself: 나 자신을 위해; 직접 내 눈으로/내 기준으로
         * 코어 이미지: 남들의 시선이 아닌 오직 나 자신의 행복과 성장을 위해 준비한 선물
         * 초점: 타인을 위해서가 아니라 '나 자신을 위한' 수혜와 목적에 초점
         > I want to create a mindset for myself to stay motivated
-    - on my own: 스스로
+    - on my own: 혼자 힘으로, 자립하여, 스스로의 책임하에
         * 코어 이미지: 부모의 손을 놓고 두 발로 우뚝 서서 홀로 길을 개척하는 자립의 발걸음
         * 초점: 누구의 간섭이나 의존 없이 독립적이고 자립적으로 해냈다는 성취감과 자율성
         > I can study anytime of the day and I can plan anything on my own. But it made me even lazier
-    - my way: 스스로
+    - my way: 나만의 방식, 내 뜻대로, 내 식대로
         * 코어 이미지: 정해진 매뉴얼을 벗어나 나만의 독창적인 레시피대로 그려나가는 예술
         * 초점: 결과뿐 아니라 그 방식을 만들어낸 고유한 철학과 독창적 스타일을 강조
         > I did it my way
@@ -841,14 +845,14 @@
         * 초점: 논리적 정합성과 상황적 타당성 (Rationality & Coherence)
         > It makes sense that the model performed poorly on noisy data
 - 오해
-    - get confused: 오해
+    - get confused: 혼란스러워지다, 헷갈리다, 갈피를 못 잡다; (두 대상을) 혼동하다
         * 코어 이미지: 여러 갈래의 정보선들이 머릿속에서 어지럽게 엉켜 갈피를 못 잡는 혼선
         * 초점: 정보가 너무 많거나 복잡하여 스스로 갈피를 잡지 못하고 혼란에 빠진 내적 상태
         > I got confused because the kinematics data was too complex
-    - misunderstand: 오해
+    - misunderstand: 오해를 받다, 진의가 잘못 전달되다; 남들이 알아주지 못하다
         * 코어 이미지: A라고 전달된 신호를 B라고 잘못 해독하여 수신 오류가 난 상태
         * 초점: 상대방의 말이나 의도를 사실과 다르게 잘못 해석하여 발생한 오해
-        > I misunderstood Byanca's instruction about the MuJoCo settings
+        > I misunderstood instruction about the MuJoCo settings
 
 - 말하다
     - talk to: 말하다
@@ -911,21 +915,21 @@
         > The client demanded an immediate audit of the simulation codebase after the crash
 
 - 비행
-    - plane: 비행
+    - plane: 비행기, 항공기
         * 코어 이미지: 활주로에 서 있는 날개와 제트 엔진이 달린 물리적 항공기 기체
         * 초점: 하늘을 나는 물리적인 교통수단인 '비행기 기체' 그 자체를 지칭
         > I can see a plane in the sky
-    - flight: 비행
+    - flight: 비행, 항공편, 항공 여행; 항공기 운항 일정
         * 코어 이미지: 출발 시각부터 도착 시각까지 티켓에 적힌 하늘길 여정과 스케줄
         * 초점: 특정 시간에 출발하여 목적지까지 운항하는 항공편 및 비행 여정
         > My flight to Seoul is at 8 P.M.
 
 - 출발, 기원
-    - out of: 출발, 기원
+    - out of: ~의 안에서 밖으로, ~을 벗어나서
         * 코어 이미지: 문이나 울타리로 둘러싸인 경계선 안에서 바깥으로 걸어 나오는 물리적 이탈
         * 초점: 폐쇄된 공간의 내부에서 외부로 빠져나오는 물리적 공간 이동에 집중
         > He walked out of the building
-    - from: 출발, 기원
+    - from: ~로부터, ~에서, ~출신의, ~에서 시작하여
         * 코어 이미지: 지도 위의 출발점(A점)에서 시작되어 뻗어나가는 시작점 핀
         * 초점: 단순히 출신지, 원산지, 혹은 사건이 시작된 출발 지점 그 자체를 지칭
         > I am from Korea
@@ -982,17 +986,17 @@
         > I dropped my AirPods in the washing machine accidentally
 
 - 이동
-    - go and: 이동
+    - go and: 가서 ~하다; (명령/권유) 어서 가서 ~해라
         * 코어 이미지: 가벼운 발걸음으로 이동하여 연이어 다음 행동을 연결하는 리듬
         * 초점: 이동 후 뒤이어 일어나는 행동을 자연스럽고 친근하게 연결하는 구어체 표현
         > I don't need to go develop a picture any more
         > You should go and get some rest; you look tired
-    - go to: 이동
+    - go to: ~로 가다; (목적) ~하러 가다; ~에 다니다/출석하다
         * 코어 이미지: 명확한 목적지를 향해 나침반을 맞추고 출발하는 직진 행렬
         * 초점: 특정 목적(to 부정사)을 달성하기 위해 장소(to 명사)로 이동하는 방향성에 집중
         > I need to go to develop the pictures
         > I go to the lab every morning
-    - get to: 이동
+    - get to: ~에 도달하다/도착하다
         * 코어 이미지: 수많은 신호등과 골목길을 뚫고 마침내 목적지 입구에 도달함
         * 초점: 이동 과정의 수고를 거쳐 마침내 목적지에 성공적으로 도착·도달하는 결과
         > How can I get to the train station?
@@ -1019,8 +1023,6 @@
         * 코어 이미지: 여러 논란 끝에 베일이 걷히며 '역시나 그렇구나' 하고 진실이 드러남
         * 초점: 예상이나 우려가 있었음에도 불구하고 결과적으로 돌이켜보니 결국 사실임
         > Don't be too hard on yourself; after all, you're only human
-
-- 핵심
     - come down to: 결국 ~로 귀결되다
         * 코어 이미지: 복잡하게 얽힌 가지들을 다 쳐내고 나면 드러나는 뿌리 줄기
         * 초점: 복잡한 현상이나 논의를 압축했을 때 가장 본질적인 결정타나 원인으로 귀결됨
@@ -1063,19 +1065,23 @@
         > I want to be a person who does the right things unfailingly
 
 - 사실
-    - actually: 사실
+    - actually: 사실은, 실제로, 알고 보면, (상대의 말/생각을 정정하며) 실은
         * 코어 이미지: 상대방의 오해를 살짝 가로막으며 진짜 상황 판을 뒤집어 보여줌
         * 초점: 상대방이 생각하거나 기대한 바와 실제 사실이 다를 때 부드럽게 정정함
         > Actually, the experiment took less time than expected
-    - in fact: 사실
+    - in fact: (앞말을 한층 더 강조하며) 사실 더 나아가서는
         * 코어 이미지: 기존 진술 아래에 더 놀랍고 강력한 팩트 카드를 추가로 꺼내놓음
         * 초점: 앞서 한 말에 대해 더 구체적이거나 놀라운 세부 사실을 덧붙여 강조함
         > The algorithm is fast. In fact, it's the fastest in the world
-    - as a matter of fact: 사실
+    - in reality: 현실에서는, 실ㅇ은, 실ㅔ로는
+        * 코어 이미지: 화려한 마술 쇼의 장막이나 번지르르한 이론적 시뮬레이션의 껍질을 확 걷어냈을 때, 그 뒤편에 숨어 있던 "날것 그대로의 거칠고 냉혹한 물리적 현실(Real world)"을 직면하게 만드는 모습
+        * 초점: 기대와 현실의 괴리
+        > My brain just keeps sounding the alarm that I need to get to work immediately. Yet in reality, I’m not actually working.
+    - as a matter of fact: 사실은, 실은, 말이 나온 김에 덧붙이자면
         * 코어 이미지: 객관적인 기록 장부를 펼쳐 보이며 정중하고 명확하게 사실을 밝힘
         * 초점: 상대방의 추측을 객관적 사실로 바로잡거나 대화의 팩트 근거를 명확히 제시함
         > You think I'm tired? As a matter of fact, I feel more energetic now
-    - to all intents and purposes: 사실
+    - to all intents and purposes: 사실상, 실질적으로는, 어느 모로 보나
         * 코어 이미지: 이론상의 미세한 틈은 무시하고 실질적인 결과만 놓고 볼 때 동일함
         * 초점: 형식적인 차이는 있을지언정 실질적·효과적 관점에서는 완전히 사실상 그러함
         > To all intents and purposes, the project is already finished
@@ -1108,7 +1114,7 @@
         > It is his firm conviction that hard work always pays off
 
 - 조장
-    - lend encouragement to: 조장
+    - lend encouragement to: ~에게 용기를 북돋아 주다, 격려를 보태다, (~라는 생각/추측에) 힘을 실어주다
         * 코어 이미지: 타오르는 불길에 기름을 끼얹어 기세를 북돋아 주는 바람
         * 초점: 특정 행동, 투기, 혹은 태도가 더 기승을 부리도록 부추기거나 조장함
         > Low interest rates lend encouragement to speculative investments
@@ -1306,25 +1312,25 @@
         > This notebook belongs to Seojin
 
 - 읽다
-    - read: 읽다
+    - read: 읽다, 판독하다, 이해하다
         * 코어 이미지: 종이나 화면 위의 글자를 눈으로 훑으며 문맥의 의미를 파악하는 기본 독서
         * 초점: 텍스트를 읽고 내용을 파악하는 모든 행위를 아우르는 가장 보편적인 단어
         > I read research papers every morning
-    - peruse: 읽다
+    - peruse: 숙독하다, 정독하다, 꼼꼼히 살피다
         * 코어 이미지: 돋보기를 들고 재무제표의 각주 하나까지 숨소리를 죽이며 꼼꼼히 파고듦
         * 초점: 세부 사항을 놓치지 않기 위해 아주 깊이 있고 정밀하게 꼼꼼히 숙독·정독함
         > He perused the company's financial report for hours
-    - scan: 읽다
+    - scan: (정보를 찾아) 훑어보다, 살피다
         * 코어 이미지: 레이더 빔을 빠르게 훑듯이 필요한 핵심 키워드만 번개처럼 포착해내기
         * 초점: 전체를 다 읽지 않고 필요한 특정 정보나 단어만을 빠르게 훑어 찾음
         > I scanned the document for any mention of kinase inhibitors
 
 - 바닥
-    - floor: 바닥
+    - floor: (방·건물의) 바닥
         * 코어 이미지: 신발을 벗고 딛는 아늑한 실내 건물의 장판 및 타일 바닥
         * 초점: 건물이나 방, 실험실 내부의 인공적으로 시공된 실내 바닥
         > The floor in the lab was clean and polished
-    - ground: 바닥
+    - ground: (야외의) 지면, 땅, 대지
         * 코어 이미지: 건물 밖으로 나와 발을 딛는 대지의 흙과 자연의 지면
         * 초점: 건물 외부의 지표면, 대지, 혹은 땅바닥 그 자체
         > The fallen leaves covered the ground
@@ -1334,26 +1340,26 @@
         > I met him on the street in front of the office
 
 - 선택
-    - pick: 선택
+    - pick: 고르다, 뽑다, (손가락으로) 집다
         * 코어 이미지: 과일 바구니에서 마음에 드는 사과 하나를 손가락으로 쏙 집어 들기
         * 초점: 개인적인 직관이나 선호에 따라 가볍게 콕 집어 고르는 행위 (일상적/구어체)
         > Pick any card you like
-    - choose: 선택
+    - choose: 선택하다, 결정하다, 고르다
         * 코어 이미지: 두세 가지 대안을 머릿속으로 저울질하며 신중하게 결정함
         * 초점: 여러 대안 중에서 자신의 판단과 의지에 따라 선택하는 가장 보편적인 표현
         > I chose to focus on biomechanics for my master's thesis
-    - select: 선택
+    - select: (신중히 기준을 두고) 선발하다, 엄선하다, 선택하다
         * 코어 이미지: 엄격한 기준표를 들고 가장 우수한 품목만을 엄선하여 분류함
         * 초점: 명문화된 기준이나 품질에 따라 최고의 것을 신중히 엄선함 (격식체/전문적)
         > He selected high-grade stocks for his portfolio
-    - choice: 선택
+    - choice: 선택, 선택권, 선택의 여지; 선택된 대안
         * 코어 이미지: 갈림길 앞에 서서 선택할 수 있는 권리와 최종 결정된 결과물
         * 초점: 선택하는 행위 그 자체, 선택의 자유/권리, 혹은 선택된 대상물 (명사)
         > It's your choice
         > IGV is a sound choice for long-term investors
 
 - 기질
-    - shrewd: 기질
+    - shrewd: 상황 판단이 빠른, 기민한, 영리한; (판단·투자가) 빈틈없는, 약삭빠른
         * 코어 이미지: 판세를 날카롭게 꿰뚫어 보고 손익을 기민하게 계산하는 눈빛
         * 초점: 상황 판단이 대단히 빠르고 약삭빠르며 사업이나 투자에서 빈틈이 없음
         > He is a shrewd investor who never misses an opportunity
@@ -1378,29 +1384,29 @@
         > The sensor transmits kinematics data to the server
 
 - 대신하다, 대체하다
-    - replace: 대신하다, 대체하다
+    - replace: 원래 자리에 다른 것을) 대체하다, 교체하다, 바꾸다; 제자리에 되돌려놓다
         * 코어 이미지: 고장 난 낡은 부품을 빼내고 그 자리에 정상적인 새 부품을 끼워 넣기
         * 초점: 기존의 대상을 치우고 새로운 것으로 교체하는 가장 표준적인 대체
         > I need to replace the old sensor with a new one
-    - supersede: 대신하다, 대체하다
+    - supersede: (새로운 기술·법률·이론이 기존 것을) 대체하다, 폐기시키다, 능가하여 밀어내다
         * 코어 이미지: 압도적으로 뛰어난 차세대 신기술이 등장하여 구세대의 유물을 완전히 밀어냄
         * 초점: 더 우월하고 진보된 것이 나타나 기존의 것을 구식으로 만들며 자리를 대신함
         > This new RL algorithm will supersede the previous model
-    - substitute: 대신하다, 대체하다
+    - substitute: 대신 쓰다/사용하다, 대용하다
         * 코어 이미지: 원래 쓰던 주전 선수가 다쳤을 때 벤치에 있던 대기 선수가 임시로 투입됨
         * 초점: 원래의 것이 없을 때 비슷한 기능을 하는 다른 것으로 임시 대용·대체함
         > I used honey as a substitute for sugar
 
 - 고통
-    - have a hard time: 고통
+    - have a hard time: ~하는 데 애를 먹다, ~하느라 고생하다, 곤란을 겪다
         * 코어 이미지: 가파른 진흙길을 오르며 땀을 뻘뻘 흘리고 애를 먹는 힘든 상태
         * 초점: 어떤 일을 수행하는 과정이 몹시 힘들고 고생스러움을 편안하게 표현
         > I had a hard time opening my account in the app
-    - struggle with: 고통
+    - struggle with: ~와 씨름하다, ~를 극복하려 분투하다, ~로 인해 쩔쩔매다/고전하다
         * 코어 이미지: 거대한 괴물과 뒤엉켜 쓰러지지 않으려고 온 힘을 다해 버티는 고군분투
         * 초점: 어려운 과제나 수학적 난제를 해결하기 위해 필사적으로 씨름하고 있음
         > I'm struggling with a complex mathematical proof
-    - suffer from: 고통
+    - suffer from: (질병·장애·결핍·박탈로) 고통받다, 앓다, 시달리다
         * 코어 이미지: 만성 질환의 통증이나 깊은 불면증의 그늘 속에서 신음하는 깊은 고통
         * 초점: 질병, 트라우마, 지속적인 고난으로 인해 심신이 심각하게 고통받고 앓음
         > I suffer from insomnia really badly, so I need to go to see a doctor to get prescribed sleeping pills
@@ -1443,44 +1449,44 @@
         > He gave me a 50-dollar Starbucks gift card
 
 - 대비
-    - just in case: 대비
+    - just in case: 혹시 모르니까, 만약을 대비해서, 어쩌면 일어날 수도 있으니
         * 코어 이미지: 혹시 비가 올지 몰라 가방 구석에 가볍게 넣어둔 3단 우산
         * 초점: 만약의 사태나 막연한 불안에 대비하여 포괄적으로 취해두는 대비책
         > I asked for a receipt just in case my friend wanted to exchange it because it didn't fit
-    - in the event of: 대비
+    - in the event of: ~가 발생할 경우에, (~라는 비상사태) 발생 시
         * 코어 이미지: 비상구 벽면에 부착된 화재 발생 시 공식 행동 매뉴얼
         * 초점: 특정 중대 사건이나 비상사태가 실제로 발생할 때를 대비한 공식 지침
         > Instructions in the event of an emergency are posted on the wall
-    - to be on the safe side: 대비
+    - to be on the safe side: 안전을 기하기 위해, 만전을 기하고자, 확실히 해두기 위해
         * 코어 이미지: 돌다리도 두드려보고 건너듯 가장 위험이 없는 안전한 경로를 선택하기
         * 초점: 여러 선택지 중 실수를 방지하고 가장 확실하게 안전을 확보하기 위한 조치
         > I'll set a stop-loss order, just to be on the safe side
-    - as a precaution: 대비
+    - as a precaution: 예방책으로, 사전 방지 차원에서, 경계 차원에서
         * 코어 이미지: 공사 현장에 들어가기 전 머리에 단단히 착용하는 안전모
         * 초점: 예상되는 잠재적 사고나 위험을 미연에 방지하기 위한 예방적 방어막
         > I attached my funding letter as a precaution
 
 - 명품
-    - a designer bag: 명품
+    - a designer bag: 명품 가방, 유명 디자이너 브랜드 가방
         * 코어 이미지: 유명 패션 하우스의 수석 디자이너가 정교하게 디자인한 고급 가방
         * 초점: 유명 패션 브랜드 디자이너가 제작한 고가의 가방을 구체적으로 가리킴
         > She bought a designer bag in Paris
-    - a label: 명품
+    - a label: 상표, 라벨; (유명 패션) 브랜드
         * 코어 이미지: 옷깃 뒤에 박힌 유명 브랜드의 명품 라벨 태그
         * 초점: 이름만 들어도 알 수 있는 유명 명품 브랜드를 지칭하는 대유적 표현
         > I got a label from a person I don't really know which actually made me feel uncomfortable
 
 - 돈
-    - salary: 돈
+    - salary: (전문직·정규직의) 급여, 봉급, 연봉
         * 코어 이미지: 연간 고용 계약서에 명시된 나의 전문적 시장 가치와 연봉 총액
         * 초점: 전문직이나 정규직 직무에 대해 연간 단위로 책정된 고정 급여의 개념
         > I hope to get a high salary at DeepMind
-    - payroll: 돈
+    - payroll: 급여 대상자 명단(급여 명부); (회사의) 총 인건비 지출액; 급여 지급 관리 업무/부서
         * 코어 이미지: 회사의 회계 장부에 등록된 전 직원 급여 지급 명부와 시스템
         * 초점: 기업의 공식 급여 지급 시스템, 재직자 급여 명부 그 자체
         > I am on the payroll of the research institute
         > Please update your payroll account
-    - paycheck: 돈
+    - paycheck: 급여 수표, 월급/주급 (개인이 실제로 받는 회차별 급여); 급여 명세서
         * 코어 이미지: 매월 지정일에 내 은행 계좌로 실제로 꽂히는 실수령 월급
         * 초점: 생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈
         > I'm waiting for my next paycheck to buy some stocks
@@ -1506,11 +1512,11 @@
         > We fight under the banner of science and truth
 
 - 호출
-    - call: 호출
+    - call: 부르다, 전화하다
         * 코어 이미지: 목소리를 높여 누군가의 이름을 직접 부르는 단순한 호출
         * 초점: 사람이나 함수를 부르는 가장 기본적이고 직접적인 호출
         > Please call me when you arrive
-    - invoke: 호출
+    - invoke: (감정·기억을) 불러일으키다; (영혼·신을) 불러내다, 소환하다
         * 코어 이미지: 시스템의 숨겨진 백엔드 엔진이나 법적 권리를 정식으로 가동시킴
         * 초점: 권리, 복잡한 시스템 메커니즘, API 등을 정식으로 발동하고 가동시킴
         > The API is invoked to handle kinematics data
@@ -1522,57 +1528,57 @@
         > Mathematics is essential for understanding deep learning
 
 - 지칭
-    - mention: 지칭
+    - mention: (간단히/짤막하게) 말하다, 언급하다, 입에 올리다
         * 코어 이미지: 지나가는 대화 중에 이름표 하나를 가볍게 툭 던지듯 입에 올림
         * 초점: 심층적인 설명 없이 대화나 글 속에서 짧고 가볍게 언급함
         > He mentioned your name during the meeting
-    - refer to: 지칭
+    - refer to: ~을 나타내다/지칭하다; ~을 참조하다/참고하다
         * 코어 이미지: 손가락으로 특정 조항이나 대상을 흔들림 없이 가리키는 지목
         * 초점: 정의를 내리거나 정보의 출처를 밝히기 위해 명확하고 구체적으로 지칭함
         > The triangular desire refers to the relationship between subject, model, and object
-    - allude to: 지칭
+    - allude to: ~을 넌지시 비치다, 암시하다, 은연중에 빗대어 말하다
         * 코어 이미지: 그림자만 살짝 비추며 수수께끼처럼 힌트만 던지는 은밀한 암시
         * 초점: 직접 이름을 말하지 않고 비유나 힌트를 통해 간접적으로 넌지시 암시함
         > He alluded to his problems without explaining them
 
 - 논쟁, 토론
-    - argument: 논쟁
+    - argument: 논증, 주장, 근거; 말다툼, 언쟁
         * 코어 이미지: 자신의 주장을 떠받치는 탄탄한 논리적 근거와 증명 기둥
         * 초점: 주장을 뒷받침하기 위해 제시하는 논리적 이유, 논거 그 자체
         > His argument for the new RL model is very sound
-    - contention: 논쟁
+    - contention: (논쟁에서 맞서 내세우는) 주장, 견해, 논점; 다툼, 경쟁, 반목
         * 코어 이미지: 양측이 팽팽하게 대립하는 전선의 중심에 놓인 핵심 쟁점
         * 초점: 치열한 논쟁의 중심이 되는 핵심 주장 및 의견이 대립하는 쟁점
         > It is my contention that kinematics data can predict intent
-    - argue: 논쟁하다
+    - argue: 주장하다, 논증하다; 다투다, 언쟁하다; (정황이 ~임을) 보여주다/시사하다
         * 코어 이미지: 서로의 논거를 주고받으며 자신의 주장이 맞음을 입증하려는 치열한 토론
         * 초점: 의견이나 논리적 관점의 차이로 인해 벌어지는 지적·언어적 논쟁
         > I argued with Oscar about the reinforcement learning model
-    - debate: 토론하다
+    - debate: 토론, 논쟁; (동사) (격식 있게) 토론하다, 논쟁하다; (혼자 속으로) 숙고하다, 고민하다
         * 코어 이미지: 정해진 규칙과 시간 아래 사회자가 있는 무대에서 양측이 번갈아 발언하는 정식 토론회 (경쟁적)
         * 초점: 다양한 관점의 체계적 검토 및 공적인 찬반 논의. 감정을 배제하고 근거나 사실을 바탕으로 정중하고 질서 있게 진행되는 논쟁에 초점을 둠
         > Parliament met to d ebate the new tax proposal
-    - discuss: 토론하다
+    - discuss: 논의하다, 상의하다, 토의하다; (책·논문에서 특정 주제를) 다루다
         * 코어 이미지: 의견을 제시하고, 질문하며, 상대방의 의견을 경청하고 합의점을 찾으려고 노력
         * 초점: 정보를 교환하고, 아이디어를 발전시키고, 공통의 이해에 도달
 - 시작
-    - incipient: 시작
+    - incipient: 막 시작된, 초기의, 발단의, 태동하는
         * 코어 이미지: 갓 돋아난 새싹처럼 이제 막 태동하기 시작하여 형태를 갖추는 단계
         * 초점: 초기 단계에 접어들어 이제 막 시작되고 눈에 띄기 시작하는 상태 (학술/격식체)
         > We detected the incipient signs of system failure
 
 - 속이다
-    - disguise: 속이다
+    - disguise: 가장하다
         * 코어 이미지: 가면을 쓰고 의상을 바꾸어 본래의 정체를 완전히 숨김
         * 초점: 진짜 본질이나 정체를 감추기 위해 외양이나 형태를 위장하여 속임
         > The value of a critical thought depends not on how cleverly it manages to disguise its own systematic nature or on how many fundamental issues it manages to shirk or to dissolve but on how much literary substance it really embraces, comprehends, and makes articulate
 
 - 낭비
-    - waste: 낭비
+    - waste: 낭비하다, 헛되이 쓰다
         * 코어 이미지: 사용하지 않고 쓰레기통에 그대로 버려져 썩어가는 음식물
         * 초점: 시간, 돈, 자원을 유용하게 쓰지 않고 헛되이 낭비하거나 버리는 가장 일반적인 표현
         > Don't waste your time on trivial matters
-    - squander: 낭비
+    - squander: 탕진하다, 허비하다, 날려먹다
         * 코어 이미지: 상속받은 거액의 재산을 카지노에서 탕진하듯 흥청망청 날려버림
         * 초점: 소중한 기회, 막대한 재산, 재능을 무모하고 어리석게 완전히 탕진하여 날려버림 (강한 비판)
         > He squandered his talent and fortune on reckless bets
@@ -1646,15 +1652,15 @@
         > The virus mutated into a more contagious strain
 
 - 불평
-    - complain: 불평
+    - complain: 불평하다, 항의하다
         * 코어 이미지: 식당에서 음식이 식었다며 지배인에게 직접 불만을 제기하는 대화
         * 초점: 마음에 들지 않는 상황이나 서비스에 대해 불만이나 고통을 직접 표현함
         > He complained about the noisy environment in the office
-    - grumble: 불평
+    - grumble: 투덜거리다, 툴툴대다, 군소리를 하다
         * 코어 이미지: 불만을 밖으로 크게 말하지 못하고 입안에서 투덜투덜 궁시렁거림
         * 초점: 낮은 목소리로 불만을 억누르며 혼잣말처럼 툴툴거리고 투덜댐
         > She grumbled about having to work late on Friday
-    - whine: 불평
+    - whine: 징징거리다, 칭얼대다, 우는소리를 하다
         * 코어 이미지: 아이가 장난감을 사달라며 징징거리고 칭얼대는 콧소리
         * 초점: 듣기 싫은 고음이나 징징대는 어조로 짜증스럽게 하소연하고 칭얼댐
         > Stop whining about the small problems and focus on the solution
@@ -1680,17 +1686,17 @@
         > Give me one good reason why we should change the plan
 
 - 상황
-    - situation: 상황
+    - situation: 상황, 처지, 사태, 국면
         * 코어 이미지: 주변의 여러 사건과 이해관계가 얽혀 만들어낸 현재의 형세 판도
-        * 초점: 특정 시점에 일어나는 일련의 복합적 사건들이 만들어낸 총체적 상황
+        * 초점: 전체적 맥락과 역동적 국면
         > We must adapt quickly to the current situation
-    - condition: 상황
-        * 코어 이미지: 기계의 마모 상태나 환자의 혈압 수치 등 대상이 놓인 상태 지표
-        * 초점: 사물, 환경, 신체의 현재 물리적·기능적 상태나 충족되어야 할 조건
+    - condition: 상태, 조건
+        * 코어 이미지: 실험실의 온도계, 압력 게이지, 혹은 계약서의 조항처럼, 시스템이 정상 작동하거나 다음 단계로 넘어가기 위해 충족되어야 하는 "구체적인 물리적 상태(State)와 필수 전제(Prerequisite)
+        * 초점: 물리적 상태 및 품질, 필수 조건 및 제약
         > The experimental equipment is in excellent condition
-    - circumstance: 상황
+    - circumstance: 사정, 정황, 형편, 환경
         * 코어 이미지: 주인공을 둘러싸고 있는 통제 불가능한 주변 외적 환경 요인들
-        * 초점: 개인의 의지와 무관하게 외부에 둘러싸여 영향을 미치는 환경적 정황 (주로 복수형)
+        * 초점: 외적 요인과 통제 밖의 정황
         > Under no circumstances should you share confidential data
 
 - 영향
@@ -2236,10 +2242,14 @@
         * 코어 이미지: 피할 수 없는 치과 치료나 혹독한 심사 날짜가 달력에 적혀 있을 때, 그날이 한 걸음씩 다가올수록 명치끝이 납덩이처럼 차갑게 굳어오며 온몸을 서서히 옥죄어오는 예견된 암운(Shadow)의 모습
         * 초점: 미래에 닥쳐올 고통이나 불쾌한 사태를 앞두고 느끼는 만성적이고 무거운 예견적 공포 (Anticipatory & Lingering Burden)
         > Paralyzed by the terror of fighting Orcs in a dead end, he ultimately overcame that dread out of a fierce resolve to protect his companions.
-    - afraid: 두려워하는, 겁내는; 유감스러워하는
-        * 코어 이미지: 어두운 숲길에서 가슴이 조마조마하고 위축되어 있는 심리적 상태
-        * 초점: 위험이나 불확실한 결과에 대해 마음속으로 걱정하고 두려워하는 지속적 상태
+    - be afraid of: ~을 두려워하다, 무서워하다; (완곡한 염려) ~일까 봐 걱정스럽다
+        * 코어 이미지: 어두운 골목길이나 사나운 개 앞을 지나갈 때, 몸을 사리며 "혹시 무슨 일이 생기지 않을까" 긴장한 채 조심스레 발걸음을 멈추거나 뒤로 물러서는 모습
+        * 초점: 일반적·지속적 기피 (Broad Fear):
         > I was afraid that our experiment might fail
+    - be terrifed of: ~을 극도로 무서워하다, ~에 질겁하다, 소름 끼치도록 두려워하다
+        * 코어 이미지: 눈앞에 거대한 절벽이 무너지거나 맹수가 덮치려 할 때, 호흡이 멎고 등골에 식은땀이 흐르며 사지가 굳어버려(Paralyzed) 비명조차 나오지 않는 극단적 공포의 모습
+        * 초점: 극도의 공포와 신체 마비
+        > I keep dancing around the edges because I’m terrified of actually moving the project forward.
     - have a fear of: ~에 대한 공포(증)를 가지고 있다, ~을 유독 두려워하다
         * 코어 이미지: 높은 곳이나 뱀을 마주했을 때 뇌리에 깊이 각인된 고유한 공포증
         * 초점: 특정 대상이나 상황에 대해 지속적이고 깊은 공포감·포비아를 지니고 있음
@@ -2358,6 +2368,10 @@
         * 코어 이미지: 앞으로 나아가려는 발걸음을 멈춰 세우는 벽
         * 초점: 어떤 일이나 목표를 향해 달려가려 할 때, 앞을 가로막고 의욕의 브레이크를 밟아 포기하게 만드는 힘
         > Whenever I feel discouraged like this, I tend to avoid spaces where I have to interact with others
+    - dispirit: 낙담시키다, 기를 꺾다, 의기소침하게 만들다
+        * 코어 이미지: 몸속 깊은 곳에서 살아 숨 쉬며 두 눈을 반짝이게 하던 생명력의 숨결이자 기운(Spirit)을 몸 밖으로 훅 불어내어 뜯어내 버림(Dis-)으로써, 바람 빠진 풍선이나 촛불 꺼진 방처럼 껍데기만 축 늘어지게 만드는 모습
+        * 초점: 내면의 '동력 상실'
+        > The pastor is looking visibly dispirited
 
 - 끔찍한
     - nasty: 혐오스러운
@@ -2497,7 +2511,7 @@
         > And yet the imitation is no less strict and literal in internal mediation than in external mediation
 
 - 판단
-    - call: 판단
+    - call: 판정하다
         * 코어 이미지: 심판이 호루라기를 불며 세이프인지 아웃인지 최종 결정을 내림
         * 초점: 애매한 상황에서 권한을 가진 자가 내리는 주관적이고 최종적인 판단/결정
         > It was a tough call, but we decided to cancel the outdoor trial
@@ -2660,11 +2674,11 @@
         > The robotic arm can manipulate fragile objects with extreme precision
 
 - 실험
-    - experiment: 실험
+    - experiment: 실험, 시험; (동사) 실험하다, 시험 삼아 해보다
         * 코어 이미지: 실험실 비커에 시약을 붓고 가설 A가 맞는지 확인하는 단일한 1회성 테스트
         * 초점: 특정한 가설을 검증하기 위해 수행하는 구체적이고 단일한 개별 시험
         > We designed a novel experiment to test the hypothesis
-    - experimentation: 실험
+    - experimentation: 실험 (행위/과정), 실험적 시도, 탐색적 실천
         * 코어 이미지: 수년간 수백 번의 시행착오를 거치며 방법론을 정립해나가는 장기적 연구 활동
         * 초점: 실험을 기획하고 수행하며 반복하는 학술적 활동 전체 및 연구 방법론
         > Owing to the limitations of live experimentation, musculoskeletal models have been the cornerstone of most investigation and understanding behind biological motor control
@@ -2799,11 +2813,11 @@
         > The sensor cables got tangled under the table
 
 - 잠금
-    - lock: 잠금
+    - lock: 잠그다, 고정하다, 동결하다
         * 코어 이미지: 열쇠를 돌려 문빗장을 찰칵 걸어 잠그는 기계적 폐쇄
         * 초점: 문, 금고 등을 열쇠나 장치로 잠그거나 시스템 접근을 통제함
         > Make sure to lock the lab door before leaving
-    - in code: 잠금
+    - in code: 암호로, 은밀한 은어로
         * 코어 이미지: 비밀 메시지를 암호문(Code)으로 치환하여 외부인이 해독할 수 없게 만듦
         * 초점: 정보나 대화를 특정한 암호 체계나 은어로 은밀하게 변환하여 표현함
         > The agents communicated entirely in code
@@ -2877,11 +2891,14 @@
         > Early childhood experiences shape a person's character
 
 - 특징
-    - characterize: 특징
+    - characterize: ~의 특징을 이루다, ~의 특징이 되다; (성격·특징을) 규정하다, 특징짓다; (어떤 성격/상태로) 묘사하다
         * 코어 이미지: 대상만의 독특한 지문을 확대경으로 관찰하며 고유한 개성을 정의함
         * 초점: 어떤 대상이 지닌 가장 두드러지고 독보적인 고유 속성을 규정하고 묘사함
         > Innovation and rapid adaptation characterize this tech startup
-
+    - feature: ~을 특별히 포함하다, 특색으로 삼다
+        * 코어 이미지: 새로 출시된 스마트폰 쇼케이스 전면에 "초고해상도 망원 카메라 탑재!"라고 큼직하게 하이라이트 배너를 걸어두듯, 돋보이는 장점이나 부품을 쇼윈도에 진열해 자랑하는 모습
+        * 초점: 하이라이트와 탑재
+        > The latest release of the simulation library features an integrated physics engine for soft-body dynamics.
 - 열정
     - impassion: ~에게 깊은 감정/열정을 불어넣다
         * 코어 이미지: 가슴속에서 타오르는 붉은 화염을 담아 연단에서 토해내는 뜨거운 연설
@@ -3216,15 +3233,15 @@
         > I switched from French fries to onion rings instead
 
 - 속도
-    - suddenly: 속도
+    - suddenly: 갑자기, 느닷없이, 돌연히
         * 코어 이미지: 맑은 하늘에서 마른하늘에 날벼락이 치듯 예고 없이 일어나는 돌발성
         * 초점: 예상치 못한 타이밍에 돌발적이고 불시에 일어나는 의외성에 초점
         > The simulation stopped suddenly without an error message
-    - quickly: 속도
+    - quickly: 빨리, 신속히, 곧, 지체 없이
         * 코어 이미지: 단거리 육상 선수가 짧은 시간 안에 결승선을 통과하는 고속 진행
         * 초점: 어떤 동작이나 프로세스가 적은 시간을 소요하며 빠른 속도로 진행됨
         > Please come here quickly so we can start the experiment
-    - in a hurry: 속도
+    - in a hurry: 서둘러, 급히, 조급하게
         * 코어 이미지: 시계를 보며 허둥지둥 신발을 꿰어 신고 문밖으로 뛰쳐나가는 급박함
         * 초점: 시간에 쫓기거나 당황하여 마음이 급해 서두르는 사람의 심리 상태
         > I was in the restroom and the cleaning staff walked in, so I ran out in a hurry
@@ -3288,11 +3305,11 @@
         > Feel free to drop by my office anytime you have a question
 
 - 비싼
-    - expensive: 비싼
+    - expensive: 비싼, 고가의, 돈이 많이 드는; (비유) 큰 대가를 치르는
         * 코어 이미지: 금고에 보관된 다이아몬드처럼 객관적인 금액과 가치가 대단히 높음
         * 초점: 가격이 객관적·표준적으로 높음을 나타내는 가장 정석적인 단어
         > Housing in Geneva is very expensive
-    - pricey: 비싼
+    - pricey: 값비싼, 가격대가 좀 있는, 다소 짭짤한(비싼)
         * 코어 이미지: 식당 메뉴판 가격표를 보고 '생각보다 좀 비싼데?' 하고 느끼는 체감
         * 초점: 물건이나 식사 가격이 품질 대비 다소 비싸다고 느끼는 일상적 구어 표현
         > The restaurant was good, but a bit pricey for everyday lunch
@@ -3391,11 +3408,11 @@
         > He grew more patient and confident as he gained research experience
 
 - 연결
-    - networking: 연결
+    - networking: 인맥 형성, 직업적·학술적 네트워크 구축, 대외 교류
         * 코어 이미지: 네트워크 그래프에 새로운 노드와 간선을 뻗어 경로를 확장하는 라우팅
         * 초점: 정보와 기회의 교환을 목적으로 여러 사람과 넓은 사회적 연결망을 구축함
         > Attending international conferences is essential for professional networking
-    - make a relationship: 연결
+    - make a relationship: 관계를 맺다, 관계를 형성하다/만들어 나가다
         * 코어 이미지: 단둘만의 독립된 스코프를 열고 신뢰와 감정을 차곡차곡 쌓아 올림
         * 초점: 상대방과 깊은 인간적 신뢰, 유대감, 고유한 정서적 맥락을 형성하고 발전시킴
         > It takes time and genuine care to make a lasting relationship with colleagues
@@ -3407,21 +3424,21 @@
         > No matter how hardworking nor intelligent you are, when you take on too many duties, you are limited
 
 - 끝내다
-    - finish: 끝내다
+    - finish: 끝내다, 마치다
         * 코어 이미지: 정해진 시간에 도달
         * 초점: 일의 양이나 시간이 끝에 도달하여 더 이상 하지 않고 종료함 (완벽성 여부 무관)
         > I need to finish writing this section before lunch
-    - complete: 끝내다
+    - complete: 완료하다, 완성하다, 완결 짓다
         * 코어 이미지: 퍼즐의 마지막 1,000번째 조각을 딱 끼워 넣어 100% 온전한 완성품을 만듦
         * 초점: 비어 있던 필수 요소를 모두 채워 넣어 100% 완전무결한 상태로 완성함
         > The researchers completed the comprehensive musculoskeletal atlas
 
 - 최근
-    - recently: 최근
+    - recently: 최근에, 얼마 전에, 근래에
         * 코어 이미지: 과거 타임라인의 가까운 특정 날짜 지점에 찍힌 1회성 점(Point)
         * 초점: 과거의 특정한 가까운 시점에 단발적으로 일어난 사건을 언급할 때 사용
         > I moved to Geneva recently
-    - lately: 최근
+    - lately: 요즈음, 최근 들어
         * 코어 이미지: 최근 며칠간 쭉 이어져 오고 있는 지속적인 상태의 선(Line)
         * 초점: 최근 들어 얼마간의 기간 동안 지속되고 있는 상태나 반복되는 패턴에 초점
         > I've been feeling tired lately due to the heavy workload
@@ -3585,7 +3602,7 @@
         > The metal collar will shrink as it cools, forming a tight mechanical fit around the shaft.
 
 - 가치
-    - appreciate: 가치
+    - appreciate: 진가를 인정하다, 높이 평가하다; 고마워하다, 감사하다
         * 코어 이미지: 미술관의 명화를 그윽한 눈으로 감상하며 작품에 담긴 예술적 진가를 알아봄
         * 초점: 타인의 수고나 예술 작품, 난관의 가치를 깊이 있게 알아보고 진심으로 인정함
         > My supervisor appreciates my hard work and dedication
@@ -3632,13 +3649,13 @@
         > The experimental group exhibited a high degree of temporal variability
     
 - 칭찬
-    - praise for: 칭찬
+    - praise for: ~를 칭찬하다, 치하하다
         * 코어 이미지: 어깨를 토닥이며 이뤄낸 훌륭한 성취에 대해 따뜻한 박수를 보냄
         * 초점: 'praise + 대상 + for + 이유' 구조로 특정 성과나 행동에 대해 칭찬과 찬사를 보냄
         > Ji-sung Park believed that confidence comes from feeling genuinely good at something, so he began praising himself for even the smallest, simplest things.
 
 - 기억
-    - register: 기억
+    - register: (기억·인식이) 마음에 와닿다/알아채다
         * 코어 이미지: 귀로 들어온 단어가 뇌 속 신경망에 전파되어 마음에 쿵 하고 와닿음
         * 초점: 들은 말이나 목격한 사실이 뇌리에 인식되고 마음속에 의미 있게 와닿음
         > I was in such shock that his words just didn't register at first
@@ -3672,23 +3689,23 @@
         > It is still the middle of summer, but it feels as though the season has changed. Instead of the scorching sun, a cool breeze wraps around me
 
 - 감정이 밀려오다
-    - wash over: 감정이 밀려오다
+    - wash over: (감정·기운이) ~를 엄습하다, ~의 온몸을 훑고 지나가다
         * 코어 이미지: 바닷가의 따뜻한 파도가 백사장을 덮고 가듯 감정이 온몸을 감싸 안음
         * 초점: 외로움, 안도감, 슬픔 같은 깊은 감정이 온몸과 마음에 부드럽고 묵직하게 번짐
         > A sense of loneliness washed over me when I woke up in the empty room
         > A profound feeling of relief washed over him after the successful defense
-    - come over: 감정이 밀려오다
+    - come over: (감정/상태) (특정한 기분·영향이) ~를 엄습하다, ~를 사로잡다, ~에게 덮쳐오다
         * 코어 이미지: 먹구름이 머리 위를 덮치듯 갑작스러운 감정의 기운이 나를 순간적으로 압도함
         * 초점: 분노나 알 수 없는 감정이 돌발적으로 찾아와 사람의 기분과 상태를 확 바꾸어 놓음
         > I don't know what came over me when I shouted
         > A sudden wave of anger came over him
 
 - 정체
-    - stall: 정체
+    - stall: (엔진이) 꺼지다; (비행기가) 실속(양력 상실)하다; (시간을 벌려고) 지연시키다, 뜸을 들이다
         * 코어 이미지: 달리던 자동차의 가속 페달이 먹통이 되며 서서히 추진력을 잃고 멈춰 섬
         * 초점: 추진력(momentum)이나 에너지가 부족해져서 서서히 속도가 줄어들다 멈춰버림
         > My research progress has stalled due to missing experimental parameters
-    - stuck: 정체
+    - stuck: (어딘가에 끼어) 꼼짝 못 하는, 갇힌; (문제에 막혀) 진도를 못 나가는, 막힌
         * 코어 이미지: 바퀴가 깊은 진흙 구덩이에 박혀 엔진을 아무리 밟아도 바퀴만 헛돌고 꼼짝 못함
         * 초점: 의지와 동력은 충분하나 특정 난관이나 버그에 발이 묶여 옴짝달싹 못함
         > I am completely stuck on this joint torque estimation process
@@ -3700,11 +3717,11 @@
         > Firstly, we used a skeletal model of the arm and performed inverse kinematics to extract joint angles. Following that, we deployed a musculoskeletal model of the human arm by Saul et al. in OpenSim.
 
 - 비로소
-    - not ... until: 비로소
+    - not ... until: ~할 때까지는 …하지 않다
         * 코어 이미지: 오랜 밤이 지나 새벽빛이 밝아오고 나서야 비로소 자물쇠가 열림
         * 초점: 특정 시점이 되기 전까지는 몰랐으나 그 시점에 도달해서야 비로소 깨달음을 표현
         > I didn't truly appreciate the value of health until I got sick
-    - only after: 비로소
+    - only after: 오직 ~한 뒤에야 비로소, ~하고 난 이후에만
         * 코어 이미지: 긴 터널을 빠져나온 직후에야 눈앞에 장엄한 바다가 펼쳐지는 도치 구조
         * 초점: 오직 선행 조건이 충족된 이후에야 비로소 결과가 실현됨 (문두 도치 수반)
         > I barely managed to get up only after I talked on the phone with Gyeonghan
@@ -3722,7 +3739,7 @@
         > I chose to stay home and read instead of going out to a noisy party
 
 - 의사표현
-    - I would like to: 의사표현
+    - I would like to: 하고 싶습니다, ~하고자 합니다, ~하기를 희망합니다
         * 코어 이미지: 정중하게 고개를 숙이며 자신의 소망을 은쟁반에 담아 상대에게 공손히 건넴
         * 초점: 상대방에게 자신의 의사나 희망을 가장 정중하고 품격 있게 전달하는 표준 표현
         > I would like to order a cup of coffee, please
@@ -3730,11 +3747,11 @@
         > I would like to pay, please
 
 - 비슷함
-    - like: 비슷함
+    - like: ~처럼, ~같이
         * 코어 이미지: 천사의 날개짓을 보며 그 아름다운 몸짓을 그대로 닮은 노래
         * 초점: 전치사로 쓰여 '~처럼, ~와 같이' 대상의 닮은꼴 속성을 직관적으로 묘사
         > She sings like an angel
-    - likewise: 비슷함
+    - likewise: 마찬가지로, 똑같이
         * 코어 이미지: 상대방이 든 찬성 투표 깃발을 보고 나 역시 똑같이 깃발을 번쩍 듦
         * 초점: 부사로 쓰여 '마찬가지로, 나도 그래' 하며 앞선 행동이나 의견에 완벽히 동조함
         > He voted for the motion, and I did likewise
@@ -4215,4 +4232,14 @@
         * 코어 이미지: 군함의 함포 앞, 요새의 망루, 혹은 공장의 제어판 앞에 사람(Man)이 보초병처럼 딱 붙어 서서, 그 자리를 지키며 기계나 시설이 문제없이 돌아가도록 전담하여 통제하는 모습
         * 초점: 상시 대기와 책임
         > four of them sat around one grill cooking beef bulgogi, while I manned the other grill by myself
-        
+
+- 파티
+    - party: 파티, 모임, 잔치
+        * 코어 이미지: 생일 케이크를 자르거나 음악에 맞춰 춤을 추듯, 사회적 규범이나 엄격한 좌석 배치 없이 자유롭게 돌아다니며 음료를 마시고 웃고 떠드는 사교적 모임의 모습
+        * 초점: 자유로움과 친목
+        > The lab organized an informal pizza party to celebrate the successful paper submission
+    - banquet: 연회, 공식 만찬, 연회에 참석하다, 잔치를 베풀다
+        * 코어 이미지: 호텔 그랜드 볼룸이나 유서 깊은 홀에 하얀 식탁보가 깔린 원형 테이블들이 질서정연하게 놓여 있고, 지정된 좌석에 정장을 입고 앉아 코스 요리를 먹으며 단상의 기조연설이나 시상식을 지켜보는 모습
+        * 초점: 격식 있는 의전과 식순
+        > Tickets for the conference banquet must be reserved during online registration.
+

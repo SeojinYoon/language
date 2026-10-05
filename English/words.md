@@ -384,3 +384,23 @@
     * 코어 이미지: 무대 디자이너가 연극이나 영화의 무대를 꾸밀 때, 중심이 되는 연대, 가격선, 또는 인물의 둘레(Around)에 울타리를 치듯 조명, 소품, 시대적 배경 요소들을 단단히 고정하여 배치해 두는(Set) 모습
     * 초점: 물리적 공간의 둘레 배치
     > four of them sat around one grill cooking beef bulgogi, while I manned the other grill by myself
+- danching around the edges: (핵심이나 본질에는 들어가지 않고) 변죽만 울리다, 겉돌다, 핵심을 피한 채 주변부만 맴돌다, 지엽적인 문제만 건드리다
+    * 코어 이미지: 커다란 무대나 링(Ring)의 가장 중요한 한가운데(Center)로는 결코 발을 들이지 않은 채, 가장자리 경계선(Edges)만을 밟으며 빙빙 돌면서 춤을 추듯 스텝을 밟고 있는 모습
+    * 초점: 중심부(Core)에 대한 회피, 주변부(Edges)에서의 분주함
+    > I keep dancing around the edges because I’m terrified of actually moving the project forward.
+- tailor to: ~에 꼭 맞추다, ~에 맞게 조정하다/특화하다, ~의 요구에 최적화하다
+    * 코어 이미지: 맞춤 양복점(Tailor)의 재단사가 줄자를 들고 고객의 어깨너비, 팔 길이, 허리둘레를 꼼꼼하게 측정한 뒤, 기성복 천을 그 사람의 고유한 체형 곡선에 한 치의 오차도 없이 딱 맞추어(To) 가위질하고 바느질하는 모습
+    * 초점: 맞춤형 최적화
+    > The loss function was carefully tailored to penalize large kinematic tracking errors
+- fishy: 수상쩍은, 미심쩍은
+    * 코어 이미지: 신선한 물고기는 냄새가 나지 않지만, 부패하기 시작한 생선에서 코를 찌르는 특유의 썩은 비린내가 슬슬 풍겨 나오듯, 겉으로는 멀쩡해 보이는데 직관적으로 "어딘가 뒤가 구리고 썩은 냄새가 난다"고 감지하는 모습
+    * 초점: 직관적인 의심
+    > The baseline results looked too perfect; something felt fishy about how the data was filtered.
+- back in the time: 왕년에는
+    * 코어 이미지: 먼지 쌓인 옛날 사진 앨범을 열어보며 "그 시절(The day)에는 다들 이랬었지" 하고 아련한 눈빛으로 회상에 잠기듯, 지금과는 사뭇 다른 과거의 특정 황금기나 아날로그 시절을 통째로 하나의 덩어리로 조망하는 모습
+    * 초점: 향수와 회상
+    > Back in the day, we would spend entire summer afternoons listening to rock cassettes on a Walkman
+- by design: 의도적으로, 계획적으로
+    * 코어 이미지: 엔지니어나 건축가가 모눈종이 위에 청사진(Blueprint/Design)을 펼쳐놓고, 어떤 특성이나 동작을 우연히 발생하도록 내버려 두는 것이 아니라, "치밀한 계산과 의도에 따라 시스템의 뼈대에 미리 새겨 넣은 상태"의 모습
+    * 초점: 우연(Accident/Coincidence)과의 선명한 대비
+    > The data pipeline is stateless by design, ensuring fault tolerance across distributed workers
