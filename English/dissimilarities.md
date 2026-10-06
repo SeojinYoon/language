@@ -50,6 +50,10 @@
         * 코어 이미지: 직진하던 바퀴나 다른 곳을 보던 얼굴 각도를 휙 틀어(Turn), 새로운 대상을 똑바로 바라보며 그쪽을 향해 물리적·주의적 각도를 전환하는 행동
         * 초점: 능동적인 동적 전환
         > Having resolved the kinematics, the team turned toward the challenges of real-time sensor fusion
+    - aimless: 목적이 없는, 방향을 잃은, 갈피를 잡지 못하는, 뚜렷한 지향점이 없는
+        * 코어 이미지: 사수가 활시위를 당겼는데 앞에 맞혀야 할 과녁(Aim/Target)이 아예 놓여 있지 않거나(Aim-less), 바다 한가운데서 나침반과 항로 지도 없이 파도가 치는 대로 이리저리 표류하는(Drifting) 배의 모습
+        * 초점: 지향점의 부재, 에너지의 낭비와 표류
+        > During the day, I was weighed down by the thought of everything I had to do, and at night, I wandered aimlessly, having no idea what to do.
 
 - 찾다
     - find: 찾아내다, 발견하다 (결과에 집중)
@@ -852,7 +856,7 @@
     - misunderstand: 오해를 받다, 진의가 잘못 전달되다; 남들이 알아주지 못하다
         * 코어 이미지: A라고 전달된 신호를 B라고 잘못 해독하여 수신 오류가 난 상태
         * 초점: 상대방의 말이나 의도를 사실과 다르게 잘못 해석하여 발생한 오해
-        > I misunderstood instruction about the MuJoCo settings
+        > I misunderstood Byanca's instruction about the MuJoCo settings
 
 - 말하다
     - talk to: 말하다
@@ -2395,6 +2399,24 @@
     - in the midst of: ~의 한가운데에, 한창 ~하는 중에
         * 코어 이미지: 거센 파도나 자욱한 연무의 정중앙에 온몸이 둘러싸여 있는 모습 (Immersion in a Swirl)
         * 초점: '상황의 밀도, 혼란, 격렬함'
+        > In the midst of this, he infiltrates Kel’Thuzad’s moving citadel to save the Forsaken from a Scourge invasion.
+    - in the middle of: ~의 (물리적·시간적) 한가운데에, ~의 도중에, ~하는 중간에
+        * 코어 이미지: 시작점 $A$와 끝점 $B$를 잇는 1차원 선분이나 시간축의 정중앙($t = 0.5$) 지점에 핀을 꽂아둔 모습
+        * 초점: 객관적·기하학적 중간: 감정적 소용돌이나 위기감 없이, 단순히 어떤 작업이나 시간대가 절반쯤 진행된 상태를 가장 평이하고 중립적으로 서술합니다.
+        > He received an urgent call right in the middle of his lab presentation
+    - amid: ~가 만연한 분위기 속에서, ~에 둘러싸여, ~의 배경 속에서
+        * 코어 이미지: 자욱한 안개나 흩날리는 먼지, 웅성거리는 군중처럼 주체를 둘러싸고 있는 배경 요소들(Background environment) 속에 조용히 파묻혀 있는 모습
+        * 초점: 외적 환경과 시대적 맥락
+        > The optimization converged successfully amid heavy non-Gaussian observation noise
+    - in the throes of; ~로 극심한 진통/고통을 겪는 중인, ~와 뼈를 깎는 사투를 벌이고 있는
+        * 코어 이미지: 산모가 아이를 낳으며 겪는 격렬한 산통이나 중환자의 몸부림처럼, 고통과 난관으로 뼈를 깎는 신음을 내며 사투를 벌이고 있는 모습
+        * 초점: 극심한 진통과 난항
+        > The team was in the throes of rewriting the entire kinematics solver two days before the deadline
+    - in the thick of: ~의 가장 치열한 한복판에, 격전지의 중심에, 가장 분주한 곳에
+        * 코어 이미지: 칼과 방패가 맞부딪치고 화살이 쏟아지는 백병전 최전선 한가운데(Thick)처럼, 가장 치열하고 격렬한 싸움판의 중심에 직접 뛰어들어 온몸으로 부딪치고 있는 모습
+        * 초점: 격전지의 중심과 적극적 가담
+        > He always prefers to be in the thick of the experimental setup rather than managing from an office.
+    
 - 방해하다
     - disrupt: 방해하다
         * 코어 이미지: 잘 돌아가던 생산 공장의 전원이 끊기며 시스템 체계가 일시 붕괴됨
@@ -4243,3 +4265,22 @@
         * 초점: 격식 있는 의전과 식순
         > Tickets for the conference banquet must be reserved during online registration.
 
+- 되찾다
+    - restore: (원래 상태로) 복원하다, 복구하다; (건강·기력·질서를) 회복시키다
+        * 코어 이미지: 오랜 세월로 변색되고 금이 간 고대 명화나 깨진 조각상을 장인이 조심스레 붓질하고 다듬어, 처음 완성되었을 때의 깨끗하고 온전한 원래 형태(Original State)로 되살려내는 모습
+        * 초점: 상태의 정상화
+        > Garek falls under mind control, but through that very process, his past memories are restored, and he realizes that the Light has remained fully within him all along.
+    - retrieve: (저장된 곳에서) 검색하여 가져오다, 회수하다; (잃어버린 것을) 되찾아오다
+        * 코어 이미지: 도서관 서고나 거대한 데이터베이스 창고 속에서, 원하는 파일이나 물건이 꽂혀 있는 정확한 서랍을 찾아 열고 그것을 쏙 뽑아내어(Fetch) 내 책상 위로 가져오는 모습
+        * 초점: 위치 이동과 인출
+        > The robotic gripper was programmed to retrieve the fallen marker from the floor
+
+- 하지만
+    - However: 그러나, 그렇지만, 하지만
+        * 코어 이미지: 잘 닦인 고속도로를 주행하다가 교차로 표지판을 보고 깜빡이를 켜며 부드럽게 다른 차선이나 나들목(IC)으로 경로를 꺾어 들어가는 모습
+        * 초점: 객관적 논리 전환 및 제한
+        > Previous studies suggest linear scaling; however, our empirical data indicate exponential saturation
+    - Yet: 그럼에도 불구하고, 그런데도
+        * 코어 이미지: 기름과 물처럼 서로 섞일 수 없는 두 물질이 한 비커 안에서 부딪치며 "어떻게 A인데 동시에 B일 수 있지?" 하고 역설의 스파크가 튀는 모습
+        * 초점: 역설과 모순의 병치
+        > Yet, at that time, I endured those moments holding onto the belief that it was indeed a sacrifice.
