@@ -337,16 +337,6 @@
         * 코어 이미지: 순식간에 눈앞을 스쳐 지나가 잡을 수 없는 번개 불빛
         * 초점: 머무는 시간이 극히 짧아 덧없고 찰나에 지나지 않는 성질
         > The relationship between you and me was fleeting
-    - in times of: ~의 시기에는
-        * 코어 이미지: 특정 기후나 계절처럼 사람들을 감싸는 역사적·환경적 시기 구역
-        * 초점: 위기, 슬픔, 번영 등 특정한 상황이나 감정의 시기적 배경 속에 처해 있을 때 사용
-        > We need to support each other in times of grief
-        > He stayed calm in times of economic crisis
-    - in case of: ~의 경우에는
-        * 코어 이미지: 비상시에만 깨고 누를 수 있도록 준비해 둔 소방 벨 상자
-        * 초점: 혹시 모를 긴급 상황이나 특정 사태가 발생할 경우를 대비한 대책·지침
-        > In case of fire, use the stairs
-        > Keep this number in case of an emergency
     - more than ever: 어느 때보다도 더, 그 어느 시절보다 절실하게
         * 코어 이미지: 지금까지 살아온 인생의 모든 날들의 수치(수평선)를 훑어보아도, 지금 이 순간 솟아오른 바늘의 눈금(Peak)이 과거의 그 어떤 최고 기록점보다도 머리 하나 더 높게 솟구쳐 있는 모습
         * 초점: 역대 최고치의 도달 (Unprecedented intensity): 과거의 특정 시점과 1:1로 비교하는 것이 아니라, "과거의 모든 순간들을 통틀어 합친 것보다 지금의 감정이나 필요성이 가장 날카롭고 강렬하다"는 절대적 정점(All-time high)을 뜻함
@@ -1480,21 +1470,6 @@
         * 초점: 이름만 들어도 알 수 있는 유명 명품 브랜드를 지칭하는 대유적 표현
         > I got a label from a person I don't really know which actually made me feel uncomfortable
 
-- 돈
-    - salary: (전문직·정규직의) 급여, 봉급, 연봉
-        * 코어 이미지: 연간 고용 계약서에 명시된 나의 전문적 시장 가치와 연봉 총액
-        * 초점: 전문직이나 정규직 직무에 대해 연간 단위로 책정된 고정 급여의 개념
-        > I hope to get a high salary at DeepMind
-    - payroll: 급여 대상자 명단(급여 명부); (회사의) 총 인건비 지출액; 급여 지급 관리 업무/부서
-        * 코어 이미지: 회사의 회계 장부에 등록된 전 직원 급여 지급 명부와 시스템
-        * 초점: 기업의 공식 급여 지급 시스템, 재직자 급여 명부 그 자체
-        > I am on the payroll of the research institute
-        > Please update your payroll account
-    - paycheck: 급여 수표, 월급/주급 (개인이 실제로 받는 회차별 급여); 급여 명세서
-        * 코어 이미지: 매월 지정일에 내 은행 계좌로 실제로 꽂히는 실수령 월급
-        * 초점: 생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈
-        > I'm waiting for my next paycheck to buy some stocks
-
 - 태도
     - manner: 방법, 방식, 태도
         * 코어 이미지: 어떤 과제를 처리하는 독특한 작업 방식이나 스타일의 양식
@@ -1957,11 +1932,19 @@
         * 초점: 사물이나 물질 자체가 태생적으로 내재하고 있는 불변의 고유 속성 (전기전도성 등)
         > The chemical properties of this substance are unique
 
-- 견디다
+- 견디다, 견뎌내다
     - ride out: (폭풍우·위기·어려운 시기를) 잘 견뎌내다
         * 코어 이미지: 거친 폭풍우 속에서 닻을 내리고 배가 뒤집히지 않도록 침착하게 파도를 견딤
         * 초점: 어려운 경제 위기나 시련이 지나갈 때까지 큰 손상 없이 침착하게 잘 버텨냄
         > We must ride out the market downturn with patience
+    - get through: (힘든 시기·고난을) 헤쳐 나가다, 견뎌내다, 무사히 넘기다; (방대한 일·분량을) 끝내다
+        * 코어 이미지: 어둡고 긴 터널이나 빽빽한 가시덤불 숲의 한쪽 입구로 들어가, 수많은 저항을 헤치며 전진한 끝에 마침내 반대편 출구(Through)의 빛 속으로 걸어 나오는 모습
+        * 초점: 구간의 통과와 완주
+        > I’m barely doing anything other than just getting through each day.
+    - endure: (고통·역경·박해를) 견디다, 참다, 인내하다
+        * 코어 이미지: 비바람과 폭설이 몰아치는 절벽 위에서 도망치거나 물러서지 않고, 바위처럼 단단하게(Durus) 서서 뼈를 깎는 고통의 무게를 묵묵히 짊어지고 버텨내는 모습
+        * 초점: 내면의 단단함과 고통의 수용
+        > The patient had to endure hours of excruciating joint pain before the medication took effect.
 
 - 극복하다
     - tide over: (어려운 시기·결핍의 순간을) 임시로 버티게 해주다
@@ -2770,15 +2753,19 @@
         * 코어 이미지: 화자(또는 대화의 중심 기준점)가 서 있는 자리를 향해 외부의 대상이 시야 안으로 들어와 마침내 이곳에 다다르는 직관적인 발걸음
         * 초점: 기준점(화자가 있는 곳)으로의 단순한 이동 및 도착 (Destination-Centered Arrival)
         > Can you come closer to the microphone so the audio recorder picks up your voice clearly?
-    - approach: 접근하다, 다가가다
-        * 코어 이미지: 목표 지점을 레이더 화면에 띄워놓고, 출발지에서 목표지점 사이의 거리 벡터($\Delta \vec{r}$)를 점진적이고 정밀하게 좁혀나가는 궤적의 모습
-        * 초점: 목표를 향해 능동적으로 거리를 좁히는 궤적, 전략적 접근, 그리고 학술적 방법론 (Intentional Trajectory & Methodology)
+    - approach: (물리적·시간적으로) 다가가다, 접근하다
+        * 코비행기가 착륙 활주로의 중심선을 정확히 조준하고 고도와 받음각을 계산하며 주도적으로 내려앉듯(Approach run), 주체가 명확한 목표점을 바라보며 거리를 좁혀 들어가거나 문제를 체계적으로 공략하는 모습
+        * 초점: 능동적 벡터와 주도권
         > As the autonomous rover approaches the obstacle, its obstacle-avoidance algorithm engages
         > The lab meeting presentation is approaching.
     - draw near: (때나 사건이) 가까워지다, 성큼 다가오다; (물리적으로) 서서히 다가서다
         * 코어 이미지: 줄을 당겨(Draw) 무거운 배를 서서히 부두로 끌어당기듯, 시간의 흐름이나 피할 수 없는 거대한 운명·사건이 마치 장막이 걷히며 서서히 현실로 다가오는 문예적이고 무게감 있는 풍경
         * 초점: 시간, 계절, 결단의 순간이 불가항력적으로 다가오는 엄숙한 임박감 (Solemn Imminence & Literary Atmosphere)
         > As the day of my return to Korea draws near, the loneliness within me seems to deepen
+    - upcoming: (형용사) 곧 있을, 다가오는, 이번에 예정된
+        * 코어 이미지: 공항 수하물 컨베이어 벨트나 일정표 위에 올려진 상자가 벨트를 타고 내 정면을 향해 차례대로 미끄러져 오고 있듯, 캘린더에 못 박힌 일정이 내 쪽으로 성큼성큼 다가오고 있는 모습
+        * 초점: 객관적 일정의 도래
+        > She will present our preliminary kinematics data at the upcoming robotics symposium.
 
 - 성공
     - come off: 성공하다, 이루어지다
@@ -4284,3 +4271,64 @@
         * 코어 이미지: 기름과 물처럼 서로 섞일 수 없는 두 물질이 한 비커 안에서 부딪치며 "어떻게 A인데 동시에 B일 수 있지?" 하고 역설의 스파크가 튀는 모습
         * 초점: 역설과 모순의 병치
         > Yet, at that time, I endured those moments holding onto the belief that it was indeed a sacrifice.
+
+- 경우
+    - in times of: ~의 시기에는
+        * 코어 이미지: 특정 기후나 계절처럼 사람들을 감싸는 역사적·환경적 시기 구역
+        * 초점: 위기, 슬픔, 번영 등 특정한 상황이나 감정의 시기적 배경 속에 처해 있을 때 사용
+        > We need to support each other in times of grief
+        > He stayed calm in times of economic crisis
+    - in case of: ~의 경우에는
+        * 코어 이미지: 비상시에만 깨고 누를 수 있도록 준비해 둔 소방 벨 상자
+        * 초점: 혹시 모를 긴급 상황이나 특정 사태가 발생할 경우를 대비한 대책·지침
+        > In case of fire, use the stairs
+        > Keep this number in case of an emergency
+    - in the event of: ~ 할 경우에, ~라는 사태가 발생할 경우
+        * 코어 이미지: 비상구 벽에 붙어 있는 빨간색 비상 벨 상자 표면에 "화재 발생 시 유리창을 깨시오(In case of / In the event of fire, break glass)"라고 적혀 있듯, 평상시에는 닫혀 있다가 특정한 예외적 사건(Event)이 실제로 터지는 순간 열리는 비상 매뉴얼이나 조건부 스위치의 모습
+        * 초점: 높은 격식 수준, 사전 대응 프로토콜 및 비상 절차
+        > In the event of a breach of confidentiality, the institution reserves the right to terminate the contract without notice
+        
+- 적어도
+    - at least: (수량·시간·빈도의) 적어도, 최소한
+        * 코어 이미지: 수직 눈금자 위에 손가락을 얹고 "이 눈금(하한선)보다 아래로는 내려가지 않는다"며 기준점 밑바닥을 가볍게 짚어주는 모습
+        * 초점: 객관적 수량 및 조건의 하한선, 위안과 긍정적 측면 찾기
+        > The optimization solver requires at least 32 GB of memory to run without swapping.
+        > The experiment failed to confirm the main hypothesis, but at least the tracking pipeline operated without errors.
+    - at the very least: 아무리 못해도, 백번 양보하더라도, 최소한 이것만큼은 (반드시)
+        * 코어 이미지: 성벽이 무너지는 극한의 상황에서 바닥에 굵고 깊게 선을 긋고 "다른 건 다 내주더라도, 이 선(최후의 보루)만큼은 절대 침범당할 수 없다"고 배수진을 치는 모습
+        * 초점: 절대적 마지노선과 비타협성
+        > At the very least, I hope that by the time I return to Korea, my total spending here won’t have exceeded my total earnings in Europe.
+
+- 지출
+    - cost: 비용, 원가, 가격; (비용·대가가) 들다
+        * 코어 이미지: 진열대에 놓인 상품에 핀으로 꽂혀 있는 정가표(Price tag)나 저울의 반대편에 올려진 추의 무게처럼, 물건을 손에 넣기 위해 반드시 치러야 하는 객관적인 무게와 대가의 모습
+        * 초점: 사물/서비스에 내재된 객관적 속성
+        > The total cost of setting up the motion capture rig exceeded our initial budget.
+    - spending: (정부·기업·개인의) 지출, 소비액; 자금 집행
+        * 코어 이미지: 금고 문이나 지갑을 열어 현금 다발을 밖으로 꺼내어 건네는 흐름(Outflow of cash)처럼, 자금을 보유한 주체가 실제로 돈을 밖으로 유출하며 집행하는 역동적인 소비 흐름의 모습
+        * 초점: 주체의 능동적인 자금 집행
+        > At the very least, I hope that by the time I return to Korea, my total spending here won’t have exceeded my total earnings in Europe.
+
+- 소득, 수입, 급여
+    - income: (명사) 소득, 수입 (모든 유입 자금의 총칭)
+        * 코어 이미지: 하나의 커다란 물통(자산) 안으로 월급 파이프, 주식 배당금 파이프, 부동산 월세 파이프, 정부 지원금 파이프 등 사방에서 물이 쏟아져 들어오는 ‘자금 유입구 전체의 합산’ 모습
+        * 초점: 원천의 포괄성
+        > Her annual income comprises university salary, book royalties, and dividends from tech funds.
+    - earnings: (개인의) 근로 소득, 수당, 보수; (기업의) 순이익, 당기순이익
+        * 코어 이미지: 밭에서 하루 종일 곡괭이질을 하거나 연구실에서 밤을 새워 코드를 짠 뒤, 그 땀방울의 정당한 대가로 손에 쥔 ‘수확 바구니(급여 봉투)’
+        * 초점: 노동과 노력의 대가
+        > Disparities in average weekly earnings between the two sectors widened significantly
+        > The semiconductor company exceeded Wall Street's quarterly earnings expectations
+    - salary: (전문직·정규직의) 급여, 봉급, 연봉
+        * 코어 이미지: 연간 고용 계약서에 명시된 나의 전문적 시장 가치와 연봉 총액
+        * 초점: 전문직이나 정규직 직무에 대해 연간 단위로 책정된 고정 급여의 개념
+        > I hope to get a high salary at DeepMind
+    - payroll: 급여 대상자 명단(급여 명부); (회사의) 총 인건비 지출액; 급여 지급 관리 업무/부서
+        * 코어 이미지: 회사의 회계 장부에 등록된 전 직원 급여 지급 명부와 시스템
+        * 초점: 기업의 공식 급여 지급 시스템, 재직자 급여 명부 그 자체
+        > I am on the payroll of the research institute
+        > Please update your payroll account
+    - paycheck: 급여 수표, 월급/주급 (개인이 실제로 받는 회차별 급여); 급여 명세서
+        * 코어 이미지: 매월 지정일에 내 은행 계좌로 실제로 꽂히는 실수령 월급
+        * 초점: 생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈
+        > I'm waiting for my next paycheck to buy some stocks

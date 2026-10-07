@@ -404,3 +404,19 @@
     * 코어 이미지: 엔지니어나 건축가가 모눈종이 위에 청사진(Blueprint/Design)을 펼쳐놓고, 어떤 특성이나 동작을 우연히 발생하도록 내버려 두는 것이 아니라, "치밀한 계산과 의도에 따라 시스템의 뼈대에 미리 새겨 넣은 상태"의 모습
     * 초점: 우연(Accident/Coincidence)과의 선명한 대비
     > The data pipeline is stateless by design, ensuring fault tolerance across distributed workers
+- infiltrate: (조직·단체·적진 등에) 잠입하다, 침투하다; (액체·물질이) 스며들다, 침투하다; (비유) 사상이나 시스템에 은밀히 퍼지다
+    * 코어 이미지: 커피 필터나 촘촘한 여과지 표면에 떨어진 액체가 미세한 틈새(Pores)를 타고 천천히, 소리 없이 바닥까지 스며들어 내부 구조 전체를 적시듯, 단단한 방어벽의 작은 틈새를 찾아 몰래 기어들어가는 모습
+    * 초점: 은밀성과 비가시성
+    > In the midst of this, he infiltrates Kel’Thuzad’s moving citadel to save the Forsaken from a Scourge invasion
+- fall under: ~의 관할/통제/영향 아래에 들어가다
+    * 코어 이미지: 커다란 우산(Umbrella term)을 펼치거나 천장에 매달린 커다란 분류 바구니 아래에 서 있듯, 특정 항목이나 개체가 상위의 포괄적인 테두리·관할권의 그림자 밑으로 ‘툭 떨어져 쏙 들어가는(Fall under)’ 모습
+    * 초점: 관할, 책임 및 통제
+    > Garek falls under mind control, but through that very process, his past memories are restored, and he realizes that the Light has remained fully within him all along.
+- all along: 내내, 줄곧, 처음부터 줄곧 (알고 보니 이미 그래왔던)
+    * 코어 이미지: 기나긴 철로(Track)나 길(Path)을 따라 걸어왔는데, 도착지에 이르러 뒤를 돌아보니 출발선부터 발밑의 붉은 실선이 끊김 없이 쭉(All along) 이어져 있었음을 깨닫는 모습
+    * 초점: 반전과 사후적 깨달음
+    > When confronted by a Scourge undead paladin, Garek falls under mind control, but through that very process, his past memories are restored, and he realizes that the Light has remained fully within him all along
+- amount to: 결국 ~에 지나지 않다, 실질적으로 ~나 마찬가지이다/귀결되다; (부정문에서) 가치 있는 존재가 되다/성공하다
+    * 코어 이미지: 바닥에 흩어져 있는 동전, 흙더미, 또는 작은 조각들을 산(Mountain/Mount)처럼 차곡차곡 위로 쌓아 올려 맨 꼭대기(Summit)의 최종 눈금을 재어보듯, 사소해 보이던 여러 요소들을 다 모아 합산했을 때 도달하는 ‘최종적인 귀결점과 실체’의 모습
+    * 초점: 실질적 본질과 동등성
+    > Whether those actions amounted to a true sacrifice in an objective sense, I do not know.
