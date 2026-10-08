@@ -1803,6 +1803,10 @@
         * 코어 이미지: 남이 가지고 있는 귀한 보물을 곁눈질하며 몹시 탐내는 시선
         * 초점: 자신에게 없는 남의 소유물, 지위, 상을 몹시 부러워하며 탐냄 (격식체)
         > The Nobel Prize is a highly coveted award across the scientific community
+    - yearn for: 갈망하다, 동경하다, 애타게 그리워하다
+        * 코어 이미지: 끝없이 펼쳐진 망망대해를 바라보며, 지금 당장 닿을 수 없는 아득히 먼 고향이나 영원히 돌아갈 수 없는 옛 시절을 떠올리며 가슴 한구석이 뻐근해지도록 탄식하는 모습
+        * 초점: 도달 불가능성과 정서적 결핍, 내면의 아릿한 통증
+        > What I truly yearn for seems to have been thwarted for such a long time
 
 - 화제 전환
     - as for: 화제 전환
@@ -4332,3 +4336,9 @@
         * 코어 이미지: 매월 지정일에 내 은행 계좌로 실제로 꽂히는 실수령 월급
         * 초점: 생활비로 인출하여 사용할 수 있는 손에 쥐어지는 구체적인 월급 돈
         > I'm waiting for my next paycheck to buy some stocks
+
+- 방황
+    - drift: (물·공기에 떠서) 서서히 떠내려가다, 표류하다
+        * 코어 이미지: 호수 한가운데 닻을 내리지 않고 띄워둔 조각배가 노를 젓지도 않았는데 잔잔한 미풍과 물결에 밀려, 탑승자가 눈치채지 못하는 사이에 원래 위치에서 몇 미터씩 엉뚱한 방향으로 스르륵 떠내려가 있는 모습
+        * 초점: 무의식적·비의도적 이탈
+        > My heart drifts aimlessly through the world.

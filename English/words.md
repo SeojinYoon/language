@@ -420,3 +420,19 @@
     * 코어 이미지: 바닥에 흩어져 있는 동전, 흙더미, 또는 작은 조각들을 산(Mountain/Mount)처럼 차곡차곡 위로 쌓아 올려 맨 꼭대기(Summit)의 최종 눈금을 재어보듯, 사소해 보이던 여러 요소들을 다 모아 합산했을 때 도달하는 ‘최종적인 귀결점과 실체’의 모습
     * 초점: 실질적 본질과 동등성
     > Whether those actions amounted to a true sacrifice in an objective sense, I do not know.
+- creep in: (감정·생각·부정적 요소가) 슬그머니 기어들다, 은밀히 스며들다, 알아차리지 못하게 서서히 번지다
+    * 코어 이미지: 발소리를 극도로 죽인 도둑이나 포식자가 몸을 바닥에 바짝 웅크린 채(Creep), 문틈 사이로 소리 없이 기어 들어와 방 한구석에 자리 잡을 때까지 집주인이 전혀 눈치채지 못하는 모습
+    * 초점: 감지 불가능한 속도와 은밀성
+    > Whenever that thought creeps in, I lay my despair before God, yet no salvation comes.
+- burn out: (에너지를 하얗게 태워) 극도로 지치다, 탈진하다/번아웃되다; (불·연료가) 다 타고 꺼지다; (기계·회로가) 과열로 타서 고장 나다
+    * 코어 이미지: 양초나 모닥불이 마지막 연료와 심지 한 조각까지 전부 쥐어짜 내어 활활 태우고 난 뒤, 더 이상 탈 연료가 전혀 남아있지 않아(Out) 하얀 재만 남긴 채 푸른 연기를 내뿜으며 스르륵 꺼져버리는 모습
+    * 초점: 냉소와 의욕 상실, 장기적 누적과 비가역적 탈진
+    > Can I rekindle the spark now that my hope has burned out?
+- rekindle: (꺼져가던 불·불씨를) 다시 지피다/타오르게 하다; (비유) (식어가던 감정·흥미·관계·논쟁을) 다시 불러일으키다, 되살리다
+    * 코어 이미지: 모닥불의 불길이 가라앉아 재 속에 희미한 주황빛 잉걸불(Ember)만 숨죽여 남아 있을 때, 새로운 마른 장작을 얹고 입김을 살살 불어넣어(Kindle) 다시 붉고 따뜻한 불꽃(Re-)이 화르륵 피어오르게 만드는 모습
+    * 초점: 잠재된 기억과 온기의 전제, 따뜻하고 긍정적인 부활
+    > Can I rekindle the spark now that my hope has burned out?
+- bring A to B: A를 B에 적용/도입하다; A를 B로 가져오다/데려오다; A를 B(특정 상태·결과·수준)에 이르게 하다
+    * 코어 이미지: 출발지에서 손에 쥔 물건이나 대상을 품에 안고, 화자나 관찰자가 서 있는 목표 지점(B)을 향해 품에 안은 채 걸어와 그 자리 위에 탁 내려놓는 모습
+    * 초점: 적용, 융합 및 자원 투입; 상태 전환 및 종결
+    > I try bringing the spark within me to different parts of this world, but it simply doesn’t fit anywhere.
