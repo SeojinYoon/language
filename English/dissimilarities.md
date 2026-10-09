@@ -980,11 +980,6 @@
         > I dropped my AirPods in the washing machine accidentally
 
 - 이동
-    - go and: 가서 ~하다; (명령/권유) 어서 가서 ~해라
-        * 코어 이미지: 가벼운 발걸음으로 이동하여 연이어 다음 행동을 연결하는 리듬
-        * 초점: 이동 후 뒤이어 일어나는 행동을 자연스럽고 친근하게 연결하는 구어체 표현
-        > I don't need to go develop a picture any more
-        > You should go and get some rest; you look tired
     - go to: ~로 가다; (목적) ~하러 가다; ~에 다니다/출석하다
         * 코어 이미지: 명확한 목적지를 향해 나침반을 맞추고 출발하는 직진 행렬
         * 초점: 특정 목적(to 부정사)을 달성하기 위해 장소(to 명사)로 이동하는 방향성에 집중
@@ -3308,11 +3303,11 @@
         > The model can process up to one thousand samples per second
 
 - 들르다
-    - stop by: 들르다
+    - stop by: (가는 길에 / 잠시 볼일이 있어) 잠깐 들르다, 거쳐 가다
         * 코어 이미지: 목적지로 가던 도중 가던 길을 멈추고 옆 카페에 잠시 발을 들임
         * 초점: 어디를 가는 길에 특정 장소에 잠시 멈추어 가볍게 들르는 행위
         > I'll stop by the pharmacy on my way home
-    - drop by: 들르다
+    - drop by: (약속 없이 / 가볍게 인사하러) 불쑥 찾아오다, 슬쩍 들르다
         * 코어 이미지: 친구 집 근처를 지나가다 예고 없이 문을 두드려 가볍게 방문함
         * 초점: 사전 약속이나 격식 없이 편안하고 즉흥적으로 잠시 들름
         > Feel free to drop by my office anytime you have a question
@@ -4357,4 +4352,4 @@
         * 초점: 대화뿐 아니라 모든 능동적 활동에 포괄 적용
         > Both research teams engaged in intense theoretical debates regarding the proper kinematic constraints.
         > They engaged in a debate about the theory.
-        
+    
