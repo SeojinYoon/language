@@ -436,3 +436,42 @@
     * 코어 이미지: 출발지에서 손에 쥔 물건이나 대상을 품에 안고, 화자나 관찰자가 서 있는 목표 지점(B)을 향해 품에 안은 채 걸어와 그 자리 위에 탁 내려놓는 모습
     * 초점: 적용, 융합 및 자원 투입; 상태 전환 및 종결
     > I try bringing the spark within me to different parts of this world, but it simply doesn’t fit anywhere.
+- tease out: 세밀하게 분리해내다, 규명하다
+    * 코어 이미지: 양털 뭉치나 엉킨 실타래를 손끝이나 빗으로 살살 건드리며 조심스럽게 한 가닥씩 뜯어내고 풀어서(Carding wool) 뭉친 덩어리를 해체하는 모습
+    * 초점: 학술/데이터 분석
+    > It is difficult to tease out the specific contribution of visual feedback from proprioceptive input
+- underlay: 밑에 깔다, ~의 밑받침이 되다, 기초/근간을 이루다
+    * 코어 이미지: 거실에 고급 카펫을 깔기 전, 바닥의 냉기와 소음을 막고 쿠션을 주기 위해 그 밑바닥 전체에 두껍고 평평한 완충 고무 패드를 빈틈없이 깔아두는 모습
+    * 초점: 이미 밑바탕을 형성했다는 서술에 방점
+- later on: (시간이 조금 더 흐른) 뒤에
+    * 코어 이미지: 현재 시점의 정거장에서 출발해 시간 축(Time axis)을 따라 화살표 방향으로 앞으로 쭉 걸어가(On), 조금 더 떨어진 다음 지점에 도착하는 모습
+    * 초점: 전진하는
+    > We will discuss the detailed calibration parameters later on in Section 4.
+- conclusive: 결정적인, 확실한, 반론의 여지가 없는
+    * 코어 이미지: 재판관이 모든 증거 조사를 마치고 "땅! 땅! 땅!" 의사봉을 내리치며, 더 이상의 변론이나 재론의 여지 없이 사건 서류함을 탕 하고 닫아버리는(Close) 모습
+    * 초점: 완전한 종결성
+    > While the behavioral trends are promising, they do not provide conclusive evidence of hierarchical encoding
+- agnostically: (플랫폼·모델·조건 등에) 구애받지 않고, 종속되지 않고, 독립적으로
+    * 코어 이미지: 내부 부품이 무엇이든 상관없이 똑같은 규격의 전원 플러그를 꽂으면 무조건 돌아가는 만능 변환 젠더처럼, 내부의 구체적인 하드웨어나 구현 방식에 전혀 얽매이지 않고 투명하게 작동하는 모습
+    * 초점: 공학/컴퓨터 과학의 독립성
+    > The optimization framework operates agnostically with respect to the underlying physics simulator.
+- certified: 공인된, 보증된, (공식 자격증·인증서를 갖춰) 검증된
+    * 코어 이미지: 엄격한 품질 검사나 시험을 통과한 제품이나 자격증 문서의 맨 아래에 공인 검증 기관의 붉은 밀랍 인장(Seal)이나 공식 압인을 쾅 찍어 보증하는 모습
+    * 초점: 공인된 자격과 신뢰성
+    > Only certified technicians are authorized to recalibrate the optical tracking cameras.
+- Expedite out: (물품·서류·주문 등을) 신속히 처리하여 밖으로 내보내다/출고하다/발송하다
+    * 코어 이미지: 물류 창고나 결재 라인에서 병목에 걸려 있던 긴급 주문 상자에 '급행(Expedite)' 빨간 스티커를 붙여 다른 일반 대기열을 제치고 고속 컨베이어 벨트를 통해 문밖의 화물차로 빠르게 내보내는(Out) 모습
+    * 초점: 대기열 추월 및 신속 출납
+    > We requested the supplier to expedite out the replacement IMU sensor via overnight courier.
+- strain: (밧줄·근육·시스템 등을) 한계까지 팽팽하게 잡아당기다/혹사하다
+    * 코어 이미지: 팽팽하게 묶인 두꺼운 밧줄이나 활시위의 양 끝을 강한 힘으로 잡아당겨, 밧줄의 꼬임 섬유 하나하나가 터질 듯이 늘어나며 끼익- 하는 파열 직전의 비명을 지르는 모습
+    * 초점: 시스템, 예산, 관계의 과부하
+    > Unclear division of labor put severe strain on the collaboration between the two institutes.
+- stalling: (기계·엔진이) 급격한 부하나 출력 부족으로 갑자기 꺼짐, 멎음 (시동 꺼짐), (진행·성장이) 교착 상태에 빠짐, 제자리걸음
+    * 코어 이미지: 앞으로 힘차게 굴러가야 할 기계나 날아야 할 비행기가, 회전력이나 공기 흐름의 균형을 잃고 털컥하며 그 자리에 굳어버리듯 멈춰 서거나(엔진 멎음 / 실속), 누군가 질문에 즉답을 피하려고 헛기침을 하며 발을 제자리에서 동동 구르는 모습
+    * 초점: 진행 및 협상의 정체
+    > My English isn’t working, my work isn’t going well, my relationships feel distant, and my research is stalling.
+- catch one's breath: (가쁜 숨을) 가다듬다, 진정시키다, 숨을 돌리다
+    * 코어 이미지: 가파른 언덕을 전력으로 질주하다가 허리를 굽히고 무릎에 양손을 얹은 채, 저만치 앞으로 달아나 버린 들쑥날쑥한 호흡의 꼬리를 낚아채듯(Catch) 두 손으로 붙잡아 다시 가슴속에 차분히 채워 넣는 모습
+    * 초점: 신체적 호흡 안정, 정신적 여유와 번아웃 방지 쉼표
+    > It feels like every single failure is entirely my fault. I just desperately need to catch my breath.

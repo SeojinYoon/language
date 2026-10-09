@@ -4342,3 +4342,19 @@
         * 코어 이미지: 호수 한가운데 닻을 내리지 않고 띄워둔 조각배가 노를 젓지도 않았는데 잔잔한 미풍과 물결에 밀려, 탑승자가 눈치채지 못하는 사이에 원래 위치에서 몇 미터씩 엉뚱한 방향으로 스르륵 떠내려가 있는 모습
         * 초점: 무의식적·비의도적 이탈
         > My heart drifts aimlessly through the world.
+
+- 대화
+    - talk: 말하다, 이야기하다, 담소를 나누다
+        * 코어 이미지: 카페나 연구실 복도 벤치에 마주 앉아 커피잔을 쥐고 편안한 호흡으로 소리 내어 서로의 생각이나 일상을 스스럼없이 주고받는(Ping-pong) 모습
+        * 초점: 가장 일상적이고 중립적인 기본값
+        > She will give a 20-minute talk on hierarchical motor synergies at the upcoming seminar.
+    - converse: (격조 있게) 대화를 나누다, 담화를 나누다, 의견을 교환하다
+        * 코어 이미지: 서재나 학술 리셉션 홀에서 품격 있는 자세로 마주 서서, 상대방의 의견을 경청한 뒤 품위 있고 정제된 언어로 생각을 깎아 다듬으며 지적 교류를 이어가는 모습
+        * 초점: 철저한 쌍방향성과 대등함, 높은 격식 수준
+        > The visiting scholar was eager to converse with our research group on neural manifold representations.
+    - engage in: (활동·논의·전투·연구 등에) 참여하다, 관여하다, 착수하다
+        * 코어 이미지: 기계 장치의 두 톱니바퀴(Gear)가 빈틈없이 '철컥' 하고 맞물려 들어가며(Engaged), 주체가 어떤 논쟁이나 과업의 흐름 속으로 온몸을 던져 함께 회전하기 시작하는 모습
+        * 초점: 대화뿐 아니라 모든 능동적 활동에 포괄 적용
+        > Both research teams engaged in intense theoretical debates regarding the proper kinematic constraints.
+        > They engaged in a debate about the theory.
+        
