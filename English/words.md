@@ -475,3 +475,53 @@
     * 코어 이미지: 가파른 언덕을 전력으로 질주하다가 허리를 굽히고 무릎에 양손을 얹은 채, 저만치 앞으로 달아나 버린 들쑥날쑥한 호흡의 꼬리를 낚아채듯(Catch) 두 손으로 붙잡아 다시 가슴속에 차분히 채워 넣는 모습
     * 초점: 신체적 호흡 안정, 정신적 여유와 번아웃 방지 쉼표
     > It feels like every single failure is entirely my fault. I just desperately need to catch my breath.
+- hit rock bottom: 인생·상황·기분이 바닥을 치다, 최악의 상태에 이르다, 밑바닥까지 추락하다
+    * 코어 이미지: 깊고 어두운 절벽이나 바다 밑으로 끝없이 추락하다가, 진흙이나 모래가 아닌 더 이상 파고 내려갈 수 없는 단단한 암반(Rock)의 맨 밑바닥(Bottom)에 '쿵' 하고 정면으로 부딪혀 멈추는 모습
+    * 초점: 상황·정서·재정의 절대적 최저점
+    > These days, my mood hits the bottom line.
+
+- carrying that: (과거의 상처·죄책감·중압감·비밀 등을) 가슴에 묻어둔 채, 짊어지고 가며
+    * 코어 이미지: 무거운 배낭이나 거대한 돌덩이(that)를 내려놓지 못하고 등에 짊어지거나 두 팔로 껴안은 채(Carrying), 묵직한 하중을 온몸으로 지탱하며 한 걸음 한 걸음 힘겹게 앞으로 걸어가는 모습
+    * 초점: 심리적·정서적 부채와 트라우마
+    > Carrying that heavy weight of gloom and stress, I boarded the cable car up to the Aiguille du Midi.
+- suffocate: (숨이 막힐 듯이) 답답하다, 옥죄다, 옴짝달싹 못 하게 만들다
+    * 코어 이미지: 밀폐된 방 안에서 산소가 0으로 떨어지거나 기도(Airway)가 꽉 막혀, 폐는 필사적으로 흉곽을 부풀리며 산소를 갈망하지만 유입되는 공기가 전혀 없어 목을 쥐어뜯으며 서서히 의식이 꺼져가는 모습
+    * 초점: 심리적 압박감과 숨 막히는 환경
+    > Yet, watching them, I couldn’t truly take in the beauty-the weight suffocating my mind was simply too heavy.
+- Picturesque: 그림 같은, 그림처럼 아름다운, (풍경·장소가) 아기자기하고 정취 있는
+    * 코어 이미지: 창밖으로 펼쳐진 풍경에 캔버스 액자 프레임(Frame)을 가져다 대었을 때, 앞쪽의 고즈넉한 나무 오두막, 중간의 굽이치는 오솔길, 뒤편의 웅장한 설산 봉우리가 완벽한 구도와 비율을 이루며 한 폭의 유채화로 딱 들어맞는 모습
+    * 초점: 아기자기한 구도와 정취'의 미학
+    > The train ride from Geneva to Chamonix winds past several picturesque alpine valleys and chalets.
+- breathtaking: (숨이 턱 막힐 정도로) 압도적인, 경이로운, 아슬아슬한
+    * 코어 이미지: 높은 산봉우리나 벼랑 끝 전망대에 올라서는 순간, 눈앞에 360도로 펼쳐진 거대한 만년설 산맥과 빙하의 위용을 마주하고 가슴이 쿵 내려앉으며 반사적으로 "흡-" 하고 숨을 멈추게 되는(Involuntary Gasp) 모습
+    * 초점: 생리적 반응에 기반한 압도감
+    > Stepping out onto the terrace at Aiguille du Midi offers a breathtaking panorama of the Mont Blanc massif
+- sit at: (특정 통계치·비율·가격 등에) 머물러 있다, (수치가) ~를 기록하고 있다
+    * 코어 이미지: 수치 그래프의 게이지 바늘이 위아래로 요동치다가, 특정 눈금선(Target coordinate)에 딱 멈추어 서서 머물고 있는 모습
+    * 초점: 공학·경제학적 수치 서술
+    > It was hardly surprising, given that the observatory sits at an altitude of 3,800 meters.
+- catch the train: (출발 시각에 늦지 않게 맞춰) 기차를 타다 / 놓치지 않고 탑승하다
+    * 코어 이미지: 플랫폼을 향해 진입하거나 문이 닫히기 직전인 기차를 향해, 달아나려는 사냥감의 꼬리를 낚아채듯(Catch) 플랫폼 통로를 빠른 걸음으로 주파해 마침내 차내로 발을 들여놓고 좌석에 안도하며 앉는 모습
+    * 초점: 시간 엄수와 타이밍에 방점
+    > We had to run through the station corridors to catch the train before the doors closed
+- get caught: 들키다, 발각되다, 잡히다, (예상치 못한 비·눈·교통체증·곤경에) 발이 묶이다, 갇히다
+    * 코어 이미지: 그물(Net), 덫(Trap), 혹은 회전하는 기계의 이빨 사이에 자유롭게 움직이던 대상의 신체나 옷자락이 순식간에 턱 얽혀들어(Catch), 주도권을 완전히 빼앗긴 채 그 자리에서 꼼짝달싹 못 하게 포박당하는 모습
+    * 초점: 부정행위나 결함의 현장 발각, 불리한 환경이나 루프에의 갇힘
+    > He got caught plagiarizing an entire paragraph from a preprint in his thesis introduction
+- nagging: (귀찮게 계속되는) 잔소리, 바가지, 재촉
+    * 코어 이미지: 생쥐 한 마리가 나무 벽장 모서리를 한 번에 부수지는 못하지만, 밤새 쉬지 않고 "사각... 사각..." 소리를 내며 조금씩 갉아대어(Gnawing/Nibbling) 사람의 신경을 끝내 긁어놓는 모습
+    * 초점: 일상적인 잔소리와 끝없는 재촉
+    > Constant nagging from the project manager only increased the team's cognitive fatigue.
+- set [someone] up with [something / someone]: (필요한 장비·시스템·도구를) 갖추어 주다, 세팅해 주다, 마련해 주다; (사람을) 소개팅/만남을 주선해 주다 (set someone up with a date / someone)
+    * 코어 이미지: 바닥에 흩어져 있거나 아직 준비되지 않은 부품들을 하나씩 집어 올려, 주체가 바로 작업을 시작하거나 활동할 수 있도록 작업대 위에 완벽한 구성과 정렬로 '딱 세워 놓아(Set up) 손에 쥐여주는(With)' 모습
+    * 초점: 장비, 워크스테이션 및 실험 인프라 구축; 소개팅 및 인간관계 주선
+    > The lab technician set me up with a calibrated set of IMU sensors for the motion capture trial.
+    > Are you trying to set me up with someone?
+- lay down on: (물리적) ~ 위에 몸을 눕히다 / 드러눕다
+    * 코어 이미지: 수직으로 서 있거나 높이 들려 있던 무게중심을 완전히 낮추어, 표면(On)과 최대한 넓은 면적으로 맞닿도록 수평으로 납작하게 펼쳐 내려놓는(Lay down) 모습
+    * 초점: 신체적 이완과 휴식; 물리적 대상의 배치
+    > At home, I took a Tylenol and lay down on my bed because tiredness and lethargy washed over me.
+- slip away: (모임·자리에서) 눈에 띄지 않게 슬그머니 빠져나가다, 조용히 자리를 뜨다
+    * 코어 이미지: 젖은 비누나 젖은 손 사이로 미끄러운 물체가 아무런 마찰이나 거친 소리도 내지 않고 슥- 미끄러져(Slip), 원래 있던 중심부로부터 멀리 저편으로(Away) 스르륵 빠져나가 버리는 모습
+    * 초점: 사람의 은밀하고 조용한 퇴장
+    > I even thought it might be better to just slip away quietly without any send-off, just to keep myself from getting hurt.

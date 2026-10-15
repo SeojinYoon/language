@@ -466,7 +466,7 @@
         * 코어 이미지: 시간표나 계약서에 미리 배정되어 있어 그렇게 하도록 정해진 약속
         * 초점: 사회적 규칙, 사전 약속, 원래의 용도 등에 따라 당연히 그렇게 행동하기로 기대되어 있는 상태
         > I am supposed to attend the meeting
-        > I bought a laptop at a cheaper price, but I am supposed to buy and install Windows myself. I ended up deciding on getting a refund
+        > After the tour, I was supposed to go to work, but I didn’t want to, so I told Andy that I would work from home.
     - ought to: ~해야 마땅하다, ~하는 것이 도리이다 (도덕적 책무/자연적 당위)
         * 코어 이미지: 도덕과 양심의 법정에서 내려진 책무의 명령
         * 초점: 사회적 규범, 도덕적 책무, 혹은 합리적 당위성에 비추어 볼 때 마땅히 이행해야 하는 행동
@@ -882,7 +882,7 @@
         * 초점: 이동 궤적 상의 경유지에서 일어나는 분리와 위탁 (Detachment along a Trajectory)
         > Could you drop off the broken sensor module at the maintenance shop?
 
-- 요청
+- 요청, 요구
     - ask to: (~에게) ~해 달라고 부탁하다
         * 코어 이미지: 상대방에게 다가가 특정 행동을 정중하게 부탁하는 대화
         * 초점: 상대방이 특정 행동이나 조치를 취해주기를 구두나 서면으로 정중히 부탁함
@@ -907,7 +907,14 @@
         * 코어 이미지: 상대방의 책상을 손바닥으로 탁 치거나 법적 권리를 들이밀며, "이것은 마땅히 내놓아야 할 것이니 지금 즉시 이행하라"며 거절을 불허하는 단호한 명령의 모습
         * 초점: 강제성, 정당한 권리 주장, 거절의 배제 (Urgent & Non-negotiable Claim)
         > The client demanded an immediate audit of the simulation codebase after the crash
-
+    - asking: 질문하기, 묻기; 부탁하기, 요청하기; 요구하기
+        * 코어 이미지: 복도나 카페에서 상대방을 마주 보고 직접 입을 열어 "저기, 혹시 이것 좀 도와줄 수 있어?"라고 망설임 없이 소리 내어 말을 건네는 편안하고 구체적인 모습
+        * 초점: 구두 소통 및 일상 대화의 기본값
+        > There is no harm in asking the author for their raw kinematic dataset.
+    - request: 요청, 신청, 청구, 의뢰; 요구 사항
+        * 코어 이미지: 기관의 결재 라인이나 공식 시스템에 정중하고 규격화된 양식의 요청서(Request Form)를 작성하여 공식 티켓이나 서면으로 접수하는 모습
+        * 초점: 공식성과 서면성, 정중함과 거리감
+        > We submitted an official request to the ethics committee for human subject testing approval.
 - 비행
     - plane: 비행기, 항공기
         * 코어 이미지: 활주로에 서 있는 날개와 제트 엔진이 달린 물리적 항공기 기체
@@ -1696,6 +1703,10 @@
         * 코어 이미지: 차 한잔하며 조심스럽게 '이런 방법은 어때?' 하고 아이디어를 띄움
         * 초점: 상대방이 편안하게 검토할 수 있도록 부드럽고 완곡하게 의견을 제안함
         > I suggest that we test the model with a smaller dataset first
+    - suggest ~ing: (다 함께 하거나 해볼 만한 행동을) 제안하다, 추천하다, 권하다
+        * 코어 이미지: 탁자 위에 어떤 계획이나 실행 가능한 행동의 씨앗(아이디어)을 조심스럽게 툭 올려놓고 물러서며(Suggest), "이런 방향으로 한번 움직여 보는 건(Action: -ing) 어때요?" 하고 그 장면에 함께 있는 사람들의 시선을 아이디어 위로 모으는 모습
+        * 초점: 주어가 행위에 동참하거나 팀 전체의 방향을 타진할 때
+        > As my departure date draws near, Siebe suggested having a farewell meal with the lab members in the last week of October.
     - propose: (공식적으로 계획·기획안을) 제안하다, 상정하다
         * 코어 이미지: 이사회 회의실에서 정식 프로젝트 기획안을 스크린에 띄우고 발표함
         * 초점: 공식적인 채택이나 승인을 목적으로 체계적인 계획을 정식 제안함
@@ -1704,7 +1715,11 @@
         * 코어 이미지: 자신이 직접 써보고 너무 만족하여 지인에게 강력히 권하는 보증
         * 초점: 자신의 경험이나 전문적 지식을 바탕으로 가장 최선의 선택지를 추천함
         > I highly recommend this book for beginners in machine learning
-
+    - might be better to: (완곡한 제안/조언 표현) ~하는 편이 더 나을지도 모른다, ~하는 것이 더 현명할 수 있다
+        * 코어 이미지: 두 갈래 길 앞에 서서 상대방의 등을 강하게 떠미는 대신, 옆에 나란히 서서 턱 끝으로 살며시 한쪽 오솔길을 가리키며 "저쪽 길로 발을 딛는 편이 자갈도 적고 더 수월할 것 같은데, 어떻게 생각해?" 하고 부드럽게 선택지를 건네는 모습
+        * 초점: 전략적 피벗
+        > I even thought it might be better to just slip away quietly without any send-off, just to keep myself from getting hurt.
+        
 - 결정
     - decide: 결정
         * 코어 이미지: 여러 대안 사이의 망설임을 칼로 자르듯 끊고 한쪽 길을 택함
@@ -2193,12 +2208,12 @@
 
 - 목적
     - in order to: ~하기 위하여, ~할 목적으로
-        * 코어 이미지: 과녁의 중심을 향해 정확한 일직선 궤적으로 곧게 날아가는 화살
-        * 초점: 명확하고 정식인 목적을 달성하기 위해 행동함을 나타내는 공식적 표현
+        * 코어 이미지: 도미노 블록을 정해진 순서와 간격대로 반듯하게 정렬해 세우듯, 궁극적인 목표 깃발을 꽂아두고 그곳에 도달하기 위해 필요한 행동과 전제 조건을 질서정연하게 정렬(In order)시키는 모습
+        * 초점: 가장 명시적이고 단호한 목적성
         > In order to achieve high accuracy, we increased the dataset size
     - so as to: ~할 수 있도록, ~하기 위하여 (결과적으로 그렇게 되도록)
-        * 코어 이미지: 결과의 톱니바퀴가 정확히 맞물리도록 설계도를 따라 섬세하게 조율함
-        * 초점: 어떤 바람직한 결과를 유도하거나 피하기 위해 취하는 조치 (격식체/문어체)
+        * 코어 이미지: 수도꼭지의 밸브를 아주 미세하게 비틀어 돌려, 물이 튀지 않고 얇은 물줄기로 조용히 흘러내리도록(So) 상태와 결과를 딱 들어맞게(As to) 맞추는 모습
+        * 초점: 행동의 방식과 결과의 매끄러운 수렴
         > He spoke quietly so as to avoid waking the baby
 
 - 화장실
@@ -2650,11 +2665,11 @@
         > I filed a complaint with the airline because they lost my luggage
 
 - 몇몇
-    - some: 몇몇
+    - some: (수량·정도가) 몇몇의, 약간의, 일부의
         * 코어 이미지: 군중 속에서 특정되지 않은 막연한 몇몇 사람들의 흐릿한 실루엣
         * 초점: 정확한 수량이나 대상이 정해지지 않은 막연하고 일반적인 일부
         > Some people prefer value investing over momentum trading
-    - certain: 몇몇
+    - certain: (명사 앞에서 한정사로) 특정한, 어떤, 일정한 (조건의)
         * 코어 이미지: 다수의 대상 중 화자의 머릿속에 콕 집어 명확히 정해져 있는 특정 그룹
         * 초점: 전체 중에서 화자가 명확히 인식하고 있거나 조건이 정해져 있는 특정 대상들
         > There are certain risks associated with this asset class
@@ -3009,15 +3024,11 @@
         * 초점: 책/영화가 정식 출시되거나, 숨겨진 진실이 세상 밖으로 밝혀져 나옴
         > The new research paper came out in Nature last week
 
-- 가지다 (동작)
-    - take: 가지다 (동작)
+- 가지다
+    - take: 가지다
         * 코어 이미지: 테이블 위에 놓인 열쇠를 손가락으로 집어 내 호주머니에 챙겨 넣음
         * 초점: 자신의 의지를 가지고 대상을 손으로 집어 들거나 주체적으로 챙김
         > Please take an umbrella before leaving the house
-    - get: 얻다, 가지게 되다 (획득 동작)
-        * 코어 이미지: 선물 상자를 건네받아 내 품에 안게 되는 기쁜 수령
-        * 초점: 외부로부터 물건, 정보, 기회를 새롭게 획득하거나 수령하여 갖게 됨
-        > I got a lot of useful feedback from Oscar
 
 - 분류하다
     - classify: (체계적으로) 분류하다
@@ -3450,6 +3461,10 @@
         * 코어 이미지: 최근 며칠간 쭉 이어져 오고 있는 지속적인 상태의 선(Line)
         * 초점: 최근 들어 얼마간의 기간 동안 지속되고 있는 상태나 반복되는 패턴에 초점
         > I've been feeling tired lately due to the heavy workload
+    - these days: 요즘에는, 요새는 (과거의 관행이나 시대와 대비되는 현재)
+        * 코어 이미지: 달력에서 과거의 낡은 페이지들을 뒤로 넘기고, 우리가 지금 발을 딛고 서 있는 '바로 이 날들의 묶음(These days)'을 가리키며 과거의 세태와 선명한 대조를 이루는 모습
+        * 초점: 과거와의 암묵적 대비
+        > These days, most biomechanics labs rely on markerless motion capture rather than manual optical tracking.
 
 - 시간의 전치사
     - in: 시간의 전치사
@@ -3851,7 +3866,7 @@
         > A heavy wave of loneliness washed over me
         > A sense of relief washed over him after the exam
 
-- 밖으로 나가다
+- 나가다
     - go outside: 밖으로 나가다
         * 코어 이미지: 식사를 하거나 산책을 하기 위해 건물 문을 열고 실외로 이동함
         * 초점: 야외로 나가는 구체적인 목적이나 물리적 이동 행위 그 자체
@@ -3861,7 +3876,15 @@
         * 초점: 실내의 경계선을 벗어나 바깥 공기를 쐬는 신체 동작의 순간에 집중
         > When I stepped outside, it wasn't just drizzling—it was pouring
         > Let's step outside for some fresh air
-
+    - exit: (방·건물·고속도로 등에서) 나가다, 빠져나가다, 퇴장하다; (프로그램·루프를) 종료하다
+        * 코어 이미지: 비상구 표지판(EXIT)의 초록색 달리는 사람 픽토그램처럼, 정해진 문이나 통로의 경계선을 통과하여 공간이나 화면 밖으로 깔끔하게 빠져나가는 모습
+        * 초점: 경계선과 통로의 통과; 시스템 및 제어 루프의 종료; 뒤에 남겨지는 것 없음
+        > Take the next motorway exit toward Lausanne-Sud
+    - leave: (어떤 장소나 상태에서) 떠나다, 출발하다; (물건·사람·흔적을) 남겨두다, 두고 오다, 방치하다; (직장·직책·연구실을) 그만두다, 탈퇴하다
+        * 코어 이미지: 기차역 플랫폼에 발자국이나 짐가방 하나를 바닥에 그대로 남겨둔 채(Left), 몸을 실은 열차가 출발지를 뒤로하고 저 멀리 지평선 너머로 아득히 멀어져 가는 모습
+        * 초점: 출발지와 잔류물에 맺히는 초점; 영구적 결별 및 퇴사/사직; 상태의 방치 및 잔류 효과
+        > I accidentally left my notebook on the optical table in the laboratory.
+        > Dr. Müller will leave the institute at the end of the semester to take up a professorship.
 - 그래도, 그럼에도 불구하고
     - still: 그럼에도 불구하고, 여전히
         * 코어 이미지: 거센 비바람 속에서도 꿋꿋이 서 있는 바위처럼 굴하지 않는 결연함
@@ -4251,7 +4274,7 @@
         * 초점: 격식 있는 의전과 식순
         > Tickets for the conference banquet must be reserved during online registration.
 
-- 되찾다
+- 되찾다, 되살아나다
     - restore: (원래 상태로) 복원하다, 복구하다; (건강·기력·질서를) 회복시키다
         * 코어 이미지: 오랜 세월로 변색되고 금이 간 고대 명화나 깨진 조각상을 장인이 조심스레 붓질하고 다듬어, 처음 완성되었을 때의 깨끗하고 온전한 원래 형태(Original State)로 되살려내는 모습
         * 초점: 상태의 정상화
@@ -4260,6 +4283,10 @@
         * 코어 이미지: 도서관 서고나 거대한 데이터베이스 창고 속에서, 원하는 파일이나 물건이 꽂혀 있는 정확한 서랍을 찾아 열고 그것을 쏙 뽑아내어(Fetch) 내 책상 위로 가져오는 모습
         * 초점: 위치 이동과 인출
         > The robotic gripper was programmed to retrieve the fallen marker from the floor
+    - flood back: (기억·감정·생각 등이) 봇물 터지듯 밀려들다, 한꺼번에 왈칵 되살아나다
+        * 코어 이미지: 수문(Sluice gate)으로 막혀 있던 거대한 댐이 갑자기 덜컥 열리거나 무너지면서, 가둬져 있던 거대한 수류(Flood)가 본래 물길이 있던 평야나 골짜기(Back)를 향해 굉음을 내며 한꺼번에 쏟아져 들이닥치는 모습
+        * 초점: 억눌려 있던 정서와 트라우마의 쇄도
+        > Memories of struggling to mingle because of the language barrier and avoiding people out of sensitivity over my slow research progress came flooding back
 
 - 하지만
     - However: 그러나, 그렇지만, 하지만
@@ -4347,9 +4374,129 @@
         * 코어 이미지: 서재나 학술 리셉션 홀에서 품격 있는 자세로 마주 서서, 상대방의 의견을 경청한 뒤 품위 있고 정제된 언어로 생각을 깎아 다듬으며 지적 교류를 이어가는 모습
         * 초점: 철저한 쌍방향성과 대등함, 높은 격식 수준
         > The visiting scholar was eager to converse with our research group on neural manifold representations.
+
+- 참여
     - engage in: (활동·논의·전투·연구 등에) 참여하다, 관여하다, 착수하다
         * 코어 이미지: 기계 장치의 두 톱니바퀴(Gear)가 빈틈없이 '철컥' 하고 맞물려 들어가며(Engaged), 주체가 어떤 논쟁이나 과업의 흐름 속으로 온몸을 던져 함께 회전하기 시작하는 모습
         * 초점: 대화뿐 아니라 모든 능동적 활동에 포괄 적용
         > Both research teams engaged in intense theoretical debates regarding the proper kinematic constraints.
         > They engaged in a debate about the theory.
-    
+    - join: (모임·조직·학회·팀에) 가입하다, 합류하다, 입사하다; (이미 진행 중인 사람들의 무리에) 동석하다, 함께하다; (물리적으로 두 점이나 물체를) 연결하다, 잇다
+        * 코어 이미지: 무리 지어 걸어가는 사람들의 대열이나 원형으로 둘러앉은 테이블에 한 사람이 걸어와 빈 의자를 당겨 앉거나, 흩어져 있던 두 개의 쇠사슬 고리를 하나로 찰칵 결합하는 모습
+        * 초점: 소속감과 합류, 물리적 동석 및 식사
+        > Would you like to join us for a quick coffee break after the calibration session?
+- 마음을 바꾸다
+    - change one's mind: 생각을 바꾸다, 결정을 번복하다, 변심하다
+        * 코어 이미지: 철로를 달리던 기차가 분기점 선로 전환기(Switch)를 ‘철컥’ 하고 꺾어, 원래 향하던 목적지 A를 버리고 목적지 B를 향해 궤적의 방향 자체를 틀어버리는 모습
+        * 초점: 의사결정 및 선택의 변경
+        > If you change your mind about collaborating on the grant proposal, let me know before Friday.
+    - clear one's mind: 머리를 식히다, 잡념을 털어내다, 마음을 비우다/가다듬다
+        * 코어 이미지: 수식과 메모로 빽빽하게 어지럽혀진 칠판을 지우개로 슥슥 문질러 완전한 검은색 백지 상태로 깨끗이 닦아내거나(Wiping a whiteboard), 포화 상태에 이른 캐시 메모리를 플러시(Flush)하는 모습
+        * 초점: 인지적 용량 확보와 인지 부하 해소
+        > Taking a brisk walk along the lake helps me clear my mind after hours of tensor debugging.
+
+- 머릿속을 맴돌다
+    - swirl in one's head: (생각·아이디어·기억·감정이) 머릿속에서 맴돌다, 빙빙 돌다, 복잡하게 뒤엉켜 소용돌이치다
+        * 코어 이미지: 커피잔에 우유를 붓고 스푼으로 빠르게 저었을 때 생기는 소용돌이(Whirlpool)나 어지러운 회오리바람처럼, 수많은 파편과 액체 방울들이 한곳에 가라앉지 못하고 원형 궤적을 그리며 맹렬하게 빙글빙글 휘감겨 도는 모습
+        * 초점: 정리되지 않은 과포화 상태
+        > My head was already consumed by the urge to quickly formulate the marker pose estimation problem mathematically for Johanni, while dark, depressive thoughts kept swirling endlessly.
+
+- 조화
+    - blend with: ~와 조화롭게 어우러지다, 자연스럽게 녹아들다
+        * 코어 이미지: 수채화 화폭 위에서 파란색 물감과 노란색 물감이 만났을 때, 칼로 자른 듯한 경계선(Boundary)이 생기는 것이 아니라 두 색이 부드러운 그러데이션(Graduation)을 그리며 자연스럽게 섞여 초록빛의 조화로운 단일 평면을 이루는 모습
+        * 초점: 주변 환경 및 배경과의 동화, 미적·개념적 조화
+        > Chamonix is a town nestled in the Alps, possessing the picturesque charm of a modern alpine village blending harmoniously with the mountains.
+
+- 그저
+    - simply: 그저, 단지
+        * 코어 이미지: 여러 겹으로 복잡하게 접힌 설계도나 엉킨 전선을 손으로 한 겹만 탁 펼쳐놓아, 누구나 한눈에 전체 구조를 알아볼 수 있도록 군더더기를 싹 걷어낸 모습
+        * 초점: 복잡성의 제거
+        > I checked out the nearby hotel, strolled along a hiking path, and simply walked with the Alps as my backdrop.
+    - just: 단지, 겨우, 오직
+        * 코어 이미지: 정밀한 버니어캘리퍼스나 자를 대고 선을 그어, 더 넓은 영역이나 다른 가능성으로 번져나가지 못하도록 '딱 여기까지만' 테두리를 치는 모습
+        * 초점: 범위와 수량의 엄격한 한정, 완곡화 장치
+        > If you are unsure about the boundary conditions, just ask the lab technician
+
+- 결핍, 무의미
+    - meaningless: 무의미한, 뜻이 통하지 않는, 중요성이 없는
+        * 코어 이미지: 문법 규칙이나 신호 규약이 없는 기호들이 종이 위에 무작위로 나열되어, 해독기(Decoder)를 돌려도 아무런 정보나 의도를 읽어낼 수 없는 백색 소음(Noise)의 모습
+        * 초점: 정보 신호의 부재
+        > The repeated error codes were entirely meaningless without access to the firmware documentation.
+    - worthless: 가치 없는, 쓸모없는, 보잘것없는, 무익한
+        * 코어 이미지: 금화를 기대하며 정밀 저울 위에 올렸으나, 반대편 기준 추를 단 1mm도 들어 올리지 못해 평가액 0원(Value = 0) 판정을 받고 폐기물 통으로 내던져지는 모조품 동전의 모습
+        * 초점: 교환 가치와 실용성의 결여, 심리적 자존감의 붕괴
+        > Severe academic burnout can deceive a researcher into feeling entirely worthless despite years of solid contributions.
+    - pointless: (목적·효과가 없어) 부질없는, 헛된, 소용없는
+        * 코어 이미지: 과녁의 중심점(Point/Target Coordinate)이 아예 그려져 있지 않은 텅 빈 허공을 향해 시위를 당겨 화살을 쏘아대는, 도달해야 할 목표 좌표 자체가 존재하지 않는 헛발질의 모습
+        * 초점: 목적 좌표와 실질적 득의 부재
+        > It is pointless to argue over administrative formalities when the primary simulator crashes on startup
+    - helpless: 무력한, 속수무책인, 스스로 어찌할 수 없는
+        * 코어 이미지: 거센 급류에 휩쓸려 떠내려가며 양손을 허우적거리지만, 잡을 나뭇가지도 없고 헤엄칠 근력도 고갈되어 외부의 구명 밧줄 없이는 자력으로 헤쳐 나올 수 없는 조난자의 모습
+        * 초점: 주체적 제어력과 자생력의 박탈, 외력 앞에서의 완전한 노출
+        > The research team stood helpless as the sudden power outage abruptly terminated the overnight simulation.
+
+- 가다
+    - go to: (물리적 장소나 대상에게) 가다, 향하다
+        * 코어 이미지: 지도 위에 붉은 핀이 꽂힌 특정 건물이나 좌표를 향해 발걸음을 옮겨, 최종적으로 그 경계선 안으로 들어서는 모습
+        * 초점: 구체적인 물리적 장소
+        > I need to go to the cleanroom to inspect the newly fabricated micro-actuators
+    - go on: (여행·휴가·파업·다이어트 등 특정 여정/상태에) 오르다, 돌입하다, (멈추지 않고) 계속되다, 계속 나아가다
+        * 코어 이미지: 정지해 있던 놀이기구나 기차의 발판 위에 발을 딛고 올라타(On), 그 여정과 활동의 리듬에 몸을 맡긴 채 앞으로 덜컹거리며 굴러가는 모습
+        * 초점: 여정·활동·상태의 플랫폼 탑승, 지속성
+        > I went on a UN guided tour.
+
+- 옛날
+    - traditional: (형용사) 전통적인, 고유의, 정통파의, 고풍스러운
+        * 코어 이미지: 장인이 선대 스승으로부터 물려받은 손때 묻은 연장을 닦아 다음 세대 제자의 두 손에 정중하게 쥐여주듯, 세월의 시험을 통과한 가치와 규범이 세대를 건너 단절 없이 이어져 내려오는 모습
+        * 초점: 가치 보존과 권위
+        > The palace at the UN was very unique compared to other traditional palaces, but I was a little disappointed because I couldn’t spend much time there, and the accessible areas were restricted.
+    - old-fashioned: 구식의, 시대에 뒤처진, 낡은
+        * 코어 이미지: 디지털 터치스크린과 무선 네트워크로 돌아가는 최첨단 랩실 한구석에 놓인 먼지 쌓인 CRT 브라운관 모니터나 수동 타자기처럼, 현재의 작업 리듬과 맞지 않아 삐걱거리는 모습
+        * 초점: 시대착오와 비효율
+        > He holds rather old-fashioned views on academic hierarchy and workplace culture.
+
+- 합당한
+    - affordable: (가격이) 알맞은, 감당할 수 있는, 저렴한; (명사 앞) 실속 있는
+        * 코어 이미지: 내 지갑의 두께나 가계 예산 통을 내려다보며, "이 정도 금액이라면 내 주머니 사정으로 무리 없이 충분히 꺼내어 지불할 수 있다"며 안도하는 모습
+        * 초점: 구매자의 지급 능력(Purchasing Power)이 절대 기준
+        > The lab opted for an affordable depth sensor rather than an industrial-grade laser scanner.
+    - reasonable: (가격이) 적정한, 합리적인, 바가지가 아닌, (사람·태도·요구가) 이성적인, 타당한, 말이 통하는, (수준·결과가) 꽤 괜찮은, 온당한
+        * 코어 이미지: 양팔 저울 한쪽에 물건의 '품질과 서비스'를 올리고 다른 한쪽에 '가격표'를 올렸을 때, 어느 한쪽으로 기울어지지 않고 수평을 이루어 "이 가격이면 납득할 만하다"고 고개를 끄덕이는 모습
+        * 초점: 상식과 타협의 선
+        > The reviewer's request for additional control experiments was entirely reasonable.
+- 재택근무
+    - work at home: 집에서 일하다, 재택으로 작업하다
+        * 코어 이미지: 어디론가 데이터를 전송하거나 출퇴근을 대체하는 개념이라기보다, 거실이나 서재 책상에 앉아 눈앞의 서류를 읽거나 책을 번역하며 그 공간 자체에서 묵묵히 작업을 진행하는 모습
+        * 초점: 물리적 작업 장소로서의 집
+        > Freelance technical editors typically work at home without fixed corporate hours.
+    - work from home: (원래 출근할 직장이 있으나) 재택근무하다, 원격 근무하다
+        * 코어 이미지: 연구실 데스크톱에 원격 데스크톱(VPN)으로 접속하거나 화상 회의 툴을 켜두고, 집(From)에서 생성한 코드와 분석 데이터를 멀리 떨어진 기관 서버로 실시간 전송하며 출퇴근을 대체하는 모습
+        * 초점: 원격 통근 및 고용 체계의 대안
+        > After the tour, I was supposed to go to work, but I didn’t want to, so I told Andy that I would work from home.
+
+- 얻다
+    - get: (물건·정보·승인 등을) 얻다, 받다, 구하다
+        * 코어 이미지: 선물 상자를 건네받아 내 품에 안게 되는 기쁜 수령
+        * 초점: 외부로부터 물건, 정보, 기회를 새롭게 획득하거나 수령하여 갖게 됨
+        > I got a lot of useful feedback from Oscar
+    - gain: (노력·경험을 통해 지식·신뢰·통찰 등을) 얻다, 획득하다, 쟁취하다
+        * 코어 이미지: 비탈길을 구르는 눈덩이가 회전할수록 눈을 덧붙여 점점 거대해지거나, 제어 회로의 증폭기를 통과한 신호 파형의 진폭(Amplitude)이 위아래로 커지며 에너지가 불어나는 모습
+        * 초점: 점진적 축적과 노력의 보상
+        > The collaborative project helped the PhD candidate gain deep expertise in kinematic calibration.
+
+- 방문 할 수 있는
+    - accessible: (장소·건물에) 접근하기 쉬운; (정보·데이터·시스템에) 접속 가능한, 열람할 수 있는
+        * 코어 이미지: 가파른 돌계단 옆에 완만한 경사로(Ramp)와 자동문이 설치되어 있어, 휠체어나 유모차를 탄 사람도 아무런 마찰이나 걸림돌 없이 자연스럽게 문턱을 통과해 실내로 진입하는 모습
+        * 초점: 물리적·환경적 장벽의 제거
+        > All calibrated motion capture datasets were made publicly accessible on an open-science repository.
+    - visitable: (관광지·유적·연구 시설 등이) (일반인/관람객이) 방문할 수 있는, 견학이 허용된
+        * 코어 이미지: 통제선이나 바리케이드가 걷히고 '방문객 환영(Visitors Welcome)' 안내판이 걸린 유적지 성문이나 시설 입구처럼, 손님이나 투어 인원이 공식적으로 들어가 둘러볼 수 있게 개방된 모습
+        * 초점: 개방성과 견학 목적
+        > The underground particle accelerator tunnels are only visitable during scheduled annual shutdown periods.
+
+- 작동하다
+    - kick in: (기계·백업 전원·안전장치가) 가동되기 시작하다, 작동하다
+        * 코어 이미지: 잠자코 대기하고 있던 기계나 체내 시스템의 문을 발로 쾅 차서(Kick) 열어젖히며, 순식간에 시스템 안쪽(In)으로 에너지가 밀려 들어가며 본격적인 작동 상태로 전환되는 모습
+        * 초점: 약효, 호르몬, 생리적 반응의 발현; 제어 루프, 안전장치 및 백업 시스템의 자동 개입
+        > I was really grateful for the offer, yet my defense mechanisms immediately kicked in.
+
