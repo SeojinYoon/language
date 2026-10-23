@@ -296,7 +296,9 @@ until은 지속적인 것을 표현하고, ing는 한순간을 캡쳐한 것임.
 - I think the biggest weakness of online shopping is that I don't get to see the product until receiving it
 
 # to vs for
+
 to는 내가 어떤 목표를 이루기 위해 직접 무언가를 하려고 할 때 씀, 그러나 for는 어떤 대상이 목적이거나, 무언가를 위한 용도일 때 씀
+
 - I study English to speak English well
 - I need this for my career
 
@@ -480,13 +482,29 @@ to 부정사의 형용사적 용법은 to + V + 전치사 구조가 앞에 있�
 
 # 목적격 관계 대명사
 
-목적격 관계 대명사 구조는 앞 단어와 뒤 단어를 연결한다. 일반적으로, 전치사는 앞 명사라는 공간/대상으로 뒤의 행동을 낚아채서 연결한다. 그러나, 뒤에 최상급/부분/수량 표현이 올때는 앞 명사라는 주머니에서 뒤 명사라는 알맹이를 꺼내는 역할을 한다.
+목적격 관계 대명사는 문장과 문장을 자연스럽고 끊김 없이 이어주는 접착제 역할을 한다.
 
-- 일반적 표현
-    > The house in which I live
-    > That chair on which she sat
-- of 최상급/부분/수량
-The famous law relating to price control of foodstuffs, enacted by Doge Sebastiano Zani in 1173, established the maximum prices of basic foodstuffs of which the most detailed is a list of salt water and fresh water fish
+- 끊긴 문장 (파편화된 인지)
+    > We developed an algorithm. I told you about it yesterday
+- 관계대명사로 매끄럽게 흐르는 문장 (통합된 인지)
+    > We developed an algorithm that I told you about yesterday
+
+**목적격 관계대명사가 어려운 이유**
+
+- The algorithm that [processed the data] is fast
+
+    주격 관계대명사는 앞에서부터 뒤로 순차적으로 흐른다. 알고리즘이 나오고, 곧바로 그것이 무엇을 했는지(데이터를 처리했다)가 일직선으로 이어진다.
+- The algorithm that we tested yesterday is fast
+
+    algorithm이라는 대상이 먼저 툭 던져졌는데, 곧바로 동사로 이어지지 않고 주어와 또 다른 동사가 튀어나온다.
+
+목적격 관계대명사를 처리하려면, 뇌가 동시에 두 가지 작업을 핑퐁처럼 굴려야 한다.
+1. 메인 트랙: 우리가 이야기하고 있는 핵심 대상은 지금 언급된 '그 알고리즘'이야 라는 뼈대를 붙잡고 있어야 한다.
+2. 서브 트랙 (공백 메우기): 동시에 머릿속으로는 "우리가 어제 테스트했던..."이라는 수식 절을 굴리며, 그 tested의 대상이 되는 목적어 자리에 아까 그 알고리즘을 쏙 집어넣어 역방향으로 짝을 맞춰주는 연산을 백그라운드에서 돌려야 한다.
+
+이처럼 문장의 진행 방향과 의미의 귀착점이 엇갈리다 보니, 뇌 속에서 순간적으로 다중 스레드가 돌아가는 듯한 병렬적 부하가 걸리게 된다.
+
+결국 목적격 관계대명사가 조금 더 까다롭고 머리를 쓰게 만드는 이유는, 뇌가 한 방향으로 쭉 읽어 내려가는 단순 직진을 멈추고, 앞에 나온 명사와 뒤에 나오는 공백을 동시에 의식하며 회로를 꼬아 맞추는 고도의 인지적 조립 작업을 요구하기 때문이다.
 
 # As + S + V
 
@@ -732,3 +750,5 @@ be used to는 뒤에 오는 품사에 따라 ~에 익수하다 또는 ~하는 �
 - 간접 인용 (Paraphrasing / Indirect Quotation)
     * 원작자의 아이디얼르 내 글의 어조와 문체에 맞춰 자신의 언어로 재구성하여 서술하는 방식. 따옴표를 쓰지 않으며, 학술 논문과 테크니컬 라이팅에서는 직접 인용보다 패러프레이징을 선호함
     > Feynman pointed out that simulating natural phenomena accurately requires a quantum mechanical approach rather than a classical framework (Feynman, 1982).
+
+

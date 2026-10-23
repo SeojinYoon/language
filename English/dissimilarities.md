@@ -219,7 +219,14 @@
         * 코어 이미지: 새로 뜯어내는 일력(日曆)의 하루하루가 주는 새로운 의미
         * 초점: 연속되는 날들 중에서 저마다의 독립된 하루하루가 지닌 개별적 가치와 도전에 집중
         > Each day brings new challenges
-
+    - day by day: 날마다, 하루하루 (점진적으로), 매일 조금씩
+        * 코어 이미지: 매일 아침 벽에 그어 놓은 키재기 눈금이나 화분의 새싹이 조금씩 위로 자라나는 모습
+        * 초점: 점진적 변화와 진전
+        > By parsing sentences consistently, your reading speed will increase day by day
+    - day after day: 매일같이, 날마다 끊임없이, 지루하도록 매일 반복해서
+        * 코어 이미지: 어제 돌렸던 쳇바퀴를 오늘도, 내일도 똑같은 자리에서 끝없이 돌리고 있는 모습
+        * 초점: 단조로운 반복과 지속되는 피로감/끈기
+        > Watching myself stubbornly endure that fierce, solitary struggle day after day, I have come to truly believe in myself.
 - 안전함
     - comfortable: 편안한 (신체적·물질적 안락함)
         * 코어 이미지: 인체공학적 의자에 몸을 맡겨 신체적 결림이나 긴장이 전혀 없는 상태
@@ -289,6 +296,10 @@
         * 코어 이미지: 커다란 용기나 항아리(Capacity)에 물을 넉넉히 담아낼 수 있듯, 주어진 과업이나 극한의 스트레스를 품 안에 너끈히 담아내고(Capere) 소화할 수 있을 만큼 '내부 용적(스펙, 역량, 잠재력)이 충분히 확보된 상태'의 모습
         * 초점: 인간의 자질, 회복력 및 지적 역량
         > She is capable of synthesizing complex statistical proofs with remarkable clarity
+    - allow: (~가 ~할 수 있게) 허용하다, 가능하게 하다, 여지를 주다
+        * 코어 이미지: 닫혀 있던 문이나 바리케이드를 스르륵 열어젖혀, 사람이나 물체가 막힘없이 다음 공간으로 건너가거나 자연스럽게 일어날 수 있도록 통로를 터주는 모습
+        * 초점: 가능성/통로의 제공
+        > On the other hand, religious and literary paintings convey the artist’s inner world, allowing viewer to catch a glimpse of their spirit, Modern paintings go even further, treating the canvas as a mirror that reflects the viewer’s own image.
     
 - 능력
     - be good at: ~을 잘하다, 능숙하다
@@ -838,6 +849,10 @@
         * 코어 이미지: 흩어져 있는 퍼즐 조각들이 제자리에 딸깍 들어맞거나, 꼬여 있던 선이 반듯하게 풀려 하나의 명확한 그림으로 완성되는 모습 (Logical Fit)
         * 초점: 논리적 정합성과 상황적 타당성 (Rationality & Coherence)
         > It makes sense that the model performed poorly on noisy data
+    - grasp: (핵심·의미를) 완전히 이해하다, 파악하다
+        * 코어 이미지: 눈앞을 빠르게 지나가거나 어둠 속에 희미하게 떠 있는 추상적인 개념의 꼬리를, 손을 뻗어 날렵하게 낚아채어 내 손바닥 안에 꽉 움켜쥐고 놓치지 않는 모습
+        * 초점: 직관적이고 단호한 인지적 포착; 물리적 행동에서 추상적 인지로의 전이
+        > To truly understand them, one needs to grasp the mindset of the artists of that era
 - 오해
     - get confused: 혼란스러워지다, 헷갈리다, 갈피를 못 잡다; (두 대상을) 혼동하다
         * 코어 이미지: 여러 갈래의 정보선들이 머릿속에서 어지럽게 엉켜 갈피를 못 잡는 혼선
@@ -1809,6 +1824,10 @@
         * 코어 이미지: 내면 깊은 곳에서 타오르는 순수하고 강력한 성취의 불꽃
         * 초점: 자기 내면에서 우러나오는 진실하고 강렬한 소망과 열망
         > He has a strong desire to succeed in the field of RL
+    - longing: 갈망, 동경, 애틋한 그리움, 향수; 갈망하는
+        * 코어 이미지: 비 내리는 창가에 서서 아득히 먼 지평선이나 이미 떠나버린 과거의 시절을 바라보며, 손을 뻗어도 닿지 않는 거리를 실감하고 가슴 한구석이 시큰하게 조여오는 모습
+        * 초점: 닿을 수 없는 거리감과 결핍의 지속; 우수와 애틋함; 내면적 침전
+        > Hesse's prose often captures a profound longing for spiritual wholeness.
     - covet: 탐내다, 갈망하다
         * 코어 이미지: 남이 가지고 있는 귀한 보물을 곁눈질하며 몹시 탐내는 시선
         * 초점: 자신에게 없는 남의 소유물, 지위, 상을 몹시 부러워하며 탐냄 (격식체)
@@ -1867,7 +1886,10 @@
         * 코어 이미지: 가뭄으로 인해 저수지의 물 수량이 부족한 정량적 결핍
         * 초점: 물자, 자원, 인력 등 공급량이 수요에 비해 양적으로 부족한 사태
         > There is a severe shortage of skilled software engineers
-
+    - fall short: (목표·기대·기준 등에) 미치지 못하다, 미달하다, 부족하다
+        * 코어 이미지: 화살이나 포탄을 목표 지점을 향해 힘껏 쏘았으나, 추진력이나 거리가 모자라 표적에 꽂히지 못하고 바로 앞 맨땅에 툭 떨어지는 모습
+        * 초점: 기준선 대비 격차와 아쉬운 미달
+        > Somehow, by holding fast to that routine, I endured each day-constantly examining where I fell short and how I could become better.
 - 작성
     - write down: 받아적다, 기록하다
         * 코어 이미지: 귀로 들은 전화번호나 떠오른 아이디어를 종이 위에 펜으로 슥슥 받아 적기
@@ -2215,7 +2237,11 @@
         * 코어 이미지: 수도꼭지의 밸브를 아주 미세하게 비틀어 돌려, 물이 튀지 않고 얇은 물줄기로 조용히 흘러내리도록(So) 상태와 결과를 딱 들어맞게(As to) 맞추는 모습
         * 초점: 행동의 방식과 결과의 매끄러운 수렴
         > He spoke quietly so as to avoid waking the baby
-
+    - in pursuit of: ~을 추구하여, ~을 좇아서, ~을 달성하기 위해
+        * 코어 이미지: 마라토너가 저 멀리 지평선 너머에 있는 결승점 깃발을 시야에 고정시킨 채, 숨이 턱밑까지 차오르는 고통을 감수하고 그 목표를 손에 넣기 위해 온 힘을 다해 앞으로 전력 질주하는 모습
+        * 초점: 학술 연구 및 탐구의 목적 설정; 장기적 목표와 가치의 실현; 법 집행 및 추적
+        > Rather than rendering an object with precise details in pursuit of absolute accuracy, they abandoned fine details.
+        
 - 화장실
     - bathroom: (가정집의) 욕실
         * 코어 이미지: 욕조(Bathtub)와 샤워 시설이 갖추어진 가정집의 아늑한 욕실
@@ -2240,9 +2266,10 @@
         * 초점: 현재 눈앞에 존재하는 자극에 대한 즉각적·원초적 감정 (Acute & Visceral Reaction)
         > He overcame his fear of public speaking before delivering the conference keynote
     - dread: (앞으로 닥칠 일에 대한) 극도의 불안, 두려움, 공포; 몹시 두려워하다/꺼리다
-        * 코어 이미지: 피할 수 없는 치과 치료나 혹독한 심사 날짜가 달력에 적혀 있을 때, 그날이 한 걸음씩 다가올수록 명치끝이 납덩이처럼 차갑게 굳어오며 온몸을 서서히 옥죄어오는 예견된 암운(Shadow)의 모습
-        * 초점: 미래에 닥쳐올 고통이나 불쾌한 사태를 앞두고 느끼는 만성적이고 무거운 예견적 공포 (Anticipatory & Lingering Burden)
+        * 코어 이미지: 내일이나 미래의 특정 시점에 피할 수 없는 거대한 암운(Black Cloud)이 도사리고 있어, 가슴 한구석이 돌덩이처럼 무겁게 가라앉는 모습
+        * 초점: 미래의 사건에 대한 예견된 두려움과 무거운 침체감
         > Paralyzed by the terror of fighting Orcs in a dead end, he ultimately overcame that dread out of a fierce resolve to protect his companions.
+        > In truth, there were countless mornings when I dreaded going to the lab.
     - be afraid of: ~을 두려워하다, 무서워하다; (완곡한 염려) ~일까 봐 걱정스럽다
         * 코어 이미지: 어두운 골목길이나 사나운 개 앞을 지나갈 때, 몸을 사리며 "혹시 무슨 일이 생기지 않을까" 긴장한 채 조심스레 발걸음을 멈추거나 뒤로 물러서는 모습
         * 초점: 일반적·지속적 기피 (Broad Fear):
@@ -2938,10 +2965,13 @@
         * 초점: 앞선 절/문장의 논리나 행동을 그대로 계승하는 문장 연결(Logical Parallelism & Echoing)
         > Increasing model parameters improves capacity; likewise, it raises the risk of overfitting
     - as in: ~의 경우에서처럼, ~에서 볼 수 있듯이
-        - 코어 이미지: 불명확하거나 다의적인 대상을, 누구나 단번에 알아볼 수 있는 ‘구체적인 표본 상자(Reference Box)’ 안에 핀으로 딱 꽂아 넣어 대조하는 모습 (Pinning down to a Specific Reference Box)
-        - 초점: 참조 대상의 특정(Specification) 및 모호성 제거(Disambiguation)
+        * 코어 이미지: 불명확하거나 다의적인 대상을, 누구나 단번에 알아볼 수 있는 ‘구체적인 표본 상자(Reference Box)’ 안에 핀으로 딱 꽂아 넣어 대조하는 모습 (Pinning down to a Specific Reference Box)
+        * 초점: 참조 대상의 특정(Specification) 및 모호성 제거(Disambiguation)
         > The muscles contract to produce movement, as in normal walking
-
+    - so do + 주어
+        * 코어 이미지: 앞 사람이 발자국을 찍은 자리에 뒷사람이 똑같은 보폭으로 발을 겹쳐 디디는 모습
+        * 초점: 긍정적 동의와 상태·동작의 일치
+        > Just as gallery visitor looks at a painting, mentally reconstructs it within their mind, and then poses questions back to the artwork, so does listening: we take incoming sounds onto our mental canvas, sketch them, add colors, and-to fill in any gaps-throw questions back to the speaker
 - ~에 불과하다
     - scarcely: 거의 ~않다(간신히/겨우 ~하다)
         * 코어 이미지: 모래알 몇 톨에 불과하여 손가락 사이로 빠져나갈 만큼 거의 없는 극소량
@@ -3260,10 +3290,6 @@
         * 코어 이미지: 단거리 육상 선수가 짧은 시간 안에 결승선을 통과하는 고속 진행
         * 초점: 어떤 동작이나 프로세스가 적은 시간을 소요하며 빠른 속도로 진행됨
         > Please come here quickly so we can start the experiment
-    - in a hurry: 서둘러, 급히, 조급하게
-        * 코어 이미지: 시계를 보며 허둥지둥 신발을 꿰어 신고 문밖으로 뛰쳐나가는 급박함
-        * 초점: 시간에 쫓기거나 당황하여 마음이 급해 서두르는 사람의 심리 상태
-        > I was in the restroom and the cleaning staff walked in, so I ran out in a hurry
 
 - 넘어지다
     - fall down: 넘어지다
@@ -3726,8 +3752,9 @@
 - 정체
     - stall: (엔진이) 꺼지다; (비행기가) 실속(양력 상실)하다; (시간을 벌려고) 지연시키다, 뜸을 들이다
         * 코어 이미지: 달리던 자동차의 가속 페달이 먹통이 되며 서서히 추진력을 잃고 멈춰 섬
-        * 초점: 추진력(momentum)이나 에너지가 부족해져서 서서히 속도가 줄어들다 멈춰버림
+        * 초점: 추진력·동력의 상실
         > My research progress has stalled due to missing experimental parameters
+        > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress
     - stuck: (어딘가에 끼어) 꼼짝 못 하는, 갇힌; (문제에 막혀) 진도를 못 나가는, 막힌
         * 코어 이미지: 바퀴가 깊은 진흙 구덩이에 박혀 엔진을 아무리 밟아도 바퀴만 헛돌고 꼼짝 못함
         * 초점: 의지와 동력은 충분하나 특정 난관이나 버그에 발이 묶여 옴짝달싹 못함
@@ -3785,8 +3812,9 @@
     - just like: ~처럼
         * 코어 이미지: 롤모델의 멋진 발자국을 그대로 따라 밟으며 자신을 북돋움
         * 초점: 'Just like + 명사' 형태로 존경하는 대상과 똑같이 행동함을 강조할 때 사용
+        > Just as it took this year’s me to fully digest who I was last year, it will probably take a long time to digest my life here in Switzerland.
         > Just like Ji-sung Park, I cheered myself up today regarding yesterday's lab meeting.
-    
+        
 - 지정하다
     - assign: (과업·역할을) 배정하다, 할당하다
         * 코어 이미지: 팀원들의 이름표 옆에 각자 책임질 프로젝트 과업을 하나씩 배정함
@@ -3885,7 +3913,7 @@
         * 초점: 출발지와 잔류물에 맺히는 초점; 영구적 결별 및 퇴사/사직; 상태의 방치 및 잔류 효과
         > I accidentally left my notebook on the optical table in the laboratory.
         > Dr. Müller will leave the institute at the end of the semester to take up a professorship.
-- 그래도, 그럼에도 불구하고
+- 그래도, 그럼에도 불구하고, 여전히
     - still: 그럼에도 불구하고, 여전히
         * 코어 이미지: 거센 비바람 속에서도 꿋꿋이 서 있는 바위처럼 굴하지 않는 결연함
         * 초점: 강한 역경과 대비하여 그럼에도 굴하지 않고 결연하게 행위를 강행함을 강조
@@ -3894,7 +3922,19 @@
         * 코어 이미지: 앞선 사실을 툭 인정하고 나서 문장 끝에서 가볍게 단서를 달아 꺾어줌
         * 초점: 비록 앞선 내용이 사실이지만 그래도 이것 또한 맞다며 문장 끝에서 쿨하게 단서를 덧붙임
         > The rent is high in Geneva. I love the quiet neighborhood, though
-
+    - even after: ~한 후에도 여전히, ~라는 긴 시간/사건이 지나갔음에도 불구하고
+        * 코어 이미지: 강한 물살이나 거센 바람이 지나간 뒤에도 쓰러지지 않고 그대로 서 있는 깃대
+        * 초점: 예상 밖의 지속성과 역접의 뉘앙스
+        > Even after all this time, I agonized over my inability to express myself openly and build meaningful relationships with confidence.
+        > Even after tasting failure and frustration, I trust that I will not remain collapsed, but will use that very ground to stand back up.
+    - Through it all: 그 모든 일(시련·역경·변화)을 겪는 내내", "그 모든 고난에도 불구하고 끝끝내
+        * 코어 이미지: 험난한 가시밭길이나 거센 비바람이 몰아치는 긴 터널의 입구로 들어가 반대편 출구까지 묵묵히 뚫고 걸어 나오는 모습
+        * 초점: 시련의 총체성(Totality of trials)과 지속적인 회복 탄력성(Endurance)
+        > Yet through it all, I made sure never to miss a meal, feeding myself with care and rising each morning on the quiet warmth of a bowl of rice.
+    - even so: 그렇다 할지라도, 그럼에도 불구하고, 설령 그것이 사실이라 해도
+        * 코어 이미지: 바람개비나 깃발이 한쪽 방향으로 거세게 불어오는 바람을 맞고도, 꺾이지 않고 꼿꼿이 자신의 방향을 버티고 서 있는 모습
+        * 초점: 사실 인정(Concession) 뒤의 확고한 반전과 결론 방어
+        > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress. Even so, I got on my bicycle and rod to the lab.
 - 인것 처럼, 마치 ~듯이
     - like: 인것 처럼, 마치 ~듯이
         * 코어 이미지: 말하듯 툭 던지는 일상적이고 직관적인 관찰과 인상
@@ -4500,3 +4540,157 @@
         * 초점: 약효, 호르몬, 생리적 반응의 발현; 제어 루프, 안전장치 및 백업 시스템의 자동 개입
         > I was really grateful for the offer, yet my defense mechanisms immediately kicked in.
 
+- 정신없는
+    - mindless: (행동이) 분별없는, 무분별한, 맹목적인
+        * 코어 이미지: 공장 컨베이어 벨트 앞에서 초점 없는 눈으로 기계 부품에 나사를 끝없이 조이듯, 대뇌의 사고 기능을 완전히 꺼둔 채 척수 반사와 근육 기억만으로 단순 노동을 반복하는 모습
+        * 초점: 인지 부하의 제로화; 피로 회복용 휴식 작업
+        > Tidying the optical table is completely mindless work, but it needs to be done.
+    - hectic: (일정·상황이) 정신없이 바쁜, 빡빡한, 숨 돌릴 틈 없이 돌아가는
+        * 코어 이미지: 응급실이나 주방 피크 타임처럼, 동시에 울리는 수많은 알람과 마감 타이머 사이에서 얼굴이 벌겋게 상기된 채 이리저리 뛰어다니며 가쁜 숨을 몰아쉬는 모습
+        * 초점: 시간적 밀도와 압박; 체류 시간 제로의 분주함
+        > It has been an extremely hectic week with consecutive grant submissions and camera recalibrations.
+    - all over the place: (생각·논리·데이터가) 두서없는, 갈피를 못 잡는, 중구난방인
+        * 코어 이미지: 바닥에 떨어져 깨진 유리병 파편처럼, 혹은 분산($\sigma^2$)이 무한대로 치솟아 축(Axis)이나 중심점 없이 사방으로 무질서하게 튀어 흩뿌려진 데이터 플롯(Scatter plot)의 모습
+        * 초점: 구조와 일관성의 결여; 정신적 산만함
+        > His initial paper draft was all over the place, jumping between hardware specs and philosophical musings without a clear narrative
+    - whirlwind: 눈코 뜰 새 없이 전개되는, 번개불에 콩 볶아 먹듯 빠른
+        * 코어 이미지: 순식간에 생성된 거대한 용오름(Vortex)에 휘말려, 발이 땅에서 붕 뜬 채 주변 풍경이 핑핑 돌아가며 찰나의 순간에 전혀 다른 곳으로 휩쓸려 내던져지는 모습
+        * 초점: 속도와 휩쓸림의 불가항력; 기간 한정적 이벤트
+        > Lately, my life has been a complete whirlwind.
+
+- 불확실
+    - maybe: 아마도, 어쩌면, 혹시
+        * 코어 이미지: 손바닥 위에 동전을 가볍게 튕겨 올리며, "앞면이 나올 수도 있고 뒷면이 나올 수도 있지(May be)" 하고 어깨를 으쓱하며 편하게 답하는 모습
+        * 초점: 구어체와 비격식성; 가벼운 제안 및 무심함
+        > Maybe we can test the new IMU calibration script after lunch
+    - perhaps: (격식) 어쩌면, 아마도
+        * 코어 이미지: 연구자가 안경을 고쳐 쓰고 실험 데이터 그래프의 이상치(Outlier)를 짚으며, "단정할 수는 없으나 이러한 미지의 메커니즘이 작용했을 가능성을 배제할 수 없습니다"라고 조심스럽게 가설을 제시하는 모습
+        * 초점: 지적 숙고와 공손함
+        > Perhaps the most convincing evidence for this neural adaptation lies in the latency shift.
+
+- 쫓기다
+    - hounded by: ~에게 끈질기게 쫓기다, 시달리다, 괴롭힘을 당하다, (불안·의혹·기자 등에) 끝없이 물고 늘어짐을 당하다
+        * 코어 이미지: 사냥개 무리(Hounds)가 도망치는 사냥감의 냄새를 맡고, 거친 숨을 몰아쉬며 짖어대고 뒤꿈치를 바짝 물어뜯을 듯 끝없이 추격하여, 사냥감이 숨을 헐떡이며 코너에 몰리는 모습
+        * 초점: 내면의 불안, 죄책감, 편집증적 생각의 추격
+        > It’s not that I’m doing anything particularly special, but as my return data approaches, I feel constantly hounded by the pressure to produce tangible results before I leave.
+    - in a hurry: 서둘러, 급히, 조급하게
+        * 코어 이미지: 시계를 보며 허둥지둥 신발을 꿰어 신고 문밖으로 뛰쳐나가는 급박함
+        * 초점: 시간에 쫓기거나 당황하여 마음이 급해 서두르는 사람의 심리 상태
+        > I was in the restroom and the cleaning staff walked in, so I ran out in a hurry
+
+- 어느정도
+    - To put it in perspective: 이해를 돕기 위해 비교하자면, 알기 쉽게 비유하자면, 균형 잡힌 시각에서 바라보자면
+        * 코어 이미지: 손바닥 위에 1나노미터짜리 칩이나 우주의 성운 사진을 띄워놓고 고개를 갸웃거리는 사람 옆에, 친숙한 동전이나 사람의 머리카락 한 올을 나란히 갖다 대며(Reference frame) "자, 이것과 비교해 보면 얼마나 정밀한지 단번에 감이 오죠?" 하고 스케일을 맞춰주는 모습
+        * 초점: 인지적 척도 보정
+        > To put it in perspective, compared to September when I reflected deeply and wrote several essays, I haven’t written a single essay in October.
+    - so much so that: (앞선 내용의 정도가) 어찌나 대단했던지 그 결과로 ~할 정도이다, 매우 그러하여 ~하게 되다
+        * 코어 이미지: 비커에 물을 계속 부어 표면장력으로 아슬아슬하게 부풀어 오르다가, 마지막 한 방울의 무게를 이기지 못하고 왈칵 넘쳐흘러 책상 위의 도면을 완전히 적셔버리는 모습(넘쳐흐른 결과)
+        * 초점: 극단적 강도와 그로 인한 가시적 귀결
+        > The research paper gained immense traction within weeks of preprint publication, so much so that the authors were invited to deliver three keynote lectures.
+
+- 되돌아가다
+    - fall back into: (옛 습관·패턴·상태로) 다시 빠져들다, 되돌아가다, 도루묵이 되다
+        * 코어 이미지: 깊은 웅덩이(Into)에서 안간힘을 써서 겨우 기어올라왔으나, 발을 헛디디거나 힘이 빠지는 순간 중력에 의해 뒤쪽 아래(Back)로 미끄러져 떨어지며(Fall) 원래의 웅덩이 바닥에 도로 갇혀버리는 모습
+        * 초점: 나쁜 습관, 게으름, 인지적 편향으로의 퇴행; 물리적 이완과 침몰
+        > Thinking about going back to Korea fills me with anticipation for a new chapter, yet at the same time, I worry that I might just fall back into my old ways.
+
+- 전제, 논의의 초점
+    - Knowing that: ~라는 사실을 알고 있으므로, ~를 염두에 둘 때
+        * 코어 이미지: 어두운 길을 걷기 전 바닥의 장애물 위치($Facts$)를 손전등으로 이미 확인하고, 그 사전 지식을 머릿속 작업 기억(RAM)에 상주시킨 채 다음 행동을 침착하게 전개하는 모습
+        * 초점: 주체의 인지 상태가 핵심 원인; 의도적 의사결정
+        > Knowing that the baseline optimization would diverge without regularizers, we injected a sparsity penalty
+    - Regarding that: ~에 관하여, ~에 대하여, ~의 점에 있어서는
+        * 코어 이미지: 여러 개의 데이터 모니터 중에서 특정 그래프 화면을 손가락으로 콕 가리키며, "다른 변수들은 일단 두고, 바로 이 축(Axis)에 대해서 이야기해 봅시다" 하고 논의의 카메라 앵글을 맞추는 모습
+        * 초점: 화제 전환 및 영역 한정
+        > Regarding the first section, out of the 8 items in the issue table, I have addressed items 2, 4, 6, 7, and 8.
+    - Considering that: ~을 고려하면, ~을 감안할 때, ~치고는
+        * 코어 이미지: 양팔 저울의 한쪽 접시에 센서 노이즈, 한정된 샘플 수, 극한 환경 등의 '페널티/제약 조건'을 얹어두고, 그 무게를 충분히 참작(Discount)하면서 결과물의 실제 가치를 공정하게 평가하는 모습
+        * 초점: 제약 조건의 참작과 보정; 기대치 대비 결과의 선방 ('~치고는')
+        > Considering that the task requires millisecond-level precision, relying on serial communication is risky.
+- 순간
+    - instantaneous: 순간적인, 즉각적인, 지연 없는
+        * 코어 이미지: 스위치를 누르는 순간 백열등에 전류가 흘러 암전(0초의 유예도 없이) 단 1마이크로초의 딜레이도 없이 곧바로 번쩍 불이 켜지는 완벽한 동기화의 순간
+        * 초점: 지연 제로의 실시간성; 원인과 결과의 동시성
+        > The Kalman filter provides an instantaneous estimate of the state vector based on noisy sensor measurements
+    - fleeting: 순식간의, 덧없는, 잠깐 동안만 머물다 사라지는
+        * 코어 이미지: 가을날 아침 유리창에 서린 입김이 채 형태를 온전히 갖추기도 전에 따스한 공기에 밀려 스르륵 녹아내리며 자취를 감추는 모습
+        * 초점: 시간의 덧없음과 주관적 체감; 머무름의 부재
+        > Landscape, portrait, and historical paintings capture a fleeting moment on canvas to serve as a record
+
+- 나아가
+    - go even further: 한 걸음 더 나아가다, 훨씬 더 심화하다, 한층 더 과감하게 전개하다
+        * 코어 이미지: 등산객이 1부 능선 정상을 찍고 내려오는 대신, "여기서 멈추지 않고 저기 더 높은 암벽 위까지 올라가 보자"며 가속도를 붙여 더 험준하고 깊은 봉우리를 향해 성큼성큼 걸어 올라가는 모습
+        * 초점: 진행 중인 논의의 심화 및 확장; 역동성과 현장감
+        > On the other hand, religious and literary paintings convey the artist’s inner world, allowing viewer to catch a glimpse of their spirit, Modern paintings go even further, treating the canvas as a mirror that reflects the viewer’s own image.
+    - Furthermore: 게다가, 더욱이, 뿐만 아니라
+        * 코어 이미지: 법정이나 학술 회의 연단에서 발표자가 진지한 표정으로, "지금까지 말씀드린 세 가지 증거 외에도, 이 서류를 보시면 더욱 완벽한 논리적 완결성이 성립됩니다" 하며 준비된 추가 문서를 정중하게 책상 위에 착 얹어놓는 모습
+        * 초점: 학술적 첨가와 논증 강화; 높은 격식도
+        > The proposed controller successfully minimizes tracking error under external disturbances. Furthermore, it requires minimal computational overhead during real-time execution.
+    
+- 간주, 대우
+    - treat: 다루다, 대우하다, 취급하다
+        * 코어 이미지: 실험실 탁자 위에 놓인 샘플이나 환자를 향해 직접 다가가, 손으로 약품을 바르거나 수술 도구를 쥐고 물리적·실질적인 처치나 조치를 가하는 모습
+        * 초점: 물리적/방법론적 적극적 조치
+        > On the other hand, religious and literary paintings convey the artist’s inner world, allowing viewer to catch a glimpse of their spirit, Modern paintings go even further, treating the canvas as a mirror that reflects the viewer’s own image
+    - consider: (~로) 여기다, 간주하다
+        * 코어 이미지: 회의실 의자에 깊숙이 기대어 앉아, 탁자 위에 펼쳐진 여러 대안과 변수들을 차분히 눈으로 훑으며 머릿속 저울에 달아보고 가치를 판정하는 모습
+        * 초점: 인지적 숙고와 시각의 설정; 이유와 조건의 참작
+        > The optimization method is considered state-of-the-art in modern robotics.
+- 정신
+    - mind: 마음, 정신, 지성, 뇌리, 생각
+        * 코어 이미지: 컴퓨터의 중앙처리장치(CPU)와 작업 기억(RAM)이 실시간으로 켜져 있어, 들어오는 정보를 수집하고 논리적 판단을 내리며 화면에 데이터(생각)를 띄워두는 정교한 통제 센터의 모습
+        * 초점: 인지적 연산 및 이성의 중추; 의식의 제어력
+        > A clear mind is essential for rigorous mathematical derivation.
+    - spirit: 정신, 영혼, 기개, 생기, 분위기
+        * 코어 이미지: 재가 다 타버린 듯하던 난로 속에서 어느 순간 불씨가 확 살아나며 주변 공기를 뜨겁게 달구고 위로 치솟아 오르는 활력의 불꽃
+        * 초점: 생명력, 의지, 그리고 초월적 열정; 예술과 문학에서의 내면세계
+        > On the other hand, religious and literary paintings convey the artist’s inner world, allowing viewer to catch a glimpse of their spirit, Modern paintings go even further, treating the canvas as a mirror that reflects the viewer’s own image.
+- 공감
+    - resonate with: (~의 마음에) 공감되다, 깊이 와닿다
+        * 코어 이미지: 두 개의 소리굽쇠가 나란히 놓여 있을 때, 한쪽을 퉁겨 소리를 내자 그 파장이 공기를 타고 건너가 다른 쪽 소리굽쇠의 고유 진동수와 일치하여, 눈에 보이지 않는 에너지로 함께 부르르 떨리기 시작하는 모습
+        * 초점: 감정적·사상적 공감; 마케팅, 메시지, 트렌드의 소통력
+        > The cubist spirit of representing objects from multiple perspectives deeply resonated with me. 
+- 분해
+    - disentangle: (엉킨 것을) 풀다, (뒤섞인 것들을) 구분하다, 규명하다
+        * 코어 이미지: 수십 가닥의 이어폰 줄이나 전선들이 주머니 속에서 완전히 엉켜 매듭이 진 것을, 눈살을 찌푸리며 양손으로 줄의 끝을 찾아 하나씩 조심스럽게 잡아당겨 서로 뒤엉킨 궤적을 낱낱이 분리해 내는 모습
+        * 초점: 뒤섞인 변수와 인과관계의 분리; 복잡성의 해소
+        > The detective tried to disentangle the conflicting testimonies of the witnesses
+    - deconstruct: 해체하다, (구조·전제를) 분석하다, 낱낱이 분해하다
+        * 코어 이미지: 완성된 레고 성이나 기계 장치를 바닥에 내려놓고, 드라이버와 망치를 들고 결합된 나사와 패널들을 하나씩 분해하여 부품 단위로 판판하게 펼쳐놓는 모습
+        * 초점: 구조와 전제의 해체; 철학적·비평적 어조
+        > In this chapter, we deconstruct the traditional assumptions underlying classical mechanics to explore non-inertial reference frames.
+
+- 받아들이다
+    - take: 취하다; 받아들이다
+        * 코어 이미지: 손을 뻗어 외부의 물체나 입력값을 자신의 영역 안으로 끌어와 쥐는 동작
+        * 초점: 수용 및 입력; 점유 및 할당
+        > we take incoming sounds onto our mental canvas, sketch them, add colors, and-to fill in any gaps-throw questions back to the speaker.
+
+- 판단하다, 가늠하다
+    - measure: 측정하다; 산정하다
+        * 코어 이미지: 자, 저울, 시계를 대고 명확한 눈금/수치를 매기는 행위
+        * 초점: 객관적 수치화(Quantification)와 정밀함
+        > We need to measure the doorway before buying the sofa.
+    - gauge: 가늠하다; 판단하다; 규격을 재다
+        * 코어 이미지: 계기판의 바늘을 보거나, 손으로 무게를 달아보며 추세를 가늠하는 행위
+        * 초점: 상대적 상태 판단(Assessment)과 추세 파악
+        > Sometimes, just as we toss a stone into a body of water to gauge its depth and expanse, we need to pose questions to the speaker to truly grasp what they mean. 
+
+- 고수하다
+    - holding hast to: ~을 굳게 붙잡다, ~을 단단히 고수하다, ~에 매달리다
+        * 코어 이미지: 폭풍우가 치는 배 위에서 휩쓸려 가지 않으려고 밧줄이나 난간을 두 손으로 꽉 쥐고 버티는 모습
+        * 초점: 이탈 없는 집요한 고수와 의지
+        > Somehow, by holding fast to that routine, I endured each day-constantly examining where I fell short and how I could become better.
+
+- 스며들다
+    - creep: (어떤 상태변화가) 은밀히 서서히 다가오다; 스며들다
+        * 코어 이미지: 몸을 최대한 납작하게 낮춘 덩굴 식물이나 벌레, 혹은 고양이가 소리도 내지 않고 아주 미세하게 한 치씩 앞으로 나아가는 모습
+        * 초점: 은밀성과 불가항력적인 완만한 전진
+        > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress.
+
+- 생겨남
+    - sprout: 싹이 트다; 발아하다; 돋아나다; 불쑥 생겨나다
+        * 코어 이미지: 단단한 씨앗 껍질과 어둡고 무거운 흙을 뚫고, 연약하지만 생명력 넘치는 연둣빛 새싹이 고개를 쏙 내밀어 위로 솟아오르는 모습
+        * 초점: 무에서 유로의 태동과 자생적 발현
+        > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress.
+    

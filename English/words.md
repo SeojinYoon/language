@@ -225,9 +225,10 @@
     * 초점: 통제되지 않은 비체계적 분산과 확장(Uncontrolled Expansion & Disorder)
     > On the path toward my goals, I often catch myself loathing the sight of my own body sprawled across the bed, stagnant and unproductive.
 - stagnant: (물·공기 등이) 흐르지 않고 고여 썩은; (경제·사회·생각 등이) 침체된, 활기 없는
-    * 코어 이미지: 새로운 물이 유입되지도 빠져나가지도 못한 채, 볕 아래 오랫동안 갇혀 이끼가 끼고 녹조가 덮인 웅덩이의 모습
-    * 초점: '순환의 부재로 인한 부패와 정체(Lack of Motion leading to Decay)'
+    * 코어 이미지: 유입과 유출이 완전히 막힌 채, 한자리에 갇혀 녹조가 끼고 악취를 풍기며 썩어가는 웅덩이
+    * 초점: 순환의 단절(Lack of flow)로 인한 퇴행과 활력의 상실
     > On the path toward my goals, I often catch myself loathing the sight of my own body sprawled across the bed, stagnant and unproductive.
+    > Blocked by communication barriers, each day brought its share of disappointment with stagnant research, each day brought its share of disappointment; with stagnant research, each day brought frustration.
 - relentlessly: 가차 없이, 끈질기게, 쉼 없이, 가혹할 정도로 혹독하게
     * 코어 이미지: 앞에 어떤 장벽이나 호소가 나타나도 속도를 조금도 늦추지 않고 목표물을 향해 일정한 박자로 성큼성큼 다가오는 육중한 기계의 전진
     * 초점: 타협이나 피로 없는 완고한 지속성(Unyielding Intensity & Continuity)
@@ -372,10 +373,6 @@
     * 코어 이미지: 문턱을 넘기 위해 계단에 발을 올리는데, 바닥에 그어진 가장 낮고 사소한 '첫 번째 기준선(Even level)'에 발끝조차 닿지 못하고 허공에서 툭 꺾여버리는 모습
     * 초점: 어려운 일은 고사하고, 누구나 당연히 할 수 있는 가장 기본적이고 사소한 첫걸음조차 뗄 수 없다"는 극단적인 무력감이나 한계
     > I couldn’t even bring myself to ask for their numbers.
-- even after: ~한 후에도 여전히, ~라는 긴 시간/사건이 지나갔음에도 불구하고
-    * 코어 이미지: 긴 터널을 지나고 수많은 계절이 바뀌어 지형이 다 달라졌는데도, 손에 쥔 흉터나 감정의 응어리만은 조금도 닳지 않고 원형 그대로 매끄럽게(Even) 이어져 건너오는 모습
-    * 초점: 상식적으로 '그 정도 시간이나 사건이 지났으면 잊히거나 나아져야 마땅한데', 그럼에도 불구하고 여전히 똑같은 상태가 지속되고 있다는 놀라움, 씁쓸함, 혹은 자책에 방점
-    > Even after all this time, I agonized over my inability to express myself openly and build meaningful relationships with confidence.
 - creep up on: (감정·시간·노화 등이) 서서히 엄습하다, 모르는 사이에 슬그머니 다가오다; (누군가의 뒤로) 발소리를 죽이고 몰래 다가가다
     * 코어 이미지: 어두운 덤불 속에서 맹수나 그림자가 네 발로 엎드려 바닥에 배를 바짝 붙인 채(Creep), 목표물의 등 뒤로 소리 없이 거리를 좁혀오다가(Up), 마침내 알아차렸을 때는 이미 머리 위통을 덮쳐 누르고 있는(On) 은밀한 포위의 모습
     * 초점: 어떤 조짐이나 경고음이 울리지 않습니다. 너무나 완만하고 미세하게 진행되기 때문에 일상에 치여 전혀 눈치채지 못하다가, "돌아보니 이미 완전히 잠식당해 있을 때" 터져 나오는 자각
@@ -525,3 +522,19 @@
     * 코어 이미지: 젖은 비누나 젖은 손 사이로 미끄러운 물체가 아무런 마찰이나 거친 소리도 내지 않고 슥- 미끄러져(Slip), 원래 있던 중심부로부터 멀리 저편으로(Away) 스르륵 빠져나가 버리는 모습
     * 초점: 사람의 은밀하고 조용한 퇴장
     > I even thought it might be better to just slip away quietly without any send-off, just to keep myself from getting hurt.
+- timid: 소심한, 용기 없는, 겁 많은, 자신감 없는
+    * 코어 이미지: 세상이나 타인의 반응을 잠재적인 위협이나 위험(Threat)으로 감지하여, 발걸음을 앞으로 내딛지 못하고 뒤로 물러서며 굳어버리는 심리적 수축 상태입니다.
+    * 초점: 자신의 의견을 말하거나 대중 앞에 나서는 것을 두려워해 망설이는 태도
+    > He was too timid to raise his hand and question the professor's derivation.
+- fill gap: 공백을 채우다; 부족한 부분을 보충하다
+    * 코어 이미지: 끊어진 다리 사이에 디딤돌을 놓아 이어 붙이기
+    * 초점: 결손(Deficit)과 불연속의 해소
+    > we take incoming sounds onto our mental canvas, sketch them, add colors, and-to fill in any gaps-throw questions back to the speaker.
+- peddle: 조약돌, 자갈
+    * 코어 이미지: 강가나 바닷가 여울에서 오랜 시간 파도와 물살에 쓸려, 날카로운 모서리가 전부 깎여 나가고 손바닥 안에 동글동글 매끄럽게 쥐어지는 작은 돌멩이
+    * 초점: 마모되어 둥글고 매끄러운 형태; 작은 크기
+    > A question can be a small pebble that sends gentle ripples across a calm lake, or a heavy stone that stirs up rolling waves.
+- sting of relationship: 관계가 남긴 쓰라린 상처; 인간관계의 파탄이나 배신이 주는 찌르는 듯한 고통
+    * 코어 이미지: 따뜻하게 맞잡고 있던 손 안에서 보이지 않던 벌의 독침이 손바닥을 콕 찔러, 손을 뗀 후에도 그 자리가 벌겋게 부어오르며 화끈거리고 아린 모습
+    * 초점: 신뢰 뒤에 찾아오는 배신감과 감정의 쓰라린 잔향
+    > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress.
