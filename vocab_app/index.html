@@ -138,7 +138,42 @@
       <section id="quiz-view" class="view-panel active">
         <div class="quiz-wrapper">
           
-          <!-- Progress Bar & Card Header -->
+          <!-- 🎯 Quiz Session Goal Progress Bar -->
+          <div class="quiz-session-progress-card" id="quiz-session-progress-card">
+            <div class="session-progress-header">
+              <div class="session-progress-left">
+                <div class="session-progress-icon-badge" id="session-progress-icon-badge">
+                  <i data-lucide="target"></i>
+                </div>
+                <div class="session-progress-label-wrap">
+                  <div class="session-progress-title-row">
+                    <span class="session-progress-title">학습 진행도</span>
+                    <span class="session-progress-badge hidden" id="quiz-goal-achieved-badge">
+                      <i data-lucide="sparkles"></i> 100% 달성!
+                    </span>
+                  </div>
+                  <div class="session-progress-detail">
+                    <span class="session-percent-large" id="quiz-session-percent">0%</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="session-progress-right">
+                <button type="button" id="quiz-session-reset-btn" class="session-control-btn icon-only" title="진행도 초기화 (0%로 리셋)">
+                  <i data-lucide="rotate-ccw"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Progress Track & Fill Bar -->
+            <div class="session-progress-track">
+              <div class="session-progress-fill" id="quiz-session-progress-fill" style="width: 0%;">
+                <div class="session-progress-shimmer"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Header & Metadata -->
           <div class="quiz-header-card">
             <div class="quiz-progress-info">
               <span class="badge source-badge" id="quiz-source-badge">Dissimilarities</span>
@@ -452,6 +487,41 @@
       <section id="translate-view" class="view-panel hidden">
         <div class="diary-wrapper">
           
+          <!-- 🎯 Diary Session Goal Progress Bar -->
+          <div class="diary-session-progress-card" id="diary-session-progress-card">
+            <div class="session-progress-header">
+              <div class="session-progress-left">
+                <div class="session-progress-icon-badge" id="diary-progress-icon-badge">
+                  <i data-lucide="languages"></i>
+                </div>
+                <div class="session-progress-label-wrap">
+                  <div class="session-progress-title-row">
+                    <span class="session-progress-title">일기 영작 진행도</span>
+                    <span class="session-progress-badge hidden" id="diary-goal-achieved-badge">
+                      <i data-lucide="sparkles"></i> 100% 달성!
+                    </span>
+                  </div>
+                  <div class="session-progress-detail">
+                    <span class="session-percent-large" id="diary-session-percent">0%</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="session-progress-right">
+                <button type="button" id="diary-session-reset-btn" class="session-control-btn icon-only" title="진행도 초기화 (0%로 리셋)">
+                  <i data-lucide="rotate-ccw"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Progress Track & Fill Bar -->
+            <div class="session-progress-track">
+              <div class="session-progress-fill" id="diary-session-progress-fill" style="width: 0%;">
+                <div class="session-progress-shimmer"></div>
+              </div>
+            </div>
+          </div>
+
           <!-- Top Control Toolbar for Diary -->
           <div class="diary-toolbar-card">
             <div class="diary-toolbar-left">

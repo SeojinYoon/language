@@ -46,6 +46,14 @@
     soundEnabled: true,
     theme: localStorage.getItem('vm_theme') || 'dark',
 
+    // Quiz Session Goal State (단어 맞추기 목표 및 진행도 - config.py 파라미터 기반)
+    quizGoalTarget: (window.APP_CONFIG && (window.APP_CONFIG.quizGoalTarget || window.APP_CONFIG.defaultQuizGoal)) || 20,
+    quizSessionCompleted: parseInt(localStorage.getItem('vm_quiz_session_completed'), 10) || 0,
+
+    // Diary Translation Goal State (일기 영작 목표 및 진행도 - config.py 파라미터 기반)
+    diaryGoalTarget: (window.APP_CONFIG && (window.APP_CONFIG.diaryGoalTarget || window.APP_CONFIG.defaultDiaryGoal)) || 5,
+    diarySessionCompleted: parseInt(localStorage.getItem('vm_diary_session_completed'), 10) || 0,
+
     // Diary Translation State
     diaryEntries: [],
     filteredDiaryEntries: [],
@@ -151,6 +159,25 @@
 
       osc.start(now);
       osc.stop(now + 0.1);
+    },
+    playFanfare() {
+      if (!state.soundEnabled) return;
+      this.init();
+      if (!this.ctx) return;
+      const now = this.ctx.currentTime;
+      const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+      notes.forEach((freq, idx) => {
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, now + idx * 0.09);
+        gain.gain.setValueAtTime(0.2, now + idx * 0.09);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + idx * 0.09 + 0.38);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now + idx * 0.09);
+        osc.stop(now + idx * 0.09 + 0.38);
+      });
     }
   };
 
@@ -343,6 +370,90 @@
 
     const trimmed = result.trim();
     return trimmed ? `힌트: ${trimmed}` : '';
+  }
+
+  // ================= QUIZ SESSION PROGRESS & GOAL LOGIC =================
+  function updateQuizSessionProgress() {
+    const percentEl = document.getElementById('quiz-session-percent');
+    const fillEl = document.getElementById('quiz-session-progress-fill');
+    const cardEl = document.getElementById('quiz-session-progress-card');
+    const achievedBadge = document.getElementById('quiz-goal-achieved-badge');
+
+    if (!percentEl || !fillEl) return;
+
+    const target = Math.max(1, state.quizGoalTarget || 20);
+    const completed = Math.max(0, state.quizSessionCompleted || 0);
+    const percent = Math.round((completed / target) * 100);
+
+    percentEl.textContent = `${percent}%`;
+    fillEl.style.width = `${Math.min(100, percent)}%`;
+
+    if (completed >= target) {
+      if (cardEl) cardEl.classList.add('is-goal-achieved');
+      if (achievedBadge) achievedBadge.classList.remove('hidden');
+    } else {
+      if (cardEl) cardEl.classList.remove('is-goal-achieved');
+      if (achievedBadge) achievedBadge.classList.add('hidden');
+    }
+  }
+
+  function resetQuizSessionProgress() {
+    state.quizSessionCompleted = 0;
+    localStorage.setItem('vm_quiz_session_completed', 0);
+    updateQuizSessionProgress();
+    showToast('진행도가 0%로 초기화되었습니다.', 'info');
+  }
+
+  // ================= DIARY SESSION PROGRESS & GOAL LOGIC =================
+  function updateDiarySessionProgress() {
+    const percentEl = document.getElementById('diary-session-percent');
+    const fillEl = document.getElementById('diary-session-progress-fill');
+    const cardEl = document.getElementById('diary-session-progress-card');
+    const achievedBadge = document.getElementById('diary-goal-achieved-badge');
+
+    if (!percentEl || !fillEl) return;
+
+    const target = Math.max(1, state.diaryGoalTarget || 5);
+    const completed = Math.max(0, state.diarySessionCompleted || 0);
+    const percent = Math.round((completed / target) * 100);
+
+    percentEl.textContent = `${percent}%`;
+    fillEl.style.width = `${Math.min(100, percent)}%`;
+
+    if (completed >= target) {
+      if (cardEl) cardEl.classList.add('is-goal-achieved');
+      if (achievedBadge) achievedBadge.classList.remove('hidden');
+    } else {
+      if (cardEl) cardEl.classList.remove('is-goal-achieved');
+      if (achievedBadge) achievedBadge.classList.add('hidden');
+    }
+  }
+
+  function resetDiarySessionProgress() {
+    state.diarySessionCompleted = 0;
+    localStorage.setItem('vm_diary_session_completed', 0);
+    updateDiarySessionProgress();
+    showToast('일기 영작 진행도가 0%로 초기화되었습니다.', 'info');
+  }
+
+  // Sync quiz & diary goal targets dynamically from backend config if running via server
+  async function syncAppConfig() {
+    try {
+      const resp = await fetch(DIARY_CONFIG.getApiUrl('/api/config'));
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data && data.quiz_parameters && data.quiz_parameters.quiz_goal_target) {
+          state.quizGoalTarget = data.quiz_parameters.quiz_goal_target;
+          updateQuizSessionProgress();
+        }
+        if (data && data.diary_parameters && data.diary_parameters.diary_goal_target) {
+          state.diaryGoalTarget = data.diary_parameters.diary_goal_target;
+          updateDiarySessionProgress();
+        }
+      }
+    } catch (e) {
+      // Offline fallback: already initialized from window.APP_CONFIG
+    }
   }
 
   // ================= QUIZ VIEW LOGIC =================
@@ -598,6 +709,21 @@
     updateHeaderStats();
     lucide.createIcons();
     saveStats();
+
+    // Update Quiz Session Goal Progress Bar
+    const prevCompleted = state.quizSessionCompleted;
+    state.quizSessionCompleted += 1;
+    localStorage.setItem('vm_quiz_session_completed', state.quizSessionCompleted);
+    updateQuizSessionProgress();
+
+    // Celebratory Fanfare & Confetti when 100% goal is reached
+    if (state.quizSessionCompleted === state.quizGoalTarget && prevCompleted < state.quizGoalTarget) {
+      soundSynth.playFanfare();
+      if (typeof confetti === 'function') {
+        confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
+      }
+      showToast(`🎉 목표 달성! ${state.quizGoalTarget}개 단어 맞추기(100%)를 모두 완료했습니다! 🏆`, 'success');
+    }
 
     // Auto speak the target word
     setTimeout(() => speakWord(state.currentWord.word), 200);
@@ -897,6 +1023,10 @@
 
     document.getElementById('quiz-shuffle-btn').addEventListener('click', shuffleFilteredData);
     document.getElementById('quiz-bookmark-btn').addEventListener('click', toggleBookmark);
+
+    // Quiz Session Reset Progress Button
+    const sessionResetBtn = document.getElementById('quiz-session-reset-btn');
+    if (sessionResetBtn) sessionResetBtn.addEventListener('click', resetQuizSessionProgress);
 
     // TTS Buttons
     document.getElementById('quiz-tts-btn').addEventListener('click', () => {
@@ -1636,6 +1766,21 @@
 
     soundSynth.playCorrect();
     if (window.lucide) window.lucide.createIcons();
+
+    // Update Diary Session Goal Progress
+    const prevCompleted = state.diarySessionCompleted;
+    state.diarySessionCompleted += 1;
+    localStorage.setItem('vm_diary_session_completed', state.diarySessionCompleted);
+    updateDiarySessionProgress();
+
+    // Celebratory Fanfare & Confetti when 100% goal is reached
+    if (state.diarySessionCompleted === state.diaryGoalTarget && prevCompleted < state.diaryGoalTarget) {
+      soundSynth.playFanfare();
+      if (typeof confetti === 'function') {
+        confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
+      }
+      showToast(`🎉 목표 달성! 일기 영작 목표(100%)를 모두 완료했습니다! 🏆`, 'success');
+    }
   }
 
   // Detect VocabMaster words present in the original reference English text
@@ -2114,6 +2259,10 @@
 
   // Initialize all Diary Event Listeners
   function initDiaryEventListeners() {
+    // Diary Session Reset Progress Button
+    const diaryResetBtn = document.getElementById('diary-session-reset-btn');
+    if (diaryResetBtn) diaryResetBtn.addEventListener('click', resetDiarySessionProgress);
+
     // Type Filter Pills
     document.querySelectorAll('.diary-type-pills .pill-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -2310,6 +2459,9 @@
     await loadDiaryData(true);
 
     updateHeaderStats();
+    updateQuizSessionProgress();
+    updateDiarySessionProgress();
+    syncAppConfig();
     updateSourcePillsCount();
     applyFilters();
     initEventListeners();

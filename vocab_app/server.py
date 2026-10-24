@@ -12,21 +12,22 @@ import glob
 import threading
 
 # ==============================================================================
-# ⚙️ USER CONFIGURATION: DIARY CSV FILE PATH (기본 일기 CSV 경로)
-# 여기에서 일기 CSV 파일의 기본 경로를 직접 지정하고 변경할 수 있습니다.
-# (개인정보 보호를 위해 Git 저장소 외부 경로를 지정하는 것을 권장합니다)
+# ⚙️ CORE CONFIGURATION & PARAMETERS (핵심 파라미터 연동: config.py)
+# 모든 핵심 파라미터와 기본 경로는 config.py 파일에서 일괄 관리됩니다.
 # ==============================================================================
-DEFAULT_DIARY_CSV_PATH = "/Users/seojin/mind.csv"
+try:
+    import config
+    DEFAULT_DIARY_CSV_PATH = config.DEFAULT_DIARY_CSV_PATH
+    LOCAL_GEMMA_URL = config.LOCAL_GEMMA_URL
+    LOCAL_GEMMA_MODEL = config.LOCAL_GEMMA_MODEL
+    DEFAULT_PORT = config.DEFAULT_PORT
+except ImportError:
+    DEFAULT_DIARY_CSV_PATH = "/Users/seojin/mind.csv"
+    LOCAL_GEMMA_URL = os.environ.get("LOCAL_GEMMA_URL", "http://localhost:11434/api/generate")
+    LOCAL_GEMMA_MODEL = os.environ.get("LOCAL_GEMMA_MODEL", "gemma2:2b")
+    DEFAULT_PORT = 3000
 
-# ==============================================================================
-# 🤖 LOCAL GEMMA AI CONFIGURATION (로컬 Gemma API 설정)
-# Ollama 기본 엔드포인트: http://localhost:11434/api/generate
-# 모델명: gemma2:2b (또는 gemma2, gemma:2b 등 로컬에 설치된 모델 지정 가능)
-# ==============================================================================
-LOCAL_GEMMA_URL = os.environ.get("LOCAL_GEMMA_URL", "http://localhost:11434/api/generate")
-LOCAL_GEMMA_MODEL = os.environ.get("LOCAL_GEMMA_MODEL", "gemma2:2b")
-
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_PORT
 
 VOCAB_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(VOCAB_DIR)
@@ -297,10 +298,30 @@ class VocabRequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         clean_path = self.path.split('?', 1)[0].split('#', 1)[0]
+        if clean_path == '/api/config':
+            self.handle_config_api()
+            return
         if clean_path == '/api/diary':
             self.handle_diary_api()
             return
         super().do_GET()
+
+    def handle_config_api(self):
+        try:
+            import config
+            summary = config.get_config_summary()
+        except Exception:
+            summary = {
+                "quiz_parameters": {"quiz_goal_target": 20}
+            }
+        payload = json.dumps(summary, ensure_ascii=False).encode('utf-8')
+        self.send_response(200)
+        self.send_header('Content-Type', 'application/json; charset=utf-8')
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Content-Length', str(len(payload)))
+        self.end_headers()
+        self.wfile.write(payload)
 
     def do_POST(self):
         clean_path = self.path.split('?', 1)[0].split('#', 1)[0]
