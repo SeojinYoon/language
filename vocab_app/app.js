@@ -2250,6 +2250,7 @@
 
   // Render view dispatcher
   function renderDiaryView() {
+    updateDiarySessionProgress();
     if (!state.isDiaryLoaded) {
       loadDiaryData();
     } else {
