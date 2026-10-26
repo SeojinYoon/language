@@ -10,6 +10,7 @@ import urllib.request
 import urllib.error
 import glob
 import threading
+import time
 
 # ==============================================================================
 # ⚙️ CORE CONFIGURATION & PARAMETERS (핵심 파라미터 연동: config.py)
@@ -417,10 +418,16 @@ class VocabRequestHandler(http.server.SimpleHTTPRequestHandler):
         return super().translate_path(path)
 
     def end_headers(self):
-        # Prevent browser caching of markdown files so edits are instantly visible
-        clean_path = self.path.split('?', 1)[0]
-        if clean_path.endswith('.md') or clean_path.endswith('.json'):
-            self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        # Prevent browser from aggressively caching HTML, JS, CSS, JSON, MD so code edits are immediately fresh
+        clean_path = self.path.split('?', 1)[0].lower()
+        if (clean_path.endswith('.html') or 
+            clean_path.endswith('.js') or 
+            clean_path.endswith('.css') or 
+            clean_path.endswith('.json') or 
+            clean_path.endswith('.md') or 
+            clean_path == '/' or 
+            clean_path == ''):
+            self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
             self.send_header('Pragma', 'no-cache')
             self.send_header('Expires', '0')
         super().end_headers()
@@ -440,11 +447,11 @@ except Exception as e:
 
 try:
     with socketserver.TCPServer(("", PORT), VocabRequestHandler) as httpd:
-        url = f"http://localhost:{PORT}/index.html"
+        url = f"http://localhost:{PORT}/index.html?t={int(time.time())}"
         print("=" * 60)
-        print(f"🚀 VocabMaster server is running at {url}")
+        print(f"🚀 VocabMaster server is running at http://localhost:{PORT}")
         print("📖 Live Markdown Sync: English/dissimilarities.md & Words_organized.md")
-        print("💡 You can edit markdown files and refresh the browser instantly!")
+        print("⚡ Cache-busting enabled: Code edits reflect immediately!")
         print("Press Ctrl+C to stop the server.")
         print("=" * 60)
         try:

@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VocabMaster - 영단어 코어 감각 & 뉘앙스 마스터</title>
   <meta name="description" content="코어 이미지와 초점 설명을 통해 영어 단어의 뉘앙스를 체득하고 맞추는 인터랙티브 단어장 웹앱">
+  <!-- Cache control to prevent browser showing stale version on python server.py -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <!-- 100% Offline Local Fonts & Icons -->
   <link rel="stylesheet" href="vendor/fonts/fonts.css">
   <script src="vendor/lucide.min.js"></script>
   <script src="vendor/confetti.browser.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2.2">
 </head>
 <body class="dark-theme">
   <div id="app" class="app-layout">
@@ -170,6 +174,36 @@
               <div class="session-progress-fill" id="quiz-session-progress-fill" style="width: 0%;">
                 <div class="session-progress-shimmer"></div>
               </div>
+            </div>
+          </div>
+
+          <!-- 🔥 Quiz Review Phase Banner (복습 모드 전용 상단 배너) -->
+          <div class="quiz-review-banner hidden" id="quiz-review-banner">
+            <div class="review-banner-left">
+              <div class="review-banner-icon-badge">
+                <i data-lucide="flame"></i>
+              </div>
+              <div class="review-banner-info">
+                <div class="review-banner-title-row">
+                  <span class="review-banner-title">오답 집중 복습 Phase</span>
+                  <span class="review-banner-badge">모두 맞출 때까지 반복</span>
+                </div>
+                <div class="review-banner-counter" id="review-banner-counter">
+                  남은 틀린 단어: <strong id="review-banner-remaining">0</strong>개 <span class="review-counter-sub">(완료 <span id="review-banner-completed">0</span> / 총 <span id="review-banner-total">0</span>)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-banner-right">
+              <div class="review-banner-progress-wrap">
+                <div class="review-banner-track">
+                  <div class="review-banner-fill" id="review-banner-fill" style="width: 0%;"></div>
+                </div>
+              </div>
+              <button type="button" id="btn-exit-review-phase" class="btn-exit-review" title="복습 모드 종료하고 일반 학습으로 복귀">
+                <i data-lucide="log-out"></i>
+                <span>복습 나가기</span>
+              </button>
             </div>
           </div>
 
@@ -774,11 +808,112 @@
     <div id="toast-container" class="toast-container"></div>
   </div>
 
+  <!-- ================= 1. 복습 제안 팝업 모달 ================= -->
+  <div id="quiz-review-prompt-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="review-prompt-title">
+    <div class="modal-backdrop" id="review-prompt-backdrop"></div>
+    <div class="modal-card review-modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-icon-badge review-fire-badge">
+            <i data-lucide="flame"></i>
+          </div>
+          <div>
+            <h3 class="modal-title" id="review-prompt-title">복습해볼까요?</h3>
+            <p class="modal-subtitle">🎯 단어 맞추기 목표 100% 달성!</p>
+          </div>
+        </div>
+        <button type="button" class="modal-close-btn" id="btn-review-prompt-close" title="닫기 (Esc)">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="review-prompt-content">
+          <div class="review-notice-box">
+            <p class="review-notice-main">
+              이번 학습에서 틀린 단어가 총 <strong id="review-wrong-count-highlight" class="text-gradient-rose">0개</strong> 있습니다.
+            </p>
+            <p class="review-notice-sub">
+              지금 복습 Phase를 시작하면, 틀린 단어들을 <strong>모두 맞출 때까지 반복 출제</strong>하여 완벽하게 마스터할 수 있습니다!
+            </p>
+          </div>
+
+          <div class="review-words-preview-group">
+            <span class="review-preview-label"><i data-lucide="list-checks"></i> 복습 대상 단어:</span>
+            <div class="review-words-chip-list" id="review-words-chip-list">
+              <!-- Dynamically populated tags -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn-secondary" id="btn-review-prompt-no">
+          <i data-lucide="x"></i>
+          <span>아니오 (나중에 하기)</span>
+        </button>
+        <button type="button" class="btn-primary btn-review-start" id="btn-review-prompt-yes">
+          <i data-lucide="zap"></i>
+          <span>예 (복습 시작)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 2. 복습 완료 축하 모달 ================= -->
+  <div id="quiz-review-complete-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="review-complete-title">
+    <div class="modal-backdrop" id="review-complete-backdrop"></div>
+    <div class="modal-card review-modal-card celebration-modal-card">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-icon-badge review-trophy-badge">
+            <i data-lucide="trophy"></i>
+          </div>
+          <div>
+            <h3 class="modal-title" id="review-complete-title">오답 완전 정복 성공! 🎉</h3>
+            <p class="modal-subtitle">모든 틀린 단어를 마스터했습니다</p>
+          </div>
+        </div>
+        <button type="button" class="modal-close-btn" id="btn-review-complete-close" title="닫기 (Esc)">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body celebration-modal-body">
+        <div class="celebration-hero-wrap">
+          <div class="celebration-icon-glow">
+            <span class="celebration-emoji">🏆</span>
+          </div>
+          <h4 class="celebration-hero-text">틀렸던 단어들을 모두 맞추셨습니다!</h4>
+          <p class="celebration-hero-desc">
+            포기하지 않고 끈기 있게 도전하여 모든 오답을 100% 정답으로 전환했습니다. 당신의 뛰어난 집중력과 어휘력에 박수를 보냅니다! 👏✨
+          </p>
+          <div class="celebration-stats-pill">
+            <span class="stat-pill-item"><i data-lucide="check-circle-2"></i> 복습 완주 <strong id="review-mastered-count">0</strong>단어</span>
+            <span class="stat-pill-divider">•</span>
+            <span class="stat-pill-item"><i data-lucide="sparkles"></i> 오답률 0% 달성</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer celebration-footer">
+        <button type="button" class="btn-secondary" id="btn-review-complete-close-confirm">
+          <i data-lucide="check"></i>
+          <span>확인 (학습 계속)</span>
+        </button>
+        <button type="button" class="btn-primary" id="btn-review-complete-reset-session">
+          <i data-lucide="rotate-ccw"></i>
+          <span>새 세션 시작 (진도 리셋)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Local Data Bundle (Fallback for double-click file:// execution) -->
-  <script src="data.js"></script>
+  <script src="data.js?v=2.2"></script>
   <!-- Local Diary Cache (Auto-synced by server, fallback for file:// execution, Git ignored) -->
-  <script src="local_diary.js"></script>
+  <script src="local_diary.js?v=2.2"></script>
   <!-- Main Application Script (Loads & Parses Markdown or Fallback) -->
-  <script src="app.js"></script>
+  <script src="app.js?v=2.2"></script>
 </body>
 </html>

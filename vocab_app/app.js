@@ -46,9 +46,17 @@
     soundEnabled: true,
     theme: localStorage.getItem('vm_theme') || 'dark',
 
-    // Quiz Session Goal State (단어 맞추기 목표 및 진행도 - config.py 파라미터 기반)
+    // Quiz Session Goal State (단어 맞추기 목표 및 진행도 - 앱 시작 시 0%로 초기화)
     quizGoalTarget: (window.APP_CONFIG && (window.APP_CONFIG.quizGoalTarget || window.APP_CONFIG.defaultQuizGoal)) || 20,
-    quizSessionCompleted: parseInt(localStorage.getItem('vm_quiz_session_completed'), 10) || 0,
+    quizSessionCompleted: 0,
+    sessionWrongWordIds: new Set(), // 이번 세션 동안 틀렸던 단어 ID 기록
+
+    // Review Phase State (오답 완전 정복 반복 복습 모드)
+    isReviewPhase: false,
+    reviewQueue: [],
+    reviewInitialTotal: 0,
+    reviewCompletedCount: 0,
+    savedQuizState: null,
 
     // Diary Translation Goal State (일기 영작 목표 및 진행도 - config.py 파라미터 기반)
     diaryGoalTarget: (window.APP_CONFIG && (window.APP_CONFIG.diaryGoalTarget || window.APP_CONFIG.defaultDiaryGoal)) || 5,
@@ -178,8 +186,104 @@
         osc.start(now + idx * 0.09);
         osc.stop(now + idx * 0.09 + 0.38);
       });
+    },
+    playGrandCelebration() {
+      if (!state.soundEnabled) return;
+      this.init();
+      if (!this.ctx) return;
+      const now = this.ctx.currentTime;
+      // 웅장한 승리의 아르페지오 & 화음 팡파르
+      const melody = [
+        { freq: 523.25, time: 0.0, dur: 0.12 }, // C5
+        { freq: 659.25, time: 0.12, dur: 0.12 }, // E5
+        { freq: 783.99, time: 0.24, dur: 0.14 }, // G5
+        { freq: 1046.50, time: 0.38, dur: 0.22 }, // C6
+        { freq: 880.00, time: 0.62, dur: 0.15 }, // A5
+        { freq: 1046.50, time: 0.78, dur: 0.18 }, // C6
+        { freq: 1318.51, time: 0.98, dur: 0.75 }, // E6
+        { freq: 1046.50, time: 0.98, dur: 0.75 }, // C6 chord
+        { freq: 783.99, time: 0.98, dur: 0.75 }   // G5 chord
+      ];
+      melody.forEach(n => {
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(n.freq, now + n.time);
+        gain.gain.setValueAtTime(0.25, now + n.time);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + n.time + n.dur);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now + n.time);
+        osc.stop(now + n.time + n.dur);
+      });
     }
   };
+
+  // 🎉 Grand Confetti Celebration (화려한 폭죽 세레머니)
+  function triggerGrandConfetti() {
+    if (typeof confetti !== 'function') return;
+
+    const duration = 3.5 * 1000;
+    const animationEnd = Date.now() + duration;
+    const defaults = { startVelocity: 38, spread: 360, ticks: 70, zIndex: 100000 };
+
+    function randomInRange(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    // 1) 즉시 첫 캐논 발사 (좌/우/중앙 팡!)
+    confetti({
+      particleCount: 80,
+      angle: 60,
+      spread: 70,
+      origin: { x: 0.05, y: 0.7 },
+      colors: ['#f43f5e', '#f59e0b', '#10b981', '#3b82f6', '#8b5cf6', '#ec4899'],
+      zIndex: 100000
+    });
+    confetti({
+      particleCount: 80,
+      angle: 120,
+      spread: 70,
+      origin: { x: 0.95, y: 0.7 },
+      colors: ['#f43f5e', '#f59e0b', '#10b981', '#3b82f6', '#8b5cf6', '#ec4899'],
+      zIndex: 100000
+    });
+
+    // 2) 3.5초 동안 불꽃놀이처럼 연속 분수 발사
+    const interval = setInterval(() => {
+      const timeLeft = animationEnd - Date.now();
+      if (timeLeft <= 0) {
+        return clearInterval(interval);
+      }
+
+      const particleCount = 40 * (timeLeft / duration);
+
+      // 왼쪽에서 솟구치는 폭죽
+      confetti(Object.assign({}, defaults, {
+        particleCount,
+        origin: { x: randomInRange(0.1, 0.35), y: Math.random() - 0.2 },
+        colors: ['#f43f5e', '#f59e0b', '#fbbf24', '#e11d48']
+      }));
+
+      // 오른쪽에서 솟구치는 폭죽
+      confetti(Object.assign({}, defaults, {
+        particleCount,
+        origin: { x: randomInRange(0.65, 0.9), y: Math.random() - 0.2 },
+        colors: ['#6366f1', '#8b5cf6', '#3b82f6', '#06b6d4']
+      }));
+
+      // 중앙 하늘에서 쏟아지는 스타 파티클
+      if (Math.random() > 0.4) {
+        confetti({
+          particleCount: 30,
+          spread: 120,
+          origin: { x: 0.5, y: randomInRange(0.25, 0.45) },
+          colors: ['#ffd700', '#ff4757', '#2ed573', '#1e90ff', '#ffffff'],
+          zIndex: 100000
+        });
+      }
+    }, 240);
+  }
 
   // Web Speech TTS
   function speakWord(text) {
@@ -381,6 +485,15 @@
 
     if (!percentEl || !fillEl) return;
 
+    // 복습 Phase 모드에서는 기존 100% 달성 진행도 카드를 완전히 숨김 처리
+    if (state.isReviewPhase) {
+      if (cardEl) cardEl.classList.add('hidden');
+      if (achievedBadge) achievedBadge.classList.add('hidden');
+      return;
+    } else {
+      if (cardEl) cardEl.classList.remove('hidden');
+    }
+
     const target = Math.max(1, state.quizGoalTarget || 20);
     const completed = Math.max(0, state.quizSessionCompleted || 0);
     const percent = Math.round((completed / target) * 100);
@@ -399,6 +512,7 @@
 
   function resetQuizSessionProgress() {
     state.quizSessionCompleted = 0;
+    if (state.sessionWrongWordIds) state.sessionWrongWordIds.clear();
     localStorage.setItem('vm_quiz_session_completed', 0);
     updateQuizSessionProgress();
     showToast('진행도가 0%로 초기화되었습니다.', 'info');
@@ -458,6 +572,75 @@
 
   // ================= QUIZ VIEW LOGIC =================
   function loadQuizQuestion() {
+    // 1) 복습 Phase 모드인 경우
+    if (state.isReviewPhase) {
+      if (!state.reviewQueue || state.reviewQueue.length === 0) {
+        completeReviewPhase();
+        return;
+      }
+
+      state.isAnswered = false;
+      state.revealedLetters = 0;
+      state.currentWord = state.reviewQueue[0];
+      const item = state.currentWord;
+
+      // Header Badges
+      document.getElementById('quiz-source-badge').textContent = item.source || '오답 복습';
+      document.getElementById('quiz-category-badge').textContent = `🔥 복습 (${item.category || '단어'})`;
+      document.getElementById('quiz-counter').textContent = `남은 복습 단어: ${state.reviewQueue.length}개`;
+
+      updateReviewBannerProgress();
+
+      // Clues
+      document.getElementById('quiz-meaning').textContent = item.meaning || item.category;
+      document.getElementById('quiz-core-image').textContent = item.core_image || '(코어 이미지가 등록되어 있지 않습니다)';
+      document.getElementById('quiz-focus').textContent = item.focus || '(초점 설명이 등록되어 있지 않습니다)';
+
+      // Reset Result Panel at bottom of clue card
+      const resultPanel = document.getElementById('quiz-result-panel');
+      if (resultPanel) resultPanel.className = 'quiz-result-panel hidden';
+      const resultBadge = document.getElementById('quiz-result-badge');
+      if (resultBadge) resultBadge.innerHTML = '';
+      const revealedWord = document.getElementById('quiz-revealed-target-word');
+      if (revealedWord) revealedWord.textContent = '';
+
+      // Example Section: Hide before answer is confirmed
+      const exampleSection = document.getElementById('quiz-example-section');
+      exampleSection.classList.add('hidden');
+      document.getElementById('quiz-cloze-example').innerHTML = '';
+
+      // Reset Answer Inputs & Buttons
+      const submitBtn = document.getElementById('quiz-submit-btn');
+      if (submitBtn) {
+        submitBtn.classList.remove('btn-next-state');
+        submitBtn.innerHTML = '<span>확인</span><i data-lucide="arrow-right"></i>';
+      }
+
+      const quizInput = document.getElementById('quiz-input');
+      if (quizInput) {
+        quizInput.value = '';
+        quizInput.disabled = false;
+        quizInput.classList.remove('input-correct', 'input-wrong');
+      }
+
+      const resultNextBtn = document.getElementById('quiz-result-next-btn');
+      if (resultNextBtn) resultNextBtn.classList.add('hidden');
+      
+      updateBookmarkButton();
+
+      if (state.quizType === 'typing') {
+        document.getElementById('typing-answer-container').classList.remove('hidden');
+        document.getElementById('choice-answer-container').classList.add('hidden');
+        setTimeout(() => document.getElementById('quiz-input').focus(), 50);
+      } else {
+        document.getElementById('typing-answer-container').classList.add('hidden');
+        document.getElementById('choice-answer-container').classList.remove('hidden');
+        renderMultipleChoiceOptions();
+      }
+      return;
+    }
+
+    // 2) 일반 학습 모드
     if (state.filteredData.length === 0) {
       document.getElementById('quiz-meaning').textContent = '학습할 단어가 없습니다.';
       document.getElementById('quiz-core-image').textContent = '상단 필터에서 카테고리나 출처를 다시 선택해 주세요.';
@@ -647,39 +830,119 @@
       revealedWord.textContent = state.currentWord.word;
     }
 
-    if (isCorrect) {
-      state.stats.streak += 1;
-      if (state.stats.streak > state.stats.bestStreak) {
-        state.stats.bestStreak = state.stats.streak;
-      }
-      state.stats.xp += 10 + Math.min(state.stats.streak * 2, 20);
-      state.stats.correctCount += 1;
-      
-      // Remove from wrong history if present
-      const wIdx = state.stats.wrongIds.indexOf(state.currentWord.id);
-      if (wIdx > -1) state.stats.wrongIds.splice(wIdx, 1);
-      state.stats.mastery[state.currentWord.id] = 3;
+    // ==========================================
+    // CASE A: 복습 Phase 모드에서의 답변 처리
+    // ==========================================
+    if (state.isReviewPhase) {
+      if (isCorrect) {
+        state.stats.streak += 1;
+        if (state.stats.streak > state.stats.bestStreak) {
+          state.stats.bestStreak = state.stats.streak;
+        }
+        state.stats.xp += 15;
+        state.stats.correctCount += 1;
 
-      // Sound & Confetti
-      soundSynth.playCorrect();
-      if (typeof confetti === 'function' && state.stats.streak % 3 === 0) {
-        confetti({ particleCount: 60, spread: 70, origin: { y: 0.7 } });
-      }
-    } else {
-      state.stats.streak = 0;
-      if (!state.stats.wrongIds.includes(state.currentWord.id)) {
-        state.stats.wrongIds.push(state.currentWord.id);
-      }
-      state.stats.mastery[state.currentWord.id] = 1;
+        // 이번 단어를 큐에서 완전히 제거 (마스터 완료!)
+        const masteredWord = state.reviewQueue.shift();
+        state.reviewCompletedCount += 1;
 
-      soundSynth.playWrong();
+        // stats.wrongIds에서도 제거 & 마스터리 레벨 3 부여
+        const wIdx = state.stats.wrongIds.indexOf(masteredWord.id);
+        if (wIdx > -1) state.stats.wrongIds.splice(wIdx, 1);
+        state.stats.mastery[masteredWord.id] = 3;
+
+        soundSynth.playCorrect();
+        if (typeof confetti === 'function') {
+          confetti({ particleCount: 45, spread: 60, origin: { y: 0.7 } });
+        }
+
+        updateReviewBannerProgress();
+
+        if (state.reviewQueue.length === 0) {
+          showToast('🎉 대단합니다! 마지막 복습 단어까지 모두 맞추셨습니다!', 'success');
+        } else {
+          showToast(`정답! 남은 복습 단어: ${state.reviewQueue.length}개 ✨`, 'success');
+        }
+      } else {
+        // 복습 중 오답: 맞출 때까지 반복해야 하므로 큐의 맨 뒤로 순환 재배치!
+        state.stats.streak = 0;
+        soundSynth.playWrong();
+
+        const retryWord = state.reviewQueue.shift();
+        state.reviewQueue.push(retryWord);
+
+        updateReviewBannerProgress();
+      }
+    } 
+    // ==========================================
+    // CASE B: 일반 학습 모드에서의 답변 처리
+    // ==========================================
+    else {
+      if (isCorrect) {
+        state.stats.streak += 1;
+        if (state.stats.streak > state.stats.bestStreak) {
+          state.stats.bestStreak = state.stats.streak;
+        }
+        state.stats.xp += 10 + Math.min(state.stats.streak * 2, 20);
+        state.stats.correctCount += 1;
+        
+        // Remove from wrong history if present
+        const wIdx = state.stats.wrongIds.indexOf(state.currentWord.id);
+        if (wIdx > -1) state.stats.wrongIds.splice(wIdx, 1);
+        state.stats.mastery[state.currentWord.id] = 3;
+
+        soundSynth.playCorrect();
+        if (typeof confetti === 'function' && state.stats.streak % 3 === 0) {
+          confetti({ particleCount: 60, spread: 70, origin: { y: 0.7 } });
+        }
+      } else {
+        state.stats.streak = 0;
+        if (!state.stats.wrongIds.includes(state.currentWord.id)) {
+          state.stats.wrongIds.push(state.currentWord.id);
+        }
+        // 이번 세션 오답으로 기록
+        state.sessionWrongWordIds.add(state.currentWord.id);
+        state.stats.mastery[state.currentWord.id] = 1;
+
+        soundSynth.playWrong();
+      }
+
+      // Update Quiz Session Goal Progress Bar (일반 모드에서만 세션 진행도 누적)
+      const prevCompleted = state.quizSessionCompleted;
+      state.quizSessionCompleted += 1;
+      localStorage.setItem('vm_quiz_session_completed', state.quizSessionCompleted);
+      updateQuizSessionProgress();
+
+      // 100% 목표 개수 도달 시점 처리
+      if (state.quizSessionCompleted >= state.quizGoalTarget && prevCompleted < state.quizGoalTarget) {
+        const reviewCandidates = getReviewCandidates();
+
+        if (reviewCandidates.length > 0) {
+          // 틀린 단어가 남아있는 경우: 팡파레/폭죽을 터뜨리지 않고 복습 제안 팝업을 차분하게 띄움
+          showToast(`학습 목표(${state.quizGoalTarget}개)를 채웠습니다! 틀린 단어를 복습해볼까요? 💡`, 'info');
+          setTimeout(() => {
+            openReviewPromptModal(reviewCandidates);
+          }, 600);
+        } else {
+          // 틀린 단어가 단 1개도 없이 완벽하게 100%를 달성한 경우에만 팡파레 & 폭죽
+          soundSynth.playGrandCelebration();
+          if (typeof confetti === 'function') {
+            confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
+          }
+          showToast(`🎉 완벽합니다! 오답 없이 ${state.quizGoalTarget}개 목표(100%)를 모두 달성했습니다! 🏆`, 'success');
+        }
+      }
     }
 
-    // Update Submit button to "다음 단어"
+    // Update Submit button to "다음 단어" (or "결과 확인")
     const submitBtn = document.getElementById('quiz-submit-btn');
     if (submitBtn) {
       submitBtn.classList.add('btn-next-state');
-      submitBtn.innerHTML = '<span>다음 단어</span><i data-lucide="chevron-right"></i>';
+      if (state.isReviewPhase && state.reviewQueue.length === 0) {
+        submitBtn.innerHTML = '<span>복습 완료! 🎉</span><i data-lucide="trophy"></i>';
+      } else {
+        submitBtn.innerHTML = '<span>다음 단어</span><i data-lucide="chevron-right"></i>';
+      }
     }
 
     // Disable input and highlight
@@ -693,6 +956,9 @@
     const resultNextBtn = document.getElementById('quiz-result-next-btn');
     if (resultNextBtn && state.quizType === 'choice') {
       resultNextBtn.classList.remove('hidden');
+      if (state.isReviewPhase && state.reviewQueue.length === 0) {
+        resultNextBtn.innerHTML = '<span>복습 완료! 🎉</span><i data-lucide="trophy"></i>';
+      }
       if (window.lucide) window.lucide.createIcons();
     }
 
@@ -710,23 +976,15 @@
     lucide.createIcons();
     saveStats();
 
-    // Update Quiz Session Goal Progress Bar
-    const prevCompleted = state.quizSessionCompleted;
-    state.quizSessionCompleted += 1;
-    localStorage.setItem('vm_quiz_session_completed', state.quizSessionCompleted);
-    updateQuizSessionProgress();
-
-    // Celebratory Fanfare & Confetti when 100% goal is reached
-    if (state.quizSessionCompleted === state.quizGoalTarget && prevCompleted < state.quizGoalTarget) {
-      soundSynth.playFanfare();
-      if (typeof confetti === 'function') {
-        confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
-      }
-      showToast(`🎉 목표 달성! ${state.quizGoalTarget}개 단어 맞추기(100%)를 모두 완료했습니다! 🏆`, 'success');
-    }
-
     // Auto speak the target word
     setTimeout(() => speakWord(state.currentWord.word), 200);
+
+    // 복습 Phase에서 마지막 문제까지 맞췄을 때 0.8초 후 자동으로 폭죽 세레머니 모달 오픈
+    if (state.isReviewPhase && state.reviewQueue.length === 0) {
+      setTimeout(() => {
+        completeReviewPhase();
+      }, 750);
+    }
   }
 
   function revealLetterHint() {
@@ -746,6 +1004,17 @@
   }
 
   function nextQuizQuestion() {
+    // 복습 Phase인 경우
+    if (state.isReviewPhase) {
+      if (state.reviewQueue.length === 0) {
+        completeReviewPhase();
+        return;
+      }
+      loadQuizQuestion();
+      return;
+    }
+
+    // 일반 모드인 경우
     if (state.currentIndex < state.filteredData.length - 1) {
       state.currentIndex += 1;
     } else {
@@ -754,6 +1023,182 @@
       showToast('모든 단어 카드를 한 바퀴 돌았습니다! 새로운 무작위 순서로 시작합니다. 🎯', 'success');
     }
     loadQuizQuestion();
+  }
+
+  // ================= REVIEW PHASE LOGIC & CONTROLS =================
+  let currentReviewCandidates = [];
+
+  function getReviewCandidates() {
+    const list = [];
+    const seenIds = new Set();
+
+    // 1. 이번 세션에서 틀렸던 단어들 우선 수집
+    if (state.sessionWrongWordIds && state.sessionWrongWordIds.size > 0) {
+      state.sessionWrongWordIds.forEach(id => {
+        const item = state.allData.find(w => w.id === id);
+        if (item && !seenIds.has(item.id)) {
+          seenIds.add(item.id);
+          list.push(item);
+        }
+      });
+    }
+
+    // 2. 만약 이번 세션 틀린 단어가 비어있더라도, 기존 오답노트(wrongIds)에 저장된 단어가 있다면 제안
+    if (list.length === 0 && state.stats.wrongIds && state.stats.wrongIds.length > 0) {
+      state.stats.wrongIds.forEach(id => {
+        const item = state.allData.find(w => w.id === id);
+        if (item && !seenIds.has(item.id)) {
+          seenIds.add(item.id);
+          list.push(item);
+        }
+      });
+    }
+
+    return list;
+  }
+
+  function openReviewPromptModal(words) {
+    if (!words || words.length === 0) return;
+    currentReviewCandidates = [...words];
+
+    const modal = document.getElementById('quiz-review-prompt-modal');
+    const countEl = document.getElementById('review-wrong-count-highlight');
+    const chipList = document.getElementById('review-words-chip-list');
+
+    if (!modal) return;
+
+    if (countEl) countEl.textContent = `${words.length}개`;
+
+    if (chipList) {
+      chipList.innerHTML = words.map(w => `
+        <span class="review-word-chip" title="${w.meaning || ''}">
+          <i data-lucide="alert-circle"></i>
+          <strong>${w.word}</strong>
+          <span class="chip-meaning">${(w.meaning || '').slice(0, 18)}${(w.meaning && w.meaning.length > 18) ? '...' : ''}</span>
+        </span>
+      `).join('');
+    }
+
+    modal.classList.remove('hidden');
+    if (window.lucide) window.lucide.createIcons();
+
+    setTimeout(() => {
+      const yesBtn = document.getElementById('btn-review-prompt-yes');
+      if (yesBtn) yesBtn.focus();
+    }, 120);
+  }
+
+  function closeReviewPromptModal() {
+    const modal = document.getElementById('quiz-review-prompt-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  function startReviewPhase(words) {
+    if (!words || words.length === 0) return;
+    closeReviewPromptModal();
+
+    // 복습 전 기존 퀴즈 상태 저장
+    state.savedQuizState = {
+      filteredData: [...state.filteredData],
+      currentIndex: state.currentIndex
+    };
+
+    state.isReviewPhase = true;
+    state.reviewQueue = shuffleArray([...words]);
+    state.reviewInitialTotal = words.length;
+    state.reviewCompletedCount = 0;
+
+    // 복습 Phase 시작: 100% 달성 진행도 카드를 숨기고 복습 전용 배너 표시
+    updateQuizSessionProgress();
+    const banner = document.getElementById('quiz-review-banner');
+    if (banner) banner.classList.remove('hidden');
+
+    updateReviewBannerProgress();
+
+    showToast(`🔥 오답 복습 Phase 돌입! ${words.length}개 단어를 모두 맞출 때까지 반복합니다!`, 'info');
+    loadQuizQuestion();
+  }
+
+  function updateReviewBannerProgress() {
+    const banner = document.getElementById('quiz-review-banner');
+    if (!banner || !state.isReviewPhase) return;
+
+    const remainingEl = document.getElementById('review-banner-remaining');
+    const completedEl = document.getElementById('review-banner-completed');
+    const totalEl = document.getElementById('review-banner-total');
+    const fillEl = document.getElementById('review-banner-fill');
+
+    const total = Math.max(1, state.reviewInitialTotal);
+    const completed = state.reviewCompletedCount;
+    const remaining = state.reviewQueue.length;
+    const percent = Math.min(100, Math.round((completed / total) * 100));
+
+    if (remainingEl) remainingEl.textContent = remaining;
+    if (completedEl) completedEl.textContent = completed;
+    if (totalEl) totalEl.textContent = total;
+    if (fillEl) fillEl.style.width = `${percent}%`;
+  }
+
+  function exitReviewPhase(shouldResetProgress = false) {
+    state.isReviewPhase = false;
+    state.reviewQueue = [];
+    state.reviewInitialTotal = 0;
+    state.reviewCompletedCount = 0;
+
+    const banner = document.getElementById('quiz-review-banner');
+    if (banner) banner.classList.add('hidden');
+
+    // 기존 퀴즈 상태 복원
+    if (state.savedQuizState) {
+      state.filteredData = state.savedQuizState.filteredData;
+      state.currentIndex = Math.min(state.savedQuizState.currentIndex, Math.max(0, state.filteredData.length - 1));
+      state.savedQuizState = null;
+    }
+
+    if (shouldResetProgress) {
+      resetQuizSessionProgress();
+    } else {
+      updateQuizSessionProgress();
+    }
+
+    loadQuizQuestion();
+  }
+
+  // 🎉 마침내 틀린 단어를 모두 맞췄을 때 호출 (폭죽 팡팡!)
+  function completeReviewPhase() {
+    const masteredCount = state.reviewInitialTotal;
+
+    // 이번 세션 오답 Set 초기화
+    if (state.sessionWrongWordIds) state.sessionWrongWordIds.clear();
+
+    // 웅장한 승리의 팡파르
+    soundSynth.playGrandCelebration();
+
+    // 환상적인 다채널 연속 폭죽 쇼 (3.5초 동안 팡팡!)
+    triggerGrandConfetti();
+
+    // 복습 완료 축하 모달 오픈
+    openReviewCompleteModal(masteredCount);
+  }
+
+  function openReviewCompleteModal(masteredCount) {
+    const modal = document.getElementById('quiz-review-complete-modal');
+    const countEl = document.getElementById('review-mastered-count');
+
+    if (countEl) countEl.textContent = `${masteredCount}`;
+    if (modal) modal.classList.remove('hidden');
+
+    if (window.lucide) window.lucide.createIcons();
+
+    setTimeout(() => {
+      const resetBtn = document.getElementById('btn-review-complete-reset-session');
+      if (resetBtn) resetBtn.focus();
+    }, 150);
+  }
+
+  function closeReviewCompleteModal() {
+    const modal = document.getElementById('quiz-review-complete-modal');
+    if (modal) modal.classList.add('hidden');
   }
 
   // ================= FLASHCARD VIEW LOGIC =================
@@ -1123,8 +1568,113 @@
       lucide.createIcons();
     });
 
+    // Review Phase Banner Exit Button
+    const exitReviewBtn = document.getElementById('btn-exit-review-phase');
+    if (exitReviewBtn) {
+      exitReviewBtn.addEventListener('click', () => {
+        if (confirm('오답 복습 Phase를 종료하고 일반 단어 맞추기로 돌아가시겠습니까?')) {
+          exitReviewPhase(false);
+          showToast('복습 Phase가 종료되었습니다.', 'info');
+        }
+      });
+    }
+
+    // Review Prompt Modal Event Listeners
+    const promptYesBtn = document.getElementById('btn-review-prompt-yes');
+    if (promptYesBtn) {
+      promptYesBtn.addEventListener('click', () => {
+        startReviewPhase(currentReviewCandidates);
+      });
+    }
+
+    const promptNoBtn = document.getElementById('btn-review-prompt-no');
+    if (promptNoBtn) {
+      promptNoBtn.addEventListener('click', () => {
+        closeReviewPromptModal();
+        showToast('언제든 복습 필터를 통해 오답을 다시 학습할 수 있습니다.', 'info');
+      });
+    }
+
+    const promptCloseBtn = document.getElementById('btn-review-prompt-close');
+    if (promptCloseBtn) {
+      promptCloseBtn.addEventListener('click', () => {
+        closeReviewPromptModal();
+      });
+    }
+
+    const promptBackdrop = document.getElementById('review-prompt-backdrop');
+    if (promptBackdrop) {
+      promptBackdrop.addEventListener('click', () => {
+        closeReviewPromptModal();
+      });
+    }
+
+    // Review Complete Celebration Modal Event Listeners
+    const completeResetBtn = document.getElementById('btn-review-complete-reset-session');
+    if (completeResetBtn) {
+      completeResetBtn.addEventListener('click', () => {
+        closeReviewCompleteModal();
+        exitReviewPhase(true); // 새 세션 시작 (진도 0% 리셋)
+        showToast('새로운 단어 맞추기 목표가 시작되었습니다! 🎯', 'success');
+      });
+    }
+
+    const completeCloseBtn = document.getElementById('btn-review-complete-close-confirm');
+    if (completeCloseBtn) {
+      completeCloseBtn.addEventListener('click', () => {
+        closeReviewCompleteModal();
+        exitReviewPhase(false);
+      });
+    }
+
+    const completeHeaderCloseBtn = document.getElementById('btn-review-complete-close');
+    if (completeHeaderCloseBtn) {
+      completeHeaderCloseBtn.addEventListener('click', () => {
+        closeReviewCompleteModal();
+        exitReviewPhase(false);
+      });
+    }
+
+    const completeBackdrop = document.getElementById('review-complete-backdrop');
+    if (completeBackdrop) {
+      completeBackdrop.addEventListener('click', () => {
+        closeReviewCompleteModal();
+        exitReviewPhase(false);
+      });
+    }
+
     // Global Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
+      // 1) Review Prompt Modal Shortcuts
+      const promptModal = document.getElementById('quiz-review-prompt-modal');
+      if (promptModal && !promptModal.classList.contains('hidden')) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          startReviewPhase(currentReviewCandidates);
+          return;
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          closeReviewPromptModal();
+          return;
+        }
+      }
+
+      // 2) Review Complete Modal Shortcuts
+      const completeModal = document.getElementById('quiz-review-complete-modal');
+      if (completeModal && !completeModal.classList.contains('hidden')) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          closeReviewCompleteModal();
+          exitReviewPhase(true);
+          return;
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          closeReviewCompleteModal();
+          exitReviewPhase(false);
+          return;
+        }
+      }
+
       // Avoid hotkeys when typing in search or text inputs
       if (e.target === document.getElementById('dict-search-input')) return;
 
@@ -2448,6 +2998,11 @@
 
   // Application Entry Point
   async function initApp() {
+    // 앱 다시 시작 시 단어 맞추기 학습 진행도 항상 0%로 초기화
+    state.quizSessionCompleted = 0;
+    if (state.sessionWrongWordIds) state.sessionWrongWordIds.clear();
+    localStorage.removeItem('vm_quiz_session_completed');
+
     // Apply saved theme
     document.body.className = `${state.theme}-theme`;
     const themeIcon = document.getElementById('theme-icon');

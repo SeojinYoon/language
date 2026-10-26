@@ -538,3 +538,15 @@
     * 코어 이미지: 따뜻하게 맞잡고 있던 손 안에서 보이지 않던 벌의 독침이 손바닥을 콕 찔러, 손을 뗀 후에도 그 자리가 벌겋게 부어오르며 화끈거리고 아린 모습
     * 초점: 신뢰 뒤에 찾아오는 배신감과 감정의 쓰라린 잔향
     > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress.
+- Could it be that: 혹시 ~인 것은 아닐까?, 설마 ~라는 말인가?
+    * 코어 이미지: 단단하게 닫혀 있던 문을 완전히 활짝 열지는 못하고, 문틈을 살짝 손가락 하나 두께만큼 삐걱 열어 안쪽의 가려진 방을 조심스럽게 들여다보는 모습
+    * 초점: 완곡한 가설 제시와 인식적 불확실성
+    > Could it be that I have never truly sculpted myself through my own inner resonance, but rather formed my identity by echoing external noise?
+- crept in: (부정적인 생각·감정·의심 등이) 은밀하게 파고들다, 슬그머니 고개를 들다; (물리적 이동) (몸을 낮추고 발소리를 죽여) 살금살금 기어 들어오다
+    * 코어 이미지: 두꺼운 외투를 입고 방심한 사이, 옷깃의 미세한 틈새로 서늘한 바람이 피부를 스치며 소리 없이 스며들듯, 발소리를 죽인 털 달린 작은 동물이 바닥에 바짝 엎드려 문틈으로 소리 없이 기어 들어오는 모습
+    * 초점: 인지하지 못한 순간의 은밀한 침범과 잠식
+    > Perhaps the moment those external voices vanished, what crept in disguised as boredom was, in reality, fear.
+- not through A, but by ~: A라는 통로·과정(간접적 매개/경로)을 거쳐서가 아니라, ~라는 직접적인 행위·수단(능동적 작동 방식)을 통해서
+    * 코어 이미지: 파이프라인이나 긴 복도(Through A: 매개 통로)를 지나가는 관통의 흐름을 가로막고, 작동 스위치를 직접 누르거나 손으로 레버를 당기는 동작(By ~: 능동적 행위자/직접 메커니즘)에 초점을 맞추는 모습
+    * 초점: 매개적 경로(Passage/Medium)의 기각과 실질적 작용 기제(Operational Agency)의 확립
+    > True mastery is acquired not through passive exposure, but by actively retrieving and applying concepts.

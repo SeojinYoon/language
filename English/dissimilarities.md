@@ -1084,7 +1084,7 @@
         * 코어 이미지: 기존 진술 아래에 더 놀랍고 강력한 팩트 카드를 추가로 꺼내놓음
         * 초점: 앞서 한 말에 대해 더 구체적이거나 놀라운 세부 사실을 덧붙여 강조함
         > The algorithm is fast. In fact, it's the fastest in the world
-    - in reality: 현실에서는, 실ㅇ은, 실ㅔ로는
+    - in reality: 현실에서는, 실은, 실제로는
         * 코어 이미지: 화려한 마술 쇼의 장막이나 번지르르한 이론적 시뮬레이션의 껍질을 확 걷어냈을 때, 그 뒤편에 숨어 있던 "날것 그대로의 거칠고 냉혹한 물리적 현실(Real world)"을 직면하게 만드는 모습
         * 초점: 기대와 현실의 괴리
         > My brain just keeps sounding the alarm that I need to get to work immediately. Yet in reality, I’m not actually working.
@@ -1096,6 +1096,10 @@
         * 코어 이미지: 이론상의 미세한 틈은 무시하고 실질적인 결과만 놓고 볼 때 동일함
         * 초점: 형식적인 차이는 있을지언정 실질적·효과적 관점에서는 완전히 사실상 그러함
         > To all intents and purposes, the project is already finished
+    - to be honest: 솔직히 말해서, 사실대로 털어놓자면
+        * 코어 이미지: 정중한 표정의 사교용 가면을 잠시 옆으로 벗어 내려놓고, 꾸밈없는 날것의 맨얼굴과 속마음을 상대에게 보여주는 모습
+        * 초점: 화자의 주관적 진솔함과 취약성 노출
+        > To be honest, I couldn't last the full fifteen minutes and gave up around the twelve-minute mark. And yet, once it was over, I felt noticeably lighter.
 
 - 믿음
     - dependable: 믿을 수 있는, 든든한
@@ -1429,6 +1433,10 @@
         * 코어 이미지: 고대 그리스 원형 경기장(Agon) 모래바닥 위에서, 두 레슬러가 서로의 뼈를 꺾을 듯 온몸을 비틀어 쥐어짜며 땀과 피를 쏟아내는 처절한 사투의 모습
         * 초점: 두 가지 선택지, 도덕적 딜레마, 혹은 자신의 치명적인 결함과 마주하여 마음속에서 피투성이가 되도록 며칠 밤낮을 씨름하는 상태
         > Even after all this time, I agonized over my inability to express myself openly and build meaningful relationships with confidence. 
+    - sting: (벌에 쏘인 것 같은) 찌르는 듯한 아픔, 쓰라림, 고통
+        * 코어 이미지: 아주 날카롭고 미세한 침(바늘 끝) 하나가 피부 표면을 순간적으로 톡 찔러 뚫고 들어오면서, 그 지점 주변으로 날카롭고 화끈거리는 자극이 찌릿하게 번져나가는 모습
+        * 초점: 국소적인 날카로운 통증과 지속되는 쓰라림
+        > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress
 - 노력
     - try to V: ~하려고 노력하다/애쓰다
         * 코어 이미지: 목표를 향해 화살을 겨누고 온 신경을 집중해 시도하는 행위
@@ -2019,7 +2027,9 @@
         * 코어 이미지: 밤중에 유리창을 깨거나 자물쇠를 부수고 빈집 안으로 강제로 침입함
         * 초점: 물리적인 장벽이나 잠금장치를 훼손하여 불법으로 공간에 난입·침입함
         > Someone tried to break into the house while we were away
-
+    - infiltrate: 잠입하다, 침투하다, 몰래 스며들다
+        * 코어 이미지: 커다란 거름망이나 촘촘한 필터의 미세한 구멍 사이로, 방울방울 쪼개진 액체가 저항을 받지 않고 조용히 틈새를 비집고 아래로 빠져나가는 모습
+        * 초점: 경계망을 무력화하는 은밀한 침투와 내부 장악
 - 듣다
     - hear: (귀에 소리가) 들리다, 듣다; (소식·소문을) 전해 듣다
         * 코어 이미지: 귀를 막지 않는 한 공기를 타고 귓속으로 스며드는 자연스러운 소리의 유입
@@ -2421,8 +2431,8 @@
         * 초점: 특정 도구를 착용하거나 부대상황의 정적인 상태를 유지한 채로 동반됨
         > I walked with my phone flash on
     - in the midst of: ~의 한가운데에, 한창 ~하는 중에
-        * 코어 이미지: 거센 파도나 자욱한 연무의 정중앙에 온몸이 둘러싸여 있는 모습 (Immersion in a Swirl)
-        * 초점: '상황의 밀도, 혼란, 격렬함'
+        * 코어 이미지: 거센 파도나 자욱한 연무의 정중앙에 온몸이 둘러싸여 있는 모습
+        * 초점: 상황의 밀도, 혼란, 격렬함
         > In the midst of this, he infiltrates Kel’Thuzad’s moving citadel to save the Forsaken from a Scourge invasion.
     - in the middle of: ~의 (물리적·시간적) 한가운데에, ~의 도중에, ~하는 중간에
         * 코어 이미지: 시작점 $A$와 끝점 $B$를 잇는 1차원 선분이나 시간축의 정중앙($t = 0.5$) 지점에 핀을 꽂아둔 모습
@@ -2843,11 +2853,11 @@
         * 코어 이미지: 스위치를 내려서 기계의 특정 기능이나 센서 작동을 비활성화시킴
         * 초점: 시스템, 기능, 혹은 계정을 일시적 또는 의도적으로 무력화하여 작동 불능 상태로 만듦
         > The administrator disabled the inactive account
-    - break down: 망가지다, 멈추다
+    - break down: (기계·차량·시스템 등이) 고장 나다, 멈추다; (사람의 정신·감정이) 무너지다, 극심한 슬픔으로 울음을 터뜨리다; (협상·관계·체제 등이) 결렬되다, 와해되다, 무너지다
         * 코어 이미지: 자동차 보닛에서 연기가 피어오르며 도로 한가운데에 털썩 멈춰 섬
         * 초점: 복잡한 기계나 자동차 등이 내부 고장으로 인해 완전히 퍼져서 주저앉음
         > My car broke down on the highway
-    - stop working: 망가지다, 멈추다
+    - stop working: (기계·장치 등이) 작동을 멈추다, 안 되다; (사람이) 일을 그만두다, 근무/작업을 멈추다, 은퇴하다
         * 코어 이미지: 화면이 멈추거나 시계바늘이 더 이상 째깍거리지 않고 정지함
         * 초점: 기기나 프로그램이 더 이상 정상 작동하지 않고 멈춘 상태를 나타내는 가장 보편적인 일상 표현
         > The keyboard suddenly stopped working
@@ -3725,7 +3735,7 @@
         * 코어 이미지: 아픈 가족의 침상 곁을 지키며 약을 챙겨주는 직접적인 간호와 보살핌
         * 초점: 스스로 돌보기 힘든 어린이나 환자의 일상과 웰빙을 책임지고 보살핌
         > She stays at home to take care of her sick grandmother
-    - look out for: 경계하며 살피다, 조심하다
+    - look out for: ~을 보살피다, 챙겨주다
         * 코어 이미지: 새로 합류한 후배가 조직에서 소외되거나 손해 보지 않도록 뒤에서 지켜봐 줌
         * 초점: 독립적인 성인이 곤경이나 위험에 빠지지 않도록 뒤에서 든든하게 신경 써줌
         > Thanks for looking out for me when I was new to the research team
@@ -4036,7 +4046,11 @@
         * 코어 이미지: 마지막 한 방울의 체력과 정신력까지 쥐어짜 내어 바닥에 쓰러지기 직전인 모습 (Draining the Last Drop)
         * 초점: 과정의 혹독함과 극심한 체력·정신력 소모
         > Making the impossible possible is inherently grueling.
-
+    - arduous: 몹시 힘든, 고된, 불굴의 노력이 필요한, 험난한
+        * 코어 이미지: 무거운 짐을 등에 진 채, 발을 헛디디면 미끄러지는 가파르고 거친 암벽 언덕길을 끝없이 헐떡이며 한 걸음씩 기어오르는 모습
+        * 초점: 가파른 난도와 지속적인 소모
+        > Maintaining the shape of my own existence without any external stimulation was surprisingly arduous.
+    
 - 고려하다
     - taking into account: ~을 고려하면, ~을 감안할 때
         * 코어 이미지: 장부(Account)나 계산서의 빈칸에 특정 항목을 빠뜨리지 않고 직접 적어 넣는 모습 (Writing an Item into the Ledger)
@@ -4327,7 +4341,10 @@
         * 코어 이미지: 수문(Sluice gate)으로 막혀 있던 거대한 댐이 갑자기 덜컥 열리거나 무너지면서, 가둬져 있던 거대한 수류(Flood)가 본래 물길이 있던 평야나 골짜기(Back)를 향해 굉음을 내며 한꺼번에 쏟아져 들이닥치는 모습
         * 초점: 억눌려 있던 정서와 트라우마의 쇄도
         > Memories of struggling to mingle because of the language barrier and avoiding people out of sensitivity over my slow research progress came flooding back
-
+    - reclaim: (빼앗기거나 잃어버렸던 것을) 되찾다, 환수하다
+        * 코어 이미지: 본래 내 소유였던 땅이나 물건 위에 다른 잡초나 외부인이 침범해 덮여 있는 것을, 당당하게 손을 뻗어 자신의 영역 안으로 힘차게 다시 끌어당겨 오는 모습
+        * 초점: 정당한 권리의 회복과 쓸모의 복원
+        > It is an act of reclaiming the sovereignty of my life from others and restoring it to myself.
 - 하지만
     - However: 그러나, 그렇지만, 하지만
         * 코어 이미지: 잘 닦인 고속도로를 주행하다가 교차로 표지판을 보고 깜빡이를 켜며 부드럽게 다른 차선이나 나들목(IC)으로 경로를 꺾어 들어가는 모습
@@ -4401,9 +4418,14 @@
 
 - 방황
     - drift: (물·공기에 떠서) 서서히 떠내려가다, 표류하다
-        * 코어 이미지: 호수 한가운데 닻을 내리지 않고 띄워둔 조각배가 노를 젓지도 않았는데 잔잔한 미풍과 물결에 밀려, 탑승자가 눈치채지 못하는 사이에 원래 위치에서 몇 미터씩 엉뚱한 방향으로 스르륵 떠내려가 있는 모습
+        * 코어 이미지: 노나 엔진이 없는 작은 나룻배나 낙엽이 잔잔한 강물 위에 얹혀, 물살과 바람이 이끄는 방향대로 아무 저항 없이 둥둥 떠밀려 가는 모습
         * 초점: 무의식적·비의도적 이탈
         > My heart drifts aimlessly through the world.
+        > Last night, I found myself drifting again, not knowing what to do.
+    - wander: (특정 목적지 없이) 거닐다, 헤매다, 배회하다, 방랑하다; (길이나 초점에서) 벗어나다, 빗나가다; (시선·손·마음이) 이리저리 두리번거리다/돌아다니다
+        * 코어 이미지: 한 나그네가 정해진 목적지나 시계 없이, 발길 닿는 대로 호기심을 따라 이 골목 저 골목을 두 발로 뚜벅뚜벅 걸어 다니는 모습
+        * 초점: 목적지 없는 능동적 이동과 궤도 이탈
+        > We spent the sunny afternoon wandering through the narrow streets of the city.
 
 - 대화
     - talk: 말하다, 이야기하다, 담소를 나누다
@@ -4694,3 +4716,89 @@
         * 초점: 무에서 유로의 태동과 자생적 발현
         > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress.
     
+- 청산하다
+    - liquidate: (기업·부채를) 청산하다, 해산하다
+        * 코어 이미지: 단단하게 굳어 있던 고체(건물, 기계, 주식 등 비유동 자산)를 뜨거운 열로 녹여 흘러내리는 액체(Liquid = 현금)로 바꾸어 흘려보내는 모습
+        * 초점: 형태의 근본적 해체와 현금 전환
+        > The trader liquidated her long positions before the central bank announcement
+    - settle accounts: (재정/일상) (대금·잔여 청구액을) 결제하다, 정산하다; (인간관계/비유) (오랜 원한·갈등을) 청산하다, 앙갚음하다, 담판 짓다
+        * 코어 이미지: 서로 주고받은 차변과 대변이 적힌 장부(Ledger)를 펼쳐놓고, 남은 차액을 정확히 지불하여 잔고를 '0'으로 맞추고 덮는 모습
+        * 초점: 미지급 잔액의 상쇄(Reconciliation)와 관계의 균형 회복
+        > Having wandered aimlessly within the tragic entanglement of his past, Spike resolves to bring that lingering drift to an end and settle accounts with his history.
+    
+- 회피
+    - evasion: (의무·책임·추적 등의) 회피, 기피, 모면
+        * 코어 이미지: 정면에서 날아오는 화살이나 주먹을 보고, 몸을 순간적으로 옆으로 비틀거나 웅크려 털끝 차이로 스치듯 빠져나가는 모습
+        * 초점: 의도적이고 교묘한 비껴가기
+        > Watching Spike step off the ship, fully prepared to face death just to bring closure to his story, I came to realize that true parting is not evasion, but confrontation.
+
+- 정면
+    - confrontation: (대립하는 당사자 간의) 정면 대치, 대결, 충돌; (불편한 진실·문제·상대방과의) 대면, 담판, 정면 대응
+        * 코어 이미지: 두 사람이 물러서지 않고 서로의 이마와 시선을 바짝 맞대며, 숨길 것 없이 정면으로 마주 서 있는 모습
+        * 초점: 직접적인 대면(Direct facing)과 불가피한 긴장감(Tension)
+        > Watching Spike step off the ship, fully prepared to face death just to bring closure to his story, I came to realize that true parting is not evasion, but confrontation.
+    - squarely: (위치/방향) 정면으로, 똑바로, 정통으로; (태도/책임) 의심할 여지 없이 분명하게, 온전히, 정정당당하게
+        * 코어 이미지: 정사각형의 네 변과 모서리가 어긋남 없이 수평·수직 기준선에 '딱 90도'로 빈틈없이 맞아떨어지는 모습
+        * 초점: 각도의 어긋남 없는 직격과 책임/초점의 집중
+        > Only by looking the past squarely in the eye and settling its debts can we turn our gaze—long fixed backward—toward where our present and future truly reside.
+
+- 환기하다
+    - refresh: (생기·활력을) 되찾게 하다, 기분 전환을 시키다; (웹페이지·데이터 등을) 새로고침하다, 갱신하다
+        * 코어 이미지: 열기로 후끈 달아오르고 건조해진 얼굴에 시원하고 깨끗한 냉수를 끼얹어, 늘어져 있던 세포들이 한순간에 팽팽하게 긴장하고 깨어나는 모습
+        * 초점: 내부 에너지의 복원과 상태 리셋
+        > A brief walk outside helped refresh her mind after four hours of continuous writing
+    - air things out: (물리적) 환기하다, 바람을 쐬다, 퀴퀴한 냄새를 빼다; (비유적/인간관계) (속에 담아둔 불만이나 묵은 감정을) 솔직히 털어놓고 풀다, 공개적으로 논의하여 응어리를 해소하다
+        * 코어 이미지: 오랫동안 닫혀 있어 곰팡내와 퀴퀴한 냄새가 밴 방의 창문들을 활짝 열어젖혀, 바깥의 신선한 바람이 방 안 구석구석을 훑고 나가도록 만드는 모습
+        * 초점: 은폐된 갈등의 공개적 표출과 정화
+        > After taking a hot shower, I always open the bathroom window to air things out thoroughly
+        > The team held an open retrospective to air things out before starting the next sprint
+
+- 당혹
+    - bewildered: 어리둥절한; 갈피를 잡지 못하는; 몹시 당혹스러운
+        * 코어 이미지: 사방이 빽빽하고 어두운 깊은 야생의 숲속
+        * 초점: 방향 감각과 인과 관계의 완전한 상실
+        > He stood bewildered in the middle of the crowded station, unable to read the foreign signs
+    
+- 지루, 권태
+    - boredom: 지루함, 권태, 따분함
+        * 코어 이미지: 아무런 바람도 불지 않는 뙤약볕 아래의 거대한 사막 한가운데서, 회전하지 않고 멈춰 선 풍차 날개를 보며 제자리에서 모래알만 멍하니 발로 차고 있는 모습
+        * 초점: 의미 있는 자극의 결여와 주의력 투입의 실패
+        > Psychologists suggest that occasional periods of boredom can actually stimulate creative thinking in children
+
+- 기를 죽이다; 협박하다; 겁주다
+    - Intimidate: 위협하다, 협박하다, 겁주다, 기를 죽이다
+        * 코어 이미지: 몸집이 거대한 포식자나 무장한 병사가 상대방의 코앞까지 성큼 다가와 위에서 아래로 서늘하게 내려다보며, 상대방의 가슴속 깊은 곳으로 서늘한 공포의 그림자를 들이붓는 모습
+        * 초점: 심리적 위축과 억압
+        > The defense attorney tried to intimidate the witness during cross-examination
+    
+- 망설임
+    - indecision: 우유부단, 결단력 부족, 망설임, 결정을 내리지 못하는 상태
+        * 코어 이미지: 갈림길 앞에 서서 칼을 쥐고도, 다른 길로 이어지는 끈을 어느 쪽도 싹둑 잘라내지(de-cide) 못한 채 두 갈래 길을 번갈아 쳐다보며 발이 굳어 있는 모습
+        * 초점: 대안의 배제 실패로 인한 인지적 마비
+        > Paralyzed by indecision, I decided to follow the advice: I set a timer for fifteen minutes and sat in complete stillness, doing absolutely nothing.
+    
+- 고요
+    - stillness: 고요, 적막, 정적; 정지 상태, 미동도 하지 않음
+        * 코어 이미지: 새벽녘 바람 한 점 불지 않아 수면이 거울처럼 매끄럽게 굳어 있는 깊은 호수, 혹은 눈이 쏟아져 내린 직후 소리가 모두 흡수되어 숨소리조차 멎은 듯한 순백의 숲
+        * 초점: 외적 부재(움직임/소음 없음)가 빚어내는 역설적인 현존감과 평정
+        > Paralyzed by indecision, I decided to follow the advice: I set a timer for fifteen minutes and sat in complete stillness, doing absolutely nothing.
+
+- 없이
+    - in the absence of: ~이 부재한 상황에서, ~이 없는 상태에서, ~이 결여되어
+        * 코어 이미지: 본래 그 자리를 채우고 있어야 할 기준점이나 통제자(가령 실험실의 기준선, 배의 조타수, 방 안의 불빛)가 통째로 빠져나가 커다란 '빈자리(공백/Void)'가 생겨나 있고, 그 빈틈 속에서 주변 요소들이 영향을 받는 모습
+        * 초점: 조건적 결여(Systemic/contextual lack)와 그로 인한 결과적 상태.
+        > In the absence of clear regulatory guidelines, firms adopted disparate data policies.
+    - without: ~없이, ~하지 않고, ~을 갖지 않은 채
+        * 코어 이미지: 손에 도구를 쥐지 않고 맨손으로 상자를 열거나, 동반자 없이 혼자 길을 걷는 모습
+        * 초점: 단순한 동반·도구·행위의 배제
+        > He managed to assemble the entire bookshelf without any special tools
+
+- 만들다
+    - sculpt: (물리적) 조각하다, 깎아/빚어 만들다; (비유적/추상적) (정책·경력·문체 등을) 정교하고 정성스럽게 다듬고 설계하다
+        * 코어 이미지: 원석이나 거친 진흙 덩어리를 앞에 두고, 불필요한 부분을 끌과 정으로 조금씩 깎아내거나(Subtractive) 손끝의 미세한 압력으로 곡면의 굴곡을 다듬어 정교한 3차원 입체를 완성해 가는 모습
+        * 초점: 정교한 형태미(Three-dimensional contouring)와 점진적인 깎아냄/가공
+        > Could it be that I have never truly sculpted myself through my own inner resonance, but rather formed my identity by echoing external noise?
+    - make: 만들다, 제작하다, 생산하다; (조건·상태를) 초래하다, 되게 만들다
+        * 코어 이미지: 테이블 위에 흩어져 있는 부품이나 재료들을 하나로 모아 뚝딱 완성품의 형태로 엮어내거나, 손을 뻗어 없던 결과물을 물리적·개념적으로 세상에 존재하게 만드는 모습
+        * 초점: 존재하지 않던 결과물의 생성(Raw creation/production)과 상태 변화
+        > She likes to make her own bread from scratch every Sunday

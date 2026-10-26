@@ -14,7 +14,36 @@ import sys
 from typing import List, Dict, Any
 
 # ==============================================================================
-# 1. 📁 DIRECTORY & FILE PATHS (경로 설정)
+# 1. 🎯 LEARNING GOALS & PROGRESS TARGETS (학습 목표 및 진행도 핵심 파라미터)
+# ==============================================================================
+# 🌟 [단어 맞추기 목표] 100% 진행도 달성 기준 단어 수 (기본값: 20)
+# 사용자가 UI에서 수정하지 않고, 이 파라미터로 진행도 목표를 결정합니다.
+# (예: 20으로 설정하면 20문제를 풀었을 때 진행도 100% 달성)
+QUIZ_GOAL_TARGET: int = int(os.environ.get("QUIZ_GOAL_TARGET", 20))
+DEFAULT_QUIZ_GOAL_TARGET: int = QUIZ_GOAL_TARGET  # 하위 호환 별칭
+
+# 🌟 [일기 영작 목표] 100% 진행도 달성 기준 영작 대조 횟수 (기본값: 5)
+# 사용자가 UI에서 수정하지 않고, 이 파라미터로 진행도 목표를 결정합니다.
+# (예: 5로 설정하면 5회 영작 대조 완료 시 진행도 100% 달성)
+DIARY_GOAL_TARGET: int = int(os.environ.get("DIARY_GOAL_TARGET", 5))
+
+# 4지 선다 보기 개수
+MULTIPLE_CHOICE_OPTIONS_COUNT: int = 4
+
+# 게이미피케이션 경험치 및 보상 파라미터
+XP_PER_CORRECT_ANSWER: int = 10
+STREAK_BONUS_MULTIPLIER: int = 2
+MAX_STREAK_BONUS_XP: int = 20
+
+# 단어 숙련도 레벨 정의
+MASTERY_LEVELS: Dict[int, str] = {
+    1: "Hard (복습 필요)",
+    2: "Good (학습 중)",
+    3: "Easy (완전 숙련)"
+}
+
+# ==============================================================================
+# 2. 📁 DIRECTORY & FILE PATHS (경로 설정)
 # ==============================================================================
 # 애플리케이션 루트 및 어휘 앱 디렉터리
 VOCAB_DIR: str = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +64,7 @@ DEFAULT_DIARY_CSV_PATH: str = os.environ.get(
 )
 
 # ==============================================================================
-# 2. 🌐 SERVER & NETWORK PARAMETERS (서버 및 네트워크 파라미터)
+# 3. 🌐 SERVER & NETWORK PARAMETERS (서버 및 네트워크 파라미터)
 # ==============================================================================
 # 웹 서버 포트 (CLI 인자 sys.argv[1] > 환경 변수 VOCAB_PORT > 기본값 3000)
 DEFAULT_PORT: int = 3000
@@ -46,7 +75,7 @@ SERVER_HOST: str = os.environ.get("VOCAB_HOST", "0.0.0.0")
 AUTO_OPEN_BROWSER: bool = os.environ.get("VOCAB_AUTO_OPEN", "true").lower() in ("true", "1", "yes")
 
 # ==============================================================================
-# 3. 🤖 LOCAL GEMMA AI & ON-DEVICE INFERENCE (로컬 Gemma AI 설정)
+# 4. 🤖 LOCAL GEMMA AI & ON-DEVICE INFERENCE (로컬 Gemma AI 설정)
 # ==============================================================================
 # 1순위: Edge Gallery 온디바이스 LiteRT 엔진 (Apple Metal GPU 가속)
 LITERT_MODEL_SEARCH_PATTERNS: List[str] = [
@@ -76,35 +105,6 @@ AI_COACH_PROMPT_TEMPLATE: str = """당신은 영작 첨삭 코치입니다.
 1. 💡 기존 영문과의 뉘앙스 차이 (사용자 문장과 기존 영문의 핵심 어감/표현 차이)
 2. 🚀 영어 실력 향상을 위한 조언 (더 자연스러운 영작을 위한 1~2가지 핵심 실전 팁)
 """
-
-# ==============================================================================
-# 4. 🎯 QUIZ & VOCABULARY LEARNING PARAMETERS (단어 맞추기 및 학습 파라미터)
-# ==============================================================================
-# 🌟 [핵심 파라미터] 단어 맞추기 완료 진행도 기준 단어 수 (100% 진행도 달성 기준)
-# 사용자가 UI에서 임의로 수정하지 않고, 관리자가 이 파라미터를 통해 진행도 목표를 결정합니다.
-# (예: 20으로 설정하면 20문제를 풀었을 때 100% 달성)
-QUIZ_GOAL_TARGET: int = int(os.environ.get("QUIZ_GOAL_TARGET", 20))
-DEFAULT_QUIZ_GOAL_TARGET: int = QUIZ_GOAL_TARGET  # 하위 호환 별칭
-
-# 🌟 [핵심 파라미터] 일기 영작 번역 완료 진행도 기준 목표 횟수 (100% 진행도 달성 기준)
-# 사용자가 UI에서 임의로 수정하지 않고, 관리자가 이 파라미터를 통해 진행도 목표를 결정합니다.
-# (예: 5로 설정하면 5회 영작 대조 완료 시 100% 달성)
-DIARY_GOAL_TARGET: int = int(os.environ.get("DIARY_GOAL_TARGET", 5))
-
-# 4지 선다 보기 개수
-MULTIPLE_CHOICE_OPTIONS_COUNT: int = 4
-
-# 게이미피케이션 경험치 및 보상 파라미터
-XP_PER_CORRECT_ANSWER: int = 10
-STREAK_BONUS_MULTIPLIER: int = 2
-MAX_STREAK_BONUS_XP: int = 20
-
-# 단어 숙련도 레벨 정의
-MASTERY_LEVELS: Dict[int, str] = {
-    1: "Hard (복습 필요)",
-    2: "Good (학습 중)",
-    3: "Easy (완전 숙련)"
-}
 
 # ==============================================================================
 # 5. 📔 DIARY CSV PARSING PARAMETERS (일기 파싱 파라미터)

@@ -1526,10 +1526,6 @@
             * 코어 이미지: 욕조에서 일어서서 물기를 털며 바닥 매트 위로 발을 내딛는 순간
             * 초점: 욕조 안에 머물던 상태를 끝마치고 물 밖으로 걸어 나오는 동작
             > I hate when my clothes stick uncomfortably to my damp skin when I get out of the bath
-        - air things out: (자연 바람으로) 환기하다, 바람을 쐬다
-            * 코어 이미지: 눅눅해진 방의 창문을 활짝 열고 신선한 바깥바람이 들어와 습기를 날려 보내는 상쾌함
-            * 초점: 밀폐되거나 습기 찬 공간/물건에 자연 바람을 통하게 하여 냄새와 습기를 제거함
-            > After taking a hot shower, I always open the bathroom window to air things out thoroughly
         - air dry: (기계 없이) 자연 바람으로 말리다
             * 코어 이미지: 헤어드라이어나 수건을 쓰지 않고 시원한 선풍기 바람이나 자연풍에 몸과 머리를 말림
             * 초점: 인위적인 열기구를 쓰지 않고 공기 순환을 통해 자연스럽게 건조함
