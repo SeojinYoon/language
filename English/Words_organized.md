@@ -311,7 +311,7 @@
         * 코어 이미지: 영화, 드라마, 게임 등 영상 매체에 삽입된 모든 음악 및 소리 트랙의 집합
         * 초점: 작품에 사용된 배경음악(BGM), 삽입곡 등을 포괄적으로 담아낸 음원 기록물
         > The movie's soundtrack captures the melancholic atmosphere of the city
-    - OST (Original SoundTrack): 오리지널 사운드트랙
+    - OST: 오리지널 사운드트랙 (Original SoundTrack)
         * 코어 이미지: 해당 작품만을 위해 스튜디오에서 독창적으로 작곡·녹음된 오리지널 음반
         * 초점: 기존 발매곡 삽입이 아닌 작품을 위해 새로 맞춤 제작된 독창적인 사운드트랙
         > The drama became famous largely due to its iconic OST

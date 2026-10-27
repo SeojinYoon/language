@@ -11,6 +11,8 @@ import urllib.error
 import glob
 import threading
 import time
+import subprocess
+import shutil
 
 # ==============================================================================
 # ⚙️ CORE CONFIGURATION & PARAMETERS (핵심 파라미터 연동: config.py)
@@ -22,11 +24,17 @@ try:
     LOCAL_GEMMA_URL = config.LOCAL_GEMMA_URL
     LOCAL_GEMMA_MODEL = config.LOCAL_GEMMA_MODEL
     DEFAULT_PORT = config.DEFAULT_PORT
+    USE_LITERT = getattr(config, 'USE_LITERT', False)
+    AUTO_START_OLLAMA = getattr(config, 'AUTO_START_OLLAMA', True)
+    AUTO_STOP_OLLAMA_ON_EXIT = getattr(config, 'AUTO_STOP_OLLAMA_ON_EXIT', False)
 except ImportError:
     DEFAULT_DIARY_CSV_PATH = "/Users/seojin/mind.csv"
     LOCAL_GEMMA_URL = os.environ.get("LOCAL_GEMMA_URL", "http://localhost:11434/api/generate")
     LOCAL_GEMMA_MODEL = os.environ.get("LOCAL_GEMMA_MODEL", "gemma2:2b")
     DEFAULT_PORT = 3000
+    USE_LITERT = False
+    AUTO_START_OLLAMA = True
+    AUTO_STOP_OLLAMA_ON_EXIT = False
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_PORT
 
@@ -92,25 +100,32 @@ def sync_local_diary_cache():
 
 _LITERT_ENGINE = None
 _LITERT_LOCK = threading.Lock()
+_LITERT_FAILED = False
+_OLLAMA_PROCESS = None
 
 def find_edge_gallery_gemma_model():
-    patterns = [
+    if not USE_LITERT:
+        return None
+    patterns = getattr(config, 'LITERT_MODEL_SEARCH_PATTERNS', [
         os.path.expanduser("~/Library/Containers/*/Data/Documents/Gemma_4_E2B_it/v0/*.litertlm"),
         os.path.expanduser("~/Library/Containers/F45A43A5-0F15-4C50-9D8A-998CB9F1B7CE/Data/Documents/Gemma_4_E2B_it/v0/gemma4_2b_v09_obfus_fix_all_modalities_thinking.litertlm")
-    ]
+    ])
     for p in patterns:
         matches = glob.glob(p)
-        if matches and os.path.exists(matches[0]):
-            return matches[0]
+        for m in matches:
+            if os.path.isfile(m):
+                return m
     return None
 
 def get_litert_engine():
-    global _LITERT_ENGINE
+    global _LITERT_ENGINE, _LITERT_FAILED
+    if not USE_LITERT or _LITERT_FAILED:
+        return None
     if _LITERT_ENGINE is not None:
         return _LITERT_ENGINE
 
     with _LITERT_LOCK:
-        if _LITERT_ENGINE is not None:
+        if not USE_LITERT or _LITERT_FAILED or _LITERT_ENGINE is not None:
             return _LITERT_ENGINE
 
         model_path = find_edge_gallery_gemma_model()
@@ -119,20 +134,132 @@ def get_litert_engine():
 
         try:
             import litert_lm
-            print(f"🚀 Loading Gemma-4-E2B-it from Edge Gallery with Apple Metal GPU acceleration...")
+            try:
+                litert_lm.set_min_log_severity(litert_lm.LogSeverity.ERROR)
+            except Exception:
+                pass
+            print(f"🚀 Edge Gallery Gemma-4-E2B-it 온디바이스 모델 로딩 중 (Apple Metal GPU)...")
             _LITERT_ENGINE = litert_lm.Engine(model_path, backend=litert_lm.Backend.GPU())
-            print(f"✨ Gemma-4-E2B-it Engine successfully initialized on M3 Pro GPU!")
+            print(f"✨ Gemma-4-E2B-it 온디바이스 엔진 초기화 성공 (Apple Metal GPU 가속)!")
             return _LITERT_ENGINE
         except Exception as e:
-            print(f"⚠️ LiteRT GPU load error: {e}")
+            print(f"⚠️ LiteRT GPU 로드 오류: {e}")
             try:
                 import litert_lm
                 _LITERT_ENGINE = litert_lm.Engine(model_path, backend=litert_lm.Backend.CPU())
-                print(f"✨ Gemma-4-E2B-it Engine loaded with CPU fallback.")
+                print(f"✨ Gemma-4-E2B-it CPU fallback 로드 성공.")
                 return _LITERT_ENGINE
             except Exception as e2:
-                print(f"⚠️ LiteRT CPU fallback failed: {e2}")
+                print(f"⚠️ LiteRT CPU fallback 실패: {e2}")
+                _LITERT_FAILED = True
                 return None
+
+def check_ollama_status(base_url=None):
+    """Ollama 서버 구동 여부 및 사용 가능한 모델 목록을 확인합니다."""
+    if base_url is None:
+        base_url = LOCAL_GEMMA_URL.rsplit('/', 2)[0] if '/api/' in LOCAL_GEMMA_URL else "http://localhost:11434"
+    try:
+        req = urllib.request.Request(f"{base_url}/api/tags", headers={"User-Agent": "VocabMaster"})
+        with urllib.request.urlopen(req, timeout=1.5) as resp:
+            if resp.status == 200:
+                data = json.loads(resp.read().decode('utf-8'))
+                models = [m.get("name", "") for m in data.get("models", [])]
+                return True, models
+    except Exception:
+        pass
+    return False, []
+
+def find_ollama_binary():
+    """시스템 내 Ollama 실행 파일 경로를 탐색합니다."""
+    cmd = shutil.which("ollama")
+    if cmd and os.path.isfile(cmd) and os.access(cmd, os.X_OK):
+        return cmd
+    candidates = [
+        "/usr/local/bin/ollama",
+        "/opt/homebrew/bin/ollama",
+        os.path.expanduser("~/.local/bin/ollama"),
+        os.path.expanduser("~/bin/ollama"),
+        "/Applications/Ollama.app/Contents/Resources/ollama"
+    ]
+    for c in candidates:
+        if os.path.isfile(c) and os.access(c, os.X_OK):
+            return c
+    return None
+
+def auto_start_ollama_backend():
+    """Ollama AI 서버가 실행되어 있지 않으면 백그라운드에서 자동으로 시작합니다."""
+    global _OLLAMA_PROCESS
+    base_url = LOCAL_GEMMA_URL.rsplit('/', 2)[0] if '/api/' in LOCAL_GEMMA_URL else "http://localhost:11434"
+
+    is_running, models = check_ollama_status(base_url)
+    if is_running:
+        print(f"🦙 Ollama AI 백엔드가 이미 실행 중입니다 ({base_url}).")
+        _check_model_availability(models)
+        return True
+
+    print("🤖 로컬 AI 백엔드(Ollama)가 꺼져 있습니다. 백그라운드 자동 구동을 시작합니다...")
+    ollama_bin = find_ollama_binary()
+    started = False
+
+    if ollama_bin:
+        try:
+            print(f"🚀 Ollama 데몬 백그라운드 시작 중: {ollama_bin} serve")
+            _OLLAMA_PROCESS = subprocess.Popen(
+                [ollama_bin, "serve"],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                start_new_session=True
+            )
+            started = True
+        except Exception as e:
+            print(f"⚠️ Ollama 바이너리 실행 오류: {e}")
+
+    if not started and sys.platform == "darwin" and os.path.exists("/Applications/Ollama.app"):
+        try:
+            print("🚀 macOS Ollama.app을 백그라운드로 실행합니다...")
+            subprocess.Popen(["open", "-a", "Ollama", "--background"])
+            started = True
+        except Exception as e:
+            print(f"⚠️ Ollama.app 실행 오류: {e}")
+
+    if not started:
+        print("⚠️ Ollama 실행 파일을 찾을 수 없습니다. (공식 사이트: https://ollama.com)")
+        return False
+
+    # 최대 8초간 준비 대기 (0.5초 간격 폴링)
+    for _ in range(16):
+        time.sleep(0.5)
+        is_running, models = check_ollama_status(base_url)
+        if is_running:
+            print(f"✨ Ollama AI 서비스 자동 실행 및 연결 성공! ({base_url})")
+            _check_model_availability(models)
+            return True
+
+    print("⏳ Ollama 서비스가 시작 중입니다. 잠시 후 연결됩니다.")
+    return False
+
+def _check_model_availability(models):
+    target = LOCAL_GEMMA_MODEL.lower()
+    has_target = any(target in m.lower() for m in models)
+    if not has_target and models:
+        print(f"ℹ️ 현재 Ollama 설치 모델 목록: {', '.join(models)}")
+        print(f"💡 권장 모델('{LOCAL_GEMMA_MODEL}') 설치 명령어: 터미널에서 'ollama pull {LOCAL_GEMMA_MODEL}'")
+    elif not models:
+        print(f"💡 모델이 설치되어 있지 않을 경우: 터미널에서 'ollama pull {LOCAL_GEMMA_MODEL}' 실행")
+
+def ensure_ai_backend():
+    """서버 구동 시 필요한 로컬 AI 백엔드를 점검하고 자동 시작합니다."""
+    # 1. Edge Gallery 온디바이스 LiteRT 모델 확인 및 사전 로드
+    model_path = find_edge_gallery_gemma_model()
+    if model_path:
+        print(f"✨ Edge Gallery 온디바이스 모델 감지: {os.path.basename(model_path)}")
+        eng = get_litert_engine()
+        if eng is not None:
+            return
+
+    # 2. Ollama 백엔드 자동 시작 (설정 시)
+    if AUTO_START_OLLAMA:
+        threading.Thread(target=auto_start_ollama_backend, daemon=True).start()
 
 def query_local_gemma(korean, user_trans, ref_trans):
     prompt = f"""당신은 영작 첨삭 코치입니다.
@@ -432,33 +559,48 @@ class VocabRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Expires', '0')
         super().end_headers()
 
-socketserver.TCPServer.allow_reuse_address = True
+if __name__ == '__main__':
+    socketserver.TCPServer.allow_reuse_address = True
 
-try:
-    import build_data
-    build_data.build(PROJECT_ROOT, os.path.join(VOCAB_DIR, "data.js"))
-except Exception as e:
-    print(f"⚠️ Could not auto-build data.js: {e}")
+    try:
+        import build_data
+        build_data.build(PROJECT_ROOT, os.path.join(VOCAB_DIR, "data.js"))
+    except Exception as e:
+        print(f"⚠️ Could not auto-build data.js: {e}")
 
-try:
-    sync_local_diary_cache()
-except Exception as e:
-    print(f"⚠️ Could not sync local diary cache: {e}")
+    try:
+        sync_local_diary_cache()
+    except Exception as e:
+        print(f"⚠️ Could not sync local diary cache: {e}")
 
-try:
-    with socketserver.TCPServer(("", PORT), VocabRequestHandler) as httpd:
-        url = f"http://localhost:{PORT}/index.html?t={int(time.time())}"
-        print("=" * 60)
-        print(f"🚀 VocabMaster server is running at http://localhost:{PORT}")
-        print("📖 Live Markdown Sync: English/dissimilarities.md & Words_organized.md")
-        print("⚡ Cache-busting enabled: Code edits reflect immediately!")
-        print("Press Ctrl+C to stop the server.")
-        print("=" * 60)
-        try:
-            webbrowser.open(url)
-        except Exception:
-            pass
-        httpd.serve_forever()
-except KeyboardInterrupt:
-    print("\nServer stopped.")
+    try:
+        ensure_ai_backend()
+    except Exception as e:
+        print(f"⚠️ Could not initialize AI backend: {e}")
+
+    try:
+        with socketserver.TCPServer(("", PORT), VocabRequestHandler) as httpd:
+            url = f"http://localhost:{PORT}/index.html?t={int(time.time())}"
+            print("=" * 60)
+            print(f"🚀 VocabMaster server is running at http://localhost:{PORT}")
+            print("📖 Live Markdown Sync: English/dissimilarities.md & Words_organized.md")
+            print("⚡ Cache-busting enabled: Code edits reflect immediately!")
+            print("Press Ctrl+C to stop the server.")
+            print("=" * 60)
+            try:
+                webbrowser.open(url)
+            except Exception:
+                pass
+            httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\nServer stopped.")
+        if AUTO_STOP_OLLAMA_ON_EXIT and _OLLAMA_PROCESS is not None:
+            try:
+                print("🛑 Ollama 백그라운드 프로세스를 정리합니다...")
+                _OLLAMA_PROCESS.terminate()
+                _OLLAMA_PROCESS.wait(timeout=2)
+            except Exception:
+                pass
+        elif _OLLAMA_PROCESS is not None:
+            print("🦙 Ollama 백그라운드 서버는 계속 유지됩니다. (수동 종료: killall ollama)")
 

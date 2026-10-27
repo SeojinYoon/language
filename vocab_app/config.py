@@ -78,10 +78,14 @@ AUTO_OPEN_BROWSER: bool = os.environ.get("VOCAB_AUTO_OPEN", "true").lower() in (
 # 4. 🤖 LOCAL GEMMA AI & ON-DEVICE INFERENCE (로컬 Gemma AI 설정)
 # ==============================================================================
 # 1순위: Edge Gallery 온디바이스 LiteRT 엔진 (Apple Metal GPU 가속)
+USE_LITERT: bool = os.environ.get("VOCAB_USE_LITERT", "true").lower() in ("true", "1", "yes")
 LITERT_MODEL_SEARCH_PATTERNS: List[str] = [
+    os.path.join(PROJECT_ROOT, "models", "gemma-4-e2b.litertlm"),
+    os.path.expanduser("~/language/models/gemma-4-e2b.litertlm"),
     os.path.expanduser("~/Library/Containers/*/Data/Documents/Gemma_4_E2B_it/v0/*.litertlm"),
     os.path.expanduser("~/Library/Containers/F45A43A5-0F15-4C50-9D8A-998CB9F1B7CE/Data/Documents/Gemma_4_E2B_it/v0/gemma4_2b_v09_obfus_fix_all_modalities_thinking.litertlm")
 ]
+
 
 # 온디바이스 LiteRT 추론 세부 파라미터
 AI_MAX_OUTPUT_TOKENS: int = 900
@@ -92,6 +96,12 @@ AI_THINKING_TOKEN_BUDGET: int = 0
 LOCAL_GEMMA_URL: str = os.environ.get("LOCAL_GEMMA_URL", "http://localhost:11434/api/generate")
 LOCAL_GEMMA_MODEL: str = os.environ.get("LOCAL_GEMMA_MODEL", "gemma2:2b")
 OLLAMA_TIMEOUT_SECONDS: int = 40
+
+# 🚀 AI 백엔드 자동 시작 설정
+# server.py 실행 시 Ollama 프로세스가 꺼져 있으면 백그라운드에서 자동으로 실행합니다. (LiteRT 우선 시 기본값: False)
+AUTO_START_OLLAMA: bool = os.environ.get("VOCAB_AUTO_START_OLLAMA", "false").lower() in ("true", "1", "yes")
+# server.py 종료 시 자동으로 시작했던 Ollama도 함께 종료할지 여부 (기본값: False - 백그라운드 유지)
+AUTO_STOP_OLLAMA_ON_EXIT: bool = os.environ.get("VOCAB_AUTO_STOP_OLLAMA", "false").lower() in ("true", "1", "yes")
 
 # AI 영작 첨삭 시스템 프롬프트 템플릿
 AI_COACH_PROMPT_TEMPLATE: str = """당신은 영작 첨삭 코치입니다.
@@ -135,11 +145,12 @@ def get_config_summary() -> Dict[str, Any]:
     """현재 설정 상태를 딕셔너리로 반환합니다."""
     import glob
     found_model = None
-    for p in LITERT_MODEL_SEARCH_PATTERNS:
-        matches = glob.glob(p)
-        if matches and os.path.exists(matches[0]):
-            found_model = matches[0]
-            break
+    if USE_LITERT:
+        for p in LITERT_MODEL_SEARCH_PATTERNS:
+            matches = glob.glob(p)
+            if matches and os.path.exists(matches[0]):
+                found_model = matches[0]
+                break
 
     csv_path = os.path.expanduser(DEFAULT_DIARY_CSV_PATH)
 
@@ -158,10 +169,13 @@ def get_config_summary() -> Dict[str, Any]:
             "local_diary_js_exists": os.path.exists(LOCAL_DIARY_JS_PATH)
         },
         "ai_model": {
-            "litert_ondevice_model": found_model or "Not Found (Edge Gallery 확인 필요)",
+            "litert_enabled": USE_LITERT,
+            "litert_ondevice_model": (found_model or "Not Found") if USE_LITERT else "비활성화 (Ollama 백엔드 기본 사용)",
             "ollama_url": LOCAL_GEMMA_URL,
             "ollama_model": LOCAL_GEMMA_MODEL,
-            "max_output_tokens": AI_MAX_OUTPUT_TOKENS
+            "max_output_tokens": AI_MAX_OUTPUT_TOKENS,
+            "auto_start_ollama": AUTO_START_OLLAMA,
+            "auto_stop_ollama_on_exit": AUTO_STOP_OLLAMA_ON_EXIT
         },
         "quiz_parameters": {
             "quiz_goal_target": QUIZ_GOAL_TARGET,
@@ -183,7 +197,7 @@ def print_config():
     print(f"📔 Diary CSV Path      : {summary['paths']['diary_csv_path']}")
     print(f"   └ File Exists?      : {'✅ YES' if summary['paths']['diary_csv_exists'] else '❌ NOT FOUND'}")
     print(f"🤖 On-Device AI Model  : {summary['ai_model']['litert_ondevice_model']}")
-    print(f"🦙 Ollama Fallback     : {summary['ai_model']['ollama_url']} ({summary['ai_model']['ollama_model']})")
+    print(f"🦙 Ollama Fallback     : {summary['ai_model']['ollama_url']} ({summary['ai_model']['ollama_model']}) [Auto-Start: {'ON' if summary['ai_model']['auto_start_ollama'] else 'OFF'}]")
     print(f"🎯 Quiz Goal Target    : {summary['quiz_parameters']['quiz_goal_target']} 단어 (100% 진행도 완료 기준 파라미터)")
     print(f"📔 Diary Goal Target   : {summary['diary_parameters']['diary_goal_target']}회 번역 (100% 진행도 완료 기준 파라미터)")
     print(f"⭐ Base XP Per Word    : +{summary['quiz_parameters']['xp_per_correct']} XP")

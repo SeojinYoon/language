@@ -550,3 +550,7 @@
     * 코어 이미지: 파이프라인이나 긴 복도(Through A: 매개 통로)를 지나가는 관통의 흐름을 가로막고, 작동 스위치를 직접 누르거나 손으로 레버를 당기는 동작(By ~: 능동적 행위자/직접 메커니즘)에 초점을 맞추는 모습
     * 초점: 매개적 경로(Passage/Medium)의 기각과 실질적 작용 기제(Operational Agency)의 확립
     > True mastery is acquired not through passive exposure, but by actively retrieving and applying concepts.
+- hollow out: (물리적) 속을 파내다, 텅 비게 만들다; (조직·경제·제도 등을) 공동화(空洞化)하다, 껍데기만 남기다, 본질적인 핵심을 잠식하다
+    * 코어 이미지: 겉보기에는 튼튼한 나무 둥치나 호박이지만, 조각칼이나 흰개미가 안쪽의 속살과 심재를 모조리 파먹어 얇은 껍질만 위태롭게 서 있는 모습
+    * 초점: 외형과 내부 실질의 괴리
+    > Decades of outsourcing production lines gradually hollowed out the nation's domestic manufacturing base

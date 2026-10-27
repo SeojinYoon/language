@@ -519,7 +519,7 @@
         * 초점: 특정 소유주에게 귀속된 구체적인 개별 부동산 매물, 자산, 혹은 건물 그 자체
         > This property is located near Campus Biotech
 
-- 지속
+- 지속, 계속해서
     - constantly: 끊임없이, 지속적으로
         * 코어 이미지: 쉬지 않고 주기적으로 울리는 알람처럼 잦은 빈도로 되풀이되는 상태
         * 초점: 어떤 행동이나 현상이 예외 없이 아주 자주, 지속적으로 반복되는 빈도(Frequency)에 초점
@@ -540,6 +540,10 @@
         * 코어 이미지: 비바람이 몰아쳐도 꺾이지 않고 끝까지 뿌리를 내리는 끈질긴 생명력
         * 초점: 장애물이나 실패에도 굴하지 않고 끈기 있게 끝까지 물고 늘어지는 집념과 의지
         > His persistence in debugging finally solved the problem
+    - on and one: 끊임없이, 계속해서, 끝도 없이, 지루할 정도로 길게
+        * 코어 이미지: 앞으로 나아가는 발걸음(on) 뒤에 또다시 쉼표 없이 다음 발걸음(and on)이 이어지며, 지평선 너머까지 끝없이 뻗어 있는 길 위를 계속 걸어가는 모습
+        * 초점: 단절 없는 지속(Uninterrupted continuity)과 과도한 길이로 인한 피로감
+        > The speaker went on and on about procedural details, losing the attention of the audience
 
 - 습관
     - used to: ~하곤 했다 (과거의 규칙적 습관)
@@ -1205,7 +1209,7 @@
         * 코어 이미지: 거대한 석조 건축물이 튼튼한 주춧돌 위에 웅장하게 서 있는 모습
         * 초점: 이론, 가설, 논거가 특정 원리나 기초 위에 단단히 세워져 있음 (격식체)
         > His argument rests on the principle of a safety margin
-    - turn to: 의존
+    - turn to: (도움·조언·위안을 구하러) ~에 의지하다, ~에게 손을 내밀다, ~를
         * 코어 이미지: 어두운 방에서 도움을 청하기 위해 문 쪽으로 고개를 돌리는 시선
         * 초점: 어려움에 처했을 때 조언이나 지원을 얻기 위해 특정 대상을 향함
         > When I have a hard time, I turn to your advice
@@ -4479,7 +4483,7 @@
         * 초점: 범위와 수량의 엄격한 한정, 완곡화 장치
         > If you are unsure about the boundary conditions, just ask the lab technician
 
-- 결핍, 무의미
+- 결핍, 무의미, 헛된
     - meaningless: 무의미한, 뜻이 통하지 않는, 중요성이 없는
         * 코어 이미지: 문법 규칙이나 신호 규약이 없는 기호들이 종이 위에 무작위로 나열되어, 해독기(Decoder)를 돌려도 아무런 정보나 의도를 읽어낼 수 없는 백색 소음(Noise)의 모습
         * 초점: 정보 신호의 부재
@@ -4496,6 +4500,10 @@
         * 코어 이미지: 거센 급류에 휩쓸려 떠내려가며 양손을 허우적거리지만, 잡을 나뭇가지도 없고 헤엄칠 근력도 고갈되어 외부의 구명 밧줄 없이는 자력으로 헤쳐 나올 수 없는 조난자의 모습
         * 초점: 주체적 제어력과 자생력의 박탈, 외력 앞에서의 완전한 노출
         > The research team stood helpless as the sudden power outage abruptly terminated the overnight simulation.
+    - in vain: 헛되이, 보람 없이, 허사로
+        * 코어 이미지: 밑 빠진 독에 쉬지 않고 물을 길어 붓거나, 손아귀에 모래를 가득 쥐고 꽉 움켜쥐었으나 손가락 틈새로 모래알이 전부 빠져나가 결국 빈손만 멍하니 남은 모습
+        * 초점: 투입된 노력과 최종 결과물 사이의 완전한 불일치
+        > Honestly, rather than feeling like I was making progress, I constantly worried: What if I am falling behind? What if the time I spend here in Switzerland is all in vain?
 
 - 가다
     - go to: (물리적 장소나 대상에게) 가다, 향하다
@@ -4802,3 +4810,40 @@
         * 코어 이미지: 테이블 위에 흩어져 있는 부품이나 재료들을 하나로 모아 뚝딱 완성품의 형태로 엮어내거나, 손을 뻗어 없던 결과물을 물리적·개념적으로 세상에 존재하게 만드는 모습
         * 초점: 존재하지 않던 결과물의 생성(Raw creation/production)과 상태 변화
         > She likes to make her own bread from scratch every Sunday
+
+- 뒤처지다
+    - fall behind: (선두나 동행 집단보다) 뒤처지다, 뒤떨어지다; (일정이나 목표치에) 미치지 못하다, 늦어지다
+        * 코어 이미지: 일정한 속도로 함께 앞으로 나아가던 행렬(대오)에서 다리에 힘이 빠지거나 걸음이 늦어져, 앞서가는 사람들의 등 뒤로 점점 거리가 벌어지며 뒤쪽으로 떨어져 나가는 모습
+        * 초점: 상대적 속도 차이로 인한 격차 발생(Widening gap)과 누적된 지연
+        > Honestly, rather than feeling like I was making progress, I constantly worried: What if I am falling behind? What if the time I spend here in Switzerland is all in vain?
+
+- 힘든
+    - hard: (과업/난도) 어려운, 힘든
+        * 코어 이미지: 망치로 내려쳐도 표면에 흠집조차 나지 않고 단단하게 굳어 있는 돌이나 다이아몬드의 표면
+        * 초점: 외적 저항력(Rigidity)과 높은 난도(Difficulty)
+        > Analyzing this non-linear dataset without prior assumptions proved to be a hard problem
+    - tough: (상황/결정) 힘겨운, 험난한, 곤란한
+        * 코어 이미지: 쉽게 잘리거나 부러지지 않고, 강한 힘으로 비틀고 당겨도 끊어지지 않은 채 버텨내는 질긴 가죽이나 두꺼운 밧줄
+        * 초점: 인내력·탄성(Durability & Endurance)과 까다로운 스트레스
+        > Every time I went through those tough moments, on the one hand, I comforted myself by thinking this would be the final attempt; on the other hand, I fought the problem as if burning my bridges behind me.
+    
+- 시도
+    - trial: (성능·효과·적합성을 검증하기 위한) 시험, 시도, 임상 시험, 테스트 (clinical trials, trial run)
+        * 코어 이미지: 정밀한 저울이나 계측기 위에 올려놓고, 가설대로 작동하는지 오차와 결함을 기록하며 엄밀하게 저울질하는 모습
+        * 초점: 체계적 검증과 데이터/평가의 축적
+        > Users can download the full version of the software on a 30-day free trial
+    - attempt: (어려운 일을 해내려는) 시도, 시도하다, 애쓰다
+        * 코어 이미지: 높은 장벽이나 과녁을 향해 전력을 다해 몸을 던지거나 화살을 쏘아 올리는 순간의 도약
+        * 초점: 실행 의지(Agency/Effort)와 결과의 불확실성/실패 가능성
+        > Every time I went through those tough moments, on the one hand, I comforted myself by thinking this would be the final attempt; on the other hand, I fought the problem as if burning my bridges behind me.
+
+- 쓰다
+    - spend: (돈·비용을) 쓰다, 지출하다; (시간·에너지·노력을) 들이다, 보내다, 소진하다
+        * 코어 이미지: 주머니나 금고에서 동전이나 모래알을 손으로 집어 다른 사람의 손이나 목적지로 건네주는 모습
+        * 초점: 목적 지향적 배분(Purposeful allocation)과 유한한 자원의 소진
+        > She prefers to spend her mornings reviewing mathematical derivations before lab meetings begin
+    - consume: (음식·자원·연료를) 섭취하다, 소비하다, 완전히 써버리다; (시장/경제에서) 상품이나 서비스를 소비하다
+        * 코어 이미지: 불길이 장작을 집어삼키며 흔적도 없이 태워 없애거나, 유기체가 외부 물질을 삼켜 체내에서 완전히 분해·흡수해 버리는 모습
+        * 초점: 완전한 흡수 및 소멸
+        > I no longer want to consume myself just to fix a problem. 
+    -

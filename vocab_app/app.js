@@ -58,9 +58,9 @@
     reviewCompletedCount: 0,
     savedQuizState: null,
 
-    // Diary Translation Goal State (일기 영작 목표 및 진행도 - config.py 파라미터 기반)
+    // Diary Translation Goal State (일기 영작 목표 및 진행도 - 세션마다 0%에서 시작)
     diaryGoalTarget: (window.APP_CONFIG && (window.APP_CONFIG.diaryGoalTarget || window.APP_CONFIG.defaultDiaryGoal)) || 5,
-    diarySessionCompleted: parseInt(localStorage.getItem('vm_diary_session_completed'), 10) || 0,
+    diarySessionCompleted: 0,
 
     // Diary Translation State
     diaryEntries: [],
@@ -545,7 +545,7 @@
 
   function resetDiarySessionProgress() {
     state.diarySessionCompleted = 0;
-    localStorage.setItem('vm_diary_session_completed', 0);
+    localStorage.removeItem('vm_diary_session_completed');
     updateDiarySessionProgress();
     showToast('일기 영작 진행도가 0%로 초기화되었습니다.', 'info');
   }
@@ -2320,7 +2320,6 @@
     // Update Diary Session Goal Progress
     const prevCompleted = state.diarySessionCompleted;
     state.diarySessionCompleted += 1;
-    localStorage.setItem('vm_diary_session_completed', state.diarySessionCompleted);
     updateDiarySessionProgress();
 
     // Celebratory Fanfare & Confetti when 100% goal is reached
@@ -2998,10 +2997,12 @@
 
   // Application Entry Point
   async function initApp() {
-    // 앱 다시 시작 시 단어 맞추기 학습 진행도 항상 0%로 초기화
+    // 앱 다시 시작 시 단어 맞추기 및 일기 영작 세션 진행도 항상 0%로 초기화
     state.quizSessionCompleted = 0;
+    state.diarySessionCompleted = 0;
     if (state.sessionWrongWordIds) state.sessionWrongWordIds.clear();
     localStorage.removeItem('vm_quiz_session_completed');
+    localStorage.removeItem('vm_diary_session_completed');
 
     // Apply saved theme
     document.body.className = `${state.theme}-theme`;
