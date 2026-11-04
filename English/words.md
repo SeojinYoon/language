@@ -554,3 +554,99 @@
     * 코어 이미지: 겉보기에는 튼튼한 나무 둥치나 호박이지만, 조각칼이나 흰개미가 안쪽의 속살과 심재를 모조리 파먹어 얇은 껍질만 위태롭게 서 있는 모습
     * 초점: 외형과 내부 실질의 괴리
     > Decades of outsourcing production lines gradually hollowed out the nation's domestic manufacturing base
+- in place: (물리적) 제자리에 (있는), 원래 위치에 고정된; (제도·시스템·정책) 준비가 다 된, 가동 중인, 시행 중인, 구축된
+    * 코어 이미지: 퍼즐 조각이나 정밀 기계 부품이 정해진 홈(Slot)에 '딸깍' 소리를 내며 빈틈없이 맞물려 들어가거나, 안전망이 설계도대로 정확히 설치되어 흔들림 없이 고정된 모습
+    * 초점: 준비 완료(Readiness), 체계적 가동성(Operational status), 그리고 적소(Proper position)
+    > The algorithm seemed to iterate in place without converging toward an optimal solution
+- pose a barrier: (진행·접근·소통 등에) 장벽이 되다, 걸림돌을 조성하다, 가로막는 장애물로 작용하다
+    * 코어 이미지: 탁 트인 통로나 진행 경로 한가운데에 누군가가 커다란 바위나 콘크리트 바리케이드를 번쩍 들어 쿵 하고 내려놓는 모습(
+    * 초점: 진행을 차단하는 장애물의 조성과 정면 대치
+    > Jargon and ambiguous syntax pose a barrier to clear academic communication
+- trap in: (물리적 공간에) ~에 갇히게 하다, 가두다; (벗어날 수 없는 상황·악순환·관계에) 발이 묶이게 만들다, 옴짝달싹 못 하게 하다
+    * 코어 이미지: 열려 있던 덫의 덮개나 철창문이 '철컥' 하고 닫혀 사방의 퇴로가 완전히 차단된 모습, 혹은 촘촘한 그물망 내부에 대상이 얽혀 자력으로는 빠져나갈 틈이 없는 상태
+    * 초점: 자력 탈출의 불가능성과 강제된 구속 상태
+    > Without sufficient initial capital, small enterprises often find themselves trapped in a cycle of persistent debt
+- In a word: 한마디로 말해서, 요컨대, 간단히 줄여 말하자면
+    * 코어 이미지: 두껍고 복잡한 보고서 전체를 쥐어짜서 한 방울의 에센스로 농축해 손바닥 위에 올려놓거나, 거대한 짐을 단 하나의 작은 캡슐 안에 꽉 눌러 담아 건네는 모습
+    * 초점: 극도의 압축과 결정적 본질 규명
+    > In a word, the company's current financial situation is precarious
+- clumsy: (동작·신체) 어설픈, 굼뜬, 서투른, 손재주가 없는; (사회적 태도·말) 서투른, 요령 없는, 눈치 없는; (사물·디자인·문장) 다루기 힘든, 투박한, 어색한
+    * 코어 이미지: 두 손에 크고 미끄러운 짐들을 잔뜩 안고 가다가, 발끝이 제자리에 엉키거나 문지방에 턱 걸려 서류와 컵을 공중에 와르르 쏟아내며 비틀거리는 모습
+    * 초점: 협응력의 결여와 투박함
+    > His apology felt clumsy and insincere, only serving to aggravate the dispute
+- drop responsibility: (의무·책임을) 팽개치다, 저버리다, 손을 놓아버리다, 방기하다
+    * 코어 이미지: 손에 소중하게 들고 운반하던 깨지기 쉬운 도자기나 무거운 짐을, 목적지에 닿기도 전에 바닥에 그냥 툭 떨어뜨려 깨지게 내버려두는 모습
+    * 초점: 무책임한 방기와 중도 포기
+    > Deep down, I just want to drop one of these responsibilities, but I can't.
+- the prospect of: ~의 전망, ~에 대한 기대, ~이 일어날 가능성/공산
+    * 코어 이미지: 산봉우리나 전망대(Lookout) 난간에 서서, 저 멀리 탁 트인 평원 너머로 펼쳐질 미래의 풍경을 손으로 차양을 만들며 내다보는 모습
+    * 초점: 미래 사건의 가시화(Anticipation/Mental projection)와 그로 인한 심리적 반응
+    > Already feeling overwhelmed by my current workload, the prospect of having to redo this on top of everything creates immense psychological pressure.
+- deep down: 마음 깊은 곳에서는, 내심은, 본심으로는, 사실은 (겉보기와 달리)
+    * 코어 이미지: 수면 위는 거센 파도와 바람으로 요동치고 있지만, 바다 깊은 심해(Deep seabed) 바닥에는 고요하고 흔들리지 않는 본래의 바위가 그대로 놓여 있는 모습
+    * 초점: 표면과 본질의 괴리
+    > Deep down, I just want to drop one of these responsibilities, but I can't.
+- compulsion: (심리/정신의학) 강박 행위, 억누를 수 없는 충동 (불안을 줄이기 위해 반복하지 않고는 못 배기는 충동)
+    * 코어 이미지: 보이지 않는 거대한 손이 등 뒤에서 멱살을 쥐고 강제로 앞으로 밀어붙이거나, 가슴속 태엽 장치가 미친 듯이 감겨 그 행동을 실행하지 않고는 멈출 수 없는 기계식 인형의 모습
+    * 초점: 통제 불가능한 추동력(Irresistible drive)과 저항할 수 없는 강제성
+    > Trapped between an aversion to the work and the compulsion to finish it, a profound sense of helplessness settles over me.
+- stifle: (호흡을) 숨막히게 하다, 질식시키다
+    * 코어 이미지: 손이나 베개로 입과 코를 꽉 틀어막아 공기가 통하지 못하게 차단하는 모습
+    * 초점: 밖으로 터져 나오려는 흐름이나 호흡을 강제로 틀어막아 질식시키는 억압"에 초점이 있습니다
+    > I could study in the lab, but the workplace pressure stifles my concentration, so I seek out other spaces
+- communal area: 공용 공간, 공동 구역, 공용 시설 구역
+    * 코어 이미지: 각자의 닫힌 방 문들이 모여서 열리는 넓은 중앙 홀 한가운데에 커다란 공용 테이블, 소파, 커피 머신이 놓여 있어 여러 사람이 자연스럽게 마주치고 섞이는 모습
+    * 초점: 공유성(Shared access)과 상호작용의 가능성(Interaction)
+    > I usually gravitate toward open, communal areas in the morning—the first-floor cafeteria, the café out front, or the desk areas on the second floor.
+- gravitate toward: ~에 자연스럽게 끌리다, (특정 장소·사람·분야 등으로) 모여들다, 마음이 기울다
+    * 코어 이미지: 질량이 큰 행성 주변으로 위성이나 천체가 중력(Gravity)에 이끌려 궤도를 그리며 서서히 빨려 들어가는 모습
+    * 초점: 자연스러운 인력(Natural attraction)과 점진적인 수렴
+    > I usually gravitate toward open, communal areas in the morning—the first-floor cafeteria, the café out front, or the desk areas on the second floor
+- retreat: (심리/생활) (조용하거나 안전한 곳으로) 은둔하다, 틀어박히다, 도피하다
+    * 코어 이미지: 치열한 포화와 소음이 빗발치는 전선(Front line)에서 뒤로 돌아 조용하고 안전한 언덕 뒤편의 진지로 발걸음을 옮겨 숨을 고르는 모습
+    * 초점: 철수(Withdrawal)와 재정비를 위한 거리두기(Sanctuary)
+    > Instead, I retreat to a slightly more secluded, sparsely populated spot on the second floor.
+- seclude: (남들과 접촉하지 못하도록) 격리하다, 떼어놓다, 은둔시키다
+    * 코어 이미지: 북적이는 복도나 광장에서 사람 하나를 방 안으로 들여보낸 뒤, 바깥세상과 통하는 무거운 문을 조용히 닫아걸고 열쇠로 잠그는 모습
+    * 초점: 외부 접촉의 의도적 차단(Intentional isolation from company)과 칩거
+    > Instead, I retreat to a slightly more secluded, sparsely populated spot on the second floor
+- monochrome: 단색의
+    * 코어 이미지: 화려한 무지갯빛 팔레트에서 모든 색을 덜어내고, 캔버스 위에 단 하나의 잉크와 물만 남겨 짙고 옅은 농담(Shade & Tint)의 차이로만 대상을 빚어내는 모습
+    * 초점: 색채의 절제(Singular hue)와 형태·빛·질감의 극대화
+    > She opted for a strictly monochrome aesthetic in her studio, decorating entirely in gradients of charcoal, grey, and off-white
+- choreography: 안무, 무용 연출, 안무법
+    * 코어 이미지: 빈 무대 위에 여러 무용수들이 음악의 박자에 맞추어 흩어졌다 모이기를 반복하며, 허공에 보이지 않는 정교한 기하학적 궤적과 선을 직조해 나가는 모습
+    * 초점: 시간과 공간 속 동작의 정밀한 배열
+    > The musical received critical acclaim not only for its score, but for its energetic and intricate choreography
+- bemusement: 어리둥절함, 멍함, 당혹감
+    * 코어 이미지: 길 한가운데에 뜬금없이 서 있는 기괴한 표지판을 보고, 고개를 갸우뚱거리며 한 손으로 뒤통수를 긁적인 채 멍하니 쳐다보다가 피식 실소가 터져 나오는 모습
+    * 초점: 온화한 혼란(Puzzlement)과 가벼운 당황
+    > Her sudden change of mind left the entire committee in absolute bemusement
+- Ahead of schedule: 예정보다 앞서, 계획보다 빠르게
+    * 코어 이미지: 달력이나 간트 차트(Gantt chart) 위에 그어둔 붉은 마감선(Timeline marker)보다, 내 손의 펜촉과 결과물이 저만치 앞질러서 먼저 결승선을 통과해 여유롭게 서 있는 모습
+    * 초점: 기준 시간 대비 초과 달성된 속도감(Temporal advance)과 효율성
+    > Today is the day I head to Montserrat. Waking up earlier than expected, I left my accommodation ahead of schedule, only to realize I was far too early-there was still plenty of time before the first train.
+- only to: (열심히 노력하거나 잔뜩 기대했으나) 결국 ~하고 말았다, 허탈하게도 결국 ~라는 실망스러운 결과로 끝나다
+    * 코어 이미지: 숨이 턱 끝까지 차오르도록 전력 질주해 목적지의 문을 활짝 열어젖혔는데, 그 너머에 텅 빈 방과 '휴무' 팻말 하나만 덩그러니 놓여 있어 맥이 탁 풀리는 모습
+    * 초점: 기대와 결과 사이의 극적인 낙차
+    > Today is the day I head to Montserrat. Waking up earlier than expected, I left my accommodation ahead of schedule, only to realize I was far too early-there was still plenty of time before the first train.
+- caught off guard: 방심하고 있다가 허를 찔리다, 무방비 상태에서 기습을 당하다, 예기치 못한 일로 몹시 당황하다
+    * 코어 이미지: 권투(Boxing)나 펜싱 링 위에서 턱과 얼굴을 보호하던 양손 가드(Guard)를 순간 긴장을 풀고 아래로 툭 내린(Off) 찰나, 사각지대에서 날아온 훅(Hook)에 턱을 정타로 얻어맞는 모습
+    * 초점: 방어 태세의 부재(Unpreparedness / Vulnerability)와 타이밍의 기습성
+    > Caught off guard, the greeting that instinctively tumbled out of my mouth was a confused, “Hallo!” Without missing a beat, she chuckled warmly and countered with a cheerful “iHola!”
+- instinctively: 본능적으로, 직감적으로, 무조건 반사처럼 저절로
+    * 코어 이미지: 눈앞으로 날아오는 야구공을 보자마자 뇌가 궤적을 계산하기도 전에 눈을 질끈 감고 고개를 돌리거나, 갓 태어난 새끼 동물이 가르쳐주지 않아도 어미의 젖을 찾아 입을 가져다 대는 모습
+    * 초점: 비인지적 즉각성(Automaticity)과 생물학적·신체적 자발성
+    > Caught off guard, the greeting that instinctively tumbled out of my mouth was a confused, “Hallo!”
+- tumble out: (언어/생각) (말이나 감정이 필터링 없이) 와르르 쏟아져 나오다, 두서없이 불쑥 튀어나오다; (물리적) (어떤 공간에서) 우르르 굴러떨어져 나오다, 쏟아져 나오다; (군중/사람) (건물, 문 등에서) 한꺼번에 우르르 쏟아져 나오다
+    * 코어 이미지: 닫혀 있던 벽장이나 서랍 문을 무심코 확 열었을 때, 안에 빽빽하게 쌓여 있던 물건들이 균형을 잃고 바닥으로 우르르 와르르 굴러떨어지는 모습
+    * 초점: 통제력의 부재(Lack of restraint)와 날것의 급작스러운 분출
+    > Caught off guard, the greeting that instinctively tumbled out of my mouth was a confused, “Hallo!”
+- With out missing a beat: (예상치 못한 상황이나 방해에도) 눈 하나 깜짝하지 않고, 일말의 망설임도 없이, 리듬을 전혀 깨지 않고 곧바로
+    * 코어 이미지: 드럼 연주자가 연주 도중 스틱 하나를 손에서 떨어뜨렸거나 악보가 바람에 날아갔음에도, 나머지 한 손과 발 페달로 원래 박자(Beat)를 단 반 박자도 놓치지 않고 완벽한 템포로 곡을 계속 끌고 나가는 모습
+    * 초점: 놀라운 침착함(Composure)과 즉각적인 연속성(Seamless continuity).
+    > Without missing a beat, she chuckled warmly and countered with a cheerful “iHola!”
+- stay steadfast in one's faith: (온갖 시련, 유혹, 환경의 변화 속에서도) 믿음(신앙)을 굳건히 지키다, 신념을 흔들림 없이 고수하다
+    * 코어 이미지: 거센 비바람과 파도가 쉴 새 없이 몰아치는 벼랑 끝 바닷가에서, 거대한 바위 기둥(Stead)이 땅속 깊이 뿌리를 내린 채 단 1밀리미터도 흔들리지 않고 제자리를 지키고 서 있는 모습
+    * 초점: 도덕적·영적 불요불굴(Unyielding constancy)과 환경적 흔들림에 대한 저항
+    > She also urged me to stay steadfast in my faith wherever I go

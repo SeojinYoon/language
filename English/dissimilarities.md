@@ -748,7 +748,7 @@
         > He is a master of reinforcement learning
 
 - 의도
-    - unintentionally: 의도
+    - unintentionally: 의도치 않게
         * 코어 이미지: 마음속에 품은 계획이 없었는데 우연히 손발이 빗나가 발생한 결과
         * 초점: 고의성이나 악의가 전혀 없이 실수나 예기치 못한 상황으로 벌어진 일
         > I unintentionally deleted the raw kinematics log
@@ -828,10 +828,13 @@
         * 코어 이미지: 머릿속 퍼즐 조각들이 제자리를 찾아 논리적 의미가 환하게 통하는 상태
         * 초점: 논리, 의미, 배경 지식을 머리로 명확히 받아들이고 해석하는 표준적 이해
         > I understand the basic principles of reinforcement learning
-    - apprehend: (의미나 본질을) 직관적으로 파악하다, 감지하다
-        * 코어 이미지: 복잡한 전체 시스템의 본질적인 형체를 양손으로 완전히 포획하여 장악함
-        * 초점: 단순한 지식을 넘어 대상의 깊은 본질이나 전체적인 복잡성을 온전히 파악함 (학술적/철학적)
-        > It is difficult to apprehend the full complexity of human movement
+    - apprehend: (인지·지각) 어렴풋이 이해하다, 감지하다, 파악하다
+        * 코어 이미지: 도망치는 대상을 향해 앞으로 팔을 뻗어 손으로 단단히 움켜쥐는 모습
+        * 초점: 포획과 초기 지각
+        > At first glance, it was difficult to apprehend the true scale of the catastrophe
+    - comprehend: (지적 이해) 완전히 이해하다, 깊이 파악하다 (의미, 본질, 메커니즘을 꿰뚫음)
+        * 코어 이미지: 여러 흩어져 있는 조각들을 두 팔로 한데 모아 품 안에 완전히 감싸 안는 모습
+        * 초잠: 총체적 이해와 인지적 수용
     - be on to something: (대단하거나 가치 있는 발견의) 단서를 잡다, 무너가 대단한 것을 알아채다, 정답/핵심에 근접하다
         * 코어 이미지: 사막에서 보물 상자의 모서리를 발견하고 삽질을 시작하는 결정적 단서 포착
         * 초점: 어떤 연구나 추론 과정에서 대단히 중요한 성공의 실마리나 가치 있는 발견을 포착해냄
@@ -969,20 +972,20 @@
         * 코어 이미지: 달력의 대부분의 날에 일정 체크가 되어 있는 반복적 패턴
         * 초점: 행동이 일어나는 시간적 빈도(Frequency)에 초점을 맞춤
         > I usually take pictures with my digital camera
-    - a lot of: 빈도 vs 양
+    - a lot of: 많은
         * 코어 이미지: 메모리 카드에 빼곡하게 쌓여 있는 방대한 사진 파일 더미
         * 초점: 생산되거나 존재하는 대상의 물리적·수치적 양(Quantity)에 초점을 맞춤
         > I take a lot of pictures with my digital camera
 
 - 실수
-    - accidentally: 실수로, 부주의로
+    - accidentally: (부주의로 인해) 실수로, 본의 아니게
         * 코어 이미지: 길을 가다 발이 돌부리에 걸리듯 의도치 않게 일어난 돌발 사고
-        * 초점: 주체의 의도나 계획이 전혀 개입되지 않은 우연한 사고로 발생한 일
+        * 초점: 주체의 의도의 부재와 우연성
         > I accidentally put my AirPods in the washing machine
         > I accidentally walked into a stranger's funeral home
-    - by mistake: 실수로, 잘못 알고
+    - by mistake: 잘못 알고, 착각하여, 실수로
         * 코어 이미지: 자기 우산인 줄 알고 옆에 있던 남의 우산을 집어 든 판단 착오
-        * 초점: 행동 자체는 의도를 가지고 했으나 정보나 인식이 틀려 잘못된 결과를 낳음
+        * 초점: 판단 착오로 인한 잘못된 결과
         > I took his umbrella by mistake
 
 - 이미지
@@ -1441,6 +1444,10 @@
         * 코어 이미지: 아주 날카롭고 미세한 침(바늘 끝) 하나가 피부 표면을 순간적으로 톡 찔러 뚫고 들어오면서, 그 지점 주변으로 날카롭고 화끈거리는 자극이 찌릿하게 번져나가는 모습
         * 초점: 국소적인 날카로운 통증과 지속되는 쓰라림
         > I anticipated the sting of relational disappointment and felt the creeping self-doubt that sprouted from my stalled progress
+    - excruciate: (육체적·정신적으로) 극심한 고통을 주다, 몹시 괴롭히다, 고문하다
+        * 코어 이미지: 십자가 형틀에 매달려 온몸의 신경과 뼈마디가 사정없이 찢겨나가는 극한의 형벌을 받는 모습
+        * 초점: 인간이 견딜 수 있는 한계치에 달한 극단의 고통(Extreme agony)과 강렬함
+        > The patient suffered from excruciating pain in his lower back after the disk herniation
 - 노력
     - try to V: ~하려고 노력하다/애쓰다
         * 코어 이미지: 목표를 향해 화살을 겨누고 온 신경을 집중해 시도하는 행위
@@ -1530,7 +1537,7 @@
         > The API is invoked to handle kinematics data
 
 - 핵심
-    - essential: 핵심
+    - essential: 핵심적인
         * 코어 이미지: 생명체의 심장처럼 그것이 없으면 전체가 무너지는 본질적 요소
         * 초점: 사물의 본질을 구성하여 절대 빠뜨릴 수 없는 필수불가결한 핵심
         > Mathematics is essential for understanding deep learning
@@ -2284,6 +2291,7 @@
         * 초점: 미래의 사건에 대한 예견된 두려움과 무거운 침체감
         > Paralyzed by the terror of fighting Orcs in a dead end, he ultimately overcame that dread out of a fierce resolve to protect his companions.
         > In truth, there were countless mornings when I dreaded going to the lab.
+        > I dread the thought of anyone watching me sit in front of a screen studying freshman-level math.
     - be afraid of: ~을 두려워하다, 무서워하다; (완곡한 염려) ~일까 봐 걱정스럽다
         * 코어 이미지: 어두운 골목길이나 사나운 개 앞을 지나갈 때, 몸을 사리며 "혹시 무슨 일이 생기지 않을까" 긴장한 채 조심스레 발걸음을 멈추거나 뒤로 물러서는 모습
         * 초점: 일반적·지속적 기피 (Broad Fear):
@@ -2882,7 +2890,7 @@
         * 초점: 문, 금고 등을 열쇠나 장치로 잠그거나 시스템 접근을 통제함
         > Make sure to lock the lab door before leaving
     - in code: 암호로, 은밀한 은어로
-        * 코어 이미지: 비밀 메시지를 암호문(Code)으로 치환하여 외부인이 해독할 수 없게 만듦
+        * 코어 이미지: 비밀 메시지를 암호문으로 치환하여 외부인이 해독할 수 없게 만듦
         * 초점: 정보나 대화를 특정한 암호 체계나 은어로 은밀하게 변환하여 표현함
         > The agents communicated entirely in code
 
@@ -3650,10 +3658,14 @@
         * 코어 이미지: 다이어트를 통해 체중계의 눈금을 5kg 아래로 떨어뜨림
         * 초점: 체중, 재산, 열쇠 등을 상실하거나 정량적으로 감량함
         > He managed to lose 10 kilograms through consistent exercise
-    - reduce: (크기·양·수치 등을) 줄이다, 낮추다
+    - reduce: (크기·양·수치 등을) 줄이다, 낮추다; (어떤 상태나 형태로) 바꾸다, 축시키다, 격하시키다
         * 코어 이미지: 알고리즘의 불필요한 연산 루프를 줄여 처리 시간을 단축함
         * 초점: 크기, 수량, 비용, 위험도의 양을 전반적으로 낮추고 감소시킴
         > We need to reduce the computational complexity of the algorithm
+    - drop: (물리적) 떨어지다, 떨어뜨리다; (수치, 온도, 수준 등이) 급격히 떨어지다, 급락하다
+        * 코어 이미지: 손에 쥐고 있던 공을 놓아 중력에 의해 바닥으로 툭 떨어지거나, 절ㄱ 모퉁이에서 아래로 수직 낙하하는 모습
+        * 초점: 낙하의 급격함과 수동적 발생, 혹은 단호한 중단
+        > As my departure date draws near, my motivation has dropped significantly.
     - keep down: 줄이다, 낮추다, 제거하다
         * 코어 이미지: 냄비 뚜껑을 지그시 눌러 끓어오르는 거품이 넘치지 않도록 억누름
         * 초점: 목소리 볼륨, 물가 상승률, 소음 등을 낮은 수준으로 억제하여 유지함
@@ -4740,7 +4752,8 @@
         * 초점: 의도적이고 교묘한 비껴가기
         > Watching Spike step off the ship, fully prepared to face death just to bring closure to his story, I came to realize that true parting is not evasion, but confrontation.
 
-- 정면
+- 정면, 대면
+    - 
     - confrontation: (대립하는 당사자 간의) 정면 대치, 대결, 충돌; (불편한 진실·문제·상대방과의) 대면, 담판, 정면 대응
         * 코어 이미지: 두 사람이 물러서지 않고 서로의 이마와 시선을 바짝 맞대며, 숨길 것 없이 정면으로 마주 서 있는 모습
         * 초점: 직접적인 대면(Direct facing)과 불가피한 긴장감(Tension)
@@ -4846,4 +4859,73 @@
         * 코어 이미지: 불길이 장작을 집어삼키며 흔적도 없이 태워 없애거나, 유기체가 외부 물질을 삼켜 체내에서 완전히 분해·흡수해 버리는 모습
         * 초점: 완전한 흡수 및 소멸
         > I no longer want to consume myself just to fix a problem. 
-    -
+
+- 예정, 예약
+    - schedule: 일정을 잡다, 예정하다, 계획을 편성하다
+        * 코어 이미지: 격자형 캘린더나 타임라인 표 위에 펜을 들고, 비어 있는 특정 날짜와 시간 칸(Time slot)에 라벨을 붙여 배치해 넣는 모습
+        * 초점: 시간 축 상의 순서와 타이밍
+        > With the Easter holiday coming up, several days off are scheduled in a row.
+    - reserve: 예약하다, 잡아두다, 확보하다
+        * 코어 이미지: 식당의 빈 테이블 위에 예약석 팻말을 올려놓아 다른 손님이 앉지 못하도록 칸막이를 치거나, 귀중한 식량을 비상용 창고에 따로 떼어 자물쇠를 채워두는 모습
+        * 초점: 배타적 점유권 확보(Exclusive claim/holding)와 분리·보존
+        > "We should reserve a conference room on the third floor before they all get booked
+
+- 지나가다
+    - go by: (시간이) 지나가다, 흐르다; (장소·대상을) 지나쳐 가다, 스쳐 지나가다
+        * 코어 이미지: 정지해 있는 관찰자나 기준점 바로 곁을 스치듯 미끄러져 지나감
+        * 초점: 자연스러운 경과
+        > As weeks went by, the physical simulations began to yield consistent kinematic trajectories
+
+- 마주치다
+    - encounter: (우연한 만남) (예상치 못하게) 마주치다, 맞닥뜨리다, 접하다; (난관·위험과의 직면) (문제·장애·저항 등을) 맞닥뜨리다, 겪다
+        * 코어 이미지: 골목 모퉁이나 굽이진 길을 돌아서는 순간, 반대편에서 걸어오던 대상과 불쑥 눈이 딱 마주치는 모습
+        * 초점: 우연성과 첫 발견/접촉의 순간
+        > Traveling abroad allows one to encounter perspectives entirely distinct from one’s own
+
+- 차지하다
+    - account for: (비율·부분을) 차지하다
+        * 코어 이미지: 두꺼운 회계 장부(Ledger / Account)를 펼쳐놓고, 들어온 돈과 나간 돈의 모든 출처와 행방을 단 1원의 오차도 없이 항목별로 줄을 긋고 숫자를 맞춰 빈틈없이 맞아떨어지게 만드는
+        * 초점: 빠짐없는 규명(Exhaustive explanation)과 정합성(Accounting reconciliation)
+        > Renewable energy sources now account for over 30 percent of the total power generation in the region
+
+- 책임
+    - duty: (도덕적·법적·직무상의) 의무, 본분, 당위적 책무
+        * 코어 이미지: 국기나 법전 앞에서 제복을 입고 거수경례를 올리며, '이 신분을 부여받은 이상 반드시 지켜야만 하는 빚'을 지불하는 모습
+        * 초점: 외적 규범성(Mandatory obligation)과 신분/역할에 따른 당위(Ought to do)
+        > A physician has an inviolable ethical duty to preserve human life and respect patient confidentiality
+    - responsibility: 책임, 책무, 도맡은 몫; (인격/태도) 책임감, 신뢰성; (결과에 대한) 문책, 귀책사유
+        * 코어 이미지: 손에 양팔 저울(Scales)이나 무거운 프로젝트 화물을 도맡아 쥐고 있다가, 상황이 틀어졌을 때 도망치지 않고 똑바로 서서 '이것은 내 소관이며 내가 해명하고 수습하겠다'고 정면으로 대답(Respond)하는 모습
+        * 초점: 주도적 통제권(Ownership / Agency)과 결과에 대한 책임(Accountability)
+        > As the lead researcher, he assumed primary responsibility for the statistical validity of the experimental pipeline
+        > The organization accepted full responsibility for the unexpected data breach
+
+- 망설임
+    - reluctance: 마음 내키지 않음, 꺼림, 주저함, 마지못해 함
+        * 코어 이미지: 목줄에 묶인 개가 가기 싫은 길 앞에서 네 다리에 힘을 꽉 주고 버티며(Bracing all four legs), 뒤로 몸을 한껏 젖힌 채 질질 끌려가지 않으려 안간힘을 쓰는 모습(Resisting Being Pulled Forward)
+        * 초점: 내적 저항(Internal resistance)과 비자발적 수행
+        > Despite his evident reluctance to alter the baseline kinematics parameters, he complied with the committee’s revisions
+    - hesitation: 주저, 망설임, 멈칫거림, 일시적 지체
+        * 코어 이미지: 건널목 신호등 앞이나 갈림길에서 발을 반쯤 내디뎠다가 허공에 멈춘 채, 좌우를 두리번거리며 멈칫하는 모습
+        * 초점: 대상 자체가 싫다기보다는 "어떻게 해야 할지 확신이 없거나 두려워서 결정을 유예하는 찰나의 머뭇거림"
+        > After a moment's hesitation, the presenter stepped up to the podium and addressed the audience
+    - aversion: 혐오, 질색, 극도의 기피, 반감
+        * 코어 이미지: 코를 찌르는 악취나 징그러운 광경을 마주쳤을 때, 미간을 찌푸리며 몸 전체를 180도 돌려 반대편으로 빠르게 걸어 나가는 모습
+        * 초점: 본능적 거부(Distaste/Repulsion)와 철저한 회피 성향
+        > He developed a deep aversion to high-stakes political maneuvering during his corporate career
+
+- 당황
+    - be taken aback: (뜻밖의 무례함·소식·발언에) 크게 당황하다, 기가 차다, 멍해지며 움찔 뒤로 물러서다
+        * 코어 이미지: 순풍을 타고 앞으로 시원하게 전진하던 범선의 돛(Sails)에 정면에서 강력한 역풍이 들이닥쳐, 배의 앞머리가 들리며 휘청하듯 뒤로 밀려나는 모습
+        * 초점: 심리적 충격(Cognitive shock / Disconcertment)과 불쾌하거나 당혹스러운 반전
+        > She was taken aback by the aggressive tone of his response during what was supposed to be a routine check-in.
+
+- 놀라다
+    - startle: (타동사) 깜짝 놀라게 하다, 흠칫하게 만들다
+        * 코어 이미지: 조용한 복도를 걷다가 문 뒤에서 갑자기 튀어나온 사람을 보고 '흡!' 숨을 들이켜며 어깨와 무릎을 용수철처럼 튀어 올리는 모습
+        * 초점: 감각적 급작성(Abruptness)과 신체적 반사(Startle reflex).
+        > I was so immersed in writing that your sudden tap on my shoulder startled me
+    - surpise: (타동사) 놀라게 하다
+        * 코어 이미지: 단단하게 닫혀 있던 상자의 뚜껑을 열었을 때, 상상하지도 못했던 내용물이 들어 있어 눈을 크게 뜨고 '어머나!' 하고 탄성을 내뱉는 모습
+        * 초점: 예측의 빗나감(Unmet expectation)과 폭넓은 감정 스펙트럼
+        > Her colleagues organized a quiet farewell dinner to surprise her on her last day
+        

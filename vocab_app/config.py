@@ -79,12 +79,12 @@ AUTO_OPEN_BROWSER: bool = os.environ.get("VOCAB_AUTO_OPEN", "true").lower() in (
 # ==============================================================================
 # 1순위: Edge Gallery 온디바이스 LiteRT 엔진 (Apple Metal GPU 가속)
 USE_LITERT: bool = os.environ.get("VOCAB_USE_LITERT", "true").lower() in ("true", "1", "yes")
-LITERT_MODEL_SEARCH_PATTERNS: List[str] = [
-    os.path.join(PROJECT_ROOT, "models", "gemma-4-e2b.litertlm"),
-    os.path.expanduser("~/language/models/gemma-4-e2b.litertlm"),
-    os.path.expanduser("~/Library/Containers/*/Data/Documents/Gemma_4_E2B_it/v0/*.litertlm"),
-    os.path.expanduser("~/Library/Containers/F45A43A5-0F15-4C50-9D8A-998CB9F1B7CE/Data/Documents/Gemma_4_E2B_it/v0/gemma4_2b_v09_obfus_fix_all_modalities_thinking.litertlm")
-]
+
+# 🌟 사용자 직접 지정 LiteRT 모델 경로 (기본 설정값 제거됨)
+# config.py의 LITERT_MODEL_PATH에 직접 경로를 입력하거나,
+# 실행 시 `--model /path/to/model.litertlm` 또는 `LITERT_MODEL_PATH` 환경변수로 지정하세요.
+LITERT_MODEL_PATH: str = os.environ.get("LITERT_MODEL_PATH", "/Users/seojin/models/gemma-4-e2b.litertlm")
+LITERT_MODEL_SEARCH_PATTERNS: List[str] = [LITERT_MODEL_PATH] if LITERT_MODEL_PATH else []
 
 
 # 온디바이스 LiteRT 추론 세부 파라미터
@@ -146,9 +146,16 @@ def get_config_summary() -> Dict[str, Any]:
     import glob
     found_model = None
     if USE_LITERT:
-        for p in LITERT_MODEL_SEARCH_PATTERNS:
-            matches = glob.glob(p)
-            if matches and os.path.exists(matches[0]):
+        candidates = ([LITERT_MODEL_PATH] if LITERT_MODEL_PATH else []) + list(LITERT_MODEL_SEARCH_PATTERNS)
+        for p in candidates:
+            if not p:
+                continue
+            expanded = os.path.expanduser(p)
+            if os.path.isfile(expanded):
+                found_model = expanded
+                break
+            matches = glob.glob(expanded)
+            if matches and os.path.isfile(matches[0]):
                 found_model = matches[0]
                 break
 

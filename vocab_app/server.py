@@ -13,6 +13,7 @@ import threading
 import time
 import subprocess
 import shutil
+import argparse
 
 # ==============================================================================
 # ⚙️ CORE CONFIGURATION & PARAMETERS (핵심 파라미터 연동: config.py)
@@ -36,7 +37,16 @@ except ImportError:
     AUTO_START_OLLAMA = True
     AUTO_STOP_OLLAMA_ON_EXIT = False
 
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_PORT
+parser = argparse.ArgumentParser(description="VocabMaster Local Server")
+parser.add_argument("port", nargs="?", type=int, default=DEFAULT_PORT, help="Server port (default: 3000)")
+parser.add_argument("-m", "--model", type=str, default="", help="Path to LiteRT (.litertlm) model file")
+args, _ = parser.parse_known_args()
+
+PORT = args.port
+CLI_MODEL_PATH = args.model.strip() if args.model else ""
+if CLI_MODEL_PATH and 'config' in sys.modules:
+    config.LITERT_MODEL_PATH = CLI_MODEL_PATH
+    config.LITERT_MODEL_SEARCH_PATTERNS = [CLI_MODEL_PATH]
 
 VOCAB_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(VOCAB_DIR)
@@ -106,26 +116,39 @@ _OLLAMA_PROCESS = None
 def find_edge_gallery_gemma_model():
     if not USE_LITERT:
         return None
-    patterns = getattr(config, 'LITERT_MODEL_SEARCH_PATTERNS', [
-        os.path.expanduser("~/Library/Containers/*/Data/Documents/Gemma_4_E2B_it/v0/*.litertlm"),
-        os.path.expanduser("~/Library/Containers/F45A43A5-0F15-4C50-9D8A-998CB9F1B7CE/Data/Documents/Gemma_4_E2B_it/v0/gemma4_2b_v09_obfus_fix_all_modalities_thinking.litertlm")
-    ])
-    for p in patterns:
-        matches = glob.glob(p)
+    candidates = []
+    if CLI_MODEL_PATH:
+        candidates.append(CLI_MODEL_PATH)
+    env_path = os.environ.get("LITERT_MODEL_PATH", "").strip()
+    if env_path:
+        candidates.append(env_path)
+    cfg_path = getattr(config, 'LITERT_MODEL_PATH', '').strip() if 'config' in sys.modules else ''
+    if cfg_path:
+        candidates.append(cfg_path)
+    patterns = getattr(config, 'LITERT_MODEL_SEARCH_PATTERNS', []) if 'config' in sys.modules else []
+    candidates.extend(patterns)
+
+    for p in candidates:
+        if not p:
+            continue
+        expanded = os.path.expanduser(p)
+        if os.path.isfile(expanded):
+            return expanded
+        matches = glob.glob(expanded)
         for m in matches:
             if os.path.isfile(m):
                 return m
     return None
 
 def get_litert_engine():
-    global _LITERT_ENGINE, _LITERT_FAILED
-    if not USE_LITERT or _LITERT_FAILED:
+    global _LITERT_ENGINE
+    if not USE_LITERT:
         return None
     if _LITERT_ENGINE is not None:
         return _LITERT_ENGINE
 
     with _LITERT_LOCK:
-        if not USE_LITERT or _LITERT_FAILED or _LITERT_ENGINE is not None:
+        if not USE_LITERT or _LITERT_ENGINE is not None:
             return _LITERT_ENGINE
 
         model_path = find_edge_gallery_gemma_model()
@@ -138,7 +161,7 @@ def get_litert_engine():
                 litert_lm.set_min_log_severity(litert_lm.LogSeverity.ERROR)
             except Exception:
                 pass
-            print(f"🚀 Edge Gallery Gemma-4-E2B-it 온디바이스 모델 로딩 중 (Apple Metal GPU)...")
+            print(f"🚀 Edge Gallery Gemma-4-E2B-it 온디바이스 모델 로딩 중 (Apple Metal GPU): {model_path}")
             _LITERT_ENGINE = litert_lm.Engine(model_path, backend=litert_lm.Backend.GPU())
             print(f"✨ Gemma-4-E2B-it 온디바이스 엔진 초기화 성공 (Apple Metal GPU 가속)!")
             return _LITERT_ENGINE
@@ -151,7 +174,6 @@ def get_litert_engine():
                 return _LITERT_ENGINE
             except Exception as e2:
                 print(f"⚠️ LiteRT CPU fallback 실패: {e2}")
-                _LITERT_FAILED = True
                 return None
 
 def check_ollama_status(base_url=None):

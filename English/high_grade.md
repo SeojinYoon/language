@@ -752,3 +752,23 @@ be used to는 뒤에 오는 품사에 따라 ~에 익수하다 또는 ~하는 �
     > Feynman pointed out that simulating natural phenomena accurately requires a quantum mechanical approach rather than a classical framework (Feynman, 1982).
 
 
+# With vs As
+
+두 단어 모두 문장에서 배경의 느낌으로 활용된다. 하지만, 두 단어가 배경을 만드는 방식과 시선의 각도가 다르다.
+
+- With: 정적 무대 세팅 (Canvas / Backdrop)
+    * 주절의 사건이 일어나는 방이나 거리에 어떤 사물이나 조건이 이미 함께 놓여 있는가(Co-presence)를 보여줍니다.
+    > With the snow falling, he drank coffee
+
+- As: 동역학적 동시 진행 (Parallel Track / Split Screen)
+    * as가 만드는 배경은 정적인 무대가 아니라, "시간 축 위에서 나란히 굴러가고 있는 또 다른 사건
+    > As the snow began to fall, he stepped outside
+
+# , having
+
+I chose Milan because I had explored parts of France and Switzerland
+-> I chose Milan because, having explored parts of France and Switzerland
+    - 접속사 because는 이유를 분명히 밝히기 위해 그대로 살려둠
+    - 반복되는 주어 I를 탈락시킴
+    - 과거완료 동사 had explored를 분사형인 having explored로 전환
+    - 쉼표(comma)를 둘러 삽입구(Parenthetical clause) 형태로 배치

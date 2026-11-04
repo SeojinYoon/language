@@ -1,4 +1,4 @@
-ㅋ
+
 - on the way back: 돌아오는 길에, 돌아가는 도중에
     > talked with him on the way back home
 - look so much better without: ~을 안 하니 훨씬 나아 보이다
@@ -14,3 +14,12 @@
     * 코어 이미지: 강을 건너 적진이나 새로운 영토에 발을 디딘 군대가, 자신이 건너온 나무다리에 기름을 붓고 횃불을 던져 활활 태워버리는 모습
     * 초점: 비가역성(Irreversibility)과 복구 불가능한 단절
     > Every time I went through those tough moments, on the one hand, I comforted myself by thinking this would be the final attempt; on the other hand, I fought the problem as if burning my bridges behind me.
+- add another burden to owns plate: 이미 할 일이 많거나 벅찬 사람에게 새로운 부담, 책임, 업무를 추가하다
+    * 코어 이미지: 이미 꽉 차서 넘쳐흐를 듯한 식판(Plate) 위에 무거운 고기 덩어리나 짐을 억지로 얹어서 균형을 무너뜨리는 모습
+    * 초점: 과부하 상태(Overload)와 추가된 부담의 가중
+    > It adds yet another burden to my plate.
+- keep running though my head: (생각·기억·선율 등이) 머릿속에서 계속 맴돌다, 뇌리를 떠나지 않다, 자꾸 귓가에 맴돌다
+    * 코어 이미지: 두개골 안쪽 원형 트랙(Track) 위를 작은 육상 선수가 지치지도 않고 끝없이 빙글빙글 달리고 있거나, 카세트테이프가 무한 되감기(Infinite Loop)되며 같은 구간을 멈춤 없이 반복 재생하는 모습
+    * 초점: 반복성(Repetition)과 비자발적 지속성(Involuntary looping)
+    > That catchy song keeps running through my head
+    > A nagging doubt about the baseline assumptions kept running through my head while reviewing the slides

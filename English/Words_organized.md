@@ -403,7 +403,7 @@
         * 코어 이미지: 높은 천장과 넓은 바닥을 갖추어 수백 명이 모여 집회를 열 수 있는 공공 건물 내부
         * 초점: 대규모 인원을 수용할 수 있는 넓은 다목적 실내 공간이나 공공 회관
         > The graduation ceremony took place in the grand hall
-    - cubicle: 개인용 칸막이 사무실 (큐비클)
+    - cubicle: 개인용 칸막이 사무실
         * 코어 이미지: 높은 파티션 패널로 사방이 둘러싸여 컴퓨터와 책상이 놓인 사무실 개인 근무 공간
         * 초점: 대형 사무실 내에서 파티션으로 구획된 개인별 작은 사무 공간
         > You don't have to work for forty years in a corporate cubicle
@@ -1381,7 +1381,7 @@
             * 코어 이미지: 도마 위에 당근을 올려두고 식칼을 일정한 간격으로 내리치며 균일한 두께로 써는 동작
             * 초점: 덩어리진 식재료를 얇고 평평한 조각 형태로 칼질하여 나누는 행위
             > My brother talked to me when I was slicing carrots, and I cut my finger with the knife
-        - strain well: 물기(액체)를 잘 빼다, 건져내다
+        - strain: 물기(액체)를 빼다, 건져내다
             * 코어 이미지: 삶아진 면을 채반이나 구멍 뚫린 국자에 붓고 위아래로 털어내며 뜨거운 물기를 털어내는 동작
             * 초점: 조리된 식재료에서 국물이나 수분을 남김없이 분리하여 건조하게 건져냄
             > When they rise to the surface as the water starts to simmer again, take them out and strain well with a perforated ladle
@@ -1998,7 +1998,7 @@
                 * 코어 이미지: 격자 구획을 나눈 흙탕물 구덩이 안에서 인부들이 조심스럽게 삽과 솔로 유물을 수습하는 작업
                 * 초점: 고대 유적지나 지하 구조물을 과학적으로 파헤쳐 유물을 조사하는 공식 발굴 공정
                 > The extensive archaeological excavation of the prehistoric burial mound took over five years
-            - figurine: (장식용) 작은 조각상, 피규어
+            - figurine: (장식용) 작은 조각상
                 * 코어 이미지: 손바닥 위에 올려둘 수 있는 작은 흙이나 청동으로 빚은 고대 여신상
                 * 초점: 종교적 숭배나 장식용으로 정교하게 제작된 작은 크기의 인물/동물 조각상
                 > Excavators discovered a delicate terracotta figurine representing a fertility goddess
@@ -2324,3 +2324,4 @@
         * 코어 이미지: 방 한가운데 스탠드 조명에서 은은하게 퍼져 나와 방 전체를 부드럽게 감싸는 간접 조명
         * 초점: 특정 지점에 집중되지 않고 공간 전체를 자연스럽고 은은하게 둘러싸고 있는 환경적 조건(온도, 빛, 소음)
         > The sensor continuously monitors the ambient temperature and humidity levels inside the cleanroom
+
