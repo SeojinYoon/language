@@ -650,3 +650,43 @@
     * 코어 이미지: 거센 비바람과 파도가 쉴 새 없이 몰아치는 벼랑 끝 바닷가에서, 거대한 바위 기둥(Stead)이 땅속 깊이 뿌리를 내린 채 단 1밀리미터도 흔들리지 않고 제자리를 지키고 서 있는 모습
     * 초점: 도덕적·영적 불요불굴(Unyielding constancy)과 환경적 흔들림에 대한 저항
     > She also urged me to stay steadfast in my faith wherever I go
+- uphold: (가치/원칙/법률) (법·원칙·전통·정의 등을) 수호하다, 지키다, 받들다
+    * 코어 이미지: 무너져 내리려는 거대한 고대 신전의 천장이나 묵직한 법전(Law code)을 향해, 양손을 위로 힘껏 뻗어 어깨와 팔의 온 근육으로 온전히 떠받치고 있는 모습
+    * 초점: 도덕적·사법적 정당성의 방어(Defending integrity/legitimacy)와 헌신적인 지탱
+    > Researchers must rigorously uphold scientific integrity, especially when facing intense external pressures to deliver immediate results
+- cottage: (시골·휴양지의) 작고 아늑한 단독 주택, 오두막집, 별장
+    * 코어 이미지: 풀숲과 돌담길로 둘러싸인 시골길 한구석, 붉은 벽돌 굴뚝에서 얇은 연기가 모락모락 피어오르고 낮은 지붕 아래 창가에 꽃 화분이 놓여 있는 작고 따뜻한 흙/돌집의 모습
+    * 초점: 목가적인 아늑함(Rustic coziness)과 도시로부터의 격리
+    > A secluded stone cottage nestled between the rolling hills provided the perfect sanctuary for writing
+- as of: ~일자(시점)를 기준으로, ~부로, ~현재로
+    * 코어 이미지: 흐르는 시간의 타임라인 위에 깃발이나 붉은 핀(Pin)을 하나 딱 꽂아두고, 바로 그 지점의 스냅샷(Snapshot)을 찍어 수치와 상태를 고정해 보여주는 모습
+    * 초점: 기준 시점의 명확화(Temporal benchmark)와 행정적·공식적 유효성
+    > As of now, we have documented seventeen distinct behavioral clusters across the dataset
+- hoot: (동물 소리) (부엉이나 올빼미가) 부엉부엉 울다
+    * 코어 이미지: 깊은 밤 숲속 나뭇가지에 앉은 부엉이가 둥근 가슴을 한껏 부풀렸다가, 공기를 좁은 부리 밖으로 '후웃- 후웃-' 하고 둥글고 공명감 있게 훅 뿜어내는 모습
+    * 초점: 울림이 있는 돌발적인 소리(Hollow, resonant outburst)와 그로부터 파생된 감정
+    > Deep in the quiet woods, an owl hooted softly through the misty canopy
+- mule: 노새
+    * 코어 이미지: 험준한 바위산 비탈길에서 무거운 짐을 등에 짊어진 채, 주인이 고삐를 당겨도 발을 땅에 꽉 디디고 버티며 꼼짝도 하지 않는 노새의 억센 모습
+    * 초점: 극단적인 완고함(Stubbornness)과 무거운 짐의 운반(Heavy carrying / Transport)
+    > Historically, pack mules were indispensable for transporting scientific equipment across steep alpine trails
+- thistle: (식물) 엉겅퀴
+    * 코어 이미지: 거칠고 메마른 황무지 한가운데에서 날카롭고 빳빳한 가시 잎사귀들을 사방으로 뻗친 채, 그 꼭대기에 고결한 보랏빛 털 붓 모양의 꽃송이를 당당하게 피워 올린 모습
+    * 초점: 가시 돋친 방어력(Prickly defensiveness)과 척박함 속의 끈질긴 생명력
+    > Wild thistles sprouted along the rocky edges of the unpaved mountain trail
+- push through: (심리/노력) (극심한 피로, 고통, 장애물을 뚫고) 끝까지 버티며 나아가다, 밀어붙여 완수하다
+    * 코어 이미지: 진흙탕과 폭설이 쏟아지는 오르막길에서 다리가 후들거리고 숨이 턱까지 차오르지만, 이를 악물고 몸을 앞으로 숙인 채 저항을 밀어내며 기어코 한 걸음 더 내딛는 모습
+    * 초점: 의지력에 의한 한계 돌파(Sheer grit / Endurance)와 관통성
+    > Having pushed through a packed schedule from early morning until late at night yesterday, I felt completely drained.
+- braise: (조리법) 뭉근하게 푹 익히다, 브레이징하다
+    * 코어 이미지: 두꺼운 무쇠 주물 냄비 속에서 겉면을 바삭하게 시어링(Searing)한 두툼한 고기 덩어리가, 냄비 바닥에 자작하게 깔린 진한 와인 육수와 허브 향을 머금은 채 뚜껑 아래 갇힌 미세한 증기 속에서 몇 시간 동안 부드럽게 결대로 풀어지는 모습
+    * 초점: 이중 조리 과정(Sear then simmer)과 질긴 재료의 연화(Tenderness)
+    > I ordered egg fried rice alongside a dish reminiscent of braised meat-similar to Korean Jangjorim-and it turned out to be genuinely delicious and deeply satisfying.
+- drowsiness: 졸음, 졸린 상태, 나른함, 기면(嗜眠)
+    * 코어 이미지: 따뜻한 난로 옆이나 햇살이 드는 창가에 앉아, 납덩이처럼 무거워진 눈꺼풀이 스르륵 감기며 고개가 아래로 꾸벅꾸벅 떨어지는 찰나의 몽롱한 모습
+    * 초점: 각성의 저하(Reduced alertness)와 수면으로의 문턱
+    > Once my stomach was full, a heavy wave of drowsiness washed over me.
+- rally: (사기/기력 회복) (흩어진 기운·의지·건강을) 다시 가다듬다, 회복세를 보이다, 기운을 차리다
+    * 코어 이미지: 패색이 짙어 뿔뿔이 흩어지려던 군대 한가운데에서 지휘관이 깃발을 높이 치켜들자, 흩어지던 병사들이 깃발 주위로 다시 뭉쳐 전열을 정비하고 반격을 준비하는 모습
+    * 초점: 역경 속의 반등(Resurgence)과 집단적 규합(Unification)
+    > But thinking about how rare an opportunity it is to be in Barcelona, I rallied myself and headed downtown.

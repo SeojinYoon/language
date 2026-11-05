@@ -738,11 +738,11 @@
         > I almost sprained my ankle because the floor in the bathhouse was slippery with soapy water
 
 - 주인
-    - owner: 주인
+    - owner: 소유자, 주인, 소유주
         * 코어 이미지: 등기부등본이나 영수증에 이름이 적힌 합법적인 자산 소유자
         * 초점: 물건, 부동산, 회사 등에 대한 법적·경제적 소유권을 지닌 주체
         > The owner of this building lives in Geneva
-    - master: 주인
+    - master: (하인·노예·동물을 통솔하고 복종을 받는) 우두머리, 주군, 주인
         * 코어 이미지: 기술을 극의 경지까지 통달하여 자유자재로 지휘하는 장인
         * 초점: 특정 분야의 기술에 통달했거나 완벽한 지배·통제력을 지닌 사람
         > He is a master of reinforcement learning
@@ -4753,7 +4753,14 @@
         > Watching Spike step off the ship, fully prepared to face death just to bring closure to his story, I came to realize that true parting is not evasion, but confrontation.
 
 - 정면, 대면
-    - 
+    - be faced with: (문제·위기·선택의 기로에) 직면하다, 맞닥뜨리다
+        * 코어 이미지: 안갯속 길을 걸어가다가 불현듯 눈앞을 가로막고 우뚝 솟아 있는 거대한 절벽이나 바윗덩어리를 발견하고 그 앞에 멈춰 서서 가만히 올려다보는 모습
+        * 초점: 불가피한 직면 상태
+        > She was suddenly faced with the difficult choice between an academic fellowship and an industry position
+    - confront: (능동적 대결) (난관·위험·진실에) 당당히 맞서다, 정면 대응하다; (상황이 주어일 때) (문제나 현실이 사람을) 가로막고 위협하다
+        * 코어 이미지: 복도에서 마주친 상대방이나 방 안의 코끼리를 향해 턱을 치켜들고 한 걸음 성큼 다가가 눈을 똑바로 응시하며(Forehead to Forehead) '이제 이 문제를 결판내자'고 팔짱을 끼는 모습
+        * 초점: 능동적 결단(Active agency / Direct engagement)과 대립(Confrontation).
+        > It requires tremendous emotional courage to confront one's own deeply rooted insecurities rather than projecting them outward
     - confrontation: (대립하는 당사자 간의) 정면 대치, 대결, 충돌; (불편한 진실·문제·상대방과의) 대면, 담판, 정면 대응
         * 코어 이미지: 두 사람이 물러서지 않고 서로의 이마와 시선을 바짝 맞대며, 숨길 것 없이 정면으로 마주 서 있는 모습
         * 초점: 직접적인 대면(Direct facing)과 불가피한 긴장감(Tension)
@@ -4928,4 +4935,20 @@
         * 코어 이미지: 단단하게 닫혀 있던 상자의 뚜껑을 열었을 때, 상상하지도 못했던 내용물이 들어 있어 눈을 크게 뜨고 '어머나!' 하고 탄성을 내뱉는 모습
         * 초점: 예측의 빗나감(Unmet expectation)과 폭넓은 감정 스펙트럼
         > Her colleagues organized a quiet farewell dinner to surprise her on her last day
-        
+
+- 슬픔      
+    - grief: (깊은 상실·사별·이별로 인한) 비통함, 큰 슬픔, 비탄
+        * 코어 이미지: 오랜 세월 의지해 온 삶의 기둥이 하루아침에 송두리째 뽑혀 나가, 그 빈자리에 끝을 알 수 없는 거대한 암흑의 싱크홀이 뚫려 그 무게에 짓눌려 숨조차 쉬기 힘든 모습
+        * 초점: 상실(Loss)에서 비롯된 비가역적인 무게와 애도(Mourning)
+        > My heart aches with deep grief, wondering if a connection like that could ever happen again
+
+- 무너지다
+    - fall apart: (관계/조직/체계) (관계나 계획 등이) 파탄 나다, 결속력을 잃고 깨지다, 무너지다; (정신/심리) (멘탈이) 무너지다, 자제력을 잃고 붕괴하다; (물리적) 산산이 부서지다, 와르르 해체되다
+        * 코어 이미지: 여러 개의 부품이나 나무판을 겨우 이어 붙여 세워둔 구조물에서 중심 축 하나가 빠지자, 지탱하던 힘을 잃고 각 부품들이 사방으로 흩어지며 와르르 주저앉는 모습
+        * 초점: 내부 결속력의 상실(Loss of cohesion)과 점진적/돌발적 해체
+        > I keep blaming myself that the relationship fell apart because I failed to care for her properly
+- 아픔
+    - arche with: (~로 인해) 욱신거리다, 아려오다, 저리도록 아프다; (비유적) (슬픔·외로움·그리움 등의 감정으로) 가슴이 미어지다, 저려오다   
+        * 코어 이미지: 겉으로 상처가 찢어져 피가 튀는 것이 아니라, 뼈마디나 심장 속 깊은 곳에서 묵직하고 둔탁한 통증이 '지끈- 지끈-' 하며 끝없이 박동하듯 뼈와 살을 울리는 모습
+        * 초점: 만성적이고 둔탁한 깊은 통증(Dull, continuous pain)의 체감화
+        > My heart aches with deep grief, wondering if a connection like that could ever happen again
