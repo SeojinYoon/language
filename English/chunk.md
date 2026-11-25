@@ -17,4 +17,3 @@
     > Why did you get into yoga?
 - it should have: 마땅이 그랬어야 할 수준으로
     > I think the movie did better than it should have but not as good as the producers had hoped
-

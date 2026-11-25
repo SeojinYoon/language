@@ -147,14 +147,11 @@ I put a big bike basket on my bicycle and use it to put my bag in when I commute
 - describing: ~를 묘사하는 것을 의미
     > The graph shows a curve describing the relationship between the damping coefficient and the system's stability    
 
-# 현상을 설명하는 where
-
-이러한 현상이 일어나는 상황은 바로 뒤에 나오는 내용과 같다라는 의미를 전달하기 위해 씀
-- Resonance is a phenomena where a system amplifies an external signal by absorbing energy efficiently when the external frequency matches its natural frequency
-
 # As
 
 to의 코어 이미지가 화살표 였다면, as의 코어 이미지는 바로 등호(=)와 나란히 겹쳐지는 투명 필름이다. 문법책을 보면 as가 접속사, 전치사, 부사 등으로 나뉘며 ~할 때(시간), ~하기 때문에(이유), ~처럼/듯이(양태), ~함에 따라(비례), ~로서(자격)등 수많은 뜻으로 설명된다. 하지만 원어민의 뇌 속에서 as는 언제나 A와 B가 완벽하게 포개어지거나 같은 레벨로 나란히 달리는 이미지 하나로 작동한다.
+
+**As가 동시동작으로 사용될 때에는 병렬처리의 느낌이 있으며, 원인으로 사용될 때에는 equality의 느낌이 있음**
 
 - 자격: ~로서
     > He wors as a researcher
@@ -763,12 +760,166 @@ be used to는 뒤에 오는 품사에 따라 ~에 익수하다 또는 ~하는 �
 - As: 동역학적 동시 진행 (Parallel Track / Split Screen)
     * as가 만드는 배경은 정적인 무대가 아니라, "시간 축 위에서 나란히 굴러가고 있는 또 다른 사건
     > As the snow began to fall, he stepped outside
+    > **As a crow flies into the sky, the apple hanging from the tree falls to the ground.**
 
-# , having
+# Having p.p
 
-I chose Milan because I had explored parts of France and Switzerland
--> I chose Milan because, having explored parts of France and Switzerland
-    - 접속사 because는 이유를 분명히 밝히기 위해 그대로 살려둠
-    - 반복되는 주어 I를 탈락시킴
-    - 과거완료 동사 had explored를 분사형인 having explored로 전환
-    - 쉼표(comma)를 둘러 삽입구(Parenthetical clause) 형태로 배치
+**앞선 경험과 뒤의 경험을 연결짓는 방식**
+
+일반적인 문장은 머릿속에 카메라를 켜고 장면을 하나하나 그려낸다. 반면, Having + p.p.는 장면을 세세하게 그리는 것이 아니라, 이미 저장된 기억이나 경험의 블록에 포인터를 하나 툭 찍어두는 방식(Reference)이다.    
+
+> Having spent months in solitude, I learned to appreciate quiet mornings
+> Having missed that detail completely, I was hit with a hefty €40 penalty right at the platform.
+> **Having experienced failure before, I endured the torment**
+> **Having weathered repeated failures, I was able to bear the torment**
+
+- 변화  
+    I chose Milan because I had explored parts of France and Switzerland
+    -> I chose Milan because, having explored parts of France and Switzerland
+        - 접속사 because는 이유를 분명히 밝히기 위해 그대로 살려둠
+        - 반복되는 주어 I를 탈락시킴
+        - 과거완료 동사 had explored를 분사형인 having explored로 전환
+        - 쉼표(comma)를 둘러 삽입구(Parenthetical clause) 형태로 배치
+
+# 과거 분사로 시작하는 문장
+
+Battered by the towering waves of the Atlantic, he kept heading toward Cape Town
+
+# 그럼에도 불구하고
+
+- Nevertheless / Nonetheless: 앞선 사실이 뒤의 결론을 깎아내리지 못하게 논리적으로 차단함 ("A는 사실이지만, 그것과 무관하게 B다")
+- Even so: 앞선 사실을 두 손으로 온전히 인정하고 나서 그 무게를 안고 다음 판단을 내림 ("네 말대로 A가 맞다. 설령 그렇다 하더라도 B해야 한다")
+- Still: 앞선 사실을 겪으면서도 화자의 마음이나 시선이 움직이지 않고 원래 자리에 머물러 있음 ("A란느 걸 알면서도, 그래도 나는 여전히 B라고 느낀다")
+
+# 부사로 쓰이는 명사구
+
+- 전치사 + 명사구 (전치사 래퍼 방식)
+
+    전치사 + 명사구의 형태는 상황을 보여주면서도 그 상황에서 내가 느낀 바 혹은 생각하는 바가 뭔지를 표현하는데 좋은것 같다.
+    
+    - Rather than
+        > Rather than the exciting stories waiting for me, I keep thinking about the tasks I avoided.
+    - Instead of
+        > Instead of the comfortable stability I used to cling to, I chose to step into the unpredictable friction of the real world
+    - despite
+        > Despite the tight budget and exhausting walk, I felt strangely alive.
+    - In spite of
+        > In spite of the lingering resentment I felt at the airport, I had to admit that his blunt remark hit the mark.
+        > In spite of the uncertainty waiting for me back in Korea, I know I am returning with a much stronger sense of self.
+    - Due to
+        > Due to the inefficient self-service layout, the café was completely packed.
+    - Because of
+        > Because of my habit of relying on unspoken expecations, I often felt hurt when others failed to read my mind.
+        > Because of the heavy 23-kilogram suitcase dragging behind me, weaving through the crowded cafe felt like an obstacle course.
+    - Through
+        > Through countless moments of getting lost and recalculating my route, I discovered a resilience I never knew I had.
+        > Through this eight-month chapter in Switzerland and my final solo trip, my wandering thoughts finally found their own language.
+    - With
+        > With a heavy suitcase in one hand, I tried to squeeze through the crowd.
+- 전치사 없는 순수 명사구 (관용적 부사 명사구)
+
+    일부 명사구(주로 시간, 거리, 방향, 빈도, 방식)는 전치사 없이 명사구 그 자체로 부사 자격을 얻어 문장을 수식합니다.
+    
+    - 시간을 나타내는 명사구
+        - this morning
+        - last Friday
+            > I transferred 200 euros last Friday
+        - the day after tomorrow
+        - every single day
+        - the moment
+            > The moment I stepped out of the station, cold wind hit my face
+    - 거리·방향·정도를 나타내는 명사구
+        - all the way
+            > I walked all the way to LX Factory to save fare
+        - step by step
+        - a bit
+    - 방식을 나타내는 명사구
+        - the way
+- 독립분사구문 (명사구 + 분사)
+
+    전치사 With마저 생략하고 [명사구 + -ing / p.p.] 형태만 문장 앞뒤에 던져 부대상황(동시 동작이나 배경)을 묘사하는 고급 문어체 패턴.
+
+    > My bank balance hovering around twenty euros, I decided to walk instead of taking the tram
+
+# Where
+
+## 쉼표의 유무
+
+- where 앞에 쉼표가 사용되면 시간 순서와 그 사건의 이어짐이 표현됨: 그리고 그곳에서
+    > I went to Sincho, where I bought a pair of gym shoes
+    > After that, I dropped by Olive young to buy some basic skincare products, where a saleswoman recommended a few items after seeing me 
+    > I visited the Jeronimos Monastery, where I admired the intricate stonework.
+- where 앞에 쉼표가 없으면 장소의 범위를 좁히는 수식이 됨
+    > I want to find a quiet cafe where I can write my essay.
+
+## 현상을 설명하는 where
+
+이러한 현상이 일어나는 상황은 바로 뒤에 나오는 내용과 같다라는 의미를 전달하기 위해 씀
+> Resonance is a phenomena where a system amplifies an external signal by absorbing energy efficiently when the external frequency matches its natural frequency
+
+# Which
+
+## , which
+
+- 앞에 있는 문장 전체를 통으로 주어로 받음 (, which + 동사)
+    > She told me that dyeing my hair might make more of it fall out, which made me worried
+- 앞에 있는 문장 전체를 통으로 목적어로 받음 (, which + 주어 + 동사)
+    > She suggested waiting a few months, which I appreciated
+
+# Comma splice
+
+문법적으로 완전한 두 개의 독립절(Independent clauses)을 접속사나 적절한 구두점 없이 쉼표(,) 하나만으로 잘못 이어 붙인 문장 오류를 뜼함
+
+영어 문장에서 쉼표는 잠시 숨을 고르는 약한 휴지 일뿐, 두 개의 완전한 문장을 지탱할 접착력이 없기 때문에 문법 오류로 취급됨.
+> She told me dyeing might cause hair loss, it made me worried. (X)
+
+해결 방법
+1. 관계대명사 , which 사용
+    > She told me dyeing might cause hair loss, which made me worried.
+2. 마침표로 두 문장 분리
+    > She told me dyeing might cause hair loss. It made me worried.
+3. 쉼표 + 등위접속사(and, so, but 등)
+    > She told me dyeing might cause hair loss, so it made me worried.
+4. 세미콜론 사용
+    > She told me dyeing might cause hair loss; it made me worried.
+
+# Early
+
+a bit early vs a bit earlier
+
+둘 다 우리말로 좀 일찍으로 옮길 수 있지만, 시간을 재는 기준점이 어디에 찍혀 있느냐에 따라 문법과 뉘앙스가 완전히 갈림
+
+- A bit early: 정해진 공식 시각·기대치·적정 시점 (약속 시간, 계절, 일반적인 수면 시간 등)
+    > 약속 시간이나 출발 시각보다 일찍 도착한 일상 맥락
+        > I arrived at the café a bit early, so I ordered a warm drink and sat by the window to read
+    > 아직 결론을 내리거나 행동하기에 시기상조라는 성찰적 맥락
+        > It feels a bit early to decide what the next chapter looks like while the dust from the trip hasn't even settled
+- a bit earlier: 과거의 어떤 시점(방금 전, 오늘 아침 등) 또는 원래 예정보다 앞당겨진 비교 대상
+    > 아까, 조금 전에'를 뜻하는 과거 시제 맥락
+        > I stepped outside a bit earlier to grab some fresh air, and the evening breeze felt surprisingly crisp
+    > 원래 예정된 시간보다 더 앞당긴다는 비교 맥락
+        > If we leave a bit earlier tomorrow morning, we can avoid the rush around Hongdae station
+
+# 전치사 + 관계대명사
+
+전치사 + 관계대명사는 꾸밈을 받는 명사의 역할을 전치사를 통해 한정해낼 수 있다는 효용이 있으며, 그 선행사가 다른 주어에 의해 꾸밈을 받게끔 하고 싶을 때 사용한다.
+
+**Example**
+
+승기, 다른 사람들이 너로부터 내 개인정보를 산 거였냐?
+> Seunggi, was it you from whom others bought my private data?
+
+기본 적분 공식을 적용가능한 형태
+> a form to which basic integration formulas apply
+
+- in which: ~하는 (상황·경우·공간)
+    > a framework in which variables interact
+- by which: ~하는 (수단·방법·기제)
+    > the process by which signals are encoded
+- to which: ~하는 (대상·정도·범위)
+    > the extent to which the model fits the data
+- from which: ~로부터 (출처·도출·추론)
+    > the equation from which the result follows
+- under which: ~하에서 (조건·가정·환경)
+    > conditions under which the theorem holds
+

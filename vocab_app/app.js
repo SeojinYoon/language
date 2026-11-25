@@ -2082,9 +2082,9 @@
     if (!state.diaryEntries || state.diaryEntries.length === 0) return;
 
     if (state.diaryTypeFilter === 'all') {
-      state.filteredDiaryEntries = [...state.diaryEntries];
+      state.filteredDiaryEntries = shuffleArray(state.diaryEntries);
     } else {
-      state.filteredDiaryEntries = state.diaryEntries.filter(e => e.type === state.diaryTypeFilter);
+      state.filteredDiaryEntries = shuffleArray(state.diaryEntries.filter(e => e.type === state.diaryTypeFilter));
     }
 
     const select = document.getElementById('diary-select');
